@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# temp/log
+tmp/
+logs/
+
+# Big raw downloads: exclude by default
+raw/
+
+# But keep the year-audit evidence folder (exception)
+!raw/
+!raw/editions_year_audit/
+!raw/editions_year_audit/*.json
+
