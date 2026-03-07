@@ -16,3 +16,4 @@ nohup.out
 # 認証情報
 token.sh
 tmp/
+raw/ol_dump/
