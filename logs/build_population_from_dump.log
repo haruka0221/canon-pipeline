@@ -1,0 +1,59 @@
+nohup: ignoring input
+Started: 2026-03-07 20:51:31.446727
+=== Pass 1: collect excluded work_keys ===
+  Pass 1: 2,000,000 records, 9,334 excluded so far
+  Pass 1: 4,000,000 records, 18,513 excluded so far
+  Pass 1: 6,000,000 records, 27,479 excluded so far
+  Pass 1: 8,000,000 records, 36,827 excluded so far
+  Pass 1: 10,000,000 records, 45,932 excluded so far
+  Pass 1: 12,000,000 records, 55,303 excluded so far
+  Pass 1: 14,000,000 records, 64,443 excluded so far
+  Pass 1: 16,000,000 records, 73,706 excluded so far
+  Pass 1: 18,000,000 records, 82,818 excluded so far
+  Pass 1: 20,000,000 records, 92,042 excluded so far
+  Pass 1: 22,000,000 records, 101,168 excluded so far
+  Pass 1: 24,000,000 records, 110,237 excluded so far
+  Pass 1: 26,000,000 records, 119,600 excluded so far
+  Pass 1: 28,000,000 records, 128,694 excluded so far
+  Pass 1: 30,000,000 records, 137,971 excluded so far
+  Pass 1: 32,000,000 records, 147,240 excluded so far
+  Pass 1: 34,000,000 records, 156,381 excluded so far
+  Pass 1: 36,000,000 records, 165,741 excluded so far
+  Pass 1: 38,000,000 records, 174,856 excluded so far
+  Pass 1: 40,000,000 records, 184,210 excluded so far
+Pass 1 done: 40,718,247 works, 187,425 excluded
+=== Pass 2: editions → year + language filter ===
+  Pass 2: 2,000,000 editions, 1,908,308 matched, 1,040,069 eng works so far
+  Pass 2: 4,000,000 editions, 3,821,096 matched, 2,029,987 eng works so far
+  Pass 2: 6,000,000 editions, 5,735,678 matched, 2,990,938 eng works so far
+  Pass 2: 8,000,000 editions, 7,650,533 matched, 3,917,207 eng works so far
+  Pass 2: 10,000,000 editions, 9,562,581 matched, 4,818,714 eng works so far
+  Pass 2: 12,000,000 editions, 11,471,269 matched, 5,692,898 eng works so far
+  Pass 2: 14,000,000 editions, 13,385,178 matched, 6,542,830 eng works so far
+  Pass 2: 16,000,000 editions, 15,299,798 matched, 7,379,442 eng works so far
+  Pass 2: 18,000,000 editions, 17,214,432 matched, 8,199,015 eng works so far
+  Pass 2: 20,000,000 editions, 19,124,939 matched, 8,999,854 eng works so far
+  Pass 2: 22,000,000 editions, 21,035,257 matched, 9,785,794 eng works so far
+  Pass 2: 24,000,000 editions, 22,950,155 matched, 10,556,161 eng works so far
+  Pass 2: 26,000,000 editions, 24,864,795 matched, 11,312,696 eng works so far
+  Pass 2: 28,000,000 editions, 26,779,613 matched, 12,060,556 eng works so far
+  Pass 2: 30,000,000 editions, 28,689,772 matched, 12,792,917 eng works so far
+  Pass 2: 32,000,000 editions, 30,600,556 matched, 13,514,279 eng works so far
+  Pass 2: 34,000,000 editions, 32,515,231 matched, 14,224,378 eng works so far
+  Pass 2: 36,000,000 editions, 34,430,052 matched, 14,923,939 eng works so far
+  Pass 2: 38,000,000 editions, 36,344,746 matched, 15,617,909 eng works so far
+  Pass 2: 40,000,000 editions, 38,254,104 matched, 16,299,608 eng works so far
+  Pass 2: 42,000,000 editions, 40,165,377 matched, 16,969,471 eng works so far
+  Pass 2: 44,000,000 editions, 42,079,614 matched, 17,633,959 eng works so far
+  Pass 2: 46,000,000 editions, 43,994,856 matched, 18,290,175 eng works so far
+  Pass 2: 48,000,000 editions, 45,909,573 matched, 18,942,039 eng works so far
+  Pass 2: 50,000,000 editions, 47,819,053 matched, 19,583,229 eng works so far
+  Pass 2: 52,000,000 editions, 49,731,689 matched, 20,215,502 eng works so far
+  Pass 2: 54,000,000 editions, 51,645,983 matched, 20,842,316 eng works so far
+Pass 2 done: 55,615,769 editions, 2,044,967 works pass year+lang filter
+=== Pass 3: output final population ===
+Pass 3 done: 2,044,920 works written to derived/ol_dump_population_2026-02-28.tsv
+Finished: 2026-03-07 21:21:13.689905
+Final population: 2,044,920 works → derived/ol_dump_population_2026-02-28.tsv
+5
+Final population: 2,044,920 works → derived/ol_dump_population_2026-02-28.tsv

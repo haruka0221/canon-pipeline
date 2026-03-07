@@ -17,3 +17,4 @@ nohup.out
 token.sh
 tmp/
 raw/ol_dump/
+derived/ol_dump_population_*.tsv
