@@ -1,22 +1,17 @@
-# OS / editor
-.DS_Store
-*.swp
-*.swo
-.vscode/
+# 大容量データファイル（手動配置が必要）
+data/
 
-# Python
+# editions JSON キャッシュ（再取得可能・大容量）
+raw/editions_oclc/
+raw/editions_year_audit/
+
+# Python 環境
+.venv/
 __pycache__/
 *.pyc
 
-# temp/log
-tmp/
-logs/
+# nohup ログ
+nohup.out
 
-# Big raw downloads: exclude by default
-raw/
-
-# But keep the year-audit evidence folder (exception)
-!raw/
-!raw/editions_year_audit/
-!raw/editions_year_audit/*.json
-
+# 認証情報
+token.sh

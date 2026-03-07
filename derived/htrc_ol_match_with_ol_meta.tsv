@@ -1,0 +1,996 @@
+work_id	htid_count	oclc_variants	title_htrc	date_htrc	prob80_max	englishpct_max	htids	title	first_publish_year	author_names	edition_count	decade
+OL100195W	1	1	Free and other stories	1918	0.84	1.0	uc2.ark+=13960=fk6542jp2m	Free And Other Stories By Theodore Dreiser	1918	Theodore Dreiser	28	1910
+OL101106W	1	1	Virginia of Virginia	1888	0.81	1.0	uc1.b3326448	Virginia of Virginia	1888	Amélie Rives Troubetzkoy	17	1880
+OL103386W	2	1	In the sixties	1897	0.89	1.0	mdp.39015007023677|uc1.b3322083	In the sixties	1897	Harold Frederic	16	1890
+OL103393W	2	1	The market-place	1899	0.9	1.0	mdp.39015063551611|nyp.33433076090905	The market-place	1899	Harold Frederic	18	1890
+OL10444804W	2	1	The two friends, and other stories	1921	0.9	1.0	uc1.b3962318|uc2.ark+=13960=t2j67kx9h	A desperate character	1899	Ivan Sergeevich Turgenev	20	1890
+OL10449613W	6	5	The blue bird	1911	0.86	1.0	uc1.b4099144|uc2.ark+=13960=t3fx7fp1f|mdp.39015029494583|nyp.33433075811350|mdp.39015010764317|mdp.49015000779273	The blue bird	1909	Maurice Maeterlinck	51	1900
+OL1061662W	2	2	The great hunger	1919	0.83	1.0	mdp.39015030017837|uc2.ark+=13960=t9t14xz7p	The great hunger	1919	Bojer, Johan	15	1910
+OL106172W	1	1	The Jimmyjohn boss, and other stories	1900	0.89	1.0	mdp.39015063975901	The Jimmyjohn Boss and Other Stories	1900	Owen Wister	16	1900
+OL106173W	3	1	Lady Baltimore	1906	0.84	1.0	mdp.39015036778382|uc1.b3569321|uc2.ark+=13960=t9f47jb2d	Lady Baltimore	1906	Owen Wister	18	1900
+OL1064287W	1	1	The hollow needle	1910	0.86	1.0	nyp.33433075799928	L' aiguille creuse	1909	Maurice Leblanc	53	1900
+OL1065952W	3	3	Cashel Byron's profession	1899	0.84	1.0	uc2.ark+=13960=t04x5755s|uc2.ark+=13960=t9m32rt8c|mdp.39015031311619	Cashel Byron's Profession	1886	George Bernard Shaw	53	1880
+OL1066071W	2	1	The irrational knot	1918	0.82	1.0	nyp.33433075747000|uc2.ark+=13960=t06w98z59	The Irrational Knot	1905	George Bernard Shaw	39	1900
+OL1066935W	3	1	The reign of law	1900	0.89	1.0	mdp.39015014459955|uc2.ark+=13960=t7gq6sf0x|wu.89072357940	Reign Of Law	1900	James Allen|James Lane Allen	27	1900
+OL1069636W	2	2	A young girl's diary	1921	0.81	1.0	mdp.39015010677816|uc2.ark+=13960=t9h41r976	Tagebuch eines halbwüchsigen Mädchens	1919	Hermine Hug-Hellmuth	41	1910
+OL108456W	2	1	Scaramouche;	1921	0.87	1.0	uc1.b4090081|uc2.ark+=13960=t6n012w63	Scaramouche	1921	Rafael Sabatini	38	1920
+OL1084997W	4	3	A happy boy	1909	0.89	1.0	uc1.b4740529|uc2.ark+=13960=t73t9h397|umn.31951d01315984z|uc2.ark+=13960=t8v981c83	A Happy Boy	1882	Bjørnstjerne Bjørnson	21	1880
+OL108764W	1	1	The tale of Johnny Town-mouse	1918	0.54	0.975	mdp.39015089581832	The tale of Johnny Town-Mouse	1900	Beatrix Potter|Wendy Rasmussen	35	1900
+OL108852W	1	1	Stories of Robin Hood & his merry outlaws	1904	0.87	1.0	uc2.ark+=13960=t77s7n59x	Robin Hood	1904	J. Walker McSpadden	20	1900
+OL1088821W	1	1	A monk of Fife	1896	0.9	1.0	mdp.39015048883907	A Monk of Fife	1895	Andrew Lang	91	1890
+OL1088954W	3	1	In the wrong paradise	1886	0.9	1.0	mdp.39015048883873|mdp.39015048883881|uc2.ark+=13960=t9j38r93w	In the Wrong Paradise	1886	Andrew Lang	52	1880
+OL1090085W	1	1	Thirty more famous stories retold	1905	0.78	0.999	uva.x001271265	Thirty more famous stories retold	1905	James Baldwin	17	1900
+OL109135W	4	1	Denry the audacious	1911	0.89	1.0	mdp.39015031225611|nyp.33433074928965|uc1.b3875169|uc2.ark+=13960=t8cf9q761	The Card, A Story Of Adventure In The Five Towns	1910	Arnold Bennett	98	1910
+OL109153W	1	1	The Grand Babylon Hotel	1902	0.89	1.0	mdp.49015000914888	The Grand Babylon Hotel	1902	Arnold Bennett	75	1900
+OL109201W	3	1	The lion's share	1916	0.9	1.0	mdp.39015031225207|nyp.33433074926472|uc2.ark+=13960=t9959jk0f	The Lion's Share	1916	Arnold Bennett	17	1910
+OL109210W	3	1	These twain	1915	0.9	1.0	mdp.39015004743947|nyp.33433074926589|uc2.ark+=13960=t27941d98	These twain	1914	Arnold Bennett	48	1910
+OL109221W	3	2	The matador of the Five Towns, and other stories	1912	0.89	1.0	uc2.ark+=13960=t6057wc8c|nyp.33433074926498|uc2.ark+=13960=t7dr2sh01	The Matador of the Five Towns and Other Stories	1912	Arnold Bennett	57	1910
+OL109223W	5	1	Mr. Prohack	1922	0.89	1.0	mdp.39015025130165|mdp.39015031227633|nyp.33433074926506|uc1.b3811078|uc2.ark+=13960=t71v5cb31	Mr. Prohack	1922	Arnold Bennett	30	1920
+OL109226W	3	1	Tales of the five towns	1905	0.86	1.0	inu.32000001172271|mdp.49015000916339|njp.32101007865775	Tales of the Five Towns	1905	Arnold Bennett	36	1900
+OL109230W	2	1	Hilda Lessways	1911	0.9	1.0	mdp.39015004743954|nyp.33433074926423	Hilda Lessways	1900	Arnold Bennett	85	1900
+OL109232W	5	3	The old Adam;	1913	0.89	1.0	mdp.39015031225140|nyp.33433074926514|uc2.ark+=13960=t48p5xj8c|uc2.ark+=13960=t88g8mj8t|mdp.39015008816954	The Regent	1913	Arnold Bennett	60	1910
+OL109233W	1	1	Anna of the five towns	1902	0.87	1.0	nyp.33433074928882	Anna of the Five Towns	1902	Arnold Bennett	146	1900
+OL109236W	2	1	The old wives' tale	1909	0.84	0.999	coo.31924013586932|coo.31924065004404	The old wives' tale	1900	Arnold Bennett	170	1900
+OL1096566W	4	3	The valley of shadows	1913	0.72	0.999	uc2.ark+=13960=fk83j39n2w|uva.x000609795|uc1.31158004914536|uiuo.ark+=13960=t00001h5b	The valley of shadows	1909	Francis Grierson	16	1900
+OL1098394W	4	1	The three Mulla-mulgars	1919	0.82	1.0	mdp.39015065534730|nyp.33433082531447|uc1.b4087604|uc2.ark+=13960=t35145g5s	The three royal monkeys, or the three mulla-mulgars	1910	Walter De la Mare	42	1910
+OL1098497W	3	2	The return	1910	0.89	1.0	uc2.ark+=13960=t45q4v61q|mdp.39015011331801|uc2.ark+=13960=t5db7zs8r	The return	1910	Walter De la Mare	43	1910
+OL1098501W	4	2	Memoirs of a midget	1921	0.89	1.0	mdp.39015048709714|mdp.39015010296823|nyp.33433074963772|uc2.ark+=13960=t3cz3776r	Memoirs of a midget	1921	Walter De la Mare	42	1920
+OL109872W	4	2	The duke's children	1903	0.89	1.0	uc1.b4715032|uc1.b4715034|uva.x000470377|uva.x000470381	The Duke's Children	1880	Anthony Trollope	51	1880
+OL1099980W	1	1	An Antarctic mystery	1899	0.56	1.0	mdp.39015046862747	An Antarctic Mystery	1899	Jules Verne	10	1890
+OL1103743W	2	2	Martin Hyde	1910	0.89	1.0	uc2.ark+=13960=t7tm74b43|uc2.ark+=13960=t0gt5hs8p	Martin Hyde	1910	John Masefield	36	1910
+OL1103793W	3	1	Jim Davis	1912	0.89	1.0	mdp.39015011905224|nyp.33433074893466|uc2.ark+=13960=t1qf8mz1k	Jim Davis	1900	John Masefield	32	1900
+OL1104079W	2	1	Quinneys'	1914	0.83	1.0	uc1.b3326059|uc2.ark+=13960=t4kk9d07s	Quinneys'	1900	Horace Annesley Vachell	16	1900
+OL1105155W	1	1	Carmen	1896	0.87	0.997	mdp.39015008145461	Carmen	1883	Prosper Mérimée	22	1880
+OL1109044W	7	2	"The ""Breakfast-table"" series"	1891	0.89	1.0	uc1.b3293434|uc1.b3293435|uva.x001850702|mdp.39015024470943|mdp.39015030745312|mdp.39015063931441|uc1.b156079	Over the teacups	1890	Oliver Wendell Holmes, Sr.	26	1890
+OL1112728W	2	2	Clara Hopgood	1896	0.89	1.0	njp.32101065599001|uc2.ark+=13960=t4xg9tm3z	Clara Hopgood	1896	William Hale White	43	1890
+OL1113796W	6	3	Hugh Wynne, free Quaker	1897	0.9	1.0	uva.x004529780|mdp.39015030709680|uc1.32106015697896|uc1.32106019583837|uc1.b3327353|uc1.b3327354	Hugh Wynne, free Quaker	1896	S. Weir Mitchell	18	1890
+OL1118216W	1	1	Under the yoke;	1912	0.88	1.0	uc2.ark+=13960=t4pk0d46m	Под игото	1912	Иван Минчов Вазов	17	1910
+OL112788W	2	2	The colonel's dream	1905	0.89	1.0	mdp.39015066920219|nc01.ark+=13960=t50g4wj3w	The Colonel's Dream	1905	Charles Waddell Chesnutt	50	1900
+OL1127988W	3	2	In the Carquinez woods	1912	0.89	1.0	uc2.ark+=13960=t3610wt9p|nyp.33433076071475|uc1.b251155	In the Carquinez woods	1883	Bret Harte	17	1880
+OL1128005W	1	1	Openings in the old trail	1902	0.88	0.998	uc2.ark+=13960=t03x84h2d	Openings in the Old Trail	1902	Bret Harte	17	1900
+OL1128009W	2	2	The crusade of the Excelsior	1887	0.83	1.0	uc2.ark+=13960=t0000076t|uc2.ark+=13960=t2c825194	The Crusade of the Excelsior	1887	Bret Harte	20	1880
+OL1128010W	2	2	A Phyllis of the Sierras ; and, A drift from Redwood camp	1888	0.89	1.0	mdp.39015030141470|uc2.ark+=13960=t6833nv7j	A Phyllis of the Sierras	1887	Bret Harte	17	1880
+OL1128013W	1	1	Maruja	1885	0.89	1.0	uc2.ark+=13960=t1ng4h41s	Maruja	1885	Bret Harte	21	1880
+OL1128014W	2	1	On the frontier	1884	0.89	1.0	uc2.ark+=13960=t6tx35v32|uva.x000990761	On the Frontier	1884	Bret Harte	20	1880
+OL1128015W	5	2	A waif of the plains	1890	0.82	1.0	njp.32101068599081|uc2.ark+=13960=t75t3h434|mdp.39015024521489|nyp.33433076076722|uc2.ark+=13960=t84j0bs5m	A waif of the plains	1890	Bret Harte	20	1890
+OL1128017W	3	1	Clarence	1895	0.9	1.0	nc01.ark+=13960=t39z9z57p|nyp.33433076088198|uc1.b251180	Clarence	1895	Bret Harte	23	1890
+OL1128020W	2	2	By shore and sedge	1885	0.89	1.0	uc2.ark+=13960=t8pc2v34c|uc2.ark+=13960=t72v2dd7f	By Shore and Sedge	1885	Bret Harte	24	1880
+OL1128022W	5	3	Three partners;	1897	0.9	1.0	uc2.ark+=13960=t49p2wp02|mdp.39015063921079|nyp.33433076076359|uc2.ark+=13960=t1qf8jr7z|uc1.b3322626	The Three Partners	1897	Bret Harte	23	1890
+OL1128024W	3	2	Cressy	1889	0.9	1.0	uc1.b251181|mdp.49015002241561|uc2.ark+=13960=t79s1mp7m	Cressy	1889	Bret Harte	29	1880
+OL1130391W	5	2	Blazed trail stories	1919	0.89	1.0	mdp.39015063974276|uc2.ark+=13960=t04x57023|mdp.39015050981805|nyp.33433076046337|nyp.33433076046360	Blazed Trail Stories and Stories of the Wild Life	1904	Stewart Edward White	15	1900
+OL1130392W	2	2	Gold	1913	0.84	1.0	uc2.ark+=13960=t4pk0c14w|nyp.33433076062045	Gold	1900	Stewart Edward White	16	1900
+OL1130393W	3	1	The mystery	1907	0.83	1.0	mdp.39015030857968|nyp.33433076061989|uc2.ark+=13960=t6542km83	The mystery	1907	Stewart Edward White|Samuel Hopkins Adams	22	1900
+OL1130401W	2	1	The gray dawn	1915	0.89	1.0	uc1.b4083049|uc2.ark+=13960=t6rx94p13	The Gray Dawn	1915	Stewart Edward White	19	1910
+OL1130402W	1	1	The leopard woman	1916	0.88	1.0	nyp.33433076062029	The Leopard Woman	1916	Stewart Edward White	18	1910
+OL1130406W	2	1	The sign at six	1912	0.89	0.999	mdp.39015063974680|nyp.33433076061930	The Sign at Six	1912	Stewart Edward White	19	1910
+OL1130411W	4	2	Arizona nights	1907	0.88	1.0	uc2.ark+=13960=t5bc3v518|mdp.39015063974284|nyp.33433076038797|uc1.b3727412	Arizona Nights	1907	Stewart Edward White|N. C. Wyeth	30	1900
+OL1130412W	3	3	The blazed trail	1902	0.89	1.0	uc1.b3727413|nyp.33433076046345|mdp.39015058344485	The blazed trail	1900	Stewart Edward White	28	1900
+OL1133478W	3	1	Bevis	1882	0.84	1.0	uiuo.ark+=13960=t0wq0gd7n|uiuo.ark+=13960=t7tm7qq42|uiuo.ark+=13960=t9h427g45	Bevis, the story of a boy	1882	Richard Jefferies	51	1880
+OL1139067W	1	1	The precipice	1916	0.89	1.0	uc2.ark+=13960=t9h41xr35	Obryv	1915	Ivan Aleksandrovich Goncharov	31	1910
+OL1145604W	1	1	Queer stories for boys and girls	1884	0.8	1.0	mdp.39015031228821	Queer stories for boys and girls	1884	Edward Eggleston	20	1880
+OL1145608W	1	1	The faith doctor;	1891	0.8	1.0	uc1.b4103981	The faith doctor	1891	Edward Eggleston	22	1890
+OL1145615W	6	3	The Graysons: a story of Illinois	1888	0.89	1.0	uc1.b4103979|uc2.ark+=13960=t7dr2pz4j|mdp.39015031228839|nc01.ark+=13960=t42r4fd3t|uc2.ark+=13960=t6ww77h8m|uiuo.ark+=13960=t7hq40657	The Graysons	1887	Edward Eggleston	24	1880
+OL1148248W	3	2	Love's cross-currents;	1905	0.87	1.0	uc2.ark+=13960=t9v11zr3n|mdp.39015057200985|uc2.ark+=13960=t2q52hb7d	Love's cross-currents	1905	Algernon Charles Swinburne	21	1900
+OL1149227W	3	2	The Duchess of Wrexe, her decline and death;	1914	0.9	1.0	mdp.39015063959657|uc2.ark+=13960=t9g44mj04|uva.x000896263	The Duchess of Wrexe, her decline and death	1914	Hugh Walpole	28	1910
+OL1149257W	5	2	The captives;	1920	0.9	1.0	uc2.ark+=13960=t9377c977|mdp.39015063959640|nyp.33433075755193|uc1.b3295276|uc2.ark+=13960=t9g44n18p	The captives	1920	Hugh Walpole	34	1920
+OL1149271W	3	3	The prelude to adventure	1912	0.89	1.0	mdp.39015018647829|uc2.ark+=13960=t7pn9180w|uc2.ark+=13960=t9474b398	The prelude to adventure	1900	Hugh Walpole	33	1900
+OL1149273W	3	2	The wooden horse	1914	0.89	1.0	uc2.ark+=13960=t92808c97|mdp.39015006567971|uc2.ark+=13960=t5t72dk7r	The wooden horse	1909	Hugh Walpole	20	1900
+OL1149276W	3	1	The dark forest	1916	0.84	0.997	mdp.39015004829753|nyp.33433082484381|uc2.ark+=13960=t4cn71z6c	The dark forest	1916	Hugh Walpole	52	1910
+OL114970W	3	1	Love's pilgrimage	1911	0.89	1.0	nyp.33433076039779|uc1.b4088972|uc2.ark+=13960=fk0ks6j264	Love's Pilgrimage (A Novel)	1911	Upton Sinclair	57	1910
+OL115004W	2	2	The journal of Arthur Stirling	1903	0.58	1.0	nyp.33433076039738|nnc1.cu58379797	"The Journal of Arthur Stirling (""The Valley of the Shadow"")"	1903	Upton Sinclair	33	1900
+OL115020W	1	1	They call me Carpenter;	1922	0.82	1.0	mdp.39015030711827	They Call Me Carpenter (A Tale of the Second Coming)	1922	Upton Sinclair	67	1920
+OL115046W	3	2	Damaged goods;	1913	0.87	1.0	nyp.33433076039746|uc2.ark+=13960=t0gt5fm93|mdp.39015010682808	Damaged goods	1912	Upton Sinclair|Eugène Brieux	49	1910
+OL115051W	1	1	A captain of industry	1906	0.87	1.0	nyp.33433076039753	A captain of industry	1906	Upton Sinclair	26	1900
+OL115055W	5	2	Prince Hagen	1903	0.82	1.0	njp.32101067176402|uc2.ark+=13960=t53f4mm8g|nyp.33433076039654|uc1.b4089008|uc2.ark+=13960=fk6vx06d43	Prince Hagen	1903	Upton Sinclair	39	1900
+OL115060W	2	1	Manassas;	1904	0.78	1.0	mdp.49015002542257|uc2.ark+=13960=t1cj87z9t	Manassas	1904	Upton Sinclair	24	1900
+OL115073W	4	1	Jimmie Higgins;	1919	0.74	1.0	mdp.39015073390992|mdp.49015002553726|pst.000028680673|uc2.ark+=13960=t3416tv4j	Jimmie Higgins	1918	Upton Sinclair	61	1910
+OL1164734W	4	1	Rootabaga stories	1922	0.79	1.0	mdp.39015002758475|mdp.39015018287048|nc01.ark+=13960=t3st8pq36|nyp.33433076043185	Rootabaga stories	1922	Carl Sandburg	13	1920
+OL1165870W	1	1	The magnetic north	1904	0.89	1.0	uc2.ark+=13960=fk4th8bt6h	The Magnetic North	1904	Elizabeth Robins	14	1900
+OL1176757W	2	1	Greene Ferne farm	1880	0.89	1.0	mdp.39015059422025|nyp.33433074867486	Green Ferne Farm	1880	Richard Jefferies	24	1880
+OL1176782W	2	1	Wood magic	1881	0.88	1.0	uc2.ark+=13960=t6g15v68x|uc2.ark+=13960=t7dr2q69h	Wood Magic	1881	Richard Jefferies	33	1880
+OL117873W	4	3	Robbery under arms	1912	0.89	1.0	njp.32101067631224|uc2.ark+=13960=t9t15092z|uc1.b3321414|uc2.ark+=13960=t3vt1r042	Robbery under arms	1888	Rolf Boldrewood	36	1880
+OL118959W	2	1	Paris	1898	0.83	1.0	mdp.39015014588159|mdp.39015053160845	Paris	1897	Émile Zola	15	1890
+OL118960W	3	1	Rome	1896	0.73	1.0	mdp.39015005713345|mdp.39015007013041|nyp.33433075837587	Rome	1896	Émile Zola	14	1890
+OL118967W	1	1	Truth	1912	0.74	1.0	uc2.ark+=13960=t2z31r99x	Vérité	1900	Émile Zola	16	1900
+OL118968W	2	1	The dream	1907	0.82	1.0	mdp.39015005766749|uiuo.ark+=13960=t8w95424j	The Dream	1888	Émile Zola	24	1880
+OL118978W	1	1	Lourdes	1897	0.9	1.0	nyp.33433075837728	Lourdes	1894	Émile Zola	40	1890
+OL118979W	1	1	Pot-Bouille	1882	0.81	1.0	njp.32101074875707	Pot-bouille	1882	Émile Zola	37	1880
+OL1202093W	1	1	A chain of evidence	1912	0.88	0.993	nyp.33433076076136	A chain of evidence	1912	Carolyn Wells	32	1910
+OL1202222W	1	1	Patty at home	1904	0.88	0.999	nyp.33433076073935	Patty at Home	1904	Carolyn Wells	47	1900
+OL121231W	1	1	The Burgess animal book for children	1920	0.71	0.997	nyp.33433082300793	The Burgess animal book for children	1920	Thornton W. Burgess	5	1920
+OL121233W	1	1	"Mother West Wind ""how"" stories"	1916	0.83	0.998	njp.32101074760446	"Mother West Wind ""how"" stories"	1916	Thornton W. Burgess|Harrison Cady|George Kerr	21	1910
+OL121239W	1	1	The adventures of Grandfather Frog	1915	0.86	0.999	nyp.33433064202785	The adventures of Grandfather Frog	1915	Thornton W. Burgess	13	1910
+OL121240W	1	1	The adventures of old Mr. Toad	1916	0.87	1.0	nyp.33433064202801	The Adventures of Old Mr. Toad	1916	Thornton W. Burgess|Harrison Cady|George Kerr	48	1910
+OL121245W	1	1	"Mother West Wind ""why"" stories"	1915	0.88	0.999	mdp.39015082535421	Mother West Wind 'why' Stories	1915	Thornton W. Burgess|Harrison Cady	35	1910
+OL121247W	1	1	The adventures of Unc' Billy Possum	1914	0.81	1.0	uc2.ark+=13960=t8pc2xt91	The adventures of Unc' Billy Possum	1914	Thornton W. Burgess	16	1910
+OL1217993W	1	1	Three soldiers	1921	0.84	1.0	nyp.33433082486238	Three soldiers	1921	John Dos Passos	19	1920
+OL1252616W	4	2	The garden of Allah	1904	0.9	1.0	mdp.39015059377633|mdp.49015002772011|uc2.ark+=13960=t9571c024|uc2.ark+=13960=t3mw2bz4j	The garden of Allah	1900	Robert Smythe Hichens	15	1900
+OL1252617W	3	1	The green carnation	1894	0.79	1.0	uc1.b4094445|uc2.ark+=13960=t59c6sv0r|uva.x000211882	The Green Carnation	1894	Robert Smythe Hichens	37	1890
+OL1253268W	2	2	The bronze eagle;	1915	0.86	1.0	nyp.33433075744858|uc2.ark+=13960=t6445kd5s	The bronze eagle	1915	Emma Orczy	47	1910
+OL1266359W	1	1	Doctor Syn;	1915	0.89	1.0	mdp.39015005003275	Doctor Syn	1915	Russell Thorndike	35	1910
+OL1285567W	2	1	The master	1895	0.84	1.0	mdp.39015030113404|uc2.ark+=13960=t11n7z639	The Master	1895	Israel Zangwill	17	1890
+OL1285599W	1	1	The king of schnorrers;	1894	0.8	1.0	nnc1.0038018446	The King of the Schnorrers	1894	Israel Zangwill	74	1890
+OL1285630W	2	1	The grey wig	1903	0.88	1.0	mdp.39015030113370|uc2.ark+=13960=t9q23x67v	The Grey Wig	1903	Israel Zangwill	18	1900
+OL1285632W	5	3	Dreamers of the Ghetto	1898	0.9	1.0	nyp.33433075861710|uc1.b3327218|uc2.ark+=13960=t6057jv90|uc2.ark+=13960=t58c9v44x|mdp.39015006978814	Dreamers of the ghetto	1898	Israel Zangwill	55	1890
+OL1285635W	1	1	Children of the ghetto;	1907	0.83	1.0	nnc1.0038018454	Children of the Ghetto	1892	Israel Zangwill	82	1890
+OL13173151W	3	2	The kiss, and other stories	1908	0.89	1.0	mdp.39015020809144|mdp.39015013871879|njp.32101067866481	The kiss and other stories [15 stories]	1908	Антон Павлович Чехов	20	1900
+OL134328W	1	1	Savrola;	1900	0.89	1.0	uc1.b299821	Savrola	1899	Winston S. Churchill	16	1890
+OL1347401W	2	1	Heritage	1919	0.89	0.999	mdp.39015002753120|uc2.ark+=13960=t73t9h33b	Heritage	1919	Vita Sackville-West	14	1910
+OL1347407W	2	2	The heir;	1922	0.83	1.0	mdp.39015002753138|uc2.ark+=13960=t4qj7bk0b	The heir	1922	Vita Sackville-West	22	1920
+OL1349271W	2	2	Tarr	1918	0.88	1.0	uc1.32106005857609|mdp.39015011506139	Tarr	1918	Wyndham Lewis	38	1910
+OL136609W	2	1	Madame Chrysanthème	1897	0.9	1.0	uc1.b317827|uc2.ark+=13960=t2k64fq5d	Madame Chrysantheme	1893	Pierre Loti	16	1890
+OL137354W	4	2	Bab	1917	0.88	1.0	mdp.39015002717968|uc2.ark+=13960=t4th8f77f|nyp.33433076053820|uva.x001181105	Bab : a sub-deb	1917	Mary Roberts Rinehart	46	1910
+OL137378W	3	2	Tish	1916	0.89	1.0	mdp.39015011882977|nyp.33433076047947|uc2.ark+=13960=t3nv9bd02	Tish	1916	Mary Roberts Rinehart	32	1910
+OL137380W	2	1	Love stories	1919	0.84	1.0	uc1.b3122335|uc2.ark+=13960=t9f47jb9s	Love Stories	1919	Mary Roberts Rinehart	27	1910
+OL137381W	3	2	More Tish	1921	0.89	1.0	mdp.39015063950029|nyp.33433076053804|uc2.ark+=13960=t87h1fc4z	More Tish	1921	Mary Roberts Rinehart	38	1920
+OL137382W	3	1	When a man marries	1909	0.83	1.0	mdp.39015002717604|mdp.39015002717612|uc2.ark+=13960=t1qf8js9c	When a Man Marries	1909	Mary Roberts Rinehart	33	1900
+OL137391W	3	1	The amazing interlude	1918	0.84	1.0	mdp.39015002717745|nyp.33433076053838|uc2.ark+=13960=t8df6mj3j	The Amazing Interlude	1918	Mary Roberts Rinehart	46	1910
+OL137396W	1	1	The circular staircase	1908	0.89	1.0	njp.32101068602307	The Circular Staircase	1908	Mary Roberts Rinehart	182	1900
+OL1375596W	1	1	Atlantis;	1912	0.89	1.0	mdp.49015001204594	Atlantis	1912	Gerhart Hauptmann	19	1910
+OL137891W	1	1	In His steps;	1899	0.69	1.0	inu.32000002989350	In His steps	1897	Charles Monroe Sheldon	42	1890
+OL1381218W	4	2	The untilled field	1903	0.89	1.0	nyp.33433074910195|uc2.ark+=13960=t13n2329s|njp.32101068585221|uc2.ark+=13960=t7vm4gd68	The untilled field	1903	George Moore	18	1900
+OL1381220W	5	2	A mummer's wife	1908	0.9	1.0	mdp.39015053574474|uc2.ark+=13960=t23b62b9n|nyp.33433074910161|uc1.b4103035|uc2.ark+=13960=t8w953v6d	A mummer's wife	1884	George Moore	21	1880
+OL1381223W	4	3	The brook Kerith;	1917	0.85	1.0	uc1.b3326147|uc2.ark+=13960=t6pz54q08|mdp.39015008456900|uc2.ark+=13960=t0gt5th1f	The brook Kerith	1916	George Moore	31	1910
+OL1417916W	1	1	The beasts of Tarzan	1916	0.88	1.0	wu.89039191218	The Beasts of Tarzan (Classic Ace SF, F-203)	1914	Edgar Rice Burroughs	189	1910
+OL1418238W	1	1	The mucker	1921	0.88	1.0	nyp.33433074848643	The Mucker	1921	Edgar Rice Burroughs	37	1920
+OL1418246W	1	1	Jungle tales of Tarzan	1919	0.88	1.0	nyp.33433074848650	Jungle Tales of Tarzan	1919	Edgar Rice Burroughs	43	1910
+OL1418250W	1	1	The son of Tarzan	1918	0.89	1.0	njp.32101068596491	The Son of Tarzan	1915	Edgar Rice Burroughs	59	1910
+OL141891W	6	3	Standish of Standish	1895	0.89	1.0	uc1.b248102|uc1.b248103|wu.89098866296|wu.89098866312|njp.32101067628493|mdp.39015005617033	Standish of Standish	1889	Jane G. Austin	16	1880
+OL1437468W	3	1	The adventurous Simplicissimus	1912	0.67	1.0	uc1.$b609402|uc2.ark+=13960=t3qv3j54p|uva.x000207902	Simplicissimus	1908	Hans Jakob Christoffel von Grimmelshausen	20	1900
+OL144722W	3	1	On the Makaloa mat	1919	0.87	1.0	mdp.39015004287739|nyp.33433076076086|wu.89088299839	On the Makaloa Mat	1919	Jack London	27	1910
+OL144771W	6	1	The game	1905	0.87	1.0	mdp.39015010219627|uc1.b3595162|uc1.b4105442|uc2.ark+=13960=fk4sj19x6n|uc2.ark+=13960=t3319t71v|wu.89005057542	The Game	1905	Jack London	30	1900
+OL144788W	3	1	The house of pride	1912	0.87	1.0	mdp.39015048894243|uc1.b4102227|uc2.ark+=13960=fk9z02zs4t	The House of Pride and Other Tales of Hawaii	1912	Jack London	26	1910
+OL144791W	3	1	Love of life, and other stories	1907	0.82	1.0	mdp.39015005450922|uc1.b4102220|uc2.ark+=13960=fk8w951357	Love of Life and Other Stories	1907	Jack London	44	1900
+OL144801W	3	1	The turtles of Tasman	1916	0.86	1.0	mdp.39015048893989|uc1.b4102260|uc2.ark+=13960=fk6736mf65	The Turtles of Tasman	1916	Jack London	30	1910
+OL144810W	1	1	The cruise of the Dazzler	1918	0.88	1.0	njp.32101079670590	The Cruise of the Dazzler	1902	Jack London	41	1900
+OL144812W	1	1	A daughter of the snows	1902	0.89	1.0	inu.32000000658031	A Daughter of the Snows	1902	Jack London	50	1900
+OL144814W	3	1	Jerry of the islands	1917	0.9	1.0	nyp.33433076076060|uc1.b4102226|uc2.ark+=13960=fk9765b15x	Jerry of the Islands	1916	Jack London	50	1910
+OL144818W	2	1	Tales of the fish patrol	1905	0.87	1.0	uc1.b4102262|uc2.ark+=13960=fk1ng4gr6n	Tales of the Fish Patrol	1905	Jack London	66	1900
+OL144820W	1	1	Adventure	1911	0.89	1.0	mdp.39015005588507	Adventure	1911	Jack London	53	1910
+OL1455038W	1	1	Moni the goat boy, and other stories;	1906	0.88	1.0	uc2.ark+=13960=t9c53m08v	Moni the goat boy, and other stories	1906	Spyri, Johanna	8	1900
+OL148385W	1	1	The rajah's people	1910	0.81	1.0	uc2.ark+=13960=t5r787m0d	The Native Born	1910	I. A. R. Wylie|I. Wylie	20	1910
+OL14848627W	1	1	The finding of Jasper Holt	1916	0.88	1.0	nyp.33433076064058	The finding of Jasper Holt	1916	Grace Livingston Hill	7	1910
+OL14848634W	2	1	The man of the desert	1914	0.89	1.0	uc1.b3322395|uc2.ark+=13960=t88g8h02h	The man of the desert	1914	Grace Livingston Hill	12	1910
+OL14848636W	2	1	The girl from Montana	1922	0.83	1.0	nyp.33433076064041|uc2.ark+=13960=t34179g96	The Girl from Montana	1908	Grace Livingston Hill	17	1900
+OL14861161W	3	2	The other house	1897	0.84	1.0	njp.32101068599685|uc2.ark+=13960=t0wp9ts1w|uc2.ark+=13960=t8qb9vv8s	The other house	1896	Henry James	26	1890
+OL1487967W	1	1	God's good man	1904	0.88	1.0	mdp.39015063547494	God's good man	1894	Marie Corelli	34	1890
+OL1487972W	4	2	Holy orders	1908	0.81	1.0	uc2.ark+=13960=t0tq5tg2j|mdp.39015063547502|nyp.33433081580841|uc2.ark+=13960=t4mk6d36t	Holy Orders	1908	Marie Corelli	21	1900
+OL1491809W	3	3	A young girl's wooing	1884	0.9	1.0	mdp.39015050791733|uc2.ark+=13960=t1wd3q30f|njp.32101065710467	A Young Girl's Wooing	1884	Edward Payson Roe	17	1880
+OL1492544W	2	1	Guy Rivers;	1890	0.78	1.0	njp.32101067176295|uc1.$b441042	Guy Rivers	1882	William Gilmore Simms	17	1880
+OL1492745W	3	1	Katy of Catoctin;	1886	0.9	1.0	mdp.39015063927068|nc01.ark+=13960=t2m624g15|uc2.ark+=13960=t9j38m55d	Katy of Catoctin	1886	George Alfred Townsend	21	1880
+OL15040856W	3	1	A little princess;	1905	0.89	1.0	mdp.39015012328574|uva.x000598151|wu.89098013634	A little princess	1905	Bob Blaisdell	47	1900
+OL1504559W	1	1	The idol of Paris;	1922	0.83	1.0	uc2.ark+=13960=t8sb41m8f	The Idol of Paris	1922	Sarah Bernhardt	17	1920
+OL15127746W	6	3	Traffics and discoveries	1904	0.81	1.0	nyp.33433074866496|uc1.b4658797|mdp.39015019976045|nyp.33433074866488|mdp.39015014776317|mdp.39015031242897	Traffics and discoveries (Collected Works of Rudyard Kipling)	1904	Rudyard Kipling	60	1900
+OL15127849W	14	3	The works of Rudyard Kipling	1899	0.83	1.0	mdp.39015066709703|mdp.39015066709711|mdp.39015066709851|mdp.39015066709869|mdp.39015066709877|mdp.39015066710123|mdp.39015066710131|mdp.39015066710149|mdp.39015066710297|mdp.39015066710446|wu.89081877441|wu.89081877458|wu.89001039791|wu.89001039809	The  works of Rudyard Kipling	1894	Rudyard Kipling	24	1890
+OL15136945W	6	4	The crime of Sylvestre Bonnard	1922	0.84	1.0	uc2.ark+=13960=t3610zn0x|uc2.ark+=13960=t47p8x35x|mdp.39015030372406|uc1.32106001743803|uc1.b4363775|uc2.ark+=13960=t78s4ns57	Le Crime de Sylvestre Bonnard	1890	Anatole France	31	1890
+OL1514090W	1	1	Homo sapiens;	1915	0.83	1.0	mdp.39015027365348	Homo Sapiens	1895	Stanisław Przybyszewski	12	1890
+OL1514922W	1	1	Raggedy Ann stories	1918	0.86	1.0	uva.x002185187	Raggedy Ann Stories	1918	Johnny Gruelle	11	1910
+OL1515129W	6	4	Many cargoes	1903	0.89	1.0	mdp.39015005100113|uc2.ark+=13960=t77s7k78h|uc2.ark+=13960=t16m37p5j|njp.32101063581068|uc2.ark+=13960=t2r49mt81|uc2.ark+=13960=t25b01k7r	Many Cargoes	1897	W. W. Jacobs|W. Jacobs	59	1890
+OL1515171W	3	3	The lady of the barge	1902	0.89	1.0	uc2.ark+=13960=t42r3pj34|uc2.ark+=13960=t30292p8c|mdp.39015005100097	The lady of the barge	1900	W. W. Jacobs	31	1900
+OL15176339W	1	1	The American claimant	1898	0.88	0.981	mdp.39015018600646	The American Claimant and Other Stories and Sketches (American Claimant / Merry Tales / Million Pound Bank-Note and Other Stories)	1896	Mark Twain	19	1890
+OL1518000W	2	2	Tam o' the scoots	1919	0.75	1.0	uc2.ark+=13960=t0xp7770r|uc2.ark+=13960=t6ww78z2z	Tam o' the scoots	1919	Edgar Wallace	50	1910
+OL15184079W	6	3	The $30,000 bequest	1917	0.75	1.0	nyp.33433074842380|uc2.ark+=13960=t9959dn34|mdp.39015047754505|uc2.ark+=13960=fk4vh5cq0h|uc1.b4719573|uc2.ark+=13960=fk71v5bv6j	$30,000 Bequest and Other Stories (28 stories)	1901	Mark Twain	42	1900
+OL15187391W	2	1	The happy prince	1907	0.75	0.999	uc1.b4102113|uc2.ark+=13960=t4sj1nd43	The Happy Prince & Other Stories	1888	Oscar Wilde	12	1880
+OL15212577W	4	2	Marching men	1917	0.89	1.0	mdp.39015011677401|uc2.ark+=13960=fk1td9n70k|njp.32101068580792|uc2.ark+=13960=t75t3gr0b	Marching Men	1917	Sherwood Anderson	17	1910
+OL15212579W	2	1	Windy McPherson's son	1922	0.84	1.0	uc1.b4381200|uc2.ark+=13960=fk7xk8538w	Windy McPherson's son	1916	Sherwood Anderson	19	1910
+OL15230749W	3	1	Jerusalem;	1915	0.83	1.0	mdp.39015005161669|uc2.ark+=13960=t2m61f22m|uva.x000853598	Jerusalem	1915	Selma Lagerlöf	17	1910
+OL15239340W	3	1	Life's little ironies;	1894	0.89	1.0	mdp.39015013250512|mdp.39015051149642|uva.x000946791	Life's little ironies	1894	Thomas Hardy	40	1890
+OL1526698W	2	1	Athalie	1915	0.85	0.999	nyp.33433074809132|uc2.ark+=13960=t55d8pp7h	Athalie	1915	Robert W. Chambers	25	1910
+OL1526726W	2	2	The red republic;	1895	0.9	1.0	nyp.33433074809447|uc2.ark+=13960=t9x05z112	The red republic	1895	Robert W. Chambers	17	1890
+OL1526737W	1	1	Special messenger	1909	0.87	1.0	uc2.ark+=13960=t52f7kb0f	Special messenger	1900	Robert W. Chambers	18	1900
+OL1526738W	3	2	Who goes there!	1915	0.88	1.0	nyp.33433074809397|njp.32101063605578|uc2.ark+=13960=t9474889p	Who goes there!	1915	Robert W. Chambers	27	1910
+OL1526748W	2	1	Cardigan	1901	0.83	1.0	njp.32101067937571|uc2.ark+=13960=t6vx06g3q	Cardigan	1901	Robert W. Chambers	55	1900
+OL1528824W	2	1	Five little Peppers at school	1903	0.9	1.0	uc1.b4088273|uc2.ark+=13960=fk3fx74335	Five little Peppers at school	1903	Margaret Sidney	26	1900
+OL15301658W	2	2	The valley of the moon	1913	0.9	1.0	uc2.ark+=13960=t3qv3d77c|uc2.ark+=13960=t49p2xg56	The Valley of the Moon	1900	Jack London	52	1900
+OL15439W	2	1	What's mine's mine	1886	0.89	1.0	uc1.$b349058|uc2.ark+=13960=t4gm84w4q	What's mine's mine	1886	George MacDonald	80	1880
+OL1544982W	5	2	Parisian points of view	1894	0.88	0.999	mdp.39015039506467|mdp.39015066078752|uc1.b317754|nyp.33433075826259|uc2.ark+=13960=t3319vq40	Parisian points of view	1894	Ludovic Halévy|Edith V.B. MATTHEWS	20	1890
+OL1546079W	3	1	Within an inch of his life	1915	0.89	1.0	mdp.39015034104169|uc2.ark+=13960=t2w37mb7d|uc2.ark+=13960=t6vx06q7s	La corde au cou	1883	Émile Gaboriau	30	1880
+OL15578053W	1	1	First love	1907	0.82	1.0	mdp.39015008640982	Pervai͡a︡ li͡u︡bovʹ	1904	Ivan Sergeevich Turgenev	21	1900
+OL1579286W	1	1	A hero of our time	1916	0.88	0.999	uc1.b5296851	Герой нашего времени	1916	Михаил Юрьевич Лермонтов	26	1910
+OL15844326W	1	1	Noa-Noa	1919	0.63	0.999	yale.39002009214207	Noa Noa	1900	Paul Gauguin	51	1900
+OL15849063W	2	2	Ursule Miroue̲t and other stories	1898	0.89	1.0	uc2.ark+=13960=t09w0bs1g|uc2.ark+=13960=t2d797c35	Ursule Mirouët	1883	Honoré de Balzac	30	1880
+OL16246212W	1	1	The complete short stories of Guy de Maupassant	1903	0.85	1.0	mdp.39015033410633	Short stories	1893	Guy de Maupassant	44	1890
+OL16312657W	2	1	The home and the world	1919	0.8	1.0	mdp.39015008551015|mdp.39015055590288	Ghare-bāire	1919	Rabindranath Tagore	20	1910
+OL163273W	2	2	The poor little rich girl	1913	0.84	1.0	uc2.ark+=13960=t2d797s9f|uva.x004614893	The poor little rich girl	1912	Eleanor Gates	19	1910
+OL166970W	1	1	Buried alive;	1881	0.79	1.0	nyp.33433073355640	The House of the Dead	1881	Фёдор Михайлович Достоевский	103	1880
+OL16745700W	2	1	Dodo wonders--	1921	0.84	1.0	njp.32101064787714|uc2.ark+=13960=t3125vp2s	Dodo wonders	1921	E. F. Benson	23	1920
+OL16747001W	2	1	Emma McChesney & co	1915	0.89	1.0	mdp.39015002725631|uva.x001423204	Emma McChesney & Co	1915	Edna Ferber	18	1910
+OL16786466W	1	1	Twelve stories and a dream	1903	0.79	1.0	uc2.ark+=13960=t6zw1n353	Twelve stories, and a dream	1903	H. G. Wells	33	1900
+OL17454W	1	1	Pearl-maiden;	1903	0.86	0.999	nyp.33433074850110	Tahreer ka sehar	1901	H. Rider Haggard	120	1900
+OL176079W	6	1	Heart and science;	1883	0.89	1.0	mdp.39015063542123|mdp.39015063542131|mdp.39015063542149|uc1.b4104606|uc1.b4104607|uc1.b4104608	Heart and Science	1883	Wilkie Collins|Amara Saldaña	86	1880
+OL17679866W	2	1	The rose of old St. Louis	1904	0.81	1.0	uc1.b3548237|uc2.ark+=13960=t58c9sc66	The rose of old St. Louis	1904	Mary Dillon	34	1900
+OL1774393W	5	4	The choir invisible	1897	0.89	1.0	mdp.39015063740164|nyp.33433082168851|njp.32101063579948|nyp.33433082168836|mdp.39015063740057	The Choir Invisible	1897	James Lane Allen	27	1890
+OL1774394W	4	4	A Kentucky cardinal	1894	0.75	1.0	nyp.33433082171251|mdp.39015030127974|mdp.39015030843422|nyp.33433082171244	A Kentucky cardinal	1894	James Lane Allen	29	1890
+OL1793143W	2	1	John Ingerfield	1894	0.89	1.0	mdp.39015011710061|uc2.ark+=13960=t83j3gn2v	John Ingerfield, and Other Stories	1894	Jerome Klapka Jérôme	38	1890
+OL1793153W	3	1	The observations of Henry	1901	0.81	1.0	mdp.39015047636884|nyp.33433074863873|uc2.ark+=13960=t9862j09j	The Observations of Henry	1901	Jerome Klapka Jérôme	36	1900
+OL1793159W	2	1	Sketches in lavender, blue, and green	1897	0.89	1.0	mdp.39015005150282|uc2.ark+=13960=t8mc8tc9m	Sketches of Lavender, Blue, and Green	1897	Jerome Klapka Jérôme	56	1890
+OL1793190W	2	1	Told after supper	1891	0.78	1.0	uc1.b3324431|uc2.ark+=13960=t0ks6sh0h	Told After Supper	1891	Jerome Klapka Jérôme	44	1890
+OL1794398W	1	1	The pagans	1884	0.83	0.999	mdp.39015059395742	The Pagans	1884	Arlo Bates	20	1880
+OL1794488W	4	3	Bonnie Prince Charlie	1900	0.89	1.0	mdp.39015073486972|mdp.39015073486980|mdp.39015073486964|uc2.ark+=13960=t4zg6n378	Bonnie Prince Charles	1887	G. A. Henty	45	1880
+OL1794494W	7	3	By England's aid, or, The freeing of the Netherlands (1585-1604)	1894	0.89	1.0	mdp.39015073486899|mdp.39015073486832|mdp.39015073486931|mdp.39015073486840|mdp.39015073486857|mdp.39015073486865|uc2.ark+=13960=t0cv4c167	By England's Aid; or, The Freeing of the Netherlands	1890	G. A. Henty	73	1890
+OL1794496W	1	1	By pike and dyke	1890	0.88	1.0	mdp.39015073487574	By Pike And Dyke A Tale Of The Rise Of The Dutch Republic	1880	G. A. Henty	87	1880
+OL1794500W	1	1	Captain Bayley's heir	1910	0.88	1.0	mdp.39015073478839	Captain Bayley's heir: a tale of the gold fields of California	1889	G. A. Henty	29	1880
+OL1794508W	2	1	For name and fame, or, Through Afghan passes	1880	0.89	1.0	mdp.39015023998449|uc2.ark+=13960=t4qj79t7f	For name and fame ; or, Through the Afghan passes	1880	G. A. Henty	29	1880
+OL1794528W	3	2	St. Bartholomew's eve;	1893	0.89	1.0	uc2.ark+=13960=t7dr2q662|mdp.39015073479340|mdp.39015073479357	St. Bartholomew's Eve, A Tale of the Huguenot Wars (Works of G. A. Henty)	1890	G. A. Henty	25	1890
+OL1794541W	3	1	With Cochrane the dauntless	1896	0.87	1.0	mdp.39015073480132|nyp.33433082547575|uc2.ark+=13960=t2c82660f	With  Cockrane the dauntless	1896	G. A. Henty	22	1890
+OL1794578W	1	1	The bravest of the brave, or, With Peterborough in Spain	1900	0.89	1.0	mdp.39015073487053	The bravest of the brave, or, With Peterborough in Spain	1886	G. A. Henty	67	1880
+OL1794579W	2	1	The lion of St. Mark	1903	0.61	1.0	mdp.39015073484084|uc2.ark+=13960=t09w0bk9n	The Lion of Saint Mark	1880	G. A. Henty	54	1880
+OL1794600W	5	2	On the Irrawaddy;	1897	0.89	1.0	mdp.39015019158644|mdp.39015073484142|uc2.ark+=13960=t7np1xg0b|mdp.39015073484159|nyp.33433082305826	On the Irrawaddy	1896	G. A. Henty	22	1890
+OL1794602W	2	1	With Clive in India, or, The beginnings of an empire	1894	0.89	1.0	mdp.39015073480264|mdp.39015073480272	With Clive in India, or, The beginnings of an empire	1880	G. A. Henty	116	1880
+OL1794607W	3	2	A roving commission, or, Through the black insurrection of Hayti	1900	0.88	1.0	mdp.39015073479324|nc01.ark+=13960=t9s191z5j|uc2.ark+=13960=t4mk67409	A roving commission	1899	G. A. Henty	23	1890
+OL1794612W	1	1	The cornet of horse	1897	0.89	1.0	mdp.39015073486550	The Cornet of Horse	1881	G. A. Henty	43	1880
+OL1794613W	3	1	In Greek waters	1892	0.51	1.0	mdp.39015073428834|nc01.ark+=13960=t39036902|uc2.ark+=13960=t36111h29	In Greek waters	1892	G. A. Henty	22	1890
+OL1794624W	6	2	The young colonists;	1898	0.89	1.0	uc2.ark+=13960=t5cc0vd9f|mdp.39015073480561|mdp.39015073480579|mdp.39015073481338|uc1.b308299|uc2.ark+=13960=t85h7hf2c	The young colonists	1885	G. A. Henty	30	1880
+OL1794627W	3	3	Maori and Settler	1890	0.89	1.0	uc2.ark+=13960=t1rf5n201|uc2.ark+=13960=t50g3jx6r|mdp.39015073483995	Maori and settler	1890	G. A. Henty	24	1890
+OL1794629W	3	2	Through the Sikh war	1894	0.88	1.0	mdp.39015073479910|mdp.39015073479902|nyp.33433082305917	Through the Sikh war	1893	G. A. Henty	30	1890
+OL1794632W	1	1	With Frederick the Great	1898	0.87	1.0	mdp.39015073480157	With Frederick the Great	1898	G. A. Henty	29	1890
+OL1794641W	2	1	By right of conquest, or, With Cortez in Mexico	1890	0.9	1.0	mdp.39015073479068|mdp.39015073487673	By Right of Conquest	1890	G. A. Henty	70	1890
+OL1794642W	3	2	A march on London;	1897	0.87	1.0	uc2.ark+=13960=t9086c77c|mdp.39015073484324|uc2.ark+=13960=t4bn9xm82	A March on London	1897	G. A. Henty	31	1890
+OL1794643W	2	1	Redskin and cow-boy;	1919	0.89	1.0	uc1.b4717740|uc2.ark+=13960=t9p26r50s	Redskin and cowboy	1890	G. A. Henty	36	1890
+OL1794645W	1	1	St. George for England;	1884	0.88	1.0	uc2.ark+=13960=t89g5h85q	St. George for England	1884	G. A. Henty	34	1880
+OL1794650W	4	2	The dash for Khartoum	1892	0.88	1.0	mdp.39015073486618|mdp.39015073486626|uc2.ark+=13960=t6445j20g|njp.32101017993237	The dash for Khartoum	1891	G. A. Henty	38	1890
+OL1794652W	5	2	Orange and green	1890	0.85	1.0	mdp.39015073479589|uc2.ark+=13960=t1fj29r4w|mdp.39015073484308|mdp.39015073484316|uc2.ark+=13960=t4dn41r7b	Orange and green	1888	G. A. Henty	38	1880
+OL1794657W	1	1	The treasure of the Incas;	1902	0.5	1.0	uc2.ark+=13960=t90864d48	The Treasure of the Incas	1900	G. A. Henty	31	1900
+OL1794664W	4	2	A knight of the White cross	1895	0.88	1.0	mdp.39015073483664|uc2.ark+=13960=t2g738v0r|mdp.39015073483813|uc2.ark+=13960=t8tb0zm6f	A Knight of the White Cross	1895	G. A. Henty	49	1890
+OL1794667W	2	2	One of the 28th	1900	0.89	1.0	mdp.39015073484357|uc2.ark+=13960=t40r9p18g	One of the 28th	1890	G. A. Henty	43	1890
+OL1794669W	1	1	Winning his spurs	1891	0.89	1.0	mdp.39015073480371	Winning His Spurs	1882	G. A. Henty	63	1880
+OL1794673W	3	2	At Agincourt	1897	0.87	1.0	mdp.39015073487129|uc1.b3332206|uc2.ark+=13960=t9668jm79	At Agincourt	1896	G. A. Henty	38	1890
+OL1794676W	2	2	Won by the sword;	1899	0.89	1.0	uc2.ark+=13960=t82j69f2x|mdp.39015073480777	Won by the sword	1899	G. A. Henty	47	1890
+OL1794680W	3	2	By sheer pluck	1896	0.87	1.0	njp.32101041380724|mdp.39015073478862|mdp.39015073478870	By Sheer Pluck	1880	G. A. Henty	59	1880
+OL1794682W	2	2	In the heart of the Rockies;	1894	0.84	1.0	uc2.ark+=13960=t4mk67377|njp.32101042586535	In the Heart of the Rockies	1894	G. A. Henty	44	1890
+OL1795125W	5	2	David Harum;	1899	0.89	1.0	mdp.39015063974904|uc1.b4104246|uc1.b4374152|uc1.l0063558613|uc2.ark+=13960=t8jd4r51f	David Harum	1898	Edward Noyes Westcott	55	1890
+OL1795202W	1	1	The Texan scouts;	1921	0.89	1.0	uc2.ark+=13960=t5w66b89n	The Texan Scouts	1913	Joseph A. Altsheler	17	1910
+OL1795302W	6	5	The story of a short life	1887	0.89	1.0	nyp.33433082531553|uc1.b308293|uc2.ark+=13960=t9c53k735|nyp.33433082530621|uc2.ark+=13960=t2s46j886|uc1.b4101487	The story of a short life	1887	Juliana Horatia Gatty Ewing	20	1880
+OL1795361W	2	1	Other main-travelled roads	1910	0.89	1.0	nyp.33433076068992|uc1.b4104270	Other Main Traveled Roads	1910	Hamlin Garland	20	1910
+OL1795428W	4	1	Money magic	1907	0.89	1.0	mdp.39015003700443|nyp.33433076069008|uc1.b4104263|uc2.ark+=13960=fk0sq8qf2r	Money magic	1907	Hamlin Garland	11	1900
+OL1795435W	1	1	Boy life on the prairie	1899	0.68	1.0	njp.32101068598315	Boy life on the prairie	1899	Hamlin Garland	16	1890
+OL1795440W	1	1	Prairie folks	1899	0.8	1.0	uc1.b4104266	Prairie folks	1892	Hamlin Garland	21	1890
+OL1795442W	1	1	Rose of Dutcher's Coolly	1895	0.9	1.0	uc2.ark+=13960=t3707x24f	Rose of Dutcher's Coolly	1889	Hamlin Garland	23	1880
+OL1795444W	2	2	The captain of the gray-horse troop;	1902	0.89	0.999	uc2.ark+=13960=fk75t3gf2n|nyp.33433076069099	The captain of the Gray-horse troop	1902	Hamlin Garland	36	1900
+OL1795445W	3	1	Main-travelled roads	1918	0.88	1.0	mdp.39015000644289|mdp.39015003681924|mdp.39015062066181	Main-travelled roads	1891	Hamlin Garland|Jonathan Senchyne|Brianne Jaquette	100	1890
+OL1795881W	2	1	Crooked trails;	1898	0.88	1.0	uc1.b3325700|wu.89052490505	Crooked trails	1898	Frederic Remington	17	1890
+OL1796043W	2	2	Mr. Isaacs	1885	0.9	0.999	uc2.ark+=13960=t74t6ft90|uc1.b3321316	Mister Isaacs	1882	Francis Marion Crawford	76	1880
+OL1796078W	6	3	Via crucis;	1899	0.89	1.0	mdp.39015059395072|mdp.39015059413099|nyp.33433074817200|uc2.ark+=13960=t2b853v0j|uc2.ark+=13960=t2z31nx5t|mdp.49015000516444	Via crucis; a romance of the second crusade	1898	Francis Marion Crawford	37	1890
+OL1796105W	2	1	A cigarette-maker's romance	1890	0.89	1.0	mdp.39015059394349|uc1.b248395	A cigarette-maker's romance	1890	Francis Marion Crawford	16	1890
+OL1796115W	3	2	The children of the king;	1893	0.83	1.0	uc1.b248372|mdp.39015059394323|mdp.39015059394331	The Children of the King	1892	Francis Marion Crawford	15	1890
+OL1796120W	1	1	The witch of Prague	1892	0.82	1.0	nyp.33433074817176	The Witch of Prague	1890	Francis Marion Crawford	23	1890
+OL1796123W	3	2	An American politician	1884	0.89	1.0	mdp.39015063749637|mdp.39015063749645|uc1.b3321311	An American politician	1884	Francis Marion Crawford	22	1880
+OL1796641W	3	2	Cumner's son	1910	0.84	1.0	nyp.33433075748925|uc2.ark+=13960=t88g8hn02|uc2.ark+=13960=t6xw4bj13	Cummer's son, and other South Sea folk	1904	Gilbert Parker	29	1900
+OL1796671W	2	1	Pierre and his people	1894	0.88	1.0	nyp.33433075749097|uc2.ark+=13960=t5r787j3z	Pierre and His People	1892	Gilbert Parker	38	1890
+OL1796769W	3	1	Northern lights	1909	0.87	1.0	mdp.39015063945607|nyp.33433075749022|uc2.ark+=13960=t53f4td69	Northern Lights	1909	Gilbert Parker	22	1900
+OL1796780W	4	2	The lane that had no turning	1900	0.89	1.0	mdp.39015063945839|nyp.33433075748974|uva.x030750893|uc2.ark+=13960=t3pv6d091	The lane that had no turning	1900	Gilbert Parker	31	1900
+OL1796781W	2	2	The world for sale;	1916	0.89	1.0	nyp.33433075749238|uc1.b3325470	The world for sale	1916	Gilbert Parker	22	1910
+OL1796785W	3	3	When Valmond came to Pontiac;	1898	0.89	1.0	uc2.ark+=13960=t89g5qc3k|uc2.ark+=13960=t53f4rp3m|mdp.39015020058551	When Valmond came to Pontiac	1895	Gilbert Parker	34	1890
+OL1796786W	4	3	A Romany of the snows	1896	0.9	1.0	mdp.39015063945474|nyp.33433075749121|nyp.33433075749147|uc2.ark+=13960=t7cr5qd4m	A Romany of the snows	1896	Gilbert Parker	35	1890
+OL1796933W	1	1	The triumphs of Eugène Valmont	1906	0.84	1.0	mdp.39015020213396	The Triumphs of Eugène Valmont	1905	Robert Barr	25	1900
+OL1796936W	3	2	A Chicago princess	1904	0.89	1.0	mdp.39015063548245|nyp.33433074932264|uc2.ark+=13960=t12n5111g	A Chicago princess	1900	Robert Barr	14	1900
+OL1796944W	1	1	The sword maker	1910	0.81	1.0	njp.32101064787037	The Sword Maker	1910	Robert Barr	30	1910
+OL1796949W	3	2	In the midst of alarms;	1900	0.84	1.0	njp.32101064787052|uc2.ark+=13960=t24b30k2r|uc2.ark+=13960=t03x86h84	In the midst of alarms	1893	Robert Barr|Douglas Lochhead	57	1890
+OL1797199W	1	1	Ancestors;	1907	0.9	1.0	mdp.39015018048077	Ancestors	1907	Gertrude Atherton	24	1900
+OL1797227W	2	1	The doomswoman;	1901	0.88	1.0	mdp.39015063753712|nyp.33433082173596	The Doomswoman	1893	Gertrude Atherton	22	1890
+OL1797252W	7	2	The aristocrats	1901	0.83	1.0	nyp.33433082173695|uc1.b3322232|uc2.ark+=13960=t0000152d|uc2.ark+=13960=t0ft8fg18|wu.89098865884|mdp.39015063516739|nyp.33433082173687	The aristocrats	1901	Gertrude Atherton	17	1900
+OL1797253W	1	1	The bell in the fog	1905	0.86	1.0	mdp.39015063753522	The Bell in the Fog and Other Stories	1905	Gertrude Atherton	32	1900
+OL1797254W	2	2	Rezánov	1906	0.84	1.0	wu.89098866098|uc2.ark+=13960=t8kd1rc6q	Rezánov	1906	Gertrude Atherton	30	1900
+OL1797255W	4	1	Sleeping fires;	1922	0.89	1.0	mdp.39015063753647|nyp.33433082251848|uc1.b3582833|uc2.ark+=13960=t41r6p74d	Sleeping fires	1922	Gertrude Atherton	23	1920
+OL1797258W	3	1	The white morning;	1918	0.75	1.0	nyp.33433082248398|uc2.ark+=13960=t3222sb53|wu.89098866130	The White Morning	1918	Gertrude Atherton	23	1910
+OL1797260W	4	2	The avalanche;	1919	0.88	1.0	mdp.39015011949289|nyp.33433082173679|uc2.ark+=13960=t04x54k5x|uc2.ark+=13960=t95718d66	The Avalanche	1919	Gertrude Atherton	27	1910
+OL1797263W	1	1	The valiant runaways;	1898	0.89	1.0	uc1.b248098	The Valiant Runaways	1898	Gertrude Atherton	22	1890
+OL1797267W	7	3	American wives and English husbands;	1901	0.9	1.0	mdp.39015011949362|nyp.33433082173711|wu.89098869449|nyp.33433082173729|uc2.ark+=13960=t3fx7486r|wu.89098869522|uc2.ark+=13960=t18k75695	American wives and English husbands	1898	Gertrude Atherton	21	1890
+OL1797268W	3	1	The sisters-in-law;	1921	0.87	1.0	mdp.39015063753662|nyp.33433082251830|uc2.ark+=13960=fk2697019z	The Sisters-In-Law	1921	Gertrude Atherton	31	1920
+OL1797269W	1	1	The splendid idle forties;	1902	0.89	0.998	mdp.39015005125573	The splendid idle forties	1902	Gertrude Atherton	47	1900
+OL1797270W	5	3	Senator North	1900	0.9	1.0	uva.x004011480|uc1.b3322244|uc2.ark+=13960=t86h4f64j|uc2.ark+=13960=t1hh6cc4k|wu.89098866031	Senator North	1900	Gertrude Atherton	29	1900
+OL1797271W	4	2	The conqueror	1902	0.7	1.0	uc1.b3322234|uc2.ark+=13960=t7vm4486b|mdp.39015063753720|nyp.33433082173646	The conqueror	1902	Gertrude Atherton	43	1900
+OL1797323W	4	3	Folks from Dixie	1898	0.88	1.0	nyp.33433074930011|uc1.b3578488|uc2.ark+=13960=t6k06xk56|mdp.39015011913533	Folks from Dixie	1884	Paul Laurence Dunbar	29	1880
+OL1797341W	1	1	The sport of the gods	1902	0.89	0.999	mdp.39015066034508	The Sport of the Gods	1902	Paul Laurence Dunbar	65	1900
+OL1797345W	4	3	The uncalled	1898	0.86	1.0	mdp.39015012913631|uc2.ark+=13960=t3804z12m|uc1.b3578490|uc1.b4582042	The uncalled, a novel	1896	Paul Laurence Dunbar	42	1890
+OL1797598W	2	2	Elsie's womanhood	1917	0.9	1.0	uc2.ark+=13960=t2x34nn6j|nyp.33433082530548	Elsie's Womanhood	1901	Martha Finley	16	1900
+OL1798115W	4	2	The story of Ab	1897	0.89	1.0	loc.ark+=13960=t9572012d|nyp.33433076073570|uc1.b4104241|uc2.ark+=13960=fk7rn30m8v	The story of Ab	1897	Stanley Waterloo	18	1890
+OL1798826W	3	1	Stingaree	1907	0.89	1.0	uc1.b3324339|uc2.ark+=13960=t1vd6x96b|uc2.ark+=13960=t2z31s811	Stingaree	1905	E. W. Hornung	22	1900
+OL1798840W	2	2	The camera fiend	1911	0.89	1.0	uc2.ark+=13960=t27945v9r|uc2.ark+=13960=t2b858j50	The camera fiend	1911	E. W. Hornung	18	1910
+OL1798843W	6	4	Raffles: further adventures of the amateur cracksman	1910	0.89	1.0	uc1.b4102356|uc2.ark+=13960=t3126228g|mdp.39015006984440|uc2.ark+=13960=t5n87863x|uc2.ark+=13960=t9m32ts78|uc2.ark+=13960=t3222zd90	Raffles, Further Adventures of the Amateur Cracksman	1901	E. W. Hornung	51	1900
+OL1799938W	4	1	Old Kaskaskia	1893	0.88	1.0	mdp.39015063517125|nyp.33433074810205|uc1.b248399|uc2.ark+=13960=t2n58d347	Old Kaskaskia: A Novel	1893	Mary Hartwell Catherwood	21	1890
+OL1799948W	3	1	(The) chase of Saint-Castin and other stories of the French in the new world	1894	0.89	1.0	uc1.b3578750|uc1.b798740|uc2.ark+=13960=t2g737g4b	The chase of Saint-Castin	1894	Mary Hartwell Catherwood	19	1890
+OL1799959W	2	2	Lazarre	1901	0.88	1.0	uc2.ark+=13960=t4sj1b66n|mdp.39015063525011	Lazarre	1901	Mary Hartwell Catherwood	19	1900
+OL1800220W	1	1	Ramona	1912	0.9	1.0	wu.89097995203	Ramona	1884	Helen Hunt Jackson	54	1880
+OL18084699W	1	1	The tin soldier	1919	0.89	1.0	nyp.33433082485917	The tin soldier	1919	Temple Bailey	33	1910
+OL181923W	11	5	Strictly business	1910	0.89	1.0	uc2.ark+=13960=t5m902j4s|uva.x030833208|mdp.39015002708074|uc2.ark+=13960=t80k27f29|nyp.33433075769962|uc1.b3546513|uc1.b3569216|uc2.ark+=13960=t0rr1qg7x|uva.x030832517|mdp.39015002708041|mdp.39015002708058	Strictly business; more stories of the four million	1910	O. Henry	47	1910
+OL181924W	5	4	The voice of the city;	1914	0.88	1.0	uc1.b3346971|mdp.39015002708009|uc2.ark+=13960=t9w08x36s|uc2.ark+=13960=t0sq8rt02|wu.89006958011	The voice of the city, further stories of the four million	1908	O. Henry	44	1900
+OL181941W	5	4	The trimmed lamp	1919	0.89	1.0	nnc1.0030451302|uc1.b3346970|uva.x030557434|mdp.39015030710902|uva.x030833211	The trimmed lamp, and other stories of the four million	1907	O. Henry	61	1900
+OL181946W	1	1	Waifs and strays, twelve stories	1919	0.52	1.0	uva.x030131891	Waifs and Strays	1917	O. Henry|O. Henry	56	1910
+OL181948W	5	4	Heart of the West	1904	0.84	1.0	uc2.ark+=13960=t8kd1r91d|uc2.ark+=13960=t8z893s3v|uva.x030557433|nyp.33433076053465|mdp.39015002708389	Life with Father	1904	O. Henry	28	1900
+OL181949W	5	3	Roads of destiny	1909	0.89	1.0	uc1.$b803449|mdp.39015002708157|mdp.39015061865922|uc2.ark+=13960=t0000026k|uva.x030832516	Roads of destiny	1909	O. Henry	66	1900
+OL181950W	5	3	Whirligigs	1910	0.89	1.0	mdp.39015002707928|nyp.33433076053440|uc2.ark+=13960=t8x92268m|mdp.39015002707902|uc2.ark+=13960=t0js9hf3k	Whirligigs	1910	O. Henry	55	1910
+OL181954W	5	4	The gentle grafter	1908	0.86	1.0	uc1.b3862347|uc2.ark+=13960=t1hh6d46t|mdp.39015002708363|nyp.33433076053499|uc2.ark+=13960=t70v8bz3h	The gentle grafter	1908	O. Henry	50	1900
+OL181955W	9	5	Rolling stones ... illus. with original photographs, drawings by the author, reproductions of letters, etc	1912	0.68	1.0	nnc1.1002211475|uva.x004286483|uc1.b4721013|uc2.ark+=13960=t0pr7mt6b|mdp.39015002708116|nyp.33433076059231|uc2.ark+=13960=t23b5wk8v|mdp.39015002708124|mdp.49015000549247	Rolling Stones	1910	O. Henry	45	1910
+OL181957W	6	4	Cabbages and kings	1904	0.88	1.0	uc2.ark+=13960=t16m33c5v|uva.x004373575|uva.x030832514|mdp.39015019087207|uva.x030131896|uc2.ark+=13960=t1td9n999	Cabbages and Kings	1904	O. Henry	63	1900
+OL181958W	5	3	Sixes and sevens	1920	0.89	1.0	mdp.39015002708017|mdp.39015002708025|uc1.b3346932|nyp.33433076059223|dul1.ark+=13960=t2v41g826	Sixes and Sevens	1911	O. Henry	58	1910
+OL181959W	6	3	Options	1909	0.89	1.0	mdp.39015002708421|mdp.39015002708439|uc1.b3346930|uc2.ark+=13960=t4sj1c95x|uva.x004840951|uc2.ark+=13960=t2c825g70	Options	1909	O. Henry	58	1900
+OL181960W	8	3	The four million [stories]	1906	0.89	1.0	mdp.39015002708322|nnc1.0022248951|uc2.ark+=13960=t0ms3k79z|mdp.39015005024511|uva.x002743462|uva.x030833220|mdp.39015061866342|uc2.ark+=13960=t13n20j1z	The Four Million	1906	O. Henry	61	1900
+OL1820122W	2	1	The fur bringers	1920	0.88	1.0	nyp.33433075727689|uc2.ark+=13960=t3dz04t0d	The fur bringers	1916	Hulbert Footner	18	1910
+OL1838892W	1	1	Out of Mulberry Street;	1898	0.7	1.0	nc01.ark+=13960=t80k2w32p	Out of Mulberry Street	1898	Jacob A. Riis	18	1890
+OL1868646W	1	1	The dreamers, a club	1899	0.6	0.997	nyp.33433074814389	The dreamers	1899	John Kendrick Bangs	21	1890
+OL1868665W	2	1	The booming of Acre Hill	1900	0.88	1.0	nyp.33433074814371|uc2.ark+=13960=fk1hh6c66d	The booming of Acre Hill	1900	John Kendrick Bangs	21	1900
+OL1868673W	2	1	The inventions of the idiot	1904	0.83	1.0	njp.32101066477777|uc2.ark+=13960=fk5p84451p	The inventions of the idiot	1904	John Kendrick Bangs	21	1900
+OL1868674W	2	1	Mr. Munchausen;	1901	0.81	1.0	nyp.33433074816640|uc1.b3332875	Mr. Munchausen	1901	John Kendrick Bangs	15	1900
+OL1868684W	3	1	The water ghost	1894	0.89	0.999	mdp.39015030847340|nyp.33433084129661|uc2.ark+=13960=t3vt1h12n	The Water Ghost and Others	1894	John Kendrick Bangs	23	1890
+OL1868686W	5	4	Ghosts I have met, and some others	1898	0.89	1.0	mdp.39015066051874|wu.89069113231|uc1.b4101711|uc2.ark+=13960=t3rv0db8c|uva.x001496047	Ghosts I have met and some others	1898	John Kendrick Bangs	30	1890
+OL1868687W	3	2	The enchanted typewriter	1899	0.87	0.998	mdp.39015030856978|nyp.33433074816608|uc1.l0063361513	The Enchanted Typewriter	1899	John Kendrick Bangs	58	1890
+OL1868688W	4	3	The pursuit of the house-boat;	1897	0.88	1.0	nyp.33433074800867|mdp.39015030847316|uc1.b4101708|uc2.ark+=13960=t28911z1r	The Pursuit of the House-Boat	1897	John Kendrick Bangs	76	1890
+OL187629W	4	2	The real diary of a real boy	1914	0.77	1.0	uc1.b4721666|uc2.ark+=13960=fk6j09wg1v|uc1.b3146371|uc2.ark+=13960=t9f47r731	The real diary of a real boy	1902	Henry A. Shute	19	1900
+OL1917131W	4	2	The basket woman	1904	0.88	1.0	mdp.39015003620591|mdp.39015024079637|uc2.ark+=13960=t08w38z26|uc2.ark+=13960=t95719531	The Basket Woman	1904	Mary Austin	42	1900
+OL1917193W	3	2	A woman of genius	1912	0.9	1.0	mdp.39015005210607|nyp.33433084130081|inu.30000010407140	A  woman of genius	1910	Mary Austin|Austin Mary Hunter	44	1910
+OL19234W	2	2	The bent twig	1922	0.89	1.0	mdp.39015033538755|mdp.49015000587163	The bent twig	1915	Dorothy Canfield Fisher	17	1910
+OL19235W	7	4	Understood Betsy	1917	0.89	1.0	inu.30000111984435|uc2.ark+=13960=t6h12ws1r|mdp.39015030032554|nc01.ark+=13960=t5m91901f|uc2.ark+=13960=fk53f4kz46|wu.89006531560|nyp.33433082302708	Understood Betsy	1917	Dorothy Canfield Fisher	26	1910
+OL1940374W	1	1	Trilby;	1899	0.82	0.995	mdp.39015005346062	Trilby	1894	George du Maurier	259	1890
+OL1940391W	3	1	The Martian;	1897	0.89	0.996	mdp.39015063916921|uc1.b248729|uc2.ark+=13960=t0pr7nc4z	The Martian	1897	George du Maurier	25	1890
+OL196011W	1	1	The lady of the decoration	1908	0.88	1.0	uc2.ark+=13960=t1dj58m9x	The lady of the decoration	1905	Frances Little|Macaulay, Fannie (Caldwell) Mrs.|Frances Little	24	1900
+OL197189W	1	1	Cleek the man of the forty faces, or Cleek, the master detective	1918	0.9	1.0	nyp.33433074852926	Cleek, the man of the forty faces	1910	Thomas W. Hanshew	35	1910
+OL1972816W	3	1	Christopher and Columbus	1919	0.9	1.0	mdp.39015063953148|uc1.b3549670|uc2.ark+=13960=t0gt5qd49	Christopher and Columbus	1919	Elizabeth von Arnim	39	1910
+OL1972831W	1	1	Fräulein Schmidt and Mr. Anstruther	1907	0.84	1.0	njp.32101068585833	Fräulein Schmidt and Mr. Anstruther	1907	Elizabeth von Arnim	35	1900
+OL1972835W	2	1	The adventures of Elizabeth in Rügen	1904	0.89	1.0	mdp.39015030693462|nyp.33433075731988	The Adventures of Elizabeth in Rügen	1904	Elizabeth von Arnim	40	1900
+OL1972838W	4	3	The caravaners	1909	0.88	1.0	uc2.ark+=13960=t55d8qz61|uc2.ark+=13960=t4wh2kc1b|uc1.b3325742|uc2.ark+=13960=t8x92984g	The caravaners	1909	Elizabeth von Arnim|Juliane Roemhild	29	1900
+OL1972839W	4	2	The pastor's wife	1914	0.9	1.0	mdp.39015035824955|uc1.b3327308|uc2.ark+=13960=t46q1zh0p|mdp.39015035824948	The pastor's wife	1914	Elizabeth von Arnim	50	1910
+OL1982538W	3	2	Lonesome land	1912	0.89	1.0	uc2.ark+=13960=t3xs5pc8w|nyp.33433076039217|uc2.ark+=13960=t7np1x782	Lonesome Land	1912	Bertha Muzzy Bower	13	1910
+OL198384W	2	1	Treasure and trouble therewith	1917	0.84	1.0	nyp.33433076066467|uc2.ark+=13960=t6xw4bn1f	Treasure and Trouble Therewith (A Tale of California)	1917	Geraldine Bonner	15	1910
+OL19903W	1	1	Just so stories for little children	1902	0.87	1.0	nc01.ark+=13960=t34182040	Just so stories for little children. Stalky & Co.	1902	Rudyard Kipling	64	1900
+OL199995W	1	1	Mary Olivier	1919	0.84	1.0	uc2.ark+=13960=t6ww7f54p	Mary Olivier, a life	1919	May Sinclair	33	1910
+OL199998W	3	2	Life and death of Harriett Frean	1922	0.88	1.0	nyp.33433075765333|uc2.ark+=13960=t6xw4bx6f|uc2.ark+=13960=t0js9k568	Life and death of Harriett Frean	1922	May Sinclair	30	1920
+OL20083W	5	4	Under the deodars, The phantom 'rickshaw, Wee Willie Winkie	1920	0.89	1.0	uva.x000316548|uc1.31158002379567|uc2.ark+=13960=t0ms3np65|njp.32101079670574|mdp.39015030140423	Under the deodars ; The phantom 'rickshaw ; Wee Willie Winkie	1895	Rudyard Kipling	31	1890
+OL20103W	5	2	Abaft the funnel	1909	0.88	1.0	uc1.$b400530|uc2.ark+=13960=t6154j36v|mdp.39015008381090|uc1.b3579125|uc2.ark+=13960=t59c72k2t	Abaft the funnel	1909	Rudyard Kipling	29	1900
+OL20108W	2	2	Soldiers three ;	1899	0.72	1.0	nyp.33433074866355|uc2.ark+=13960=t2w37pn1c	Soldiers three, The story of the Gadsbys, In black and white	1895	Rudyard Kipling	67	1890
+OL20109W	3	3	Soldier stories	1914	0.88	1.0	uva.x001640967|mdp.39015046486695|nnc1.cu58495398	Soldier stories	1896	Rudyard Kipling	18	1890
+OL20143W	1	1	In black and white	1899	0.7	1.0	uc2.ark+=13960=t6nz8ds5q	In black and white	1880	Rudyard Kipling	35	1880
+OL20149W	1	1	The naulahka;	1897	0.89	1.0	inu.32000002862268	The  naulahka	1892	Rudyard Kipling	74	1890
+OL20156W	4	1	Actions and reactions	1909	0.73	1.0	mdp.39015022219300|uc1.32106019430328|uc1.b4380738|uc2.ark+=13960=t26972s41	Actions and Reactions	1909	Rudyard Kipling	219	1900
+OL2019796W	1	1	Iola Leroy, or, Shadows uplifted	1892	0.89	1.0	njp.32101066122597	Iola Leroy, or, Shadows Uplifted	1892	Koritha Mitchell|Frances Ellen Watkins Harper|Frances Smith Foster	67	1890
+OL2020280W	2	2	Darby O'Gill and the good people	1915	0.83	1.0	uc2.ark+=13960=t9w08zz7w|inu.39000005759670	Darby O'Gill and the good people	1903	Herminie Templeton Kavanagh	21	1900
+OL2021950W	3	3	Men of iron	1892	0.89	1.0	uc1.b4099131|uc2.ark+=13960=t2j679b83|mdp.39015010354879	Men of Iron	1892	Howard Pyle	21	1890
+OL2022011W	1	1	Howard Pyle's Book of pirates	1921	0.71	0.998	mdp.39076002221641	Howard Pyle's Book of Pirates	1921	Howard Pyle	14	1920
+OL2068285W	3	1	Daniele Cortis	1890	0.9	1.0	uc1.$b450426|uc2.ark+=13960=t4nk39f5r|uiuo.ark+=13960=t0ks6mz46	Daniele Cortis	1887	Antonio Fogazzaro	18	1880
+OL2068287W	3	2	The saint	1906	0.85	1.0	uc2.ark+=13960=t54f1qr95|uc2.ark+=13960=t28914h34|uva.x002177917	Santo	1906	Antonio Fogazzaro	20	1900
+OL207091W	1	1	Bardell v. Pickwick;	1902	0.63	0.998	uc2.ark+=13960=t16m37d6f	Bardell v. Pickwick	1885	Percy Fitzgerald	17	1880
+OL20822W	1	1	The open boat	1898	0.81	1.0	nyp.33433074817069	The open boat	1898	Stephen Crane	8	1890
+OL20829W	3	1	Men, women and boats	1921	0.81	1.0	mdp.39015031228417|nyp.33433074817077|uc1.b4107520	Men, Women, and Boats	1921	Stephen Crane	24	1920
+OL20831W	6	2	Active service	1901	0.9	1.0	mdp.39015014183431|mdp.39015031228391|nyp.33433074817085|uc1.b4582034|uc1.b3321306|wu.89004872388	Active Service	1899	Stephen Crane	20	1890
+OL20835W	1	1	Wounds in the rain;	1900	0.89	1.0	uva.x000497410	Wounds in the rain	1900	Stephen Crane	16	1900
+OL20934W	2	1	Scenes of clerical life	1899	0.89	1.0	uiuo.ark+=13960=t3320md5g|uiuo.ark+=13960=t5q82059s	Scenes of clerical life	1880	George Eliot	16	1880
+OL21104317W	1	1	The skeleton key	1919	0.87	1.0	uc2.ark+=13960=t9668ct8d	Mystery of the Skeleton Key	1900	Bernard Capes	11	1900
+OL2131939W	3	2	Emmanuel Burden, merchant of Thames St., in the City of London, exporter of hardware	1915	0.72	0.999	uc2.ark+=13960=t3513z153|nyp.33433074928833|uc2.ark+=13960=t8sb4349g	Emmanuel Burden, merchantof Thames St. in the City of London, exporter of hardwre	1904	Hilaire Belloc	21	1900
+OL2131947W	4	1	The four men;	1912	0.71	1.0	mdp.39015011684902|njp.32101064787789|uc2.ark+=13960=t7tm7d10f|uc2.ark+=13960=t92807g2s	The four men; a farrago	1900	Hilaire Belloc	24	1900
+OL2132064W	3	2	The mercy of Allah	1922	0.89	1.0	uc2.ark+=13960=t2h70mw0h|mdp.39015008919329|uc2.ark+=13960=t2x34qs5p	Raḥmat Allāh; that is: The mercy of Allah	1922	Hilaire Belloc	24	1920
+OL215736W	3	1	Montlivet	1906	0.89	1.0	mdp.39015005621191|nyp.33433076033947|uc2.ark+=13960=t6d21s11p	Montlivet	1906	Alice Prescott Smith	34	1900
+OL2178935W	6	4	The Grandissimes	1880	0.89	1.0	mdp.39015008798202|uc2.ark+=13960=t7pn8xx18|uc2.ark+=13960=t6sx65984|uc2.ark+=13960=fk2w37kx1m|uva.x000134749|uc1.32106002063169	The Grandissimes	1880	George Washington Cable	28	1880
+OL2243957W	6	5	Adventures in contentment	1922	0.88	1.0	nnc1.1002155575|mdp.39015012295310|mdp.39015030849007|uc2.ark+=13960=t77s7jg68|nyp.33433074790241|nyp.33433074790217	Adventures in Contentment	1907	David Grayson	55	1900
+OL2254108W	2	1	The mansion	1911	0.84	1.0	mdp.39015057075627|uc2.ark+=13960=t3vt1gz5s	The mansion	1911	Henry van Dyke	29	1910
+OL2254110W	3	1	The blue flower	1902	0.83	1.0	njp.32101067486827|nyp.33433076041544|uc1.b3569309	The blue flower	1902	Henry van Dyke	28	1900
+OL2254112W	1	1	The ruling passion;	1901	0.86	0.999	nyp.33433076042260	The ruling passion	1901	Henry van Dyke	33	1900
+OL2254754W	1	1	This way to Christmas	1916	0.79	1.0	mdp.39015011955427	This Way to Christmas	1916	Ruth Sawyer	10	1910
+OL2288674W	2	1	The quest of the sacred slipper	1914	0.88	0.999	nyp.33433075763957|nyp.33433076057391	The Quest of the Sacred Slipper	1914	Sax Rohmer	37	1910
+OL2288675W	1	1	The hand of Fu-Manchu;	1917	0.89	0.998	nyp.33433076057433	The Hand of Fu-Manchu	1917	Sax Rohmer	196	1910
+OL2338350W	1	1	The wind-jammers	1903	0.88	1.0	nyp.33433076083660	The Wind-Jammers	1899	T. Jenkins Hains	14	1890
+OL2338662W	1	1	The Mormon prophet	1899	0.82	1.0	njp.32101068176641	The Mormon prophet	1899	Lily Dougall	20	1890
+OL2339089W	5	3	The men of the Moss Hags	1895	0.89	1.0	mdp.39015063548765|uc2.ark+=13960=t7br8vh9v|nyp.33433074947452|uc2.ark+=13960=t24b32c1d|nyp.33433074949839	The men of the moss-hags	1895	Samuel Rutherford Crockett	37	1890
+OL2340033W	5	2	Moths	1880	0.9	1.0	uiuo.ark+=13960=t15m6pq8n|uiuo.ark+=13960=t58d0cw6w|uiuo.ark+=13960=t77s85r4q|mdp.39015053654946|uc2.ark+=13960=t06w98v9w	Moths	1880	Ouida	11	1880
+OL2340060W	4	1	The lance of Kanana;	1916	0.8	1.0	mdp.39015065525407|mdp.39015066904973|uc1.b4089033|uc2.ark+=13960=t6639m241	The lance of Kanana	1892	Harry W. French	24	1890
+OL2340353W	2	1	Stephen	1896	0.89	1.0	uc2.ark+=13960=t0tq5sz1x|uva.x030796292	Stephen	1896	Florence Morse Kingsley	14	1890
+OL2340360W	1	1	Titus, a comrade of the cross	1895	0.88	1.0	wu.89097993836	Titus	1894	Florence Morse Kingsley	22	1890
+OL2341685W	2	2	The Erie train boy	1900	0.88	1.0	njp.32101067626141|nyp.33433082526041	The Erie Train Boy	1890	Horatio Alger, Jr.	26	1890
+OL2341709W	1	1	Struggling upward, or, Luke Larkin's luck	1890	0.89	1.0	nyp.33433082526223	Struggling upward	1890	Horatio Alger, Jr.	13	1890
+OL2341850W	5	2	The crossing	1903	0.9	1.0	uc2.ark+=13960=fk0000004w|mdp.39015050822843|nyp.33433074812292|nyp.33433074812383|uc2.ark+=13960=t7wm14d0d	The crossing	1903	Winston Churchill	17	1900
+OL2341853W	3	3	The celebrity;	1900	0.88	1.0	uc2.ark+=13960=t0ht2gh7c|uc2.ark+=13960=t49p2xc0f|wu.89004913216	The Celebrity	1897	Winston Churchill	24	1890
+OL2343305W	3	3	Crittenden;	1920	0.89	1.0	mdp.39015043589087|uc2.ark+=13960=t1qf8kg88|uc2.ark+=13960=t90866234	Crittenden, a Kentucky story of love and war	1900	John Fox Jr.	44	1900
+OL2343306W	2	2	"""Hell fer Sartain"""	1900	0.88	0.998	mdp.39015043589061|uc1.b300288	Hell fer Sartain	1897	John Fox Jr.	32	1890
+OL2343314W	8	5	A Cumberland vendetta	1896	0.89	1.0	uc1.b242875|nyp.33433075741235|mdp.39015003676577|uc2.ark+=13960=t9d50hs5n|njp.32101063691024|uc2.ark+=13960=t4xg9h46d|nyp.33433076091184|uc2.ark+=13960=t4kk94v47	A Cumberland vendetta	1896	John Fox Jr.	35	1890
+OL2343320W	3	1	Christmas eve on Lonesome	1904	0.84	1.0	njp.32101063691057|nyp.33433075740773|uc2.ark+=13960=t9765b950	Christmas eve on Lonesome	1904	John Fox Jr.	34	1900
+OL2343322W	2	1	The heart of the hills	1913	0.9	1.0	mdp.39015063549037|uc2.ark+=13960=t03x84h4c	The heart of the hills	1913	John Fox Jr.	36	1910
+OL2343324W	6	5	The Kentuckians ;	1910	0.89	1.0	uc2.ark+=13960=t5j961h6j|mdp.39015003676569|mdp.39015063549359|njp.32101063691032|uc2.ark+=13960=t5q81578w|nyp.33433076091218	The Kentuckians	1898	John Fox Jr.	25	1890
+OL2343424W	3	1	Blackfoot lodge tales;	1892	0.56	0.999	uc1.32106000557105|uc1.b4101968|uc2.ark+=13960=t57d2qj41	Blackfoot Lodge Tales	1892	George Bird Grinnell	26	1890
+OL2343881W	2	2	The hole in the wall	1903	0.89	1.0	uc2.ark+=13960=t9n29vm8j|uc2.ark+=13960=t80k2kt3v	The hole in the wall	1902	Arthur Morrison	17	1900
+OL2343882W	1	1	A child of the Jago	1906	0.84	1.0	pst.000004397137	A child of the Jago	1896	Arthur Morrison	75	1890
+OL2343883W	2	1	Martin Hewitt, investigator	1907	0.87	1.0	uc1.b4105459|uc2.ark+=13960=t54f1zj3g	Martin Hewitt, Investigator	1894	Arthur Morrison	65	1890
+OL2343884W	6	3	Tales of mean streets	1895	0.89	1.0	uc2.ark+=13960=t7qn6bx1s|mdp.39015025821243|mdp.39015031292868|nyp.33433074915194|uc1.b4105460|uc2.ark+=13960=t8v980q5q	Tales of mean streets	1894	Arthur Morrison	26	1890
+OL2344332W	3	2	Nights with Uncle Remus	1911	0.88	1.0	inu.39000005882936|mdp.39015065535026|uc2.ark+=13960=t29883c22	Nights with Uncle Remus	1883	Joel Chandler Harris	22	1880
+OL2344333W	1	1	Uncle Remus, his songs and his sayings	1908	0.85	0.915	uc2.ark+=13960=t9571949g	Uncle Remus, his songs and his sayings	1894	Joel Chandler Harris	20	1890
+OL2344494W	1	1	The wreck of the Titan;	1914	0.83	1.0	mdp.39015002741299	The wreck of the Titan	1914	Robertson, Morgan	6	1910
+OL2345209W	1	1	The log of a sea-waif	1899	0.81	0.999	mdp.39015030852969	The log of a sea-waif	1899	Frank Thomas Bullen	20	1890
+OL2345240W	4	3	From kingdom to colony	1899	0.89	1.0	nyp.33433074811468|uc2.ark+=13960=t2891235w|uc2.ark+=13960=t4wh2h26w|uc2.ark+=13960=t3125qk6q	From kingdom to colony	1899	Mary Devereux	18	1890
+OL2345563W	5	4	In ole Virginia;	1890	0.88	1.0	mdp.39015034584055|uc2.ark+=13960=t2w37m772|nyp.33433071394625|uc1.b3569204|uc1.b4102048	In ole Virginia	1887	Thomas Nelson Page	22	1880
+OL2345590W	2	2	Old rose and silver	1909	0.89	1.0	nyp.33433076049943|uc2.ark+=13960=t0xp6vz9k	Old Rose and Silver	1909	Myrtle Reed	16	1900
+OL2346154W	2	2	Old Chester tales	1919	0.89	1.0	mdp.39015063023678|uc1.b3325429	Old Chester tales	1898	Margaret Wade Campbell Deland	14	1890
+OL2361188W	1	1	On our selection!	1903	0.88	1.0	uc2.ark+=13960=t08w3dk4w	On Our Selection	1903	Steele Rudd	16	1900
+OL239760W	2	2	The watchers of the trails	1904	0.83	0.999	uc2.ark+=13960=t3kw58v27|uc2.ark+=13960=t18k7602h	The watchers of the trails	1904	Charles G. D. Roberts	18	1900
+OL239761W	2	2	Earth's enigmas;	1896	0.89	1.0	mdp.39015035073405|uva.x001892961	Earth's enigmas	1896	Charles G. D. Roberts	20	1890
+OL239763W	5	3	The heart of the ancient wood	1902	0.89	1.0	uc1.b3327168|uc2.ark+=13960=t2r49qs0z|mdp.39015063952207|mdp.39015063953098|uc2.ark+=13960=t0cv4kh8z	The heart of the ancient wood	1900	Charles G. D. Roberts	28	1900
+OL239771W	1	1	Red Fox;	1905	0.79	1.0	mdp.39015063953080	Red fox	1905	Charles G. D. Roberts|Brian Bartlett	17	1900
+OL239773W	3	2	A sister to Evangeline;	1898	0.89	1.0	mdp.39015002718552|uc1.32106001949723|uc2.ark+=13960=t7np1zh5m	A sister to Evangeline	1898	Charles G. D. Roberts	18	1890
+OL240029W	2	1	The shadow of the cathedral;	1919	0.55	1.0	mdp.39015062937027|mdp.39015063056926	The Shadow of the Cathedral	1909	Vicente Blasco Ibáñez	16	1900
+OL240205W	2	1	The prince of India, or, Why Constantinople fell	1893	0.89	1.0	mdp.39015063602521|mdp.39015065779418	The Prince of India, or Why the Constantinople Fell	1893	Lew Wallace	41	1890
+OL240337W	5	1	Celtic fairy tales	1892	0.82	1.0	inu.30000061592568|mdp.39015016866181|nyp.33433068198005|uc2.ark+=13960=t6736mz1d|uva.x000879599	Celtic Fairy Tales	1892	Joseph Jacobs	33	1890
+OL240589W	2	1	The last hope	1904	0.84	1.0	uc1.$b400526|uc2.ark+=13960=t5j963m2s	The Last Hope	1904	Hugh Stowell Scott	34	1900
+OL240590W	6	4	The slave of the lamp	1913	0.89	1.0	uc1.b4105375|uc2.ark+=13960=t1fj2n242|uc2.ark+=13960=t5fb52r9k|umn.31951002132076t|uiuo.ark+=13960=t46q2md0k|uiuo.ark+=13960=t9p27j96c	The slave of the lamp	1891	Hugh Stowell Scott	37	1890
+OL240591W	3	2	The sowers;	1895	0.89	1.0	uc2.ark+=13960=t3kw5dj4t|mdp.39015063949245|uc1.b4110171	The sowers	1895	Hugh Stowell Scott	32	1890
+OL240598W	3	1	In Kedar's tents	1897	0.84	1.0	uc1.b3327364|uc2.ark+=13960=t80k2cr20|uva.x030751012	In Kedar's tents	1897	Hugh Stowell Scott	34	1890
+OL24136W	3	1	The dynamiter	1895	0.89	1.0	njp.32101068604246|uc1.b3331976|uc2.ark+=13960=t35143h3f	The  dynamiter	1885	Robert Louis Stevenson	25	1880
+OL24137W	3	3	The merry men, and other tales and fables	1887	0.88	1.0	uva.x000181295|mdp.39015008934294|mdp.39015008255252	The  merry men, and other tales and fables	1887	Robert Louis Stevenson	20	1880
+OL24140W	4	1	Island nights' entertainments	1917	0.82	1.0	mdp.39015031301073|mdp.39015048898947|uc1.b4104053|uc2.ark+=13960=t9q24357v	Island nights' entertainments	1893	Robert Louis Stevenson	32	1890
+OL24141W	33	3	The works of Robert Louis Stevenson	1904	0.84	1.0	uc1.b4716477|uc1.b4716478|uc1.b4716479|uc1.b3564781|uc1.b3564782|uc1.b3564783|uc1.b3564784|uc1.b3564785|uc1.b3564787|uc1.b3564788|uc1.b3564789|uc1.b3564790|uc1.b3567387|uc1.b3567388|uc1.b3567389|uc2.ark+=13960=t2w38378q|uc2.ark+=13960=t33208q8t|uc2.ark+=13960=t42r45h4b|uc2.ark+=13960=t4zg6zs50|uc2.ark+=13960=t55d95423|uc2.ark+=13960=t9s189r0c|mdp.39015009061345|mdp.39015048900123|uc2.ark+=13960=t01z4f43w|uc2.ark+=13960=t3zs2zq00|uc2.ark+=13960=t50g3wh32|uc2.ark+=13960=t5s75m18c|uc2.ark+=13960=t7sn0dv9x|uva.x000181170|uva.x000181171|uva.x000181172|uva.x000181173|uva.x000181174	The  works of Robert Louis Stevenson	1904	Robert Louis Stevenson	22	1900
+OL24142W	8	3	St. Ives;	1897	0.9	1.0	mdp.39015063961752|uc1.b3331984|uc2.ark+=13960=t2988b585|nyp.33433075752588|uc2.ark+=13960=t57d2w88f|mdp.39015063961760|uc1.b3187734|uc2.ark+=13960=t58d00d3m	St. Ives	1897	Robert Louis Stevenson	44	1890
+OL24144W	5	2	Weir of Hermiston	1896	0.86	1.0	mdp.39015001341497|mdp.39015031301016|uc2.ark+=13960=t9f47m304|nyp.33433076052772|uc1.b4538492	Weir of Hermiston	1896	Robert Louis Stevenson	36	1890
+OL24146W	3	3	The wrecker	1891	0.89	1.0	nnc1.1002389673|uc1.b4102254|mdp.39015063964681	The  wrecker	1892	Robert Louis Stevenson|Lloyd Osbourne	91	1890
+OL24149W	1	1	Prince Otto	1901	0.89	1.0	uc2.ark+=13960=t6rx98g7z	Prince Otto	1885	Robert Louis Stevenson	65	1880
+OL24150W	5	3	The wrong box	1905	0.88	1.0	uva.x000181459|uc2.ark+=13960=t5s759531|nyp.33433075752968|uc1.b4102335|uc2.ark+=13960=t08w3ds14	The  wrong box	1889	Robert Louis Stevenson	41	1880
+OL241578W	2	1	The raiders	1894	0.88	1.0	mdp.39015063551363|uc2.ark+=13960=t0bv7fw25	The raiders, being some passages in the life of John Faa, Lord and Earl of Little Egypt	1893	Samuel Rutherford Crockett|Neil Campbell	23	1890
+OL24158W	3	2	New Arabian nights	1914	0.89	1.0	uc2.ark+=13960=t8nc5wk1f|uva.x000071016|ien.35556007041916	New Arabian Nights	1882	Robert Louis Stevenson	64	1880
+OL24232W	2	1	The man from Brodney's	1908	0.89	1.0	mdp.39015063941481|nyp.33433076081128	The man from Brodney's	1908	George Barr McCutcheon|Harrison Fisher	22	1900
+OL24234W	2	2	Nedra	1905	0.88	1.0	uc2.ark+=13960=t10p0ww68|mdp.39015063941473	Nedra	1905	George Barr McCutcheon	26	1900
+OL24244W	1	1	A fool and his money	1913	0.9	1.0	uc2.ark+=13960=t04x54m99	A fool and his money	1913	George Barr McCutcheon	16	1910
+OL24246W	2	1	Green fancy	1917	0.83	1.0	nyp.33433076075567|uc2.ark+=13960=t22b8vn3r	Green fancy	1917	George Barr McCutcheon	18	1910
+OL24250W	3	1	Castle Craneycrow	1902	0.9	1.0	mdp.39015056877106|mdp.39015063941630|uc2.ark+=13960=t5p847f68	Castle Craneycrow	1902	George Barr McCutcheon	28	1900
+OL24251W	3	2	Her weight in gold	1911	0.86	1.0	uc2.ark+=13960=t6ww77s48|nyp.33433076075559|uc2.ark+=13960=t6d21w68j	Her weight in gold	1911	George Barr McCutcheon|H. Devill Welsh	22	1910
+OL2441349W	1	1	Calvary	1922	0.89	1.0	uc2.ark+=13960=t1mg7jj3c	Le calvaire	1887	Octave Mirbeau|Christine Donougher	33	1880
+OL244890W	1	1	At a winter's fire	1899	0.89	1.0	nyp.33433074935127	At a Winter's Fire	1899	Bernard Capes	21	1890
+OL245953W	7	4	Barabbas	1896	0.9	1.0	uc2.ark+=13960=t6k06z45s|uc1.b3321288|uc2.ark+=13960=t57d2zk9s|ien.35556007012321|uiuo.ark+=13960=t22b9bc59|uiuo.ark+=13960=t7tm7j845|uiuo.ark+=13960=t87h1x13s	Barabbas	1893	Marie Corelli	51	1890
+OL2462434W	1	1	The tenant of Wildfell hall	1922	0.89	1.0	mdp.39015008993712	The Tenant of Wildfell Hall / Agnes Grey	1914	Anne Brontë	14	1910
+OL246364W	2	2	The ne'er-do-well	1911	0.89	1.0	nyp.33433074837356|mdp.39015030855822	The ne'er-do-well	1911	Rex Ellingwood Beach	38	1910
+OL246504W	1	1	The second deluge	1912	0.67	1.0	uc2.ark+=13960=t9h41k936	The Second Deluge	1912	Garrett Putman Serviss	34	1910
+OL247042W	7	3	The bar sinister	1920	0.88	1.0	uc1.b3578352|uc2.ark+=13960=t6f18tr0n|uc1.b3909003|mdp.39015022368180|mdp.39015048712445|nyp.33433074843222|uc1.b3561977	The Bar Sinister	1903	Richard Harding Davis|Winston Churchhill	28	1900
+OL247065W	5	2	The White mice	1909	0.89	1.0	mdp.39015031228037|nyp.33433074843214|uc1.b3325373|uc1.b3561865|uc2.ark+=13960=t9m32pt2n	The White Mice	1909	Richard Harding Davis	29	1900
+OL247071W	3	1	Cinderella, and other stories	1896	0.88	1.0	mdp.39015025367593|mdp.39015031228557|uc1.b249492	Cinderella And Other Stories	1896	Richard Harding Davis	21	1890
+OL247075W	6	4	Soldiers of fortune	1897	0.89	1.0	nyp.33433074845995|uc1.b3325372|uc1.b3578357|uc2.ark+=13960=t9959p11d|nyp.33433074843388|uc2.ark+=13960=t5j960n3g	Soldiers of Fortune	1897	Richard Harding Davis	37	1890
+OL247078W	3	2	The exiles	1894	0.89	1.0	uc1.b3324239|uc1.b3561861|wu.89099779761	The Exiles and Other Stories	1894	Richard Harding Davis	20	1890
+OL247079W	5	3	Captain Macklin	1902	0.89	1.0	mdp.39015051338856|uc2.ark+=13960=t3pv6bf8j|uc2.ark+=13960=t5db7w69s|uc2.ark+=13960=t21c1x26s|pst.000009792036	Captain Macklin	1902	Richard Harding Davis	24	1900
+OL247080W	2	2	The Red cross girl	1913	0.88	1.0	mdp.39015063546231|wu.89099779811	The Red Cross Girl	1912	Richard Harding Davis	20	1910
+OL247081W	3	3	Van Bibber and others	1892	0.89	1.0	mdp.39015031228177|uc1.b3546424|uc2.ark+=13960=t2r49gk1v	Van Bibber and Others	1892	Richard Harding Davis	21	1890
+OL247082W	5	3	The lion and the unicorn	1905	0.88	1.0	mdp.39015011823575|uc2.ark+=13960=t3416t83f|mdp.39015031228243|mdp.39076001816037|uc2.ark+=13960=t6m03zg3g	The Lion and the Unicorn	1899	Richard Harding Davis	26	1890
+OL247086W	3	3	Gallegher	1905	0.89	1.0	mdp.39015063546223|uc2.ark+=13960=t9765b38r|uc1.b3561863	Gallegher and Other Stories	1891	Richard Harding Davis	40	1890
+OL249393W	3	2	Greyfriars Bobby	1912	0.74	1.0	uc2.ark+=13960=t0cv4c542|mdp.39015027550535|nyp.33433082248414	Greyfriars Bobby	1912	Eleanor Atkinson|Aleanor Atkinson|Eleanor Atkins	57	1910
+OL249812W	1	1	The Bittermeads mystery	1922	0.88	0.999	nyp.33433075873137	The Bittermeads Mystery	1922	E. R. Punshon	13	1920
+OL250461W	1	1	Seven little Australians	1912	0.81	0.999	uc2.ark+=13960=t4qj7b035	Seven Little Australians	1912	Ethel Turner	13	1910
+OL255716W	1	1	The mystery of the Boule cabinet;	1912	0.88	1.0	mdp.39015063960531	The Mystery of the Boule Cabinet	1912	Burton Egbert Stevenson	24	1910
+OL255719W	1	1	A soldier of Virginia;	1901	0.85	0.999	uc2.ark+=13960=t6h12vq2x	A Soldier of Virginia	1901	Burton Egbert Stevenson	21	1900
+OL256384W	6	3	Both sides the border	1898	0.89	1.0	mdp.39015073486998|nyp.33433082547096|uc1.b3332207|uc2.ark+=13960=t9f47rv8h|mdp.39015073487020|uc2.ark+=13960=t5m902s1g	Both Sides the Border	1898	G. A. Henty	28	1890
+OL256385W	1	1	Jack Archer	1884	0.89	1.0	nyp.33433082547856	Jack Archer	1880	G. A. Henty	54	1880
+OL256386W	2	1	The young Carthaginian	1887	0.89	1.0	nyp.33433082306063|nyp.33433082547567	The Young Carthaginian	1887	G. A. Henty|William Sutherland Sir|Charles Joseph Staniland	76	1880
+OL256387W	4	1	With Lee in Virginia	1890	0.88	1.0	mdp.39015073480066|mdp.39015073480124|mdp.39015073480876|nc01.ark+=13960=t43r1gf3v	With Lee in Virginia	1890	G. A. Henty	76	1890
+OL261833W	3	2	Dangerous ages	1921	0.89	1.0	uc2.ark+=13960=t1kh0hd22|nyp.33433074875059|uc2.ark+=13960=t3jw89j6c	Dangerous Ages	1921	Rose Macaulay	41	1920
+OL262498W	2	2	Stories of Sherlock Holmes	1904	0.88	1.0	coo.31924012099044|njp.32101068151313	Novels (Sign of Four / Study in Scarlet)	1902	Arthur Conan Doyle	43	1900
+OL262517W	2	1	The Croxley master	1907	0.85	1.0	mdp.39015063573227|uc2.ark+=13960=t3513xh5z	The Croxley Master	1907	Arthur Conan Doyle	21	1900
+OL262583W	1	1	Sir Nigel	1906	0.83	1.0	uva.x000600414	Sir Nigel	1906	Arthur Conan Doyle	99	1900
+OL2635291W	4	1	The golden fleece and the heroes who lived before Achilles	1921	0.84	1.0	mdp.39015024362215|nc01.ark+=13960=t2b869x09|uc1.b4098884|uc2.ark+=13960=t55d8p836	Golden Fleece and the Heroes Who Lived Before Achilles, The	1921	Padraic Colum	54	1920
+OL2635379W	1	1	The king of Ireland's son	1921	0.83	1.0	mdp.39015009156541	The King of Ireland's Son	1916	Padraic Colum|Gerard Doyle Dr	60	1910
+OL2646765W	1	1	Fanny herself	1917	0.88	1.0	uc2.ark+=13960=t2x34q741	Fanny Herself	1917	Edna Ferber	16	1910
+OL2646766W	1	1	Roast beef, medium;	1913	0.88	0.999	mdp.39015002725490	Roast Beef, Medium	1913	Edna Ferber	16	1910
+OL2646771W	4	3	Buttered side down;	1912	0.88	1.0	uc1.32106002106513|uc1.b3122343|uc2.ark+=13960=t84j0cd72|mdp.39015003345280	Buttered Side Down	1912	Edna Ferber	23	1910
+OL267124W	4	1	Sebastopol	1887	0.69	1.0	mdp.39015042016108|nyp.33433068033681|nyp.33433078795451|uc2.ark+=13960=t75t3m587	Sebastopol	1887	Лев Толстой	32	1880
+OL267170W	1	1	Twenty-three tales	1906	0.87	1.0	coo.31924014425056	Twenty-three tales	1906	Лев Толстой	24	1900
+OL2681014W	1	1	The cinema murder	1917	0.89	1.0	nyp.33433074961289	The Cinema Murder	1917	Edward Phillips Oppenheim	43	1910
+OL2681020W	2	1	The profiteers	1921	0.88	1.0	nyp.33433075745004|uc2.ark+=13960=t6m040w5m	The Profiteers	1921	Edward Phillips Oppenheim	50	1920
+OL2681029W	2	2	Peter Ruff and the Double-four	1912	0.89	1.0	uc2.ark+=13960=t7cr65388|nyp.33433075744981	Peter Ruff and the Double Four	1912	Edward Phillips Oppenheim	47	1910
+OL2681030W	1	1	The yellow crayon	1903	0.89	1.0	uc2.ark+=13960=t2s46jt6d	The Yellow Crayon	1903	Edward Phillips Oppenheim	52	1900
+OL2681033W	1	1	The great secret	1907	0.87	0.999	nyp.33433074969027	The Great Secret	1907	Edward Phillips Oppenheim	51	1900
+OL2681034W	2	2	The devil's paw	1920	0.87	1.0	uc2.ark+=13960=t4bp00078|nyp.33433074961750	The Devil's Paw	1920	Edward Phillips Oppenheim	47	1920
+OL2681036W	2	1	The pawns count	1918	0.83	1.0	nyp.33433075744957|uc2.ark+=13960=t9d50j52j	The Pawns Count	1918	Edward Phillips Oppenheim	56	1910
+OL2700645W	1	1	The extra day	1915	0.83	1.0	uc2.ark+=13960=t8cf9mv4w	The Extra Day	1915	Algernon Blackwood	53	1910
+OL2700647W	2	1	The empty house	1915	0.89	1.0	uc1.b3578940|uc2.ark+=13960=t9h41vd2c	The Empty House and Other Ghost Stories	1906	Algernon Blackwood	138	1900
+OL2700648W	1	1	A prisoner in fairyland (the book that 'Uncle Paul' wrote)	1913	0.84	1.0	uva.x030751450	A Prisoner in Fairyland	1913	Algernon Blackwood	76	1910
+OL2700649W	1	1	The human chord	1916	0.84	1.0	njp.32101066164854	The Human Chord	1910	Algernon Blackwood	49	1910
+OL2703163W	3	1	Cattle brands	1906	0.86	1.0	mdp.39015033517015|uc1.b3321792|uc2.ark+=13960=t6736ng8x	Cattle Brands	1906	Andy Adams	16	1900
+OL2703165W	1	1	Wells brothers	1911	0.54	1.0	uc2.ark+=13960=t2f768q56	Wells Brothers	1911	Andy Adams	17	1910
+OL2703166W	1	1	A Texas matchmaker	1904	0.82	1.0	mdp.39015063740461	A Texas Matchmaker	1904	Andy Adams	18	1900
+OL2703167W	2	1	The outlet	1905	0.68	1.0	mdp.39015063740347|uc1.b3578804	The Outlet	1905	Andy Adams	20	1900
+OL2703168W	3	1	The log of a cowboy;	1903	0.66	1.0	nyp.33433082175625|uc1.b3547194|uc2.ark+=13960=t3nv99n37	The log of a cowboy	1903	Andy Adams	31	1900
+OL2729460W	3	1	Children of the market place	1922	0.56	1.0	mdp.39015013443166|mdp.39015030707072|nyp.33433076052095	Children of the Market Place	1922	Edgar Lee Masters	18	1920
+OL27332W	6	4	The bread-winners;	1883	0.9	1.0	uc1.b3862900|mdp.39015035035974|uc2.ark+=13960=t0qr4nx3t|uc1.b4102403|uc2.ark+=13960=fk1dj58h5t|nyp.33433074853239	The bread-winners	1883	John Hay	19	1880
+OL273540W	2	1	The works of Edgar Allan Poe	1903	0.53	1.0	uc2.ark+=13960=t26970w32|uc2.ark+=13960=t78s4kz45	The Works of Edgar Allan Poe in Five Volumes - Volume One (Balloon-Hoax / Four Beasts in One / Gold-Bug / Ms. Found in a Bottle / Murders in the Rue Morgue / Mystery of Marie Roget / Oval Portrait / Unparalleled Adventure of One Hans Pfaall)	1903	Edgar Allan Poe	36	1900
+OL273560W	5	2	The works of Edgar Allan Poe	1903	0.6	1.0	uc2.ark+=13960=t26970w32|uc2.ark+=13960=t78s4kz45|mdp.39015001793689|mdp.39015001793754|mdp.39015008695937	The Works of Edgar Allan Poe in Five Volumes (The Raven Edition)	1903	Edgar Allan Poe	16	1900
+OL276317W	1	1	The awkward age	1908	0.89	1.0	uc2.ark+=13960=t3jw8718s	The awkward age	1899	Henry James	64	1890
+OL276325W	2	1	Confidence	1880	0.9	1.0	mdp.39015001591158|mdp.39015065815667	Confidence	1880	Henry James	28	1880
+OL276365W	4	2	The portrait of a lady	1908	0.85	1.0	uva.x000023136|mdp.39015000527054|mdp.39015005325165|mdp.39015062063469	The Portrait of a Lady	1881	Henry James	432	1880
+OL276379W	3	2	The spoils of Poynton	1897	0.89	1.0	uc2.ark+=13960=t6639m659|uc1.b4698029|uc2.ark+=13960=t41r6nn3w	The spoils of Poynton	1896	Henry James	42	1890
+OL276385W	9	3	The tragic muse	1891	0.9	1.0	uc2.ark+=13960=t1pg1j44t|mdp.39015066681431|mdp.39015066681597|uc1.b4105111|uc1.b4105112|mdp.39015012203561|mdp.39015047636892|uc2.ark+=13960=t0xp6vx0s|uc2.ark+=13960=t3610wv6p	The tragic muse	1890	Henry James	35	1890
+OL276397W	8	2	The wings of the dove	1902	0.89	1.0	nyp.33433076072234|nyp.33433076072242|uc1.b4105108|uc2.ark+=13960=fk04x54f6p|uc1.b4105122|uc1.b4105123|uc2.ark+=13960=fk50g3h853|uc2.ark+=13960=fk8pc2tq9r	The Wings of the Dove	1902	Henry James	60	1900
+OL276409W	3	2	The ivory tower	1917	0.87	1.0	mdp.39015059717820|mdp.39015049493359|uc2.ark+=13960=t4qj78s82	The ivory tower	1900	Henry James	18	1900
+OL276428W	1	1	The lesson of the master, The marriages, The pupil, Brooksmith, The solution, Sir Edmund Orme	1892	0.83	1.0	uva.x001863446	The lesson of the master	1892	Henry James	19	1890
+OL276432W	5	2	The outcry	1911	0.89	1.0	mdp.39015031241063|nyp.33433076065337|uc1.b4105502|uc2.ark+=13960=fk9b56dq3h|uc2.ark+=13960=t80k27j15	The Outcry	1911	Henry James	16	1910
+OL276435W	1	1	The sacred fount	1901	0.9	1.0	uc2.ark+=13960=t3319sx79	The sacred fount	1901	Henry James	28	1900
+OL276466W	3	2	In the cage	1898	0.85	1.0	uc2.ark+=13960=t56d5pq4p|pst.000002028965|uc2.ark+=13960=t4vh5dd3h	In the cage	1898	Henry James	24	1890
+OL276467W	4	2	The reverberator	1922	0.89	1.0	mdp.39015047637767|mdp.39015019191363|nyp.33433082294889|uc1.$b441030	The Reverberator	1888	Henry James	30	1880
+OL2775805W	2	1	Just David	1916	0.89	0.999	nyp.33433076059637|uc2.ark+=13960=t3125qn73	Just David	1916	Eleanor Hodgman Porter	26	1910
+OL278135W	3	1	The house with the mezzanine, &. other stories	1917	0.89	1.0	mdp.39015004982362|mdp.39015007058475|mdp.49015000493636	The House With The Mezzanine and Other Stories [7 stories]	1917	Антон Павлович Чехов	31	1910
+OL278143W	5	4	The darling	1917	0.88	1.0	uc2.ark+=13960=t3pv6f86k|nyp.33433067269823|uc2.ark+=13960=t8pc2xf8m|mdp.39015003451401|uc1.b4084534	The Darling and Other Stories [10 stories]	1916	Антон Павлович Чехов	43	1910
+OL278146W	5	3	The party, and other stories	1917	0.85	1.0	uc1.32106001600045|uc2.ark+=13960=t02z19b52|uc2.ark+=13960=t8z89ck4z|mdp.39015003533059|uc1.b4084451	The party and other stories [11 stories]	1917	Антон Павлович Чехов|Constance Black Garnett	37	1910
+OL27834207W	1	1	The return of the soldier	1918	0.82	1.0	mdp.39015008846985	The Return of the Soldier	1918	Rebecca West	95	1910
+OL2844076W	1	1	Sowing seeds in Danny	1908	0.88	1.0	uc2.ark+=13960=t6f18ts5h	Sowing seeds in Danny	1908	Nellie L. McClung	17	1900
+OL28612W	1	1	The quest of the silver fleece;	1911	0.84	1.0	mdp.39015031233243	The quest of the silver fleece	1911	W. E. B. Du Bois|H. S. De Lay|Herbert Aptheker	40	1910
+OL288933W	3	2	Foma Gordyeeff	1906	0.89	1.0	uc1.b4087032|uc2.ark+=13960=t49p36v3v|uc2.ark+=13960=t1vd6w348	Фома Гордеев	1901	Максим Горький	21	1900
+OL289026W	5	1	Creatures that once were men	1918	0.79	1.0	mdp.39015003535674|mdp.39015005605053|mdp.39015011029645|mdp.49015000495839|uc2.ark+=13960=t5p84b66c	Creatures That Once Were Men	1905	Максим Горький|J. M. Shirazi|Gilbert Keith Chesterton	47	1900
+OL2895523W	2	1	The watcher and other weird stories	1894	0.88	1.0	uc1.b3324575|uc2.ark+=13960=t6k075m3z	The Watcher and Other Weird Stories	1894	Sheridan Le Fanu	9	1890
+OL2895544W	5	1	The Purcell papers	1880	0.89	1.0	uc1.b250124|uc1.b250125|uc1.b250126|uiuo.ark+=13960=t2j681j7c|uiuo.ark+=13960=t44q8gh1d	The Purcell Papers	1880	Sheridan Le Fanu|Alfred Perceval Graves	57	1880
+OL2904831W	3	2	"Corporal Si Klegg and his ""pard"""	1898	0.89	1.0	loc.ark+=13960=t5v69vz47|uc1.b3548177|uc2.ark+=13960=t9f47sc4q	"Corporal Si Klegg and his ""pard"""	1887	Wilbur F. Hinman|George Y. Coffin|Richard Hooker Wilmer - undifferentiated	19	1880
+OL2921108W	3	1	The middle five	1900	0.89	1.0	nyp.33433081690798|uc1.b263211|uc2.ark+=13960=fk6930p907	The Middle Five	1900	Francis La Flesche	17	1900
+OL29313W	4	2	Susan Lenox	1917	0.9	1.0	mdp.39015059378169|mdp.39015059378276|nnc1.0022671838|nnc1.0022671846	Susan Lenox	1917	David Graham Phillips	36	1910
+OL29330W	1	1	The price she paid	1912	0.9	1.0	uc1.$b358690	The Price She Paid	1912	David Graham Phillips	16	1910
+OL29331W	2	1	The conflict;	1911	0.83	1.0	mdp.39015000545445|nyp.33433076049331	The Conflict	1911	David Graham Phillips	17	1910
+OL29332W	3	2	The fashionable adventures of Joshua Craig;	1909	0.89	1.0	nyp.33433076049034|mdp.39015063946282|uc2.ark+=13960=t21c1tv8t	The fashionable adventures of Joshua Craig	1909	David Graham Phillips	17	1900
+OL29334W	1	1	The cost	1904	0.89	1.0	nyp.33433076049141	The Cost	1904	David Graham Phillips	21	1900
+OL29335W	3	2	The grain of dust;	1912	0.9	1.0	uc1.b4103057|uc2.ark+=13960=t6445k11x|nyp.33433076049018	The Grain of Dust	1911	David Graham Phillips	22	1910
+OL29336W	2	1	The deluge	1905	0.89	1.0	mdp.39015058573703|nyp.33433076049505	The Deluge	1905	David Graham Phillips	22	1900
+OL2981506W	1	1	Looking backward, 2000-1887	1888	0.9	1.0	dul1.ark+=13960=t66401k8k	Looking Backward, 2000-1887	1888	Edward Bellamy	68	1880
+OL2986877W	3	1	The sky pilot in No man's land	1919	0.89	1.0	mdp.39015059407935|nyp.33433082485537|uc2.ark+=13960=t1sf2nv4f	The Sky Pilot in No Man's Land	1919	Ralph Connor	20	1910
+OL2986878W	3	1	The major	1917	0.86	1.0	mdp.39015063549607|nyp.33433074864442|uc2.ark+=13960=t4rj4bj8x	The Major	1917	Ralph Connor	21	1910
+OL2986879W	2	1	The man from Glengarry;	1901	0.89	1.0	mdp.39015012342070|uc2.ark+=13960=t28913c1z	The man from Glengarry	1901	Ralph Connor	26	1900
+OL2986880W	4	3	The prospector	1904	0.9	1.0	nyp.33433074856398|uc2.ark+=13960=t75t3hz6b|mdp.39015056199717|uc2.ark+=13960=t26972107	The Prospector	1901	Ralph Connor	27	1900
+OL2986881W	6	2	The sky pilot;	1899	0.89	1.0	mdp.39015059378094|mdp.39015066623300|uc1.b298809|uc2.ark+=13960=t35140t37|nyp.33433074860002|uc2.ark+=13960=t13n2599r	The sky pilot	1899	Ralph Connor	30	1890
+OL3037867W	4	1	Men in war	1918	0.8	1.0	mdp.39015022185501|nyp.33433082485388|uc1.b4084775|uc2.ark+=13960=t21c1xb8b	Men in War	1918	Andreas Latzko	18	1910
+OL3045976W	1	1	Pointed roofs	1919	0.82	0.996	nyp.33433075872352	Pointed Roofs. Pilgrimage	1915	Dorothy Richardson	42	1910
+OL3045983W	4	2	Backwater	1917	0.84	1.0	uc1.b3047254|uc2.ark+=13960=t5r787t41|mdp.39015002715038|nyp.33433075872337	Backwater	1916	Dorothy Richardson	22	1910
+OL3045986W	3	3	Honeycomb	1917	0.89	1.0	coo.31924013216837|uc2.ark+=13960=t38053k96|nyp.33433075872345	Honeycomb	1917	Dorothy Richardson	15	1910
+OL3046320W	3	2	The northern iron	1907	0.89	1.0	mdp.39015063918992|uc2.ark+=13960=t4pk0fj4f|njp.32101066122746	The northern iron	1907	George A. Birmingham	20	1900
+OL3101115W	1	1	You know me Al	1916	0.74	1.0	uc2.ark+=13960=t9p26r87h	You know me Al	1916	Ring Lardner	15	1910
+OL3121033W	3	2	Heralds of empire;	1902	0.85	1.0	uc2.ark+=13960=t2v40t68z|uc1.b2798387|uc2.ark+=13960=t0gt5gc01	Heralds of empire	1902	Agnes C. Laut	35	1900
+OL3142697W	1	1	Maria Chapdelaine;	1922	0.82	0.999	mdp.39015065818422	Maria Chapdelaine	1916	Louis Hémon	43	1910
+OL31747412W	2	1	The silence of Colonel Bramble	1920	0.79	0.967	uc2.ark+=13960=t9c53k26c|uva.x000476704	Les silences du colonel Bramble	1900	André Maurois|Pablo Ruiz|Thurfrida Wake|Wilfrid Jackson	56	1900
+OL3192164W	2	1	Three elephant power, and other stories	1917	0.81	1.0	mdp.39015031298568|uc2.ark+=13960=t9z03c04k	Three elephant power, and other stories	1917	Andrew Barton 'Banjo' Paterson	25	1910
+OL3194212W	2	2	Bar-20	1907	0.89	1.0	uc2.ark+=13960=t7np1xw4n|mdp.39015017961411	Bar-20	1907	Clarence Edward Mulford|Robert Banis	12	1900
+OL3219242W	2	1	Captain Jinks, hero	1902	0.84	1.0	mdp.39015073389861|uc2.ark+=13960=t9862c131	Captain Jinks, hero	1902	Ernest Howard Crosby	38	1900
+OL3389028W	3	3	The secret glory	1922	0.57	1.0	uc2.ark+=13960=t3vt1kk2n|uc2.ark+=13960=t9w092r89|uc1.b3581515	The secret glory	1922	Arthur Machen	39	1920
+OL345046W	1	1	Selected English short stories (nineteenth century)	1920	0.77	1.0	mdp.39015019108615	Selected English Short Stories (Nineteenth Century)	1914	Walker, Hugh|Sir Walter Scott|Charles Lamb|Washington Irving|Nathaniel Hawthorne|Benjamin Disraeli|Edgar Allan Poe|Elizabeth Cleghorn Gaskell|John Brown|Charles Dickens|Anthony Trollope|George Meredith|W.H. White|William Morris|Richard Garnett|F.B. Miggles Harte|Robert Louis Stevenson|George Gissing|Mary Elizabeth Coleridge|Hubert Crackenthorpe|Hugh Walker|Hugh (ed.) Walker|Hugh (introduction) Walker	20	1910
+OL3468649W	4	1	New chronicles of Rebecca	1907	0.88	1.0	mdp.39015011418103|nyp.33433076062060|uc1.b4102534|uc2.ark+=13960=t3fx74440	New chronicles of Rebecca	1906	Kate Douglas Smith Wiggin	14	1900
+OL3468651W	2	1	The birds' Christmas carol	1912	0.75	0.999	uc2.ark+=13960=t92806708|uva.x000490928	The Birds' Christmas Carol	1889	Kate Douglas Smith Wiggin	24	1880
+OL3468652W	4	2	Rebecca of Sunnybrook Farm	1904	0.89	1.0	mdp.39015017929921|uc1.b3549033|uc2.ark+=13960=t79s1mz76|uva.x001179325	Rebecca of Sunnybrook Farm	1903	Kate Douglas Smith Wiggin	31	1900
+OL3472207W	2	1	Sampson Rock, of Wall street;	1907	0.9	1.0	mdp.39015039343259|nyp.33433076090020	Sampson Rock of Wall Street (Fraser Contrary Opinion Library Book)	1907	Edwin Lefèvre	15	1900
+OL3484418W	3	1	The child of the dawn	1912	0.8	1.0	mdp.39015031224473|nyp.33433074926670|uc2.ark+=13960=t21c1wt29	The Child of the Dawn	1912	Arthur Christopher Benson	16	1910
+OL3527275W	3	2	Aunt Jane of Kentucky	1907	0.87	1.0	mdp.39015059431042|uc2.ark+=13960=t13n20m0c|nyp.33433076022809	Aunt Jane of Kentucky	1907	Eliza Calvert Hall	18	1900
+OL3528747W	1	1	Reginald in Russia, and other sketches	1910	0.87	1.0	mdp.39015019950834	Reginald in Russia and Other Sketches	1910	Saki	20	1910
+OL3528790W	2	1	When William came;	1914	0.86	1.0	mdp.39015004974807|uc2.ark+=13960=t59c6sn1j	When William Came	1914	Saki	32	1910
+OL3528803W	2	1	Reginald	1922	0.88	1.0	mdp.39015019950826|nyp.33433074922208	Reginald	1904	Saki	22	1900
+OL3581436W	2	1	Tom Swift and his air glider;	1912	0.82	1.0	nyp.33433082525795|uc2.ark+=13960=t3fx74t5f	Tom Swift and His Air Glider	1912	Victor Appleton	16	1910
+OL3581437W	1	1	Tom Swift and his air scout	1919	0.89	0.999	uc2.ark+=13960=t77s7jz6j	Tom Swift and His Air Scout	1919	Victor Appleton	16	1910
+OL3581438W	1	1	Tom Swift and his wireless message	1911	0.88	0.997	uc2.ark+=13960=t8cf9kp9n	Tom Swift and His Wireless Message	1911	Victor Appleton	19	1910
+OL3581439W	2	1	Tom Swift and his airship	1910	0.89	1.0	nyp.33433082525787|uc2.ark+=13960=t4cn6zx95	Tom Swift and His Airship	1910	Howard Roger Garis	24	1910
+OL3686123W	4	2	Dariel	1897	0.9	1.0	nyp.33433074940804|uc1.b112634|uc2.ark+=13960=t3ws8x26m|uc2.ark+=13960=t4pk09d21	Dariel, a romance of Surrey, with drawings by Chris Hammond	1897	R. D. Blackmore	21	1890
+OL3686142W	8	5	Mary Anerley;	1913	0.9	1.0	uc2.ark+=13960=t58c9zp3v|wu.89099908741|mdp.39015030851755|mdp.39015030851763|mdp.39015030851771|uc1.b249618|uc2.ark+=13960=t3513xj3f|nnc1.cu54759919	Mary Anerley, a Yorkshire tale	1880	R. D. Blackmore	40	1880
+OL3686144W	1	1	Slain by the Doones	1895	0.84	1.0	njp.32101067707446	Slain by the Doones, and other stories	1886	R. D. Blackmore	18	1880
+OL3686152W	5	3	Springhaven	1887	0.89	1.0	uc2.ark+=13960=t2z321j88|uc2.ark+=13960=t47p96h0k|uc2.ark+=13960=t87h1t00n|njp.32101067707453|uc1.b3322426	Springhaven.  A Tale of the Great War	1880	R. D. Blackmore	55	1880
+OL3686166W	4	2	Perlycross	1894	0.9	1.0	uc2.ark+=13960=t9765j88g|mdp.39015026502982|uc1.b249566|uc2.ark+=13960=t6j09zz4w	Perlycross	1894	R. D. Blackmore	18	1890
+OL3739410W	1	1	Philip Steele of the Royal Northwest mounted police	1911	0.88	1.0	nyp.33433074846365	Philip Steele of the Royal Northwest Mounted Police	1911	James Oliver Curwood	14	1910
+OL3739411W	1	1	The wolf hunters	1908	0.89	1.0	uc2.ark+=13960=t21c1vk6p	The Wolf Hunters	1908	James Oliver Curwood	14	1900
+OL3739413W	1	1	The gold hunters	1909	0.89	0.999	uc2.ark+=13960=t4wh2dw0h	The Gold Hunters	1909	James Oliver Curwood	14	1900
+OL3739415W	3	1	The grizzly king	1918	0.88	1.0	mdp.39015063545324|nyp.33433074840681|uc2.ark+=13960=t09w0d606	The Grizzly King	1916	James Oliver Curwood	15	1910
+OL3739416W	1	1	The honor of the big snows	1911	0.88	1.0	nyp.33433074846373	The Honor of the Big Snows	1911	James Oliver Curwood	29	1910
+OL3739419W	2	1	Kazan	1914	0.89	1.0	mdp.39015005386282|uc2.ark+=13960=t7gq6sz2m	Kazan	1914	James Oliver Curwood	17	1910
+OL3739420W	1	1	Nomads of the North	1919	0.89	1.0	uc2.ark+=13960=t48p5xw00	Nomads of the North	1919	James Oliver Curwood	20	1910
+OL3739422W	4	2	The flaming forest;	1921	0.89	1.0	nyp.33433074840665|uc1.b4097817|njp.32101064788340|uc2.ark+=13960=t2794118v	The Flaming Forest	1920	James Oliver Curwood	22	1920
+OL3739423W	3	2	Baree	1917	0.89	1.0	mdp.49015000668443|mdp.39015063545050|uc2.ark+=13960=t6057f53w	Baree, Son of Kazan	1917	James Oliver Curwood	22	1910
+OL380242W	2	1	The pool in the desert	1903	0.83	1.0	nnc1.cu58309926|uc2.ark+=13960=t0sq8rs70	The Pool in the Desert	1903	Sara Jeannette Duncan	22	1900
+OL38634W	3	2	An outcast of the islands	1920	0.89	1.0	uva.x000098172|uc1.b3321995|uc2.ark+=13960=t0qr4wv0c	An outcast of the islands	1896	Joseph Conrad	67	1890
+OL3863781W	3	2	The secret battle	1919	0.86	1.0	uc2.ark+=13960=t0vq2vj8x|mdp.39015018598444|uc2.ark+=13960=t9t14xm19	The secret battle	1919	Alan Patrick Herbert|Winston Churchill - undifferentiated|John Terraine	29	1910
+OL3863928W	1	1	The splendid spur;	1914	0.89	1.0	uc2.ark+=13960=t3xs5q29r	The splendid spur, being memoirs of the adventures of Mr. John Marvel, a servant of His late Majesty King Charles I., in the years 1642-3	1889	Arthur Quiller-Couch|Q	46	1880
+OL3863960W	2	1	The laird's luck	1901	0.89	1.0	mdp.39015063946498|nyp.33433075874804	The Laird's luck	1901	Arthur Quiller-Couch	58	1900
+OL3863975W	3	2	The ship of stars;	1899	0.89	1.0	uc1.b3325725|nyp.33433075873228|uc2.ark+=13960=t1cj8d33s	The ship of stars	1899	Arthur Quiller-Couch	28	1890
+OL3863978W	3	2	The blue pavilions	1891	0.82	1.0	uc1.b4104140|uc2.ark+=13960=t6930tw2t|nyp.33433075873038	The blue pavilions	1891	Arthur Quiller-Couch	27	1890
+OL3863980W	1	1	Old fires and profitable ghosts;	1900	0.83	1.0	uc2.ark+=13960=t8z899881	Old fires and profitable ghosts	1900	Arthur Quiller-Couch	19	1900
+OL3863983W	6	3	True Tilda	1909	0.89	1.0	mdp.39015063946472|nyp.33433075873079|uc2.ark+=13960=t2s46nq1w|uc1.b4102810|uc2.ark+=13960=t5z60pw8q|uc2.ark+=13960=t77s7rn5h	True Tilda	1909	Arthur Quiller-Couch	21	1900
+OL3863992W	6	2	Fort Amity	1904	0.89	1.0	mdp.39015063946217|uc1.b3327635|uc2.ark+=13960=t2k64k49c|uc2.ark+=13960=t9668hk5g|njp.32101065703736|uc2.ark+=13960=t1fj2d54h	Fort Amity	1904	Arthur Quiller-Couch	35	1900
+OL3863995W	4	2	Hetty Wesley	1908	0.85	1.0	uc2.ark+=13960=t7pn93h96|mdp.39015002713363|nyp.33433075874812|uc2.ark+=13960=t51g0sk4c	Hetty Wesley	1903	Arthur Quiller-Couch	33	1900
+OL38740W	3	2	Tales of unrest	1898	0.89	1.0	nyp.33433074942909|uc1.b3582599|uc2.ark+=13960=t8cf9tz8n	Tales of unrest	1898	Joseph Conrad	34	1890
+OL38763W	2	1	Victory	1921	0.88	1.0	mdp.49015000941907|uc2.ark+=13960=t4qj7mg7p	Victory	1915	Joseph Conrad	146	1910
+OL38771W	3	1	Within the tides	1916	0.89	1.0	mdp.39015030742939|uc1.b3325360|uc2.ark+=13960=t1cj8gv9c	Within the tides	1915	Joseph Conrad	46	1910
+OL38778W	1	1	Youth	1903	0.84	1.0	uc2.ark+=13960=t23b68929	Youth	1900	Joseph Conrad	55	1900
+OL38815W	4	2	The nigger of the Narcissus	1921	0.89	1.0	uc1.b3582843|uc2.ark+=13960=t9m32z401|mdp.39015010701590|mdp.39015038916741	"The nigger of the ""Narcissus"""	1897	Joseph Conrad	93	1890
+OL38837W	1	1	The secret rose	1897	0.89	1.0	uc1.b4101692	The secret rose	1897	William Butler Yeats	22	1890
+OL38932W	2	2	Falk	1903	0.89	1.0	nyp.33433064528791|mdp.39015066173447	Three Stories (Falk / Amy Foster / To-morrow)	1903	Joseph Conrad	26	1900
+OL39008W	2	1	'Twixt land and sea	1912	0.89	1.0	mdp.39015016879820|uva.x000939353	'Twixt land and sea	1912	Joseph Conrad	57	1910
+OL3901446W	2	1	A marriage under the terror	1910	0.89	1.0	nyp.33433075767438|uc2.ark+=13960=t3bz6567s	A Marriage Under the Terror	1910	Patricia Wentworth	43	1910
+OL39059W	1	1	Romance	1904	0.83	1.0	nc01.ark+=13960=t28925t0h	Romance	1900	Joseph Conrad|Ford Madox Ford	58	1900
+OL39075W	2	2	A set of six	1920	0.88	0.999	mdp.39015008642657|uc2.ark+=13960=t2c82hq3b	A set of six	1908	Joseph Conrad	44	1900
+OL39081W	3	2	The rescue	1920	0.89	1.0	uc1.b3321998|mdp.39015005010809|nyp.33433074942958	The rescue	1920	Joseph Conrad	64	1920
+OL39084W	3	2	The arrow of gold;	1921	0.89	1.0	uc2.ark+=13960=t8nc5wm88|uc1.b3321994|uc2.ark+=13960=t1bk1dq94	The arrow of gold	1919	Joseph Conrad	51	1910
+OL39093W	2	2	Chance	1914	0.89	1.0	mdp.39015030727054|mdp.39015008040225	Chance	1913	Joseph Conrad	62	1910
+OL39096W	3	1	The mirror of the sea	1906	0.61	1.0	inu.32000005571718|loc.ark+=13960=t3cz42508|uc2.ark+=13960=t4bp00561	The mirror of the sea	1906	Joseph Conrad	61	1900
+OL3928283W	4	3	When knighthood was in flower;	1898	0.88	1.0	mdp.39015004288133|nyp.33433076051303|uc1.b3550216|uva.x004198712	When knighthood was in flower	1898	Charles Major	21	1890
+OL39284W	2	1	Lad: a dog	1919	0.89	1.0	uc1.b4087201|uc2.ark+=13960=t54f1nc40	Lad, a dog	1919	Albert Payson Terhune	12	1910
+OL39520W	1	1	Monday or Tuesday	1921	0.8	1.0	mdp.39015001800351	Monday or Tuesday	1921	Virginia Woolf	14	1920
+OL3956094W	1	1	Don Tarquinio	1905	0.85	0.999	uc2.ark+=13960=t7xk8992q	Don Tarquinio: a kataleptic phantasmatic romance	1905	Frederick William Rolfe	16	1900
+OL4028515W	4	1	The Charles men	1920	0.82	1.0	mdp.39015005600187|mdp.39015005600195|uc2.ark+=13960=t7tm75f4v|uc2.ark+=13960=t85h7gc8z	Karolinerna	1897	Verner von Heidenstam	17	1890
+OL4072351W	1	1	The Bobbsey twins on a houseboat	1915	0.83	1.0	nyp.33433082332044	The Bobbsey Twins on a Houseboat	1915	Laura Lee Hope	29	1910
+OL4072355W	1	1	The Bobbsey twins on Blueberry Island	1917	0.83	1.0	nyp.33433082332077	The Bobbsey Twins on Blueberry Island	1917	Laura Lee Hope	22	1910
+OL4072532W	1	1	The outdoor girls at Rainbow Lake	1913	0.89	1.0	nyp.33433082344916	The Outdoor Girls at Rainbow Lake: Or, The Stirring Cruise of the Motor Boat Gem	1913	Laura Lee Hope	15	1910
+OL4072555W	1	1	The moving picture girls at Oak Farm, or, Queer happenings while taking rural plays	1914	0.89	1.0	nyp.33433082344882	The Moving Picture Girls at Oak Farm	1914	Laura Lee Hope	14	1910
+OL4072557W	1	1	The Outdoor Girls in army service, or, Doing their bit for the soldier boys	1918	0.87	1.0	nyp.33433082333216	The Outdoor Girls in army service, or, Doing their bit for the soldier boys	1918	Laura Lee Hope	16	1910
+OL4072575W	1	1	The outdoor girls at the Hostess House ;	1919	0.89	0.999	uc2.ark+=13960=t50g3m16x	The Outdoor Girls at the Hostess House	1919	Laura Lee Hope	17	1910
+OL4072582W	1	1	The story of a nodding donkey	1921	0.85	1.0	nyp.33433082354204	The Story of a Nodding Donkey	1921	Laura Lee Hope	13	1920
+OL4072588W	1	1	The Bobbsey twins in a great city	1917	0.88	1.0	nyp.33433082305636	The Bobbsey Twins in a Great City	1917	Laura Lee Hope	19	1910
+OL4072597W	2	1	The Bobbsey twins in the great west	1920	0.88	1.0	nyp.33433082305628|uva.x000677513	The Bobbsey Twins in the Great West	1920	Laura Lee Hope	26	1920
+OL4072599W	1	1	The Bobbsey twins at school	1913	0.83	1.0	nyp.33433082332028	The Bobbsey Twins at School	1913	Laura Lee Hope	37	1910
+OL4072600W	1	1	The Bobbsey twins at Snow Lodge	1913	0.89	0.983	mdp.39076002195167	The Bobbsey Twins at Snow Lodge	1903	Laura Lee Hope	26	1900
+OL4072602W	1	1	The Bobbsey twins in Washington	1919	0.88	1.0	nyp.33433082344874	The Bobbsey Twins in Washington	1919	Laura Lee Hope	22	1910
+OL4072603W	1	1	The Bobbsey twins at Meadow Brook	1915	0.82	1.0	nyp.33433082332036	The Bobbsey Twins at Meadow Brook	1915	Laura Lee Hope	28	1910
+OL4072605W	1	1	The Bobbsey twins at the seashore	1907	0.88	1.0	nyp.33433082332010	The Bobbsey Twins at the Seashore	1907	Laura Lee Hope	38	1900
+OL40946456W	3	1	Three men on wheels	1900	0.89	1.0	mdp.39015011581371|uc1.b3820252|uc2.ark+=13960=t0ft8f10z	Three Men on the Bummel	1900	Jerome Klapka Jérôme	312	1900
+OL413435W	30	2	The man that corrupted Hadleyburg, and other stories and essays	1917	0.89	1.0	mdp.39015005394526|nyp.33433074842406|uc1.$b557622|uc1.$b557623|uc1.b3548382|uc1.b3548383|uc1.b3548384|uc1.b3548385|uc1.b3548386|uc1.b3548387|uc1.b3548388|uc1.b3548389|uc1.b3548390|uc1.b3548391|uc1.b3548392|uc1.b3548393|uc1.b3548394|uc1.b3548395|uc1.b3548396|uc1.b3548397|uc1.b3548398|uc1.b3548399|uc1.b3548400|uc1.b3548401|uva.x000313458|uva.x000313463|uva.x000498588|uva.x000944273|uva.x004123000|uva.x004466903	The man that corrupted Hadleyburg and other essays and stories (17 works)	1899	Mark Twain	15	1890
+OL413631W	39	1	The writings of Mark Twain [pseud.]	1899	0.89	1.0	mdp.49015000484999|mdp.49015002157239|mdp.49015002157247|mdp.49015002157262|mdp.49015002157270|mdp.49015002157288|mdp.49015002157296|mdp.49015002157304|mdp.49015002157320|mdp.49015002157338|mdp.49015002157346|mdp.49015002157353|mdp.49015002157361|mdp.49015002157379|mdp.49015002157387|mdp.49015002157395|mdp.49015002157403|mdp.49015002157411|mdp.49015002157429|mdp.49015002157437|mdp.49015002426469|njp.32101068149739|njp.32101068149747|njp.32101068149754|njp.32101068150018|njp.32101068150026|njp.32101068150034|njp.32101068150042|njp.32101068150059|njp.32101068150067|njp.32101068150075|njp.32101068150083|njp.32101068150091|njp.32101068150109|njp.32101068150117|njp.32101068150125|uc1.b4719528|uc1.b4719538|uc1.b4719542	Roughing It in two volumes. 2/2	1899	Mark Twain	22	1890
+OL42378W	1	1	Her father's daughter	1921	0.89	1.0	nyp.33433076059157	Her Father's Daughter	1921	Gene Stratton-Porter	16	1920
+OL42379W	3	1	A daughter of the land	1918	0.89	1.0	mdp.39015020087865|nyp.33433076059165|uc2.ark+=13960=t9w08x24c	A Daughter of the Land	1918	Gene Stratton-Porter	25	1910
+OL42380W	2	2	Laddie	1913	0.9	1.0	mdp.39015024235080|nyp.33433076059140	Laddie	1913	Gene Stratton-Porter	28	1910
+OL42381W	2	2	The song of the cardinal	1915	0.87	1.0	uc2.ark+=13960=t4xg9fn1w|uc2.ark+=13960=fk3jw86s1r	The Song of the Cardinal	1903	Gene Stratton-Porter	25	1900
+OL42382W	4	2	Michael O'Halloran	1916	0.9	1.0	mdp.39015065815659|uc2.ark+=13960=t4zg6hs06|mdp.39015033609374|nyp.33433076059132	Michael O'Halloran	1915	Gene Stratton-Porter	26	1910
+OL42383W	3	2	The harvester	1911	0.9	1.0	uc2.ark+=13960=t5n874k55|nyp.33433075873640|uc1.b4103059	The Harvester	1911	Gene Stratton-Porter	34	1910
+OL42385W	3	2	At the foot of the rainbow	1916	0.8	1.0	nyp.33433075873384|inu.30000011846866|uc2.ark+=13960=t73t9f02p	At the Foot of the Rainbow	1907	Gene Stratton-Porter	37	1900
+OL4315764W	2	1	The heavenly twins	1893	0.9	1.0	mdp.39015004288059|nyp.33433074864699	The Heavenly Twins	1893	Sarah Grand	17	1890
+OL43358W	5	2	Dream tales and prose poems	1906	0.88	1.0	uc1.b3981859|uc2.ark+=13960=t1hh6p464|uva.x000673981|uc1.32106001598496|uc1.b3962145	Dream Tales and Prose Poems	1897	Ivan Sergeevich Turgenev	21	1890
+OL43359W	4	4	The diary of a superfluous man	1899	0.9	1.0	uc1.b3961966|uc2.ark+=13960=t4hm5930q|uc2.ark+=13960=t6833vm9v|uc1.l0061262135	Dnevnik lishnego cheloveka	1899	Ivan Sergeevich Turgenev	28	1890
+OL43365W	5	3	Rudin	1900	0.86	1.0	uc2.ark+=13960=t39028h63|uc1.b3961992|uc2.ark+=13960=t39z99d4h|uc1.b3962030|uc2.ark+=13960=t8v98931f	Rudin	1894	Ivan Sergeevich Turgenev	48	1890
+OL43675W	4	1	Gaston de Latour;	1896	0.89	1.0	coo.31924013532498|mdp.39015000541980|nyp.33433075749634|uc2.ark+=13960=t9h41n594	Gaston De Latour-An Unfinished Romance	1896	Walter Pater	42	1890
+OL4429569W	3	2	Children of the dead end;	1914	0.89	1.0	uc2.ark+=13960=t9c53g23p|mdp.39015025935969|uc2.ark+=13960=t2r49hk6p	Children of the dead end	1914	Patrick MacGill|Patrick MacGill	15	1910
+OL4458107W	2	1	Consequences	1919	0.89	1.0	mdp.39015010695024|uc2.ark+=13960=t6b27sg15	Consequences	1919	E. M. Delafield	17	1910
+OL4470514W	1	1	Mystery at Geneva;	1922	0.8	1.0	uc2.ark+=13960=t9h41nk9h	Mystery at Geneva	1922	Rose Macaulay	20	1920
+OL44922W	2	1	A changed man	1913	0.8	1.0	mdp.39015025813778|nyp.33433074852603	Short stories	1913	Thomas Hardy	23	1910
+OL44984W	3	3	A group of noble dames	1891	0.89	1.0	nyp.33433074851142|uc2.ark+=13960=t7np22w0r|uva.x000336288	A group of Noble Dames	1891	Thomas Hardy	55	1890
+OL44986W	3	1	Jude the obscure	1895	0.9	1.0	mdp.39015013406494|uc1.32106001938080|uc1.b4380732	Jude the Obscure	1895	Thomas Hardy	425	1890
+OL44989W	4	1	The well-beloved;	1897	0.89	1.0	mdp.39015005277879|nyp.33433074852611|uc1.b3578734|uc1.b4105007	The well-beloved	1897	Thomas Hardy	71	1890
+OL44993W	2	1	The trumpet-major, John Loveday	1905	0.89	1.0	mdp.39015065524905|uva.x004854920	The Trumpet-Major, and Robert His Brother	1880	Thomas Hardy	122	1880
+OL455300W	2	1	In colonial days	1906	0.75	1.0	nyp.33433076087760|uc1.b3549051	In Colonial Days	1906	Nathaniel Hawthorne|Frank Merrill|Frank T. Merrill	18	1900
+OL455577W	2	1	The Dolliver romance	1883	0.79	1.0	uc1.b3863249|uc2.ark+=13960=t2f768j5z	The Dolliver Romance; Fanshawe; And Septimius Felton; With An Appendix Containing The Ancestral Footstep	1883	Nathaniel Hawthorne	18	1880
+OL455651W	3	1	Doctor Grimshawe's secret;	1883	0.9	1.0	mdp.39015010200833|nyp.33433076076375|uc2.ark+=13960=t6qz23j0s	Doctor Grimshawe's Secret	1882	Nathaniel Hawthorne	55	1880
+OL461982W	1	1	A holiday in bed	1892	0.88	0.999	uc2.ark+=13960=t80k2cv3t	A holiday in bed, and other sketches	1892	J. M. Barrie	19	1890
+OL462007W	2	1	Peter and Wendy	1911	0.83	1.0	mdp.39015008403183|nc01.ark+=13960=t4nk4c89n	Peter Pan	1911	J. M. Barrie	441	1910
+OL462042W	8	4	Sentimental Tommy	1896	0.9	1.0	nyp.33433074936554|nyp.33433074936547|uc1.b3579198|mdp.39015059389620|nyp.33433074936562|uc2.ark+=13960=t35146w81|mdp.39015059389638|uc2.ark+=13960=t58c9tz3s	Sentimental Tommy (The Works of J.M. Barrie, Vol 5)	1896	J. M. Barrie	62	1890
+OL462117W	1	1	Auld licht idylls	1895	0.88	1.0	mdp.39015030853801	Auld Licht Idyls	1888	J. M. Barrie	92	1880
+OL4636864W	5	1	Common cause;	1919	0.86	1.0	mdp.39015039335909|njp.32101063579674|nyp.33433082168950|pst.000031339377|uc2.ark+=13960=t7cr5ps1p	Common Cause	1919	Samuel Hopkins Adams|Samuel Hopkins Adams	18	1910
+OL4636868W	4	1	Success;	1921	0.9	1.0	mdp.39015063956273|nyp.33433082168901|uc1.b3346138|uc2.ark+=13960=t3xs5kj6x	Success	1921	Samuel Hopkins Adams|Samuel Hopkins Adams|Samuel Hopkins Samuel Hopkins Adams	14	1920
+OL4636871W	3	1	The clarion	1914	0.89	1.0	mdp.39015063740693|uc2.ark+=13960=t7hq3wc0f|uc2.ark+=13960=t9q23rm56	The Clarion	1914	Samuel Hopkins Adams|Samuel Hopkins Adams	17	1910
+OL4636873W	2	1	From a bench in our square	1922	0.84	1.0	nyp.33433082168935|uc2.ark+=13960=t2b853r9j	From a Bench in Our Square	1922	Samuel Hopkins Adams|Samuel Hopkins Adams	16	1920
+OL4678186W	2	1	The village in the jungle	1913	0.88	1.0	uc1.b3553837|uc2.ark+=13960=t54f1ww6k	The village in the jungle	1913	Leonard Woolf	16	1910
+OL474112W	2	1	Biltmore Oswald	1918	0.79	1.0	mdp.39015001597668|nyp.33433081555546	Biltmore Oswald, the diary of a hapless recruit	1918	Thorne Smith	21	1910
+OL4753600W	3	1	Samantha at the St. Louis Exposition	1904	0.88	1.0	njp.32101067646297|uc1.b3332976|uc2.ark+=13960=t0ms3kx4h	Samantha at the St. Louis Exposition	1904	Marietta Holley	15	1900
+OL4764967W	3	1	A book of short stories	1914	0.59	1.0	mdp.39015058693972|mdp.39015062307064|uc2.ark+=13960=t3513vh92	A Book of Short Stories	1914	Stuart Pratt Sherman|Washington Irving|Nathaniel Hawthorne|Edgar Allan Poe|Charles Dickens|Frank R. Stockton|Thomas Hardy|Robert Louis Stevenson|J. M. Barrie|O. Henry|Rudyard Kipling	9	1910
+OL476741W	3	2	Once on a time	1922	0.88	1.0	nyp.33433074901954|uc1.b4089309|uc2.ark+=13960=t5cc15k3w	Once upon a time	1907	A. A. Milne|A. Milne	42	1900
+OL476839W	3	2	The sunny side	1921	0.85	1.0	uc1.32106002002704|loc.ark+=13960=t1jh44p67|nyp.33433074915418	The Sunny Side	1900	A. A. Milne	22	1900
+OL47747W	4	4	A dream of John Ball	1892	0.88	1.0	njp.32101007600610|nyp.33433074915202|dul1.ark+=13960=t3805sd6s|uc2.ark+=13960=t0ht2j08z	A Dream of John Ball / A king's Lesson	1888	William Morris	48	1880
+OL479183W	4	1	The house by the medlar-tree	1890	0.84	1.0	mdp.39015032051537|mdp.39015046857911|uc1.b4048525|uc2.ark+=13960=t6154j882	I Malavoglia	1881	Giovanni Verga	115	1880
+OL485457W	1	1	Ken Ward in the jungle	1912	0.88	1.0	uc2.ark+=13960=t07w67j7n	Ken Ward in the Jungle	1912	Zane Grey	49	1910
+OL485502W	2	1	The redheaded outfield	1920	0.88	1.0	njp.32101068153004|uc2.ark+=13960=t1sf2n73w	The Redheaded Outfield and Other Baseball Stories	1920	Zane Grey	71	1920
+OL485641W	1	1	The short-stop	1909	0.89	0.999	nyp.33433076067184	The Short Stop	1909	Zane Grey	17	1900
+OL485704W	2	2	The man of the forest;	1920	0.89	1.0	nyp.33433076067218|mdp.39015063551033	The Man of the Forest	1920	Zane Grey	36	1920
+OL4862086W	1	1	The house with the green shutters	1902	0.81	1.0	uc2.ark+=13960=t8rb71q8m	The House with the Green Shutters	1901	George Douglas Brown	52	1900
+OL4868141W	1	1	Scattergood Baines	1921	0.88	1.0	uc2.ark+=13960=t1vd6q416	Scattergood Baines	1921	Clarence Budington Kelland	20	1920
+OL4869937W	2	1	Bertram Cope's year	1919	0.89	1.0	mdp.39015016794524|njp.32101068169224	Bertram Cope's Year	1919	Henry Blake Fuller	41	1910
+OL4870990W	1	1	Aunt Jane's nieces	1906	0.84	0.999	uc2.ark+=13960=t9p26s33r	Aunt Jane's Nieces	1906	L. Frank Baum	49	1900
+OL4871954W	3	1	The side of the angels;	1916	0.9	1.0	mdp.39015063930237|nyp.33433076088917|uc2.ark+=13960=t9t14wv5z	The side of the angels	1916	Basil King|Elizabeth Shippen Green	18	1910
+OL4882455W	4	1	The prodigal judge	1911	0.89	1.0	nc01.ark+=13960=t08w3f49w|nyp.33433076088883|uc1.b3579113|uc2.ark+=13960=t1jh3f35g	The Prodigal Judge	1911	Vaughan Kester	20	1910
+OL4885684W	4	1	The woman in the alcove	1906	0.89	1.0	mdp.39015030542388|nyp.33433076089964|uc1.b4104324|uc2.ark+=13960=fk77s7j734	The Woman in the Alcove	1906	Anna Katharine Green	21	1900
+OL4885692W	2	1	The golden slipper	1915	0.9	1.0	uc1.b4104322|uc2.ark+=13960=fk17m0418s	The golden slipper and other problems for Violet Strange	1915	Anna Katharine Green	25	1910
+OL4885702W	2	1	Dark hollow	1914	0.84	1.0	nyp.33433076089790|uc2.ark+=13960=t9r20tk3s	Dark hollow	1914	Anna Katharine Green	22	1910
+OL4885713W	4	2	The millionaire baby	1905	0.89	1.0	uc1.b3327112|uc2.ark+=13960=t0wq02j22|mdp.39015030542354|uc2.ark+=13960=t9m32nz7f	The millionaire baby	1905	Anna Katharine Green|Anna Green|Anna Katharine Green	38	1900
+OL4885720W	3	2	Initials only	1911	0.88	1.0	uc2.ark+=13960=t3dz04v1b|nyp.33433076089824|uc2.ark+=13960=t5db7wz3r	Initials Only	1911	Anna Katharine Green	15	1910
+OL4888371W	1	1	The go-getter;	1921	0.82	0.999	uc2.ark+=13960=t2g738575	The go-getter	1921	Peter B. Kyne	11	1920
+OL4902750W	1	1	Java Head	1918	0.88	1.0	uc1.$b803022	Java Head	1918	Joseph Hergesheimer	27	1910
+OL4903994W	3	1	Potash & Perlmutter;	1911	0.9	1.0	mdp.39015063928066|nyp.33433074864939|uc2.ark+=13960=t5n875k05	Potash & Perlmutter	1900	Montague Glass	16	1900
+OL4907595W	1	1	Lady Jane	1891	0.89	1.0	uva.x000236190	Lady Jane	1891	C. V. Jamison	20	1890
+OL50098W	1	1	By what authority?	1909	0.81	1.0	nnc1.cu58433651	By What Authority?	1904	Robert Hugh Benson	48	1900
+OL50102W	3	2	Oddsfish!	1914	0.9	1.0	nyp.33433074939145|uc2.ark+=13960=t19k48t28|mdp.39015015358222	Oddsfish!	1914	Robert Hugh Benson|R., H. Benson|Anne Freemantle	48	1910
+OL503413W	4	2	Pan Michael	1893	0.89	1.0	mdp.39015065646880|mdp.39015010925744|mdp.39015065364526|uc2.ark+=13960=t4fn1287n	Pan Michael  An historical novel	1893	Henryk Sienkiewicz	96	1890
+OL503463W	2	1	On the field of glory;	1906	0.74	1.0	mdp.39015008587589|uc2.ark+=13960=t87h1gc89	On the Field of Glory an Historical Novel of the Time of King John Sobieski	1906	Henryk Sienkiewicz|Jeremiah Curtin	36	1900
+OL503472W	1	1	Without dogma	1898	0.89	0.999	nnc1.0044025238	Without Dogma (A Novel of Modern Poland)	1891	Henryk Sienkiewicz	36	1890
+OL503492W	1	1	With fire and sword	1892	0.75	1.0	mdp.39015004860105	Ogniem i mieczem	1890	Henryk Sienkiewicz|Jeremiah Curtin	95	1890
+OL5035743W	4	1	Miss Lulu Bett	1920	0.89	1.0	mdp.39015013152593|uc1.b3687728|uc1.b4095530|uc2.ark+=13960=fk3cz3296r	Miss Lulu Bett	1920	Zona Gale	21	1920
+OL505935W	1	1	Mrs. Craddock	1902	0.84	1.0	inu.32000009125248	Mrs Craddock	1902	William Somerset Maugham	27	1900
+OL505938W	2	2	The explorer	1908	0.88	1.0	uva.x000618958|nyp.33433074893086	The explorer	1907	William Somerset Maugham	28	1900
+OL507303W	4	1	By the light of the soul;	1907	0.89	1.0	njp.32101063691172|nyp.33433076090848|uc2.ark+=13960=t0dv1cr0x|uc2.ark+=13960=t74t6gg6g	By the Light of the Soul A Novel	1906	Mary Eleanor Wilkins Freeman	18	1900
+OL507305W	1	1	The copy-cat	1914	0.89	1.0	uc1.b3578397	Copy-Cat, and Other Stories	1914	Mary Eleanor Wilkins Freeman	24	1910
+OL507315W	2	1	Jerome, a poor man;	1897	0.9	1.0	mdp.39015065922133|uc1.b4104262	Jerome	1897	Mary Eleanor Wilkins Freeman	18	1890
+OL507321W	4	2	Pembroke;	1894	0.89	1.0	nyp.33433076090665|uc1.b249876|mdp.39015007000485|uc2.ark+=13960=t10p0xn2m	Pembroke	1894	Mary Eleanor Wilkins Freeman	31	1890
+OL507324W	1	1	The pot of gold	1892	0.89	1.0	mdp.39015048911617	The Pot of Gold, and Other Stories	1892	Mary Eleanor Wilkins Freeman	18	1890
+OL507370W	3	1	The givers;	1904	0.89	1.0	nyp.33433075821508|uc1.b3322090|uc2.ark+=13960=t3028pr2f	The givers	1904	Mary Eleanor Wilkins Freeman	14	1900
+OL507371W	2	1	The Jamesons	1899	0.82	1.0	uc1.b4104268|uc2.ark+=13960=t91834r5d	The Jamesons	1899	Mary Eleanor Wilkins Freeman	16	1890
+OL507375W	2	2	A humble romance	1915	0.85	1.0	uc2.ark+=13960=t9668b01v|uva.x001181114	A humble romance	1887	Mary Eleanor Wilkins Freeman	21	1880
+OL507377W	3	2	A New England nun	1919	0.9	1.0	mdp.39015066063986|uc1.$b455797|uc2.ark+=13960=t73t9dx4b	A New England nun	1891	Mary Eleanor Wilkins Freeman	27	1890
+OL507379W	3	2	The heart's highway;	1900	0.9	1.0	mdp.39015063551710|uc1.b3322091|nyp.33433076090962	The heart's highway	1900	Mary Eleanor Wilkins Freeman	24	1900
+OL507381W	3	1	The portion of labor	1901	0.9	1.0	mdp.39015006572690|nyp.33433076090657|uc2.ark+=13960=t9862c112	The portion of labor	1901	Mary Eleanor Wilkins Freeman	21	1900
+OL507382W	3	1	The shoulders of Atlas;	1908	0.89	1.0	njp.32101063691396|nyp.33433076090525|uc2.ark+=13960=t6736nc2p	The Shoulders of Atlas	1908	Mary Eleanor Wilkins Freeman	20	1900
+OL507384W	2	2	"""Doc."" Gordon"	1906	0.89	1.0	nyp.33433076090822|njp.32101063691164	Doc. Gordon	1906	Mary Eleanor Wilkins Freeman	19	1900
+OL50885W	3	2	The shepherd of the hills	1907	0.89	1.0	mdp.39015050791964|nyp.33433074806450|uc2.ark+=13960=t7gq6sd8b	The shepherd of the hills	1907	Harold Bell Wright	11	1900
+OL509884W	1	1	The fifth queen	1906	0.88	1.0	uc1.b4095309	The Fifth Queen	1906	Ford Madox Ford	40	1900
+OL509997W	2	1	The Young Lovell	1913	0.86	1.0	uc1.b4097986|uc2.ark+=13960=t1vd70k9k	The Young Lovell	1913	Ford Madox Ford	29	1910
+OL510012W	3	2	Ladies whose bright eyes;	1919	0.84	1.0	uc1.b4095363|uc2.ark+=13960=t6pz5cc91|uc1.31158008560525	Ladies whose bright eyes	1911	Ford Madox Ford	19	1910
+OL5110860W	1	1	Red fleece	1915	0.87	1.0	uc2.ark+=13960=t01z4209f	Red Fleece	1915	Will Levington Comfort	15	1910
+OL51137W	1	1	The trail of the hawk;	1915	0.87	1.0	mdp.39015008171327	The trail of the hawk	1915	Sinclair Lewis	22	1910
+OL51141W	2	1	The job	1917	0.89	1.0	nyp.33433074787890|uc1.31158003167334	The job	1905	Sinclair Lewis	72	1900
+OL5114588W	1	1	What Katy did next	1887	0.83	1.0	njp.32101067187813	What Katy Did Next (Best Loved Stories)	1886	Susan Coolidge|Jessie Mcdermot	167	1880
+OL5115508W	2	1	Otherwise Phyllis	1913	0.89	1.0	mdp.39015063936580|uc2.ark+=13960=t3zs2n13r	Otherwise Phyllis	1913	Meredith Nicholson	31	1910
+OL5115510W	3	1	Rosalind at Red Gate	1907	0.89	1.0	mdp.39015024198700|uc1.b4102074|uc2.ark+=13960=t7mp4x979	Rosalind at Red Gate	1906	Meredith Nicholson	24	1900
+OL5115514W	4	2	The little brown jug at Kildare	1908	0.9	1.0	mdp.39015063936572|nyp.33433076023179|uc2.ark+=13960=t6xw49495|uc2.ark+=13960=t0rr1pt4j	The little brown jug at Kildare	1908	Meredith Nicholson	18	1900
+OL5115516W	2	1	The main chance	1903	0.89	1.0	nyp.33433076023153|uc2.ark+=13960=fk6057d60r	The main chance	1903	Meredith Nicholson	16	1900
+OL5115519W	1	1	The siege of the seven suitors	1910	0.89	1.0	uc2.ark+=13960=t80k27f3s	The siege of the seven suitors	1910	Meredith Nicholson	17	1910
+OL5185442W	4	2	The clansman;	1905	0.8	1.0	mdp.39015013736296|nc01.ark+=13960=t7zk5ct4d|uc2.ark+=13960=t2891221h|uc2.ark+=13960=t8v980b3t	The Clansman	1905	Thomas Dixon Jr.|Cary D. Wintz	18	1900
+OL5197877W	2	1	Little citizens	1904	0.89	0.999	uc2.ark+=13960=t1fj2bd0w|uc2.ark+=13960=t55d8pp42	Little Citizens	1904	Myra Kelly	28	1900
+OL52228W	3	2	The wife of Sir Isaac Harman	1914	0.9	1.0	mdp.39015030719721|inu.32000002888990|nyp.33433075767321	The wife of Sir Isaac Harman	1914	H. G. Wells	23	1910
+OL52231W	2	1	The passionate friends	1913	0.81	1.0	mdp.39015011683821|uc2.ark+=13960=t9j38pg8q	The passionate friends	1913	H. G. Wells	25	1910
+OL52238W	3	2	The sea lady;	1902	0.84	1.0	uc2.ark+=13960=t1jh3j89w|uc1.b4713055|uc2.ark+=13960=t73t9f56v	The sea lady	1902	H. G. Wells	27	1900
+OL52239W	4	2	Joan and Peter	1918	0.85	1.0	mdp.39015025020721|nyp.33433075758007|uc2.ark+=13960=t4hm54t02|mdp.39015011040246	Joan and Peter	1918	H. G. Wells	29	1910
+OL52245W	3	1	The soul of a bishop	1917	0.74	1.0	mdp.39015053230531|nyp.33433075758072|uc1.b3295307	The soul of a bishop	1917	H. G. Wells	32	1910
+OL52247W	1	1	The wheels of chance	1896	0.88	1.0	mdp.39015013248649	The wheels of chance	1896	H. G. Wells	97	1890
+OL52248W	3	1	Marriage	1912	0.84	1.0	mdp.39015053230523|nyp.33433075758049|uc2.ark+=13960=t05x2828g	Marriage	1912	H. G. Wells	33	1910
+OL52249W	3	2	The secret places of the heart	1922	0.86	1.0	mdp.39015030719648|mdp.39015030719655|uc2.ark+=13960=t0vq30n9s	The Secret Places of the Heart	1922	H. G. Wells	37	1920
+OL52253W	1	1	The war in the air and particularly how Mr. Bert Smallways fared while it lasted	1908	0.77	1.0	dul1.ark+=13960=t6tx41h96	The war in the air	1908	H. G. Wells	54	1900
+OL52262W	1	1	The history of Mr. Polly	1910	0.83	1.0	njp.32101068605920	The History of Mr. Polly	1900	H. G. Wells	181	1900
+OL5232182W	2	2	Lay down your arms;	1906	0.63	1.0	uva.x004215519|uc2.ark+=13960=t1sf2r52r	For la batalilojn!	1892	Bertha von Suttner|Timothy Holmes	23	1890
+OL5305201W	1	1	Whispering Smith	1908	0.84	0.998	uc2.ark+=13960=t91835n3h	Whispering Smith	1906	Frank H. Spearman	15	1900
+OL5306187W	4	2	Mrs. Wiggs of the cabbage patch	1901	0.87	0.999	uc2.ark+=13960=t0zp3wv0g|mdp.39015004288257|mdp.39015018289366|nc01.ark+=13960=t6252qg9v	Mrs. Wiggs of the cabbage patch	1901	Alice Caldwell Hegan Rice	17	1900
+OL532434W	1	1	The four corners of the world	1917	0.82	1.0	uc2.ark+=13960=t6b27qf2c	The four corners of the world	1917	A. E. W. Mason	38	1910
+OL532447W	1	1	The courtship of Morrice Buckler	1896	0.89	1.0	uc2.ark+=13960=t1cj8d526	The courtship of Morrice Buckler	1896	A. E. W. Mason	35	1890
+OL53900W	1	1	The £1,000,000 bank-note	1893	0.87	1.0	mdp.39015026498561	The Million Pound Bank-Note and Other New Stories	1893	Mark Twain	29	1890
+OL54107W	1	1	A dog's tale	1904	0.78	0.994	mdp.39015031222527	A Dog's Tale	1904	Mark Twain	15	1900
+OL54114W	3	1	Extract from Captain Stormfield's visit to heaven	1909	0.87	1.0	dul1.ark+=13960=t3jw91p86|uc1.b4102282|uc2.ark+=13960=t9x05xw9q	Extract from Captain Stormfield's visit to heaven	1909	Mark Twain	25	1900
+OL54125W	5	3	The man that corrupted Hadleyburg and other stories and essays	1900	0.89	1.0	mdp.49015000509753|uc1.b4101396|uc2.ark+=13960=t01z43199|mdp.39015008307616|mdp.39015031222675	The Man that Corrupted Hadleyburg and Other Stories and Essays [14 works]	1896	Mark Twain	19	1890
+OL54131W	2	1	The stolen white elephant, etc	1882	0.88	1.0	mdp.39015062680916|nyp.33433081603049	The Stolen White Elephant, etc	1882	Mark Twain	18	1880
+OL54139W	2	1	Eve's diary;	1906	0.84	0.999	mdp.39015005733525|mdp.39015066052179	Eve's Diary	1904	Mark Twain	26	1900
+OL54140W	3	2	A horse's tale	1907	0.86	0.999	njp.32101068150190|mdp.39015031222576|nyp.33433074842422	A Horse's Tale	1906	Mark Twain	29	1900
+OL54151W	1	1	Extracts from Adam's diary	1904	0.76	0.994	mdp.39015047749372	Extracts From Adam's Diary	1893	Mark Twain	26	1890
+OL54155W	4	2	Personal recollections of Joan of Arc	1899	0.85	1.0	wu.89003889334|wu.89003889342|uc1.31158006422702|uc2.ark+=13960=t6n01119x	Personal Recollections of Joan of Arc	1895	Mark Twain	82	1890
+OL54718W	4	2	Cleopatra;	1894	0.9	1.0	uc1.b616318|uc2.ark+=13960=t0ht2n63g|uc2.ark+=13960=t16m34w2j|uc2.ark+=13960=t48p5x92b	Cleopatra	1894	Georg Ebers	11	1890
+OL54854W	1	1	Penrod	1916	0.88	1.0	mdp.39015063926763	Penrod	1914	Booth Tarkington	90	1910
+OL54888W	3	2	His own people	1912	0.88	1.0	mdp.39015063926706|nyp.33433076081813|uc1.b3569288	His Own People	1907	Booth Tarkington	54	1900
+OL54894W	3	1	Ramsey Milholland	1919	0.83	1.0	mdp.39015031304507|uc1.b3569299|uc2.ark+=13960=t48p5wg1p	Ramsey Milholland	1919	Booth Tarkington	37	1910
+OL54900W	9	5	Monsieur Beaucaire	1902	0.87	1.0	nyp.33433075754899|nyp.33433075754915|uc2.ark+=13960=t2n58dm1h|mdp.39015031304549|pst.000006495558|mdp.39015063926730|uc2.ark+=13960=t2c825j0h|mdp.39015065779426|uc2.ark+=13960=t75t3gr67	Monsieur Beaucaire	1900	Booth Tarkington	58	1900
+OL54902W	1	1	The gentleman from Indiana	1902	0.89	1.0	njp.32101067186666	The gentleman from Indiana	1899	Booth Tarkington	85	1890
+OL549946W	1	1	Rolf in the woods;	1922	0.8	1.0	nnc1.cu58462490	Rolf in the Woods	1911	Ernest Thompson Seton	20	1910
+OL550020W	1	1	The biography of a grizzly and 75 drawings	1900	0.85	0.999	uc2.ark+=13960=t3qv3d94t	The biography of a grizzly	1900	Ernest Thompson Seton	12	1900
+OL550024W	5	2	Animal heroes	1905	0.86	1.0	mdp.39076005086421|njp.32101067174415|nyp.33433011005646|nyp.33433011005653|bc.ark+=13960=t73v0ch30	Animal Heroes	1905	Ernest Thompson Seton	26	1900
+OL55284W	3	2	The judge	1922	0.9	1.0	uc2.ark+=13960=t9862d842|njp.32101068605797|uc2.ark+=13960=t91836s7n	The judge	1920	Rebecca West	10	1920
+OL55492W	1	1	The cook's wedding and other stories	1922	0.88	1.0	njp.32101067866838	The Cook's Wedding and Other Stories	1922	Антон Павлович Чехов	47	1920
+OL55512W	4	2	The chorus girl	1920	0.89	1.0	njp.32101071958951|mdp.39015012184472|mdp.39015021922870|nyp.33433067269567	The Chorus Girl and Other Stories [12 stories]	1920	Антон Павлович Чехов	35	1920
+OL55516W	3	2	Stories of Russian life	1915	0.89	1.0	nyp.33433067269476|uc2.ark+=13960=t8bg2jx9r|uiuo.ark+=13960=t4jm26n6q	Stories of Russian life [24 stories]	1914	Антон Павлович Чехов	12	1910
+OL55523W	1	1	The bishop, and other stories	1919	0.89	1.0	uc2.ark+=13960=t53f4qd62	The Bishop and Other Stories [7 stories]	1916	Антон Павлович Чехов	56	1910
+OL5625465W	1	1	Regiment of women	1917	0.89	1.0	inu.30000041676937	Regiment of Women	1917	Clemence Dane	28	1910
+OL5645114W	1	1	Mother	1916	0.82	1.0	uva.x002649828	Mother, a story	1911	Kathleen Thompson Norris	28	1910
+OL5645131W	1	1	Saturday's child	1914	0.89	1.0	uc2.ark+=13960=t0xp70105	Saturday's Child	1914	Kathleen Thompson Norris	12	1910
+OL566998W	3	1	The great stone of Sardis;	1898	0.89	1.0	mdp.39015059423353|nyp.33433076062748|uc2.ark+=13960=t45q4rx69	The Great Stone of Sardis	1898	Frank R. Stockton	23	1890
+OL566999W	6	4	The lady or the tiger	1907	0.86	1.0	mdp.39015063956778|uc2.ark+=13960=t23b5wq0s|mdp.39015041848295|mdp.39015063956786|uc1.b4382868|uc2.ark+=13960=t7pn8z62r	The lady, or the tiger?	1884	Frank R. Stockton	15	1880
+OL567000W	1	1	The rudder grangers abroad and other stories	1901	0.83	1.0	uc2.ark+=13960=t6pz52654	The Rudder Grangers Abroad and Other Stories	1891	Frank R. Stockton	20	1890
+OL567004W	5	4	The adventures of Captain Horn	1895	0.89	1.0	nyp.33433075752737|nyp.33433076022288|mdp.39015063956679|uc2.ark+=13960=t7pn8xx37|uc2.ark+=13960=t70v8b29r	The Adventures of Captain Horn	1895	Frank R. Stockton	29	1890
+OL5681558W	2	1	Fighting in France	1916	0.82	1.0	nyp.33433082347653|uc2.ark+=13960=t4zg6j206	Fighting in France	1916	Ross Kay	33	1910
+OL5684548W	2	1	Mr. Incoul's misadventure	1887	0.87	1.0	mdp.39015065549779|uc1.b3325735	Mister Incoul's Misadventures	1887	Edgar Saltus	32	1880
+OL5684551W	1	1	The truth about Tristrem Varick;	1888	0.88	1.0	mdp.39015035895708	The truth about Tristem Varick	1888	Edgar Saltus	18	1880
+OL5714160W	4	3	Ruggles of Red Gap	1915	0.89	1.0	nyp.33433075770101|uc1.b5250377|uc2.ark+=13960=fk8kd1r25j|uva.x000983085	Ruggles of Red Gap	1915	Harry Leon Wilson	23	1910
+OL5730383W	1	1	King-of the Khyber rifles	1916	0.82	1.0	uva.x000279479	King of Khyber Rifles	1916	Talbot Mundy	40	1910
+OL5730420W	1	1	The eye of Zeitoon	1920	0.88	1.0	uc2.ark+=13960=t9k35vd44	The Eye of Zeitoon	1920	Talbot Mundy	18	1920
+OL573162W	4	2	Mothwise	1921	0.77	1.0	uc2.ark+=13960=t17m0gv5v|mdp.39015030027752|njp.32101020947345|uc1.b4965048	Sværmere	1904	Knut Hamsun|William John Alexander Worster	30	1900
+OL573170W	3	1	Wanderers	1922	0.83	1.0	mdp.39015005191039|uc2.ark+=13960=t3zs2ns43|uiuo.ark+=13960=t1kh0ht6c	Wanderers (Vandrer spiller med Sordin / Under Høststjærnen)	1922	Knut Hamsun	27	1920
+OL573187W	2	1	Shallow soil	1914	0.83	1.0	mdp.39015055223419|uiuo.ark+=13960=t4zg6k76r	Ny Jord	1893	Knut Hamsun	21	1890
+OL576097W	3	1	The triumph of death	1896	0.8	1.0	nyp.33433075856603|uc1.b4225584|uiuo.ark+=13960=t3610zw5g	Trionfo della morte	1896	Gabriele D'Annunzio	57	1890
+OL576187W	2	1	The flame of life	1900	0.89	1.0	uc1.b4042694|uc2.ark+=13960=t18k7g37k	Fuoco	1900	Gabriele D'Annunzio	16	1900
+OL5777669W	8	4	The history of Sir Richard Calmady;	1901	0.9	1.0	mdp.39015055294139|uc1.b3322595|uc2.ark+=13960=t4xg9pq9j|mdp.39015026502941|nyp.33433074858097|uc2.ark+=13960=t3nv9hj1d|uc2.ark+=13960=t7vm4kp44|nyp.33433074857982	Sir Richard Calmady	1901	Lucas Malet	33	1900
+OL5777682W	4	2	The far horizon	1907	0.89	1.0	mdp.39015031901690|nyp.33433074850698|uc2.ark+=13960=t1gh9cp2g|njp.32101067937589	The Far Horizon	1906	Lucas Malet	30	1900
+OL5916188W	5	3	The cardinal's snuff box	1900	0.89	1.0	mdp.39015063919230|uc1.b249256|uc2.ark+=13960=t6pz52w0p|uc2.ark+=13960=t1jh3dn19|mdp.39015063919222	The Cardinal's Snuff-Box	1900	Henry Harland	26	1900
+OL5948112W	2	1	The definite object;	1917	0.83	1.0	nyp.33433075761738|uc2.ark+=13960=t76t0hn6g	The definite object	1917	Jeffery Farnol	17	1910
+OL5948115W	4	1	The broad highway	1911	0.89	1.0	mdp.39015011414011|nyp.33433075761134|nyp.33433075761506|uc2.ark+=13960=t9x060k0j	The broad highway	1910	Jeffery Farnol	38	1910
+OL5959547W	3	2	Pardners	1909	0.89	1.0	uc1.b3346200|uc2.ark+=13960=t01z42q9v|uc2.ark+=13960=t51g0j86d	Pardners	1905	Rex Ellingwood Beach	34	1900
+OL5959552W	3	1	The spoilers	1906	0.84	1.0	mdp.39015030855830|njp.32101067629624|uc1.b4097883	The Spoilers	1905	Rex Ellingwood Beach	49	1900
+OL5959578W	4	2	The barrier	1908	0.89	1.0	uc2.ark+=13960=t02z13n44|mdp.39015030855798|nyp.33433074837349|uc2.ark+=13960=t4th8c03j	The Barrier	1908	Rex Ellingwood Beach	19	1900
+OL5959580W	2	1	The iron trail;	1913	0.89	1.0	mdp.39015030855814|nyp.33433074837398	The Iron Trail	1913	Rex Ellingwood Beach	40	1910
+OL5960311W	3	2	The confessions of Artemas Quibble;	1922	0.78	1.0	nyp.33433076073174|uc2.ark+=13960=t9765df7k|mdp.39015014568821	The confessions of Artemas Quibble	1911	Arthur Cheney Train	20	1910
+OL5960421W	2	2	The wonderful adventures of Phra the Phoenician	1890	0.9	1.0	mdp.39015035490344|uva.x030809789	The wonderful adventures of Phra the Phœnician. Retold by Edwin Lester Arnold ..	1880	Edwin Lester Linden Arnold	18	1880
+OL6101935W	1	1	The shadow of the east	1921	0.84	1.0	uc2.ark+=13960=t84j0dp72	The Shadow of the East	1921	E. M. Hull	18	1920
+OL6213296W	3	2	The covered wagon	1922	0.9	1.0	njp.32101068170511|uc2.ark+=13960=t4vh5dn63|mdp.39015063923851	The Covered Wagon	1922	Emerson Hough	15	1920
+OL6213297W	2	1	Heart's Desire	1905	0.89	1.0	mdp.39015063923877|uc2.ark+=13960=t84j0bj7f	Heart's Desire	1905	Emerson Hough	14	1900
+OL6213298W	1	1	The Mississippi bubble	1902	0.86	0.999	uc2.ark+=13960=t8tb0zk8z	The Mississippi Bubble	1902	Emerson Hough	16	1900
+OL6213299W	1	1	The law of the land	1904	0.87	0.999	uc2.ark+=13960=t82j6bk24	The Law of the Land	1904	Emerson Hough	18	1900
+OL626383W	2	1	Sunshine sketches of a little town	1912	0.8	1.0	mdp.39015000638018|uc2.ark+=13960=t3st7hz89	Sunshine sketches of a little town	1900	Stephen Leacock	62	1900
+OL626470W	2	1	Moonbeams from the larger lunacy	1915	0.67	1.0	loc.ark+=13960=t62526m3j|uc2.ark+=13960=t04x57c02	Moonbeams from the larger lunacy	1915	Stephen Leacock	23	1910
+OL63047W	1	1	Men at war	1912	0.54	1.0	mdp.39015079728443	Men at war	1942	Ernest Hemingway	9	1940
+OL6425782W	1	1	Bush studies	1902	0.87	0.999	nyp.33433074937370	Bush Studies	1902	Barbara Baynton	22	1900
+OL6438828W	1	1	The agony column	1916	0.82	1.0	uc1.b3728033	The Agony Column	1916	Earl Derr Biggers	31	1910
+OL646999W	5	2	Dodo's daughter;	1914	0.84	1.0	uc1.b3811095|mdp.39015011883090|uc1.$b792441|uc2.ark+=13960=t9z032g3n|wu.89094356615	Dodo's daughter, a sequel to Dodo	1900	E. F. Benson	26	1900
+OL647093W	1	1	Mrs. Ames	1912	0.9	1.0	mdp.39015000599897	Mrs. Ames	1912	E. F. Benson	22	1910
+OL647099W	2	1	Thorley Weir	1913	0.89	1.0	mdp.39015041358733|nyp.33433074927009	Thorley Weir	1913	E. F. Benson	18	1910
+OL647118W	2	2	David Blaize	1920	0.84	1.0	njp.32101001758554|nyp.33433074926811	David Blaize	1916	E. F. Benson	33	1910
+OL647124W	3	2	The freaks of Mayfair	1916	0.81	1.0	uc1.b4103972|uc2.ark+=13960=t1cj8g82c|njp.32101042853976	The freaks of Mayfair	1910	E. F. Benson	18	1910
+OL647126W	3	2	The Babe, B.A	1897	0.89	1.0	uc1.b3136561|uc2.ark+=13960=t05x2d532|uc2.ark+=13960=t7fq9rw7j	The Babe, B.A.	1896	E. F. Benson	19	1890
+OL647130W	2	1	The blotting book	1908	0.84	1.0	uc2.ark+=13960=t14m9dd9m|uva.x001177949	The Blotting Book	1908	E. F. Benson	55	1900
+OL647133W	1	1	"""Queen Lucia"""	1920	0.84	1.0	nyp.33433074926712	Queen Lucia	1900	E. F. Benson	168	1900
+OL65412W	4	3	Beautiful Joe;	1907	0.84	1.0	coo.31924014559672|uva.x004061118|uc1.b266928|uc2.ark+=13960=t2m61ff9x	Beautiful Joe	1893	Marshall Saunders	42	1890
+OL65440W	1	1	A night in Acadie	1897	0.89	1.0	nyp.33433074941026	A Night in Acadie [21 stories]	1897	Kate Chopin	38	1890
+OL65441W	1	1	Bayou folk	1894	0.84	1.0	uc1.32106002063532	Bayou Folk	1894	Kate Chopin	59	1890
+OL6561018W	1	1	The red acorn	1883	0.89	1.0	nc01.ark+=13960=t4fn1st23	The Red Acorn	1883	John McElroy|Richard Hooker Wilmer	37	1880
+OL6585778W	1	1	The cords of vanity;	1920	0.88	1.0	mdp.39015030735784	The Cords of Vanity	1909	James Branch Cabell	60	1900
+OL6585782W	2	2	Domnei	1921	0.83	0.99	nyp.33433074861810|uc2.ark+=13960=t53f4mf3t	Domnei: A Comedy of Woman-worship	1920	James Branch Cabell	59	1920
+OL6585786W	2	1	The eagle's shadow	1904	0.81	0.999	uc1.b3144886|uc2.ark+=13960=t00z71v73	The Eagle's Shadow	1904	James Branch Cabell	30	1900
+OL6585798W	2	1	The line of love	1905	0.86	1.0	mdp.39015030728706|uc1.b3687273	The Line of Love	1905	James Branch Cabell	40	1900
+OL6585858W	1	1	The rivet in grandfather's neck	1915	0.88	1.0	uc1.b3687276	The rivet in grandfather's neck	1915	James Branch Cabell	17	1910
+OL6585860W	6	2	Chivalry	1909	0.85	1.0	loc.ark+=13960=t5cc1vj9m|mdp.39015030735792|uc1.b3687265|mdp.39015014816667|uc1.b3687266|uc1.b4097795	Chivalry	1909	James Branch Cabell	21	1900
+OL6593172W	4	2	The harbor	1915	0.9	1.0	mdp.39015030710860|uc2.ark+=13960=t4cn6zc71|nyp.33433076055148|uc2.ark+=13960=fk6xw48663	The Harbor	1915	Ernest Poole	23	1910
+OL6694931W	2	2	Strangers at Lisconnel	1895	0.89	1.0	nyp.33433074936315|uc2.ark+=13960=t3416vc17	Strangers at Lisconnel	1895	Jane Barlow	17	1890
+OL6697758W	2	2	Count Hannibal	1901	0.89	1.0	uc2.ark+=13960=t8ff3tr89|mdp.39015063974946	Count Hannibal.   A Romance of the court of France	1900	Stanley John Weymann	37	1900
+OL6697779W	3	1	A gentleman of France	1893	0.89	1.0	uc2.ark+=13960=t0ft8p04b|uc2.ark+=13960=t16m3bj9x|uc2.ark+=13960=t7vm4bq74	A gentleman of France	1893	Stanley John Weymann	65	1890
+OL6697782W	1	1	My Lady Rotha;	1894	0.88	1.0	mdp.39015063975018	My Lady Rotha	1894	Stanley John Weymann	20	1890
+OL6697784W	3	2	The castle inn	1898	0.89	1.0	uc2.ark+=13960=t5db8320h|mdp.39015063974938|uc2.ark+=13960=t73t9ss7j	The Castle Inn	1898	Stanley John Weymann	50	1890
+OL6697785W	4	2	The house of the wolf	1910	0.89	1.0	uc1.b3327272|uc2.ark+=13960=t9k35w75s|mdp.39015063974987|uc2.ark+=13960=t0ms3s15t	The house of the wolf	1890	Stanley John Weymann	67	1890
+OL6697786W	4	2	Under the red robe	1897	0.89	1.0	uc1.b3327489|uc2.ark+=13960=t81j9h604|mdp.39015065801915|uc2.ark+=13960=t2f768k9b	Under the red robe	1894	Stanley John Weymann	66	1890
+OL6698893W	2	1	Boyhood in Norway;	1899	0.88	1.0	uc1.b3331815|uc2.ark+=13960=t80k2gb2v	Boyhood in Norway	1892	Hjalmar Hjorth Boyesen	13	1890
+OL67230W	2	1	A white heron	1886	0.89	1.0	mdp.39015005089423|uc2.ark+=13960=t20c4th85	A white heron	1886	Sarah Orne Jewett	9	1880
+OL67236W	4	4	Tales of New England	1890	0.89	1.0	mdp.39015066058267|njp.32101023513722|uc2.ark+=13960=t7wm15159|uc1.b4380109	Tales of New England	1890	Sarah Orne Jewett	16	1890
+OL67238W	1	1	The country of the pointed firs	1910	0.84	1.0	uc2.ark+=13960=fk9n29pr6b	The country of the pointed firs	1896	Sarah Orne Jewett	60	1890
+OL6729481W	1	1	Great sea stories	1921	0.75	1.0	uc2.ark+=13960=t2h70b78j	Great sea stories	1921	Joseph Lewis French	19	1920
+OL6753091W	2	2	Marie-Claire	1911	0.88	1.0	uc2.ark+=13960=t58c9rw51|uc2.ark+=13960=t9d50k45z	Marie-Claire	1910	Marguerite Audoux	49	1910
+OL6804358W	1	1	"""The ladies!"""	1922	0.87	1.0	mdp.39015023153136	The Ladies!	1922	"Elizabeth Louisa ""Lily"" Moresby"	22	1920
+OL68066W	2	1	Pierre and Luce	1922	0.81	1.0	mdp.39015033444939|uc2.ark+=13960=t5t72862r	Pierre et Luce	1918	Romain Rolland	17	1910
+OL68140W	2	1	Colas Breugnon	1919	0.78	1.0	mdp.39015033444780|uc1.$b717533	Colas Breugnon	1919	Romain Rolland	24	1910
+OL68141W	1	1	Jean-Christophe	1910	0.81	1.0	uc2.ark+=13960=t3319w37s	Jean-Christophe	1900	Romain Rolland	108	1900
+OL6820947W	5	2	The stories of H. C. Bunner	1916	0.89	1.0	mdp.39015030853439|uc1.b3322646|mdp.39015030702859|nyp.33433074815519|uc2.ark+=13960=t8qb9vw1v	The stories of H.C. Bunner	1916	H. C. Bunner	16	1910
+OL69014W	1	1	The daughter of the storage	1916	0.71	1.0	uc2.ark+=13960=t6445jq3f	The daughter of the storage and other things in prose and verse	1916	William Dean Howells	15	1910
+OL69029W	3	2	The quality of mercy	1891	0.9	1.0	mdp.49015000531021|mdp.39015051177692|uc1.b3862896	The Quality of Mercy	1891	William Dean Howells	35	1890
+OL69046W	3	1	An open-eyed conspiracy;	1897	0.88	1.0	mdp.39015031236311|mdp.49015000531013|nyp.33433076083959	An Open-Eyed Conspiracy	1897	William Dean Howells	35	1890
+OL69047W	3	2	A boy's town	1918	0.89	1.0	nc01.ark+=13960=t3bz78d8k|mdp.39015028687419|uva.x000531890	A boy's town	1890	William Dean Howells	40	1890
+OL69063W	2	2	A fearful responsibility	1881	0.89	1.0	mdp.39015031236121|mdp.39015011195750	A fearful responsibility and other stories	1881	William Dean Howells	40	1880
+OL69064W	2	1	The Great modern American stories	1920	0.82	1.0	mdp.39015005102952|mdp.39015008529094	The great modern American stories	1920	William Dean Howells|Mark Twain|Edith Wharton|Ambrose Bierce|Theodore Dreiser	18	1920
+OL6906632W	2	1	Belchamber	1905	0.85	1.0	mdp.39015011442517|mdp.39015059418056	Belchamber (Twentieth-Century Classics)	1905	Howard Overing Sturgis	25	1900
+OL69074W	3	1	Southern lights and shadows	1907	0.89	1.0	mdp.39015058692941|nyp.33433082295324|uc2.ark+=13960=t4nk37884	Southern Lights and Shadows	1907	William Dean Howells|Henry Mills Alden|Henry Mills Alden|Henry Alden	18	1900
+OL69078W	3	2	Christmas every day	1893	0.87	1.0	njp.32101020523187|uc2.ark+=13960=t5k931p02|uc1.b3331897	Christmas every day and other stories told for children	1892	William Dean Howells	40	1890
+OL69081W	2	2	Dr. Breen's practice	1881	0.89	1.0	mdp.49015000530817|mdp.39015014197738	Doctor Breen's practice	1881	William Dean Howells	59	1880
+OL69086W	1	1	Life at high tide	1907	0.89	1.0	uc2.ark+=13960=t23b5x94r	Life at High Tide	1907	William Dean Howells|Henry Mills Alden|Henry Mills 1836-1919 Alden	16	1900
+OL69088W	3	1	Miss Bellard's inspiration;	1905	0.89	1.0	mdp.39015017664536|nyp.33433074966510|uc2.ark+=13960=fk8cf9jq1k	Miss Bellard's inspiration	1905	William Dean Howells	17	1900
+OL69095W	3	1	The story of a play;	1898	0.9	1.0	mdp.39015030751013|nyp.33433076084023|uc1.b4106590	The Story of a Play	1898	William Dean Howells	33	1890
+OL69109W	10	2	Heroines of fiction	1901	0.74	1.0	mdp.39015005379469|uc1.b3512674|uc1.b3512675|uc1.b4110139|uc1.l0062110952|uc1.l0065068629|wu.89008483455|wu.89008483463|mdp.39015005214336|mdp.39015005214344	Heroines of fiction	1901	William Dean Howells	15	1900
+OL69113W	4	1	Mrs. Farrell;	1921	0.88	1.0	mdp.39015031236295|nyp.33433076083975|uc1.b3324375|uc1.b4451695	Mrs. Farrell	1921	William Dean Howells	16	1920
+OL69114W	3	2	An imperative duty	1893	0.88	1.0	nyp.33433076083850|uc1.$b399170|mdp.39015014204781	An imperative duty	1891	William Dean Howells	21	1890
+OL69117W	6	3	The shadow of a dream	1891	0.89	1.0	mdp.39015019135501|mdp.39015028987439|mdp.39015030751005|uc2.ark+=13960=t2z31pc90|mdp.39015030750817|uc1.b3324277	The shadow of a dream	1890	William Dean Howells	19	1890
+OL69126W	4	3	The coast of Bohemia	1893	0.89	1.0	mdp.39015011530626|uc1.b4103196|uc2.ark+=13960=t92805s9c|uc2.ark+=13960=t7br8n371	The coast of Bohemia	1893	William Dean Howells	33	1890
+OL69129W	4	2	The undiscovered country	1884	0.89	1.0	mdp.39015008285564|mdp.39015066058226|mdp.39015014211935|uc1.b3579080	The undiscovered country	1880	William Dean Howells	23	1880
+OL69130W	2	1	Fennel and rue;	1908	0.87	0.999	nyp.33433076083827|uc2.ark+=13960=t5s757s38	Fennel and Rue	1908	William Dean Howells	44	1900
+OL69135W	4	1	Through the eye of the needle;	1907	0.82	1.0	dul1.ark+=13960=t9863689c|mdp.39015005076339|mdp.39015032388665|nyp.33433075794325	Through the Eye of the Needle	1907	William Dean Howells	37	1900
+OL69143W	2	1	Annie Kilburn	1889	0.9	1.0	mdp.39015014514452|uc1.b3578836	Annie Kilburn	1888	William Dean Howells	53	1880
+OL69146W	7	2	Their silver wedding journey	1899	0.9	1.0	nyp.33433076084262|mdp.39015049756888|mdp.39015049757142|nyp.33433076083801|nyp.33433076083819|uc2.ark+=13960=t5bc3tf0z|uc2.ark+=13960=t5fb4x423	Their Silver Wedding Journey	1899	William Dean Howells	39	1890
+OL69153W	1	1	Indian summer	1914	0.9	1.0	njp.32101068583044	Indian Summer	1885	William Dean Howells	113	1880
+OL69154W	3	1	The Kentons;	1902	0.89	1.0	mdp.39015031236220|uc1.b3324416|uc2.ark+=13960=t9q23sh0v	The Kentons	1902	William Dean Howells	58	1900
+OL69157W	3	1	April hopes	1888	0.9	1.0	mdp.39015031236964|nyp.33433076092711|uc1.b3578837	April Hopes	1887	William Dean Howells	56	1880
+OL69162W	4	2	The landlord at Lion's head;	1911	0.9	1.0	uc1.b2793535|mdp.39015012987650|nyp.33433076083892|uc1.b3862892	The landlord at Lion's Head	1897	William Dean Howells	68	1890
+OL6917143W	2	1	Uncle Abner, master of mysteries	1918	0.89	1.0	mdp.39015010776881|nyp.33433076053325	Uncle Abner, master of mysteries	1918	Melville Davisson Post	22	1910
+OL69625W	3	2	Little Lord Fauntleroy	1917	0.83	1.0	uva.x000242164|nyp.33433082300520|nyp.33433082548169	Little Lord Fauntleroy	1886	Frances Hodgson Burnett	332	1880
+OL69626W	3	2	Sara Crewe;	1894	0.77	1.0	mdp.39015059510845|mdp.39015066623508|uc1.b4104286	Sara Crewe	1888	Frances Hodgson Burnett	17	1880
+OL69633W	5	2	The lost prince	1915	0.89	1.0	uc2.ark+=13960=t3610w21z|wu.89098013733|nc01.ark+=13960=t58d0z640|uc1.b4104998|uc2.ark+=13960=fk2v40k116	The Lost Prince	1915	Frances Hodgson Burnett	30	1910
+OL69685W	2	1	The making of a marchioness	1901	0.87	1.0	mdp.39015063535598|uc2.ark+=13960=t6rx94h68	The making of a marchioness	1901	Frances Hodgson Burnett|C. D. Williams	28	1900
+OL69686W	6	2	In connection with the De Willoughby claim	1899	0.9	1.0	nyp.33433074847694|uc1.b248539|uc2.ark+=13960=t78s4kj77|mdp.39015011391375|nc01.ark+=13960=t2891751x|nyp.33433074848007	In connection with the De Willoughby claim	1899	Frances Hodgson Burnett	22	1890
+OL69688W	3	3	Through one administration	1916	0.9	1.0	uc2.ark+=13960=t7br8qc3h|mdp.39015049821906|uc2.ark+=13960=t7np1x51s	Through one administration	1883	Frances Hodgson Burnett	18	1880
+OL69692W	4	3	His Grace of Osmonde	1897	0.89	1.0	mdp.39015014751971|uc1.b3321186|uva.x000495146|nyp.33433044092413	His Grace of Osmonde	1897	Frances Hodgson Burnett	14	1890
+OL69693W	3	1	The land of the blue flower	1909	0.83	1.0	mdp.39015063512977|nyp.33433074847991|uc2.ark+=13960=fk24b2x79k	The Land of the Blue Flower	1909	Frances Hodgson Burnett|William James Jordan|Plimpton Press	18	1900
+OL69696W	2	2	The shuttle	1907	0.9	1.0	uc1.b4717931|mdp.39015014749728	The Shuttle	1906	Frances Hodgson Burnett	24	1900
+OL69698W	5	3	T. Tembarom	1915	0.9	1.0	uva.x000375714|mdp.39015063517430|uc2.ark+=13960=t1zc7s162|uc2.ark+=13960=t8jd4q82v|uc2.ark+=13960=t76t0kt33	T. Tembarom	1913	Frances Hodgson Burnett	25	1910
+OL69699W	2	2	A lady of quality	1896	0.89	1.0	uc2.ark+=13960=t9z030k35|mdp.39015026757495	A Lady of Quality	1896	Frances Hodgson Burnett	40	1890
+OL69700W	3	1	A fair barbarian	1881	0.84	1.0	njp.32101069165122|uc1.32106002062997|uc1.b4104996	A Fair Barbarian	1881	Frances Hodgson Burnett	29	1880
+OL7016939W	4	3	Mary, Mary	1912	0.88	1.0	nyp.33433075751770|uc2.ark+=13960=t82j6bz41|mdp.39015031308946|nyp.33433075751820	Charwoman's Daughter	1912	James Stephens	80	1910
+OL7026231W	4	1	D'ri and I;	1901	0.88	1.0	mdp.39015013148062|mdp.39015059387673|nyp.33433082266341|uc2.ark+=13960=t9h41m46t	D'ri and I	1901	Irving Bacheller	27	1900
+OL7114815W	4	1	The white linen nurse	1913	0.89	1.0	mdp.39015063517273|nyp.33433082175815|uc1.b3123600|uc2.ark+=13960=t3mw29j0t	The White Linen Nurse	1913	Eleanor Hallowell Abbott	33	1910
+OL715605W	2	1	The paying guest	1895	0.89	1.0	njp.32101068598612|uc2.ark+=13960=t6vx0c852	The Paying Guest	1895	George Gissing	18	1890
+OL715606W	4	2	Will Warburton;	1905	0.89	1.0	mdp.39015000604440|nyp.33433074856422|uc2.ark+=13960=t2w37rn54|uc1.b4102832	Will Warburton	1905	George Gissing	20	1900
+OL715607W	7	2	The emancipated	1890	0.88	1.0	uc1.b325790|uc1.b325791|uc1.b325792|uc2.ark+=13960=t1wd3t949|uc2.ark+=13960=t3rv0hd71|uc2.ark+=13960=t4gm85575|uc2.ark+=13960=t5m907759	The emancipated	1890	George Gissing	20	1890
+OL715609W	1	1	The crown of life	1899	0.84	1.0	uva.x000239878	The crown of life	1899	George Gissing	23	1890
+OL715612W	4	2	Thyrza	1887	0.89	1.0	uiuo.ark+=13960=t6737gf1d|uiuo.ark+=13960=t6ww8376s|uiuo.ark+=13960=t79s2gq88|uc2.ark+=13960=t5t72bf74	Thyrza	1887	George Gissing	26	1880
+OL715614W	7	3	The unclassed	1884	0.9	1.0	uiuo.ark+=13960=t1qf9370v|uiuo.ark+=13960=t1rf64403|uiuo.ark+=13960=t73t9zb5t|uc2.ark+=13960=t9c53p273|mdp.39015000604390|uc1.b4102808|uc2.ark+=13960=t0qr4th7f	The unclassed	1884	George Gissing	32	1880
+OL715615W	6	3	Veranilda	1905	0.85	1.0	nyp.33433074856471|uc1.b4102835|uc2.ark+=13960=t6qz25s4p|mdp.39015000604424|uc2.ark+=13960=t55d8tg8z|nyp.33433074856406	Veranilda	1904	George Gissing	27	1900
+OL715616W	1	1	Born in exile	1913	0.82	1.0	nyp.33433074920319	Born in exile	1892	George Gissing	30	1890
+OL715617W	3	1	The town traveller	1898	0.89	1.0	mdp.39015000604366|uc2.ark+=13960=t3kw5dd7g|wu.89095151916	The town traveller	1898	George Gissing	28	1890
+OL715619W	2	1	In the year of jubilee	1895	0.89	1.0	mdp.39015000604754|mdp.39015000604762	In the year of jubilee	1894	George Gissing	30	1890
+OL715620W	4	2	The whirlpool	1897	0.9	1.0	mdp.39015000604226|nyp.33433074864608|uc1.b3322517|uc2.ark+=13960=t9p26z438	The whirlpool	1897	George Gissing	31	1890
+OL715621W	1	1	The odd women	1893	0.89	1.0	njp.32101068598620	The odd women	1893	George Gissing	36	1890
+OL7180408W	2	1	Tales from Boccaccio	1899	0.76	1.0	uc1.b14365|uc2.ark+=13960=t5p845v79	Decameron tales	1899	Giovanni Boccaccio|Peter Hainsworth	21	1890
+OL7214655W	3	1	The motormaniacs	1905	0.87	1.0	mdp.39015021038693|mdp.39015063947439|uc2.ark+=13960=t50g3j83s	The Motormaniacs	1905	Lloyd Osbourne	17	1900
+OL7305646W	2	2	The diary of a forty-niner	1920	0.61	1.0	yale.39002007021968|yale.39002004028271	The diary of a forty-niner	1906	Chauncey L. Canfield	11	1900
+OL735266W	1	1	Some experiences of an Irish R. M	1903	0.83	1.0	uva.x000743454	Some experiences of an Irish R.M.	1899	E. OE. Somerville|Martin Ross	19	1890
+OL739860W	1	1	Blood and sand;	1919	0.89	1.0	njp.32101068608114	Sangre y arena	1908	Vicente Blasco Ibáñez	37	1900
+OL74467W	3	2	The strength of the strong	1911	0.78	1.0	uc1.b3550264|njp.32101071962003|uva.x000418931	The Strength of the Strong	1911	Jack London	36	1910
+OL74475W	1	1	The abysmal brute	1913	0.87	1.0	uc2.ark+=13960=fk2z31np9g	The Abysmal Brute	1913	Jack London	23	1910
+OL74484W	2	2	When God laughs	1911	0.9	1.0	mdp.39015021949915|mdp.39015012991629	When God Laughs and Other Short Stories	1911	Jack London	61	1910
+OL74491W	2	1	The God of his fathers	1901	0.89	1.0	mdp.39015005215341|uc2.ark+=13960=t3319sx4v	The God of His Fathers	1901	Jack London	40	1900
+OL74500W	2	1	South sea tales	1911	0.87	1.0	mdp.39015005752053|nyp.33433076076128	South Sea Tales	1911	Jack London	70	1910
+OL7485000W	8	5	The Illini	1912	0.77	1.0	uiuo.ark+=13960=t5cc0wf0z|uc2.ark+=13960=t59c6sj6m|mdp.39015070477115|uc1.b3624124|uc2.ark+=13960=t4cn70536|uc2.ark+=13960=t4gm84n52|uiuo.ark+=13960=t17m0693d|nyp.33433074808530	The Illini	1904	Clark E. Carr	20	1900
+OL7538246W	1	1	In the days of Queen Victoria	1903	0.77	1.0	mdp.39015061869783	In the Days of Queen Victoria	1903	Eva March Tappan	22	1900
+OL75487W	4	2	Unknown to history	1908	0.89	1.0	uc2.ark+=13960=t3mw2jt47|nyp.33433075861827|uiuo.ark+=13960=t45q5kw84|uiuo.ark+=13960=t9p27jq0v	Unknown to history	1882	Charlotte Mary Yonge	15	1880
+OL7549151W	1	1	The adventures of Jimmie Dale	1917	0.89	1.0	uc2.ark+=13960=t07w6762r	The Adventures of Jimmie Dale	1917	Frank L. Packard	24	1910
+OL7562586W	2	2	The black bag	1908	0.9	1.0	uc2.ark+=13960=t6251h91w|mdp.39015063977006	The Black Bag	1908	Louis Joseph Vance	20	1900
+OL7572062W	3	2	McLoughlin and old Oregon;	1900	0.72	1.0	mdp.39015063916699|uc1.$b630636|uc2.ark+=13960=t6k06zb40	McLoughlin and old Oregon	1900	Eva Emery Dye	18	1900
+OL76507W	1	1	John Burnet of Barns;	1898	0.82	1.0	uc2.ark+=13960=t6930w82k	John Burnet of Barnes	1898	John Buchan	114	1890
+OL76582W	1	1	The power-house	1916	0.88	1.0	uva.x001993164	The power-house	1916	John Buchan	175	1910
+OL78039W	1	1	Autobiography of a pocket-handkerchief	1897	0.88	1.0	mdp.39015014648482	Autobiography of a Pocket-Handkerchief	1897	James Fenimore Cooper	22	1890
+OL788028W	2	1	Bliss	1921	0.89	1.0	uva.x000157545|uva.x000158066	Bliss, and other stories	1900	Katherine Mansfield|Enda Duffy|Gerri Kimber|Todd Martin	68	1900
+OL788054W	1	1	The garden party	1922	0.88	0.998	uc2.ark+=13960=t55d8t799	The Garden Party and other stories	1922	Katherine Mansfield	30	1920
+OL788067W	1	1	In a German pension	1911	0.89	1.0	uc2.ark+=13960=t0wp9wh4k	In a German Pension	1911	Katherine Mansfield	39	1910
+OL789870W	1	1	The red room	1913	0.8	1.0	mdp.39015024654231	The red room	1913	August Strindberg|Ellie Schleussner	40	1910
+OL789891W	3	2	On the seaboard;	1913	0.84	1.0	mdp.39015000534241|uc2.ark+=13960=t21c22020|uc2.ark+=13960=t6zw1mx3g	I havsbandet	1890	August Strindberg	18	1890
+OL7972468W	1	1	Vera	1921	0.89	1.0	mdp.39015035824963	Vera	1921	Elizabeth von Arnim|Dolors Udina Abelló|Ulrich Baer	55	1920
+OL7973256W	2	1	Can such things be?	1918	0.84	1.0	uc1.b4103987|uc2.ark+=13960=t0js9jf6f	The Collected Works of Ambrose Bierce. Volume III. Can such things be? [42 stories]	1910	Ambrose Bierce	14	1910
+OL7973293W	3	2	In the midst of life	1892	0.89	1.0	uc2.ark+=13960=t2j67935h|nc01.ark+=13960=t46q2r28m|njp.32101013566920	In the Midst of Life. Tales of Civilians	1891	Ambrose Bierce|A Bierce	86	1890
+OL7973346W	1	1	The monk and the hangman's daughter	1907	0.84	1.0	uva.x000097958	The Collected Works of Ambrose Bierce. Volume VI. The Monk and the Hangman's Daughter / Fantastic Fables	1907	Ambrose Bierce	21	1900
+OL8070950W	3	3	Captain Blood	1922	0.89	1.0	mdp.39015012316124|uc1.31158010464377|uva.x000600659	Captain Blood	1922	Rafael Sabatini	36	1920
+OL8075019W	1	1	The seventh man	1921	0.89	0.998	nyp.33433074807672	The Seventh Man	1921	Frederick Faust	191	1920
+OL810457W	1	1	Spies of the kaiser plotting the downfall of England	1909	0.82	0.999	wu.89005389895	Spies of the kaiser plotting the downfall of England	1909	William Le Queux	28	1900
+OL810501W	1	1	The great war in England in 1897	1895	0.88	0.999	uc2.ark+=13960=t8mc91n0q	The great war in England in 1897	1894	William Le Queux	30	1890
+OL810504W	2	1	Mademoiselle of Monte Carlo	1921	0.89	1.0	nyp.33433074878285|uc2.ark+=13960=t91839j7r	Mademoiselle of Monte Carlo	1921	William Le Queux	38	1920
+OL81258W	1	1	The Prussian officer, and other stories	1914	0.88	1.0	njp.32101068574464	The Prussian Officer and Other Stories	1914	D. H. Lawrence	31	1910
+OL8127232W	2	1	The reckoning	1905	0.83	1.0	njp.32101063605537|uc2.ark+=13960=t8rb6wq8k	The reckoning	1905	Robert W. Chambers	36	1900
+OL8127243W	2	1	The firing line	1908	0.89	1.0	mdp.39015063511326|njp.32101063605446	The Firing Line	1908	Robert W. Chambers	62	1900
+OL81276W	1	1	England, my England, and other stories	1922	0.82	1.0	nyp.33433074872932	England, my England	1915	D. H. Lawrence	35	1910
+OL81287W	1	1	The lost girl	1920	0.83	1.0	uc1.b4091384	The Lost Girl	1920	D. H. Lawrence	38	1920
+OL8137351W	1	1	Tom Swift among the diamond makers;	1911	0.89	0.999	uc2.ark+=13960=t3qv3cz8v	Tom Swift Among the Diamond Makers	1911	Howard Roger Garis	19	1910
+OL8202749W	2	1	The solitary summer	1900	0.59	0.998	uc1.b3327310|uc2.ark+=13960=t9g44sp9b	The Solitary Summer	1899	Elizabeth von Arnim	72	1890
+OL8249884W	4	2	The fifth string	1902	0.87	1.0	mdp.39015010952003|uc1.b3326099|uc2.ark+=13960=t49p2xc6b|uc2.ark+=13960=t94747j3z	The Fifth String	1902	John Philip Sousa	20	1900
+OL8253768W	6	3	The four horsemen of the Apocalypse	1919	0.8	1.0	uc2.ark+=13960=t72v2gf9p|mdp.39015004048164|mdp.39015027190902|nyp.33433082486113|uc1.b3771269|uc2.ark+=13960=t3hx17x99	The Four Horsemen of the Apocalypse	1911	Vicente Blasco Ibáñez	27	1910
+OL826549W	3	3	The romance of Leonardo da Vinci	1904	0.75	1.0	uc2.ark+=13960=t12n5rf40|uc2.ark+=13960=t81j9cs3j|nyp.33433068043060	Voskresshie bogi	1900	Dmitry Sergeyevich Merezhkovsky	31	1900
+OL83840W	4	2	Tales of wonder	1916	0.77	1.0	uc1.b3550106|uc2.ark+=13960=t1jh3dk8s|loc.ark+=13960=t5x643157|uc2.ark+=13960=t12n5210d	The Last Book of Wonder	1916	Lord Dunsany	21	1910
+OL83877W	2	1	The book of wonder	1913	0.75	1.0	uc1.b3552946|uc2.ark+=13960=t0ht2k606	The Book of Wonder	1912	Lord Dunsany	28	1910
+OL83881W	2	1	Fifty-one tales	1919	0.65	1.0	njp.32101068177284|uc2.ark+=13960=t3vt1h58b	Fifty-one tales	1915	Lord Dunsany	179	1910
+OL84352W	3	1	A thousand and one afternoons in Chicago	1922	0.77	1.0	nyp.33433074850094|uc1.$b367817|uc2.ark+=13960=t3nv9bd9d	1001 [i.e. A thousand and one] afternoons in Chicago	1922	Ben Hecht	30	1920
+OL8470335W	5	2	Tales of war	1918	0.61	1.0	uc2.ark+=13960=t3xs5rf93|loc.ark+=13960=t4wh3568w|mdp.39015031231858|nyp.33433082486162|uc2.ark+=13960=t6h12zc73	Tales of War	1918	Lord Dunsany	26	1910
+OL8470555W	2	1	Peregrine's progress	1922	0.89	1.0	mdp.39015063918497|uc2.ark+=13960=t3513x13q	Peregrine's Progress	1922	Jeffery Farnol	22	1920
+OL8470559W	4	2	Beltane, the smith;	1915	0.7	1.0	uc2.ark+=13960=t2q52jt8k|nyp.33433075769061|uc1.b3346893|uc2.ark+=13960=t3707zh6n	Beltane the Smith	1915	Jeffery Farnol	28	1910
+OL8470564W	4	3	The amateur gentleman	1913	0.9	1.0	mdp.39015063552882|nyp.33433075761464|uc2.ark+=13960=t90866j4w|uc1.b3834475	The amateur gentleman	1900	Jeffery Farnol	42	1900
+OL8470720W	5	2	From the memoirs of a minister of France	1895	0.88	1.0	inu.30000011866112|uc2.ark+=13960=t1rf5sd81|mdp.39015063974953|uc1.b3327274|uc2.ark+=13960=t0pr7w14c	>From the Memoirs of a Minister of France	1895	Stanley John Weymann	59	1890
+OL85189W	1	1	The unknown masterpiece =	1901	0.86	1.0	nc01.ark+=13960=t4sj2fw3s	Chef-d'oeuvre inconnu	1899	Honoré de Balzac	10	1890
+OL85201W	4	1	Albert Savarus	1892	0.88	1.0	nyp.33433075807556|uc1.b317840|uc2.ark+=13960=t0rr1tc6b|uiuo.ark+=13960=t7rn33c69	Albert Savarus	1892	Honoré de Balzac	43	1890
+OL85208W	3	3	The wild ass's skin	1906	0.89	1.0	mdp.39015011727131|uc2.ark+=13960=t3nv9dn3g|uc1.b4061811	The Magic Skin	1889	Honoré de Balzac	32	1880
+OL85210W	4	3	The Chouans ;	1901	0.89	1.0	uc2.ark+=13960=t3805057m|uc2.ark+=13960=t6ww7f428|uc1.b317844|uc2.ark+=13960=t3125vb1t	The Chouans	1890	Honoré de Balzac	22	1890
+OL85231W	3	2	Cousin Bette	1888	0.9	1.0	uc1.b317849|uc2.ark+=13960=t47p8zg77|uva.x000234049	La Cousine Bette	1888	Honoré de Balzac	45	1880
+OL8538086W	1	1	The golden fleece;	1896	0.88	1.0	mdp.39015059378086	The Golden Fleece	1896	Julian Hawthorne	15	1890
+OL8552750W	4	2	Captain January	1902	0.87	1.0	nyp.33433082230891|uc1.b3331887|uc2.ark+=13960=t3513vj43|mdp.39015063972569	Captain January	1890	Laura Elizabeth Howe Richards|Laura Richards	37	1890
+OL8552774W	3	2	Melody	1893	0.86	1.0	nyp.33433082231139|nyp.33433082293717|wu.89070583919	Melody	1893	Laura Elizabeth Howe Richards	20	1890
+OL859608W	1	1	Some Chinese ghosts	1887	0.53	0.999	uc2.ark+=13960=t77s7jb7z	Some Chinese ghosts	1887	Lafcadio Hearn	22	1880
+OL859610W	2	1	Chita	1889	0.89	0.999	mdp.39015012214204|uc1.b4103183	Chita	1886	Lafcadio Hearn	23	1880
+OL859613W	2	1	Kwaidan	1904	0.8	1.0	mdp.39015008023130|uc1.b4407864	Kwaidan	1904	Lafcadio Hearn	42	1900
+OL8608145W	2	1	The poisoned pen	1911	0.87	1.0	nyp.33433076047707|uc2.ark+=13960=t2h708669	The Poisoned Pen	1911	Arthur B. Reeve	47	1910
+OL8608152W	1	1	The treasure train	1917	0.88	1.0	uc2.ark+=13960=t2j67b77p	The Treasure Train (Craig Kennedy, Scientific Detective)	1917	Arthur B. Reeve	34	1910
+OL8608163W	3	1	The gold of the gods	1915	0.89	0.999	nyp.33433076047855|uc2.ark+=13960=t2k64b03s|uc2.ark+=13960=t3vt1h10p	The Gold of the Gods	1915	Arthur B. Reeve	30	1910
+OL8608165W	4	1	Guy Garrick	1914	0.89	1.0	nyp.33433076047657|nyp.33433076047665|uc2.ark+=13960=t0ns0m27b|uc2.ark+=13960=t50g3hd16	Guy Garrick	1912	Arthur B. Reeve	26	1910
+OL861157W	2	1	The nameless castle;	1912	0.81	1.0	uc1.$b699605|uc2.ark+=13960=t1sf2sf2r	Névtelen vár	1895	Mór Jókai	23	1890
+OL8718333W	4	2	A parody outline of history	1921	0.58	1.0	mdp.39015013750909|nyp.33433074803770|uc2.ark+=13960=t5k938742|uc2.ark+=13960=t39z92n8p	A Parody Outline of History	1921	Donald Ogden Stewart	19	1920
+OL8718377W	4	2	The rise of Roscoe Paine	1912	0.9	1.0	mdp.39015014178282|uc2.ark+=13960=t1vd6p790|wu.89005392113|njp.32101068141991	The Rise of Roscoe Paine	1912	Joseph Crosby Lincoln	16	1910
+OL8718378W	3	2	Cap'n Warren's wards	1913	0.9	1.0	mdp.39015023137584|mdp.49015002354018|uc2.ark+=13960=t5m902j58	Cap'n Warren's wards	1911	Joseph Crosby Lincoln	18	1910
+OL8718383W	4	2	The Portygee;	1920	0.89	1.0	mdp.39015023072096|nyp.33433074788005|uc2.ark+=13960=t6k06z951|mdp.39015063923943	The Portygee	1920	Joseph Crosby Lincoln	20	1920
+OL8718384W	3	1	Shavings	1920	0.9	1.0	mdp.39015063923968|njp.32101068142007|uc2.ark+=13960=t3tt4j662	Shavings	1918	Joseph Crosby Lincoln	17	1910
+OL8722907W	1	1	An adventure with a genius;	1920	0.71	1.0	nyp.33433082363486	An Adventure with a Genius	1921	Alleyne Ireland	16	1920
+OL8729099W	2	1	The curlytops on Star Island	1918	0.89	1.0	nyp.33433082303300|uc2.ark+=13960=t6c24sc6d	The Curlytops on Star Island	1918	Howard Roger Garis	20	1910
+OL8729667W	2	2	The Hill;	1906	0.87	1.0	nyp.33433081580882|uc1.32106002018924	The Hill	1905	Horace Annesley Vachell|Keith Hale	30	1900
+OL878922W	3	2	To let	1921	0.89	1.0	mdp.39015003681668|nyp.33433074855234|uc2.ark+=13960=t6zw1cd9r	To Let	1921	John Galsworthy	39	1920
+OL879066W	1	1	In chancery	1920	0.89	1.0	nyp.33433074855432	In Chancery	1920	John Galsworthy	29	1920
+OL879073W	4	2	Five Tales	1918	0.89	1.0	nyp.33433074855325|mdp.39015003679936|mdp.39015003679951|mdp.39015003679977	Five Tales	1918	John Galsworthy	21	1910
+OL879082W	2	1	Fraternity	1909	0.84	0.999	mdp.39015004921915|uc2.ark+=13960=t5t72b219	Fraternity	1909	John Galsworthy	30	1900
+OL879084W	2	1	The country house	1907	0.88	1.0	mdp.39015003679944|nyp.33433074855507	The country house	1907	John Galsworthy	33	1900
+OL879086W	3	1	The dark flower	1913	0.84	1.0	mdp.39015065936125|nyp.33433074855333|uc2.ark+=13960=t0tq5ww18	The Dark Flower	1913	John Galsworthy	41	1910
+OL879088W	2	1	The man of property	1906	0.89	1.0	nyp.33433074855382|uc2.ark+=13960=t3708064f	The Forsyte Saga (various novels)	1898	John Galsworthy	166	1890
+OL879133W	2	1	Afoot in England	1911	0.51	1.0	njp.32101068583085|uc2.ark+=13960=t1jh3fv4v	Afoot in England	1909	W. H. Hudson	23	1900
+OL879244W	1	1	The purple land	1922	0.81	1.0	mdp.39015005753168	The purple land	1904	W. H. Hudson	32	1900
+OL890331W	9	4	Amazing marriage	1914	0.9	1.0	uc2.ark+=13960=t00004q0v|mdp.39015011356048|uc1.b4102212|mdp.39015030707379|mdp.39015030707395|mdp.39015065444971|mdp.39015065444989|uiuo.ark+=13960=t0ft97q57|uiuo.ark+=13960=t3611q55j	The amazing marriage	1895	George Meredith	22	1890
+OL890334W	1	1	The tragic comedians;	1898	0.88	1.0	mdp.39015030763158	The tragic comedians	1880	George Meredith|William Melborne Meredith	27	1880
+OL890340W	4	3	Diana of the Crossways	1897	0.89	1.0	uc2.ark+=13960=t3bz6461g|uc1.b4103990|uc2.ark+=13960=t0cv4pb8z|uc1.b4102745	Diana of the Crossways	1885	George Meredith	42	1880
+OL890472W	5	2	Hester	1883	0.89	1.0	uc2.ark+=13960=t4xg9h40h|uiuo.ark+=13960=t2697q578|uiuo.ark+=13960=t6f19hx11|uiuo.ark+=13960=t6g16jt37|uc1.b4104873	Hester	1883	Margaret Oliphant	42	1880
+OL890572W	1	1	So here then are dreams	1901	0.8	1.0	nyp.33433075742779	Dreams	1890	Olive Schreiner	29	1890
+OL890573W	1	1	The story of an African farm	1888	0.8	1.0	mdp.39015002719386	The Story of an African Farm	1883	Olive Schreiner	51	1880
+OL893601W	1	1	Bouvard and Pécuchet	1896	0.9	1.0	mdp.39015008160213	Bouvard et Pécuchet	1896	Gustave Flaubert	92	1890
+OL93827W	16	2	The life work of Henri René Guy de Maupassant	1903	0.83	1.0	uc2.ark+=13960=t0gt5n51w|uc2.ark+=13960=t10p1cq47|uc2.ark+=13960=t2t44131x|uc2.ark+=13960=t3028wb9x|uc2.ark+=13960=t47p91d5k|uc2.ark+=13960=t5n879114|uc2.ark+=13960=t6nz8h083|uc2.ark+=13960=t7gq6z73r|uc2.ark+=13960=t7np23p8b|uc2.ark+=13960=t7tm78550|uc2.ark+=13960=t7wm19z33|uc2.ark+=13960=t9t151z79|uc2.ark+=13960=t9w09cz39|uva.x001137113|uva.x002400389|uva.x002707120	[The  life work of Henri René Guy de Maupassant]	1903	Guy de Maupassant	20	1900
+OL93838W	1	1	Mont Oriol, or, A romance of Auvergne	1903	0.89	1.0	uc2.ark+=13960=t9p26x102	Mont-Oriol	1886	Guy de Maupassant	49	1880
+OL93839W	11	4	The odd number	1917	0.86	1.0	pst.000029116232|mdp.39015033410278|uc2.ark+=13960=t0ms3rb3g|mdp.39015033410369|umn.31951d00531022n|umn.31951d005342220|umn.31951d00534224w|uva.x000379694|uva.x000421242|uva.x000968367|uva.x002404094	The odd number	1889	Guy de Maupassant	59	1880
+OL93840W	2	1	Une vie	1889	0.89	1.0	uc1.b317784|uc2.ark+=13960=t2x34rn59	Une vie	1883	Guy de Maupassant	72	1880
+OL93841W	4	3	Pierre et Jean;	1889	0.9	1.0	uc2.ark+=13960=t7np2bm2f|coo.31924111832873|uc2.ark+=13960=t43r0z87z|uc2.ark+=13960=t2b85bv0f	Pierre et Jean	1887	Guy de Maupassant	84	1880
+OL942659W	5	2	La Belle Nivernaise	1899	0.88	1.0	uc1.b157441|uc2.ark+=13960=t6639n13h|mdp.39015024761184|uc1.b3127704|uc2.ark+=13960=t3vt1j559	La Belle-Nivernaise	1887	Alphonse Daudet	21	1880
+OL942664W	4	3	Sappho	1899	0.89	1.0	uc1.b317915|uc2.ark+=13960=t9x062s02|nyp.33433075807838|uc2.ark+=13960=t2p55gt92	Sapho	1884	Alphonse Daudet	35	1880
+OL94456W	4	1	The battle-ground	1902	0.89	1.0	mdp.39015003941070|mdp.39015003941096|nyp.33433074864921|uc1.b4381829	The battle-ground	1902	Ellen Anderson Gholson Glasgow	17	1900
+OL95996W	1	1	The varmint	1910	0.89	1.0	uc2.ark+=13960=t0qr4r574	The varmint	1910	Owen Johnson	17	1910
+OL96030W	2	1	Constance Dunlap, woman detective	1913	0.89	1.0	nyp.33433076048564|uc2.ark+=13960=t8z89353s	Constance Dunlap, woman detective	1913	Arthur B. Reeve	29	1910
+OL96036W	2	1	The social gangster	1916	0.88	0.997	nyp.33433076047673|uc2.ark+=13960=t7sn02s2h	The social gangster	1916	Arthur B. Reeve	20	1910
+OL96040W	2	1	The war terror	1915	0.89	1.0	uc2.ark+=13960=t2t43j57j|uc2.ark+=13960=t4dn40b1n	The War Terror	1915	Arthur B. Reeve	28	1910
+OL96239W	1	1	Six feet four	1918	0.89	0.999	nyp.33433076067366	Six Feet Four	1918	Jackson Gregory	19	1910
+OL9679346W	2	1	The monk and the hangman's daughter	1892	0.78	0.999	dul1.ark+=13960=t0wq0wv3h|nyp.33433079897819	The Monk and the Hangman's Daughter	1892	Ambrose Bierce|Adolphe Danziger De Castro|Richard Voss|G. Danziger	49	1890
+OL9706147W	1	1	Revelations of a wife ;	1917	0.9	1.0	nyp.33433076069149	Revelations of a Wife	1917	Adele Garrison	19	1910
+OL98505W	3	2	The fruit of the tree	1907	0.9	1.0	mdp.39015011001685|uc2.ark+=13960=t9c53fr56|uc2.ark+=13960=t0js9hr7j	The Fruit of the Tree	1907	Edith Wharton	40	1900
+OL98515W	2	1	The reef; a novel	1912	0.84	1.0	nyp.33433076079064|uc2.ark+=13960=t5x63cb37	The Reef	1912	Edith Wharton	56	1910
+OL98549W	2	1	The hermit and the wild woman, and other stories	1908	0.89	1.0	mdp.39015008471453|uc2.ark+=13960=t3513w02c	The Hermit and the Wild Woman and Other Stories	1908	Edith Wharton	15	1900
+OL98572W	4	2	Sanctuary	1903	0.89	1.0	mdp.39015009098040|mdp.39015048847431|uc2.ark+=13960=t2q52gc7f|nyp.33433076074149	Sanctuary	1903	Edith Wharton	33	1900
+OL98575W	5	2	The touchstone	1900	0.89	1.0	mdp.39015030719150|nyp.33433076074065|uva.x001120966|njp.32101068605789|uc2.ark+=13960=t6833p80z	The Touchstone	1900	Edith Wharton	47	1900
+OL98576W	3	1	Madame de Treymes	1907	0.87	1.0	mdp.39015030719176|mdp.39015066059976|uc2.ark+=13960=t8qb9vx38	Madame de Treymes	1907	Edith Wharton	31	1900
+OL98579W	4	1	Crucial instances	1901	0.8	1.0	mdp.39015014595980|mdp.39015030719192|uc1.b3864885|uc2.ark+=13960=t80k27t5p	Crucial Instances	1901	Edith Wharton	36	1900
+OL98580W	3	1	The glimpses of the moon	1922	0.89	1.0	mdp.39015005391647|nyp.33433076079106|uc2.ark+=13960=t6pz5225b	The Glimpses of the Moon	1922	Edith Wharton	46	1920
+OL98581W	5	2	The valley of decision;	1902	0.84	1.0	nyp.33433076074503|mdp.39015010563149|mdp.39015010692864|nyp.33433076074032|nyp.33433076074040	The Valley of Decision	1902	Edith Wharton	36	1900
+OL98582W	1	1	Tales of men and ghosts	1910	0.9	1.0	uc2.ark+=13960=t6qz23d1g	Tales of Men and Ghosts	1910	Edith Wharton	38	1910
+OL98584W	1	1	The greater inclination	1899	0.86	1.0	mdp.39015010759838	The Greater Inclination	1897	Edith Wharton	36	1890
+OL989320W	1	1	The well of Saint Clare	1909	0.72	1.0	mdp.39015012966415	The well of Saint Clare	1909	Anatole France	20	1900
+OL989333W	1	1	The gods are athirst ;	1913	0.85	1.0	uc2.ark+=13960=t3qv3fs8f	Les dieux ont soif	1900	Anatole France	54	1900
