@@ -26,7 +26,7 @@ attention inequality. The dump provides a complete, unbiased snapshot.
 
 ### Inputs
 - OL Works dump: `https://openlibrary.org/developers/dumps`
-- File: `raw/ol_dump/ol_dump_works_{date}.txt.gz` (.gitignore対象)
+- File: `raw/ol_dump/ol_dump_works_2026-02-28.txt.gz` (.gitignore対象)
 - Snapshot date must be recorded in `derived/README_population.txt` and this file
 
 ### Filter Criteria
@@ -41,7 +41,7 @@ do NOT load entire dump into memory.
 ### Outputs
 | File | Description |
 |------|-------------|
-| `derived/ol_dump_population_{date}.tsv` | Official main-study population |
+| `derived/ol_dump_population_2026-02-28.tsv` | Official main-study population |
 | `derived/README_population.txt` | Snapshot date, filter criteria, record count |
 
 ### Commands
@@ -49,7 +49,7 @@ do NOT load entire dump into memory.
 # Confirm disk space before download (expanded dump may reach tens of GB)
 df -h ~
 # Download (replace date with actual filename from developers/dumps page)
-wget -P raw/ol_dump/ https://openlibrary.org/data/ol_dump_works_{date}.txt.gz
+wget -P raw/ol_dump/ https://openlibrary.org/data/ol_dump_works_2026-02-28.txt.gz
 # Parse and filter
 python3 scripts/build_population_from_dump.py
 ```
@@ -302,7 +302,7 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 | population-v1 | 2026-02-22 | `ol_works_final_population.tsv` (4,833) | Initial filtered population |
 | population-v2 | 2026-03-04 | `ol_works_augmented_population.tsv` (4,884) | + phd_corpus supplement |
 | population-v3 | TBD | `ol_works_expanded_population.tsv` (~15,000) | + OL offset expansion |
-| population-dump-v1 | TBD | `ol_dump_population_{date}.tsv` | Dump-based main study population (to be created) |
+| population-dump-v1 | TBD | `ol_dump_population_2026-02-28.tsv` | Dump-based main study population (to be created) |
 
 ---
 
