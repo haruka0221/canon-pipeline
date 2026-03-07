@@ -1,6 +1,6 @@
 # WORKFLOW.md — canon-pipeline
 **DCC Digital Curation Workflow Narrative**
-Last updated: 2026-03-04
+Last updated: 2026-03-07
 Status: LIVING DOCUMENT — update on every major change
 
 ---
@@ -15,7 +15,62 @@ This pipeline constructs and validates a population of English-language fiction 
 
 ---
 
-## Stage 1: Population Collection
+## Stage 1: Population Collection (Dump-Based — Main Study)
+
+### Purpose
+Construct the definitive population from the Open Library Works dump,
+replacing the Search API approach used in the pilot study.
+Motivation: OL Search API returns results ranked by internal relevance score,
+which correlates with prior attention — a circular method for studying
+attention inequality. The dump provides a complete, unbiased snapshot.
+
+### Inputs
+- OL Works dump: `https://openlibrary.org/developers/dumps`
+- File: `raw/ol_dump/ol_dump_works_{date}.txt.gz` (.gitignore対象)
+- Snapshot date must be recorded in `derived/README_population.txt` and this file
+
+### Filter Criteria
+1. `first_publish_year`: 1880–1950
+2. `language`: eng (note: language field may be absent at Work level — handling TBD at implementation)
+3. `subject_keys`: same exclusion rules as pilot study (see Stage 2 below)
+
+### Processing Method
+Stream processing (1 line at a time via `gzip.open` + JSONL):
+do NOT load entire dump into memory.
+
+### Outputs
+| File | Description |
+|------|-------------|
+| `derived/ol_dump_population_{date}.tsv` | Official main-study population |
+| `derived/README_population.txt` | Snapshot date, filter criteria, record count |
+
+### Commands
+```bash
+# Confirm disk space before download (expanded dump may reach tens of GB)
+df -h ~
+# Download (replace date with actual filename from developers/dumps page)
+wget -P raw/ol_dump/ https://openlibrary.org/data/ol_dump_works_{date}.txt.gz
+# Parse and filter
+python3 scripts/build_population_from_dump.py
+```
+
+### Decision Points
+- **Why dump instead of API:** 72 canonical phd_corpus works were absent from
+  the top-5,000 API results (e.g. Huckleberry Finn, Dracula, Tess of the D'Urbervilles).
+  Direct evidence of search bias documented in pilot study.
+- **No manual additions:** phd_corpus works not found in OL will be recorded
+  as limitations only — no supplementation.
+
+### Rights / Access
+- OL dump data: CC0 (public domain dedication)
+- No authentication required; direct download
+
+### Evidence / Logs
+- `logs/build_population_from_dump_{date}.log`
+
+---
+
+## Pilot Study: Population Collection (API-Based — Superseded)
 
 ### Purpose
 Retrieve a large-scale list of fiction works from Open Library (OL) matching the study's temporal and linguistic scope.
@@ -58,7 +113,7 @@ python3 scripts/expand_population.py
 
 ---
 
-## Stage 2: Population Filtering
+## Pilot Study: Population Filtering (API-Based — Superseded)
 
 ### Purpose
 Remove non-fiction, poetry, drama, and picture books from the OL retrieval using subject_key-based rules.
@@ -247,6 +302,7 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 | population-v1 | 2026-02-22 | `ol_works_final_population.tsv` (4,833) | Initial filtered population |
 | population-v2 | 2026-03-04 | `ol_works_augmented_population.tsv` (4,884) | + phd_corpus supplement |
 | population-v3 | TBD | `ol_works_expanded_population.tsv` (~15,000) | + OL offset expansion |
+| population-dump-v1 | TBD | `ol_dump_population_{date}.tsv` | Dump-based main study population (to be created) |
 
 ---
 
@@ -262,3 +318,5 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 8. phd_corpus: 19 works not found in OL at all (see `tmp/phd_missing_ol_search.tsv`)
 9. htrc omnibus volumes (collected works) inflate htid_count; not equivalent to single-work importance
 10. FAST ID label resolution blocked by network policy in current work environment
+11. OL dump coverage: works not registered in OL are treated as non-existent
+12. OL dump language field: may be absent at Work level; handling strategy TBD at implementation
