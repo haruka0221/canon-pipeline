@@ -125,7 +125,7 @@ Remove non-fiction, poetry, drama, and picture books from the OL retrieval using
 ### Outputs
 | File | Description |
 |------|-------------|
-| `derived/ol_works_final_population.tsv` | Filtered population: 4,833 works |
+| `derived/ol_works_final_population.tsv` | Filtered population (dump-based): 34,789 works |
 | `derived/ol_works_filtered_removed.tsv` | Excluded 167 works |
 | `derived/ol_works_augmented_population.tsv` | + 51 phd_corpus supplements = 4,884 works |
 | `derived/README_population.txt` | Machine-readable definition of exclusion rules |
@@ -203,7 +203,7 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 | LCCN | 82.0% |
 | Internet Archive (ocaid) | 89.0% |
 
-**Full population OCLC coverage (all 4,833 works):** 92.4% (4,464 works)
+**Full population OCLC coverage (all 34,789 works):** 86.5% (30,101 works)
 
 ---
 
@@ -231,7 +231,7 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 **Purpose:** Retrieve all OCLC numbers from OL edition records for the full population, to enable matching with external databases.
 
 **Inputs:** `derived/ol_works_final_population.tsv`
-**Outputs:** `derived/ol_works_oclc_all.tsv` (28,895 rows; 4,464 works with OCLC)
+**Outputs:** `derived/ol_dump_oclc_all.tsv` (91,449 rows; 30,101 works with OCLC)
 **Command:** `python3 scripts/fetch_all_editions_oclc.py`
 **Cache:** `raw/editions_oclc/*.json` (resumable)
 **Rate:** 0.5s per request
@@ -243,12 +243,12 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 **Purpose:** Match OL population works to HathiTrust digitised volumes via shared OCLC numbers.
 
 **Inputs:**
-- `derived/ol_works_oclc_all.tsv`
+- `derived/ol_dump_oclc_all.tsv`
 - `data/htrc-fiction_metadata.csv` (101,948 records; all within 1880–1923)
 
 **Outputs:**
-- `derived/htrc_ol_match.tsv` (all matched rows with htrc metadata)
-- `derived/htrc_ol_match_summary.tsv` (per work_id summary)
+- `derived/htrc_ol_dump_match.tsv` (all matched rows with htrc metadata)
+- `derived/htrc_ol_dump_match_summary.tsv` (per work_id summary)
 - `derived/htrc_ol_match_with_ol_meta.tsv` (+ OL metadata joined)
 
 **Command:** `python3 scripts/match_htrc_ol.py`
@@ -257,7 +257,7 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 
 | Metric | Value |
 |---|---|
-| Raw matches | 995 works (20.6% of population) |
+| Raw matches | 6,264 works (18.0% of population); prob80≥0.8: 5,310 works |
 | Clean matches (prob80 ≥ 0.8, non-omnibus, pre-1923) | **885 works** |
 
 **htrc note:** `htid` values enable direct access to HathiTrust full text at `https://babel.hathitrust.org/cgi/pt?id={htid}`. Works with startdate ≤ 1922 are US public domain and allow full-text download.
@@ -299,7 +299,8 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 
 | Release ID | Date | Key Artifact | Notes |
 |---|---|---|---|
-| population-v1 | 2026-02-22 | `ol_works_final_population.tsv` (4,833) | Initial filtered population |
+| population-v1 | 2026-02-22 | `ol_works_final_population.tsv` (4,833) | Initial filtered population (pilot)
+population-dump-v1 | 2026-03-09 | `ol_dump_population_fiction_2026-02-28.tsv` (34,789) | Dump-based production population |
 | population-v2 | 2026-03-04 | `ol_works_augmented_population.tsv` (4,884) | + phd_corpus supplement |
 | population-v3 | TBD | `ol_works_expanded_population.tsv` (~15,000) | + OL offset expansion |
 | population-dump-v1 | TBD | `ol_dump_population_2026-02-28.tsv` | Dump-based main study population (to be created) |
