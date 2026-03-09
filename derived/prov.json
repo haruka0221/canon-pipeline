@@ -1,0 +1,65 @@
+{
+  "id": "population-dump-v1",
+  "created": "2026-03-09",
+  "description": "Dump-based English fiction population (1880-1950), OL snapshot 2026-02-28",
+  "sources": {
+    "ol_works_dump": {
+      "url": "https://archive.org/download/ol_dump_2026-02-28/ol_dump_works_2026-02-28.txt.gz",
+      "snapshot_date": "2026-02-28",
+      "records": 40718247
+    },
+    "ol_editions_dump": {
+      "url": "https://archive.org/download/ol_dump_2026-02-28/ol_dump_editions_2026-02-28.txt.gz",
+      "snapshot_date": "2026-02-28",
+      "records": 55615769
+    },
+    "htrc_fiction_metadata": {
+      "path": "data/htrc-fiction_metadata.csv",
+      "records": 99357
+    }
+  },
+  "pipeline": [
+    {
+      "step": 1,
+      "script": "scripts/build_population_from_dump.py",
+      "output": "derived/ol_dump_population_fiction_2026-02-28.tsv",
+      "result": {
+        "works": 34789
+      }
+    },
+    {
+      "step": 2,
+      "script": "scripts/match_phd_corpus.py",
+      "output": "derived/ol_dump_population_with_canonical.tsv",
+      "result": {
+        "canonical_matched": 98,
+        "total": 34789
+      }
+    },
+    {
+      "step": 3,
+      "script": "scripts/fetch_oclc_from_dump.py",
+      "output": "derived/ol_dump_oclc_all.tsv",
+      "result": {
+        "works_with_oclc": 30101,
+        "rows": 91449
+      }
+    },
+    {
+      "step": 4,
+      "script": "scripts/match_htrc_ol.py",
+      "output": "derived/htrc_ol_dump_match_summary.tsv",
+      "result": {
+        "matched_works": 6264,
+        "matched_prob80": 5310,
+        "canonical_in_ht": 38
+      }
+    }
+  ],
+  "quality": {
+    "audit_sample": 200,
+    "audit_seed": 20260307,
+    "ok_rate": 0.945,
+    "ng_rate": 0.025
+  }
+}
