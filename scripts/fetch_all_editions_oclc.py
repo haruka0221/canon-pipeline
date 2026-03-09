@@ -3,13 +3,13 @@
 - OL Editions API: https://openlibrary.org/works/{work_key}/editions.json?limit=50
 - 1件ずつ取得、0.5秒インターバル
 - 既取得分はスキップ（再開可能）
-- 出力: derived/ol_works_oclc_all.tsv（work_id, oclc）
+- 出力: derived/ol_dump_oclc_all.tsv（work_id, oclc）
 """
 import requests, time, json, os, csv
 from pathlib import Path
 
-POPULATION = 'derived/ol_works_final_population.tsv'
-OUT_FILE   = 'derived/ol_works_oclc_all.tsv'
+POPULATION = 'derived/ol_dump_population_fiction_2026-02-28.tsv'
+OUT_FILE   = 'derived/ol_dump_oclc_all.tsv'
 RAW_DIR    = Path('raw/editions_oclc')
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
