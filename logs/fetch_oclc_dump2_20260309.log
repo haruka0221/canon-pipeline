@@ -1,0 +1,68 @@
+nohup: ignoring input
+母集団: 34,789 works
+既取得済み: 1,647 works（スキップ）
+今回取得対象: 33,142 works
+ダンプ処理開始...
+  1M行処理済み / マッチ 7,116 editions / 取得 3,555 works
+  2M行処理済み / マッチ 14,238 editions / 取得 5,762 works
+  3M行処理済み / マッチ 21,395 editions / 取得 7,389 works
+  4M行処理済み / マッチ 28,482 editions / 取得 8,824 works
+  5M行処理済み / マッチ 35,853 editions / 取得 10,006 works
+  6M行処理済み / マッチ 43,155 editions / 取得 11,074 works
+  7M行処理済み / マッチ 50,121 editions / 取得 12,130 works
+  8M行処理済み / マッチ 57,309 editions / 取得 13,009 works
+  9M行処理済み / マッチ 64,334 editions / 取得 13,881 works
+  10M行処理済み / マッチ 71,564 editions / 取得 14,607 works
+  11M行処理済み / マッチ 78,835 editions / 取得 15,312 works
+  12M行処理済み / マッチ 86,054 editions / 取得 16,043 works
+  13M行処理済み / マッチ 93,234 editions / 取得 16,669 works
+  14M行処理済み / マッチ 100,409 editions / 取得 17,339 works
+  15M行処理済み / マッチ 107,660 editions / 取得 17,965 works
+  16M行処理済み / マッチ 114,793 editions / 取得 18,586 works
+  17M行処理済み / マッチ 121,824 editions / 取得 19,169 works
+  18M行処理済み / マッチ 128,861 editions / 取得 19,650 works
+  19M行処理済み / マッチ 136,043 editions / 取得 20,219 works
+  20M行処理済み / マッチ 143,250 editions / 取得 20,765 works
+  21M行処理済み / マッチ 150,435 editions / 取得 21,184 works
+  22M行処理済み / マッチ 157,387 editions / 取得 21,683 works
+  23M行処理済み / マッチ 164,716 editions / 取得 22,123 works
+  24M行処理済み / マッチ 171,978 editions / 取得 22,537 works
+  25M行処理済み / マッチ 179,204 editions / 取得 23,008 works
+  26M行処理済み / マッチ 186,246 editions / 取得 23,443 works
+  27M行処理済み / マッチ 193,424 editions / 取得 23,906 works
+  28M行処理済み / マッチ 200,487 editions / 取得 24,281 works
+  29M行処理済み / マッチ 207,758 editions / 取得 24,716 works
+  30M行処理済み / マッチ 215,023 editions / 取得 25,098 works
+  31M行処理済み / マッチ 222,082 editions / 取得 25,468 works
+  32M行処理済み / マッチ 229,155 editions / 取得 25,893 works
+  33M行処理済み / マッチ 236,234 editions / 取得 26,237 works
+  34M行処理済み / マッチ 243,560 editions / 取得 26,621 works
+  35M行処理済み / マッチ 250,527 editions / 取得 26,945 works
+  36M行処理済み / マッチ 257,677 editions / 取得 27,262 works
+  37M行処理済み / マッチ 264,768 editions / 取得 27,611 works
+  38M行処理済み / マッチ 272,011 editions / 取得 27,965 works
+  39M行処理済み / マッチ 279,180 editions / 取得 28,289 works
+  40M行処理済み / マッチ 286,387 editions / 取得 28,633 works
+  41M行処理済み / マッチ 293,617 editions / 取得 28,941 works
+  42M行処理済み / マッチ 300,694 editions / 取得 29,276 works
+  43M行処理済み / マッチ 307,864 editions / 取得 29,592 works
+  44M行処理済み / マッチ 314,943 editions / 取得 29,892 works
+  45M行処理済み / マッチ 322,102 editions / 取得 30,245 works
+  46M行処理済み / マッチ 329,103 editions / 取得 30,509 works
+  47M行処理済み / マッチ 336,205 editions / 取得 30,809 works
+  48M行処理済み / マッチ 343,540 editions / 取得 31,101 works
+  49M行処理済み / マッチ 350,717 editions / 取得 31,347 works
+  50M行処理済み / マッチ 357,765 editions / 取得 31,646 works
+  51M行処理済み / マッチ 364,987 editions / 取得 31,910 works
+  52M行処理済み / マッチ 372,218 editions / 取得 32,220 works
+  53M行処理済み / マッチ 379,460 editions / 取得 32,490 works
+  54M行処理済み / マッチ 386,623 editions / 取得 32,746 works
+  55M行処理済み / マッチ 393,679 editions / 取得 32,972 works
+
+ダンプ処理完了: 55.6M行 / マッチ 398,104 editions / 33,142 works
+
+書き出し完了:
+  OCLC取得あり: 33,142 works
+  Edition未収録: 0 works（空行）
+  総行数追記: 91,449 行
+→ derived/ol_dump_oclc_all.tsv

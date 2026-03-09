@@ -1,16 +1,16 @@
 """
 OL全件OCLC × htrc突合スクリプト
 入力:
-  derived/ol_works_oclc_all.tsv  (work_id, oclc)
+  derived/ol_dump_oclc_all.tsv  (work_id, oclc)
   data/htrc-fiction_metadata.csv
 出力:
-  derived/htrc_ol_match.tsv      (work_id + htrc メタデータ)
-  derived/htrc_ol_match_summary.tsv (work_id ごとの htid 数サマリー)
+  derived/htrc_ol_dump_match.tsv      (work_id + htrc メタデータ)
+  derived/htrc_ol_dump_match_summary.tsv (work_id ごとの htid 数サマリー)
 """
 import pandas as pd
 
 # OL OCLC
-ol = pd.read_csv('derived/ol_works_oclc_all.tsv',
+ol = pd.read_csv('derived/ol_dump_oclc_all.tsv',
                  sep='\t', header=None,
                  names=['work_id','oclc'],
                  dtype={'oclc': str})
@@ -46,7 +46,7 @@ summary = merged.groupby('work_id').agg(
 print(f"\nサマリー件数: {len(summary)}")
 print(summary.head(10).to_string())
 
-merged.to_csv('derived/htrc_ol_match.tsv', sep='\t', index=False)
-summary.to_csv('derived/htrc_ol_match_summary.tsv', sep='\t', index=False)
-print("\n→ derived/htrc_ol_match.tsv に保存")
-print("→ derived/htrc_ol_match_summary.tsv に保存")
+merged.to_csv('derived/htrc_ol_dump_match.tsv', sep='\t', index=False)
+summary.to_csv('derived/htrc_ol_dump_match_summary.tsv', sep='\t', index=False)
+print("\n→ derived/htrc_ol_dump_match.tsv に保存")
+print("→ derived/htrc_ol_dump_match_summary.tsv に保存")
