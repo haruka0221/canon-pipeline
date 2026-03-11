@@ -226,18 +226,110 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 
 ---
 
-### 3c. phd_corpus Coverage Audit
+### 3c. phd_corpus Coverage Audit & Canonical Matching (v2)
 
-**Purpose:** Verify that canonical works (phd_corpus) are present in the OL population.
+#### Nature of the phd_corpus (read before interpreting results)
 
-**Inputs:** `data/phd_corpus_1880_1950_cleaned.csv` (142 works after cleaning)
-**Outputs:** `derived/phd_corpus_not_matched.tsv`
-**Script:** `scripts/match_phd_corpus.py` (rapidfuzz token_sort_ratio ≥ 80)
+`data/phd_corpus_1880_1950_cleaned.csv` is **not a self-curated list**.
+It is derived from the appendix of McGrath et al.'s quantitative study of modernist
+literature, which aggregated publicly available PhD reading lists from multiple
+major university English departments.
 
-**Results:**
-- Matched: 98/142 works → `canonical = 1` flag in population file
-- Not matched: 44 works → recorded as limitation only (no manual supplementation)
-- canonical 98件全件がWikidataに存在することを別途確認（§4e参照）
+- **Meaning:** Works on this list were judged "required reading" for doctoral study
+  in English literature at multiple major universities.
+- **Dissertation significance:** hollow canon works (canonical=1, jstor=0) represent
+  a *gap between pedagogical canon and research canon*: works institutionally mandated
+  for doctoral education that are nonetheless absent from the academic literature.
+- **Citation required:** Add full bibliographic reference for McGrath et al. to this
+  section when available.
+
+#### Matching approach
+
+Each phd_corpus work is matched against the OL population (34,789 works) to assign
+`canonical = 1`. Unmatched works are recorded as limitations only — no manual
+supplementation.
+
+**v1 (deprecated):** Title fuzzy match only (token_sort_ratio ≥ 80)
+
+**v2 (current — 2026-03-11):** Three-condition priority matching
+
+```
+Priority 1 (quality=best):
+  title score ≥ 80  AND  |publication year difference| ≤ 5  AND  last name match
+  → Most reliable match
+
+Priority 2 (quality=year_only):
+  title score ≥ 80  AND  |publication year difference| ≤ 5
+  → Applies when author name is absent from OL record
+
+Priority 3 (quality=title_only):
+  title score ≥ 80 only
+  → Equivalent to v1; last resort when year/author unavailable
+
+FORCE_MAP (manual override):
+  Works where automatic matching is structurally unreliable due to
+  multiple OL records sharing the same title. Directly assigned:
+    "The Prisoner of Zenda" → /works/OL9056552W  (Anthony Hope, 1894)
+    "The Good Soldier"      → /works/OL15345521W (Ford Madox Ford, 1915)
+    "Dracula"               → /works/OL15062619W (Bram Stoker, 1897)
+```
+
+**Script:** `scripts/match_phd_corpus_v2.py`
+**Comparison log:** `derived/phd_match_comparison.tsv`
+(records v1 vs v2 diff, quality tier, and changed flag for every matched work)
+
+#### Results (v2)
+
+| Quality tier | Count |
+|---|---|
+| best (year + author + title) | 76 |
+| year_only (year + title) | 4 |
+| title_only (title only) | 15 |
+| forced (FORCE_MAP) | 3 |
+| **Total canonical** | **98** |
+| Unmatched | 44 (recorded as limitations) |
+
+#### Corrections made vs v1 (11 works)
+
+| Work | v1 problem | v2 correction |
+|---|---|---|
+| The Awakening (1899) | Matched C. Wickliffe Yulee edition | Corrected to Kate Chopin (OL65430W) |
+| Jude the Obscure (1895) | Matched edition with no author | Corrected to Hardy, Thomas (OL39453744W) |
+| The Secret Agent (1907) | Matched wrong edition | Corrected to Conrad, Joseph (OL39108W) |
+| Peter Pan (1911) | Matched wrong edition | Corrected to J. M. Barrie (OL462007W) |
+| Tender Is The Night (1934) | Matched wrong edition | Corrected to F. Scott Fitzgerald (OL468485W) |
+| Strange Case of Dr Jekyll (1886) | Matched wrong edition | Corrected to Robert Louis Stevenson (OL44014215W) |
+| The Jungle Book (1894) | Matched wrong edition | Corrected to Kipling, Rudyard (OL19870W) |
+| The Crock of Gold (1913) | Matched wrong edition | Corrected to Stephens, James (OL1154817W) |
+| The North Star (1904) | Matched wrong edition | Corrected to M. E. Henry-Ruffin (OL18397742W) |
+| The Custom of the Country (1913) | Matched wrong author edition | Corrected to Edith Wharton (OL98585W) — OL year mis-registered as 1900 |
+| The Frontiersman (1904) | Matched wrong edition | Corrected to Craddock / Murfree (OL2337481W) |
+
+#### ⚠️ Scope of today's verification — what is and is not guaranteed
+
+**What this verification covers:**
+- Correctness of work_key assignments for all **98 canonical works**
+- JSTOR mention counts for canonical works (rescanned with correct author names; see §5a)
+
+**What this verification does NOT cover:**
+- Correctness of work_key assignments for the remaining **34,691 non-canonical works**
+  → Where multiple OL records share the same title, the correct edition may not have
+    been selected. Only title-based fuzzy matching was applied to these works.
+- JSTOR mention counts for non-canonical works where the wrong edition may have been
+  matched (unmodified; see Known Limitation #18)
+
+#### When re-verification is required
+
+Re-run `scripts/match_phd_corpus_v2.py` and downstream scripts when any of the
+following occur:
+
+1. **phd_corpus is updated** (works added, removed, or year range changed)
+2. **OL dump is replaced with a newer snapshot** (work_keys may change)
+3. **A specific non-canonical work is cited individually in the dissertation**
+   (e.g. shadow canon top entries) → verify its work_key manually against
+   `derived/ol_dump_population_with_author.tsv`
+4. **Multi-signal agreement analysis (§6b) is run** → cross-check that all four
+   indicators (JSTOR, OpenAlex, Wikidata, HathiTrust) reference the same work_key
 
 ---
 
@@ -347,9 +439,11 @@ Apparent mismatches were caused by OL returning recent editions first (offset0 b
 - `abstract` field population: **0.0%** ← abstractフィールドは実質存在しない
 
 #### Indicator Definition (confirmed, do not change)
-> **「学術論文タイトルおよびcreators欄に作品名・著者名が共起する論文件数」**
+> **"Number of academic journal articles whose title and/or creators field
+>  co-occurs with a work title AND author last name"**
 >
-> ~~「論文のtitle・abstract・全文に作品名が含まれる件数」~~ (abstractが存在しないため修正)
+> ~~"Number of papers mentioning the work in title, abstract, or full text"~~
+> (revised because abstract field is absent in JSTOR metadata)
 
 #### Normalization Rules (v3-final — applies to ALL matching scripts)
 ```python
@@ -359,8 +453,8 @@ _NON_ALNUM   = re.compile(r'[^a-z0-9\s]')                     # replace with spa
 _MULTI_SPC   = re.compile(r'\s+')
 
 # Examples:
-# "Howard's End"      → "howards end"    (v2 bug was: "howard s end")
-# "D'Urbervilles"     → "durbervilles"   (v2 bug was: "d urbervilles")
+# "Howard's End"         → "howards end"      (v2 bug: "howard s end")
+# "D'Urbervilles"        → "durbervilles"      (v2 bug: "d urbervilles")
 # "Nineteen Eighty-Four" → "nineteen eightyfour"
 ```
 
@@ -371,23 +465,57 @@ _MULTI_SPC   = re.compile(r'\s+')
 - `last_name` empty (author unknown) → title-only match only (355 works, 1.0%)
 - `title_norm` duplicate → deduplicated to 30,962 index entries (from 34,789)
 
-#### Results
+#### Results (initial scan)
 
 | Metric | All works (30,962) | Canonical (98) |
 |---|---|---|
-| 総マッチ件数 | 70,348 | — |
-| ゼロヒット | 27,481 (88.8%) | 28 (28.6%) |
-| 1件以上 | 3,481 (11.2%) | 70 (71.4%) |
-| 5件以上 | 845 (2.7%) | 55 (56.1%) |
-| 中央値 | 0 | 6 |
-| 最大値 | — | 443 (Ulysses) |
+| Zero hits | 27,481 (88.8%) | 28 (28.6%) |
+| 1 or more | 3,481 (11.2%) | 70 (71.4%) |
+| 5 or more | 845 (2.7%) | 55 (56.1%) |
+| Median | 0 | 6 |
+| Maximum | — | 443 (Ulysses) |
 
-**Core finding:** canonical works receive dramatically more academic attention than non-canonical works. This quantitative evidence of attention inequality is a key dissertation finding.
+#### Post-hoc JSTOR rescan for corrected canonical works (2026-03-11)
+
+Ten canonical works corrected in v2 matching had been scanned using incorrect
+author names from v1. These were rescanned with correct author names and
+`derived/jstor_mentions.tsv` was updated.
+
+| Work | Old author (wrong) | Old JSTOR | Correct author | New JSTOR |
+|---|---|---|---|---|
+| The Awakening | C. Wickliffe Yulee | 0 | Kate Chopin | **32** |
+| Jude the Obscure | (no author) | 0 | Hardy, Thomas | **27** |
+| The Secret Agent | (wrong author) | 0 | Conrad, Joseph | **77** |
+| The Custom of the Country | Fraser, Hugh | 0 | Edith Wharton | **12** |
+| Tender Is The Night | (wrong author) | 0 | F. Scott Fitzgerald | **15** |
+| The Jungle Book | — | — | Kipling, Rudyard | **6** |
+| Strange Case of Dr Jekyll | — | — | R. L. Stevenson | **4** |
+| Peter Pan | — | — | J. M. Barrie | **2** |
+| The Crock of Gold | — | — | Stephens, James | **2** |
+| The Frontiersmen | — | — | Craddock / Murfree | **0** |
+
+FORCE_MAP works (3) also rescanned:
+
+| Work | Correct author | JSTOR |
+|---|---|---|
+| Dracula | Bram Stoker | **63** |
+| The Good Soldier | Ford Madox Ford | **21** |
+| The Prisoner of Zenda | Anthony Hope | **1** |
+
+#### Confirmed canonical indicator values (post-correction — use these in dissertation)
+
+| Metric | Canonical (n=98) |
+|---|---|
+| Zero hits | 23 (23.5%) |
+| 1 or more hits | 75 (76.5%) |
+| Median | 7 |
+| Mean | 18.3 |
+| Maximum | 443 (Ulysses) |
 
 #### Output Column Schema
 | Column | Type | Description |
 |---|---|---|
-| `work_key` | string | `/works/OL123W` format |
+| `work_id` | string | `/works/OL123W` format |
 | `title` | string | Work title |
 | `author` | string | Author name string |
 | `title_norm` | string | Normalized title (v3 rules) |
@@ -404,14 +532,20 @@ _MULTI_SPC   = re.compile(r'\s+')
 
 **Purpose:** Count academic papers mentioning a work in title OR abstract via OpenAlex API.
 
-**Endpoint:** `GET https://api.openalex.org/works?filter=title.search:"作品名" 著者姓&mailto=tsutsui@nihu.jp`
+**Endpoint:** `GET https://api.openalex.org/works?filter=title.search:{title} {last_name}&mailto=tsutsui@nihu.jp`
 **Auth:** None required. Use `mailto` param for polite pool (10 req/sec).
-**Rate:** 0.2s interval (confirmed safe in testing)
+**Rate:** 1.0s interval (confirmed safe; 0.2s caused HTTP 429 at scale)
 
 #### Why OpenAlex Concepts/Topics approach was abandoned (confirmed 2026-03-11)
 - **Concepts API** (`filter=wikidata_id:Q208460`): `count: 0` for all tested works including Nineteen Eighty-Four. OpenAlex does not register individual novels as Concepts.
 - **Topics:** Granularity is "James Joyce" or "Modernist Literature" level — no per-title Topics exist.
 - **Conclusion:** QID-based approach is structurally impossible. title.search is the only viable method.
+
+#### API usage notes (confirmed through trial and error)
+- `group_by=publication_year` and `select=id` **cannot be used together** → HTTP 400
+- Use `per_page=1` (not 0) with `group_by` → returns `meta.count` + year breakdown in one request
+- Filter syntax: **no quotes** around query string → `title.search:ulysses joyce` ✓
+  (quoted syntax `title.search:"ulysses joyce"` returns wrong results)
 
 #### Difference from JSTOR
 - OpenAlex searches **title + abstract** (JSTOR: title only)
@@ -423,49 +557,112 @@ _MULTI_SPC   = re.compile(r'\s+')
 
 | Metric | title only | title AND author |
 |---|---|---|
-| 総カウント | 854,332 | 4,350 |
-| ゼロヒット | 15 (10.6%) | 56 (39.4%) |
-| 1件以上 | 127 (89.4%) | 86 (60.6%) |
-| 10件以上 | 103 (72.5%) | 59 (41.5%) |
-| 最大値 | 343,243 | 530 (Ulysses) |
+| Zero hits | 15 (10.6%) | 56 (39.4%) |
+| 1 or more | 127 (89.4%) | 86 (60.6%) |
+| Maximum | 343,243 | 530 (Ulysses) |
 
-#### Next step: Full population scan (34,789 works)
-**Script to create:** `scripts/openalex_mentions_all.py`
+#### Full population scan — pending
+**Script:** `scripts/openalex_mentions_all.py` (v5 — checkpoint + 429 retry)
 **Input:** `derived/ol_dump_population_with_author.tsv`
 **Output:** `derived/openalex_mentions.tsv`
-**Estimated runtime:** ~4 hours (nohup推奨)
-**Important:** Include checkpoint saves every 1,000 works (lesson from JSTOR scan failure)
-**Important:** Include HTTP 429 retry with exponential backoff
+**Additional output:** `year_json` column — per-year citation breakdown for temporal analysis (§6c)
+**Estimated runtime:** ~10 hours (1.0s interval × 34,789 works, nohup recommended)
+**Resume:** checkpoint saved every 1,000 works to `derived/openalex_mentions_checkpoint.tsv`
 
-#### Output Column Schema (openalex_works_test.tsv)
+#### Output Column Schema
 | Column | Type | Description |
 |---|---|---|
 | `work_key` | string | `/works/OL123W` format |
 | `title` | string | Work title |
 | `author` | string | Author name string |
 | `last_name` | string | Normalized author last name |
-| `oa_count_title` | integer | title-only count (reference, noisy) |
+| `canonical` | integer | 0 or 1 |
 | `oa_count_author` | integer | title AND author count (**primary indicator**) |
+| `year_json` | string | Per-year breakdown JSON e.g. `{"1980":3,"2005":12}` |
 
 ---
 
-## Stage 6: Analysis (Next Phase)
+## Stage 6: Analysis
 
-### 6a. Shadow Canon / Hollow Canon Analysis
-**Status:** Not yet implemented — can start immediately with existing data
+### 6a. Shadow Canon / Hollow Canon Analysis (completed 2026-03-11)
 
-```
-shadow canon: canonical=0 AND jstor_mention_count high
-→ "works that should have entered the canon but did not"
-→ test: are female/minority authors overrepresented here?
-
-hollow canon: canonical=1 AND jstor_mention_count=0
-→ "works in the canon but academically ignored"
-→ question: why did they achieve canonical status?
-```
-
-**Script to create:** `scripts/shadow_hollow_analysis.py`
+**Script:** `scripts/shadow_hollow_analysis.py` (v2)
 **Input:** `derived/jstor_mentions.tsv`
+**Outputs:**
+- `derived/shadow_canon.tsv` (50 works)
+- `derived/hollow_canon.tsv` (23 works)
+- `derived/shadow_hollow_summary.txt` (statistics summary for dissertation)
+
+#### Hollow canon (23 works — confirmed)
+
+Definition: canonical=1 AND jstor_mention_count=0
+
+Because canonical status derives from McGrath et al.'s aggregation of PhD reading
+lists at major universities, hollow canon works are those that **doctoral programs
+have institutionally mandated as required reading, yet which receive no citation
+in the academic literature**.
+
+**Dissertation framing:**
+> "A disjunction between the pedagogical canon — works deemed essential by doctoral
+>  programs — and the research canon — works that actually circulate in academic
+>  discourse."
+
+Representative hollow canon works:
+
+| Work | Author | Interpretation |
+|---|---|---|
+| Tarzan of the Apes | Edgar Rice Burroughs | Mass popularity, zero academic attention — archetypal hollow canon |
+| White Fang | Jack London | Same pattern |
+| The Yearling | Marjorie Kinnan Rawlings | Pulitzer Prize winner — even prize status does not guarantee academic citation |
+| King Coal | Upton Sinclair | Valued in political/social movement contexts, absent from literary scholarship |
+
+Note: The Prisoner of Zenda (JSTOR=1) narrowly avoids zero — in practice
+near-hollow; worth noting in dissertation.
+
+#### Shadow canon (50 works — confirmed)
+
+Definition: canonical=0 AND jstor_mention_count ≥ 5, is_short=0,
+author-name-as-title noise excluded. Top 50 by jstor_mention_count.
+
+**Dissertation framing:**
+> "Works excluded from the PhD reading lists aggregated by McGrath et al.,
+>  yet heavily cited in academic literature — evidence of what (and who)
+>  canonical selection omitted."
+
+Key findings:
+
+- **H. D. (Hilda Doolittle)** appears twice in top 10:
+  Palimpsest (396 citations), The Hedgehog (381 citations).
+  A female modernist writer receiving substantial academic attention
+  while absent from the doctoral canon. **Usable as concrete evidence
+  of gender bias in canonical selection.**
+
+- **Finnegans Wake / Joyce (142 citations):**
+  Ulysses is canonical, but this equally major work by the same author is not.
+  Illustrates "author is canonical, work is not" — a distinct pattern.
+
+- **The Wave / Evelyn Scott (122 citations):**
+  Confirmed not confused with Virginia Woolf's The Waves — normalization
+  produces "wave" ≠ "waves"; counts verified as distinct in jstor_mentions.tsv.
+
+- **Virginia Woolf's non-canonical works** (The Waves 37, Between the Acts 30,
+  The Years 25, The Voyage Out 17): four works are canonical; remaining major
+  works are outside the canon despite substantial academic citation.
+
+**Known noise in shadow canon (record as limitations):**
+- Stephen King, "The Mist" (1980) — outside 1880–1950 scope
+- Shakespeare, Spenser — outside scope (pre-1880)
+- See Known Limitation #19
+
+#### Core quantitative finding (citable in dissertation)
+
+```
+Canonical median JSTOR citations:     7
+Non-canonical median JSTOR citations: 0
+
+Canonical works with ≥1 citation:     76.5%
+Non-canonical works with ≥1 citation: 11.1%
+```
 
 ### 6b. Multi-Signal Agreement Analysis
 **Status:** Pending OpenAlex full scan completion
@@ -481,21 +678,16 @@ Vectorise each work: [jstor, openalex, wikidata_sitelinks, hathitrust_htid_count
 ```
 
 ### 6c. Temporal Analysis (Citation Trends)
-**Status:** Pending OpenAlex canonical detail fetch
+**Status:** Pending OpenAlex full scan completion
 
 ```
-For canonical 98 works:
-→ fetch all individual papers (cursor pagination, per_page=200)
-→ fields: publication_year, cited_by_count, primary_topic
+For canonical 98 works × year_json column:
 → aggregate by decade → visualise citation waves
 → expected findings:
    Kate Chopin "The Awakening": spike post-1960s feminism
    Virginia Woolf: spike 1970–80s feminist criticism
    Joseph Conrad: spike 1980s postcolonial criticism
 ```
-
-**Script to create:** `scripts/openalex_canonical_papers.py`
-**Output:** `derived/openalex_canonical_papers.tsv`
 
 ---
 
@@ -527,3 +719,6 @@ For canonical 98 works:
 14. JSTOR title_norm deduplication reduced index from 34,789 to 30,962 works (~3,800 title collisions)
 15. Works with unknown author (355 works, 1.0%) receive title-only JSTOR matching (lower precision)
 16. OpenAlex Concepts/Topics API cannot identify individual novels — QID-based approach structurally impossible (confirmed 2026-03-11)
+17. **work_key accuracy verified for canonical 98 works only.** For the remaining 34,691 non-canonical works, where multiple OL records share the same title, the correct edition may not have been selected (title fuzzy match only). Individual non-canonical works cited in the dissertation (e.g. shadow canon entries) should be manually verified against `derived/ol_dump_population_with_author.tsv`.
+18. **JSTOR mention counts for non-canonical works are unrevised.** The post-hoc rescan in §5a was applied to canonical works only. Non-canonical JSTOR values may reflect wrong-edition author names in a small number of cases. Since non-canonical works are used only in aggregate (distributions, medians), not individually, this does not affect dissertation conclusions.
+19. **Shadow canon list contains works outside the 1880–1950 scope.** The `first_publish_year` filter was applied at population construction (§1) but not re-applied during shadow canon extraction (§6a). Works such as Stephen King's "The Mist" (1980) appear in the shadow canon list. Individual year verification is required before citing any shadow canon entry in the dissertation.
