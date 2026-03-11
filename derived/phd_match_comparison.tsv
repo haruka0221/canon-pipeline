@@ -1,0 +1,99 @@
+phd_title	phd_author	phd_year	ol_work_key	ol_title	ol_author	ol_year	title_score	yr_match	au_match	quality	v1_key	changed	n_candidates
+The Portrait of a Lady	Henry James	1881	/works/OL276365W	The Portrait of a Lady	James, Henry	1881	100.0	True	True	best	/works/OL276365W	False	1
+Treasure Island	Robert Louis Stevenson	1882	/works/OL24034W	Treasure Island	Robert Louis Stevenson	1880	100.0	True	True	best	/works/OL24034W	False	11
+The golden calf	Mary Braddon	1883	/works/OL5138118W	The Golden Cage	Iris Bromige	1950	81.81818181818181	False	False	title_only	/works/OL5138118W	False	1
+The Story of an African Farm	Olive Schreiner	1883	/works/OL18561767W	The story of an African farm	Olive Schreiner	1883	100.0	True	True	best	/works/OL18561767W	False	3
+Strange Case of Dr Jekyll and Mr Hyde	Robert Louis Stevenson	1886	/works/OL44014215W	Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	1886	100.0	True	True	best	/works/OL24120W	True	6
+Looking Backward	Edward Bellamy	1887	/works/OL18814811W	Looking backward	Bellamy, Edward	1941	100.0	False	True	title_only	/works/OL18814811W	False	3
+Robert Elsmere	Mrs. Humphry Ward	1888	/works/OL41540816W	Robert Elsmere	Humphry Ward	1888	100.0	True	True	best	/works/OL41540816W	False	2
+The Mystery of the Cloomber	Arthur Conan Doyle	1889	/works/OL262473W	The Mystery of Cloomber	Doyle, Arthur Conan	1895	90.47619047619048	False	True	title_only	/works/OL262473W	False	1
+At Fault	Kate Chopin	1890	/works/OL65437W	At Fault	Kate Chopin	1890	100.0	True	True	best	/works/OL65437W	False	1
+The Picture of Dorian Gray	Oscar Wilde	1890	/works/OL8193416W	The Picture of Dorian Gray	Oscar Wilde	1890	100.0	True	True	best	/works/OL8193416W	False	1
+Alas	Rhoda Broughton	1890	/works/OL1487721W	Alas!	Rhoda Broughton	1890	100.0	True	True	best	/works/OL1487721W	False	1
+Megda	Emma Kelley	1891	/works/OL4971729W	Megda	Emma Dunham Kelley	1891	100.0	True	True	best	/works/OL4971729W	False	1
+Tess of the D'Urbervilles	Thomas Hardy	1891	/works/OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	1891	100.0	True	True	best	/works/OL40434746W	False	2
+Maggie, a girl of the streets	Stephen Crane	1892	/works/OL20839W	Maggie, a girl of the streets	Crane, Stephen	1893	100.0	True	True	best	/works/OL20839W	False	3
+The Odd Women	George Gissing	1893	/works/OL715621W	The odd women	George Gissing	1893	100.0	True	True	best	/works/OL715621W	False	1
+The Heavenly Twins	Sarah Grand	1893	/works/OL4315764W	The Heavenly Twins	Sarah Grand	1893	100.0	True	True	best	/works/OL4315764W	False	2
+The Prisoner of Zenda	Anthony Hope	1894	/works/OL9056552W	The prisoner of Zenda	George F. Wear	1939	999	True	True	forced	/works/OL9056552W	False	1
+Pembroke	Mary Wilkins Freeman	1894	/works/OL507321W	Pembroke	Mary Eleanor Wilkins Freeman	1894	100.0	True	True	best	/works/OL507321W	False	1
+The Jungle Book	Rudyard Kipling	1894	/works/OL19870W	The Jungle Book	Kipling, Rudyard	1893	100.0	True	True	best	/works/OL44238347W	True	3
+The Time Machine	H. G. Wells	1895	/works/OL52267W	The Time Machine	H. G. Wells	1895	100.0	True	True	best	/works/OL52267W	False	2
+The Red Badge of Courage	Stephen Crane	1895	/works/OL42517032W	The red badge of courage	Crane, Stephen	1900	100.0	True	True	best	/works/OL42517032W	False	4
+Jude the Obscure	Thomas Hardy	1895	/works/OL39453744W	Jude the obscure	Hardy, Thomas	1895	100.0	True	True	best	/works/OL36050583W	True	6
+Dracula	Bram Stoker	1897	/works/OL15062619W	Dracula	Martin Harry Greenberg	1922	999	True	True	forced	/works/OL15062619W	False	1
+The Turn of the Screw	Henry James	1898	/works/OL40252771W	Turn of the Screw	Henry James	1898	100.0	True	True	best	/works/OL40252771W	False	3
+The Red Axe	S R Crockett	1898	/works/OL2339087W	The Red Axe	S. R. Crockett	1898	100.0	True	True	best	/works/OL2339087W	False	2
+McTeague	Frank Norris	1899	/works/OL1794911W	McTeague	Frank Norris	1899	100.0	True	True	best	/works/OL1794911W	False	1
+Heart of Darkness	Joseph Conrad	1899	/works/OL31971259W	Heart of Darkness	Conrad, Joseph	1899	100.0	True	True	best	/works/OL31971259W	False	6
+The Awakening	Kate Chopin	1899	/works/OL65430W	The Awakening	Kate Chopin	1899	100.0	True	True	best	/works/OL7851965W	True	5
+Senator North	Gertrude Atherton	1900	/works/OL1797270W	Senator North	Atherton, Gertrude Franklin Horn	1900	100.0	True	True	best	/works/OL1797270W	False	1
+Kim	Rudyard Kipling	1900	/works/OL20172W	Kim	Kipling, Rudyard	1901	100.0	True	True	best	/works/OL20172W	False	3
+Sister Carrie	Theodore Dreiser	1900	/works/OL100203W	Sister Carrie	Theodore Dreiser	1900	100.0	True	True	best	/works/OL100203W	False	2
+Marrow of Tradition	Mary Chesnutt	1901	/works/OL112798W	The marrow of tradition	Charles Waddell Chesnutt	1901	100.0	True	True	best	/works/OL112798W	False	1
+Grand Babylon Hotel	Arnold Bennett	1902	/works/OL109153W	The Grand Babylon Hotel	Bennett, Arnold	1902	100.0	True	True	best	/works/OL109153W	False	1
+Eleonora	Edward Bellamy	1902	/works/OL109231W	Leonora	Bennett, Arnold	1900	93.33333333333333	True	False	year_only	/works/OL109231W	False	2
+Hearts courageous	Hallie Rives	1902	/works/OL1799163W	Hearts courageous	Rives, Hallie Erminie	1902	100.0	True	True	best	/works/OL1799163W	False	1
+The Pit	Frank Norris	1903	/works/OL1794919W	The Pit	Frank Norris	1903	100.0	True	True	best	/works/OL1794919W	False	1
+The Ambassadors	Henry James	1903	/works/OL276470W	The Ambassadors	James, Henry	1903	100.0	True	True	best	/works/OL276470W	False	2
+The Call of the Wild	Jack London	1903	/works/OL14942956W	The Call of the Wild	Jack London	1903	100.0	True	True	best	/works/OL14942956W	False	3
+Sea Witch	Jack London	1904	/works/OL6926191W	The sea witch	Laing, Alexander	1933	100.0	False	False	title_only	/works/OL6926191W	False	3
+The North Star	Margaret Ellen Henry-Ruffin	1904	/works/OL18397742W	The North Star	M. E. Henry-Ruffin	1904	100.0	True	True	best	/works/OL4879656W	True	2
+The Frontiersman	Mary Noailles Murfree	1904	/works/OL2337481W	The Frontiersmen	Charles Egbert Craddock	1904	91.66666666666666	True	False	year_only	/works/OL18402893W	True	3
+The House of Mirth	Edith Wharton	1905	/works/OL42236259W	The house of mirth	Edith Wharton	1906	100.0	True	True	best	/works/OL42236259W	False	3
+The Scarlet Pimpernel	Emma Orczy	1905	/works/OL1253285W	The Scarlet Pimpernel	Orczy, Emmuska Orczy	1900	100.0	True	True	best	/works/OL1253285W	False	1
+White Fang	Jack London	1906	/works/OL74504W	White Fang	Jack London	1905	100.0	True	True	best	/works/OL74504W	False	5
+The Jungle	Upton Sinclair	1906	/works/OL44622934W	The jungle	Upton Sinclair	1906	100.0	True	True	best	/works/OL44622934W	False	2
+The Slim Princess	George Ade	1907	/works/OL7541646W	Princess Salome	Burris Jenkins	1921	85.71428571428572	False	False	title_only	/works/OL7541646W	False	1
+Secret Agent	Joseph Conrad	1907	/works/OL39108W	The Secret Agent	Conrad, Joseph	1907	100.0	True	True	best	/works/OL43462425W	True	5
+A Room with a View	E. M. Forster	1908	/works/OL88813W	A Room with a View	E. M. Forster	1905	100.0	True	True	best	/works/OL88813W	False	2
+Three Lives	Gertrude Stein	1909	/works/OL35383W	Three Lives	Gertrude Stein	1909	100.0	True	True	best	/works/OL35383W, /works/OL1217993W	False	8
+Martin Eden	Jack London	1909	/works/OL144822W	Martin Eden	Jack London	1908	100.0	True	True	best	/works/OL144822W	False	2
+Howard's End	E. M. Forster	1910	/works/OL88881W	Howards End	E. M. Forster	1910	100.0	True	True	best	/works/OL88881W	False	2
+Ethan Frome	Edith Wharton	1911	/works/OL98501W	Ethan Frome	Edith Wharton	1910	100.0	True	True	best	/works/OL98501W	False	1
+Peter Pan	J. M. Barrie	1911	/works/OL462007W	Peter Pan	J. M. Barrie	1911	100.0	True	True	best	/works/OL8137276W	True	2
+The road to Damascus	Hersilia Keays	1912	/works/OL20163024W	The Damascus Road	Jay Parini	1920	89.65517241379311	False	False	title_only	/works/OL20163024W	False	1
+The Financier	Theodore Dreiser	1912	/works/OL100237W	The Financier	Theodore Dreiser	1912	100.0	True	True	best	/works/OL100237W	False	1
+Alexander's Bridge	Willa Cather	1912	/works/OL12781W	Alexander's Bridge	Willa Cather	1912	100.0	True	True	best	/works/OL12781W	False	1
+The New Dawn	Agnes Laut	1913	/works/OL5293697W	New day	Victor Stafford Reid	1949	80.0	False	False	title_only	/works/OL5293697W	False	1
+Sons and Lovers	D. H. Lawrence	1913	/works/OL81295W	Sons and Lovers	Lawrence, D. H.	1913	100.0	True	True	best	/works/OL81295W	False	4
+The Custom of the Country	Edith Wharton	1913	/works/OL98585W	The Custom of the Country	Edith Wharton	1900	100.0	False	True	title_only	/works/OL38998263W	True	2
+The Crock of Gold	Stephens James	1913	/works/OL1154817W	The Crock of Gold	Stephens, James	1912	100.0	True	False	year_only	/works/OL33736178W	True	4
+Dubliners	James Joyce	1914	/works/OL86320W	Dubliners	Joyce, James	1914	100.0	True	True	best	/works/OL86320W	False	1
+The Good Soldier	Ford Maddox Ford	1915	/works/OL15345521W	The good soldier	Jaroslav Hašek	1930	999	True	True	forced	/works/OL15345521W	False	1
+The Genius	Theodore Dreiser	1915	/works/OL100196W	"The ""genius"""	Theodore Dreiser	1915	100.0	True	True	best	/works/OL100196W	False	1
+A Portrait of the Artist as a Young Man	James Joyce	1916	/works/OL38989822W	A portrait of the artist as a young man	Joyce, James	1921	100.0	True	True	best	/works/OL38989822W	False	3
+The Homeward Trail	Waldron Baily	1916	/works/OL13144755W	The Homeward Trail	Waldron Baily	1916	100.0	True	True	best	/works/OL13144755W	False	1
+The Border Legion	Zane Grey	1916	/works/OL485410W	The border legion	Zane Grey	1916	100.0	True	True	best	/works/OL485410W	False	1
+The Rise of David Levinsky	Abraham Cahan	1917	/works/OL14864528W	The rise of David Levinsky	Abraham Cahan	1917	100.0	True	True	best	/works/OL14864528W	False	1
+Tarzan of the Apes	Edgar Rice Burroughs	1917	/works/OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	1912	100.0	True	True	best	/works/OL1418251W	False	2
+Gone to Earth	Mary Webb	1917	/works/OL4390503W	Gone to Earth	Mary Gladys Meredith Webb	1917	100.0	True	True	best	/works/OL4390503W	False	1
+The innocents	Sinclair Lewis	1917	/works/OL7461553W	The innocents	Alfred Machard	1918	100.0	True	False	year_only	/works/OL7461553W	False	1
+King Coal	Upton Sinclair	1917	/works/OL115067W	King Coal	Upton Sinclair	1905	100.0	False	True	title_only	/works/OL115067W	False	2
+Return Of The Soldier	Nathaniel West	1918	/works/OL27834207W	The Return of the Soldier	Rebecca West	1918	100.0	True	True	best	/works/OL27834207W	False	2
+The Job	Sinclair Lewis	1918	/works/OL51141W	The job	Sinclair Lewis	1905	100.0	False	True	title_only	/works/OL51141W	False	1
+Java Head	Joseph Hergesheimer	1919	/works/OL4902750W	Java Head	Joseph Hergesheimer	1918	100.0	True	True	best	/works/OL4902750W	False	1
+The Moon and Sixpence	W Somerset Maugham	1919	/works/OL505740W	The moon and sixpence	W. Somerset Maugham	1919	100.0	True	True	best	/works/OL505740W	False	1
+The Age of Innocence	Edith Wharton	1920	/works/OL98491W	The Age of Innocence	Edith Wharton	1920	100.0	True	True	best	/works/OL98491W	False	3
+This Side of Paradise	F Scott Fitzgerald	1920	/works/OL468488W	This Side of Paradise	F. Scott Fitzgerald	1920	100.0	True	True	best	/works/OL468488W	False	1
+Stepsons Of Light	Eugene Manlove Rhodes	1921	/works/OL2107271W	Stepsons of light	Eugene Manlove Rhodes	1921	100.0	True	True	best	/works/OL2107271W	False	1
+Three Soldiers	John Dos Passos	1921	/works/OL1217993W	Three soldiers	John Dos Passos	1921	100.0	True	True	best	/works/OL1217993W, /works/OL35383W	False	8
+The Shadow-Line	Joseph Conrad	1921	/works/OL38827W	The shadow-line	Conrad, Joseph	1917	100.0	True	True	best	/works/OL38827W	False	1
+The Beautiful and the Damned	F Scott Fitzgerald	1922	/works/OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	1920	90.9090909090909	True	True	best	/works/OL468362W	False	2
+Ulysses	James Joyce	1922	/works/OL35695219W	Ulysses	James Joyce	1922	100.0	True	True	best	/works/OL35695219W	False	3
+Jacob's Room	Virginia Woolf	1922	/works/OL39329W	Jacob's Room	Virginia Woolf	1922	100.0	True	True	best	/works/OL39329W	False	1
+Parades End	Ford Maddox Ford	1924	/works/OL509919W	Parade's End	Ford Madox Ford	1950	100.0	False	True	title_only	/works/OL509919W	False	1
+The Great Gatsby	F Scott Fitzgerald	1925	/works/OL35353208W	The Great Gatsby	F. Scott Fitzgerald	1925	100.0	True	True	best	/works/OL35353208W	False	3
+Mrs. Dalloway	Virginia Woolf	1925	/works/OL39349W	Mrs. Dalloway	Virginia Woolf	1925	100.0	True	True	best	/works/OL39349W	False	1
+The Sun Also Rises	Ernest Hemingway	1926	/works/OL62979W	The Sun Also Rises	Ernest Hemingway	1926	100.0	True	True	best	/works/OL62979W	False	1
+To the Lighthouse	Virginia Woolf	1927	/works/OL39396W	To the Lighthouse	Virginia Woolf	1927	100.0	True	True	best	/works/OL39396W	False	1
+Lady Chatterley's Lover	D. H. Lawrence	1928	/works/OL43405505W	Lady Chatterley's lover	Lawrence, D. H.	1946	100.0	False	True	title_only	/works/OL43405505W	False	2
+Orlando	Virginia Woolf	1928	/works/OL39360W	Orlando	Virginia Woolf	1928	100.0	True	True	best	/works/OL39360W	False	4
+The Sound and the Fury	William Faulkner	1929	/works/OL82870W	The Sound and the Fury	William Faulkner	1929	100.0	True	True	best	/works/OL82870W	False	1
+As I Lay Dying	William Faulkner	1930	/works/OL82929W	As I Lay Dying	William Faulkner	1915	100.0	False	True	title_only	/works/OL82929W	False	1
+Autobiography of Alice B Toklas	Gertrude Stein	1933	/works/OL37277W	The Autobiography of Alice B. Toklas	Gertrude Stein	1933	100.0	True	True	best	/works/OL37277W	False	1
+Tender Is The Night	F Scott Fitzgerald	1934	/works/OL468485W	Tender is the Night	F. Scott Fitzgerald	1933	100.0	True	True	best	/works/OL42216785W	True	2
+The Yearling	Marjorie Kinman Rawlings	1938	/works/OL111382W	The Yearling	Marjorie Kinnan Rawlings	1938	100.0	True	True	best	/works/OL111382W	False	3
+Trelawney	Margaret Armstrong	1940	/works/OL7842965W	Trelawny	Holman Freeland	1903	94.11764705882352	False	False	title_only	/works/OL7842965W	False	1
+For Whom the Bell Tolls	Ernest Hemingway	1949	/works/OL63009W	For Whom the Bell Tolls	Ernest Hemingway	1940	100.0	False	True	title_only	/works/OL63009W	False	1
+Nineteen Eighty-Four	George Orwell	1949	/works/OL1168083W	Nineteen Eighty-Four	George Orwell	1949	100.0	True	True	best	/works/OL1168083W	False	1

@@ -1,7 +1,7 @@
 work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count	via_creators	via_jtitle
 /works/OL35695219W	Ulysses	James Joyce	ulysses	joyce	1	0	443	42	401
 /works/OL31971259W	Heart of Darkness	Conrad, Joseph	heart of darkness	conrad	1	0	118	4	114
-/works/OL43462425W	The secret agent	Conrad, Joseph	secret agent	conrad	1	0	78	4	74
+/works/OL43462425W	The secret agent	Conrad, Joseph	secret agent	conrad	0	0	78	4	74
 /works/OL86320W	Dubliners	Joyce, James	dubliners	joyce	1	0	77	7	70
 /works/OL276470W	The Ambassadors	James, Henry	ambassadors	james	1	0	54	23	31
 /works/OL82870W	The Sound and the Fury	William Faulkner	sound and the fury	faulkner	1	0	45	2	43
@@ -28,7 +28,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL20172W	Kim	Kipling, Rudyard	kim	kipling	1	1	17	1	16
 /works/OL276365W	The Portrait of a Lady	James, Henry	portrait of a lady	james	1	0	16	1	15
 /works/OL8193416W	The Picture of Dorian Gray	Oscar Wilde	picture of dorian gray	wilde	1	0	16	2	14
-/works/OL42216785W	Tender is the night	F. Scott Fitzgerald	tender is the night	fitzgerald	1	0	16	3	13
+/works/OL42216785W	Tender is the night	F. Scott Fitzgerald	tender is the night	fitzgerald	0	0	16	3	13
 /works/OL1794911W	McTeague	Frank Norris	mcteague	norris	1	0	15	0	15
 /works/OL509919W	Parade's End	Ford Madox Ford	parades end	ford	1	0	14	2	12
 /works/OL52267W	The Time Machine	H. G. Wells	time machine	wells	1	0	13	5	8
@@ -38,7 +38,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL38827W	The shadow-line	Conrad, Joseph	shadowline	conrad	1	0	10	1	9
 /works/OL468488W	This Side of Paradise	F. Scott Fitzgerald	this side of paradise	fitzgerald	1	0	8	1	7
 /works/OL27834207W	The Return of the Soldier	Rebecca West	return of the soldier	west	1	0	8	1	7
-/works/OL44238347W	The jungle book	Kipling, Rudyard	jungle book	kipling	1	0	8	2	6
+/works/OL44238347W	The jungle book	Kipling, Rudyard	jungle book	kipling	0	0	8	2	6
 /works/OL35383W	Three Lives	Gertrude Stein	three lives	stein	1	0	8	1	7
 /works/OL100237W	The Financier	Theodore Dreiser	financier	dreiser	1	0	8	1	7
 /works/OL37277W	The Autobiography of Alice B. Toklas	Gertrude Stein	autobiography of alice b toklas	stein	1	0	7	4	3
@@ -54,46 +54,46 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL12781W	Alexander's Bridge	Willa Cather	alexanders bridge	cather	1	0	5	1	4
 /works/OL24034W	Treasure Island	Robert Louis Stevenson	treasure island	stevenson	1	0	5	0	5
 /works/OL88813W	A Room with a View	E. M. Forster	room with a view	forster	1	0	5	0	5
-/works/OL24120W	The Strange Case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	strange case of dr jekyll and mr hyde	stevenson	1	0	4	1	3
+/works/OL24120W	The Strange Case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	strange case of dr jekyll and mr hyde	stevenson	0	0	4	1	3
 /works/OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	beautiful and damned	fitzgerald	1	0	4	0	4
-/works/OL8137276W	Peter Pan	J. M. Barrie	peter pan	barrie	1	0	3	2	1
+/works/OL8137276W	Peter Pan	J. M. Barrie	peter pan	barrie	0	0	3	2	1
 /works/OL715621W	The odd women	George Gissing	odd women	gissing	1	0	3	0	3
 /works/OL14942956W	The Call of the Wild	Jack London	call of the wild	london	1	0	3	0	3
 /works/OL1217993W	Three soldiers	John Dos Passos	three soldiers	passos	1	0	3	0	3
-/works/OL33736178W	The Crock of Gold	Stephens, James	crock of gold	stephens	1	0	2	1	1
+/works/OL33736178W	The Crock of Gold	Stephens, James	crock of gold	stephens	0	0	2	1	1
 /works/OL65437W	At Fault	Kate Chopin	at fault	chopin	1	0	2	0	2
 /works/OL5293697W	New day	Victor Stafford Reid	new day	reid	1	0	2	1	1
 /works/OL1253285W	The Scarlet Pimpernel	Orczy, Emmuska Orczy	scarlet pimpernel	orczy	1	0	1	0	1
 /works/OL4390503W	Gone to Earth	Mary Gladys Meredith Webb	gone to earth	webb	1	0	1	0	1
 /works/OL4902750W	Java Head	Joseph Hergesheimer	java head	hergesheimer	1	0	1	1	0
 /works/OL109231W	Leonora	Bennett, Arnold	leonora	bennett	1	0	1	1	0
-/works/OL4879656W	North Star	King, Rufus	north star	king	1	0	1	0	1
+/works/OL4879656W	North Star	King, Rufus	north star	king	0	0	1	0	1
 /works/OL507321W	Pembroke	Mary Eleanor Wilkins Freeman	pembroke	freeman	1	0	1	0	1
 /works/OL2339087W	The Red Axe	S. R. Crockett	red axe	crockett	1	0	0	0	0
-/works/OL36050583W	Jude the Obscure		jude the obscure		1	0	0	0	0
+/works/OL36050583W	Jude the Obscure		jude the obscure		0	0	0	0	0
 /works/OL1797270W	Senator North	Atherton, Gertrude Franklin Horn	senator north	atherton	1	0	0	0	0
-/works/OL7851965W	The awakening	C. Wickliffe Yulee	awakening	yulee	1	0	0	0	0
+/works/OL7851965W	The awakening	C. Wickliffe Yulee	awakening	yulee	0	0	0	0	0
 /works/OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	tarzan of the apes	burroughs	1	0	0	0	0
 /works/OL262473W	The Mystery of Cloomber	Doyle, Arthur Conan	mystery of cloomber	doyle	1	0	0	0	0
 /works/OL13144755W	The Homeward Trail	Waldron Baily	homeward trail	baily	1	0	0	0	0
-/works/OL9056552W	The prisoner of Zenda	George F. Wear	prisoner of zenda	wear	1	0	0	0	0
-/works/OL38998263W	The custom of the country	Fraser, Hugh	custom of the country	fraser	1	0	0	0	0
+/works/OL9056552W	The prisoner of Zenda	Hope, Anthony	prisoner of zenda	hope	1	0	1	0	1
+/works/OL38998263W	The custom of the country	Fraser, Hugh	custom of the country	fraser	0	0	0	0	0
 /works/OL74504W	White Fang	Jack London	white fang	london	1	0	0	0	0
 /works/OL1799163W	Hearts courageous	Rives, Hallie Erminie	hearts courageous	rives	1	0	0	0	0
 /works/OL5138118W	The Golden Cage	Iris Bromige	golden cage	bromige	1	0	0	0	0
 /works/OL1487721W	Alas!	Rhoda Broughton	alas	broughton	1	0	0	0	0
 /works/OL2107271W	Stepsons of light	Eugene Manlove Rhodes	stepsons of light	rhodes	1	0	0	0	0
-/works/OL15345521W	The good soldier	Jaroslav Hašek	good soldier	has ek	1	0	0	0	0
+/works/OL15345521W	The good soldier	Jaroslav Hašek	good soldier	has ek	1	0	21	0	21
 /works/OL109153W	The Grand Babylon Hotel	Bennett, Arnold	grand babylon hotel	bennett	1	0	0	0	0
 /works/OL505740W	The moon and sixpence	W. Somerset Maugham	moon and sixpence	maugham	1	0	0	0	0
 /works/OL7461553W	The innocents	Alfred Machard	innocents	machard	1	0	0	0	0
 /works/OL115067W	King Coal	Upton Sinclair	king coal	sinclair	1	0	0	0	0
-/works/OL15062619W	Dracula	Martin Harry Greenberg	dracula	greenberg	1	0	0	0	0
+/works/OL15062619W	Dracula	Martin Harry Greenberg	dracula	greenberg	1	0	63	0	63
 /works/OL4971729W	Megda	Emma Dunham Kelley	megda	kelley	1	0	0	0	0
 /works/OL6926191W	The sea witch	Laing, Alexander	sea witch	laing	1	0	0	0	0
 /works/OL111382W	The Yearling	Marjorie Kinnan Rawlings	yearling	rawlings	1	0	0	0	0
 /works/OL7842965W	Trelawny	Holman Freeland	trelawny	freeland	1	0	0	0	0
-/works/OL18402893W	The frontiersman	H. A. Cody	frontiersman	cody	1	0	0	0	0
+/works/OL18402893W	The frontiersman	H. A. Cody	frontiersman	cody	0	0	0	0	0
 /works/OL485410W	The border legion	Zane Grey	border legion	grey	1	0	0	0	0
 /works/OL7541646W	Princess Salome	Burris Jenkins	princess salome	jenkins	1	0	0	0	0
 /works/OL20163024W	The Damascus Road	Jay Parini	damascus road	parini	1	0	0	0	0
@@ -26418,7 +26418,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL228725W	Hero Tales	Baldwin, James	hero tales	baldwin	0	0	0	0	0
 /works/OL228827W	Furnished room houses	Annie M. Burdick	furnished room houses	burdick	0	0	0	0	0
 /works/OL2288551W	Slepoĭ muzykant	Vladimir Galaktionovich Korolenko	slepo muzykant	korolenko	0	0	0	0	0
-/works/OL2337481W	The Frontiersmen	Charles Egbert Craddock	frontiersmen	craddock	0	0	0	0	0
+/works/OL2337481W	The Frontiersmen	Charles Egbert Craddock	frontiersmen	craddock	1	0	0	0	0
 /works/OL2339733W	If Jesus came to Boston	Hale, Edward Everett	if jesus came to boston	hale	0	0	0	0	0
 /works/OL237921W	The Sorrows of a Show Girl	Kenneth McGaffey	sorrows of a show girl	mcgaffey	0	0	0	0	0
 /works/OL276417W	The soft side	James, Henry	soft side	james	0	0	0	0	0
@@ -30961,3 +30961,13 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL7761752W	The young crusader	Walter Scott Story	young crusader	story	0	0	0	0	0
 /works/OL7900486W	Onawago	Will Cumback Ludlow	onawago	ludlow	0	0	0	0	0
 /works/OL873629W	Each for all	I͡Uriĭ Markovich Nagibin	each for all	nagibin	0	0	0	0	0
+/works/OL39108W	The Secret Agent	Conrad, Joseph	secret agent	conrad	1	0	77	0	77
+/works/OL468485W	Tender is the Night	F. Scott Fitzgerald	tender is the night	fitzgerald	1	0	15	0	15
+/works/OL19870W	The Jungle Book	Kipling, Rudyard	jungle book	kipling	1	0	6	0	6
+/works/OL44014215W	Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	strange case of dr jekyll and mr hyde	stevenson	1	0	4	0	4
+/works/OL462007W	Peter Pan	J. M. Barrie	peter pan	barrie	1	0	2	0	2
+/works/OL1154817W	The Crock of Gold	Stephens, James	crock of gold	stephens	1	0	2	0	2
+/works/OL18397742W	The North Star	M. E. Henry-Ruffin	north star	henryruffin	1	0	0	0	0
+/works/OL39453744W	Jude the obscure	Hardy, Thomas	jude the obscure	hardy	1	0	27	0	27
+/works/OL65430W	The Awakening	Kate Chopin	awakening	chopin	1	0	32	0	32
+/works/OL98585W	The Custom of the Country	Edith Wharton	custom of the country	wharton	1	0	12	0	12

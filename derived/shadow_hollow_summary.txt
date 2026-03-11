@@ -1,0 +1,87 @@
+==============================================================
+shadow_hollow_analysis.py v2 結果サマリー
+==============================================================
+
+── 全体統計 ────────────────────────────────────────────
+  総 works 数  : 30,972
+  ゼロヒット   : 27,479 (88.7%)
+  1件以上      : 3,493 (11.3%)
+  中央値 / 平均 / 最大 : 0 / 2.3 / 10559
+
+── canonical vs 非canonical ────────────────────────────
+  canonical     n=98
+    ゼロヒット: 23 (23.5%)
+    中央値 / 平均 / 最大 : 7 / 18.3 / 443
+  non-canonical n=30,874
+    ゼロヒット: 27,456 (88.9%)
+    中央値 / 平均 / 最大 : 0 / 2.2 / 10559
+
+  注目格差（論文に記載可）:
+    canonical 中央値 7 vs non-canonical 中央値 0
+    canonical の76.5%が1件以上 vs non-canonical の11.1%
+
+── hollow canon ────────────────────────────────────────
+  canonical かつ jstor=0 : 23 件 (23.5% of canonical)
+
+  Alas! / Rhoda Broughton
+  Hearts courageous / Rives, Hallie Erminie
+  King Coal / Upton Sinclair
+  Megda / Emma Dunham Kelley
+  Princess Salome / Burris Jenkins
+  Senator North / Atherton, Gertrude Franklin Horn
+  Stepsons of light / Eugene Manlove Rhodes
+  Tarzan of the Apes / Edgar Rice Burroughs
+  The Damascus Road / Jay Parini
+  The Frontiersmen / Charles Egbert Craddock
+  The Golden Cage / Iris Bromige
+  The Grand Babylon Hotel / Bennett, Arnold
+  The Homeward Trail / Waldron Baily
+  The Mystery of Cloomber / Doyle, Arthur Conan
+  The North Star / M. E. Henry-Ruffin
+  The Red Axe / S. R. Crockett
+  The Yearling / Marjorie Kinnan Rawlings
+  The border legion / Zane Grey
+  The innocents / Alfred Machard
+  The moon and sixpence / W. Somerset Maugham
+  The sea witch / Laing, Alexander
+  Trelawny / Holman Freeland
+  White Fang / Jack London
+
+── shadow canon TOP 30 ─────────────────────────────────
+  （non-canonical・jstor≥5・is_short除外・著者名タイトル除外）
+  ノイズとして除外: 23 件
+
+   1.  1157件  Banco / Henri Charrie  re
+   2.   535件  Alexander / Klaus Mann
+   3.   478件  Sand / Will James
+   4.   406件  The Mist / King, Stephen
+   5.   402件  The House / Eugene Field
+   6.   396件  Palimpsest / H. D.
+   7.   381件  The hedgehog / H. D.
+   8.   369件  The robe / Douglas, Lloyd C.
+   9.   307件  Paris / Green, Anne
+  10.   295件  William / Young, E. H.
+  11.   272件  Back / Green, Henry
+  12.   249件  Artie / George Ade
+  13.   240件  Atla / Smith, J. Gregory
+  14.   232件  Parzival / Wolfram
+  15.   230件  The Amazon / Elliot Paul
+  16.   199件  America / Asch, Sholem
+  17.   196件  John / Katharine Pearson Woods
+  18.   172件  Power / S. Fowler Wright
+  19.   165件  Life .. / John Rankin Rogers
+  20.   160件  Tristan / Gottfried
+  21.   157件  Gold / Stewart Edward White
+  22.   142件  Finnegans Wake / Joyce, James
+  23.   131件  The faerie queene / Edmund Spenser
+  24.   122件  The Wave / Evelyn Scott
+  25.   122件  Rita / Richards, Laura Elizabeth Howe
+  26.   120件  Living / Green, Henry
+  27.   114件  Tempest / William Shakespeare
+  28.   112件  Francis / David Stern
+  29.   109件  Fore! / Charles E. Van Loan
+  30.   107件  The Complete Poems / Poe, Edgar Allan
+
+全 shadow canon 50 件 → /home/haruka221/canon-pipeline/derived/shadow_canon.tsv
+全 hollow canon 23 件 → /home/haruka221/canon-pipeline/derived/hollow_canon.tsv
+==============================================================
