@@ -1,0 +1,44 @@
+============================================================
+OpenAlex Concepts テスト結果（canonical works）
+============================================================
+
+対象: 29 件（Wikidata QID あり canonical）
+Concept 発見: 0 件 (0.0%)
+Concept なし: 29 件 (100.0%)
+
+## 発見された Concept（works_count 降順）
+
+  タイトル                                     QID          works_count  OA name
+  ------------------------------------------------------------------------------------------
+
+## Concept が見つからなかった作品
+
+  Sons and Lovers                          Q80771
+  McTeague                                 Q11772710
+  This Side of Paradise                    Q2581681
+  The Sound and the Fury                   Q135515
+  The Age of Innocence                     Q1045464
+  Nineteen Eighty-Four                     Q208460
+  The Sun Also Rises                       Q501351
+  The Scarlet Pimpernel                    Q1249536
+  The Time Machine                         Q627333
+  The Autobiography of Alice B. Toklas     Q6618986
+  Martin Eden                              Q1317839
+  Howards End                              Q1146642
+  Dubliners                                Q459592
+  Jacob's Room                             Q1677745
+  Ethan Frome                              Q5402934
+  Treasure Island                          Q185118
+  White Fang                               Q152267
+  Three Lives                              Q7797597
+  The Picture of Dorian Gray               Q82464
+  As I Lay Dying                           Q1544119
+  The Call of the Wild                     Q476871
+  Three soldiers                           Q7797826
+  The Beautiful and Damned                 Q2531205
+  King Coal                                Q16386559
+  The Yearling                             Q429806
+  For Whom the Bell Tolls                  Q200920
+  Mrs. Dalloway                            Q752584
+  To the Lighthouse                        Q478016
+  Orlando                                  Q1629456

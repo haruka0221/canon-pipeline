@@ -1,0 +1,169 @@
+nohup: ignoring input
+2026-03-12 09:17:04,056 INFO === openalex_mentions_all.py v5 start ===
+2026-03-12 09:17:04,056 INFO Input:  /home/haruka221/canon-pipeline/derived/ol_dump_population_with_author.tsv
+2026-03-12 09:17:04,056 INFO Output: /home/haruka221/canon-pipeline/derived/openalex_mentions.tsv
+2026-03-12 09:17:04,057 INFO Log:    /home/haruka221/canon-pipeline/logs/openalex_mentions_all_20260312_091704.log
+2026-03-12 09:17:04,057 INFO INTERVAL=1.0s  RETRY_SLEEP=120s  AFTER_FAIL=600s
+2026-03-12 09:17:04,057 INFO === Sanity check: Ulysses / joyce ===
+2026-03-12 09:17:04,362 INFO   oa_count_author = 530  (expected ~530)
+2026-03-12 09:17:04,363 INFO   year_json sample = {"2000": 43}
+2026-03-12 09:17:04,363 INFO Sanity check PASSED.
+2026-03-12 09:17:04,363 INFO ウォームアップ待機 60秒（レート制限リセット確保）...
+2026-03-12 09:18:06,844 INFO Total: 34789  Done: 0  Remaining: 34789
+2026-03-12 09:20:36,065 INFO Progress: 100/34789 (0.3%) | errors=0 skipped=3
+2026-03-12 09:23:05,913 INFO Progress: 200/34789 (0.6%) | errors=0 skipped=3
+2026-03-12 09:25:35,792 INFO Progress: 300/34789 (0.9%) | errors=0 skipped=4
+2026-03-12 09:28:08,147 INFO Progress: 400/34789 (1.1%) | errors=0 skipped=5
+2026-03-12 09:30:41,724 INFO Progress: 500/34789 (1.4%) | errors=0 skipped=5
+2026-03-12 09:33:17,029 INFO Progress: 600/34789 (1.7%) | errors=0 skipped=5
+2026-03-12 09:35:44,762 INFO Progress: 700/34789 (2.0%) | errors=0 skipped=6
+2026-03-12 09:38:16,351 INFO Progress: 800/34789 (2.3%) | errors=0 skipped=6
+2026-03-12 09:40:44,509 INFO Progress: 900/34789 (2.6%) | errors=0 skipped=8
+2026-03-12 09:43:16,067 INFO Progress: 1000/34789 (2.9%) | errors=0 skipped=10
+2026-03-12 09:43:16,070 INFO Checkpoint saved (+1000 rows)
+2026-03-12 09:45:58,488 INFO Progress: 1100/34789 (3.2%) | errors=0 skipped=11
+2026-03-12 09:48:20,629 INFO Progress: 1200/34789 (3.4%) | errors=0 skipped=15
+2026-03-12 09:50:49,014 INFO Progress: 1300/34789 (3.7%) | errors=0 skipped=17
+2026-03-12 09:53:17,343 INFO Progress: 1400/34789 (4.0%) | errors=0 skipped=17
+2026-03-12 09:55:41,640 INFO Progress: 1500/34789 (4.3%) | errors=0 skipped=18
+2026-03-12 09:58:09,625 INFO Progress: 1600/34789 (4.6%) | errors=0 skipped=19
+2026-03-12 10:00:41,187 INFO Progress: 1700/34789 (4.9%) | errors=0 skipped=20
+2026-03-12 10:03:14,198 INFO Progress: 1800/34789 (5.2%) | errors=0 skipped=20
+2026-03-12 10:05:41,079 INFO Progress: 1900/34789 (5.5%) | errors=0 skipped=22
+2026-03-12 10:08:04,305 INFO Progress: 2000/34789 (5.7%) | errors=0 skipped=24
+2026-03-12 10:08:04,316 INFO Checkpoint saved (+1000 rows)
+2026-03-12 10:10:30,709 INFO Progress: 2100/34789 (6.0%) | errors=0 skipped=24
+2026-03-12 10:12:55,144 INFO Progress: 2200/34789 (6.3%) | errors=0 skipped=26
+2026-03-12 10:15:17,486 INFO Progress: 2300/34789 (6.6%) | errors=0 skipped=28
+2026-03-12 10:17:42,434 INFO Progress: 2400/34789 (6.9%) | errors=0 skipped=30
+2026-03-12 10:20:07,553 INFO Progress: 2500/34789 (7.2%) | errors=0 skipped=30
+2026-03-12 10:22:38,396 INFO Progress: 2600/34789 (7.5%) | errors=0 skipped=30
+2026-03-12 10:25:03,119 INFO Progress: 2700/34789 (7.8%) | errors=0 skipped=33
+2026-03-12 10:27:31,172 INFO Progress: 2800/34789 (8.0%) | errors=0 skipped=33
+2026-03-12 10:30:06,644 INFO Progress: 2900/34789 (8.3%) | errors=0 skipped=33
+2026-03-12 10:32:33,419 INFO Progress: 3000/34789 (8.6%) | errors=0 skipped=34
+2026-03-12 10:32:33,423 INFO Checkpoint saved (+1000 rows)
+2026-03-12 10:35:02,183 INFO Progress: 3100/34789 (8.9%) | errors=0 skipped=38
+2026-03-12 10:37:32,240 INFO Progress: 3200/34789 (9.2%) | errors=0 skipped=38
+2026-03-12 10:39:58,910 INFO Progress: 3300/34789 (9.5%) | errors=0 skipped=39
+2026-03-12 10:42:27,966 INFO Progress: 3400/34789 (9.8%) | errors=0 skipped=40
+2026-03-12 10:44:50,864 INFO Progress: 3500/34789 (10.1%) | errors=0 skipped=41
+2026-03-12 10:47:16,319 INFO Progress: 3600/34789 (10.3%) | errors=0 skipped=42
+2026-03-12 10:49:41,345 INFO Progress: 3700/34789 (10.6%) | errors=0 skipped=42
+2026-03-12 10:51:59,086 INFO Progress: 3800/34789 (10.9%) | errors=0 skipped=42
+2026-03-12 10:54:16,666 INFO Progress: 3900/34789 (11.2%) | errors=0 skipped=42
+2026-03-12 10:56:35,013 INFO Progress: 4000/34789 (11.5%) | errors=0 skipped=42
+2026-03-12 10:56:35,018 INFO Checkpoint saved (+1000 rows)
+2026-03-12 10:58:52,353 INFO Progress: 4100/34789 (11.8%) | errors=0 skipped=43
+2026-03-12 11:01:09,965 INFO Progress: 4200/34789 (12.1%) | errors=0 skipped=44
+2026-03-12 11:03:27,993 INFO Progress: 4300/34789 (12.4%) | errors=0 skipped=44
+2026-03-12 11:05:47,255 INFO Progress: 4400/34789 (12.6%) | errors=0 skipped=45
+2026-03-12 11:08:04,927 INFO Progress: 4500/34789 (12.9%) | errors=0 skipped=47
+2026-03-12 11:10:18,854 INFO Progress: 4600/34789 (13.2%) | errors=0 skipped=49
+2026-03-12 11:12:38,001 INFO Progress: 4700/34789 (13.5%) | errors=0 skipped=49
+2026-03-12 11:14:57,720 INFO Progress: 4800/34789 (13.8%) | errors=0 skipped=49
+2026-03-12 11:17:12,395 INFO Progress: 4900/34789 (14.1%) | errors=0 skipped=50
+2026-03-12 11:19:31,394 INFO Progress: 5000/34789 (14.4%) | errors=0 skipped=51
+2026-03-12 11:19:31,399 INFO Checkpoint saved (+1000 rows)
+2026-03-12 11:21:54,922 INFO Progress: 5100/34789 (14.7%) | errors=0 skipped=51
+2026-03-12 17:55:30,912 INFO Progress: 5200/34789 (14.9%) | errors=0 skipped=51
+2026-03-12 17:57:49,815 INFO Progress: 5300/34789 (15.2%) | errors=0 skipped=52
+2026-03-12 18:00:10,925 INFO Progress: 5400/34789 (15.5%) | errors=0 skipped=52
+2026-03-12 18:02:33,663 INFO Progress: 5500/34789 (15.8%) | errors=0 skipped=54
+2026-03-12 18:04:56,075 INFO Progress: 5600/34789 (16.1%) | errors=0 skipped=55
+2026-03-12 18:07:12,360 INFO Progress: 5700/34789 (16.4%) | errors=0 skipped=57
+2026-03-12 18:09:31,741 INFO Progress: 5800/34789 (16.7%) | errors=0 skipped=61
+2026-03-12 18:11:52,399 INFO Progress: 5900/34789 (17.0%) | errors=0 skipped=62
+2026-03-12 18:14:07,860 INFO Progress: 6000/34789 (17.2%) | errors=0 skipped=67
+2026-03-12 18:14:07,865 INFO Checkpoint saved (+1000 rows)
+2026-03-12 18:16:28,875 INFO Progress: 6100/34789 (17.5%) | errors=0 skipped=68
+2026-03-12 18:18:49,877 INFO Progress: 6200/34789 (17.8%) | errors=0 skipped=69
+2026-03-12 18:21:13,007 INFO Progress: 6300/34789 (18.1%) | errors=0 skipped=69
+2026-03-12 18:23:39,473 INFO Progress: 6400/34789 (18.4%) | errors=0 skipped=69
+2026-03-12 18:26:03,976 INFO Progress: 6500/34789 (18.7%) | errors=0 skipped=69
+2026-03-12 18:28:27,765 INFO Progress: 6600/34789 (19.0%) | errors=0 skipped=70
+2026-03-12 18:30:49,130 INFO Progress: 6700/34789 (19.3%) | errors=0 skipped=71
+2026-03-12 18:33:23,459 INFO Progress: 6800/34789 (19.5%) | errors=0 skipped=74
+2026-03-12 18:35:51,284 INFO Progress: 6900/34789 (19.8%) | errors=0 skipped=77
+2026-03-12 18:38:18,338 INFO Progress: 7000/34789 (20.1%) | errors=0 skipped=78
+2026-03-12 18:38:18,342 INFO Checkpoint saved (+1000 rows)
+2026-03-12 18:40:38,796 INFO Progress: 7100/34789 (20.4%) | errors=0 skipped=79
+2026-03-12 18:43:02,889 INFO Progress: 7200/34789 (20.7%) | errors=0 skipped=80
+2026-03-12 18:45:24,426 INFO Progress: 7300/34789 (21.0%) | errors=0 skipped=80
+2026-03-12 18:47:46,130 INFO Progress: 7400/34789 (21.3%) | errors=0 skipped=84
+2026-03-12 18:50:10,357 INFO Progress: 7500/34789 (21.6%) | errors=0 skipped=85
+2026-03-12 18:52:46,408 INFO Progress: 7600/34789 (21.8%) | errors=0 skipped=87
+2026-03-12 18:55:10,747 INFO Progress: 7700/34789 (22.1%) | errors=0 skipped=87
+2026-03-12 18:57:32,635 INFO Progress: 7800/34789 (22.4%) | errors=0 skipped=87
+2026-03-12 18:59:52,189 INFO Progress: 7900/34789 (22.7%) | errors=0 skipped=87
+2026-03-12 19:02:15,876 INFO Progress: 8000/34789 (23.0%) | errors=0 skipped=87
+2026-03-12 19:02:15,884 INFO Checkpoint saved (+1000 rows)
+2026-03-12 19:04:35,766 INFO Progress: 8100/34789 (23.3%) | errors=0 skipped=89
+2026-03-12 19:06:53,061 INFO Progress: 8200/34789 (23.6%) | errors=0 skipped=92
+2026-03-12 19:09:15,320 INFO Progress: 8300/34789 (23.9%) | errors=0 skipped=94
+2026-03-12 19:11:37,300 INFO Progress: 8400/34789 (24.1%) | errors=0 skipped=94
+2026-03-12 19:13:56,947 INFO Progress: 8500/34789 (24.4%) | errors=0 skipped=95
+2026-03-12 19:16:23,464 INFO Progress: 8600/34789 (24.7%) | errors=0 skipped=96
+2026-03-12 19:18:47,486 INFO Progress: 8700/34789 (25.0%) | errors=0 skipped=96
+2026-03-12 19:21:04,120 INFO Progress: 8800/34789 (25.3%) | errors=0 skipped=99
+2026-03-12 19:23:23,083 INFO Progress: 8900/34789 (25.6%) | errors=0 skipped=99
+2026-03-12 19:25:47,962 INFO Progress: 9000/34789 (25.9%) | errors=0 skipped=99
+2026-03-12 19:25:47,965 INFO Checkpoint saved (+1000 rows)
+2026-03-12 19:28:09,433 INFO Progress: 9100/34789 (26.2%) | errors=0 skipped=99
+2026-03-12 19:30:41,886 INFO Progress: 9200/34789 (26.4%) | errors=0 skipped=99
+2026-03-12 19:33:00,836 INFO Progress: 9300/34789 (26.7%) | errors=0 skipped=103
+2026-03-12 19:35:20,452 INFO Progress: 9400/34789 (27.0%) | errors=0 skipped=103
+2026-03-12 19:37:36,615 INFO Progress: 9500/34789 (27.3%) | errors=0 skipped=104
+2026-03-12 19:40:14,716 INFO Progress: 9600/34789 (27.6%) | errors=0 skipped=104
+2026-03-12 19:42:41,815 INFO Progress: 9700/34789 (27.9%) | errors=0 skipped=106
+2026-03-12 19:45:16,073 INFO Progress: 9800/34789 (28.2%) | errors=0 skipped=107
+2026-03-12 19:47:38,297 INFO Progress: 9900/34789 (28.5%) | errors=0 skipped=109
+2026-03-12 19:49:57,675 INFO Progress: 10000/34789 (28.7%) | errors=0 skipped=111
+2026-03-12 19:49:57,681 INFO Checkpoint saved (+1000 rows)
+2026-03-12 19:52:37,927 INFO Progress: 10100/34789 (29.0%) | errors=0 skipped=111
+2026-03-12 19:52:38,013 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 19:54:38,107 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 19:56:38,218 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 19:58:38,365 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 20:00:38,497 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 20:02:38,557 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Adormie+one+hall&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 20:02:38,558 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 20:12:39,702 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 21:23:30,619 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 21:25:30,736 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 21:27:30,860 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 21:29:30,999 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 21:31:31,004 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aoutcry+james&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 21:31:31,006 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 21:41:32,137 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 21:43:32,264 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 21:45:32,360 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 21:47:32,685 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 21:49:32,813 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 21:51:32,917 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ahenry+james+edel&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 21:51:32,917 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 22:01:34,069 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 22:03:34,273 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 22:05:34,393 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 22:07:34,489 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 22:09:34,602 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 22:11:34,629 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Afortunate+mistress+defoe&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 22:11:34,632 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 22:21:36,048 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 22:23:36,190 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 22:25:36,319 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 22:27:36,901 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 22:29:37,122 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 22:31:37,124 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ajohnny+nut+and+the+golden+goose+deulin&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 22:31:37,124 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 22:41:38,250 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 22:43:38,368 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 22:45:38,485 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 22:47:38,618 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 22:49:38,753 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 22:51:38,755 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aadventures+of+two+youths+in+a+journey+to+egypt+and+the+holy+land+knox&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 22:51:38,755 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 23:01:39,867 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 23:03:39,965 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 23:05:40,116 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 23:07:40,227 WARNING HTTP 429 – sleep 120s (attempt 4/5)

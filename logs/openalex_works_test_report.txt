@@ -1,0 +1,227 @@
+============================================================
+OpenAlex Works title.search テスト結果（canonical 142件）
+============================================================
+
+### title のみ（参考）
+  総カウント  : 854,332
+  ゼロ        : 15 件 (10.6%)
+  1件以上     : 127 件 (89.4%)
+  5件以上     : 106 件 (74.6%)
+  10件以上    : 103 件 (72.5%)
+  中央値      : 106
+  最大値      : 343243
+
+### title AND 著者姓（推奨）
+  総カウント  : 4,350
+  ゼロ        : 56 件 (39.4%)
+  1件以上     : 86 件 (60.6%)
+  5件以上     : 70 件 (49.3%)
+  10件以上    : 59 件 (41.5%)
+  中央値      : 4
+  最大値      : 530
+
+## ランキング（title AND author 降順）
+
+  タイトル                                       著者                       title  t+auth   noise
+  ------------------------------------------------------------------------------------------
+  Ulysses                                    James Joyce              7,752     530     93%
+  Heart of Darkness                          Joseph Conrad            2,047     209     90%
+  The Great Gatsby                           F Scott Fitzgerald       2,083     193     91%
+  Mrs. Dalloway                              Virginia Woolf           1,084     188     83%
+  The Ambassadors                            Henry James             11,287     172     98%
+  Dracula                                    Bram Stoker              2,224     158     93%
+  Dubliners                                  James Joyce                992     154     84%
+  Orlando                                    Virginia Woolf           8,173     150     98%
+  To the Lighthouse                          Virginia Woolf           4,095     149     96%
+  The Portrait of a Lady                     Henry James                816     148     82%
+  The Turn of the Screw                      Henry James                735     136     81%
+  The Picture of Dorian Gray                 Oscar Wilde                738     132     82%
+  Nineteen Eighty-Four                       George Orwell              592     114     81%
+  The Awakening                              Kate Chopin             12,608      98     99%
+  A Portrait of the Artist as a Young Man    James Joyce                625      90     86%
+  The Adventures of Huckleberry Finn         Mark Twain                 677      89     87%
+  The Sun Also Rises                         Ernest Hemingway           663      88     87%
+  The Sound and the Fury                     William Faulkner           817      79     90%
+  Sons and Lovers                            D. H. Lawrence             571      76     87%
+  The Good Soldier                           Ford Maddox Ford           459      72     84%
+  Peter Pan                                  J. M. Barrie               995      68     93%
+  Jude the Obscure                           Thomas Hardy               473      64     86%
+  The Time Machine                           H. G. Wells              1,921      61     97%
+  As I Lay Dying                             William Faulkner           451      60     87%
+  Tess of the D'Urbervilles                  Thomas Hardy               429      56     87%
+  Tender Is The Night                        F Scott Fitzgerald         349      51     85%
+  For Whom the Bell Tolls                    Ernest Hemingway           571      49     91%
+  Sister Carrie                              Theodore Dreiser           394      48     88%
+  The Age of Innocence                       Edith Wharton              456      47     90%
+  The Red Badge of Courage                   Stephen Crane              292      45     85%
+  Secret Agent                               Joseph Conrad              910      45     95%
+  Treasure Island                            Robert Louis Stevenson     548      42     92%
+  The Call of the Wild                       Jack London                431      38     91%
+  Strange Case of Dr Jekyll and Mr Hyde      Robert Louis Stevenson     265      37     86%
+  The House of Mirth                         Edith Wharton              335      37     89%
+  Kim                                        Rudyard Kipling         24,811      36    100%
+  Ethan Frome                                Edith Wharton              139      32     77%
+  The Job                                    Sinclair Lewis         272,681      28    100%
+  The Jungle                                 Upton Sinclair           8,329      27    100%
+  Lady Chatterley's Lover                    D. H. Lawrence             254      26     90%
+  Looking Backward                           Edward Bellamy           1,166      25     98%
+  Silas Lapham                               William Dean Howells        98      24     76%
+  A Room with a View                         E. M. Forster              472      23     95%
+  Martin Eden                                Jack London                108      23     79%
+  Jacob's Room                               Virginia Woolf             106      23     78%
+  McTeague                                   Frank Norris               114      21     82%
+  The Octopus                                Frank Norris             7,464      21    100%
+  White Fang                                 Jack London                 73      17     77%
+  The Moon and Sixpence                      W Somerset Maugham          87      17     80%
+  Maggie, a girl of the streets              Stephen Crane               89      15     83%
+  The Jungle Book                            Rudyard Kipling            199      15     92%
+  This Side of Paradise                      F Scott Fitzgerald         213      14     93%
+  The innocents                              Sinclair Lewis           9,262      13    100%
+  The Odd Women                              George Gissing              71      12     83%
+  The Custom of the Country                  Edith Wharton              115      12     90%
+  Autobiography of Alice B Toklas            Gertrude Stein              48      12     75%
+  Three Soldiers                             John Dos Passos             38      11     71%
+  The Shadow-Line                            Joseph Conrad              127      11     91%
+  Return Of The Soldier                      Nathaniel West              77      10     87%
+  New Grub Street                            George Gissing              60       9     85%
+  Three Lives                                Gertrude Stein             290       9     97%
+  The Financier                              Theodore Dreiser        11,113       8    100%
+  Tarzan of the Apes                         Edgar Rice Burroughs        35       8     77%
+  The aloe                                   Katherine Mansfield     16,163       7    100%
+  The Story of an African Farm               Olive Schreiner             78       6     92%
+  The Scarlet Pimpernel                      Emma Orczy                  71       6     92%
+  The Yearling                               Marjorie Kinman Rawlin   3,127       6    100%
+  The Prisoner of Zenda                      Anthony Hope                16       5     69%
+  The Pit                                    Frank Norris            55,379       5    100%
+  The Beautiful and the Damned               F Scott Fitzgerald          26       5     81%
+  Marrow of Tradition                        Mary Chesnutt               56       4     93%
+  Alexander's Bridge                         Willa Cather                14       3     79%
+  Pointed Roofs                              Dorothy Richardson          11       3     73%
+  The Genius                                 Theodore Dreiser        13,562       3    100%
+  The Rise of David Levinsky                 Abraham Cahan               28       3     89%
+  Parades End                                Ford Maddox Ford             3       3      0%
+  Megda                                      Emma Kelley                  3       2     33%
+  Howard's End                               E. M. Forster               17       2     88%
+  The Crock of Gold                          Stephens James              19       2     89%
+  The Sea Hawk                               Rafael Sabatini             23       2     91%
+  King Coal                                  Upton Sinclair             115       2     98%
+  A Crystal Age                              W H Hudson                  48       2     96%
+  At Fault                                   Kate Chopin            343,243       1    100%
+  Jess                                       H. Rider Haggard           947       1    100%
+  Grand Babylon Hotel                        Arnold Bennett               5       1     80%
+  The Simian World                           Clarence Day                 2       1     50%
+  A Sylvan Queen                             Eliza Tabor                  0       0       -
+  The golden calf                            Mary Braddon               232       0    100%
+  We Two                                     Edna Lyall                  80       0    100%
+  Jan Vedder's Wife                          Amelia Barr                  0       0       -
+  Anthony Fairfax                            Margery Hollis               0       0       -
+  A strong minded woman                      William Hammond             13       0    100%
+  He fell in love with his wife              Edward Roe                   1       0    100%
+  That Unfortunate Marriage                  Frances Eleanor Trollo       6       0    100%
+  Robert Elsmere                             Mrs. Humphry Ward           43       0    100%
+  The Mystery of the Cloomber                Arthur Conan Doyle           0       0       -
+  Rifle, rod, and gun in California          Theodore Van Dyke            0       0       -
+  Alas                                       Rhoda Broughton          9,059       0    100%
+  The Doings of Raffles Haw                  Arthur Conan Doyle           2       0    100%
+  A question of time                         Gertrude Atherton          387       0    100%
+  The Romance of a Chalet                    Campbell Praed               0       0       -
+  Cousin Simon                               Clara Marsham                0       0       -
+  The Little Lady of Lagunitas               Richard Savage               0       0       -
+  Ships that pass in the night               Beatrice Harraden           37       0    100%
+  Renunciations                              Frederick Wedmore        1,194       0    100%
+  The Heavenly Twins                         Sarah Grand                 49       0    100%
+  A prodigal in love                         Emma Wolf                    1       0    100%
+  Pembroke                                   Mary Wilkins Freeman     1,115       0    100%
+  A crown of straw                           Allen Upward                 2       0    100%
+  The Uncalled                               Paul Laurence Dunbar        36       0    100%
+  The Red Axe                                S R Crockett                 2       0    100%
+  The Maid of Maiden Lane                    Amelia Barr                  1       0    100%
+  Senator North                              Gertrude Atherton            2       0    100%
+  The comedy of sentiment                    Max Nordau                   1       0    100%
+  Eleonora                                   Edward Bellamy           1,068       0    100%
+  Hearts courageous                          Hallie Rives                 1       0    100%
+  The Hark riders                            Opie Read                    0       0       -
+  Sea Witch                                  Jack London                 23       0    100%
+  The North Star                             Margaret Ellen Henry-R     646       0    100%
+  The Frontiersman                           Mary Noailles Murfree      202       0    100%
+  The Slim Princess                          George Ade                   5       0    100%
+  The lady of the hundred dresses            Samuel Crockett              1       0    100%
+  The road to Damascus                       Hersilia Keays             177       0    100%
+  The New Dawn                               Agnes Laut               1,303       0    100%
+  Seven Keys to Bald Pate                    Earl Derr Biggers            0       0       -
+  Topham's Folly                             George Stevenson             0       0       -
+  Big Wallace                                Irving Williams              0       0       -
+  The Homeward Trail                         Waldron Baily                1       0    100%
+  The Border Legion                          Zane Grey                    2       0    100%
+  Gone to Earth                              Mary Webb                   18       0    100%
+  Confessions St Augustine                   William Dean Howells         0       0       -
+  Java Head                                  Joseph Hergesheimer         13       0    100%
+  The Valley of Silent Men                   James Oliver Curwood         1       0    100%
+  The heart of Unaga                         Ridgwell Cullum              1       0    100%
+  Drag Harlan                                Charles Seltzer              0       0       -
+  The Old Soak                               Don Marquis                  1       0    100%
+  Stepsons Of Light                          Eugene Manlove Rhodes        0       0       -
+  Admirals of the Caribbean                  Francis Russel Hart          1       0    100%
+  Red Sand                                   T S Stribling              111       0    100%
+  The Outlaw Years                           Robert M Coates              2       0    100%
+  Trelawney                                  Margaret Armstrong          38       0    100%
+  The Indigo Necklace                        Frances Crane                1       0    100%
+
+## ゼロヒット（title AND author = 0）
+
+  A Sylvan Queen                             Eliza Tabor             title=0
+  A crown of straw                           Allen Upward            title=2
+  A prodigal in love                         Emma Wolf               title=1
+  A question of time                         Gertrude Atherton       title=387
+  A strong minded woman                      William Hammond         title=13
+  Admirals of the Caribbean                  Francis Russel Hart     title=1
+  Alas                                       Rhoda Broughton         title=9059
+  Anthony Fairfax                            Margery Hollis          title=0
+  Big Wallace                                Irving Williams         title=0
+  Confessions St Augustine                   William Dean Howells    title=0
+  Cousin Simon                               Clara Marsham           title=0
+  Drag Harlan                                Charles Seltzer         title=0
+  Eleonora                                   Edward Bellamy          title=1068
+  Gone to Earth                              Mary Webb               title=18
+  He fell in love with his wife              Edward Roe              title=1
+  Hearts courageous                          Hallie Rives            title=1
+  Jan Vedder's Wife                          Amelia Barr             title=0
+  Java Head                                  Joseph Hergesheimer     title=13
+  Pembroke                                   Mary Wilkins Freeman    title=1115
+  Red Sand                                   T S Stribling           title=111
+  Renunciations                              Frederick Wedmore       title=1194
+  Rifle, rod, and gun in California          Theodore Van Dyke       title=0
+  Robert Elsmere                             Mrs. Humphry Ward       title=43
+  Sea Witch                                  Jack London             title=23
+  Senator North                              Gertrude Atherton       title=2
+  Seven Keys to Bald Pate                    Earl Derr Biggers       title=0
+  Ships that pass in the night               Beatrice Harraden       title=37
+  Stepsons Of Light                          Eugene Manlove Rhodes   title=0
+  That Unfortunate Marriage                  Frances Eleanor Trollope  title=6
+  The Border Legion                          Zane Grey               title=2
+  The Doings of Raffles Haw                  Arthur Conan Doyle      title=2
+  The Frontiersman                           Mary Noailles Murfree   title=202
+  The Hark riders                            Opie Read               title=0
+  The Heavenly Twins                         Sarah Grand             title=49
+  The Homeward Trail                         Waldron Baily           title=1
+  The Indigo Necklace                        Frances Crane           title=1
+  The Little Lady of Lagunitas               Richard Savage          title=0
+  The Maid of Maiden Lane                    Amelia Barr             title=1
+  The Mystery of the Cloomber                Arthur Conan Doyle      title=0
+  The New Dawn                               Agnes Laut              title=1303
+  The North Star                             Margaret Ellen Henry-Ruffin  title=646
+  The Old Soak                               Don Marquis             title=1
+  The Outlaw Years                           Robert M Coates         title=2
+  The Red Axe                                S R Crockett            title=2
+  The Romance of a Chalet                    Campbell Praed          title=0
+  The Slim Princess                          George Ade              title=5
+  The Uncalled                               Paul Laurence Dunbar    title=36
+  The Valley of Silent Men                   James Oliver Curwood    title=1
+  The comedy of sentiment                    Max Nordau              title=1
+  The golden calf                            Mary Braddon            title=232
+  The heart of Unaga                         Ridgwell Cullum         title=1
+  The lady of the hundred dresses            Samuel Crockett         title=1
+  The road to Damascus                       Hersilia Keays          title=177
+  Topham's Folly                             George Stevenson        title=0
+  Trelawney                                  Margaret Armstrong      title=38
+  We Two                                     Edna Lyall              title=80
