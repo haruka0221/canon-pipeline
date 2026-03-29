@@ -1,0 +1,5 @@
+	jstor_mentions	openalex_snapshot_mentions	ol_edition_counts	htrc_ol_dump_match_summary_v2
+jstor_mentions	1.0	0.293	0.1967	-0.004
+openalex_snapshot_mentions	0.293	1.0	0.2602	0.0092
+ol_edition_counts	0.1967	0.2602	1.0	0.2565
+htrc_ol_dump_match_summary_v2	-0.004	0.0092	0.2565	1.0
