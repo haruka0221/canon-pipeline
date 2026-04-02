@@ -1,6 +1,6 @@
 # WORKFLOW.md — canon-pipeline
 **DCC Digital Curation Workflow Narrative**
-Last updated: 2026-03-27
+Last updated: 2026-04-02
 Status: LIVING DOCUMENT — update on every major change
 
 ---
@@ -189,13 +189,11 @@ It is derived from the appendix of McGrath et al.'s quantitative study of modern
 
 - **Meaning:** Works on this list were judged "required reading" for doctoral study in English literature at multiple major universities.
 - **Dissertation significance:** hollow canon works (canonical=1, jstor=0) represent a *gap between pedagogical canon and research canon*: works institutionally mandated for doctoral education that are nonetheless absent from the academic literature.
-- **Citation required:** Add full bibliographic reference for McGrath et al. to this section when available.
+- **Citation:** McGrath, L., Higgins, D., & Hintze, A. (2018). Measuring modernist novelty. *Journal of Cultural Analytics*, 3(1). https://doi.org/10.22148/16.027
 
 #### Matching approach
 
 Each phd_corpus work is matched against the OL population (34,789 works) to assign `canonical = 1`. Unmatched works are recorded as limitations only — no manual supplementation.
-
-**v1 (deprecated):** Title fuzzy match only (token_sort_ratio ≥ 80)
 
 **v2 (current — 2026-03-11):** Three-condition priority matching
 
@@ -210,13 +208,18 @@ Priority 3 (quality=title_only):
   title score ≥ 80 only — last resort when year/author unavailable
 
 FORCE_MAP (manual override):
-    "The Prisoner of Zenda" → /works/OL9056552W  (Anthony Hope, 1894)
-    "The Good Soldier"      → /works/OL15345521W (Ford Madox Ford, 1915)
-    "Dracula"               → /works/OL15062619W (Bram Stoker, 1897)
+    "The Prisoner of Zenda" → /works/OL9056552W
+    "The Good Soldier"      → /works/OL15345521W
+    "Dracula"               → /works/OL15062619W
 ```
 
+⚠️ **FORCE_MAP既知バグ（2026-03-28確認）:** 上記3件のwork_keyはOLダンプ内で
+同タイトルを持つ別著者の作品を誤って指している（#21参照）。
+正しい版はOLダンプ母集団に未収録。JSTOR mention countは§5a事後再スキャンで
+正著者名により修正済み（値への影響なし）。Wikidata/edition_countシグナルは
+この3件について無効。
+
 **Script:** `scripts/match_phd_corpus_v2.py`
-**Comparison log:** `derived/phd_match_comparison.tsv`
 
 #### Results (v2)
 
@@ -229,144 +232,112 @@ FORCE_MAP (manual override):
 | **Total canonical** | **98** |
 | Unmatched | 44 (recorded as limitations) |
 
-#### Corrections made vs v1 (11 works)
-
-| Work | v1 problem | v2 correction |
-|---|---|---|
-| The Awakening (1899) | Matched C. Wickliffe Yulee edition | Corrected to Kate Chopin (OL65430W) |
-| Jude the Obscure (1895) | Matched edition with no author | Corrected to Hardy, Thomas (OL39453744W) |
-| The Secret Agent (1907) | Matched wrong edition | Corrected to Conrad, Joseph (OL39108W) |
-| Peter Pan (1911) | Matched wrong edition | Corrected to J. M. Barrie (OL462007W) |
-| Tender Is The Night (1934) | Matched wrong edition | Corrected to F. Scott Fitzgerald (OL468485W) |
-| Strange Case of Dr Jekyll (1886) | Matched wrong edition | Corrected to Robert Louis Stevenson (OL44014215W) |
-| The Jungle Book (1894) | Matched wrong edition | Corrected to Kipling, Rudyard (OL19870W) |
-| The Crock of Gold (1913) | Matched wrong edition | Corrected to Stephens, James (OL1154817W) |
-| The North Star (1904) | Matched wrong edition | Corrected to M. E. Henry-Ruffin (OL18397742W) |
-| The Custom of the Country (1913) | Matched wrong author edition | Corrected to Edith Wharton (OL98585W) — OL year mis-registered as 1900 |
-| The Frontiersman (1904) | Matched wrong edition | Corrected to Craddock / Murfree (OL2337481W) |
-
-#### ⚠️ Scope of verification — what is and is not guaranteed
+#### ⚠️ Scope of verification
 
 **Covered:** Correctness of work_key assignments for all 98 canonical works; JSTOR mention counts for canonical works (rescanned with correct author names; see §5a).
 
 **Not covered:** Correctness of work_key assignments for the remaining 34,691 non-canonical works. Individual non-canonical works cited in the dissertation should be manually verified against `derived/ol_dump_population_with_author.tsv`.
 
-#### When re-verification is required
-
-1. phd_corpus is updated (works added, removed, or year range changed)
-2. OL dump is replaced with a newer snapshot (work_keys may change)
-3. A specific non-canonical work is cited individually in the dissertation
-4. Multi-signal agreement analysis (§6b) is run → cross-check that all four indicators reference the same work_key
-
 ---
 
-## Stage 4: Enrichment (完了)
+## Stage 4: Enrichment
 
 ### 4a. OCLC Bulk Fetch
 
 **Outputs:** `derived/ol_dump_oclc_all.tsv` (91,449 rows; 30,101 works with OCLC)
 **Command:** `python3 scripts/fetch_oclc_from_dump.py`
-**Note:** Dump-based approach replaced API-based fetch (API版: ~200時間 → Dump版: ~40分)
 
 ---
 
-### 4b. HathiTrust Matching (htrc × OL)
+### 4b. HathiTrust Matching (htrc × OL) — v2
 
-**Inputs:** `derived/ol_dump_oclc_all.tsv` + `data/htrc-fiction_metadata.csv` (101,948 records; all within 1880–1923)
+**Inputs:** `derived/ol_dump_oclc_all.tsv` + `data/htrc-fiction_metadata.csv`
 
-**Results:**
+#### v2照合（タイトル+年代fuzzy match補完・2026-03-28）
 
 | Metric | Value |
 |---|---|
-| Raw matches | 6,264 works (18.0% of population) |
-| prob80 ≥ 0.8 (clean) | 5,310 works |
-| canonical 98件中HT収録 | 38 works（60件は構造的に未収録・1923年以降初出） |
+| v1 OCLC照合 | 41/79件（1923年以前canonical） |
+| v2 タイトル補完追加 | +22件（スコア≥90） |
+| **v2合計** | **63/79件（1923年以前canonical）** |
+| 除外2件 | The North Star（score=90.3・別作品の疑い）、The Innocents（著者不一致の疑い） |
+| 1924年以降出版 | 16件——著作権制約により構造的にHTRC対象外 |
 
----
-
-### 4c. WorldCat Entity API (Author Metadata)
-
-**Auth:** OAuth 2.0 CCG — WSKey stored in `token.sh` (local only, .gitignore対象・**GitHub絶対禁止**)
-
-**Confirmed NOT available:** holdingsCount — this API is a Linked Data identity service, not a holdings API.
-**WorldCat Discovery API:** Requires institutional subscription beyond current OCLC agreement.
+**Output:** `derived/htrc_ol_dump_match_summary_v2.tsv`
 
 ---
 
 ### 4d. Author Name Lookup (OL Authors Dump)
 
-**Output:** `derived/ol_author_lookup.tsv` (15,068,943 rows — **607MB, local only**)
+**Output:** `derived/ol_author_lookup.tsv` (607MB — local only)
 **Output:** `derived/ol_dump_population_with_author.tsv` (34,789 rows)
-**Command:** `python3 scripts/build_author_lookup.py`
-
-**Results:** 母集団への付与率: 34,434/34,789 (99.0%); 著者名なし: 355件 (1.0%)
+**Results:** 付与率: 34,434/34,789 (99.0%)
 
 ---
 
 ### 4e. Wikidata Sitelink Fetch
 
-**Method:** P648 (Open Library Work ID) property → direct OL↔Wikidata link
-**Output:** `derived/wikidata_sitelinks.tsv`
-
-**Results:**
-
-| Metric | Value |
-|---|---|
-| 実ヒット (sitelink > 0) | 1,338 works (3.8%) |
-| sitelink 中央値（ヒットのみ） | 5 |
-| sitelink 最大値 | 136 (Nineteen Eighty-Four) |
-| canonical 98件中Wikidataあり | **98/98件 (100%)** |
-
-**Note:** qid が NaN の行はWikidata未収録。フィルタ時は `wd['qid'].notna()` を使うこと。
+**Final output:** `derived/wikidata_sitelinks_final.tsv`
+**Coverage:** canonical 62/98件 QIDあり、60/98件 sitelink > 0
+**§6b多指標分析から除外:** coverage不十分のためedition_countを代替採用（#22参照）
 
 ---
 
-## Stage 5: Academic Citations Enrichment (完了)
+### 4f. Edition Count (OL Editions Dump) — 完了 2026-03-28
 
-### 5a. JSTOR Full Scan
+**Input:** `raw/ol_dump/ol_dump_editions_2026-02-28.txt.gz` (12GB, 55,615,769行)
+**Output:** `derived/ol_edition_counts.tsv` (34,789 rows)
+**Script:** `scripts/build_edition_counts.py`
 
-**Purpose:** Count academic papers whose titles co-occur with a work title AND author surname in JSTOR metadata.
+**Key column:** `work_key` (same format as `work_id` in jstor_mentions.tsv — direct join possible)
 
-**Input:** `data/jstor_metadata_2025-07-04.jsonl` (12,380,553 lines — **local only, 6.5GB**)
-**Output:** `derived/jstor_mentions.tsv` (30,962 rows)
-**Script:** `scripts/jstor_mentions_all.py`
-**Runtime:** 621分 (2026-03-10 23:09 〜 2026-03-11 09:30)
+#### Results
 
-#### JSTOR Data Structure (confirmed 2026-03-11)
-- Total records: 12,380,553
-- `content_type == "article"`: 11,657,976 (94.2%) ← 検索対象はこれのみ
-- `abstract` field population: **0.0%** ← abstractフィールドは実質存在しない
+| Metric | Value |
+|---|---|
+| 中央値 | 2.0 |
+| **canonical中央値** | **79.0** |
+| **non-canonical中央値** | **2.0** |
 
-#### Indicator Definition (confirmed, do not change)
-> **"Number of academic journal articles whose title and/or creators field co-occurs with a work title AND author last name"**
+#### Hollow canon edition counts — 全件確定値（2026-04-02）
 
-#### Normalization Rules (v3-final — applies to ALL matching scripts)
-```python
-_LEADING_ART = re.compile(r'^(the|a|an)\s+', re.IGNORECASE)
-_DROP_CHARS  = re.compile(r"['\-\u2018\u2019\u201c\u201d]")   # DELETE (not replace)
-_NON_ALNUM   = re.compile(r'[^a-z0-9\s]')                     # replace with space
-_MULTI_SPC   = re.compile(r'\s+')
-# "Howard's End" → "howards end" / "D'Urbervilles" → "durbervilles"
-```
+全23件、missing: 0。確認コマンド: `work_id` (jstor_mentions) と `work_key` (ol_edition_counts) は同形式 (`/works/OL123W`) で直接結合可能。
 
-**⚠ WARNING:** `scripts/jstor_canonical_test_v2.py` contains a normalization bug. Use v3 only.
-
-#### Post-hoc JSTOR rescan for corrected canonical works (2026-03-11)
-
-Ten canonical works corrected in v2 matching were rescanned with correct author names.
-
-| Work | Correct author | New JSTOR |
+| Title | Author | edition_count |
 |---|---|---|
-| The Awakening | Kate Chopin | **32** |
-| Jude the Obscure | Hardy, Thomas | **27** |
-| The Secret Agent | Conrad, Joseph | **77** |
-| The Custom of the Country | Edith Wharton | **12** |
-| Tender Is The Night | F. Scott Fitzgerald | **15** |
-| Dracula | Bram Stoker | **63** |
-| The Good Soldier | Ford Madox Ford | **21** |
-| The Prisoner of Zenda | Anthony Hope | **1** |
+| The Moon and Sixpence | W. Somerset Maugham | 397 |
+| White Fang | Jack London | 387 |
+| The Border Legion | Zane Grey | 302 |
+| Tarzan of the Apes | Edgar Rice Burroughs | 226 |
+| The Mystery of Cloomber | Arthur Conan Doyle | 215 |
+| King Coal | Upton Sinclair | 86 |
+| The Grand Babylon Hotel | Arnold Bennett | 75 |
+| The Yearling | Marjorie Kinnan Rawlings | 65 |
+| Senator North | Gertrude Franklin Atherton | 29 |
+| The Red Axe | S. R. Crockett | 28 |
+| The Frontiersmen | Charles Egbert Craddock | 9 |
+| Megda | Emma Dunham Kelley | 6 |
+| Stepsons of Light | Eugene Manlove Rhodes | 5 |
+| Alas! | Rhoda Broughton | 3 |
+| The Homeward Trail | Waldron Baily | 3 |
+| The Golden Cage | Iris Bromige | 3 |
+| The Sea Witch | Alexander Laing | 3 |
+| Hearts Courageous | Hallie Erminie Rives | 2 |
+| The Damascus Road | Jay Parini | 2 |
+| The North Star | M. E. Henry-Ruffin | 1 |
+| The Innocents | Alfred Machard | 1 |
+| Princess Salome | Burris Jenkins | 1 |
+| Trelawny | Holman Freeland | 1 |
 
-#### Confirmed canonical indicator values (post-correction — use these in dissertation)
+---
+
+## Stage 5: Academic Citations Enrichment
+
+### 5a. JSTOR Full Scan — 完了
+
+**Output:** `derived/jstor_mentions.tsv` (30,962 rows)
+
+#### Confirmed canonical indicator values
 
 | Metric | Canonical (n=98) | Non-canonical (n=30,874) |
 |---|---|---|
@@ -376,243 +347,231 @@ Ten canonical works corrected in v2 matching were rescanned with correct author 
 | Mean | 18.3 | 2.2 |
 | Maximum | 443 (Ulysses) | 10,559 |
 
-#### Output Column Schema
-| Column | Type | Description |
-|---|---|---|
-| `work_id` | string | `/works/OL123W` format |
-| `title` | string | Work title |
-| `author` | string | Author name string |
-| `title_norm` | string | Normalized title (v3 rules) |
-| `last_name` | string | Normalized author last name |
-| `canonical` | integer | 0 or 1 |
-| `is_short` | integer | 1 if title_norm < 6 chars |
-| `jstor_mention_count` | integer | **Primary indicator** |
-| `via_creators` | integer | Matches via creators_string field |
-| `via_jtitle` | integer | Matches via jstor title field |
+⚠️ **jstor_mentions.tsvの`author`列はFORCE_MAP 3件で誤著者名のまま。`jstor_mention_count`値は事後再スキャンで修正済みのため値は正しい。**
 
 ---
 
-### 5b. OpenAlex Snapshot Scan (completed 2026-03-26)
+### 5b. OpenAlex Snapshot Scan — 完了 2026-03-26
 
-**Purpose:** Count academic papers mentioning a work in title using the full OpenAlex works snapshot, as a complementary indicator to JSTOR.
-
-**Method:** Switched from API-based approach (abandoned due to persistent HTTP 429 rate limiting) to local snapshot scanning using Aho-Corasick multi-pattern matching.
-
-**Input:** `/mnt/d/openalex/works/updated_date=*/part_*.gz` (620GB, 2,228 files, 901 partitions after deduplication)
 **Output:** `derived/openalex_snapshot_mentions.tsv`
-**Script:** `scripts/openalex_snapshot_scan.py` (v3, Aho-Corasick)
-**Runtime:** 89 minutes (16 workers, 2026-03-26)
-
-#### Why API approach was abandoned
-The OpenAlex API consistently returned HTTP 429 errors at scale (~10,000 requests in). Rate limiting persisted for hours even at 1.0s intervals. Snapshot-based local processing is more reliable and reproducible.
-
-#### Matching logic
-- Aho-Corasick automaton built from all 33,978 normalized title_norms (≥6 chars)
-- For each OpenAlex paper: check if any work title appears in `display_name`
-- AND condition: author last name must appear in paper's `authorships` list
-- Title-only matching (abstract disabled for consistency with JSTOR indicator)
-- `title_norm` minimum length: 6 characters (short titles cause too many false positives)
-
-#### Difference from JSTOR
-- OpenAlex covers all disciplines and languages (JSTOR: humanities-heavy, English-dominant)
-- OpenAlex `display_name` = paper title only (abstract excluded to match JSTOR scope)
-- The two indicators are designed to be complementary, not identical
-
-#### Confirmed indicator values
+**Runtime:** 89分（16 workers）
 
 | Metric | Canonical (n=98) | Non-canonical |
 |---|---|---|
 | Median | **3.0** | **0** |
 | ≥1 hit | 79.6% | — |
 
-#### Cross-validation with JSTOR
+---
 
-Both independent datasets show the same structural pattern:
-```
-JSTOR:    canonical median 6.5  vs  non-canonical median 0
-OpenAlex: canonical median 3.0  vs  non-canonical median 0
-```
-This convergence confirms the pattern reflects actual scholarly attention structure, not database-specific bias.
+### 5c. OpenAlex CI論文抽出 — 完了 2026-04-02
 
-#### Output Column Schema
-| Column | Type | Description |
+**Purpose:** Critical InquiryのOA収録論文（ISSN: 0093-1896）を抽出し、referenced_worksを取得。
+
+**Input:** `/mnt/d/openalex/works/updated_date=*/part_*.gz` (620GB, 901ファイル)
+**Output:** `derived/oa_ci_works_v2.tsv` (1,220件、1974–2025)
+**Script:** インラインPython（ISSN filter）
+
+#### Year distribution (2019–2025)
+
+| Year | Count | refs>0 |
 |---|---|---|
-| `work_key` | string | `/works/OL123W` format |
-| `title` | string | Work title |
-| `author` | string | Author name string |
-| `last_name` | string | Normalized author last name |
-| `canonical` | integer | 0 or 1 |
-| `oa_count` | integer | **Primary indicator** |
-| `via_title` | integer | Matches via display_name field |
-| `via_abstract` | integer | Always 0 (abstract matching disabled) |
+| 2019 | 37 | 17 |
+| 2020 | 41 | 22 |
+| 2021 | 35 | 14 |
+| 2022 | 38 | 15 |
+| 2023 | 1 | 1 |
+| 2024 | 0 | 0 |
+| 2025 | 15 | 7 |
+
+⚠️ **2023年=1件・2024年=0件は欠落（スナップショットの分散による）。** referenced_works充填率: 27%。
+
+⚠️ **CI PDF分析との交差検証は未完了（ファイル名ベース照合で0件）。** 原因: `ci_articles.tsv`の`title_extracted`フィールドが全254件で空。代替手法（OA APIでfilter=ISSN+year+著者姓）で再試行必要。
+
+---
+
+### 5d. Temporal Citation Analysis — 完了 2026-04-02
+
+**Purpose:** canonical 98件のcounts_by_year（年別引用数）をOA API経由で取得。
+
+**Input:** `derived/jstor_mentions.tsv`（canonical 98件）
+**Output:** `derived/temporal_citations_api.tsv` (98件)
+**Method:** OA API `search` by title, `select=counts_by_year`
+
+⚠️ **OA APIの`counts_by_year`は直近10年分のみ返す。** 1970-80年代のfeminist/postcolonial spikeは確認不可。歴史的時系列はHathiTrustカプセルに委ねる（カプセル期限: 2026年9月）。
 
 ---
 
 ## Stage 6: Analysis
 
-### 6a. Shadow Canon / Hollow Canon Analysis (completed 2026-03-11)
+### 6a. Hollow Canon / Shadow Canon Analysis — 完了
 
-**Script:** `scripts/shadow_hollow_analysis.py` (v2)
-**Input:** `derived/jstor_mentions.tsv`
-**Outputs:**
-- `derived/shadow_canon.tsv` (50 works)
-- `derived/hollow_canon.tsv` (23 works)
-- `derived/shadow_hollow_summary.txt`
+**Hollow canon:** 23件（canonical=1 AND jstor=0）— 全件edition_count確定済み（§4f参照）
 
-#### Hollow canon (23 works — confirmed)
+**Shadow canon（暫定）:** 590件（フィルタ後、ノイズ含む）
+**Output:** `derived/shadow_canon_final.tsv`
 
-Definition: canonical=1 AND jstor_mention_count=0
+#### Shadow canonクリーニング方針（2026-04-02確定）
 
-Because canonical status derives from McGrath et al.'s aggregation of PhD reading lists at major universities, hollow canon works are those that **doctoral programs have institutionally mandated as required reading, yet which receive no citation in the academic literature**.
+除去対象：
+- 非英語タイトル（accented characters含む）→ 研究スコープ外（英語フィクション）
+- 中世・古代著者（Chaucer, Shakespeare, Josephus等）→ 1880以前の作家
+- 明らかな戯曲（Death of a Salesman等）
 
-**Dissertation framing:**
-> "A disjunction between the pedagogical canon — works deemed essential by doctoral programs — and the research canon — works that actually circulate in academic discourse."
+保留（除去しない）：
+- Dickens・Tolstoy等の作品 → OL母集団への収録は「1880-1950の英語版」として合法。スコープの問題ではなく注記で対応。
+- 非英語原作の英訳 → subject_keysに`english_fiction`等がない場合は除外対象（確認済み: Proust/Musil/Manzoni = 除外）
 
-Representative hollow canon works:
-
-| Work | Author | Interpretation |
-|---|---|---|
-| Tarzan of the Apes | Edgar Rice Burroughs | Mass popularity, zero academic attention — Huyssen's "great divide" in concrete form |
-| White Fang | Jack London | Same pattern |
-| The Yearling | Marjorie Kinnan Rawlings | Pulitzer Prize winner — prize status does not guarantee academic citation |
-| King Coal | Upton Sinclair | Valued in political/social movement contexts, absent from literary scholarship |
-
-#### Shadow canon (50 works — confirmed)
-
-Definition: canonical=0 AND jstor_mention_count ≥ 5, title_norm ≥ 6 chars, author-name-as-title noise excluded.
-
-**Dissertation framing:**
-> "Works excluded from the PhD reading lists aggregated by McGrath et al., yet heavily cited in academic literature — evidence of what (and who) canonical selection omitted."
-
-Key findings:
-
-- **H. D. (Hilda Doolittle)** appears twice in top 10: Palimpsest (396 citations), The Hedgehog (381 citations). A female modernist writer receiving substantial academic attention while absent from the doctoral canon. Usable as concrete evidence of gender bias in canonical selection.
-- **Finnegans Wake / Joyce (142 citations):** Ulysses is canonical, but this equally major work is not. "Author is canonical, work is excluded" — a distinct structural pattern.
-- **The Wave / Evelyn Scott (122 citations):** Confirmed not confused with Virginia Woolf's The Waves — normalization produces "wave" ≠ "waves".
-- **Virginia Woolf's non-canonical works** (The Waves 37, Between the Acts 30, The Years 25): four Woolf works are canonical; remaining major works outside the canon despite substantial academic citation.
-
-**Known noise in shadow canon:** Stephen King "The Mist" (1980), Shakespeare, Spenser — outside 1880–1950 scope. See Known Limitation #19.
-
-#### Core quantitative finding (citable in dissertation)
-```
-JSTOR:
-  Canonical median citations:     7    Non-canonical median: 0
-  Canonical works with ≥1 hit: 76.5%  Non-canonical: 11.1%
-
-OpenAlex:
-  Canonical median citations:     3    Non-canonical median: 0
-  Canonical works with ≥1 hit: 79.6%
-```
+⚠️ **「属性バイアス（ジェンダー・人種）」の主張には著者属性の系統的分析が必要（未実施）。** 第3章執筆前に著者属性データ（性別・人種）の取得方法を検討すること。
 
 ---
 
-### 6b. Multi-Signal Agreement Analysis
-**Status:** Pending — can now proceed (all four signals available)
+### 6b. Multi-Signal Agreement Analysis — 完了 2026-03-28
 
-```
-Vectorise each work: [jstor, openalex, wikidata_sitelinks, hathitrust_htid_count]
-→ Spearman correlation matrix between indicators
-→ Cluster into 4 types:
-   Type A: all indicators high → "true canon"
-   Type B: Wikidata high, JSTOR low → popular but academically ignored (e.g. Tarzan)
-   Type C: JSTOR high, Wikidata low → academically important, low public profile
-   Type D: all indicators low → "forgotten works"
-```
+**4指標最終版:** jstor / openalex / edition_count / htid_count
+
+#### Spearman相関行列（n=34,789）
+
+| ペア | ρ | 有意性 | 軸 |
+|---|---|---|---|
+| jstor ↔ openalex | 0.293 | *** | 学術的引用軸・内部収束 |
+| edition ↔ htid | 0.257 | *** | 文化的流通軸・内部収束 |
+| jstor ↔ edition | 0.197 | *** | 軸間（弱い正相関） |
+| oa ↔ edition | 0.260 | *** | 軸間（弱い正相関） |
+| jstor ↔ htid | -0.004 | n.s. | **軸間独立** |
+| oa ↔ htid | 0.009 | n.s. | **軸間独立** |
+
+**論文英語記述（そのまま使用可）:**
+> Four indicators were computed for the full population of 34,789 works: JSTOR mention count, OpenAlex mention count, Open Library edition count, and HathiTrust volume count. Spearman correlation analysis (n = 34,789) reveals a two-dimensional structure. Within the scholarly attention dimension, JSTOR and OpenAlex correlate at ρ = 0.293 (p < .001), confirming that two independent databases capture the same underlying construct of academic visibility. Within the cultural circulation dimension, edition count and HathiTrust volume count correlate at ρ = 0.257 (p < .001), indicating that commercial reprint history and library digitization measure a common axis of cultural persistence. Crucially, the cross-dimensional correlations are statistically non-significant (ρ ≈ 0.000, p > .05), demonstrating that scholarly attention and cultural circulation constitute independent axes of canonicity.
 
 ---
 
-### 6c. Temporal Analysis (Citation Trends)
-**Status:** Pending — requires per-year citation data from OpenAlex API (not available in snapshot)
+### 6c. Temporal Analysis — 方針変更済み
 
-```
-For canonical 98 works:
-→ Fetch individual papers via OpenAlex API (cursor pagination)
-→ Aggregate by decade → visualise citation waves
-→ Expected findings:
-   Kate Chopin "The Awakening": spike post-1960s feminism
-   Virginia Woolf: spike 1970–80s feminist criticism
-   Joseph Conrad: spike 1980s postcolonial criticism
-```
+**Status:** OA APIによる98件取得完了（`derived/temporal_citations_api.tsv`）。ただし歴史的分析には不十分（直近10年分のみ）。
 
-**Note:** year_json data is NOT available in the snapshot output — it requires individual API calls with `group_by=publication_year`. This is feasible for 98 canonical works (not 34,789).
+**HathiTrustカプセルに委ねる:**
+- PMLA 1950–2025でのdecade別概念語・理論家名頻度
+- feminist criticismの1970年代spike、postcolonial criticismの1980年代spike
+- カプセル期限: 2026年9月
 
 ---
 
 ## Stage 7: Preliminary Study — Critical Discourse Analysis
 
-### Purpose and Research Motivation
+### Status: Phase 1完了（2026-04-02）→ Phase 2（HathiTrustカプセル）へ
 
-Before proceeding to full multi-signal synthesis (§6b), this stage investigates **what drives critical discourse** in literary studies — that is, what actually functions as the generative force of scholarly debate, as opposed to what merely accumulates citations.
+---
 
-The canon-pipeline data (JSTOR, OpenAlex) measures *which works are cited*, but this is a different question from *what drives critics to write*. Stage 7 addresses the latter directly, using a corpus of Critical Inquiry articles (2019–2025) as a proxy for high-stakes critical discourse in the humanities.
+### Phase 1: Critical Inquiry 2019–2025 — **完了**
 
-**Research motivation (researcher's own framing):** In literary criticism, what drives debate appears to be authoritative interpretive claims more often than documented disparities. Whether this is actually the case — and what the structural patterns of critical argumentation look like — must be established empirically before the canon-pipeline data can be connected to existing literary-critical debates.
+#### Inputs
 
-This stage directly serves the KCL DH conference paper, which requires a "conceptual terrain" vector (Vector 2) alongside the citation economy (Vector 1, completed) and pedagogical structures (Vector 3, completed via phd_corpus).
+- Critical Inquiry PDFs (2019–2025): 254ファイル（local only）
+- `derived/jstor_mentions.tsv`（cross-validation用）
+
+#### Scripts
+
+| スクリプト | 機能 |
+|---|---|
+| `scripts/ci_extract_citations.py` | PDF→テキスト抽出、脚注・イントロ分離 |
+| `scripts/ci_discourse_analysis.py` | 著者頻度・概念頻度・レトリカルパターン集計 |
+
+#### Outputs（derived/）
+
+| ファイル | 行数 | 内容 |
+|---|---|---|
+| `ci_articles.tsv` | 254 | 記事メタデータ（⚠️ `title_extracted`は全件空） |
+| `ci_footnotes.tsv` | 8,941 | 脚注テキスト（信頼できる） |
+| `ci_intro_sentences.tsv` | 2,429 | イントロ文単位データ |
+| `ci_author_freq.tsv` | 505 | 著者頻度（KEY_SCHOLARSスキャン版・信頼性低） |
+| `ci_concept_freq.tsv` | 202 | 概念グループ頻度 |
+| `ci_intro_patterns.tsv` | 254 | レトリカルパターン記事別 |
+| `oa_ci_works_v2.tsv` | 1,220 | CI論文OA収録版（2026-04-02追加） |
+
+#### 確定結果（論文に使用可）
+
+**引用著者頻度（脚注直接抽出・信頼できる値）:**
+
+| 著者 | mentions | articles | 解釈 |
+|---|---|---|---|
+| Foucault | 42 | 15 | 断然首位——権力・言説分析がCI言説の基盤的枠組み |
+| Cavell | 21 | 7 | 語用論・倫理学への傾斜 |
+| Schmitt | 16 | 6 | 政治哲学・例外状態論 |
+| Latour | 11 | 6 | STS・アクターネットワーク理論 |
+| Derrida | 10 | 6 | 脱構築 |
+| Williams | 11 | 5 | Raymond Williams（文化的唯物論） |
+
+**決定的不在:** Rainey・Moretti・HuyssenはいずれもCIに登場しない。
+→ Vector 1（引用経済）の主要理論的対話者がVector 2（CI言説）では参照されていない——KCL論文の核心的発見。
+
+**概念頻度（上位）:** form/formalism(83) > field_formation(36) > distant_reading(33) > class(28)
+
+**議論構造:** positive_alignment(728) : position_to_overcome(322) = 2.3 : 1
+
+#### ⚠️ 方法論的限界
+
+- **KEY_SCHOLARSスキャンは信頼できない（修正済み）:** intro_textのスキャンは副詞・形容詞と著者姓を混同する（"said"→動詞混同等）。有効データは`ci_footnotes.tsv`脚注直接抽出のみ。
+- **`ci_articles.tsv`の`title_extracted`は全254件空:** PDF抽出でタイトルが取得できていない。OA交差検証にはOA APIで直接検索する方法を使うこと。
+- **コーパス規模:** 254論文（単一ジャーナル・6年分）は統計的推定に不十分。
+
+---
+
+### Phase 2: HathiTrust Data Capsule — 設計中
+
+**期限:** 2026年9月
+
+**優先タスク:**
+
+| 優先度 | タスク |
+|---|---|
+| 高 | PMLA 1950–2025 引用頻度decade別集計 |
+| 高 | 理論家名（Foucault/Williams/Derrida等）のdecade別推移 |
+| 中 | 複数ジャーナル比較（PMLA vs ELH vs Novel） |
+| 低 | 著者属性 × 引用頻度 |
+
+**方法論（Phase 1の教訓）:**
+- KEY_SCHOLARSは廃止 → 脚注全件から著者姓を自動抽出（emergent approach）
+- spaCy NER導入で"said"問題を根本解決
+- HathiTrustカプセル内ではaggregate outputのみ外部持ち出し可
+
+---
 
 ### The Four Vectors (KCL Conference Framework)
 
-| Vector | Definition | Data Source | Status |
-|---|---|---|---|
-| 1. Attention economy | Citation formations | JSTOR + OpenAlex | ✅ Complete |
-| 2. Conceptual terrain | Journal discourse | Critical Inquiry PDFs | 🔄 This stage |
-| 3. Pedagogical structures | PhD reading lists | phd_corpus (McGrath et al.) | ✅ Complete |
-| 4. Evaluative practice | How criticism assigns value at expansion debates | To be defined | ❌ Pending |
+| Vector | データ | Status |
+|---|---|---|
+| 1. Attention economy | JSTOR + OpenAlex | ✅ 完了 |
+| 2. Conceptual terrain | CI PDFs（予備）→ HathiTrust（本格） | 🔄 Phase 1完了 |
+| 3. Pedagogical structures | phd_corpus (McGrath et al.) | ✅ 完了 |
+| 4. Evaluative practice | 未定義 | ❌ Pending |
 
-### Inputs
+---
 
-- Critical Inquiry PDFs (2019–2025): `C:\Users\tsuts\Desktop\色々使えるデータ\Critical Inquiry\2019-2025\` (254 files)
-  - WSL path: `/mnt/c/Users/tsuts/Desktop/色々使えるデータ/Critical Inquiry/2019-2025/`
-- `derived/jstor_mentions.tsv` (for cross-validation)
-- `derived/openalex_snapshot_mentions.tsv` (for cross-validation)
+## Dissertation Progress
 
-### Planned Outputs
+### 章構成と執筆状況（2026-04-02）
 
-| File | Description |
-|---|---|
-| `derived/ci_citations.tsv` | Extracted references from all 254 PDFs |
-| `derived/ci_author_freq.tsv` | Most-cited authors/critics in CI 2019–2025 |
-| `derived/ci_concept_freq.tsv` | Keyword/concept frequency distribution |
-| `derived/ci_intro_patterns.tsv` | Argumentative structure of introductions |
+| 章 | タイトル | 状態 |
+|---|---|---|
+| 序章 | 問いと方法 | 未着手 |
+| 第1章 | 母集団と正典の構造的格差 | **草稿完成** (`chapter1.docx`) |
+| 第2章 | The Hollow Canon | **草稿完成 v2** (`chapter2_v2.docx`) |
+| 第3章 | Shadow Canonと排除の論理 | 未着手（データ準備中） |
+| 第4章 | 批評言説と引用経済 | 未着手（HathiTrust待ち） |
+| 結論 | — | 未着手 |
 
-### Analytical Questions
+☑ 1・2章（§1–3）：方法論、34,789件の母集団構築・2軸構造の実証・hollow canon 23件の特定と制度論的解釈ができた
 
-1. **Who is cited?** Which critics, theorists, and literary figures appear most frequently in CI 2019–2025? Does this overlap with JSTOR/OpenAlex citation patterns, or diverge?
-2. **What concepts drive debate?** Which terms — "canon", "modernism", "world literature", "postcolonial", "gender", "race", "expansion" — cluster in what configurations?
-3. **How do introductions work?** What is the argumentative structure? What gets cited as the position to overcome ("however X argues...", "against X"), and what follows?
+☑ 3・4章（§4–7）：HathiTrust時系列分析待ち・shadow canon属性分析・CI言説分析本格化は今後
 
-### Structural Tension Zones
+### Student Survey Evidence（補完的定性証拠）
 
-Of particular interest are cases where novel conceptual vocabularies coexist with traditional citational hubs, or where pedagogically central authors remain peripheral in research routines. These "structural tension zones" (KCL abstract) correspond in the pipeline data to the intersection of hollow canon and shadow canon — cases like H.D., who is heavily cited in research (396 JSTOR hits) yet absent from doctoral reading lists.
+| 調査 | n | 主要発見 |
+|---|---|---|
+| Survey 1 | 79（人文社会系主体） | 美的評価と制度的配置の逆転：D(London)が文学性最高(3.58)だがC(Ishiguro)が最もアカデミックな配置（大学教材31+学術論文22=53名） |
+| Survey 2 | 52（工学系主体） | 選択基準第1位「科学技術との関係」(32名)。hollow canon作品は一件も選ばれず |
 
-### Connection to Key Theoretical Interlocutors
-
-- **Lawrence Rainey, *Institutions of Modernism* (1998):** Modernism was constructed through institutional mechanisms. This dissertation extends that argument to doctoral curricula and academic journals.
-- **Franco Moretti, *Distant Reading* (2013):** Most of world literature goes unread. This dissertation provides the English modernism version with multi-signal evidence.
-- **Andreas Huyssen, *After the Great Divide* (1986):** The modernism/mass culture divide. The hollow canon (Tarzan, White Fang) is direct evidence for this structural logic.
-
-### HathiTrust Data Capsule (Time-Sensitive: terminates September 2026)
-
-The researcher holds a HathiTrust Research Center Data Capsule account. Priority use cases before termination:
-- Temporal analysis of modernist criticism pre-2019 (outside CI coverage)
-- Verification of critical movement waves (feminist criticism 1970s, postcolonial criticism 1980s) using longer time series
-
-### Commands (To Be Created)
-```bash
-pip install pdfplumber --break-system-packages
-python scripts/ci_extract_citations.py \
-  --input "/mnt/c/Users/tsuts/Desktop/色々使えるデータ/Critical Inquiry/2019-2025/" \
-  --output derived/ci_citations.tsv
-python scripts/ci_discourse_analysis.py
-```
-
-### Rights / Access
-- Critical Inquiry PDFs: licensed access via institutional subscription. Cannot be shared or included in the public repository. Only derived aggregate data (frequencies, patterns) will be committed.
-- HathiTrust Data Capsule: analysis must remain within the capsule; only aggregate outputs may be exported.
-
-### Evidence / Logs
-- `logs/ci_extract_{date}.log`
-- `logs/ci_discourse_{date}.log`
+Survey 1 Ishiguro（Sample C）配置の確定値: 大学教材31・学術論文22・図書館15・空港書店11
 
 ---
 
@@ -624,6 +583,9 @@ python scripts/ci_discourse_analysis.py
 | population-v2 | 2026-03-04 | `ol_works_augmented_population.tsv` (4,884) | + phd_corpus supplement |
 | population-dump-v1 | 2026-03-09 | `ol_dump_population_fiction_2026-02-28.tsv` (34,789) | Dump-based production population — **current baseline** |
 | citations-v1 | 2026-03-27 | `jstor_mentions.tsv` + `openalex_snapshot_mentions.tsv` | Both citation indicators complete |
+| enrichment-v2 | 2026-03-28 | `ol_edition_counts.tsv` + `wikidata_sitelinks_final.tsv` + `htrc_ol_dump_match_summary_v2.tsv` | Edition count追加; HTRC v2（41→63件） |
+| analysis-6b-v2 | 2026-03-28 | `multi_signal_merged.tsv` + `spearman_matrix.tsv` | §6b完了（4指標・2軸構造確定） |
+| stage7-phase1-v1 | 2026-04-02 | `ci_articles.tsv` + `ci_footnotes.tsv` + `oa_ci_works_v2.tsv` + `temporal_citations_api.tsv` + `shadow_canon_final.tsv` | Stage 7 Phase 1完了・CI言説分析予備完了・hollow canon edition_count全件確定 |
 
 ---
 
@@ -631,21 +593,31 @@ python scripts/ci_discourse_analysis.py
 
 1. `first_publish_year` mis-registration ~2.5% (unfilterable)
 2. Non-fiction residual contamination ~1% post-filter
-3. OL search is relevance-ranked, not random — pilot study population biased (dump-based main study is unbiased)
-4. OCLC identifier audit covers 100 works only (~2% sample)
-5. HathiTrust match covers 18.0% of population; non-matched works are not absent from libraries, only undigitised
-6. WorldCat Entity API: holdingsCount structurally unavailable under current WSKey scope
+3. OL search bias — pilot study only; dump-based main study is unbiased
+4. OCLC identifier audit covers 100 works only
+5. HathiTrust match covers 18.0% of population
+6. WorldCat holdingsCount structurally unavailable
 7. WorldCat Discovery API: institutional contract barrier
-8. phd_corpus: 44 works not matched to OL (main study); recorded in `derived/phd_corpus_not_matched.tsv`
+8. phd_corpus: 44 works not matched to OL
 9. htrc omnibus volumes inflate htid_count
-10. FAST ID label resolution blocked by network policy in current work environment
-11. OL dump coverage: works not registered in OL are treated as non-existent
-12. OL dump language field absent at Work level — handled via Edition-level languages field
-13. **JSTOR abstract field is 0.0% populated** → indicator is title-co-occurrence only, not full-text mention
-14. JSTOR title_norm deduplication reduced index from 34,789 to 30,962 works (~3,800 title collisions)
-15. Works with unknown author (355 works, 1.0%) receive title-only JSTOR matching (lower precision)
-16. OpenAlex Concepts/Topics API cannot identify individual novels — QID-based approach structurally impossible (confirmed 2026-03-11)
-17. **work_key accuracy verified for canonical 98 works only.** For the remaining 34,691 non-canonical works, where multiple OL records share the same title, the correct edition may not have been selected. Individual non-canonical works cited in the dissertation should be manually verified against `derived/ol_dump_population_with_author.tsv`.
-18. **JSTOR mention counts for non-canonical works are unrevised.** The post-hoc rescan (§5a) was applied to canonical works only. Since non-canonical works are used only in aggregate, this does not affect dissertation conclusions.
-19. **Shadow canon list contains works outside the 1880–1950 scope.** `first_publish_year` filter was not re-applied during shadow canon extraction. Works such as Stephen King's "The Mist" (1980) appear in the list. Individual year verification required before citing any shadow canon entry.
-20. **OpenAlex snapshot scan uses title-only matching** (abstract disabled). This ensures consistency with JSTOR but means the OpenAlex indicator does not capture works mentioned only in abstracts. The two indicators are complementary in scope, not directly comparable in absolute counts.
+10. FAST ID label resolution blocked by network policy
+11. OL dump coverage: works not registered in OL treated as non-existent
+12. OL dump language field absent at Work level
+13. **JSTOR abstract field is 0.0% populated** → title-co-occurrence only
+14. JSTOR title_norm deduplication reduced index to 30,962 works
+15. Works with unknown author (355 works, 1.0%) receive title-only JSTOR matching
+16. OpenAlex Concepts/Topics API cannot identify individual novels
+17. **work_key accuracy verified for canonical 98 works only**
+18. **JSTOR mention counts for non-canonical works are unrevised**
+19. **Shadow canon list contains works outside 1880–1950 scope** — year filter not re-applied during extraction
+20. **OpenAlex snapshot scan uses title-only matching** (abstract disabled)
+21. **FORCE_MAP 3件のwork_keyが誤った作品を指している**（jstor値は修正済み、edition_count/wikidataシグナルは無効）
+22. **Wikidata sitelink coverage: canonical 60/98件のみ** — §6b分析から除外
+23. **HTRCタイトル照合v2:** OCLC世代不一致により初回41件→v2補完後63件。2件は手動除外
+24. **Internet Archive download統計は公開APIから取得不可**
+25. **edition_countはOLダンプ収録版のみカウント** — 過小推定の可能性あり
+26. **htid ↔ edition相関の著作権切断バイアス:** 全体ρ=0.257、1923年以前サブセットρ=0.374（両値を論文で報告すること）
+27. **OA APIのcounts_by_yearは直近10年分のみ** — 歴史的時系列（1970-80年代spike等）の確認にはHathiTrustカプセルが必要（期限: 2026年9月）
+28. **`ci_articles.tsv`の`title_extracted`フィールドは全254件空** — PDF抽出でタイトル取得できず。CI×OA交差検証にはOA API直接検索を使うこと
+29. **oa_ci_works_v2.tsv の2023年=1件・2024年=0件は欠落** — スナップショットの分散によるもの、真の欠損ではない
+30. **Shadow canon属性バイアス分析は未実施** — 「ジェンダー・人種バイアス」の主張には著者属性の系統的分析が必要（第3章執筆前に対処すること）

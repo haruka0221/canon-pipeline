@@ -1,0 +1,89 @@
+======================================================================
+CRITICAL INQUIRY DISCOURSE ANALYSIS — SUMMARY
+Generated: 2026-03-29 20:29
+======================================================================
+
+[CORPUS] 254 articles processed
+Year distribution: 2019:52, 2020:75, 2021:23, 2022:34, 2023:29, 2024:17, 2025:17
+
+------------------------------------------------------------
+TOP 30 MOST-CITED SCHOLARS/CRITICS (by n_articles)
+------------------------------------------------------------
+  Foucault                        articles=  14  mentions=   42 [KEY]
+  Benjamin                        articles=   8  mentions=   10 [KEY]
+  Williams                        articles=   4  mentions=    7 [KEY]
+  Mao                             articles=   3  mentions=   10 [KEY]
+  Derrida                         articles=   3  mentions=    9 [KEY]
+  Said                            articles=   2  mentions=    6 [KEY]
+  Adorno                          articles=   2  mentions=    4 [KEY]
+  Butler                          articles=   2  mentions=    3 [KEY]
+  Eliot                           articles=   2  mentions=    3 [KEY]
+  Pound                           articles=   2  mentions=    3 [KEY]
+  James                           articles=   2  mentions=    2
+  Sciences Po                     articles=   2  mentions=    2
+  Gilbert                         articles=   2  mentions=    2 [KEY]
+  Lacan                           articles=   2  mentions=    2 [KEY]
+  Jameson                         articles=   1  mentions=    2 [KEY]
+  British Culture                 articles=   1  mentions=    1
+  ThePromiseofInfrastructure      articles=   1  mentions=    1
+  ScientistsonGaia                articles=   1  mentions=    1
+  China                           articles=   1  mentions=    1
+  alsoThomasMullaney              articles=   1  mentions=    1
+  Kazakhstani Childhood           articles=   1  mentions=    1
+  Funun                           articles=   1  mentions=    1
+  PioneerstothePast               articles=   1  mentions=    1
+  Chinese studies                 articles=   1  mentions=    1
+  Contemporary China              articles=   1  mentions=    1
+  RepresentingMusicalStructure    articles=   1  mentions=    1
+  Réflexionssurcequel'ona         articles=   1  mentions=    1
+  Bernstein                       articles=   1  mentions=    1
+  Iustitia                        articles=   1  mentions=    1
+  Justice                         articles=   1  mentions=    1
+
+------------------------------------------------------------
+CONCEPT GROUP TOTALS (across all articles)
+------------------------------------------------------------
+  form                           83
+  field_formation                36
+  distant_reading                33
+  class                          28
+  gender_sexuality               22
+  postcolonial                   19
+  modernism                      16
+  publishing                     15
+  pedagogy                       14
+  race                           14
+  archive                        12
+  world_lit                       4
+  close_reading                   4
+  expansion                       2
+
+------------------------------------------------------------
+ARGUMENTATIVE PATTERNS (aggregate over all articles)
+------------------------------------------------------------
+  position_to_overcome                 total=  322
+  positive_alignment                   total=  728
+  claim_assertion                      total=   63
+  gap_identification                   total=    4
+  intervention_marker                  total=    1
+
+Dominant pattern per article:
+  positive_alignment                   n=170
+  position_to_overcome                 n=70
+  none                                 n=10
+  claim_assertion                      n=4
+
+------------------------------------------------------------
+STRUCTURAL TENSION ZONES
+------------------------------------------------------------
+
+Hollow canon works present in CI text (n=0):
+
+Shadow canon works present in CI text (n=4):
+  Edgar Allan Poe                               jstor=480
+  Ralph Waldo Emerson                           jstor=174
+  The New Yorker                                jstor=10
+  The last of the Mohicans                      jstor=7
+
+======================================================================
+END OF SUMMARY

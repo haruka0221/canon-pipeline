@@ -1,0 +1,15 @@
+2026-03-30 13:04:55,437 INFO Canonical works: 93
+2026-03-30 13:04:55,523 INFO Scanning 901 snapshot files...
+2026-03-30 13:04:55,524 INFO   0/901 (0.0%) | matched=0/93
+2026-03-30 13:04:56,139 INFO   100/901 (11.1%) | matched=0/93
+2026-03-30 13:06:44,776 INFO   200/901 (22.2%) | matched=0/93
+2026-03-30 14:08:04,110 INFO   300/901 (33.3%) | matched=0/93
+2026-03-30 14:54:49,830 INFO   400/901 (44.4%) | matched=0/93
+2026-03-30 14:55:55,776 INFO   MATCH 'A Room with a View' ← 'Room with a View' score=100.0 year=1908
+2026-03-30 15:07:15,603 INFO   MATCH 'The odd women' ← 'The Odd Women' score=100.0 year=1893
+2026-03-30 15:48:40,686 INFO   500/901 (55.5%) | matched=2/93
+2026-03-30 16:39:43,234 INFO   600/901 (66.6%) | matched=2/93
+2026-03-30 17:06:03,883 INFO   MATCH 'Gone to Earth' ← 'Gone to Earth' score=100.0 year=1917
+2026-03-30 17:26:49,198 INFO   MATCH 'Alexander's Bridge' ← 'Alexander's Bridge' score=100.0 year=1912
+2026-03-30 17:38:19,677 INFO   700/901 (77.7%) | matched=4/93
+2026-03-30 17:48:47,548 INFO   MATCH 'The "genius"' ← 'The Genius' score=100.0 year=1400
