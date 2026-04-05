@@ -8878,7 +8878,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL17685481W	The African Fabiola	O'Connell, Joseph P.,	african fabiola	oconnell	0	0	0	0	0
 /works/OL177998W	The fight on cancer	Clarence C. Little	fight on cancer	little	0	0	0	0	0
 /works/OL1794664W	A Knight of the White Cross	G. A. Henty	knight of the white cross	henty	0	0	0	0	0
-/works/OL1794917W	The octopus, a story of California	Frank Norris	octopus a story of california	norris	0	0	0	0	0
+/works/OL1794917W	The octopus, a story of California	Frank Norris	octopus	norris	1	0	25	0	25
 /works/OL1796671W	Pierre and His People	Gilbert Parker	pierre and his people	parker	0	0	0	0	0
 /works/OL1798895W	Aladdin in London	Fergus Hume	aladdin in london	hume	0	0	0	0	0
 /works/OL180531W	More William	Richmal Crompton	more william	crompton	0	0	0	0	0
@@ -9069,7 +9069,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL6831763W	Mr. Fortune Wonders	H. C. Bailey	mr fortune wonders	bailey	0	0	0	0	0
 /works/OL6834686W	The treasure of the Hopitu	Harry Clebourne James	treasure of the hopitu	james	0	0	0	0	0
 /works/OL7055427W	Derrick Vaughan  Novelist	Edna Lyall	derrick vaughan novelist	lyall	0	0	0	0	0
-/works/OL715553W	Textplus - New Grub Street	George Gissing	textplus new grub street	gissing	0	0	0	0	0
+/works/OL715553W	Textplus - New Grub Street	George Gissing	new grub street	gissing	1	0	4	0	4
 /works/OL7299003W	Uncle Sam, detective	William Atherton DuPuy	uncle sam detective	dupuy	0	0	0	0	0
 /works/OL7413501W	Laughing his way to a million	H. Alan Dunn	laughing his way to a million	dunn	0	0	0	0	0
 /works/OL7424678W	Sandalio goes to town	Pollock, Katherine G.	sandalio goes to town	pollock	0	0	0	0	0
@@ -13985,7 +13985,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL15555126W	The blockade runner	J. Perkins Tracy	blockade runner	tracy	0	0	0	0	0
 /works/OL15841047W	Why cowboys sing, in Texas	Le Grand	why cowboys sing in texas	grand	0	0	0	0	0
 /works/OL1595671W	Rab and his friends and other dogs and men	Brown, John	rab and his friends and other dogs and men	brown	0	0	0	0	0
-/works/OL16025215W	Novels (Adventures of Huckleberry Finn / Adventures of Tom Sawyer)	Mark Twain	novels adventures of huckleberry finn adventures of tom sawyer	twain	0	0	0	0	0
+/works/OL16025215W	Novels (Adventures of Huckleberry Finn / Adventures of Tom Sawyer)	Mark Twain	adventures of huckleberry finn	twain	1	0	27	0	27
 /works/OL16039000W	And that's all	Lydia Sharpless Perry	and thats all	perry	0	0	0	0	0
 /works/OL16654W	The case of the backward mule	Erle Stanley Gardner	case of the backward mule	gardner	0	0	0	0	0
 /works/OL17687349W	Saved as by fire	Arthur, T. S.	saved as by fire	arthur	0	0	0	0	0
@@ -23906,7 +23906,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL28193641W	Galaxy magazine		galaxy magazine		0	0	0	0	0
 /works/OL2986851W	The recall of love	Ralph Connor	recall of love	connor	0	0	0	0	0
 /works/OL3001556W	The master of the microbe	Robert W. Service	master of the microbe	service	0	0	0	0	0
-/works/OL3045976W	Pointed Roofs. Pilgrimage	Dorothy Miller Richardson	pointed roofs pilgrimage	richardson	0	0	0	0	0
+/works/OL3045976W	Pointed Roofs. Pilgrimage	Dorothy Miller Richardson	pointed roofs	richardson	1	0	1	0	1
 /works/OL32089344W	Travels into several remote nations of the world	Swift, Jonathan	travels into several remote nations of the world	swift	0	0	0	0	0
 /works/OL32905099W	The sun is my undoing, by Marguerite Steen	Marguerite Steen	sun is my undoing by marguerite steen	steen	0	0	0	0	0
 /works/OL3373236W	White brother	Ethel C. Brill	white brother	brill	0	0	0	0	0
@@ -27384,7 +27384,7 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL1793335W	A prisoner in buff	Everett T. Tomlinson	prisoner in buff	tomlinson	0	0	0	0	0
 /works/OL1794667W	One of the 28th	G. A. Henty	one of the 28th	henty	0	0	0	0	0
 /works/OL1795200W	The Texan Star	Joseph A. Altsheler	texan star	altsheler	0	0	0	0	0
-/works/OL1797345W	The uncalled, a novel	Paul Laurence Dunbar	uncalled a novel	dunbar	0	0	0	0	0
+/works/OL1797345W	The uncalled, a novel	Paul Laurence Dunbar	uncalled	dunbar	1	0	0	0	0
 /works/OL17983899W	Pedro of the black death	Charles Moon Bennett	pedro of the black death	bennett	0	0	0	0	0
 /works/OL18029954W	American Pep: A Tale of America's Efficiency	A. Stone	american pep a tale of americas efficiency	stone	0	0	0	0	0
 /works/OL18044776W	A friend with the countersign	Blackwood Ketcham Benson	friend with the countersign	benson	0	0	0	0	0
@@ -30971,3 +30971,4 @@ work_id	title	author	title_norm	last_name	canonical	is_short	jstor_mention_count
 /works/OL39453744W	Jude the obscure	Hardy, Thomas	jude the obscure	hardy	1	0	27	0	27
 /works/OL65430W	The Awakening	Kate Chopin	awakening	chopin	1	0	32	0	32
 /works/OL98585W	The Custom of the Country	Edith Wharton	custom of the country	wharton	1	0	12	0	12
+/works/OL69032W	The Rise of Silas Lapham	William Dean Howells	rise of silas lapham	howells	1	0	5	0	5

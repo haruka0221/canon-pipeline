@@ -26,3 +26,8 @@ derived/openalex_snapshot_done_partitions.json
 derived/openalex_mentions_checkpoint.tsv
 derived/openalex_snapshot_checkpoint.tsv
 derived/openalex_snapshot_done_partitions.json
+derived/ci_raw_extractions_test.tsv/
+logs/oa_nohup*.log
+logs/oa_snapshot_nohup*.log
+.venv311/
+chapter*.docx
