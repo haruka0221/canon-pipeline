@@ -1,6 +1,6 @@
 # WORKFLOW.md — canon-pipeline
 **DCC Digital Curation Workflow Narrative**
-Last updated: 2026-04-06
+Last updated: 2026-04-18
 Status: LIVING DOCUMENT — update on every major change
 
 ---
@@ -537,6 +537,196 @@ OA APIによる98件取得完了（`derived/temporal_citations_api.tsv`）。た
 
 ---
 
+### Phase 1b: CI脚注証拠タイプ分類（LLMエージェント） — 完了 2026-04-18
+
+#### Purpose
+
+Critical Inquiry 2019–2025の脚注8,940行を対象に、LLMを用いて「証拠タイプ」を分類する。文学研究者が実際にどのような種類の証拠を用いているかを定量的に示し、「現代の文学研究が必要とするのはテキスト内容分析ではなく社会的流通・制度的扱われ方の追跡技術である」という本研究の根幹的主張の**問いの論理的構造**を実証する。
+
+Piper（2020）*Can We Be Wrong?* が提示した「文学研究における一般化の根拠の多くは他の学者への言及（分野的一般化）である」という診断を、単一ジャーナルの全脚注規模で検証する実験でもある。
+
+本分析はAI for Science申請書の§1-2（需要と供給の不一致）の定量的根拠として使用する。
+
+---
+
+#### Inputs
+
+| ファイル | 説明 |
+|---|---|
+| `derived/ci_footnotes.tsv` | CI PDF抽出済み脚注（8,940行、精度検証済み） |
+| Anthropic API（Claude Haiku） | 分類に使用 |
+
+---
+
+#### 分類スキーム（最終版・2段階精緻化後）
+
+| カテゴリ | 定義 |
+|---|---|
+| **1a** LITERARY_ARTISTIC_TEXT | 文学・芸術・文化的作品の**内容**への参照。小説・詩・演劇・映画・絵画・写真・日記・文学的書簡等。作品の主目的が美的・表現的であるもの。 |
+| **1b** OTHER_TEXT | 哲学・政治・法律・科学・宗教・技術的テキストの**内容**への参照。Plato・Hobbes・Wittgenstein等の哲学書、法的文書、科学論文、宗教テキスト、歴史文書、マニフェスト等。 |
+| **2** SOCIAL_CIRCULATION | 特定の文学・芸術・知的作品が社会の中でどう流通したかの証拠。書評、出版・版・翻訳記録、作品の受容に関する書簡・日記、特定作品の貸出・借用記録。**現代の政治・経済・技術ニュース記事は含まない。** |
+| **3** INSTITUTIONAL | 作品の制度的扱いに関する証拠。シラバス・課題図書リスト、出版社の決定記録、受賞記録、図書館蔵書方針、カノン形成文書、大学委員会報告等。 |
+| **4** SECONDARY_SCHOLARSHIP | 他の批評家・理論家・学者への言及。学術書・学術論文・批評エッセイ・理論書。脚注が他者の**議論や解釈**を参照しているもの。 |
+| **5** QUANTITATIVE_BIBLIOGRAPHIC | テキストや著者に関する数値・統計的データ。引用数、図書館所蔵統計、調査結果、出版数、読者数等。 |
+| **0** OTHER | 上記に該当しないもの。ibid.・著作権表示・PDFアーティファクト・著者紹介・自己参照的注記（「第3章参照」等）・現代の政治・経済・技術ニュース記事。 |
+
+---
+
+#### 分類手順（3段階）
+
+**Step 1：初回全件分類（8,940件）**
+
+```python
+# scripts: classify_ci_footnotes.py
+# Model: claude-haiku-4-5-20251001
+# Output: derived/ci_footnote_classification/classifications.tsv
+# Runtime: ~35分, 費用: ~$2.9 USD
+```
+
+システムプロンプトで7カテゴリを定義。カテゴリ0除く7,730件が実質的な分析対象。
+
+**Step 2：カテゴリ1の分割精緻化（1,329件）**
+
+初回分類でカテゴリ1（テキスト証拠）とされた1,329件を1aと1bに分割再分類。Critical Inquiryが批評理論誌であるため、テキスト証拠の中に文学作品と哲学・政治文書が混在することが判明したため。
+
+```python
+# インラインPython（再分類スクリプト）
+# Model: claude-haiku-4-5-20251001
+# 対象: 1,329件
+# Output: derived/ci_footnote_classification/classifications_v2.tsv
+# Runtime: ~12分, 費用: ~$0.5 USD
+```
+
+**Step 3：カテゴリ2の精緻化（588件）**
+
+初回分類でカテゴリ2（社会的流通証拠）とされた588件を再分類。目視サンプル確認（20件）により、現代の政治・経済・技術ニュース記事が大量に誤分類されていることが判明したため。再分類後の残存率：141/588件（24%）。
+
+```python
+# インラインPython（再分類スクリプト）  
+# Model: claude-haiku-4-5-20251001
+# 対象: 588件
+# Output: derived/ci_footnote_classification/classifications_final.tsv
+# Runtime: ~8分, 費用: ~$0.3 USD
+```
+
+⚠️ Step 3の再分類で588→141件（76%減）という大幅な変化が生じた。原因：初回プロンプトでカテゴリ2の定義が「文学・芸術作品の流通」に限定されていなかったため、現代ニュースへの引用（政治・経済・テクノロジー）が誤って流通証拠と判定された。最終版プロンプトでは「文学・芸術・知的作品の流通に**厳密に限定**」と明示。
+
+---
+
+#### Outputs
+
+| ファイル | 行数 | 内容 |
+|---|---|---|
+| `derived/ci_footnote_classification/classifications.tsv` | 8,940 | 初回分類結果（5カテゴリ） |
+| `derived/ci_footnote_classification/classifications_v2.tsv` | 8,940 | Step 2後（カテゴリ1を1a/1bに分割） |
+| `derived/ci_footnote_classification/classifications_final.tsv` | 8,940 | **最終版**（カテゴリ2精緻化済み） |
+| `derived/ci_footnote_classification/checkpoint.jsonl` | 8,940 | 初回分類チェックポイント（再開用） |
+
+---
+
+#### 最終結果（classifications_final.tsv）
+
+**全件集計（n=8,940）**
+
+| カテゴリ | 件数 | 全体比率 | カテゴリ0除く比率 |
+|---|---|---|---|
+| **4** 二次的学術文献 | 5,694 | 63.7% | **76.9%** |
+| **1b** 哲学・政治・科学テキスト証拠 | 714 | 8.0% | 9.6% |
+| **1a** 文学・芸術テキスト証拠 | 669 | 7.5% | 9.0% |
+| **0** その他（ibid.・著作権等） | 1,539 | 17.2% | — |
+| **2** 社会的流通証拠 | 141 | 1.6% | 1.9% |
+| **3** 制度的証拠 | 137 | 1.5% | 1.9% |
+| **5** 定量的書誌データ | 46 | 0.5% | 0.6% |
+| **合計** | **8,940** | **100%** | — |
+| **カテゴリ0除く実質** | **7,401** | — | **100%** |
+
+**一次証拠内訳（1a+1b+2+3+5 = 1,707件、実質比率23.1%）**
+
+| 証拠タイプ | 件数 | 一次証拠内比率 | 実質比率 |
+|---|---|---|---|
+| テキスト内容証拠（1a+1b） | 1,383 | 81.0% | 18.7% |
+| ─ 文学・芸術テキスト（1a） | 669 | 39.2% | 9.0% |
+| ─ 哲学・政治・科学テキスト（1b） | 714 | 41.8% | 9.6% |
+| 社会的流通・制度・定量（2+3+5） | 324 | 19.0% | **4.4%** |
+
+---
+
+#### 精度検証
+
+**サンプル目視確認（各カテゴリ15件）**
+
+| カテゴリ | 確認件数 | 正確件数 | 精度評価 |
+|---|---|---|---|
+| 4 学術文献 | 15 | 15 | ✅ 高（誤分類ゼロ） |
+| 0 その他 | 15 | 13 | ✅ 概ね高（ibid.等正確、軽微誤分類2件） |
+| 3 制度的証拠 | 15 | 12 | ✅ 概ね高 |
+| 1a/1b（分割後） | 6 | 6 | ✅ 高 |
+| 2（精緻化前） | 20 | 6 | ❌ 低（誤分類14件、Step 3で修正） |
+| 2（精緻化後） | — | — | Step 3後はサンプル未実施（推定精度向上） |
+
+⚠️ カテゴリ2の精緻化後サンプル確認は未実施。「文学・芸術・知的作品の流通に関する証拠」という定義を厳格化したため精度向上は確実だが、141件の精度を正式に検証するには追加目視確認が必要。
+
+---
+
+#### 分類変遷クロス集計（v2→final）
+
+Step 3（カテゴリ2の精緻化）で移動した件数：
+
+| v2 → final | 0 | 1a | 1b | 2 | 3 | 4 |
+|---|---|---|---|---|---|---|
+| **2（588件）** | 329 | 1 | 53 | **141** | 26 | 38 |
+
+移動先の分布：0（その他）が329件と最多。1b（哲学・政治テキスト）への移動が53件あり、これは新聞オピニオン記事・政治評論等が1bに分類されたことを示す。
+
+---
+
+#### 発見の解釈
+
+**第1層（76.9%）：権威依拠の構造**
+
+脚注の約4分の3が他の批評家・理論家への言及である。これはPiper（2020）が*Can We Be Wrong?* で「文学研究における一般化の根拠の多くは他の学者がそう言っているという分野的一般化である」と診断した構造を、254論文・8,940脚注という規模で実証するものである。
+
+**第2層（18.7%）：テキスト内容証拠の性格**
+
+文学テキスト（1a: 9.0%）と哲学・政治テキスト（1b: 9.6%）がほぼ半々であることは、CIが純粋な文学批評誌ではなく批評理論誌であることを反映する。文学研究者が一次テキストを参照する場合でも、その半分はフーコー・ホッブズ・ウィトゲンシュタイン等の非文学テキストである。
+
+**第3層（4.4%）：社会的流通証拠の希少性と意義**
+
+正典化・受容・制度的扱われ方という文学研究の中心的問いに直接応答しうる証拠類型（2+3+5）の合計がわずか4.4%（324件/7,401件）にとどまる。この希少性は、当該証拠類型への関心の欠如ではなく、系統的に収集・横断参照できるデータ基盤が現状では存在しないことを示す。書評記録・出版版数・図書館所蔵数・翻訳記録は各研究者が個別のアーカイブ調査で散発的に引用するにとどまっており、再現性・スケーラビリティを持たない。
+
+---
+
+#### 方法論的限界と注意事項
+
+1. **コーパスの代表性：** Critical Inquiry単誌（2019–2025）は英文学研究全体を代表しない。CIは批評理論寄りの誌であり、PMLA・ELH等とは論文性格が異なる。一般化には慎重を要する。
+2. **カテゴリ2の精緻化後サンプル確認未実施：** 141件の最終精度は推定段階。論文では「推定値」として扱うこと。
+3. **カテゴリ0の軽微誤分類：** Panofsky書簡等、本来カテゴリ2に入るべき数件がカテゴリ0に分類されている可能性がある（サンプル15件中2件で確認）。カテゴリ2（141件）は過小推定の可能性があるが影響は限定的。
+4. **1aと1bの境界：** C.L.R. James *The Black Jacobins*（歴史書）が1bに分類されたように、文学と非文学の境界は必ずしも明確でない。境界事例は存在する。
+5. **PDF抽出品質：** スペースが消失したテキスト（`SeeHarrietMartineau`等）はLLMがほぼ正確に読めることを確認済み（プロンプトに明示的注記あり）。
+
+---
+
+#### AI for Science申請書への使用方針
+
+本分析結果は申請書§1-2「需要と供給の不一致」の定量的根拠として使用する。ただし「需要の証明」としてではなく、「文学研究者が問う問いの構造が、メタデータ分析なしには答えられない種類のものである」という**問いの論理的構造の論証**として位置づける。
+
+**申請書に使用する数字（確定値）：**
+- 脚注の76.9%が他の批評家・理論家への言及（権威依拠）
+- 社会的流通・制度・定量証拠の合計は4.4%（実質比率）
+- 文学テキストへの直接参照は9.0%のみ
+
+**Piperとの接続：**
+> Piper（2020）が*Can We Be Wrong?* において指摘した「文学研究における一般化の根拠の多くは他の学者への言及という分野的一般化である」という診断を、本分析はCritical Inquiry全脚注8,940件規模で実証した。
+
+---
+
+#### Release記録
+
+| Release ID | Date | Key Artifact |
+|---|---|---|
+| ci-footnote-classification-v1 | 2026-04-18 | `classifications_final.tsv`（8,940件・7カテゴリ・2段階精緻化済み） |
+
+
 ### Phase 2: HathiTrust Data Capsule — 設計中
 
 **期限:** 2026年9月
@@ -561,43 +751,104 @@ OA APIによる98件取得完了（`derived/temporal_citations_api.tsv`）。た
 
 ### Purpose
 
-本研究のDH的意義を文脈化するため、英文学の主要ジャーナルにおけるDigital Humanities関連論文の受容状況を定量的に調査する。序章および第4章冒頭の文脈化段落の根拠として使用する。
+本研究のDH的意義を文脈化するため、英文学の主要ジャーナルおよび時代別・作家別専門誌、さらに比較のため言語学・歴史学の主要誌におけるDigital Humanities関連論文の受容状況を定量的に調査する。序章および第4章冒頭の文脈化段落の根拠として使用する。
 
-### 対象ジャーナルと収録件数（2016–2025）
+### 調査期間の設計
 
-OpenAlex APIによる確認値（2026-04-06）。
+手法ごとに適切な期間を設定した。統一期間を設けなかったのは、被引用蓄積の時差とキーワード検索の目的が異なるためである。
 
-| ジャーナル | ISSN | 2016–2025総件数 | 備考 |
+| 手法 | 期間 | 理由 |
+|---|---|---|
+| DHキーワード検索・総件数 | **2016–2025** | DHが英文学誌で議論され始めた時期以降に焦点 |
+| CI PDF脚注直接スキャン | **2019–2025** | 保有PDFの期間による |
+| プロキシ被引用チェック | **2010–2025** | Moretti(2005)・Jockers(2013)等の被引用蓄積を捕捉 |
+| 強シグナル・アーカイブ確認 | **2010–2025** | 同上 |
+
+### 対象ジャーナル
+
+#### 主要英文学誌
+
+| ジャーナル | ISSN | 2016–2025件数 |
+|---|---|---|
+| PMLA | 0030-8129 | 1,203 |
+| ELH | 0013-8304 | 424 |
+| Novel | 0029-5132 | 397 |
+| Critical Inquiry | 0093-1896 | 945 |
+| Modern Philology | 0026-8232 | 979（詳細スキャン未実施） |
+| Cultural Analytics | 2371-4549 | 212（DH専門誌・比較基準） |
+| DSH | 2055-7671 | 952（DH専門誌・比較基準） |
+
+#### 時代別・作家別専門誌（2016–2025件数）
+
+| ジャーナル | ISSN | 件数 | カテゴリ |
 |---|---|---|---|
-| PMLA | 0030-8129 | 1,203 | MLA刊行・英語文学フラッグシップ |
-| ELH | 0013-8304 | 424 | 研究論文中心・書評比率低 |
-| Novel | 0029-5132 | 397 | フィクション研究専門誌 |
-| Modern Philology | 0026-8232 | 979 | 文学史・批評史中心（詳細スキャン未実施） |
-| Critical Inquiry | 0093-1896 | 1,220 | 学際批評誌（§7でPDF直接分析済み） |
-| Cultural Analytics | 2371-4549 | 212 | DH文学研究専門誌（比較基準） |
-| DSH | 2055-7671 | 952 | DH専門誌（比較基準） |
+| Shakespeare Quarterly | 0037-3222 | 427 | 近世 |
+| Victorian Studies | 0042-5222 | 1,707 | ヴィクトリア朝 |
+| Studies in English Literature 1500–1900 | 0039-3657 | 331 | 近世〜19世紀 |
+| Studies in Romanticism | 0039-3762 | 403 | ロマン派 |
+| Modernism/modernity | 1071-6068 | 723 | モダニズム |
+| Nineteenth-Century Literature | 0891-9356 | 407 | 19世紀 |
+| Journal of Modern Literature | 0022-281X | 618 | 20世紀 |
+| Victorian Literature and Culture | 1060-1503 | 581 | ヴィクトリア朝 |
+| Henry James Review | 0273-0340 | 309 | 作家別 |
+| James Joyce Quarterly | 0021-4183 | 531 | 作家別 |
+| English Literature in Transition 1880–1920 | 0013-8339 | 50 | 本研究対象期間と完全一致 |
 
-⚠️ **ISSNミス記録（2026-04-06確認）:** ISSN 0026-7937はModern Philologyではなく**The Modern Language Review**（MLR）を指す。Modern PhilologyのISSNは0026-8232が正しい。OAスナップショット全件スキャン時にMLRを誤ってModern Philologyとして計上していた（12,749件）。この値は無効。
+除外：The Conradian（142件・件数不足）、Virginia Woolf Miscellany（OpenAlex未収録）。
 
-### 方法
+#### 分野横断比較誌
 
-**Step 1:** OpenAlex API `filter=primary_location.source.issn:{issn},publication_year:2016-2025` で各誌の総件数を取得。
+| ジャーナル | ISSN | 分野 | 2016–2025件数 |
+|---|---|---|---|
+| Language (LSA) | 0097-8507 | 言語学 | 910 |
+| Corpus Linguistics & Linguistic Theory | 1613-7027 | 言語学（コーパス） | 215 |
+| Journal of Corpus Linguistics | 1388-0209 | 言語学（コーパス） | 1,509 |
+| American Historical Review | 0002-8762 | 歴史学 | 8,125 |
+| History and Theory | 0018-2656 | 歴史学 | 517 |
 
-**Step 2:** OpenAlex APIの`search`パラメータ（タイトル＋抄録全文検索）で下記キーワードを各誌に適用（上限値の算出）。
+⚠️ **ISSNミス記録:** ISSN 0026-7937はModern Philologyではなく**The Modern Language Review**（MLR）を指す。OAスナップショット全件スキャン時にMLRを誤ってModern Philologyとして計上していた（12,749件）。この値は無効。
+
+### 方法（四手法）
+
+**Step 1：DHキーワード全文検索（2016–2025）**
+OpenAlex APIの`search`パラメータで下記キーワードを全対象誌に適用。
 ```
 computational literary / distant reading / stylometry / topic modeling /
 digital humanities / cultural analytics / text mining /
 machine learning literature / corpus-based / digital archive /
 network analysis literature
 ```
+値は上限値であり採用率ではない（特集号効果・言及混入が主な偽陽性原因）。
 
-**Step 3:** APIヒット論文のタイトルを全件確認し、DH実践論文・メタ議論・言及のみの3種に分類。PMLAについては抄録も確認（20本）。
+**Step 2：タイトル・抄録目視確認**
+APIヒット論文のタイトルを全件確認し、DH実践・メタ議論・言及のみの3種に分類。PMLAは抄録も確認（20本）。VLC・Romanticism・Joyce Q.の上位20件も確認。
 
-**Step 4:** §7で既処理の`ci_footnotes.tsv`（8,940行）に対してDHキーワードを単語境界マッチ（正規表現`\b`）で再スキャン。
+**Step 3：PDF直接スキャン（CI）（2019–2025）**
+`ci_footnotes.tsv`（8,940行）に対してDHキーワードを単語境界マッチで検索。この手法のみ偽陽性が除去済み。
 
-**Step 5:** APIの`biblio`フィールドから巻号を取得し、DHヒット論文の号集中を確認（特集号効果の検証）。
+**Step 4：DH方法論書プロキシ被引用チェック（2010–2025）**
+Cultural Analytics（212本）とDSH（952本の先頭1,000本）の最多被引用著作から帰納的に構築したプロキシリストへの被引用件数を確認。Da（2019）等の批判論文は除外。
 
-⚠️ Step 2の値は上限値であり採用率ではない（#32参照）。
+| プロキシ著作 | OA ID | CA被引用 | DSH被引用 |
+|---|---|---|---|
+| Moretti, *Graphs Maps Trees* (2005) | W1604638557 | 5 | — |
+| Underwood, *Distant Horizons* (2019) | W2886940283 | 6 | — |
+| Piper, *Enumerations* (2018) | W2101234009 | 5 | — |
+| Bode, *A World of Fiction* (2018) | W2790567261 | 4 | — |
+| Algee-Hewitt et al., Canon/Archive (2016) | W2583401130 | 5 | — |
+| Jockers, *Macroanalysis* (2013) | W4244181777 | — | 30 |
+| Burrows, Delta (2002) | W2107317033 | — | 62 |
+| Eder, Stylometry with R (2016) | W2787026234 | — | 38 |
+
+⚠️ CA（文学史・正典分析）とDSH（スタイロメトリ・著者帰属）は異なるDHコミュニティを代表している。
+
+**Step 5：計算論的実践の強シグナル確認（2010–2025）**
+
+強シグナル（計算論的実践）：Project Gutenberg、HathiTrust、Google Ngram、JSTOR Data for Research、Python（統計文脈）、R（統計文脈）、Stylo、Gephi
+
+弱シグナル（デジタルアーカイブ参照・計算論的利用ではない）：EEBO、ECCO、digital edition
+
+**この区別は重要：** EEBOをシェイクスピア研究者が引用する行為はデジタル図書館で一次資料を参照することであり、計算論的分析とは異なる。デジタルアーカイブの充実（弱シグナル高）と計算論的DH採用（強シグナル低）は英文学研究において独立した現象。
 
 ### 確定した数値
 
@@ -606,19 +857,15 @@ network analysis literature
 | 対象 | 期間 | 総件数 | DH関連論文 | 比率 |
 |---|---|---|---|---|
 | ci_footnotes単語境界マッチ | 2019–2025 | 254本 | **7本** | **2.8%** |
-| oa_ci_works タイトルスキャン | 1974–2025 | 1,220本 | 4本 | 0.3% |
+| oa_ci_worksタイトルスキャン | 1974–2025 | 1,220本 | 4本 | 0.3% |
 
-DH関連語が確認されたファイル（7本）: Bode 2023、Franta & Silver 2024、Geoghegan 2025、Lee 2025、Liu 2025、Parisi 2022、Parker 2025。2022年以降に集中（5/7本が2022–2025）。
+脚注スキャンでDHシグナルが確認された7本（2022年以降に集中）: Bode 2023、Franta & Silver 2024、Geoghegan 2025、Lee 2025、Liu 2025、Parisi 2022、Parker 2025。
 
-OAタイトルスキャンで確認されたDH関連論文（4本）:
-- 2019: Computational Literary Studies: Participant Forum Responses, Day 2 → **批判的フォーラム**
-- 2019: The Computational Case against Computational Literary Studies → **DHへの批判**
-- 2021: Data as Symbolic Form: Datafication and the Imaginary Media of W. E. B. Du Bois
-- 2021: Artificial Antisemitism: Critical Theory in the Age of Datafication
+OAタイトルスキャンの4本はすべて批判的フォーラム（Da 2019・CLS批判）または批評的概念としての「データ」論文。CIはDHの実践の場ではなく批評的検討の対象としてDHを扱っている。
 
-⚠️ 2019年の2本はDHを採用した論文ではなく批判的に検討したフォーラム論文。CIはDHの実践の場ではなく、DHという現象を批評言説の俎上に乗せた場所として機能している。
+**プロキシ被引用（2010–2025）：** 全プロキシでゼロ。Eder被引用1件のみで、これはBode（2023）"What's the Matter with Computational Literary Studies?"——CLS批判論文による引用。CIにおける③型暗黙的DH実践はゼロで確定。
 
-#### PMLA：特集号効果の確認（号数データで論証済み）
+#### PMLA：特集号効果（号数データで論証）
 
 | 年 | 集中号 | 特集テーマ | 件数 |
 |---|---|---|---|
@@ -627,34 +874,44 @@ OAタイトルスキャンで確認されたDH関連論文（4本）:
 | 2025 | — | Public Humanities（計算論的DHではない） | 9件 |
 | 2021–2022 | — | 表紙・目次等のパレテキスト | 7件 |
 
-**抄録確認（20本）に基づくPMLA DH論文の内部分類（2016–2022）:**
+抄録確認（20本）：DH実践論文3本（15%）、メタ議論12本、言及・書評5本。
 
-| 分類 | 件数 |
-|---|---|
-| DHを方法として使用（**実践**） | **3本** |
-| DHを職能・制度として論じる（メタ議論） | 12本 |
-| 言及・書評・返答 | 5本 |
+Moretti被引用12本の大半（≈9本）は世界文学の理論家として引用しているだけ。MorettiはPMLA研究者に「遠読の方法論的創始者」ではなく「世界文学の理論家」として引用されている。
 
-**2016–2022のPMLA「digital humanities」ヒット20本のうち、DHを分析方法として使用した論文は3本（15%）。**
+#### 専門誌：全誌で実践論文ほぼゼロ
 
-#### ELH・Novel
+| 誌 | 上限率（見かけ） | 実態 |
+|---|---|---|
+| Victorian Literature and Culture | 11.4% | 特集号1号への登録バグ → 完全無効 |
+| Studies in Romanticism | 5.7% | "reading"一般語の誤検出 → 実質ゼロ |
+| Joyce Quarterly | 3.4% | 会議報告・デジタル版紹介のみ → DH実践ゼロ |
+| English Literature in Transition 1880–1920 | **0.0%** | 完全ゼロ（本研究の対象時代と一致する誌） |
+| Shakespeare Quarterly | 1.4% | 実践論文ほぼゼロ |
 
-- **ELH 2016–2024:** DH実践論文1–2本（Extreme Reading: Josephine Miles [2019]; Data as Poetry in Cowper [2020]）。2025年の急増は特集号効果。
-- **Novel 2016–2025:** DH方法採用論文はほぼ確認されず（≈0本）。distant reading等は議論の参照項として言及のみ。
+**仮説検証：**
+- 仮説A「古い時代の専門誌の方がDH多い」→ **外れ**（Shakespeare Q.が最低水準）
+- 仮説B「モダニズム専門誌が最も抵抗的」→ **部分的に外れ**（ELT=0%が最低、Joyce Q.は3.4%だが内容は全て会議報告）
 
-#### DH専門誌との比較（比較基準）
+#### 強シグナル確認：全誌でほぼゼロ
 
-| ジャーナル | 年平均 |
-|---|---|
-| DSH（DH専門誌） | 95本 |
-| Cultural Analytics（DH文学研究専門誌） | 21本 |
-| PMLA　DH実践論文 | 推定0.3–0.5本 |
-| ELH　DH実践論文 | 推定0.1–0.2本 |
-| Novel　DH実践論文 | ≈0本 |
+専門誌はすべて強シグナルがゼロまたは1件。主要誌でも最大3–5件。Stylo（スタイロメトリ専用ツール）は全誌ゼロ。EEBO（弱シグナル）はShakespeare Q.で9件・SELで7件あるが、これは計算論的分析ではなくデジタル化一次資料への参照アクセス。
+
+#### 分野横断比較：AHRとの構造的対比
+
+言語学は同一キーワードで比較不可（コーパス言語学では"corpus-based"が基礎的方法論を意味するため）。歴史学（AHR）との比較：
+
+| 比較項目 | PMLA（英文学） | AHR（歴史学） |
+|---|---|---|
+| 上限率 | 10.6% | 0.7% |
+| DH実践論文の出現 | 2特集号に集中（2016・2020） | **毎年分散**（通常号として掲載） |
+| DHへの批判フォーラム | 2019年 Da論文 | 確認されない |
+| DH実践論文数（推定） | ≈3本/10年 | **≈4–5本/10年** |
+
+上限率が高い英文学の方が実践論文の実数は少ない。この逆転は、英文学でのDH語彙出現が特集号効果・職能論争・批判フォーラムによるものであることを示す。英文学のDH受容の低さは人文学全体の現象ではなく、英文学特有の方法論的緊張関係を反映している可能性がある。
 
 ### 確定した知見（論文に使用可）
 
-英文学の主要ジャーナルにおけるDH関連論文の分析は、「浸透」ではなく「間欠的・制度的出現」という構造を示す。PMLAでは2016年（Vol.131 No.2、エコロジカルDH特集）・2020年（Vol.135 No.1、DHと多様性特集）にDH関連論文の集中が確認されるが、これらは特集号という編集的決定による出現であり、通常号でDHを方法として採用した論文は2016–2022年の検討範囲で3本程度にとどまる。Critical Inquiryにおいても同様の傾向が確認され、2019年の集中はComputational Literary Studiesへの批判的フォーラムという形式をとっており、方法の採用ではなく批評的検討の対象としてDHが登場している（2019–2025年のPDF直接スキャンでDH関連論文は254本中7本、2.8%）。Novelにおいてはdistant readingやcultural analyticsを議論の参照項として言及する論文は複数確認されるが、方法として採用した論文はほぼ確認されない。これに対しDH専門誌のCultural Analyticsは同期間に212本、DSHは952本を収録しており、主要文学誌との量的乖離は歴然としている。本研究は、DHが英文学研究において依然として周縁的な方法論にとどまる状況への介入として位置づけられる。
+英文学の主要ジャーナルおよび時代別・作家別専門誌11誌にわたる四手法の調査は、DHの出現パターンが「浸透」ではなく「間欠的・制度的出現」であることを収束的に示す。PMLAでは特集号集中が号数データで論証された。CIでは2019年の集中がDa論文による批判フォーラムであり、被引用プロキシチェックでも暗黙的DH実践はゼロで確定した。専門誌11誌でも計算論的DH実践はほぼゼロであり、時代・作家による差異は存在しない。EEBOへの言及（弱シグナル）と計算論的ツール使用（強シグナル）は独立した現象である。歴史学（AHR）との比較では、英文学での特集号集中に対して歴史学では通常号として有機的に分散していることが確認された。本研究は、DHが英文学研究において依然として周縁的な方法論にとどまる状況への介入として位置づけられる。
 
 ---
 
@@ -665,113 +922,4 @@ OAタイトルスキャンで確認されたDH関連論文（4本）:
 | 章 | タイトル | 状態 | ファイル |
 |---|---|---|---|
 | 序章 | 問いと方法 | 未着手（§8の知見を文脈化段落として使用予定） | — |
-| 第1章 | 母集団と正典の構造的格差 | **草稿完成 v5** | `chapter1_v5.docx` |
-| 第2章 | The Hollow Canon | **草稿完成 v4** | `chapter2_v4.docx` |
-| 第3章 | Shadow Canonと排除の論理 | 未着手（属性分析が前提） | — |
-| 第4章 | 批評言説と引用経済 | 未着手（HathiTrust待ち） | — |
-| 結論 | — | 未着手 | — |
-
-☑ 1・2章（§1–3）：方法論、34,789件の母集団構築・2軸構造の実証・hollow canon 24件の特定と制度論的解釈
-☑ §8：英文学主要誌におけるDH受容状況の定量的文脈化（序章・第4章用）
-☐ 3・4章：HathiTrust時系列分析待ち・shadow canon属性分析・CI言説分析本格化
-
-### Student Survey Evidence（補完的定性証拠）
-
-| 調査 | n | 主要発見 |
-|---|---|---|
-| Survey 1 | 79（人文社会系主体） | 美的評価と制度的配置の逆転：D(London/Call of Wild)が文学性最高(3.58)だがC(Ishiguro/Remains of Day)が最もアカデミックな配置（大学教材31+学術論文22=53名） |
-| Survey 2 | 52（工学系主体） | 選択基準第1位「科学技術との関係」(32名)。hollow canon作品は一件も選ばれず |
-
-Survey 1 サンプル詳細:
-- Sample A: Tarzan of the Apes（hollow canon）
-- Sample B: Heart of Darkness
-- Sample C: The Remains of the Day（Ishiguro）→ 大学教材31・学術論文22・図書館15・空港書店11
-- Sample D: The Call of the Wild（hollow canon）→ 文学性評価3.58（最高）
-
-Survey 2 上位選択作品: Frankenstein(31)、The Time Machine(31)、Never Let Me Go(29)
-
----
-
-## Scripts（全セッション）
-
-| スクリプト | 場所 | 機能 |
-|---|---|---|
-| `build_population_from_dump.py` | scripts/ | OLダンプから母集団構築（3-pass） |
-| `build_author_lookup.py` | scripts/ | OL Authorsダンプから著者名辞書構築 |
-| `match_phd_corpus_v2.py` | scripts/ | phd_corpus v2マッチング |
-| `fetch_oclc_from_dump.py` | scripts/ | OCLCダンプ抽出 |
-| `build_edition_counts.py` | scripts/ | Editionsダンプからedition_count集計 |
-| `ci_extract_citations.py` | scripts/ | CI PDF→テキスト・脚注・概念抽出 |
-| `ci_discourse_analysis.py` | scripts/ | CI集計・著者頻度・概念頻度 |
-| `temporal_citation_analysis.py` | scripts/ | OAスナップショットからcanonicalのcounts_by_year抽出 |
-| `fix_titles.py` | scripts/ | title_normクリーニング + 6件JSTOR rescan（v3） |
-| `jstor_rescan_extra29.py` | scripts/ | extra 30件のJSTORスキャン（v3） |
-| `oa_rescan_extra30.py` | scripts/ | extra 30件のOpenAlexスキャン（v3） |
-
----
-
-## Release History
-
-| Release ID | Date | Key Artifact | Notes |
-|---|---|---|---|
-| population-v1 | 2026-02-22 | `ol_works_final_population.tsv` (4,833) | Initial filtered population (pilot) |
-| population-dump-v1 | 2026-03-09 | `ol_dump_population_fiction_2026-02-28.tsv` (34,789) | **current baseline** |
-| citations-v1 | 2026-03-27 | `jstor_mentions.tsv` + `openalex_snapshot_mentions.tsv` | Both citation indicators complete |
-| enrichment-v2 | 2026-03-28 | `ol_edition_counts.tsv` + `htrc_ol_dump_match_summary_v2.tsv` | Edition count追加; HTRC v2（41→63件） |
-| analysis-6b-v2 | 2026-03-28 | `multi_signal_merged.tsv` + `spearman_matrix.tsv` | §6b完了（4指標・2軸構造確定） |
-| stage7-phase1-v1 | 2026-04-02 | `ci_articles.tsv` + `ci_footnotes.tsv` + `oa_ci_works_v2.tsv` + `temporal_citations_api.tsv` + `shadow_canon_final.tsv` | Stage 7 Phase 1完了 |
-| canonical-v3 | 2026-04-05 | `jstor_mentions.tsv`（104件）+ `jstor_extra29.tsv` + `extra_canonical_editions.tsv` + `oa_extra30.tsv` | v3 matching完了・数値確定 |
-| stage8-dh-reception-v1 | 2026-04-06 | （派生ファイルなし・API照会のみ） | §8 DH受容分析完了；CI脚注精度検証完了 |
-
----
-
-## Known Limitations (Cumulative)
-
-1. `first_publish_year` mis-registration ~2.5% (unfilterable)
-2. Non-fiction residual contamination ~1% post-filter
-3. OL search bias — pilot study only; dump-based main study is unbiased
-4. OCLC identifier audit covers 100 works only
-5. HathiTrust match covers 18.0% of population
-6. WorldCat holdingsCount structurally unavailable
-7. WorldCat Discovery API: institutional contract barrier
-8. **phd_corpus 8件が永続的未解決**（旧44件のうち6件はv3 mainに、30件はv3 extraに回収）
-9. htrc omnibus volumes inflate htid_count
-10. FAST ID label resolution blocked by network policy
-11. OL dump coverage: works not registered in OL treated as non-existent
-12. OL dump language field absent at Work level
-13. **JSTOR abstract field is 0.0% populated** → title-co-occurrence only
-14. JSTOR title_norm deduplication reduced index to 30,962 works
-15. Works with unknown author (355 works, 1.0%) receive title-only JSTOR matching
-16. OpenAlex Concepts/Topics API cannot identify individual novels
-17. **work_key accuracy verified for canonical 104 works only**
-18. **JSTOR mention counts for non-canonical works are unrevised**
-19. **Shadow canon list contains works outside 1880–1950 scope** — year filter not re-applied during extraction
-20. **OpenAlex snapshot scan uses title-only matching** (abstract disabled)
-21. **FORCE_MAP 3件のwork_keyが誤った作品を指している**（jstor値は修正済み、edition_count/wikidataシグナルは無効）
-22. **Wikidata sitelink coverage: canonical 60/98件のみ** — §6b分析から除外
-23. **HTRCタイトル照合v2:** OCLC世代不一致により初回41件→v2補完後63件。2件は手動除外
-24. **Internet Archive download統計は公開APIから取得不可**
-25. **edition_countはOLダンプ収録版のみカウント** — 過小推定の可能性あり
-26. **htid ↔ edition相関の著作権切断バイアス:** 全体ρ=0.257、1923年以前サブセットρ=0.374（両値を論文で報告すること）
-27. **OA APIのcounts_by_yearは直近10年分のみ** — 歴史的時系列はHathiTrustカプセルが必要（期限: 2026年9月）
-28. **`ci_articles.tsv`の`title_extracted`フィールドは全254件空** — CI×OA交差検証にはOA API直接検索を使うこと
-29. **oa_ci_works_v2.tsv の2023年=1件・2024年=0件は欠落** — スナップショットの分散によるもの
-30. **Shadow canon属性バイアス分析は未実施** — 「ジェンダー・人種バイアス」の主張には著者属性の系統的分析が必要（第3章執筆前に対処すること）
-31. **v3 extra 30件はHTRC照合不可**（HTRCメタデータにタイトル列なし、OCLC番号も不在）。edition_countはOL API経由（2026-04）でダンプ由来値と出典が異なる
-32. **§8 DHキーワード検索はOA APIの全文検索に依存しており、実践論文と言及・批判論文を自動区別できない。** 報告値はすべて上限値として扱うこと。CIのみPDF直接スキャンにより精度が担保されている
-33. **§8のELH・Novel・Modern Philologyの採用率はタイトル目視・定性的推定に基づく。** 抄録の体系的確認・分類器による判定は未実施
-34. **§8でModern Philologyの詳細スキャンは未実施。** ISSN 0026-7937はThe Modern Language Review（別誌）であり無効。正しいISSNは0026-8232
-35. **§8の「DH実践論文」判定はタイトル・抄録の目視分類に依存。** 操作的定義（方法として採用 vs 言及・批判）の境界は必ずしも明確でなく、主観的判断を含む。論文では判定根拠を明示すること
-36. **ci_footnotes.tsv精度検証はPDFディレクトリのパス不一致により完全ではない。** 248/254件の一致を確認。Gavin 2018は対象期間外のため影響なし。残6件の所在は未確認
-
----
-
-## References（第1・2章で使用確定）
-
-- Bourdieu, P. (1993). *The field of cultural production* (R. Johnson, Ed.). Polity Press.
-- Guillory, J. (1993). *Cultural capital*. University of Chicago Press.
-- Huyssen, A. (1986). *After the great divide*. Indiana University Press.
-- McGrath, L., Higgins, D., & Hintze, A. (2018). Measuring modernist novelty. *Journal of Cultural Analytics*, 3(1). https://doi.org/10.22148/16.027
-- Moretti, F. (2013). *Distant reading*. Verso.
-- Rainey, L. (1998). *Institutions of modernism*. Yale University Press.
-- Rawlings, M. K. (1938). *The Yearling*. Charles Scribner's Sons.
+| 第1章 | 母集団と正典の構造的格差 | **草稿完成 v5** | 

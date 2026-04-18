@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Kim",
+    "author_raw": "Kipling, Rudyard",
+    "author_normalized": "Rudyard Kipling",
+    "gold": "Q19086249",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "Kim",
+        "n_candidates": 10,
+        "pred": "no_match"
+      },
+      {
+        "label": "2_title+lastname",
+        "query": "Kim Kipling",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "3_author+title",
+        "query": "Rudyard Kipling Kim",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "4_sparql_works",
+        "n_candidates": 20,
+        "pred": "Q589868"
+      }
+    ],
+    "final_pred": "Q589868",
+    "correct": false
+  },
+  {
+    "title": "The Pit",
+    "author_raw": "Frank Norris",
+    "author_normalized": "Frank Norris",
+    "gold": "Q7757284",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "The Pit",
+        "n_candidates": 10,
+        "pred": "Q7757284"
+      }
+    ],
+    "final_pred": "Q7757284",
+    "correct": true
+  },
+  {
+    "title": "Strange case of Dr. Jekyll and Mr. Hyde",
+    "author_raw": "Robert Louis Stevenson",
+    "author_normalized": "Robert Louis Stevenson",
+    "gold": "Q217352",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "Strange case of Dr. Jekyll and Mr. Hyde",
+        "n_candidates": 4,
+        "pred": "no_match"
+      },
+      {
+        "label": "2_title+lastname",
+        "query": "Strange case of Dr. Jekyll and Mr. Hyde Stevenson",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "3_author+title",
+        "query": "Robert Louis Stevenson Strange case of Dr. Jekyll and Mr. Hyde",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "4_sparql_works",
+        "n_candidates": 20,
+        "pred": "Q217352"
+      }
+    ],
+    "final_pred": "Q217352",
+    "correct": true
+  },
+  {
+    "title": "The Awakening",
+    "author_raw": "Kate Chopin",
+    "author_normalized": "Kate Chopin",
+    "gold": "Q1567505",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "The Awakening",
+        "n_candidates": 10,
+        "pred": "Q1567505"
+      }
+    ],
+    "final_pred": "Q1567505",
+    "correct": true
+  },
+  {
+    "title": "Peter Pan",
+    "author_raw": "J. M. Barrie",
+    "author_normalized": "J. M. Barrie",
+    "gold": "Q3435337",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "Peter Pan",
+        "n_candidates": 10,
+        "pred": "Q3435337"
+      }
+    ],
+    "final_pred": "Q3435337",
+    "correct": true
+  },
+  {
+    "title": "Pembroke",
+    "author_raw": "Mary Wilkins Freeman",
+    "author_normalized": "Mary Wilkins Freeman",
+    "gold": "Q7161943",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "Pembroke",
+        "n_candidates": 10,
+        "pred": "no_match"
+      },
+      {
+        "label": "2_title+lastname",
+        "query": "Pembroke Freeman",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "3_author+title",
+        "query": "Mary Wilkins Freeman Pembroke",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "4_sparql_works",
+        "n_candidates": 20,
+        "pred": "Q7161943"
+      }
+    ],
+    "final_pred": "Q7161943",
+    "correct": true
+  },
+  {
+    "title": "Orlando",
+    "author_raw": "Virginia Woolf",
+    "author_normalized": "Virginia Woolf",
+    "gold": "Q1629456",
+    "steps": [
+      {
+        "label": "1_title_only",
+        "query": "Orlando",
+        "n_candidates": 10,
+        "pred": "no_match"
+      },
+      {
+        "label": "2_title+lastname",
+        "query": "Orlando Woolf",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "3_author+title",
+        "query": "Virginia Woolf Orlando",
+        "n_candidates": 0,
+        "pred": null
+      },
+      {
+        "label": "4_sparql_works",
+        "n_candidates": 20,
+        "pred": "Q1629456"
+      }
+    ],
+    "final_pred": "Q1629456",
+    "correct": true
+  }
+]
