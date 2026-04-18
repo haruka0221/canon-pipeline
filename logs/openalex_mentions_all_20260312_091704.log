@@ -166,3 +166,346 @@
 2026-03-12 23:03:39,965 WARNING HTTP 429 – sleep 120s (attempt 2/5)
 2026-03-12 23:05:40,116 WARNING HTTP 429 – sleep 120s (attempt 3/5)
 2026-03-12 23:07:40,227 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 23:09:40,355 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 23:11:40,356 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Astories+from+the+faerie+queene+macleod&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 23:11:40,356 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 23:21:41,508 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 23:23:41,615 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 23:25:41,806 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 23:27:41,922 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 23:29:42,032 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 23:31:42,081 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Adriven+into+exile+e&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 23:31:42,082 WARNING 429連鎖防止: 600秒待機します...
+2026-03-12 23:41:43,210 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-12 23:43:43,353 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-12 23:45:43,462 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-12 23:47:43,588 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-12 23:49:43,852 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-12 23:51:43,853 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Awanderer+of+space+statten&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-12 23:51:43,853 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 00:01:44,970 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 00:03:45,138 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 00:05:45,272 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 00:07:45,449 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 00:09:45,576 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 00:11:45,579 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aborgias+dumas&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 00:11:45,580 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 00:21:46,694 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 00:23:46,795 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 00:25:46,945 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 00:27:47,069 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 00:29:47,185 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 00:31:47,249 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Azoo+shklovski&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 00:31:47,249 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 00:41:48,374 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 00:43:48,489 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 00:45:48,650 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 00:47:48,773 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 00:49:48,898 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 00:51:48,899 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ajourneys+in+fiction+hitchcock&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 00:51:48,899 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 01:01:50,170 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 01:03:50,269 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 01:05:50,390 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 01:07:50,483 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 01:09:50,583 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 01:11:50,584 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ajin+ping+mei+ci+hua+xiaoxiaosheng&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 01:11:50,585 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 01:21:51,747 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 01:23:51,837 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 01:25:51,962 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 01:27:52,141 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 01:29:52,368 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 01:31:52,391 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Asix+iron+spiders+taylor&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 01:31:52,392 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 01:41:53,510 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 01:43:53,656 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 01:45:53,892 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 01:47:54,014 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 01:49:54,109 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 01:51:54,110 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Acaprice+firbank&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 01:51:54,111 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 02:01:55,221 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 02:03:55,315 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 02:05:55,416 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 02:07:55,542 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 02:09:55,652 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 02:11:55,654 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Alove+in+winter+jameson&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 02:11:55,655 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 02:21:56,742 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 02:23:56,839 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 02:25:56,935 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 02:27:57,042 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 02:29:57,137 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 02:31:57,138 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aworks+of+sir+walter+scott+bart+scott&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 02:31:57,138 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 02:41:58,237 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 02:43:58,366 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 02:45:58,455 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 02:47:58,543 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 02:49:58,656 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 02:51:58,657 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Athree+stories+falk+amy+foster+tomorrow+conrad&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 02:51:58,657 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 03:01:59,773 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 03:03:59,887 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 03:06:00,006 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 03:08:00,158 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 03:10:00,254 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 03:12:00,255 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aassignment+in+brittany+macinnes&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 03:12:00,255 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 08:03:37,725 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 08:05:37,830 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 08:07:37,926 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 08:09:38,036 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 08:11:38,148 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 08:13:38,149 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Atarzan+the+untamed+burroughs&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 08:13:38,149 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 08:23:39,256 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 08:25:39,366 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 08:27:39,492 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 08:29:39,645 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 08:31:39,832 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 08:33:39,835 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Astudies+of+death+stenbock&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 08:33:39,835 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 08:43:40,935 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 08:45:41,040 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 08:47:41,336 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 08:49:41,575 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 08:51:41,712 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 08:53:41,717 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Athree+scouts+trowbridge&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 08:53:41,717 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 09:05:37,477 INFO Progress: 10200/34789 (29.3%) | errors=22 skipped=111
+2026-03-13 09:07:58,007 INFO Progress: 10300/34789 (29.6%) | errors=22 skipped=113
+2026-03-13 09:10:24,471 INFO Progress: 10400/34789 (29.9%) | errors=22 skipped=116
+2026-03-13 09:12:50,841 INFO Progress: 10500/34789 (30.2%) | errors=22 skipped=117
+2026-03-13 09:15:13,416 INFO Progress: 10600/34789 (30.5%) | errors=22 skipped=119
+2026-03-13 09:17:41,970 INFO Progress: 10700/34789 (30.8%) | errors=22 skipped=119
+2026-03-13 09:20:07,169 INFO Progress: 10800/34789 (31.0%) | errors=22 skipped=122
+2026-03-13 09:22:32,060 INFO Progress: 10900/34789 (31.3%) | errors=22 skipped=122
+2026-03-13 09:24:57,101 INFO Progress: 11000/34789 (31.6%) | errors=22 skipped=122
+2026-03-13 09:24:57,111 INFO Checkpoint saved (+1000 rows)
+2026-03-13 09:27:20,384 INFO Progress: 11100/34789 (31.9%) | errors=22 skipped=124
+2026-03-13 09:29:49,801 INFO Progress: 11200/34789 (32.2%) | errors=22 skipped=124
+2026-03-13 09:32:14,369 INFO Progress: 11300/34789 (32.5%) | errors=22 skipped=125
+2026-03-13 09:34:43,069 INFO Progress: 11400/34789 (32.8%) | errors=22 skipped=126
+2026-03-13 09:37:07,192 INFO Progress: 11500/34789 (33.1%) | errors=22 skipped=127
+2026-03-13 09:39:30,046 INFO Progress: 11600/34789 (33.3%) | errors=22 skipped=129
+2026-03-13 09:41:56,187 INFO Progress: 11700/34789 (33.6%) | errors=22 skipped=130
+2026-03-13 09:44:13,093 INFO Progress: 11800/34789 (33.9%) | errors=22 skipped=134
+2026-03-13 09:46:36,094 INFO Progress: 11900/34789 (34.2%) | errors=22 skipped=136
+2026-03-13 09:48:54,075 INFO Progress: 12000/34789 (34.5%) | errors=22 skipped=137
+2026-03-13 09:48:54,107 INFO Checkpoint saved (+1000 rows)
+2026-03-13 09:51:08,889 INFO Progress: 12100/34789 (34.8%) | errors=22 skipped=139
+2026-03-13 09:53:34,649 INFO Progress: 12200/34789 (35.1%) | errors=22 skipped=139
+2026-03-13 09:55:57,209 INFO Progress: 12300/34789 (35.4%) | errors=22 skipped=140
+2026-03-13 09:58:14,294 INFO Progress: 12400/34789 (35.6%) | errors=22 skipped=141
+2026-03-13 10:00:34,028 INFO Progress: 12500/34789 (35.9%) | errors=22 skipped=141
+2026-03-13 10:02:56,211 INFO Progress: 12600/34789 (36.2%) | errors=22 skipped=141
+2026-03-13 10:05:14,794 INFO Progress: 12700/34789 (36.5%) | errors=22 skipped=143
+2026-03-13 10:07:30,188 INFO Progress: 12800/34789 (36.8%) | errors=22 skipped=143
+2026-03-13 10:09:45,548 INFO Progress: 12900/34789 (37.1%) | errors=22 skipped=144
+2026-03-13 10:12:04,675 INFO Progress: 13000/34789 (37.4%) | errors=22 skipped=144
+2026-03-13 10:12:04,682 INFO Checkpoint saved (+1000 rows)
+2026-03-13 10:14:21,468 INFO Progress: 13100/34789 (37.7%) | errors=22 skipped=145
+2026-03-13 10:16:33,265 INFO Progress: 13200/34789 (37.9%) | errors=22 skipped=148
+2026-03-13 10:18:47,006 INFO Progress: 13300/34789 (38.2%) | errors=22 skipped=148
+2026-03-13 10:21:05,028 INFO Progress: 13400/34789 (38.5%) | errors=22 skipped=149
+2026-03-13 10:23:29,223 INFO Progress: 13500/34789 (38.8%) | errors=22 skipped=149
+2026-03-13 10:25:52,636 INFO Progress: 13600/34789 (39.1%) | errors=22 skipped=149
+2026-03-13 10:28:16,165 INFO Progress: 13700/34789 (39.4%) | errors=22 skipped=150
+2026-03-13 10:30:48,851 INFO Progress: 13800/34789 (39.7%) | errors=22 skipped=150
+2026-03-13 10:33:27,334 INFO Progress: 13900/34789 (40.0%) | errors=22 skipped=152
+2026-03-13 10:36:00,928 INFO Progress: 14000/34789 (40.2%) | errors=22 skipped=153
+2026-03-13 10:36:00,932 INFO Checkpoint saved (+1000 rows)
+2026-03-13 10:38:39,325 INFO Progress: 14100/34789 (40.5%) | errors=22 skipped=154
+2026-03-13 10:41:02,919 INFO Progress: 14200/34789 (40.8%) | errors=22 skipped=155
+2026-03-13 10:43:33,776 INFO Progress: 14300/34789 (41.1%) | errors=22 skipped=156
+2026-03-13 10:45:53,548 INFO Progress: 14400/34789 (41.4%) | errors=22 skipped=157
+2026-03-13 10:48:18,955 INFO Progress: 14500/34789 (41.7%) | errors=22 skipped=157
+2026-03-13 10:50:41,959 INFO Progress: 14600/34789 (42.0%) | errors=22 skipped=158
+2026-03-13 10:53:24,284 INFO Progress: 14700/34789 (42.3%) | errors=22 skipped=161
+2026-03-13 10:57:55,488 INFO Progress: 14800/34789 (42.5%) | errors=22 skipped=161
+2026-03-13 11:00:40,057 INFO Progress: 14900/34789 (42.8%) | errors=22 skipped=164
+2026-03-13 11:03:53,105 INFO Progress: 15000/34789 (43.1%) | errors=22 skipped=167
+2026-03-13 11:03:53,116 INFO Checkpoint saved (+1000 rows)
+2026-03-13 11:06:16,450 INFO Progress: 15100/34789 (43.4%) | errors=22 skipped=168
+2026-03-13 11:08:37,095 INFO Progress: 15200/34789 (43.7%) | errors=22 skipped=170
+2026-03-13 11:10:58,200 INFO Progress: 15300/34789 (44.0%) | errors=22 skipped=174
+2026-03-13 11:13:17,264 INFO Progress: 15400/34789 (44.3%) | errors=22 skipped=176
+2026-03-13 12:37:10,237 INFO Progress: 15500/34789 (44.6%) | errors=22 skipped=176
+2026-03-13 12:39:26,855 INFO Progress: 15600/34789 (44.8%) | errors=22 skipped=179
+2026-03-13 12:41:47,326 INFO Progress: 15700/34789 (45.1%) | errors=22 skipped=179
+2026-03-13 12:44:23,634 INFO Progress: 15800/34789 (45.4%) | errors=22 skipped=182
+2026-03-13 12:46:59,091 INFO Progress: 15900/34789 (45.7%) | errors=22 skipped=185
+2026-03-13 12:49:20,979 INFO Progress: 16000/34789 (46.0%) | errors=22 skipped=185
+2026-03-13 12:49:20,983 INFO Checkpoint saved (+1000 rows)
+2026-03-13 12:51:50,267 INFO Progress: 16100/34789 (46.3%) | errors=22 skipped=185
+2026-03-13 12:54:17,602 INFO Progress: 16200/34789 (46.6%) | errors=22 skipped=188
+2026-03-13 12:56:46,644 INFO Progress: 16300/34789 (46.9%) | errors=22 skipped=188
+2026-03-13 12:59:12,325 INFO Progress: 16400/34789 (47.1%) | errors=22 skipped=189
+2026-03-13 13:01:41,259 INFO Progress: 16500/34789 (47.4%) | errors=22 skipped=190
+2026-03-13 13:04:04,141 INFO Progress: 16600/34789 (47.7%) | errors=22 skipped=191
+2026-03-13 13:06:19,952 INFO Progress: 16700/34789 (48.0%) | errors=22 skipped=193
+2026-03-13 13:08:45,974 INFO Progress: 16800/34789 (48.3%) | errors=22 skipped=193
+2026-03-13 13:11:03,502 INFO Progress: 16900/34789 (48.6%) | errors=22 skipped=195
+2026-03-13 13:13:29,565 INFO Progress: 17000/34789 (48.9%) | errors=22 skipped=196
+2026-03-13 13:13:29,584 INFO Checkpoint saved (+1000 rows)
+2026-03-13 13:16:00,748 INFO Progress: 17100/34789 (49.2%) | errors=22 skipped=197
+2026-03-13 13:18:24,466 INFO Progress: 17200/34789 (49.4%) | errors=22 skipped=197
+2026-03-13 13:20:42,420 INFO Progress: 17300/34789 (49.7%) | errors=22 skipped=198
+2026-03-13 13:22:54,855 INFO Progress: 17400/34789 (50.0%) | errors=22 skipped=204
+2026-03-13 13:25:13,750 INFO Progress: 17500/34789 (50.3%) | errors=22 skipped=204
+2026-03-13 13:27:41,400 INFO Progress: 17600/34789 (50.6%) | errors=22 skipped=205
+2026-03-13 13:30:05,147 INFO Progress: 17700/34789 (50.9%) | errors=22 skipped=205
+2026-03-13 13:32:29,987 INFO Progress: 17800/34789 (51.2%) | errors=22 skipped=206
+2026-03-13 13:34:51,616 INFO Progress: 17900/34789 (51.5%) | errors=22 skipped=208
+2026-03-13 13:37:16,425 INFO Progress: 18000/34789 (51.7%) | errors=22 skipped=209
+2026-03-13 13:37:16,430 INFO Checkpoint saved (+1000 rows)
+2026-03-13 13:39:46,461 INFO Progress: 18100/34789 (52.0%) | errors=22 skipped=212
+2026-03-13 13:42:10,340 INFO Progress: 18200/34789 (52.3%) | errors=22 skipped=213
+2026-03-13 13:44:38,772 INFO Progress: 18300/34789 (52.6%) | errors=22 skipped=215
+2026-03-13 13:47:01,171 INFO Progress: 18400/34789 (52.9%) | errors=22 skipped=215
+2026-03-13 13:49:24,856 INFO Progress: 18500/34789 (53.2%) | errors=22 skipped=215
+2026-03-13 13:51:45,945 INFO Progress: 18600/34789 (53.5%) | errors=22 skipped=216
+2026-03-13 13:54:07,941 INFO Progress: 18700/34789 (53.8%) | errors=22 skipped=216
+2026-03-13 13:56:26,249 INFO Progress: 18800/34789 (54.0%) | errors=22 skipped=217
+2026-03-13 13:58:47,523 INFO Progress: 18900/34789 (54.3%) | errors=22 skipped=218
+2026-03-13 14:01:09,787 INFO Progress: 19000/34789 (54.6%) | errors=22 skipped=219
+2026-03-13 14:01:09,794 INFO Checkpoint saved (+1000 rows)
+2026-03-13 14:03:32,617 INFO Progress: 19100/34789 (54.9%) | errors=22 skipped=219
+2026-03-13 14:06:01,743 INFO Progress: 19200/34789 (55.2%) | errors=22 skipped=219
+2026-03-13 14:08:26,341 INFO Progress: 19300/34789 (55.5%) | errors=22 skipped=219
+2026-03-13 14:10:47,184 INFO Progress: 19400/34789 (55.8%) | errors=22 skipped=220
+2026-03-13 14:13:31,022 INFO Progress: 19500/34789 (56.1%) | errors=22 skipped=221
+2026-03-13 14:15:50,017 INFO Progress: 19600/34789 (56.3%) | errors=22 skipped=223
+2026-03-13 14:18:11,219 INFO Progress: 19700/34789 (56.6%) | errors=22 skipped=224
+2026-03-13 14:20:52,824 INFO Progress: 19800/34789 (56.9%) | errors=22 skipped=226
+2026-03-13 14:23:18,742 INFO Progress: 19900/34789 (57.2%) | errors=22 skipped=227
+2026-03-13 14:25:41,664 INFO Progress: 20000/34789 (57.5%) | errors=22 skipped=228
+2026-03-13 14:25:41,674 INFO Checkpoint saved (+1000 rows)
+2026-03-13 14:28:05,782 INFO Progress: 20100/34789 (57.8%) | errors=22 skipped=230
+2026-03-13 14:30:44,869 INFO Progress: 20200/34789 (58.1%) | errors=22 skipped=230
+2026-03-13 14:31:45,674 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 14:33:45,853 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 14:35:45,970 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 14:37:46,103 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 14:39:46,229 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 14:41:46,230 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Amoderns+and+nearmoderns+chislett&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 14:41:46,230 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 14:51:47,386 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 14:53:47,526 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 14:55:47,687 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 14:57:47,819 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 14:59:47,942 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 15:01:47,943 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ain+scarlet+and+plain+clothes+longstreth&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 15:01:47,943 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 15:11:49,267 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 15:13:49,726 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 15:15:49,991 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 15:17:50,136 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 15:19:50,492 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 15:21:50,498 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ahearts+desire+hough&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 15:21:50,499 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 15:31:51,608 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 15:33:51,747 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 15:35:51,945 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 15:37:52,095 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 15:39:52,208 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 15:41:52,208 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Acowboy+santee&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 15:41:52,209 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 15:51:53,413 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 15:53:53,611 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 15:55:53,749 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 15:57:53,878 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 15:59:54,030 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 16:01:54,031 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Asome+contemporary+novelists+johnson&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 16:01:54,032 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 16:11:55,175 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 16:13:55,407 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 16:15:55,701 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 16:17:56,033 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 16:19:56,285 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 16:21:56,286 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Arose+cottingham+syrett&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 16:21:56,286 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 16:31:57,372 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 16:33:57,527 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 16:35:58,066 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 16:37:58,173 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 16:39:58,293 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 16:41:58,304 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aindex+to+short+stories+firkins&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 16:41:58,305 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 16:51:59,615 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 16:53:59,949 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 16:56:00,099 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 16:58:00,311 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 17:00:00,668 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 17:02:00,669 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Amoon+gaffney+sylvester&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 17:02:00,671 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 17:12:01,781 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 17:14:01,877 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 17:16:02,290 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 17:18:02,916 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 17:20:03,083 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 17:22:03,083 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Awoman+davies&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 17:22:03,084 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 17:32:04,244 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 17:34:04,425 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 17:36:04,520 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 17:38:04,900 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 17:40:05,022 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 17:42:05,023 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Awellington+soldier+and+statesman+morris&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 17:42:05,023 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 17:52:06,181 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 17:54:06,403 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 17:56:06,537 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 17:58:06,643 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 18:00:06,893 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 18:02:06,894 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Alegends+of+virginia+caperton&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 18:02:06,894 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 18:12:08,031 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 18:14:08,128 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 18:16:08,226 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 18:18:08,310 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 18:20:08,469 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 18:22:08,470 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Arustlers+three+billings&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 18:22:08,471 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 18:32:09,609 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 18:34:09,727 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 18:36:10,062 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 18:38:10,235 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 18:40:10,369 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 18:42:10,370 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aone+fightin+cowboy+snow&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 18:42:10,371 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 18:52:11,506 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 18:54:11,622 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 18:56:11,730 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 18:58:11,850 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 19:00:11,947 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 19:02:11,948 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Abedside+treasury+of+love+harr&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 19:02:11,948 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 19:12:13,082 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 19:14:13,214 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 19:16:13,333 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 19:18:13,917 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 19:20:14,449 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 19:22:14,450 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Ared+blood+blue+jordan&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 19:22:14,450 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 19:32:16,034 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 19:34:16,137 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 19:36:16,263 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 19:38:16,373 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 19:40:16,616 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 19:42:16,616 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Aboy+rides+with+custer+hawley&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 19:42:16,617 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 19:52:17,807 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 19:54:17,955 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 19:56:18,086 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 19:58:18,324 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 20:00:18,496 WARNING HTTP 429 – sleep 120s (attempt 5/5)
+2026-03-13 20:02:18,497 ERROR Max retries exceeded | https://api.openalex.org/works?filter=title.search%3Achronicles+of+the+stimpcett+family+and+others+diaz&per_page=1&group_by=publication_year&mailto=tsutsui%40nihu.jp
+2026-03-13 20:02:18,500 WARNING 429連鎖防止: 600秒待機します...
+2026-03-13 20:12:19,630 WARNING HTTP 429 – sleep 120s (attempt 1/5)
+2026-03-13 20:14:19,758 WARNING HTTP 429 – sleep 120s (attempt 2/5)
+2026-03-13 20:16:20,182 WARNING HTTP 429 – sleep 120s (attempt 3/5)
+2026-03-13 20:18:20,283 WARNING HTTP 429 – sleep 120s (attempt 4/5)
+2026-03-13 20:20:20,447 WARNING HTTP 429 – sleep 120s (attempt 5/5)
