@@ -1,0 +1,131 @@
+wk	title	author	gold_qid_final	pred_qid	correct	sitelink_count	type
+OL35695219W	Ulysses	James Joyce	Q6511	Q6511	True	166	positive
+OL31971259W	Heart of Darkness	Conrad, Joseph	Q129778	Q129778	True	57	positive
+OL86320W	Dubliners	Joyce, James	Q459592	Q459592	True	45	positive
+OL276470W	The Ambassadors	James, Henry	Q650571	Q650571	True	13	positive
+OL82870W	The Sound and the Fury	William Faulkner	Q135515	Q135515	True	42	positive
+OL38989822W	A portrait of the artist as a young man	Joyce, James	Q465360	Q465360	True	45	positive
+OL1794919W	The Pit	Frank Norris	Q7757284	Q7757284	True	3	positive
+OL82929W	As I Lay Dying	William Faulkner	Q1544119	Q1544119	True	28	positive
+OL39360W	Orlando	Virginia Woolf	Q1629456	Q1629456	True	28	positive
+OL35353208W	The Great Gatsby	F. Scott Fitzgerald	Q214371	Q214371	True	84	positive
+OL39349W	Mrs. Dalloway	Virginia Woolf	Q752584	Q752584	True	40	positive
+OL40252771W	Turn of the Screw	Henry James	Q625923	Q625923	True	0	positive
+OL81295W	Sons and Lovers	Lawrence, D. H.	Q80771	Q80771	True	28	positive
+OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	Q649409	Q649409	True	35	positive
+OL18814811W	Looking backward	Bellamy, Edward	Q1305106	Q1305106	True	19	positive
+OL98491W	The Age of Innocence	Edith Wharton	Q1045464	Q1045464	True	22	positive
+OL42236259W	The house of mirth	Edith Wharton	Q6474536	Q6474536	True	0	positive
+OL39396W	To the Lighthouse	Virginia Woolf	Q478016	Q478016	True	43	positive
+OL51141W	The job	Sinclair Lewis	Q7743319	Q7743319	True	0	positive
+OL62979W	The Sun Also Rises	Ernest Hemingway	Q501351	Q501351	True	49	positive
+OL1168083W	Nineteen Eighty-Four	George Orwell	Q208460	Q208460	True	136	positive
+OL42517032W	The red badge of courage	Crane, Stephen	Q1219239	Q1219239	True	24	positive
+OL43405505W	Lady Chatterley's lover	Lawrence, D. H.	Q750670	Q750670	True	0	positive
+OL100203W	Sister Carrie	Theodore Dreiser	Q1286961	Q1286961	True	21	positive
+OL20172W	Kim	Kipling, Rudyard	Q19086249	Q589868	False	1	positive
+OL276365W	The Portrait of a Lady	James, Henry	Q861017	Q861017	True	27	positive
+OL8193416W	The Picture of Dorian Gray	Oscar Wilde	Q82464	Q82464	True	81	positive
+OL1794911W	McTeague	Frank Norris	Q11772710	Q11772710	True	5	positive
+OL509919W	Parade's End	Ford Madox Ford	Q5579026	Q5579026	True	0	positive
+OL52267W	The Time Machine	H. G. Wells	Q627333	Q627333	True	57	positive
+OL44622934W	The jungle	Upton Sinclair	Q260205	Q260205	True	0	positive
+OL88881W	Howards End	E. M. Forster	Q1146642	Q1146642	True	18	positive
+OL100196W	"The ""genius"""	Theodore Dreiser	Q4593382	Q4593382	True	0	positive
+OL38827W	The shadow-line	Conrad, Joseph	Q1120858	Q1120858	True	0	positive
+OL468488W	This Side of Paradise	F. Scott Fitzgerald	Q2581681	Q2581681	True	18	positive
+OL27834207W	The Return of the Soldier	Rebecca West	Q7760466	Q7760466	True	3	positive
+OL35383W	Three Lives	Gertrude Stein	Q7797597	Q7797597	True	4	positive
+OL100237W	The Financier	Theodore Dreiser	Q577607	Q577607	True	9	positive
+OL37277W	The Autobiography of Alice B. Toklas	Gertrude Stein	Q6618986	Q6618986	True	10	positive
+OL144822W	Martin Eden	Jack London	Q1317839	Q1317839	True	48	positive
+OL63009W	For Whom the Bell Tolls	Ernest Hemingway	Q200920	Q200920	True	65	positive
+OL18561767W	The story of an African farm	Olive Schreiner	Q7766827	Q7766827	True	0	positive
+OL14864528W	The rise of David Levinsky	Abraham Cahan	Q7760882	Q7760882	True	0	positive
+OL39329W	Jacob's Room	Virginia Woolf	Q1677745	Q1677745	True	13	positive
+OL98501W	Ethan Frome	Edith Wharton	Q5402934	Q5402934	True	18	positive
+OL41540816W	Robert Elsmere	Humphry Ward	Q7344052	Q7344052	True	3	positive
+OL20839W	Maggie, a girl of the streets	Crane, Stephen	Q3276774	Q3276774	True	0	positive
+OL12781W	Alexander's Bridge	Willa Cather	Q4718102	Q4718102	True	3	positive
+OL24034W	Treasure Island	Robert Louis Stevenson	Q185118	Q185118	True	84	positive
+OL88813W	A Room with a View	E. M. Forster	Q120288	Q120288	True	23	positive
+OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	Q2531205	Q2531205	True	16	positive
+OL715621W	The odd women	George Gissing	Q7754692	Q7754692	True	0	positive
+OL14942956W	The Call of the Wild	Jack London	Q476871	Q476871	True	51	positive
+OL1217993W	Three soldiers	John Dos Passos	Q7797826	Q7797826	True	4	positive
+OL65437W	At Fault	Kate Chopin	Q131573518	NO_MATCH	False	0	positive
+OL5293697W	New day	Victor Stafford Reid	Q16387293	Q16387293	True	0	positive
+OL1253285W	The Scarlet Pimpernel	Orczy, Emmuska Orczy	Q1249536	Q1249536	True	29	positive
+OL4390503W	Gone to Earth	Mary Gladys Meredith Webb	Q109284453	Q109284453	True	1	positive
+OL4902750W	Java Head	Joseph Hergesheimer	Q107000085	Q107000085	True	0	positive
+OL507321W	Pembroke	Mary Eleanor Wilkins Freeman	Q7161943	Q7161943	True	2	positive
+OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	Q655296	Q655296	True	25	positive
+OL262473W	The Mystery of Cloomber	Doyle, Arthur Conan	Q4449924	Q4449924	True	7	positive
+OL9056552W	The prisoner of Zenda	Hope, Anthony	Q1193766	Q1193766	True	0	positive
+OL74504W	White Fang	Jack London	Q152267	Q152267	True	45	positive
+OL1487721W	Alas!	Rhoda Broughton	Q111301777	Q111301777	True	0	positive
+OL109153W	The Grand Babylon Hotel	Bennett, Arnold	Q7737468	Q7737468	True	3	positive
+OL115067W	King Coal	Upton Sinclair	Q16386559	Q16386559	True	2	positive
+OL111382W	The Yearling	Marjorie Kinnan Rawlings	Q429806	Q429806	True	11	positive
+OL485410W	The border legion	Zane Grey	Q7719393	Q7719393	True	0	positive
+OL1794917W	The octopus, a story of California	Frank Norris	Q7754678	NO_MATCH	False	2	positive
+OL715553W	Textplus - New Grub Street	George Gissing	Q7007870	Q7007870	True	0	positive
+OL1797345W	The uncalled, a novel	Paul Laurence Dunbar	Q130332685	Q130332685	True	0	positive
+OL39108W	The Secret Agent	Conrad, Joseph	Q1247666	Q1247666	True	21	positive
+OL468485W	Tender is the Night	F. Scott Fitzgerald	Q247372	Q247372	True	32	positive
+OL19870W	The Jungle Book	Kipling, Rudyard	Q189509	Q189509	True	69	positive
+OL44014215W	Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	Q217352	Q217352	True	59	positive
+OL462007W	Peter Pan	J. M. Barrie	Q3435337	Q19032697	False	33	positive
+OL1154817W	The Crock of Gold	Stephens, James	Q7728134	Q7728134	True	1	positive
+OL39453744W	Jude the obscure	Hardy, Thomas	Q1248773	Q1248773	True	18	positive
+OL65430W	The Awakening	Kate Chopin	Q1567505	Q1567505	True	15	positive
+OL98585W	The Custom of the Country	Edith Wharton	Q7728505	Q7728505	True	3	positive
+OL69032W	The Rise of Silas Lapham	William Dean Howells	Q7760892	Q7760892	True	2	positive
+OL211982W	Way of revelation	Wilfrid Ewart	NO_MATCH	NO_MATCH	True	0	negative
+OL7719221W	The silent witness	Kate Slaughter McKinney	NO_MATCH	NO_MATCH	True	0	negative
+OL449576W	So young, so fair	Elizabeth Seifert	NO_MATCH	NO_MATCH	True	0	negative
+OL13139964W	Mistress Brent: A Story of Lord Baltimore's Colony in 1638	Lucy Meacham Thruston	NO_MATCH	NO_MATCH	True	0	negative
+OL10489225W	Armour wherein he trusted	Mary Webb	NO_MATCH	NO_MATCH	True	0	negative
+OL4417056W	Millions in motors	William West Winter	NO_MATCH	NO_MATCH	True	0	negative
+OL214825W	The lure o'gold	Bailey Millard	NO_MATCH	NO_MATCH	True	0	negative
+OL1618981W	Rawhide Rawlins stories	Charles M. Russell	NO_MATCH	NO_MATCH	True	0	negative
+OL85369W	We had a picnic this Sunday past	Jacqueline Woodson	NO_MATCH	NO_MATCH	True	0	negative
+OL182131W	Proud Way	Shirley Seifert	NO_MATCH	NO_MATCH	True	0	negative
+OL5202721W	The sword in the mountains	Alice MacGowan	NO_MATCH	NO_MATCH	True	0	negative
+OL1795872W	Stories of peace and war	Frederic Remington	NO_MATCH	NO_MATCH	True	0	negative
+OL5591842W	The silk stocking murders	Anthony Berkeley	NO_MATCH	NO_MATCH	True	0	negative
+OL11250419W	In the coils, or, The coming conflict	Edwin Brown Graham	NO_MATCH	NO_MATCH	True	0	negative
+OL1798692W	Mr. Dooley in peace and in war	Dunne, Finley Peter	NO_MATCH	NO_MATCH	True	0	negative
+OL2455066W	The passionate year	James Hilton	NO_MATCH	NO_MATCH	True	0	negative
+OL6108462W	Three pretty men	Cannan, Gilbert	NO_MATCH	NO_MATCH	True	0	negative
+OL144983W	The princess passes	C. N. Williamson	NO_MATCH	NO_MATCH	True	0	negative
+OL863687W	The fortunes of Nigel ; Count Robert of Paris	Scott, Walter	NO_MATCH	NO_MATCH	True	0	negative
+OL100195W	Free And Other Stories By Theodore Dreiser	Theodore Dreiser	NO_MATCH	NO_MATCH	True	0	negative
+OL5215840W	Heroes of chivalry and romance	Church, Alfred John	NO_MATCH	NO_MATCH	True	0	negative
+OL2986859W	He dwelt among us	Ralph Connor	NO_MATCH	NO_MATCH	True	0	negative
+OL7003455W	Og son of fire	Irving Crump	NO_MATCH	NO_MATCH	True	0	negative
+OL724306W	The crowning of a king	Arnold Zweig	NO_MATCH	NO_MATCH	True	0	negative
+OL507361W	Edgewater people	Mary Eleanor Wilkins Freeman	NO_MATCH	NO_MATCH	True	0	negative
+OL8391025W	Beaky, the greedy duck	Noel Barr	NO_MATCH	NO_MATCH	True	0	negative
+OL6038060W	Romances and epics of our northern ancestors, Norse, Celt and Teuton	Wilhelm Wägner	NO_MATCH	NO_MATCH	True	0	negative
+OL3282831W	A Carolina cavalier	George Cary Eggleston	NO_MATCH	NO_MATCH	True	0	negative
+OL6608066W	The doctor looks at love and life	Collins, Joseph	NO_MATCH	NO_MATCH	True	0	negative
+OL7133503W	In white and black	William Washington Pinson	NO_MATCH	NO_MATCH	True	0	negative
+OL1794619W	With Roberts to Pretoria	G. A. Henty	NO_MATCH	NO_MATCH	True	0	negative
+OL17036122W	A family flight over Egypt and Syria	Hale, Edward Everett	NO_MATCH	NO_MATCH	True	0	negative
+OL13342888W	The Capsina: An Historical Novel	E. F. Benson	NO_MATCH	Q124087127	False	0	negative
+OL3613405W	Consider her ways	Frederick Philip Grove	NO_MATCH	NO_MATCH	True	0	negative
+OL5693628W	The island of the stairs	Brady, Cyrus Townsend	NO_MATCH	NO_MATCH	True	0	negative
+OL1501035W	The pathfinders of the revolution	Griffis, William Elliot	NO_MATCH	NO_MATCH	True	0	negative
+OL6689778W	Briton or Boer?	George Chetwynd Griffith	NO_MATCH	NO_MATCH	True	0	negative
+OL1868652W	The mantel-piece minstrels and other stories	John Kendrick Bangs	NO_MATCH	NO_MATCH	True	0	negative
+OL1145604W	Queer stories for boys and girls	Edward Eggleston	NO_MATCH	NO_MATCH	True	0	negative
+OL7547968W	The Little Swiss Wood Carver	Madeline Brandeis	NO_MATCH	NO_MATCH	True	0	negative
+OL1441628W	Life with father	Day, Clarence	NO_MATCH	NO_MATCH	True	0	negative
+OL1164807W	Poor fool	Caldwell, Erskine	NO_MATCH	NO_MATCH	True	0	negative
+OL1395812W	Ferdinand And Isabella	Kesten, Hermann	NO_MATCH	NO_MATCH	True	0	negative
+OL1590469W	A pillar of salt	Jennette Lee	NO_MATCH	NO_MATCH	True	0	negative
+OL17960893W	Lady Barbarina	James, Henry	NO_MATCH	NO_MATCH	True	0	negative
+OL2303527W	Rain on the wind	Walter Macken	NO_MATCH	NO_MATCH	True	0	negative
+OL107437W	A sailor's sweetheart	William Clark Russell	NO_MATCH	NO_MATCH	True	0	negative
+OL1098472W	The wind blows over	De la Mare, Walter	NO_MATCH	NO_MATCH	True	0	negative

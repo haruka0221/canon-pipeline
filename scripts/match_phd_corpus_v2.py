@@ -41,6 +41,12 @@ FORCE_MAP = {
     "The Prisoner of Zenda": "/works/OL9056552W",   # Anthony Hope (1894)
     "The Good Soldier":      "/works/OL15345521W",  # Ford Madox Ford (1915)
     "Dracula":               "/works/OL15062619W",  # Bram Stoker (1897)
+    # edition_count過小評価の修正（2026-05）
+    "Ulysses":               "/works/OL86318W",     # Joyce (611版→旧71版)
+    "The Great Gatsby":      "/works/OL468431W",    # Fitzgerald (1178版→旧2版)
+    "Heart of Darkness":     "/works/OL38663W",     # Conrad (552版→旧14版)
+    "A Portrait of the Artist as a Young Man": "/works/OL86343W",  # Joyce (765版→旧3版)
+    "The Jungle":            "/works/OL114967W",    # Sinclair (673版→旧1版)
 }
 
 OCR_FIX = {

@@ -1,0 +1,83 @@
+title	gold	pred_filter	correct	sitelink_count
+Ulysses	Q6511	Q6511	True	166
+Heart of Darkness	Q129778	Q129778	True	57
+Dubliners	Q459592	Q459592	True	45
+The Ambassadors	Q650571	Q650571	True	13
+The Sound and the Fury	Q135515	Q135515	True	42
+A portrait of the artist as a young man	Q465360	NO_MATCH	False	45
+The Pit	Q7757284	Q77763221	False	3
+As I Lay Dying	Q1544119	Q1544119	True	28
+Orlando	Q1629456	Q60614687	False	28
+The Great Gatsby	Q214371	Q214371	True	84
+Mrs. Dalloway	Q752584	NO_MATCH	False	40
+Turn of the Screw	Q625923	NO_MATCH	False	0
+Sons and Lovers	Q80771	Q80771	True	28
+Tess of the D'Urbervilles	Q649409	NO_MATCH	False	35
+Looking backward	Q1305106	NO_MATCH	False	19
+The Age of Innocence	Q1045464	Q1045464	True	22
+The house of mirth	Q6474536	NO_MATCH	False	0
+To the Lighthouse	Q478016	Q478016	True	43
+The job	Q7743319	NO_MATCH	False	0
+The Sun Also Rises	Q501351	Q501351	True	49
+Nineteen Eighty-Four	Q208460	Q208460	True	136
+The red badge of courage	Q1219239	NO_MATCH	False	24
+Lady Chatterley's lover	Q750670	NO_MATCH	False	0
+Sister Carrie	Q1286961	Q1286961	True	21
+Kim	Q19086249	Q19086249	True	1
+The Portrait of a Lady	Q861017	Q861017	True	27
+The Picture of Dorian Gray	Q82464	Q82464	True	81
+McTeague	Q11772710	Q11772710	True	5
+Parade's End	Q5579026	NO_MATCH	False	0
+The Time Machine	Q627333	Q627333	True	57
+The jungle	Q260205	NO_MATCH	False	0
+Howards End	Q1146642	Q1146642	True	18
+"The ""genius"""	Q4593382	NO_MATCH	False	0
+The shadow-line	Q1120858	NO_MATCH	False	0
+This Side of Paradise	Q2581681	Q2581681	True	18
+The Return of the Soldier	Q7760466	Q7760466	True	3
+Three Lives	Q7797597	Q7797597	True	4
+The Financier	Q577607	Q577607	True	9
+The Autobiography of Alice B. Toklas	Q6618986	NO_MATCH	False	10
+Martin Eden	Q1317839	Q1317839	True	48
+For Whom the Bell Tolls	Q200920	Q200920	True	65
+The story of an African farm	Q7766827	NO_MATCH	False	0
+The rise of David Levinsky	Q7760882	NO_MATCH	False	0
+Jacob's Room	Q1677745	NO_MATCH	False	13
+Ethan Frome	Q5402934	Q5402934	True	18
+Robert Elsmere	Q7344052	Q7344052	True	3
+Maggie, a girl of the streets	Q3276774	NO_MATCH	False	0
+Alexander's Bridge	Q4718102	NO_MATCH	False	3
+Treasure Island	Q185118	Q185118	True	84
+A Room with a View	Q120288	Q120288	True	23
+The Beautiful and Damned	Q2531205	Q2531205	True	16
+The odd women	Q7754692	NO_MATCH	False	0
+The Call of the Wild	Q476871	Q476871	True	51
+Three soldiers	Q7797826	NO_MATCH	False	4
+At Fault	Q131573518	NO_MATCH	False	0
+New day	Q16387293	NO_MATCH	False	0
+The Scarlet Pimpernel	Q1249536	Q1249536	True	29
+Gone to Earth	Q109284453	Q109284453	True	1
+Java Head	Q107000085	Q107000085	True	0
+Pembroke	Q7161943	Q7161943	True	2
+Tarzan of the Apes	Q655296	Q655296	True	25
+The Mystery of Cloomber	Q4449924	Q4449924	True	7
+The prisoner of Zenda	Q1193766	NO_MATCH	False	0
+White Fang	Q152267	Q152267	True	45
+Alas!	Q111301777	NO_MATCH	False	0
+The Grand Babylon Hotel	Q7737468	Q7737468	True	3
+King Coal	Q16386559	Q16386559	True	2
+The Yearling	Q429806	Q429806	True	11
+The border legion	Q7719393	NO_MATCH	False	0
+The octopus, a story of California	Q7754678	NO_MATCH	False	2
+Textplus - New Grub Street	Q7007870	NO_MATCH	False	0
+The uncalled, a novel	Q130332685	NO_MATCH	False	0
+The Secret Agent	Q1247666	Q1247666	True	21
+Tender is the Night	Q247372	NO_MATCH	False	32
+The Jungle Book	Q189509	Q189509	True	69
+Strange case of Dr. Jekyll and Mr. Hyde	Q217352	NO_MATCH	False	59
+Peter Pan	Q3435337	Q3435337	True	33
+The Crock of Gold	Q7728134	Q7728134	True	1
+Jude the obscure	Q1248773	NO_MATCH	False	18
+The Awakening	Q1567505	Q134699463	False	15
+The Custom of the Country	Q7728505	Q7728505	True	3
+The Rise of Silas Lapham	Q7760892	Q7760892	True	2

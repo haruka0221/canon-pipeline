@@ -1,0 +1,9 @@
+title	author	gold	pred	n_candidates	n_relevant	note	correct
+Heart of Darkness	Joseph Conrad	118	15	50	15		False
+The Great Gatsby	F. Scott Fitzgerald	30	28	50	28		True
+The Moon and Sixpence	W. Somerset Maugham	0	2	2	2	既存スキャン=0だがJSTORに論文存在（取りこぼし事例）	
+White Fang	Jack London	0	1	1	1	OpenAlexに29件あるがJSTOR=0	
+A Room with a View	E. M. Forster	5	7	25	7		True
+The Call of the Wild	Jack London	3	4	18	4		True
+At Fault	Kate Chopin	2	1	37	1		True
+Gone to Earth	Mary Webb	1	2	5	2		True

@@ -278,6 +278,7 @@ english_fiction, american_fiction
 
 ### 4f. Edition Count (OL Editions Dump) — 完了 2026-03-28
 
+
 **Input:** `raw/ol_dump/ol_dump_editions_2026-02-28.txt.gz` (12GB, 55,615,769行)
 **Output:** `derived/ol_edition_counts.tsv` (34,789 rows)
 **Script:** `scripts/build_edition_counts.py`
@@ -322,6 +323,513 @@ english_fiction, american_fiction
 | The Uncalled | Paul Laurence Dunbar | 1 |
 
 ---
+
+
+## Stage 4g: HathiTrust 所蔵数取得 — 進行中
+
+### HathiTrustとは何か
+
+HathiTrustは2008年設立の北米大学図書館コンソーシアム（200機関以上参加）によるデジタルアーカイブ。コレクションの大部分はGoogleブックス大規模スキャンプロジェクト（2004年〜）でデジタル化されたもので、Harvard・Michigan・Stanford等の蔵書がスキャンされた。
+
+**研究上の意義：**
+`htid_count`（所蔵ボリューム数）は「米国トップ大学図書館の蔵書のうちGoogleにスキャンされた分」を主に反映する。`htid_count`が低い・ゼロの作品は「米国トップ大学図書館に蔵書されなかった」という制度的不可視化の証拠として読め、hollow canon分析とは独立した文化的流通軸の指標となる。
+
+**著作権構造（重要）：**
+- 1926年以前出版 → `rights=pd` でフルテキスト公開
+- 1927年以降 → メタデータのみ（`rights=ic`）
+- **Bibliographic API・HathiFilesともに著作権に関係なくメタデータを返す**
+- フルテキスト分析はHTRC Data Capsule経由（申請者はアカウント・プロジェクト保有済み）
+
+---
+
+### ローカルデータ
+
+#### HathiFiles（毎月1日更新・全件TSV）
+
+```
+場所: /mnt/d/hathitrust/hathi_full_20260501.txt.gz
+サイズ: 1.2GB（圧縮）
+総件数: 19,394,212件
+取得日: 2026-05-22
+```
+
+**列構造（確認済み）：**
+
+| 列番号 | フィールド名 | 内容 | 照合での役割 |
+|---|---|---|---|
+| 1 | htid | HathiTrustボリュームID | 主キー |
+| 2 | access | allow/deny | フルテキスト可否 |
+| 3 | rights | pd/ic/pdus等 | 著作権ステータス |
+| 8 | oclc_num | OCLC番号 | **照合キー① → OLと結合** |
+| 12 | title | タイトル | **照合キー②** |
+| 17 | pub_date | 出版年 | 版の特定 |
+| 18 | language | 言語コード（eng等） | フィルタ |
+| 23/24 | digitization_agent | google/ia/umich等 | スキャン機関 |
+| $NF（最終列） | author | 著者名 | **照合キー③** |
+
+**取得・更新方法：**
+```bash
+# 毎月1日に新ファイルが公開される
+# ファイル名形式: hathi_full_YYYYMM01.txt.gz
+wget "https://www.hathitrust.org/files/hathifiles/hathi_full_$(date +%Y%m)01.txt.gz" \
+  -P /mnt/d/hathitrust/
+```
+
+---
+
+### 照合パイプライン設計（3段階）
+
+#### 現状の問題
+
+OCLCベースのAPI照合（Phase 1完了）では以下の問題が発生した：
+
+| 問題 | 件数 | 原因 |
+|---|---|---|
+| OCLCミスマッチ | 約9件（canonical） | OLのwork_keyが誤った版を指しOCLCが世代不一致 |
+| FORCE_MAPバグ | 3件（canonical） | work_key自体が別著者作品を指している |
+| OCLCなし | 4,688件（全母集団） | OLダンプにOCLCが未登録 |
+| htid=0が正しい | 多数 | マイナー作品・HathiTrustに所蔵なし |
+
+HathiFilesのローカル検索により、タイトル+著者の直接照合が可能であることを確認済み（2026-05-22）。Ulysses・Great Gatsby・Heart of Darkness等8/9件がHathiFilesに存在することを確認。
+
+---
+
+#### Phase 1: OCLC経由API照合（完了 2026-05-22）
+
+```bash
+python3 scripts/fetch_hathitrust_api.py --full
+```
+
+**結果：**
+
+| 指標 | 値 |
+|---|---|
+| スキャン対象（OCLCあり） | 30,101件 |
+| htid_count > 0 | 18,923件（62.9%） |
+| htid_count = 0 | 11,178件（37.1%） |
+| canonical スキャン済み | 86件（104件中） |
+| canonical htid > 0 | 69件（80.2%） |
+
+**出力：** `derived/ht_api_full.tsv`（30,101件）
+
+⚠️ canonical中央値=1・最大=11は過小評価。正しいwork_keyで再照合すれば大幅改善の見込み。
+⚠️ htid_count最大値1,516はThe New Yorker（雑誌）。scope_flag実装後に除外すること。
+
+---
+
+#### Phase 2: HathiFilesタイトル+著者照合（未実施）
+
+**目的：** Phase 1でhtid=0だった11,178件およびOCLCなし4,688件のうち、HathiFilesに実際は存在する作品を救出する。
+
+**スクリプト:** `scripts/match_hathifiles_title.py`（未作成）
+
+**処理フロー：**
+
+```
+入力: ol_dump_population_with_author.tsv（34,789件）
+  ↓
+著者姓の抽出（"James, Henry" → "james"、"Henry James" → "james"）
+タイトル正規化（小文字化・記号除去・the/a/an除去）
+  ↓
+HathiFilesをストリーム検索（zcat | awk）
+  ↓
+ヒット0件  → htid_count=0（確定）
+ヒット1件  → そのまま採用
+ヒット複数件 → Phase 3（LLM判定）へ
+  ↓
+出力: derived/ht_hathifiles_match.tsv
+```
+
+**実装上の注意点：**
+- HathiFilesは19,394,212件のため全件scanに数分かかる
+- 著者名は最終列（$NF）で可変のためawkの$NFを使う
+- タイトル照合はsubstring matchで十分（完全一致は過剰）
+- 言語フィルタ（$18 == "eng"）を必ずかける
+- pub_date（$17）で出版年範囲（1880〜1950）のフィルタも推奨
+
+**実装例（1件のみ）：**
+```bash
+# Tess of the D'Urbervillesの検索例
+zcat /mnt/d/hathitrust/hathi_full_20260501.txt.gz | \
+  awk -F'\t' '$18=="eng" && tolower($12) ~ /tess/ && tolower($NF) ~ /hardy/' | \
+  cut -f1,2,3,8,12,17
+```
+
+**推定処理件数：**
+- Phase 1でhtid=0：11,178件
+- OCLCなし：4,688件
+- 合計約15,866件をHathiFiles検索にかける
+- うちHathiFilesに存在すると推定：3,000〜5,000件（マイナー作品の多くはゼロが正解）
+
+---
+
+#### Phase 3: LLMエージェント照合（未実施・少額API使用）
+
+**目的：** Phase 2で複数件ヒットした曖昧な照合をLLMが正しい1件に絞る。
+
+**想定件数：** 1,000〜2,000件（全体の3〜6%）
+
+**費用見積もり：** Claude Haiku（claude-haiku-4-5-20251001）で1件約0.1円 → 最大200円
+
+**処理フロー：**
+```
+入力: Phase 2で複数ヒットした作品リスト
+  各作品について:
+    - 正規タイトル・著者名・出版年（OL由来）
+    - HathiFiles候補リスト（htid・タイトル・著者・出版年・rights）
+  ↓
+LLMへのプロンプト:
+  「以下の作品について、候補リストから正しいHTIDを選んでください。
+   同タイトル別著者・研究書・アンソロジーは除外してください。
+   タイトル: {title} / 著者: {author} / 出版年: {year}
+   候補: {candidates}」
+  ↓
+LLM出力: 正しいhtid または NO_MATCH
+  ↓
+出力: derived/ht_llm_match.tsv
+```
+
+**スクリプト:** `scripts/match_hathifiles_llm.py`（未作成）
+
+**Wikidataエージェントとの類似点と相違点：**
+- 類似：複数候補からLLMが文脈推論で正しい1件を選ぶ
+- 相違：Wikidata=SPARQLが必要 / HathiTrust=ローカルTSVで候補が既に揃っている → よりシンプル
+
+---
+
+#### Phase 4: 結果マージ（未実施）
+
+```
+優先順位（高→低）:
+1. ht_api_full.tsv のhtid_count（OCLC照合・最高精度）
+2. ht_hathifiles_match.tsv（タイトル照合・Phase 2）
+3. ht_llm_match.tsv（LLM補完・Phase 3）
+
+出力: derived/ht_final.tsv（34,789件・全件）
+列: work_key, htid_count, pd_count, source（api/hathifiles/llm/zero）
+```
+
+---
+
+### HTRC Data Capsuleとの関係
+
+申請者はHTRC Data Capsuleのアカウント・プロジェクトを保有済み。フルテキスト分析が必要な場合はCapsule内で実施可能。
+
+**Capsuleで実施予定のタスク（Stage 7 Phase 2）：**
+- PMLA 1950–2025のdecade別概念語・理論家名頻度分析
+- フルテキストはCapsule内でのみ処理・aggregate outputのみ外部持ち出し
+
+**HathiFiles照合とCapsuleの関係：**
+HathiFiles照合で取得したHTIDを使ってCapsule内のWorksetを構築する。HTIDが確定していることがCapsule分析の前提条件。
+
+---
+
+### 既知の問題・注意事項
+
+| 問題 | 状態 | 対応方針 |
+|---|---|---|
+| FORCE_MAPバグ3件（Good Soldier・Dracula・Prisoner of Zenda） | 未修正 | work_key修正後に当該3件のみAPI再実行 |
+| canonical 18件がスキャン対象外（OCLCなし） | Phase 2で解決予定 | HathiFilesタイトル検索 |
+| The New Yorker等の雑誌ノイズ | 未除外 | scope_flag実装後に除外 |
+| ネットワーク切断時のhtid=0誤記録 | 可能性あり | 疑わしい件は個別再確認 |
+| canonical中央値=1（過小評価） | Phase 2・3で改善予定 | 正しいwork_keyでの再照合 |
+
+---
+
+### Release記録
+
+| Release ID | Date | Key Artifact |
+|---|---|---|
+| ht-hathifiles-v1 | 2026-05-22 | `hathi_full_20260501.txt.gz`（19,394,212件・/mnt/d/hathitrust/） |
+| ht-api-full-v1 | 2026-05-22 | `ht_api_full.tsv`（30,101件・OCLC経由） |
+
+---
+
+---
+
+## Stage 4h: Goodreads 読者受容データ取得 — 進行中
+
+### 研究上の位置づけ
+
+Goodreadsの評価数・レビュー数・★別内訳は「読者受容軸」の指標として機能し、学術的注目軸（JSTOR・OpenAlex）・文化的流通軸（OL版数・HathiTrust）とは独立した第3の正典化ベクターを構成する。本研究の目的は格差の告発ではなく、複数の経路から見た作品評価の地形図を描くことであり、canonical・non-canonicalを含む34,789件全体の読者受容データが必要。
+
+---
+
+### データソース
+
+#### データソース①：UCSD Book Graph（主力）
+
+**出典：** Wan & McAuley (2018, RecSys) / Wan et al. (2019, ACL)  
+**収集時期：** 2017年末  
+**ライセンス：** 学術利用専用・再配布禁止
+
+**引用：**
+- Mengting Wan, Julian McAuley, "Item Recommendation on Monotonic Behavior Chains", RecSys'18.
+- Mengting Wan et al., "Fine-Grained Spoiler Detection from Large-Scale Review Corpora", ACL'19.
+
+**ローカルデータ（取得済み）：**
+
+```
+/mnt/d/goodreads/
+  goodreads_book_works.json.gz   72MB   1,521,962件（works単位）
+  goodreads_books.json.gz         1.9GB  2,360,655件（edition単位）
+取得日: 2026-05-23
+取得元: https://mcauleylab.ucsd.edu/public_datasets/gdrive/goodreads/
+```
+
+**goodreads_book_works.json.gz の列構造（確認済み）：**
+
+| フィールド | 内容 | 研究での使用 |
+|---|---|---|
+| `work_id` | Goodreads works ID | **照合・結合キー** |
+| `original_title` | タイトル | 照合補助 |
+| `original_publication_year` | 初版年 | フィルタ（1880〜1950） |
+| `ratings_count` | 評価した人の総数 | **主要指標** |
+| `text_reviews_count` | レビューを書いた人の数 | **主要指標** |
+| `rating_dist` | `"5:N\|4:N\|3:N\|2:N\|1:N\|total:N"` | **★別内訳（平均より有意義）** |
+| `reviews_count` | レビュー総数 | 補助指標 |
+| `ratings_sum` | 評価の総和 | 補助（平均計算用） |
+| `best_book_id` | 代表edition ID | goodreads_booksとの結合 |
+
+**goodreads_books.json.gz の追加フィールド：**
+
+| フィールド | 内容 | 研究での使用 |
+|---|---|---|
+| `isbn` / `isbn13` | ISBN | **照合キー②** |
+| `ratings_count` | 評価数（edition単位） | works単位の補完 |
+| `popular_shelves` | to-read/read等の棚登録数 | 補助指標 |
+| `work_id` | works単位との結合キー | MajinBookとの結合 |
+
+**カバレッジ：**
+- 総件数：1,521,962件（works単位）
+- 1880〜1950：**28,082件**（OL母集団34,789件の**推定80%以上**）
+
+⚠️ 2017年収集のため評価数は2017年時点の値。絶対値ではなく相対的順位・構造分析に使用すること。
+
+---
+
+#### データソース②：MajinBook（補完・ジャンル情報）
+
+**出典：** Mazieres & Poibeau (2025), arXiv:2511.11412  
+**DOI：** 10.5281/zenodo.17609566  
+**ライセンス：** CC0（研究・商用可）
+
+**ローカルデータ（取得済み）：**
+
+```
+/mnt/d/goodreads/majinbook/
+  majinbook_eng.jsonl.gz      65MB   539,530件
+  goodreads_works.jsonl.gz   251MB   （フィールド少・サブ用途）
+  goodreads_authors.jsonl.gz  87MB
+取得日: 2026-05-23
+取得元: https://zenodo.org/records/17609566
+```
+
+**majinbook_eng.jsonl.gz の列構造（確認済み）：**
+
+| フィールド | 内容 | 研究での使用 |
+|---|---|---|
+| `work_id` | Goodreads works ID | **UCSDとの直接結合キー** |
+| `title` | タイトル | 照合補助 |
+| `authors` | `[[author_id, "著者名"], ...]` | 照合補助 |
+| `first_pub_year` | 初版年 | フィルタ |
+| `n_ratings` | 評価数 | UCSDと重複・補完用 |
+| `n_reviews` | レビュー数 | UCSDと重複・補完用 |
+| `rating` | 平均評価 | 使用しない（意味が薄い） |
+| `genres` | ジャンルリスト | **MajinBook独自・ジャンル分析** |
+
+**カバレッジ：**
+- 1880〜1950：9,231件（OL母集団の26%）
+- UCSDに比べてカバレッジは低いが、**genresフィールドがUCSD独自**
+
+**canonical 63件照合確認済み（2026-05-23）：**
+- The Great Gatsby：ratings=5,683,258 / reviews=121,023
+- The Picture of Dorian Gray：ratings=1,759,217
+- Heart of Darkness：ratings=542,487
+- The Sun Also Rises：ratings=478,636
+
+---
+
+### 2データソースの使い分け
+
+```
+UCSD goodreads_book_works（主力）
+  → ratings_count, text_reviews_count, rating_dist（★1〜5内訳）
+  → カバレッジ高（28,082件）
+  → work_idで直接結合
+
+MajinBook（補完）
+  → genres（UCSDにない）
+  → UCSDでカバーできなかった作品の補完
+  → work_idでUCSDと直接結合可能
+```
+
+---
+
+### 照合パイプライン設計
+
+#### 想定する指標
+
+| 指標 | 計算方法 | 意味 |
+|---|---|---|
+| `n_ratings` | `ratings_count`（works単位） | 読者受容の規模 |
+| `n_reviews` | `text_reviews_count` | 積極的関与の規模 |
+| `ratings_5` | `rating_dist`から★5件数を抽出 | 熱狂的支持者の数 |
+| `log_ratings` | `log10(n_ratings + 1)` | 可視化・相関分析用 |
+| `pct_rank` | 全母集団内の百分位順位 | 正典化比較用 |
+
+⚠️ `average_rating`（平均評価）は使用しない。作品の質の代理変数にならず、ノイズが多い。
+
+#### Phase 1: UCSDタイトル+著者+年照合（メイン）
+
+**スクリプト:** `scripts/match_goodreads_ucsd.py`（未作成）
+
+**処理フロー：**
+
+```
+入力: ol_dump_population_with_author.tsv（34,789件）
+      goodreads_book_works.json.gz（1,521,962件）
+
+Step 1: goodreads_book_worksから1880〜1960の28,082件を抽出
+        title・work_id・year・ratings_count・text_reviews_count・rating_distを保持
+
+Step 2: タイトル正規化
+        小文字化・記号除去・冠詞（the/a/an）除去・前方12文字でfuzzy照合
+
+Step 3: 著者姓の正規化
+        "James, Henry" → "james"
+        "Henry James" → "james"
+
+Step 4: 照合優先順位
+        ① タイトル完全一致 + 著者姓一致 + 年±5 → 採用
+        ② タイトル前方12文字一致 + 著者姓一致 → 採用
+        ③ 複数ヒット → Phase 3（LLM判定）へ
+
+出力: derived/goodreads_ucsd_match.tsv
+```
+
+#### Phase 2: ISBNブリッジ（補完）
+
+OLダンプにISBNがある作品について、`goodreads_books.json.gz`のISBN列と直接照合。Phase 1で照合できなかった作品の補完。
+
+**スクリプト:** `scripts/match_goodreads_isbn.py`（未作成）
+
+#### Phase 3: LLMエージェント（曖昧照合の解決）
+
+Phase 1で複数ヒットした作品について、LLMがタイトル・著者・年・出版社情報を総合判断して正しい1件を選ぶ。
+
+**想定件数：** 500〜1,500件  
+**費用見積もり：** Claude Haiku で最大150円
+
+#### Phase 4: MajinBookジャンルの結合
+
+`work_id`でUCSD照合結果とMajinBookを結合し、`genres`フィールドを追加。
+
+#### Phase 5: rating_dist のパース
+
+```python
+# "5:568000|4:320000|3:150000|2:30000|1:10000|total:1078000"
+# → ratings_5, ratings_4, ratings_3, ratings_2, ratings_1 の各列
+def parse_rating_dist(dist_str):
+    result = {}
+    for part in dist_str.split('|'):
+        if ':' in part:
+            k, v = part.split(':', 1)
+            result[f'ratings_{k}'] = int(v)
+    return result
+```
+
+---
+
+### 実装手順（未実施）
+
+```bash
+# Step 1: データ確認（完了）
+zcat /mnt/d/goodreads/goodreads_book_works.json.gz | head -1 | python3 -m json.tool
+
+# Step 2: 1880-1950インデックス作成
+python3 scripts/build_goodreads_index.py
+# → derived/goodreads_works_1880_1950.tsv（28,082件）
+
+# Step 3: OL母集団との照合
+python3 scripts/match_goodreads_ucsd.py
+# → derived/goodreads_ucsd_match.tsv
+
+# Step 4: ISBN補完
+python3 scripts/match_goodreads_isbn.py
+# → derived/goodreads_isbn_match.tsv
+
+# Step 5: LLM曖昧照合
+python3 scripts/match_goodreads_llm.py
+# → derived/goodreads_llm_match.tsv
+
+# Step 6: MajinBookジャンル結合
+python3 scripts/merge_goodreads_final.py
+# → derived/goodreads_final.tsv（34,789件・全件・未照合はNaN）
+```
+
+---
+
+### 三軸統合データとの接続
+
+Goodreads照合完了後に構築する統合データセット：
+
+```
+derived/canon_integrated.tsv（34,789件）
+
+学術的注目軸:
+  jstor_count        ← Stage 5a（JSTOR言及数）
+  oa_count           ← Stage 5b（OpenAlex言及数）
+
+文化的流通軸:
+  edition_count      ← Stage 4f（OL版数）
+  htid_count         ← Stage 4g（HathiTrust所蔵数）
+
+読者受容軸:
+  n_ratings          ← Stage 4h（評価した人数）
+  n_reviews          ← Stage 4h（レビュー数）
+  ratings_5          ← Stage 4h（★5件数）
+  log_ratings        ← 派生列
+  genres             ← MajinBook由来
+
+属性:
+  wikidata_qid       ← Stage 3c
+  author_gender      ← Wikidata（研究費取得後）
+  literary_movement  ← Wikidata（研究費取得後）
+  scope_flag         ← 母集団ノイズフラグ（未実装）
+```
+
+**軸間相関（既確認）：**
+- 学術的注目軸内部：ρ=0.293（JSTOR×OA）
+- 文化的流通軸内部：ρ=0.257（edition×htid）
+- 軸間：ρ≈0.000（独立）
+- 読者受容軸との相関：**未測定**（本Stage完了後に計算）
+
+---
+
+### 注意事項
+
+| 項目 | 内容 |
+|---|---|
+| 評価数の時点 | 2017年収集。絶対値ではなく相対順位・構造分析に使用 |
+| UCSDの再配布禁止 | ダウンロード済みファイルの公開・共有不可。学術利用のみ |
+| MajinBookのLibGenリンク | ファイル自体の再配布不可。研究利用は合法（EU/US TDM規定） |
+| work_idの対応 | MajinBookとUCSDは同じGoodreads work_idを使用→直接結合可能 |
+| goodreads_works.jsonl.gz | フィールドが少ない（work_id・n_ratings・ratingのみ）。サブ用途のみ |
+| average_rating | 使用しない（平均評価は意味が薄く、ノイズが多い） |
+| genres | UCSDにはない。MajinBook経由で補完 |
+
+---
+
+### Release記録
+
+| Release ID | Date | Key Artifact |
+|---|---|---|
+| goodreads-download-v1 | 2026-05-23 | `goodreads_book_works.json.gz`・`goodreads_books.json.gz`（/mnt/d/goodreads/） |
+| majinbook-download-v1 | 2026-05-23 | `majinbook_eng.jsonl.gz`等（/mnt/d/goodreads/majinbook/） |
+| goodreads-canonical-pilot | 2026-05-23 | MajinBook canonical 63/98件照合確認（スクリプト未保存・再現可能） |
+
+
 
 ## Stage 5: Academic Citations Enrichment
 

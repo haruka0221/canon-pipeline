@@ -25,7 +25,7 @@ Dracula	Bram Stoker	1897	/works/OL15062619W	Dracula	Martin Harry Greenberg	1922	
 The Turn of the Screw	Henry James	1898	/works/OL40252771W	Turn of the Screw	Henry James	1898	100.0	True	True	best	/works/OL40252771W	False	3
 The Red Axe	S R Crockett	1898	/works/OL2339087W	The Red Axe	S. R. Crockett	1898	100.0	True	True	best	/works/OL2339087W	False	2
 McTeague	Frank Norris	1899	/works/OL1794911W	McTeague	Frank Norris	1899	100.0	True	True	best	/works/OL1794911W	False	1
-Heart of Darkness	Joseph Conrad	1899	/works/OL31971259W	Heart of Darkness	Conrad, Joseph	1899	100.0	True	True	best	/works/OL31971259W	False	6
+Heart of Darkness	Joseph Conrad	1899	/works/OL38663W	Heart of Darkness	Conrad, Joseph	1899	999	True	True	forced	/works/OL38663W	False	1
 The Awakening	Kate Chopin	1899	/works/OL65430W	The Awakening	Kate Chopin	1899	100.0	True	True	best	/works/OL7851965W	True	5
 Senator North	Gertrude Atherton	1900	/works/OL1797270W	Senator North	Atherton, Gertrude Franklin Horn	1900	100.0	True	True	best	/works/OL1797270W	False	1
 Kim	Rudyard Kipling	1900	/works/OL20172W	Kim	Kipling, Rudyard	1901	100.0	True	True	best	/works/OL20172W	False	3
@@ -80,10 +80,10 @@ Stepsons Of Light	Eugene Manlove Rhodes	1921	/works/OL2107271W	Stepsons of light
 Three Soldiers	John Dos Passos	1921	/works/OL1217993W	Three soldiers	John Dos Passos	1921	100.0	True	True	best	/works/OL1217993W, /works/OL35383W	False	8
 The Shadow-Line	Joseph Conrad	1921	/works/OL38827W	The shadow-line	Conrad, Joseph	1917	100.0	True	True	best	/works/OL38827W	False	1
 The Beautiful and the Damned	F Scott Fitzgerald	1922	/works/OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	1920	90.9090909090909	True	True	best	/works/OL468362W	False	2
-Ulysses	James Joyce	1922	/works/OL35695219W	Ulysses	James Joyce	1922	100.0	True	True	best	/works/OL35695219W	False	3
+Ulysses	James Joyce	1922	/works/OL86318W	Ulysses	Joyce, James	1914	999	True	True	forced	/works/OL86318W	False	1
 Jacob's Room	Virginia Woolf	1922	/works/OL39329W	Jacob's Room	Virginia Woolf	1922	100.0	True	True	best	/works/OL39329W	False	1
 Parades End	Ford Maddox Ford	1924	/works/OL509919W	Parade's End	Ford Madox Ford	1950	100.0	False	True	title_only	/works/OL509919W	False	1
-The Great Gatsby	F Scott Fitzgerald	1925	/works/OL35353208W	The Great Gatsby	F. Scott Fitzgerald	1925	100.0	True	True	best	/works/OL35353208W	False	3
+The Great Gatsby	F Scott Fitzgerald	1925	/works/OL468431W	The Great Gatsby	F. Scott Fitzgerald	1920	999	True	True	forced	/works/OL468431W	False	1
 Mrs. Dalloway	Virginia Woolf	1925	/works/OL39349W	Mrs. Dalloway	Virginia Woolf	1925	100.0	True	True	best	/works/OL39349W	False	1
 The Sun Also Rises	Ernest Hemingway	1926	/works/OL62979W	The Sun Also Rises	Ernest Hemingway	1926	100.0	True	True	best	/works/OL62979W	False	1
 To the Lighthouse	Virginia Woolf	1927	/works/OL39396W	To the Lighthouse	Virginia Woolf	1927	100.0	True	True	best	/works/OL39396W	False	1

@@ -31,3 +31,9 @@ logs/oa_nohup*.log
 logs/oa_snapshot_nohup*.log
 .venv311/
 chapter*.docx
+
+# Local run logs
+logs/*.log
+
+# Local checkpoints
+derived/benchmark/*checkpoint*.jsonl

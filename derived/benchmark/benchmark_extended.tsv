@@ -1,0 +1,24 @@
+wk	title	author	gold_qid	group	pred_qid	correct
+OL40252771W	The Turn of the Screw	Henry James	Q185208	G1_workkey_bug	Q772422	False
+OL42236259W	The House of Mirth	Edith Wharton	Q184522	G1_workkey_bug	Q202760	False
+OL51141W	The Job	Sinclair Lewis	Q105379381	G1_workkey_bug	Q3798083	False
+OL43405505W	Lady Chatterley's Lover	D. H. Lawrence	Q184652	G1_workkey_bug	Q204234	False
+OL112798W	The Marrow of Tradition	Charles W. Chesnutt	Q7747113	G1_workkey_bug	Q7743058	False
+OL509919W	Parade's End	Ford Madox Ford	Q2504818	G1_workkey_bug	Q1745292	False
+OL44622934W	The Jungle	Upton Sinclair	Q201700	G1_workkey_bug	Q2529170	False
+OL100196W	The 'Genius'	Theodore Dreiser	Q7733749	G1_workkey_bug	Q1302846	False
+	Animal Farm	George Orwell		G2_noncan_easy	Q174807	
+	A Study in Scarlet	Arthur Conan Doyle		G2_noncan_easy	Q2222	
+	Brave New World	Aldous Huxley		G2_noncan_easy	Q16389	
+	The Secret Garden	Frances Hodgson Burnett		G2_noncan_medium	Q209825	
+	O Pioneers!	Willa Cather		G2_noncan_medium	Q1506270	
+	The Man Who Was Thursday	G. K. Chesterton		G2_noncan_medium	Q1216925	
+	Flatland	Edwin Abbott Abbott		G2_noncan_medium	Q610852	
+	Die Verwandlung	Franz Kafka		G2_noncan_hard	Q38241	
+	The Wonderful Wizard of Oz	L. Frank Baum		G2_noncan_hard	Q193186	
+	King Solomon's Mines	H. Rider Haggard		G2_noncan_hard	Q2951979	
+	Three Men in a Boat	Jerome K. Jerome		G3_sitelink_pos	Q276134	
+	The Mysterious Affair at Styles	Agatha Christie		G3_sitelink_pos	Q860429	
+	The Thirty-Nine Steps	John Buchan		G3_sitelink_pos	Q180127	
+	Captains Courageous	Rudyard Kipling		G3_sitelink_pos	Q2769606	
+	Riders of the Purple Sage	Zane Grey		G3_sitelink_pos	Q1447864	

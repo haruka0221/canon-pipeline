@@ -1,0 +1,105 @@
+wk	title	author	jstor	sitelink	gold_qid	author_qid	n_works	pred_qid	correct
+OL35695219W	Ulysses	James Joyce	443	166	Q6511	Q6882	50	Q6511	True
+OL31971259W	Heart of Darkness	Joseph Conrad	118	57	Q129778	Q82925	50	Q129778	True
+OL86320W	Dubliners	James Joyce	77	45	Q459592	Q6882	50	Q459592	True
+OL276470W	The Ambassadors	Henry James	54	13	Q650571	Q170509	50	Q650571	True
+OL82870W	The Sound and the Fury	William Faulkner	45	42	Q135515	Q38392	50	Q135515	True
+OL38989822W	A portrait of the artist as a young man	James Joyce	45	45	Q465360	Q6882	50	Q465360	True
+OL1794919W	The Pit	Frank Norris	36	3	Q7757284	Q712746	11	Q7757284	True
+OL82929W	As I Lay Dying	William Faulkner	33	28	Q1544119	Q38392	50	Q1544119	True
+OL39360W	Orlando	Virginia Woolf	32	28	Q1629456	Q40909	50	Q1629456	True
+OL35353208W	The Great Gatsby	F. Scott Fitzgerald	30	84	Q214371	Q93354	50	Q214371	True
+OL39349W	Mrs. Dalloway	Virginia Woolf	30	40	Q752584	Q40909	50	Q752584	True
+OL40252771W	Turn of the Screw	Henry James	29	0		Q170509	50	Q625923	
+OL81295W	Sons and Lovers	D. H. Lawrence	28	28	Q80771	Q34970	50	Q80771	True
+OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	28	35	Q649409	Q132805	50	NO_MATCH	False
+OL18814811W	Looking backward	Edward Bellamy	28	19	Q1305106	Q455776	45	Q1305106	True
+OL98491W	The Age of Innocence	Edith Wharton	26	22	Q1045464	Q276032	50	Q126900363	False
+OL42236259W	The house of mirth	Edith Wharton	26	0		Q276032	50	Q131825212	
+OL39396W	To the Lighthouse	Virginia Woolf	26	43	Q478016	Q40909	50	Q478016	True
+OL51141W	The job	Sinclair Lewis	21	0		Q123469	38	Q7743319	
+OL62979W	The Sun Also Rises	Ernest Hemingway	20	49	Q501351	Q23434	50	Q501351	True
+OL1168083W	Nineteen Eighty-Four	George Orwell	19	136	Q208460	Q3335	50	Q208460	True
+OL42517032W	The red badge of courage	Stephen Crane	19	24	Q1219239	Q206534	50	Q1219239	True
+OL43405505W	Lady Chatterley's lover	D. H. Lawrence	18	0		Q34970	50	Q750670	
+OL112798W	The marrow of tradition	Charles Waddell Chesnutt	18	0			0	NO_MATCH	
+OL100203W	Sister Carrie	Theodore Dreiser	18	21	Q1286961	Q486096	28	Q1286961	True
+OL20172W	Kim	Rudyard Kipling	17	1	Q19086249	Q34743	50	Q589868	False
+OL276365W	The Portrait of a Lady	Henry James	16	27	Q861017	Q170509	50	Q861017	True
+OL8193416W	The Picture of Dorian Gray	Oscar Wilde	16	81	Q82464	Q30875	50	Q82464	True
+OL1794911W	McTeague	Frank Norris	15	5	Q11772710	Q712746	11	Q11772710	True
+OL509919W	Parade's End	Ford Madox Ford	14	0		Q537112	14	Q5579026	
+OL52267W	The Time Machine	H. G. Wells	13	57	Q627333	Q42511	50	Q627333	True
+OL44622934W	The jungle	Upton Sinclair	12	0		Q216134	50	Q260205	
+OL88881W	Howards End	E. M. Forster	11	18	Q1146642	Q189119	33	Q1146642	True
+OL100196W	"The ""genius"""	Theodore Dreiser	11	0		Q486096	28	Q4593382	
+OL38827W	The shadow-line	Joseph Conrad	10	0		Q82925	50	Q1120858	
+OL468488W	This Side of Paradise	F. Scott Fitzgerald	8	18	Q2581681	Q93354	50	Q2581681	True
+OL27834207W	The Return of the Soldier	Rebecca West	8	3	Q7760466	Q236669	14	Q7760466	True
+OL35383W	Three Lives	Gertrude Stein	8	4	Q7797597	Q188385	19	Q7797597	True
+OL100237W	The Financier	Theodore Dreiser	8	9	Q577607	Q486096	28	Q577607	True
+OL37277W	The Autobiography of Alice B. Toklas	Gertrude Stein	7	10	Q6618986	Q188385	19	Q6618986	True
+OL144822W	Martin Eden	Jack London	7	48	Q1317839	Q45765	50	Q1317839	True
+OL63009W	For Whom the Bell Tolls	Ernest Hemingway	7	65	Q200920	Q23434	50	Q200920	True
+OL18561767W	The story of an African farm	Olive Schreiner	6	0		Q151180	10	Q7766827	
+OL14864528W	The rise of David Levinsky	Abraham Cahan	6	0		Q329854	3	Q7760882	
+OL39329W	Jacob's Room	Virginia Woolf	6	13	Q1677745	Q40909	50	Q1677745	True
+OL98501W	Ethan Frome	Edith Wharton	6	18	Q5402934	Q276032	50	NO_MATCH	False
+OL41540816W	Robert Elsmere	Humphry Ward	6	3	Q7344052	Q7790900	3	NO_MATCH	False
+OL4315764W	The Heavenly Twins	Sarah Grand	6	0		Q4950721	5	NO_MATCH	
+OL20839W	Maggie, a girl of the streets	Stephen Crane	5	0		Q206534	50	Q3276774	
+OL12781W	Alexander's Bridge	Willa Cather	5	3	Q4718102	Q229480	50	Q4718102	True
+OL24034W	Treasure Island	Robert Louis Stevenson	5	84	Q185118	Q1512	50	NO_MATCH	False
+OL88813W	A Room with a View	E. M. Forster	5	23	Q120288	Q189119	33	Q120288	True
+OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	4	16	Q2531205	Q93354	50	Q2531205	True
+OL715621W	The odd women	George Gissing	3	0		Q369790	36	Q7754692	
+OL14942956W	The Call of the Wild	Jack London	3	51	Q476871	Q45765	50	Q476871	True
+OL1217993W	Three soldiers	John Dos Passos	3	4	Q7797826	Q312407	14	Q7797826	True
+OL65437W	At Fault	Kate Chopin	2	0	Q131573518	Q230476	34	NO_MATCH	False
+OL5293697W	New day	Victor Stafford Reid	2	0		Q7926364	2	Q16387293	
+OL1253285W	The Scarlet Pimpernel	Emmuska Orczy Orczy	1	29	Q1249536		0	NO_MATCH	False
+OL4390503W	Gone to Earth	Mary Gladys Meredith Webb	1	1	Q109284453		0	NO_MATCH	False
+OL4902750W	Java Head	Joseph Hergesheimer	1	0	Q107000085	Q5802152	20	Q107000085	True
+OL109231W	Leonora	Arnold Bennett	1	0		Q314158	31	NO_MATCH	
+OL507321W	Pembroke	Mary Eleanor Wilkins Freeman	1	2	Q7161943	Q276421	21	Q7161943	True
+OL2339087W	The Red Axe	S. R. Crockett	0	0			0	NO_MATCH	
+OL1797270W	Senator North	Gertrude Franklin Horn Atherton	0	0			0	NO_MATCH	
+OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	0	25	Q655296	Q148234	50	Q655296	True
+OL262473W	The Mystery of Cloomber	Arthur Conan Doyle	0	7	Q4449924	Q35610	50	NO_MATCH	False
+OL13144755W	The Homeward Trail	Waldron Baily	0	0		Q61718229	1	NO_MATCH	
+OL9056552W	The prisoner of Zenda	Anthony Hope	1	0		Q457287	29	Q1193766	
+OL74504W	White Fang	Jack London	0	45	Q152267	Q45765	50	Q152267	True
+OL1799163W	Hearts courageous	Hallie Erminie Rives	0	0		Q5642970	1	NO_MATCH	
+OL5138118W	The Golden Cage	Iris Bromige	0	0		Q112423626	0	NO_MATCH	
+OL1487721W	Alas!	Rhoda Broughton	0	0		Q449136	20	Q111301777	
+OL2107271W	Stepsons of light	Eugene Manlove Rhodes	0	0		Q5407489	3	NO_MATCH	
+OL15345521W	The good soldier	Jaroslav Hašek	21	0		Q2754	50	Q208622	
+OL109153W	The Grand Babylon Hotel	Arnold Bennett	0	3	Q7737468	Q314158	31	Q7737468	True
+OL505740W	The moon and sixpence	W. Somerset Maugham	0	0			0	NO_MATCH	
+OL7461553W	The innocents	Alfred Machard	0	0		Q43948085	1	Q132801669	
+OL115067W	King Coal	Upton Sinclair	0	2	Q16386559	Q216134	50	Q16386559	True
+OL15062619W	Dracula	Martin Harry Greenberg	63	0			0	NO_MATCH	
+OL4971729W	Megda	Emma Dunham Kelley	0	0			0	NO_MATCH	
+OL6926191W	The sea witch	Alexander Laing	0	0		Q17478943	0	NO_MATCH	
+OL111382W	The Yearling	Marjorie Kinnan Rawlings	0	11	Q429806	Q465237	6	Q429806	True
+OL7842965W	Trelawny	Holman Freeland	0	0			0	NO_MATCH	
+OL485410W	The border legion	Zane Grey	0	0		Q146763	45	Q7719393	
+OL7541646W	Princess Salome	Burris Jenkins	0	0		Q109855032	0	NO_MATCH	
+OL20163024W	The Damascus Road	Jay Parini	0	0		Q1329542	8	NO_MATCH	
+OL1794917W	The octopus, a story of California	Frank Norris	25	2	Q7754678	Q712746	11	Q7754678	True
+OL715553W	Textplus - New Grub Street	George Gissing	4	0		Q369790	36	Q7007870	
+OL16025215W	Novels (Adventures of Huckleberry Finn / Adventures of Tom Sawyer)	Mark Twain	27	0		Q7245	50	NO_MATCH	
+OL3045976W	Pointed Roofs. Pilgrimage	Dorothy Miller Richardson	1	0			0	NO_MATCH	
+OL2337481W	The Frontiersmen	Charles Egbert Craddock	0	0			0	NO_MATCH	
+OL1797345W	The uncalled, a novel	Paul Laurence Dunbar	0	0		Q974678	50	Q130332685	
+OL39108W	The Secret Agent	Joseph Conrad	77	21	Q1247666	Q82925	50	Q1247666	True
+OL468485W	Tender is the Night	F. Scott Fitzgerald	15	32	Q247372	Q93354	50	Q247372	True
+OL19870W	The Jungle Book	Rudyard Kipling	6	69	Q189509	Q34743	50	Q189509	True
+OL44014215W	Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	4	59	Q217352	Q1512	50	NO_MATCH	False
+OL462007W	Peter Pan	J. M. Barrie	2	33	Q3435337	Q81796	50	Q19032697	False
+OL1154817W	The Crock of Gold	James Stephens	2	1	Q7728134	Q508101	7	Q7728134	True
+OL18397742W	The North Star	M. E. Henry-Ruffin	0	0			0	NO_MATCH	
+OL39453744W	Jude the obscure	Thomas Hardy	27	18	Q1248773	Q132805	50	NO_MATCH	False
+OL65430W	The Awakening	Kate Chopin	32	15	Q1567505	Q230476	34	Q1567505	True
+OL98585W	The Custom of the Country	Edith Wharton	12	3	Q7728505	Q276032	50	NO_MATCH	False
+OL69032W	The Rise of Silas Lapham	William Dean Howells	5	2	Q7760892	Q526709	27	Q7760892	True

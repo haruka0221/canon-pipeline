@@ -1,0 +1,17 @@
+work_id	title	author	year	n_candidates	top_fuzzy_score	llm_matched	n_matched_htids	matched_htids
+/works/OL35695219W	Ulysses	James Joyce	1922	15	71	False	0	
+/works/OL31971259W	Heart of Darkness	Joseph Conrad	1899	15	70	False	0	
+/works/OL86320W	Dubliners	James Joyce	1914	15	66	False	0	
+/works/OL82929W	As I Lay Dying	William Faulkner	1915	15	66	False	0	
+/works/OL40252771W	The Turn of the Screw	Henry James	1898	15	85	False	0	
+/works/OL35383W	Three Lives	Gertrude Stein	1909	15	81	False	0	
+/works/OL14864528W	The Rise of David Levinsky	Abraham Cahan	1917	15	70	False	0	
+/works/OL39329W	Jacob's Room	Virginia Woolf	1922	15	69	False	0	
+/works/OL20839W	Maggie: A Girl of the Streets	Stephen Crane	1893	15	69	False	0	
+/works/OL88813W	A Room with a View	E. M. Forster	1905	15	70	False	0	
+/works/OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	1920	15	76	False	0	
+/works/OL7461553W	The Innocents	Alfred Machard	1918	15	100	False	0	
+/works/OL15062619W	Dracula	Bram Stoker	1897	15	66	False	0	
+/works/OL7842965W	Trelawny	Holman Freeland	1903	15	70	False	0	
+/works/OL715553W	New Grub Street	George Gissing	1891	15	105	True	4	inu.32000001393703|inu.32000002527564|inu.32000002527796|mdp.49015001293647
+/works/OL18397742W	The North Star	M. E. Henry-Ruffin	1904	15	105	True	1	wu.89073393308
