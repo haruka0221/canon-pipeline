@@ -1,0 +1,9 @@
+title	author	gold	author_qid	n_works	pred	correct
+The Turn of the Screw	Henry James	Q625923	Q170509	30	Q625923	True
+The House of Mirth	Edith Wharton	Q6474536	Q276032	30	Q6474536	True
+The Jungle	Upton Sinclair	Q260205	Q216134	27	Q260205	True
+Lady Chatterley's Lover	D. H. Lawrence	Q750670	Q34970	30	Q750670	True
+The Marrow of Tradition	Charles W. Chesnutt	Q7750421		0	NO_MATCH	False
+The Job	Sinclair Lewis	Q7743319	Q123469	22	Q7743319	True
+Parade's End	Ford Madox Ford	Q5579026	Q537112	9	NO_MATCH	False
+The 'Genius'	Theodore Dreiser	Q4593382	Q486096	13	Q4593382	True

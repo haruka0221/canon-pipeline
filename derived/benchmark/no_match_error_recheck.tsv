@@ -1,0 +1,13 @@
+title	gold	pred	correct	top5
+The jungle	Q260205	Q260205	True	[('Q122825711', 'The Jungle', '2020 video game'), ('Q260205', 'The Jungle', 'novel by Upton Sinclair'), ('Q5975424', 'The Jungle', 'building at Indiana University Indianapolis')]
+"The ""genius"""	Q4593382	Q361657	False	[('Q361657', 'GZA', 'American rapper (born 1966)'), ('Q13958674', 'The Genius', 'South Korean TV program'), ('Q116158195', 'The Genius', 'Dutch television game show')]
+The shadow-line	Q1120858	Q1120858	True	[('Q1120858', 'The Shadow-Line', 'novel by Joseph Conrad'), ('Q59192891', 'The Shadow Line', 'episode of Robert Montgomery Presents (S4 E24)'), ('Q7763544', 'The Shadow Line', 'album by Godhead')]
+The Autobiography of Alice B. Toklas	Q6618986	Q6618986	True	[('Q6618986', 'The Autobiography of Alice B. Toklas', '1933 autobiographical work by Gertrude Stein'), ('Q15152326', 'The Autobiography of Alice B. Toklas (1st edition)', 'book by Gertrude Stein')]
+The story of an African farm	Q7766827	Q7766827	True	[('Q7766827', 'The Story of an African Farm', 'feminist novel'), ('Q7766828', 'The Story of an African Farm', '2004 film by David Lister'), ('Q134869548', 'The story of an African farm', 'item from the collection of Shanghai Lu Xun Museum')]
+The rise of David Levinsky	Q7760882	Q7760882	True	[('Q7760882', 'The Rise of David Levinsky', 'novel by Abraham Cahan')]
+The octopus, a story of California	Q7754678	Q7754678	True	[('Q61205003', 'Music Corporation of America, Inc.', 'major American music booking, movie talent agency 1924-1958'), ('Q7754678', 'The Octopus: A Story of California', 'novel by Frank Norris'), ('Q3823576', 'The octopus', '1919 film by Edoardo Bencivenga')]
+Textplus - New Grub Street	Q7007870	Q7007870	True	[('Q111272145', 'New Grub Street', '1891 first edition of work by George Gissing'), ('Q7007870', 'New Grub Street', '1891 Smith, Elder & Co. edition of the novel by George Gissing'), ('Q29053296', 'New Grub Street', 'novel by George Gissing')]
+The uncalled, a novel	Q130332685	Q130332685	True	[('Q135062714', 'The Uncalled', '2025 video game developed by lynXoft'), ('Q130332685', 'The Uncalled', 'novel by Paul Laurence Dunbar'), ('Q130332691', 'The Uncalled', '1898 edition of the novel by Paul Laurence Dunbar')]
+Tender is the Night	Q247372	Q247372	True	[('Q247372', 'Tender Is the Night', '1934 novel by F. Scott Fitzgerald'), ('Q1058934', 'Tender Is the Night', '1962 film by Henry King'), ('Q7699591', 'Tender Is the Night', '1964 studio album by Johnny Mathis')]
+Strange case of Dr. Jekyll and Mr. Hyde	Q217352	ERROR	False	
+Jude the obscure	Q1248773	ERROR	False	

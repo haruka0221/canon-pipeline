@@ -18,6 +18,143 @@ This pipeline constructs and validates a population of English-language fiction 
 
 ---
 
+---
+
+## 研究目的の明確化（2026-05-23 追記）
+
+### 本研究が描くもの
+
+本研究の目的は**複数の経路から見た作品評価の地形図（topography）を描くこと**である。学術的引用・文化的流通・読者受容という異なる回路がどのように交差し、あるいは独立しているかを実証的に示す。
+
+**本研究は以下を主目的としない：**
+- ジェンダー・人種・階級の格差や偏りの告発
+- canonical vs non-canonicalの二項対立的な格差の批判
+- 特定の属性グループへの不公正の証明
+
+著者属性（ジェンダー・国籍・文学運動への帰属）はWikidata由来で取得予定だが、これは地形図の一要素として位置づけるものであり、「偏りの告発」のためではない。分析結果の解釈において、属性分布から規範的判断を導くことは本研究の射程外である。
+
+この方針はWORKFLOW.md全体を通じて一貫して適用すること。特に§6aのShadow Canon分析・§6bの多指標分析における記述に注意。
+
+---
+
+## 各DBの現状と品質評価（2026-05-23 正直な評価）
+
+WORKFLOW.md各所で「完了」と記録されているDBスキャンは、**第1次スキャンが完了した**という意味であり、**データ品質として十分である**という意味ではない。以下に各DBの正直な現状を記録する。
+
+### multi_signal_merged.tsv について
+
+`derived/multi_signal_merged.tsv`（34,789件）は現時点で信頼できない統合ファイルである。以下の理由から、分析に直接使用してはならない。
+
+- JSTOR列：タイトル共起マッチング第1次スキャンの値。過小評価が確定している。
+- OpenAlex列：title-only matchingの値。同様に過小評価。
+- HathiTrust列：`htrc_ol_dump_match_summary_v2`（旧HTRC分類フィルタ版）を使用。最新の`ht_api_full.tsv`とは別物。
+
+**このファイルを使った§6bのSpearman相関行列（ρ=0.293等）は参考値に過ぎない。** 全DBの再スキャン・照合完了後に`canon_integrated.tsv`として再構築する。
+
+---
+
+### DB別の正直な品質評価
+
+#### JSTOR（`derived/jstor_mentions.tsv`）
+
+| 項目 | 状態 |
+|---|---|
+| スキャン件数 | 30,973件（母集団の89%） |
+| 照合方式 | タイトル共起マッチング（タイトルのみ） |
+| 品質問題 | **著者名を照合条件に含めていない。同タイトル別著者の論文を誤カウントする可能性がある。** |
+| 過小評価の確認 | C3グループ10件中2件（Moon and Sixpence・The Yearling）に実際はJSTOR論文が存在することを確認済み（`jstor_semantic_findings.md`参照） |
+| hollow canon への影響 | 「24件がJSTOR=0」という数字は過大評価の可能性がある。Moon and SixpenceとThe Yearlingは少なくとも1件以上の論文が存在する。 |
+| 必要な対応 | canonical 104件についてLLMセマンティック照合で再スキャン（未実施） |
+| 費用見積もり | Claude Haiku で約200〜300円 |
+
+⚠️ **論文でJSTOR値を使用する際は「第1次スキャン値・過小評価の可能性あり」と明記すること。**
+
+#### OpenAlex（`derived/openalex_snapshot_mentions.tsv`）
+
+| 項目 | 状態 |
+|---|---|
+| スキャン件数 | 33,978件（母集団の97%） |
+| 照合方式 | title-only matching（abstractは無効化） |
+| 品質問題 | **著者名・出版年を照合条件に含めていない。** The Yearlingで3,183件という明らかな誤カウントが確認済み（"yearling"が動物科学論文にヒット）。 |
+| 必要な対応 | canonical 104件についてLLMによる意味的照合で再スキャン |
+| 費用見積もり | Claude Haiku で約200〜300円 |
+
+⚠️ **OpenAlex値も第1次スキャン値であり、非規範的タイトル（一般語と重複する単語を含む）は誤カウントが多い。**
+
+#### HathiTrust
+
+| ファイル | 内容 | 品質 |
+|---|---|---|
+| `derived/htrc_ol_dump_match_summary_v2.tsv` | 旧HTRC分類フィルタ版（6,286件） | **使用非推奨**。fiction分類フィルタで主要正典作品が除外されている。 |
+| `derived/ht_api_full.tsv` | OCLC経由Bibliographic API（30,101件） | **現時点の最良値**だが、Ulysses・Great Gatsby等の主要作品が欠落。 |
+| HathiFilesタイトル照合 | 未実施 | Phase 2・3完了後に補完予定 |
+
+**multi_signal_merged.tsvのHT列はhtrc版であり、ht_api版ではない。**
+
+#### Goodreads（未照合）
+
+データは取得済み（UCSD・MajinBook）だが照合スクリプト未作成。読者受容軸の値は全件NaN。
+
+#### Wikidata
+
+canonical 82件のQIDは確定（F1=0.969）。non-canonical全件は未実施（研究費取得後）。著者属性（ジェンダー・国籍・文学運動）はcanonical 82件についてパイロット取得済みだが、全件適用は未実施。
+
+#### Open Library（edition_count）
+
+`derived/ol_edition_counts.tsv`（34,789件）はOLダンプから直接集計しており、**最も信頼性が高い指標**。ただしFORCE_MAPバグ3件（Dracula・Good Soldier・Prisoner of Zenda）のedition_countは別著者作品の値のため無効。
+
+---
+
+### 優先すべき照合作業（2026-05-23時点）
+
+以下を優先度順に実施する。費用・難易度・研究への貢献度を考慮。
+
+| 優先度 | タスク | 費用 | 状態 |
+|---|---|---|---|
+| 1 | Goodreads照合（UCSD→全34,789件） | 無料（LLM補完で~150円） | 未着手 |
+| 2 | HathiTrust Phase 2（HathiFilesタイトル照合） | 無料 | 未着手 |
+| 3 | JSTORセマンティック再スキャン（canonical 104件） | ~200円 | 未着手 |
+| 4 | OpenAlexセマンティック再スキャン（canonical 104件） | ~200円 | 未着手 |
+| 5 | canon_integrated.tsv 再構築（①〜④完了後） | 無料 | 未着手 |
+| 6 | scope_flag実装（母集団ノイズ除去） | 無料 | 未着手 |
+| 7 | Wikidata全件（non-canonical 34,685件） | 研究費取得後 | 未着手 |
+
+---
+
+### JSTORセマンティック検索の既知の修正事項（要反映）
+
+`jstor_semantic_findings.md`（2026-05-03）に記録された知見：
+
+**C3グループ（JSTOR=0・OpenAlex>0）10件中2件に実際はJSTOR論文が存在する：**
+
+| 作品 | 確認された論文 | 現在の記録値 | 修正後 |
+|---|---|---|---|
+| The Moon and Sixpence / Maugham | "FANTASY AS NECESSITY: THE ROLE OF THE BIOGRAPHER IN 'THE MOON AND SIXPENCE'" 等2件 | jstor=0 | jstor≥2 |
+| The Yearling / Rawlings | 関連論文あり（一般語"yearling"との混在に注意） | jstor=0 | 要個別確認 |
+
+**hollow canonへの影響：**
+現在「24件がJSTOR=0（hollow canon）」と記録されているが、Moon and Sixpenceは少なくとも2件の論文が確認されているため、正確なhollow canon件数は**最大22件**（Moon and Sixpenceを除外した場合）または23件（The Yearlingの確認次第）となる可能性がある。
+
+**対応方針：**
+JSTORセマンティック再スキャン（優先度3）でcanonical全104件を再確認し、hollow canon件数を確定させてから論文に使用すること。それまで「24件」という数字には⚠️注記を付すこと。
+
+---
+
+### The Four Vectors — 正直なStatus更新（2026-05-23）
+
+| Vector | データ | 実際のStatus |
+|---|---|---|
+| 1. Attention economy | JSTOR + OpenAlex | 🔶 第1次スキャン完了・品質不十分。再スキャン必要 |
+| 2. Conceptual terrain | CI PDFs（完了）+ HathiTrust（Phase 1完了） | 🔶 HT照合は部分的。Phase 2・3未実施 |
+| 3. Pedagogical structures | phd_corpus (McGrath et al.) | ✅ canonical照合完了（104件確定） |
+| 4. Evaluative practice | Goodreads（UCSD+MajinBook） | ❌ データ取得済み・照合未実施 |
+
+**注：** WORKFLOW.md冒頭の四ベクター表の「✅ 完了」表記はVector 1・2について正確ではない。本セクションの評価を参照すること。
+
+*最終更新: 2026-05-23*
+
+---
+
 ## The Four Vectors (KCL Conference Framework)
 
 本研究は正典形成を4つのベクターから実証する。

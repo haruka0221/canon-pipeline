@@ -1,0 +1,33 @@
+title	gold	pred_relaxed	correct	reason	sitelink_count
+A portrait of the artist as a young man	Q465360	ERROR	False	error	45
+Mrs. Dalloway	Q752584	ERROR	False	error	40
+Turn of the Screw	Q625923	NO_MATCH	False	not_in_wikidata	0
+Tess of the D'Urbervilles	Q649409	NO_MATCH	False	not_in_wikidata	35
+Looking backward	Q1305106	ERROR	False	error	19
+The house of mirth	Q6474536	ERROR	False	error	0
+The job	Q7743319	NO_MATCH	False	not_in_wikidata	0
+The red badge of courage	Q1219239	NO_MATCH	False	not_in_wikidata	24
+Lady Chatterley's lover	Q750670	ERROR	False	error	0
+Parade's End	Q5579026	ERROR	False	error	0
+The jungle	Q260205	ERROR	False	error	0
+"The ""genius"""	Q4593382	ERROR	False	error	0
+The shadow-line	Q1120858	NO_MATCH	False	not_in_wikidata	0
+The Autobiography of Alice B. Toklas	Q6618986	ERROR	False	error	10
+The story of an African farm	Q7766827	ERROR	False	error	0
+The rise of David Levinsky	Q7760882	ERROR	False	error	0
+Jacob's Room	Q1677745	ERROR	False	error	13
+Maggie, a girl of the streets	Q3276774	ERROR	False	error	0
+Alexander's Bridge	Q4718102	ERROR	False	error	3
+The odd women	Q7754692	NO_MATCH	False	not_in_wikidata	0
+Three soldiers	Q7797826	ERROR	False	error	4
+At Fault	Q131573518	NO_MATCH	False	not_in_wikidata	0
+New day	Q16387293	ERROR	False	error	0
+The prisoner of Zenda	Q1193766	ERROR	False	error	0
+Alas!	Q111301777	ERROR	False	error	0
+The border legion	Q7719393	ERROR	False	error	0
+The octopus, a story of California	Q7754678	ERROR	False	error	2
+Textplus - New Grub Street	Q7007870	NO_MATCH	False	not_in_wikidata	0
+The uncalled, a novel	Q130332685	ERROR	False	error	0
+Tender is the Night	Q247372	ERROR	False	error	32
+Strange case of Dr. Jekyll and Mr. Hyde	Q217352	ERROR	False	error	59
+Jude the obscure	Q1248773	NO_MATCH	False	not_in_wikidata	18
