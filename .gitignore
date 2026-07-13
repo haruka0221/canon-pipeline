@@ -37,3 +37,37 @@ logs/*.log
 
 # Local checkpoints
 derived/benchmark/*checkpoint*.jsonl
+
+# 中間ファイル・テスト用途（アップロード不要）
+derived/jstor_ll_articles.jsonl
+derived/openalex_test_*.tsv
+derived/openalex_test_dryrun_*.tsv
+derived/openalex_rerun_targets.tsv
+derived/divergence_pattern_summary*.tsv
+derived/divergence_patterns.tsv
+derived/divergence_patterns_v*.tsv
+derived/quality_review_queue.tsv
+derived/analysis_scope_review.tsv
+derived/canon_analysis_base.tsv
+derived/jstor_hod/
+derived/jstor_work_comparison/
+derived/open_syllabus/
+
+# テスト用スクリプト（アップロード不要）
+scripts/audit_*.py
+scripts/diagnose_*.py
+scripts/inspect_*.py
+scripts/make_*.py
+scripts/openalex_test_*.py
+scripts/add_analysis_scope_flag.py
+scripts/build_canon_analysis_base.py
+scripts/classify_divergence_patterns*.py
+scripts/classify_dh_core_litcrit_openai.py
+scripts/jstor/*.py
+scripts/open_syllabus/*.py
+
+# バックアップ
+derived/*.bak
+
+# 大きすぎるファイル（>100MB）
+derived/goodreads_works_index_v2.tsv
