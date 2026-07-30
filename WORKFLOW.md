@@ -366,9 +366,28 @@ english_fiction, american_fiction
 
 ⚠️ **FORCE_MAP既知バグ（#21）:** 3件のwork_keyが別著者作品を誤って指している（The Prisoner of Zenda、The Good Soldier、Dracula）。JSTOR値は事後再スキャンで正著者名により修正済み。edition_count/wikidataシグナルはこの3件について無効。
 
-#### Scope of verification
-**Covered:** All 104 canonical (main) works. JSTOR rescanned with correct author names.
-**Not covered:** work_key correctness for 34,691 non-canonical works. Individual non-canonical works cited in the dissertation should be manually verified against `derived/ol_dump_population_with_author.tsv`.
+#### Scope of verification — updated 2026-07-29
+
+The earlier statement that all canonical work links had been verified is
+superseded by the external-sharing re-audit described in Stage 4i-2.
+
+- Source reading-list dataset: 142 works
+- Current `canonical=1` records audited: 98
+- Records retained in the provisional sharing dataset: 90
+- Confirmed false Open Library work matches: 8
+
+The eight false matches were primarily produced by title-only or year-only
+fuzzy matching that accepted a bibliographically different work with a
+similar title.
+
+The difference between the earlier count of 104 canonical main works and
+the later integrated count of 98 has not yet been fully documented and
+must be reconciled separately.
+
+The `canonical` flags in the integrated master files have not yet been
+rebuilt following this re-audit. Until the eight records are rematched,
+the existing 98-row canonical subset should be treated as a historical
+working set rather than a fully validated gold set.
 
 ---
 
@@ -1018,6 +1037,13 @@ LLM_PENDING → Claude Haiku-4-5で候補選択
 
 
 ## Stage 4i: canon_integrated.tsv 構築 — 完了 2026-05-28
+> ⚠️ **Status update, 2026-07-29:**
+> This table records the historical 98-row snapshot used during the
+> preparation of the DH2026 poster. A subsequent bibliographic re-audit
+> identified eight false Open Library work matches. These figures have
+> not been recalculated for the validated 90-work sharing subset and
+> should not be treated as the current gold-standard coverage figures.
+> See Stage 4i-2 below.
 
 ### 概要
 
@@ -1102,6 +1128,9 @@ LLM_PENDING → Claude Haiku-4-5で候補選択
 | 5 | Wikidata全件（34,685件） | 研究費取得後 | 未着手 |
 
 ## Stage 4i-ext: Canon Integrated 品質評価 & カバレッジ検証 — 2026-06-13
+> Historical snapshot note: the following figures reproduce the
+> `canon_integrated.tsv` state used for the DH2026 poster. They predate
+> the 2026-07-29 re-audit of the canonical subset.
 
 ### DH2026 Poster Evaluation Numbers
 
@@ -1224,6 +1253,160 @@ LLM_PENDING → Claude Haiku-4-5で候補選択
 - Wikidata QID 未解決 33,422件（96.1%）が構造的課題
 - Canonical 行が優先的に再スキャンされた可能性
 
+---
+### 4i-2: phd_corpus canonical subset re-audit and provisional sharing dataset — 2026-07-29
+
+#### Purpose
+
+Before sharing a small pilot dataset externally, the current 98 records
+marked `canonical=1` were re-audited against the original
+`phd_corpus` selection metadata.
+
+The purpose of this audit was to distinguish reliable bibliographic links
+from cases in which fuzzy title matching had connected a reading-list work
+to a different Open Library work.
+
+The source test set is derived from the appendix to:
+
+McGrath, Laura, Devin Higgins, and Arend Hintze. “Measuring Modernist
+Novelty.” *Journal of Cultural Analytics*, vol. 3, no. 1, 2018.
+https://doi.org/10.22148/16.027
+
+
+#### Inputs
+
+| File | Role |
+|---|---|
+| `data/phd_corpus_1880_1950_cleaned.csv` | Selection metadata derived from the McGrath et al. appendix |
+| `derived/phd_match_comparison.tsv` | Comparison between selection records and Open Library candidates |
+| `derived/canon_analysis_base.tsv` | Integrated analysis data with updated JSTOR L&L counts |
+| `derived/openalex_test_fullscan_212_audit_v2.tsv` | OpenAlex pilot counts, statuses, and risk flags |
+| `share/canonical98_review.tsv` | Row-level review table generated for this audit |
+| `audit/canonical_suspects_rg.txt` | Repository-wide evidence collected for suspected matches |
+
+
+#### Audit summary
+
+| Item | Count |
+|---|---:|
+| Works in the source test set | 142 |
+| Current records marked `canonical=1` and audited | 98 |
+| Records retained for provisional external sharing | 90 |
+| Confirmed false Open Library work matches | 8 |
+| Duplicate title-author pairs in the 90-work output | 0 |
+| Missing JSTOR, OpenAlex, edition-count, or HathiTrust values | 0 |
+
+The 90 retained records form a provisional sharing subset, not a new
+definitive canonical set.
+
+
+#### Confirmed false Open Library work matches
+
+| Selection-list work | Incorrectly matched Open Library work | Earlier match type |
+|---|---|---|
+| *The Golden Calf* / Mary Braddon | *The Golden Cage* / Iris Bromige | title_only |
+| *The New Dawn* / Agnes Laut | *New Day* / Victor Stafford Reid | title_only |
+| *The Innocents* / Sinclair Lewis | *The Innocents* / Alfred Machard | year_only; author mismatch |
+| *Sea Witch* / Jack London | *The Sea Witch* / Alexander Laing | title_only |
+| *Eleonora* / Edward Bellamy | *Leonora* / Arnold Bennett | year_only; author mismatch |
+| *Trelawney* / Margaret Armstrong | *Trelawny* / Holman Freeland | title_only |
+| *The Slim Princess* / George Ade | *Princess Salome* / Burris Jenkins | title_only |
+| *The Road to Damascus* / Hersilia Keays | *The Damascus Road* / Jay Parini | title_only |
+
+These eight records were excluded from the provisional sharing dataset.
+Their current `canonical` flags in the master files have not yet been
+corrected.
+
+
+#### Retained bibliographic discrepancies
+
+Some records were retained while preserving both the selection metadata
+and the matched bibliographic metadata in separate columns.
+
+Notable cases include:
+
+- *The Return of the Soldier*: the source file records Nathaniel West,
+  while the matched work is Rebecca West’s 1918 novel. The source
+  metadata requires further verification.
+- *The Frontiersman / The Frontiersmen*: Mary Noailles Murfree published
+  under the name Charles Egbert Craddock; the title also varies between
+  singular and plural forms.
+- Additional differences in author-name order, initials, spelling, and
+  publication year are retained in `metadata_flags` and
+  `bibliographic_note`.
+
+No automatic decision was made that the Open Library year or the
+selection-list year was necessarily the correct original-publication year.
+
+
+#### Indicators included in the provisional dataset
+
+| Dimension | Field |
+|---|---|
+| Scholarly visibility in JSTOR | `jstor_ll_count` |
+| OpenAlex title-and-author visibility | `oa_recommended_count` |
+| More conservative OpenAlex literary visibility | `oa_title_author_lit_terms_count` |
+| Bibliographic circulation | `edition_count` |
+| Research-library representation | `htid_count` |
+| Linked-data visibility | `wikidata_qid` |
+
+Goodreads-derived indicators were excluded from the externally shared file
+because the underlying UCSD Book Graph data has redistribution restrictions.
+
+
+#### OpenAlex status distribution in the retained 90 works
+
+| Status | Count |
+|---|---:|
+| `use_title_author` | 44 |
+| `use_with_warning_short_title` | 31 |
+| `use_with_warning_risky_author` | 8 |
+| `zero_title_author` | 7 |
+| **Total** | **90** |
+
+OpenAlex status and risk flags must remain attached to the corresponding
+counts. The OpenAlex figures are pilot indicators and are not equivalent
+to exhaustive counts of scholarship about each literary work.
+
+
+#### Outputs
+
+| File | Status |
+|---|---|
+| `share/andreas/canonical90_provisional_for_andreas.csv` | Provisional 90-work external-sharing CSV |
+| `share/andreas/README_canonical90.txt` | User-facing explanation of the dataset and its limitations |
+| `share/andreas/excluded_8_false_matches.tsv` | Internal audit record; not for external sharing |
+| `share/canonical98_review.tsv` | Internal row-level review table |
+| `audit/canonical_suspects_rg.txt` | Internal repository-search evidence |
+
+The CSV and README constitute a provisional direct-sharing package, not a
+formal repository release.
+
+
+#### Decisions
+
+1. Historical analyses based on the 98-row integrated subset are retained
+   as dated snapshots and are not silently overwritten.
+2. External sharing currently uses the 90 retained records.
+3. The 90 records should not be interpreted as an exhaustive or definitive
+   list of canonical literature.
+4. Selection metadata and matched bibliographic metadata remain separate.
+5. Quality flags must be preserved when the data are shared or analysed.
+6. No single canonicity or literary-value score is calculated.
+
+
+#### Required follow-up
+
+- Find or verify the correct Open Library work records for the eight
+  excluded selection-list works.
+- Correct the affected `canonical` flags in the population and integrated
+  master files.
+- Rebuild downstream canonical subsets after the corrections.
+- Reconcile and document the transition from the earlier 104-work
+  canonical count to the later 98-work integrated count.
+- Verify known source-metadata discrepancies, especially
+  *The Return of the Soldier*.
+- Regenerate the sharing dataset and its documentation after rematching.
 
 ---
 
