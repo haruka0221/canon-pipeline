@@ -1,0 +1,5 @@
+work_key	work_title	work_author	total_candidates	sampling_method	sampling_seed	sampled_n	include_substantive_n	include_mention_n	broad_visibility_include_n	exclude_non_scholarly_n	exclude_unrelated_n	unclear_n	human_override_n	included_share_among_decided_sample	model	prompt_version	review_version
+/works/OL31971259W	Heart of Darkness	Conrad, Joseph	1005	uniform_reservoir_sampling	20260713	40	34	2	36	0	3	1	0	0.923	gpt-5-mini	literary_visibility_v3_20260804	targeted_human_review_20260804
+/works/OL35353208W	The Great Gatsby	F. Scott Fitzgerald	858	uniform_reservoir_sampling	20260713	40	38	1	39	1	0	0	0	0.975	gpt-5-mini	literary_visibility_v3_20260804	targeted_human_review_20260804
+/works/OL51141W	The Job	Sinclair Lewis	161	uniform_reservoir_sampling	20260713	40	0	0	0	0	40	0	0	0.000	gpt-5-mini	literary_visibility_v3_20260804	targeted_human_review_20260804
+/works/OL35695219W	Ulysses	James Joyce	2194	uniform_reservoir_sampling	20260713	40	31	2	33	3	4	0	2	0.825	gpt-5-mini	literary_visibility_v3_20260804	targeted_human_review_20260804
