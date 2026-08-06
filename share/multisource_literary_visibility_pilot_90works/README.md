@@ -1,4 +1,4 @@
-# Provisional Literary Visibility Pilot Dataset
+# Multisource Literary Visibility Pilot (90 Works)
 
 Last updated: 2026-08-03
 

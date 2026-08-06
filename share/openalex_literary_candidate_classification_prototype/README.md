@@ -1,4 +1,4 @@
-# OpenAlex Literary-Visibility Prototype
+# OpenAlex Literary Candidate Classification Prototype
 
 ## Overview
 
