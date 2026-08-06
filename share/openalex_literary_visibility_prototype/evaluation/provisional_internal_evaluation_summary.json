@@ -1,0 +1,29 @@
+{
+  "evaluation_name": "provisional_full_abstract_internal_evaluation",
+  "n_total": 30,
+  "n_binary_decided": 30,
+  "tp": 22,
+  "fp": 2,
+  "fn": 0,
+  "tn": 6,
+  "precision": 0.916667,
+  "recall": 1.0,
+  "f1": 0.956522,
+  "accuracy": 0.933333,
+  "specificity": 0.75,
+  "exact_five_label_agreement": 0.833333,
+  "human_label_counts": {
+    "include_substantive": 20,
+    "exclude_unrelated": 6,
+    "exclude_non_scholarly": 2,
+    "include_mention": 2
+  },
+  "llm_label_counts": {
+    "include_substantive": 23,
+    "exclude_unrelated": 6,
+    "include_mention": 1
+  },
+  "prompt_versions": {
+    "literary_visibility_v3_fullabstract_20260806": 30
+  }
+}
