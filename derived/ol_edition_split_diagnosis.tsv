@@ -1,0 +1,20 @@
+target_title	target_author_last	candidate_work_key	candidate_title	candidate_author_name	candidate_first_publish_year	candidate_canonical	candidate_scope_flag	candidate_edition_count	title_similarity	exact_title_norm	contains_title_norm	target_candidate_count	target_edition_sum
+Ulysses	joyce	/works/OL86318W	Ulysses	Joyce, James	1914	0	duplicate_canonical	611	1.0000	1	1	3	684
+Ulysses	joyce	/works/OL35695219W	Ulysses	James Joyce	1922	1	in_scope	71	1.0000	1	1	3	684
+Ulysses	joyce	/works/OL38767940W	Ulysses	Joyce, James	1934	0	duplicate_canonical	2	1.0000	1	1	3	684
+Heart of Darkness	conrad	/works/OL38663W	Heart of Darkness	Conrad, Joseph	1899	0	duplicate_canonical	552	1.0000	1	1	4	1099
+Heart of Darkness	conrad	/works/OL29000391W	Heart of Darkness	Conrad, Joseph	1899	0	duplicate_canonical	519	1.0000	1	1	4	1099
+Heart of Darkness	conrad	/works/OL31971259W	Heart of Darkness	Conrad, Joseph	1899	1	in_scope	14	1.0000	1	1	4	1099
+Heart of Darkness	conrad	/works/OL8137762W	Heart of darkness	Conrad, Joseph	1950	0	duplicate_canonical	14	1.0000	1	1	4	1099
+The Secret Agent	conrad	/works/OL39108W	The Secret Agent	Conrad, Joseph	1907	1	in_scope	335	1.0000	1	1	3	338
+The Secret Agent	conrad	/works/OL43462425W	The secret agent	Conrad, Joseph	1921	0	duplicate_canonical	2	1.0000	1	1	3	338
+The Secret Agent	conrad	/works/OL43882972W	The secret agent	Conrad, Joseph	1907	0	duplicate_canonical	1	1.0000	1	1	3	338
+The Great Gatsby	fitzgerald	/works/OL468431W	The Great Gatsby	F. Scott Fitzgerald	1920	0	duplicate_canonical	1178	1.0000	1	1	3	1181
+The Great Gatsby	fitzgerald	/works/OL35353208W	The Great Gatsby	F. Scott Fitzgerald	1925	1	in_scope	2	1.0000	1	1	3	1181
+The Great Gatsby	fitzgerald	/works/OL43595009W	The great Gatsby	F. Scott Fitzgerald	1945	0	duplicate_canonical	1	1.0000	1	1	3	1181
+Dracula	stoker	/works/OL85892W	Dracula	Bram Stoker	1922	1	in_scope	736	1.0000	1	1	3	762
+Dracula	stoker	/works/OL85889W	Dracula's Guest and Other Weird Stories	Bram Stoker	1937	0	in_scope	24	0.3043	0	1	3	762
+Dracula	stoker	/works/OL85864W	Dracula's guest, and other weird stories	Bram Stoker	1914	0	in_scope	2	0.3043	0	1	3	762
+The Good Soldier	ford	/works/OL509889W	The Good Soldier	Ford Madox Ford	1930	1	in_scope	355	1.0000	1	1	1	355
+The Prisoner of Zenda	hope	/works/OL245401W	The Prisoner of Zenda	Anthony Hope	1939	1	in_scope	627	1.0000	1	1	2	628
+The Prisoner of Zenda	hope	/works/OL18127783W	"Rupert of Hentzau: From the Memoirs of Fritz Von Tarlenheim, Sequel to the ""Prisoner of Zenda."""	Anthony Hope	1898	0	in_scope	1	0.3434	0	1	2	628

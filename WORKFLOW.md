@@ -786,6 +786,55 @@ FORCE_MAPバグ3件を除くと**実質4件のみが構造的限界**。
 
 ---
 
+
+#### 2026-08-19 follow-up: validated 90-work HathiTrust audit and metadata correction
+
+The historical `ht_final.tsv` values were re-audited for the validated 90-work pilot before using HathiTrust in the multi-source correlation analysis. This follow-up does not overwrite the May 2026 full-population release; it creates a separately reviewed 90-work analytical layer.
+
+Audit sequence:
+
+1. Reconstructed current HathiTrust values from `ht_api_full.tsv` plus `ht_hathifiles_match.tsv`.
+2. Compared them with the historical HathiTrust values already present in the 90-work master.
+3. Of 90 works, 87 historical values were reproducible directly; three were unexplained because the historical `ht_final.tsv` had inherited stale / incorrect Open Library identity metadata.
+4. Reviewed all 20 title-fallback matches manually. Nineteen were accepted. `The Awakening` / Kate Chopin was rejected because the matched HathiFiles record was `Awakening : the world at mid-century` with no matching author.
+5. Re-ran HathiFiles title+author matching for the three stale-metadata works using the corrected selection identities.
+
+Corrected results:
+
+| Work | Historical htid_count | Final htid_count | Final pd_count | Resolution |
+|---|---:|---:|---:|---|
+| The Prisoner of Zenda / Anthony Hope | 19 | 15 | 15 | corrected metadata retry |
+| The Good Soldier / Ford Madox Ford | 2 | 1 | 1 | corrected metadata retry |
+| Dracula / Bram Stoker | 1 | 5 | 5 | corrected metadata retry |
+| The Awakening / Kate Chopin | 2 | 0 | 0 | false-positive title fallback rejected |
+
+The three identity errors were traceable to the earlier FORCE_MAP / Open Library matching problem already documented in Stage 3c: the historical `ht_final.tsv` rows carried `George F. Wear`, `Jaroslav Hašek`, and `Martin Harry Greenberg` rather than Anthony Hope, Ford Madox Ford, and Bram Stoker. The corrected retry therefore uses the validated selection title+author identity rather than the stale historical OL metadata.
+
+Final 90-work source composition:
+
+| Source | n |
+|---|---:|
+| Bibliographic API | 65 |
+| reviewed title fallback | 19 |
+| corrected-metadata retry | 3 |
+| no match | 2 |
+| rejected title fallback | 1 |
+
+Final HathiTrust HTID distribution (`n=90`): mean 3.98, median 2, Q1 1, Q3 3.75, maximum 39.
+
+Outputs:
+
+```text
+audit/hathitrust_title_fallback_review_90works.tsv
+audit/hathitrust_retry_3_corrected_results.tsv
+derived/hathitrust_90works_current.tsv
+derived/hathitrust_90works_final.tsv
+```
+
+For the validated 90-work analysis, use `hathitrust_htid_count_final` and `hathitrust_pd_count_final` from `derived/hathitrust_90works_final.tsv`; do not reuse the historical `ht_final.tsv` value for these works without this correction layer. Conceptually, HTID count is treated here as representation in the HathiTrust digitized corpus / digitization history, not as a direct measure of readership or scholarly attention.
+
+---
+
 ### HTRC Data Capsuleとの関係
 
 申請者はHTRC Data Capsuleのアカウント・プロジェクトを保有済み。フルテキスト分析が必要な場合はCapsule内で実施可能。ht_final.tsvのsample_htidsをWorkset構築に使用予定。
@@ -3101,6 +3150,9 @@ Output:
 
 ```text
 derived/residual_bibliographic_analysis_90works_v5.tsv
+derived/hathitrust_90works_final.tsv
+derived/literary_visibility_master_90works_v8.tsv
+derived/literary_visibility_correlations_90works_v8.tsv
 ```
 
 Result:
@@ -3133,6 +3185,24 @@ Known examples requiring review include unusually low or high edition counts for
 
 ---
 
+
+#### Open Library work-fragmentation and edition-count audit — 2026-08-19
+
+Before interpreting Open Library edition count in the 90-work pilot, the work-level aggregation was re-audited because Open Library can represent the same literary work under multiple Work records. The audit therefore treats the originally selected `work_key` as an entity-resolution starting point rather than assuming that its directly attached edition count exhausts the publication history of the work.
+
+The follow-up identified 34 works with plausible same-title/same-author Work fragmentation and recovered 6,240 additional edition records through strict title+author aggregation. A further queue of 41 non-exact candidate Work records was reviewed manually; 28 Work records were accepted, contributing 445 additional editions. The resulting reviewed aggregation is used as the final Open Library edition-count layer for the validated 90-work pilot.
+
+The important methodological distinction is:
+
+- raw edition count attached to one OL `work_key` = database-record-level count;
+- reviewed final edition count = work-level bibliographic proxy after known OL Work fragmentation has been reconciled.
+
+The final count should still be interpreted as Open Library bibliographic representation / edition-record proliferation, not as a literal count of historically distinct commercial editions without further bibliographic verification.
+
+The reviewed Open Library values were incorporated before the v7/v8 multi-source analysis.
+
+---
+
 #### Current methodological interpretation — 2026-08-19
 
 The immediate methodological contribution of this extension is not that simple string retrieval and LLM semantic classification differ; that had already been established in Stage 5b-4. The new contribution is that:
@@ -3145,6 +3215,42 @@ The immediate methodological contribution of this extension is not that simple s
 6. these configurations should not yet be called historical "pathways" unless temporal/process evidence is added.
 
 This distinction is important for the dissertation and KAKENHI planning. The analytical goal is no longer merely to document pairwise divergence among indicators, but to test whether recurrent combinations of scholarly, readerly, bibliographic, pedagogical, and cross-cultural selection signals can explain different modes by which literary works remain visible, become canonized, or persist outside conventional scholarly canons.
+
+---
+
+
+#### 2026-08-19 final 90-work bibliographic / HathiTrust correction layer (v8)
+
+After the Open Library work-fragmentation audit and the HathiTrust identity / title-fallback audit, the 90-work exploratory master was rebuilt. Historical values are retained as provenance rather than silently overwritten.
+
+Preferred analytical files:
+
+```text
+derived/literary_visibility_master_90works_v8.tsv
+derived/literary_visibility_correlations_90works_v8.tsv
+derived/hathitrust_90works_final.tsv
+```
+
+`literary_visibility_master_90works_v8.tsv` contains the reviewed Open Library final edition count and the final HathiTrust fields. The prior HathiTrust value is retained as `hathitrust_volume_count_original`; the reviewed analytical value is `hathitrust_htid_count_final`.
+
+Final Spearman correlations (`n=90`):
+
+| Pair | Spearman rho | p |
+|---|---:|---:|
+| OpenAlex semantic — JSTOR L&L | 0.9158 | 1.28e-36 |
+| OpenAlex semantic — Goodreads | 0.8132 | 2.11e-22 |
+| JSTOR L&L — Goodreads | 0.6481 | 5.02e-12 |
+| Goodreads — Open Library final | 0.6392 | 1.20e-11 |
+| OpenAlex semantic — Open Library final | 0.5563 | 1.25e-08 |
+| JSTOR L&L — Open Library final | 0.4266 | 2.76e-05 |
+| Goodreads — HathiTrust HTID final | 0.0322 | 0.763 |
+| OpenAlex semantic — HathiTrust HTID final | 0.0164 | 0.878 |
+| JSTOR L&L — HathiTrust HTID final | -0.0245 | 0.819 |
+| Open Library final — HathiTrust HTID final | -0.0340 | 0.750 |
+
+The Open Library audit materially strengthens its association with the scholarly / reader measures relative to the earlier unaudited v5 values. By contrast, correcting the four HathiTrust cases does not alter the substantive HathiTrust pattern: HTID count remains approximately uncorrelated with all four other measures. This makes a simple shared “cultural circulation” interpretation inappropriate for the 90-work pilot. HathiTrust should instead be kept conceptually separate as a digitized-corpus / library-digitization representation measure unless later evidence supports a broader interpretation.
+
+These correlations remain exploratory because the sample consists of 90 validated selection-list works rather than the full 34,789-work population.
 
 ---
 
@@ -3210,6 +3316,8 @@ derived/residual_bibliographic_analysis_90works_v5.tsv
 | openalex-semantic-summary-v1 | 2026-08-18 | `derived/openalex_visibility_summary_v4_full6007_enriched.tsv` — work-level semantic estimate |
 | literary-visibility-master90-v5 | 2026-08-19 | `derived/literary_visibility_master_90works_v5.tsv` — OpenAlex/JSTOR/Goodreads/OL/HT integrated pilot master |
 | academic-reader-residual90-v1 | 2026-08-19 | `derived/jstor_reader_residuals_90works_v5.tsv` + `derived/academic_reader_residuals_90works_v5.tsv` — replicated academic-reader configuration |
+| literary-visibility-master90-v8 | 2026-08-19 | `derived/literary_visibility_master_90works_v8.tsv` — reviewed OL edition counts + final audited HathiTrust layer |
+| hathitrust-90-final-v1 | 2026-08-19 | `derived/hathitrust_90works_final.tsv` — 90-work reviewed HathiTrust values, including corrected metadata retries and rejected false positive |
 
 ---
 

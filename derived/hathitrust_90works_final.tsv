@@ -1,0 +1,91 @@
+openlibrary_work_key	selection_title	selection_author	hathitrust_volume_count	htid_count_api	pd_count_api	record_count	matched_oclc	oclc_tried	htid_count_title	pd_count_title	matched_title	matched_author	source	hathitrust_htid_count_current	hathitrust_pd_count_current	hathitrust_source_current	historical_htid_count	historical_current_mismatch	hathitrust_htid_count_final	hathitrust_pd_count_final	hathitrust_source_final	hathitrust_review_status	historical_final_changed
+/works/OL2339087W	The Red Axe	S R Crockett	1						1.0	1.0	The red axe / by S. R. Crockett. [With illustrations by Fran	Crockett, S. R. 1859-1914.	hathifiles_title	1	1	title_fallback	1	0	1	1	title_fallback_reviewed	accepted	0
+/works/OL51141W	The Job	Sinclair Lewis	2	2.0	2.0	1.0	3576727.0	2.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL81295W	Sons and Lovers	D. H. Lawrence	9						9.0	6.0	Sons and lovers / by D. H. Lawrence ; with an introduction b	Lawrence, D. H. 1885-1930.	hathifiles_title	9	6	title_fallback	9	0	9	6	title_fallback_reviewed	accepted	0
+/works/OL1794911W	McTeague	Frank Norris	1	1.0	0.0	1.0	7594213.0	1.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL468488W	This Side of Paradise	F Scott Fitzgerald	1	1.0	1.0	1.0	2707448.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL276470W	The Ambassadors	Henry James	1	1.0	0.0	1.0	1179625.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL35353208W	The Great Gatsby	F Scott Fitzgerald	6						6.0	4.0	The great Gatsby / by F. Scott Fitzgerald.	Fitzgerald, F. Scott 1896-1940.	hathifiles_title	6	4	title_fallback	6	0	6	4	title_fallback_reviewed	accepted	0
+/works/OL82870W	The Sound and the Fury	William Faulkner	2	2.0	0.0	1.0	14003173.0	10.0						2	0	api	2	0	2	0	api	accepted	0
+/works/OL1797270W	Senator North	Gertrude Atherton	4	4.0	4.0	1.0	15209857.0	9.0						4	4	api	4	0	4	4	api	accepted	0
+/works/OL98491W	The Age of Innocence	Edith Wharton	1	1.0	0.0	1.0	172427.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL1168083W	Nineteen Eighty-Four	George Orwell	4	0.0	0.0	0.0		10.0	4.0	0.0	Nineteen eighty-four : a novel / by George Orwell.	Orwell, George, 1903-1950.	hathifiles_title	4	0	title_fallback	4	0	4	0	title_fallback_reviewed	accepted	0
+/works/OL276365W	The Portrait of a Lady	Henry James	21	0.0	0.0	0.0		10.0	21.0	17.0	The portrait of a lady / by Henry James.	James, Henry, 1843-1916.	hathifiles_title	21	17	title_fallback	21	0	21	17	title_fallback_reviewed	accepted	0
+/works/OL31971259W	Heart of Darkness	Joseph Conrad	1						1.0	0.0	Heart of darkness : and The secret sharer / with an introduc	Conrad, Joseph, 1857-1924.	hathifiles_title	1	0	title_fallback	1	0	1	0	title_fallback_reviewed	accepted	0
+/works/OL62979W	The Sun Also Rises	Ernest Hemingway	1	1.0	0.0	1.0	1335184.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL20839W	Maggie, a girl of the streets	Stephen Crane	1	1.0	1.0	1.0	271259.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	2	2.0	2.0	1.0	1224185.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL1253285W	The Scarlet Pimpernel	Emma Orczy	5	0.0	0.0	0.0		10.0	5.0	5.0	The Scarlet Pimpernel / by Baroness Orczy.	Orczy, Emmuska Orczy, Baroness, 1865-194	hathifiles_title	5	5	title_fallback	5	0	5	5	title_fallback_reviewed	accepted	0
+/works/OL52267W	The Time Machine	H. G. Wells	2	2.0	2.0	1.0	1162397.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL37277W	Autobiography of Alice B Toklas	Gertrude Stein	2	2.0	0.0	1.0	1409009.0	10.0						2	0	api	2	0	2	0	api	accepted	0
+/works/OL144822W	Martin Eden	Jack London	1	1.0	1.0	1.0	1057926060.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL18561767W	The Story of an African Farm	Olive Schreiner	2	2.0	2.0	1.0	5141001.0	4.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL262473W	The Mystery of the Cloomber	Arthur Conan Doyle	2	2.0	2.0	1.0	3656526.0	8.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL27834207W	Return Of The Soldier	Nathaniel West	3	3.0	3.0	1.0	1152772.0	10.0						3	3	api	3	0	3	3	api	accepted	0
+/works/OL4390503W	Gone to Earth	Mary Webb	1	1.0	0.0	1.0	10817382.0	7.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL13144755W	The Homeward Trail	Waldron Baily	2	2.0	2.0	1.0	9494130.0	1.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL42517032W	The Red Badge of Courage	Stephen Crane	1	1.0	1.0	1.0	5293635.0	1.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL88881W	Howard's End	E. M. Forster	2	2.0	1.0	1.0	1034163.0	10.0						2	1	api	2	0	2	1	api	accepted	0
+/works/OL38989822W	A Portrait of the Artist as a Young Man	James Joyce	14	0.0	0.0	0.0		3.0	14.0	9.0	A portrait of the artist as a young man.	Joyce, James, 1882-1941.	hathifiles_title	14	9	title_fallback	14	0	14	9	title_fallback_reviewed	accepted	0
+/works/OL39453744W	Jude the Obscure	Thomas Hardy	17	0.0	0.0	0.0		1.0	17.0	16.0	Jude the obscure / by Thomas Hardy.	Hardy, Thomas, 1840-1928.	hathifiles_title	17	16	title_fallback	17	0	17	16	title_fallback_reviewed	accepted	0
+/works/OL39108W	Secret Agent	Joseph Conrad	1	1.0	0.0	1.0	123113490.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	39						39.0	34.0	Tess of the d'Urbervilles; a pure woman faithfully presented	Hardy, Thomas, 1840-1928.	hathifiles_title	39	34	title_fallback	39	0	39	34	title_fallback_reviewed	accepted	0
+/works/OL35695219W	Ulysses	James Joyce	3						3.0	1.0	Ulysses / James Joyce.	Joyce, James, 1882-1941.	hathifiles_title	3	1	title_fallback	3	0	3	1	title_fallback_reviewed	accepted	0
+/works/OL86320W	Dubliners	James Joyce	7	0.0	0.0	0.0		10.0	7.0	6.0	Dubliners / by James Joyce.	Joyce, James, 1882-1941.	hathifiles_title	7	6	title_fallback	7	0	7	6	title_fallback_reviewed	accepted	0
+/works/OL14864528W	The Rise of David Levinsky	Abraham Cahan	2	2.0	2.0	1.0	1620094.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL245401W	The Prisoner of Zenda	Anthony Hope	19											0	0	none	19	1	15	15	corrected_metadata_retry	accepted_after_identity_correction	1
+/works/OL715621W	The Odd Women	George Gissing	1	1.0	0.0	1.0	10812446.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL12781W	Alexander's Bridge	Willa Cather	2	2.0	2.0	1.0	3395503.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL39329W	Jacob's Room	Virginia Woolf	1	1.0	1.0	1.0	19736994.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL98501W	Ethan Frome	Edith Wharton	12	0.0	0.0	0.0		10.0	12.0	10.0	Ethan Frome / with a forward and a study guide by Helen T. M	Wharton, Edith, 1862-1937.	hathifiles_title	12	10	title_fallback	12	0	12	10	title_fallback_reviewed	accepted	0
+/works/OL24034W	Treasure Island	Robert Louis Stevenson	2	2.0	2.0	1.0	10342465.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL40252771W	The Turn of the Screw	Henry James	1						1.0	0.0	The turn of the screw; The Aspern papers [by] Henry James.	James, Henry, 1843-1916.	hathifiles_title	1	0	title_fallback	1	0	1	0	title_fallback_reviewed	accepted	0
+/works/OL74504W	White Fang	Jack London	2	2.0	2.0	1.0	11920387.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL18814811W	Looking Backward	Edward Bellamy	0											0	0	none	0	0	0	0	none	no_current_match	0
+/works/OL4902750W	Java Head	Joseph Hergesheimer	2	2.0	2.0	1.0	15479689.0	6.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL42236259W	The House of Mirth	Edith Wharton	1	1.0	1.0	1.0	7371032.0	1.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL35383W	Three Lives	Gertrude Stein	1	1.0	1.0	1.0	123190463.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL8193416W	The Picture of Dorian Gray	Oscar Wilde	2	2.0	2.0	1.0	11071044.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL1799163W	Hearts courageous	Hallie Rives	5	5.0	5.0	1.0	1002560.0	4.0						5	5	api	5	0	5	5	api	accepted	0
+/works/OL43405505W	Lady Chatterley's Lover	D. H. Lawrence	1	0.0	0.0	0.0		2.0	1.0	0.0	Lady Chatterley's lover / With an introd. by Mark Schorer.	Lawrence, D. H. 1885-1930.	hathifiles_title	1	0	title_fallback	1	0	1	0	title_fallback_reviewed	accepted	0
+/works/OL41540816W	Robert Elsmere	Mrs. Humphry Ward	20						20.0	20.0	Robert Elsmere / by Mrs. Humphry Ward.	Ward, Humphry, Mrs., 1851-1920.	hathifiles_title	20	20	title_fallback	20	0	20	20	title_fallback_reviewed	accepted	0
+/works/OL1487721W	Alas	Rhoda Broughton	11	11.0	11.0	1.0	3898313.0	1.0						11	11	api	11	0	11	11	api	accepted	0
+/works/OL82929W	As I Lay Dying	William Faulkner	1	1.0	0.0	1.0	13904298.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL2107271W	Stepsons Of Light	Eugene Manlove Rhodes	3	3.0	3.0	1.0	2109962.0	2.0						3	3	api	3	0	3	3	api	accepted	0
+/works/OL509889W	The Good Soldier	Ford Maddox Ford	2											0	0	none	2	1	1	1	corrected_metadata_retry	accepted_after_identity_correction	1
+/works/OL4315764W	The Heavenly Twins	Sarah Grand	1	1.0	0.0	1.0	27145837.0	5.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL14942956W	The Call of the Wild	Jack London	1	1.0	1.0	1.0	1159548.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL109153W	Grand Babylon Hotel	Arnold Bennett	3	3.0	3.0	1.0	8163903.0	8.0						3	3	api	3	0	3	3	api	accepted	0
+/works/OL1217993W	Three Soldiers	John Dos Passos	3	3.0	0.0	1.0	282830.0	8.0						3	0	api	3	0	3	0	api	accepted	0
+/works/OL112798W	Marrow of Tradition	Mary Chesnutt	5	5.0	5.0	1.0	30352336.0	10.0						5	5	api	5	0	5	5	api	accepted	0
+/works/OL65437W	At Fault	Kate Chopin	2	2.0	0.0	1.0	24367288.0	9.0						2	0	api	2	0	2	0	api	accepted	0
+/works/OL38827W	The Shadow-Line	Joseph Conrad	3	3.0	3.0	1.0	4774404.0	10.0						3	3	api	3	0	3	3	api	accepted	0
+/works/OL505740W	The Moon and Sixpence	W Somerset Maugham	2	2.0	2.0	1.0	16209082.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL20172W	Kim	Rudyard Kipling	1	1.0	0.0	1.0	10773884.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL98585W	The Custom of the Country	Edith Wharton	1	1.0	0.0	1.0	20620509.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL468362W	The Beautiful and the Damned	F Scott Fitzgerald	1	1.0	1.0	1.0	13395450.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL100237W	The Financier	Theodore Dreiser	1	1.0	0.0	1.0	17759307.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL509919W	Parades End	Ford Maddox Ford	2	2.0	0.0	1.0	3148820.0	8.0						2	0	api	2	0	2	0	api	accepted	0
+/works/OL115067W	King Coal	Upton Sinclair	2	2.0	2.0	1.0	1391760.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL85892W	Dracula	Bram Stoker	1											0	0	none	1	1	5	5	corrected_metadata_retry	accepted_after_identity_correction	1
+/works/OL1154817W	The Crock of Gold	Stephens James	1	1.0	1.0	1.0	1398804.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL1794919W	The Pit	Frank Norris	1	1.0	1.0	1.0	10050173.0	10.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL4971729W	Megda	Emma Kelley	1	1.0	1.0	1.0	6508684.0	3.0						1	1	api	1	0	1	1	api	accepted	0
+/works/OL44014215W	Strange Case of Dr Jekyll and Mr Hyde	Robert Louis Stevenson	2	2.0	2.0	1.0	11724131.0	1.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL19870W	The Jungle Book	Rudyard Kipling	21	0.0	0.0	0.0		10.0	21.0	20.0	The jungle book / by Rudyard Kipling ; with illustrations by	Kipling, Rudyard, 1865-1936.	hathifiles_title	21	20	title_fallback	21	0	21	20	title_fallback_reviewed	accepted	0
+/works/OL111382W	The Yearling	Marjorie Kinman Rawlings	1	1.0	0.0	1.0	1260144.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL88813W	A Room with a View	E. M. Forster	1	1.0	0.0	1.0	10000633.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL63009W	For Whom the Bell Tolls	Ernest Hemingway	1	1.0	0.0	1.0	10611304.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL2337481W	The Frontiersman	Mary Noailles Murfree	5	5.0	5.0	1.0	2686154.0	2.0						5	5	api	5	0	5	5	api	accepted	0
+/works/OL39349W	Mrs. Dalloway	Virginia Woolf	4	4.0	4.0	1.0	10332928.0	10.0						4	4	api	4	0	4	4	api	accepted	0
+/works/OL468485W	Tender Is The Night	F Scott Fitzgerald	1	1.0	0.0	1.0	13823425.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL39396W	To the Lighthouse	Virginia Woolf	2	2.0	0.0	1.0	1572793.0	10.0						2	0	api	2	0	2	0	api	accepted	0
+/works/OL65430W	The Awakening	Kate Chopin	2	0.0	0.0	0.0		10.0	2.0	0.0	Awakening : the world at mid-century.		hathifiles_title	2	0	title_fallback	2	0	0	0	title_fallback_rejected	rejected_false_positive	1
+/works/OL44622934W	The Jungle	Upton Sinclair	11	0.0	0.0	0.0		1.0	11.0	10.0	The jungle / With the author's 1946 introd.	Sinclair, Upton, 1878-1968.	hathifiles_title	11	10	title_fallback	11	0	11	10	title_fallback_reviewed	accepted	0
+/works/OL462007W	Peter Pan	J. M. Barrie	1	1.0	0.0	1.0	10189295.0	10.0						1	0	api	1	0	1	0	api	accepted	0
+/works/OL507321W	Pembroke	Mary Wilkins Freeman	4	4.0	4.0	1.0	1900142.0	10.0						4	4	api	4	0	4	4	api	accepted	0
+/works/OL39360W	Orlando	Virginia Woolf	3	3.0	3.0	1.0	2747201.0	10.0						3	3	api	3	0	3	3	api	accepted	0
+/works/OL100196W	The Genius	Theodore Dreiser	2	2.0	2.0	1.0	294159.0	10.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL100203W	Sister Carrie	Theodore Dreiser	13	0.0	0.0	0.0		10.0	13.0	11.0	Sister Carrie / by Theodore Dreiser	Dreiser, Theodore, 1871-1945,	hathifiles_title	13	11	title_fallback	13	0	13	11	title_fallback_reviewed	accepted	0
+/works/OL485410W	The Border Legion	Zane Grey	2	2.0	2.0	1.0	6929896.0	9.0						2	2	api	2	0	2	2	api	accepted	0
+/works/OL18397742W	The North Star	Margaret Ellen Henry-Ruffin	0	0.0	0.0	0.0		1.0						0	0	none	0	0	0	0	none	no_current_match	0

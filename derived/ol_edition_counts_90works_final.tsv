@@ -1,0 +1,91 @@
+openlibrary_work_key	selection_title	selection_author	selected_ol_title	selected_ol_author	selection_title_mismatch	selection_author_mismatch	selected_work_edition_count	strict_matching_work_count	strict_merged_edition_count	additional_editions_from_split_works	edition_inflation_ratio	strict_matching_work_keys	fallback_used	manual_matching_work_count	manual_added_edition_count	manual_matching_work_keys	final_matching_work_count	final_merged_edition_count	final_additional_editions
+/works/OL35353208W	The Great Gatsby	F Scott Fitzgerald	The Great Gatsby	F. Scott Fitzgerald	0	0	2	3	1181	1179	590.5	/works/OL35353208W|/works/OL43595009W|/works/OL468431W	0	0	0		3	1181	1179
+/works/OL31971259W	Heart of Darkness	Joseph Conrad	Heart of Darkness	Conrad, Joseph	0	0	14	4	1099	1085	78.5	/works/OL31971259W|/works/OL8137762W|/works/OL29000391W|/works/OL38663W	0	0	0		4	1099	1085
+/works/OL20172W	Kim	Rudyard Kipling	Kim	Kipling, Rudyard	0	0	65	2	999	934	15.36923076923077	/works/OL20172W|/works/OL19908W	0	0	0		2	999	934
+/works/OL42236259W	The House of Mirth	Edith Wharton	The house of mirth	Edith Wharton	0	0	1	3	697	696	697.0	/works/OL42236259W|/works/OL32146991W|/works/OL98587W	0	0	0		3	697	696
+/works/OL35695219W	Ulysses	James Joyce	Ulysses	James Joyce	0	0	71	3	684	613	9.633802816901408	/works/OL35695219W|/works/OL38767940W|/works/OL86318W	0	0	0		3	684	613
+/works/OL40252771W	The Turn of the Screw	Henry James	Turn of the Screw	Henry James	0	0	8	3	577	569	72.125	/works/OL40252771W|/works/OL276386W|/works/OL41530014W	0	2	35	/works/OL276330W|/works/OL8721349W	5	612	604
+/works/OL43405505W	Lady Chatterley's Lover	D. H. Lawrence	Lady Chatterley's lover	Lawrence, D. H.	0	0	2	2	516	514	258.0	/works/OL43405505W|/works/OL81180W	0	0	0		2	516	514
+/works/OL39453744W	Jude the Obscure	Thomas Hardy	Jude the obscure	Hardy, Thomas	0	0	1	5	435	434	435.0	/works/OL40623217W|/works/OL39453744W|/works/OL40732923W|/works/OL41547386W|/works/OL44986W	0	0	0		5	435	434
+/works/OL18561767W	The Story of an African Farm	Olive Schreiner	The story of an African farm	Olive Schreiner	0	0	7	2	58	51	8.285714285714286	/works/OL18561767W|/works/OL890573W	0	0	0		2	58	51
+/works/OL1154817W	The Crock of Gold	Stephens James	The Crock of Gold	Stephens, James	0	1	155	3	183	28	1.1806451612903226	/works/OL33736178W|/works/OL1154817W|/works/OL38839813W	0	0	0		3	183	28
+/works/OL24034W	Treasure Island	Robert Louis Stevenson	Treasure Island	Robert Louis Stevenson	0	0	1988	7	2012	24	1.012072434607646	/works/OL24034W|/works/OL29223843W|/works/OL42471516W|/works/OL33137271W|/works/OL44771924W|/works/OL42692984W|/works/OL39458064W	0	3	17	/works/OL17621838W|/works/OL1832592W|/works/OL43379778W	10	2029	41
+/works/OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	Tarzan of the Apes	Edgar Rice Burroughs	0	0	226	2	245	19	1.084070796460177	/works/OL1418251W|/works/OL1418064W	0	1	13	/works/OL1418210W	3	258	32
+/works/OL44014215W	Strange Case of Dr Jekyll and Mr Hyde	Robert Louis Stevenson	Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	0	0	1	4	20	19	20.0	/works/OL24120W|/works/OL44014215W|/works/OL33078608W|/works/OL22708002W	0	2	2	/works/OL15211715W|/works/OL39592782W	6	22	21
+/works/OL42517032W	The Red Badge of Courage	Stephen Crane	The red badge of courage	Crane, Stephen	0	0	1	3	18	17	18.0	/works/OL42517032W|/works/OL42504106W|/works/OL42430849W	0	1	1	/works/OL42503961W	4	19	18
+/works/OL18814811W	Looking Backward	Edward Bellamy	Looking backward	Bellamy, Edward	0	0	1	3	11	10	11.0	/works/OL18814811W|/works/OL2981504W|/works/OL15638797W	0	3	121	/works/OL2981506W|/works/OL31602841W|/works/OL7998548W	6	132	131
+/works/OL462007W	Peter Pan	J. M. Barrie	Peter Pan	J. M. Barrie	0	0	441	2	448	7	1.0158730158730158	/works/OL8137276W|/works/OL462007W	0	3	25	/works/OL35407949W|/works/OL461987W|/works/OL462034W	5	473	32
+/works/OL88881W	Howard's End	E. M. Forster	Howards End	E. M. Forster	0	0	467	2	473	6	1.012847965738758	/works/OL88881W|/works/OL31830224W	0	1	8	/works/OL88814W	3	481	14
+/works/OL74504W	White Fang	Jack London	White Fang	Jack London	0	0	387	2	393	6	1.0155038759689925	/works/OL74504W|/works/OL34511165W	0	0	0		2	393	6
+/works/OL19870W	The Jungle Book	Rudyard Kipling	The Jungle Book	Kipling, Rudyard	0	0	538	3	541	3	1.0055762081784387	/works/OL44238347W|/works/OL34198769W|/works/OL19870W	0	1	71	/works/OL20102W	4	612	74
+/works/OL39108W	Secret Agent	Joseph Conrad	The Secret Agent	Conrad, Joseph	0	0	335	3	338	3	1.008955223880597	/works/OL43462425W|/works/OL39108W|/works/OL43882972W	0	0	0		3	338	3
+/works/OL81295W	Sons and Lovers	D. H. Lawrence	Sons and Lovers	Lawrence, D. H.	0	0	332	4	335	3	1.0090361445783131	/works/OL81295W|/works/OL29261792W|/works/OL33113237W|/works/OL16650231W	0	0	0		4	335	3
+/works/OL41540816W	Robert Elsmere	Mrs. Humphry Ward	Robert Elsmere	Humphry Ward	0	0	2	2	5	3	2.5	/works/OL41540816W|/works/OL31949047W	0	0	0		2	5	3
+/works/OL88813W	A Room with a View	E. M. Forster	A Room with a View	E. M. Forster	0	0	692	2	694	2	1.0028901734104043	/works/OL88813W|/works/OL42221492W	0	1	8	/works/OL88814W	3	702	10
+/works/OL65430W	The Awakening	Kate Chopin	The Awakening	Kate Chopin	0	0	346	2	348	2	1.0057803468208093	/works/OL65430W|/works/OL39014581W	0	0	0		2	348	2
+/works/OL468485W	Tender Is The Night	F Scott Fitzgerald	Tender is the Night	F. Scott Fitzgerald	0	0	312	2	314	2	1.0064102564102564	/works/OL42216785W|/works/OL468485W	0	0	0		2	314	2
+/works/OL98491W	The Age of Innocence	Edith Wharton	The Age of Innocence	Edith Wharton	0	0	301	3	303	2	1.0066445182724253	/works/OL98491W|/works/OL32146717W|/works/OL36950277W	0	0	0		3	303	2
+/works/OL38989822W	A Portrait of the Artist as a Young Man	James Joyce	A portrait of the artist as a young man	Joyce, James	0	0	3	2	5	2	1.6666666666666667	/works/OL38989822W|/works/OL33122325W	0	0	0		2	5	2
+/works/OL14942956W	The Call of the Wild	Jack London	The Call of the Wild	Jack London	0	0	1699	2	1700	1	1.0005885815185402	/works/OL14942956W|/works/OL43150565W	0	1	13	/works/OL144782W	3	1713	14
+/works/OL52267W	The Time Machine	H. G. Wells	The Time Machine	H. G. Wells	0	0	1146	2	1147	1	1.0008726003490402	/works/OL52267W|/works/OL32699938W	0	1	39	/works/OL52148W	3	1186	40
+/works/OL468362W	The Beautiful and the Damned	F Scott Fitzgerald	The Beautiful and Damned	F. Scott Fitzgerald	0	0	495	2	496	1	1.002020202020202	/works/OL468362W|/works/OL38803607W	0	0	0		2	496	1
+/works/OL20839W	Maggie, a girl of the streets	Stephen Crane	Maggie, a girl of the streets	Crane, Stephen	0	0	260	2	261	1	1.0038461538461538	/works/OL20839W|/works/OL33165447W	0	1	2	/works/OL20802W	3	263	3
+/works/OL1217993W	Three Soldiers	John Dos Passos	Three soldiers	John Dos Passos	0	0	19	2	20	1	1.0526315789473684	/works/OL1217993W|/works/OL18415511W	0	0	0		2	20	1
+/works/OL4315764W	The Heavenly Twins	Sarah Grand	The Heavenly Twins	Sarah Grand	0	0	17	2	18	1	1.0588235294117647	/works/OL4315764W|/works/OL16766420W	0	0	0		2	18	1
+/works/OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	Tess of the D'Urbervilles	Thomas Hardy	0	0	9	2	10	1	1.1111111111111112	/works/OL40434746W|/works/OL43906748W	0	0	0		2	10	1
+/works/OL8193416W	The Picture of Dorian Gray	Oscar Wilde	The Picture of Dorian Gray	Oscar Wilde	0	0	3012	1	3012	0	1.0	/works/OL8193416W	0	1	2	/works/OL31329594W	2	3014	2
+/works/OL98501W	Ethan Frome	Edith Wharton	Ethan Frome	Edith Wharton	0	0	1000	1	1000	0	1.0	/works/OL98501W	0	1	2	/works/OL13131348W	2	1002	2
+/works/OL86320W	Dubliners	James Joyce	Dubliners	Joyce, James	0	0	996	1	996	0	1.0	/works/OL86320W	0	0	0		1	996	0
+/works/OL85892W	Dracula	Bram Stoker	Dracula	Bram Stoker	0	0	736	1	736	0	1.0	/works/OL85892W	0	0	0		1	736	0
+/works/OL245401W	The Prisoner of Zenda	Anthony Hope	The Prisoner of Zenda	Anthony Hope	0	0	627	1	627	0	1.0	/works/OL245401W	0	0	0		1	627	0
+/works/OL1253285W	The Scarlet Pimpernel	Emma Orczy	The Scarlet Pimpernel	Orczy, Emmuska Orczy	0	0	591	1	591	0	1.0	/works/OL1253285W	0	0	0		1	591	0
+/works/OL1168083W	Nineteen Eighty-Four	George Orwell	Nineteen Eighty-Four	George Orwell	0	0	532	1	532	0	1.0	/works/OL1168083W	0	0	0		1	532	0
+/works/OL39396W	To the Lighthouse	Virginia Woolf	To the Lighthouse	Virginia Woolf	0	0	521	1	521	0	1.0	/works/OL39396W	0	0	0		1	521	0
+/works/OL468488W	This Side of Paradise	F Scott Fitzgerald	This Side of Paradise	F. Scott Fitzgerald	0	0	495	1	495	0	1.0	/works/OL468488W	0	0	0		1	495	0
+/works/OL39349W	Mrs. Dalloway	Virginia Woolf	Mrs. Dalloway	Virginia Woolf	0	0	476	1	476	0	1.0	/works/OL39349W	0	0	0		1	476	0
+/works/OL100203W	Sister Carrie	Theodore Dreiser	Sister Carrie	Theodore Dreiser	0	0	463	1	463	0	1.0	/works/OL100203W	0	0	0		1	463	0
+/works/OL39360W	Orlando	Virginia Woolf	Orlando	Virginia Woolf	0	0	452	1	452	0	1.0	/works/OL39360W	0	0	0		1	452	0
+/works/OL276365W	The Portrait of a Lady	Henry James	The Portrait of a Lady	James, Henry	0	0	432	1	432	0	1.0	/works/OL276365W	0	0	0		1	432	0
+/works/OL505740W	The Moon and Sixpence	W Somerset Maugham	The moon and sixpence	W. Somerset Maugham	0	0	397	1	397	0	1.0	/works/OL505740W	0	0	0		1	397	0
+/works/OL509889W	The Good Soldier	Ford Maddox Ford	The Good Soldier	Ford Madox Ford	0	0	355	1	355	0	1.0	/works/OL509889W	0	0	0		1	355	0
+/works/OL100237W	The Financier	Theodore Dreiser	The Financier	Theodore Dreiser	0	0	352	1	352	0	1.0	/works/OL100237W	0	0	0		1	352	0
+/works/OL39329W	Jacob's Room	Virginia Woolf	Jacob's Room	Virginia Woolf	0	0	309	1	309	0	1.0	/works/OL39329W	0	0	0		1	309	0
+/works/OL485410W	The Border Legion	Zane Grey	The border legion	Zane Grey	0	0	302	1	302	0	1.0	/works/OL485410W	0	0	0		1	302	0
+/works/OL1794919W	The Pit	Frank Norris	The Pit	Frank Norris	0	0	291	1	291	0	1.0	/works/OL1794919W	0	0	0		1	291	0
+/works/OL1794911W	McTeague	Frank Norris	McTeague	Frank Norris	0	0	289	1	289	0	1.0	/works/OL1794911W	0	0	0		1	289	0
+/works/OL276470W	The Ambassadors	Henry James	The Ambassadors	James, Henry	0	0	231	1	231	0	1.0	/works/OL276470W	0	0	0		1	231	0
+/works/OL12781W	Alexander's Bridge	Willa Cather	Alexander's Bridge	Willa Cather	0	0	229	1	229	0	1.0	/works/OL12781W	0	0	0		1	229	0
+/works/OL262473W	The Mystery of the Cloomber	Arthur Conan Doyle	The Mystery of Cloomber	Doyle, Arthur Conan	0	0	215	1	215	0	1.0	/works/OL262473W	0	0	0		1	215	0
+/works/OL63009W	For Whom the Bell Tolls	Ernest Hemingway	For Whom the Bell Tolls	Ernest Hemingway	0	0	182	1	182	0	1.0	/works/OL63009W	0	0	0		1	182	0
+/works/OL144822W	Martin Eden	Jack London	Martin Eden	Jack London	0	0	168	1	168	0	1.0	/works/OL144822W	0	0	0		1	168	0
+/works/OL100196W	The Genius	Theodore Dreiser	"The ""genius"""	Theodore Dreiser	0	0	164	1	164	0	1.0	/works/OL100196W	0	0	0		1	164	0
+/works/OL62979W	The Sun Also Rises	Ernest Hemingway	The Sun Also Rises	Ernest Hemingway	0	0	162	1	162	0	1.0	/works/OL62979W	0	0	0		1	162	0
+/works/OL35383W	Three Lives	Gertrude Stein	Three Lives	Gertrude Stein	0	0	149	1	149	0	1.0	/works/OL35383W	0	0	0		1	149	0
+/works/OL38827W	The Shadow-Line	Joseph Conrad	The shadow-line	Conrad, Joseph	0	0	147	1	147	0	1.0	/works/OL38827W	0	1	1	/works/OL38982466W	2	148	1
+/works/OL112798W	Marrow of Tradition	Mary Chesnutt	The marrow of tradition	Charles Waddell Chesnutt	0	0	144	1	144	0	1.0	/works/OL112798W	0	0	0		1	144	0
+/works/OL65437W	At Fault	Kate Chopin	At Fault	Kate Chopin	0	0	127	1	127	0	1.0	/works/OL65437W	0	0	0		1	127	0
+/works/OL27834207W	Return Of The Soldier	Nathaniel West	The Return of the Soldier	Rebecca West	0	0	95	1	95	0	1.0	/works/OL27834207W	0	0	0		1	95	0
+/works/OL82870W	The Sound and the Fury	William Faulkner	The Sound and the Fury	William Faulkner	0	0	94	1	94	0	1.0	/works/OL82870W	0	1	6	/works/OL82869W	2	100	6
+/works/OL115067W	King Coal	Upton Sinclair	King Coal	Upton Sinclair	0	0	86	1	86	0	1.0	/works/OL115067W	0	0	0		1	86	0
+/works/OL37277W	Autobiography of Alice B Toklas	Gertrude Stein	The Autobiography of Alice B. Toklas	Gertrude Stein	0	0	83	1	83	0	1.0	/works/OL37277W	0	0	0		1	83	0
+/works/OL109153W	Grand Babylon Hotel	Arnold Bennett	The Grand Babylon Hotel	Bennett, Arnold	0	0	75	1	75	0	1.0	/works/OL109153W	0	0	0		1	75	0
+/works/OL51141W	The Job	Sinclair Lewis	The job	Sinclair Lewis	0	0	72	1	72	0	1.0	/works/OL51141W	0	0	0		1	72	0
+/works/OL111382W	The Yearling	Marjorie Kinman Rawlings	The Yearling	Marjorie Kinnan Rawlings	0	0	65	1	65	0	1.0	/works/OL111382W	0	0	0		1	65	0
+/works/OL82929W	As I Lay Dying	William Faulkner	As I Lay Dying	William Faulkner	0	0	62	1	62	0	1.0	/works/OL82929W	0	1	6	/works/OL82869W	2	68	6
+/works/OL98585W	The Custom of the Country	Edith Wharton	The Custom of the Country	Edith Wharton	0	0	61	1	61	0	1.0	/works/OL98585W	0	0	0		1	61	0
+/works/OL715621W	The Odd Women	George Gissing	The odd women	George Gissing	0	0	36	1	36	0	1.0	/works/OL715621W	0	0	0		1	36	0
+/works/OL507321W	Pembroke	Mary Wilkins Freeman	Pembroke	Mary Eleanor Wilkins Freeman	0	0	31	1	31	0	1.0	/works/OL507321W	0	1	1	/works/OL43301601W	2	32	1
+/works/OL1797270W	Senator North	Gertrude Atherton	Senator North	Atherton, Gertrude Franklin Horn	0	0	29	1	29	0	1.0	/works/OL1797270W	0	0	0		1	29	0
+/works/OL2339087W	The Red Axe	S R Crockett	The Red Axe	S. R. Crockett	0	0	28	1	28	0	1.0	/works/OL2339087W	0	0	0		1	28	0
+/works/OL4902750W	Java Head	Joseph Hergesheimer	Java Head	Joseph Hergesheimer	0	0	27	1	27	0	1.0	/works/OL4902750W	0	0	0		1	27	0
+/works/OL509919W	Parades End	Ford Maddox Ford	Parade's End	Ford Madox Ford	0	0	24	1	24	0	1.0	/works/OL509919W	0	0	0		1	24	0
+/works/OL14864528W	The Rise of David Levinsky	Abraham Cahan	The rise of David Levinsky	Abraham Cahan	0	0	20	1	20	0	1.0	/works/OL14864528W	0	0	0		1	20	0
+/works/OL4390503W	Gone to Earth	Mary Webb	Gone to Earth	Mary Gladys Meredith Webb	0	0	15	1	15	0	1.0	/works/OL4390503W	0	1	72	/works/OL3496345W	2	87	72
+/works/OL2337481W	The Frontiersman	Mary Noailles Murfree	The Frontiersmen	Charles Egbert Craddock	1	1	9	1	9	0	1.0	/works/OL2337481W	0	0	0		1	9	0
+/works/OL4971729W	Megda	Emma Kelley	Megda	Emma Dunham Kelley	0	0	6	1	6	0	1.0	/works/OL4971729W	0	0	0		1	6	0
+/works/OL2107271W	Stepsons Of Light	Eugene Manlove Rhodes	Stepsons of light	Eugene Manlove Rhodes	0	0	5	1	5	0	1.0	/works/OL2107271W	0	0	0		1	5	0
+/works/OL13144755W	The Homeward Trail	Waldron Baily	The Homeward Trail	Waldron Baily	0	0	3	1	3	0	1.0	/works/OL13144755W	0	0	0		1	3	0
+/works/OL1487721W	Alas	Rhoda Broughton	Alas!	Rhoda Broughton	0	0	3	1	3	0	1.0	/works/OL1487721W	0	0	0		1	3	0
+/works/OL1799163W	Hearts courageous	Hallie Rives	Hearts courageous	Rives, Hallie Erminie	0	0	2	1	2	0	1.0	/works/OL1799163W	0	0	0		1	2	0
+/works/OL44622934W	The Jungle	Upton Sinclair	The jungle	Upton Sinclair	0	0	1	1	1	0	1.0	/works/OL44622934W	0	0	0		1	1	0
+/works/OL18397742W	The North Star	Margaret Ellen Henry-Ruffin	The North Star	M. E. Henry-Ruffin	0	0	1	1	1	0	1.0	/works/OL18397742W	0	0	0		1	1	0
