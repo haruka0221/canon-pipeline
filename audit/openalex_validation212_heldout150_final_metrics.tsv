@@ -1,0 +1,2 @@
+n	fiveclass_accuracy	fiveclass_macro_f1	kappa	binary_decisive_n	binary_coverage	binary_accuracy	binary_precision_include	binary_recall_include	binary_f1_include
+150	0.7666666666666667	0.6695302911010199	0.6689576896399521	135	0.9	0.9259259259259259	0.8780487804878049	1.0	0.935064935064935

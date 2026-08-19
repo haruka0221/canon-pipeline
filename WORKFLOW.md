@@ -3,6 +3,9 @@
 Last updated: 2026-04-18
 Status: LIVING DOCUMENT — update on every major change
 
+
+Update note: 2026-08-19 — OpenAlex candidate-level relevance-classification prototype (2026-08-04–06) and the 2026-08-18–19 production-scale extension / validation / 90-work integration were added as later methodological qualifications. Historical descriptions and earlier decisions below are retained rather than silently overwritten.
+
 ---
 
 ## Overview
@@ -80,6 +83,22 @@ WORKFLOW.md各所で「完了」と記録されているDBスキャンは、**�
 | 費用見積もり | Claude Haiku で約200〜300円 |
 
 ⚠️ **OpenAlex値も第1次スキャン値であり、非規範的タイトル（一般語と重複する単語を含む）は誤カウントが多い。**
+
+
+##### 2026-08-06 follow-up: title + author候補のcandidate-level検証
+
+上記は2026-05-23時点の評価として保持する。その後、Stage 5b-2で `oa_title_author_count` を導入し、さらに2026-08-04〜06に `share/openalex_literary_candidate_classification_prototype/` でcandidate-level relevance classificationを試行した。
+
+この後続検証では、`oa_title_author_count` に相当する title + author 共起条件で取得されたOpenAlexレコードを、そのまま「作品についての学術文献数」とみなせないことを確認した。特に *The Job* / Sinclair Lewis では候補161件のうちランダム抽出40件がすべて `exclude_unrelated` となった。一方、*Heart of Darkness*、*The Great Gatsby*、*Ulysses* ではサンプル中の多くが関連する学術的レコードであった。
+
+したがって、2026-08-06以降の解釈は以下とする。
+
+- `oa_title_author_count` = title + author条件を満たす broad candidate-retrieval count / academic-visibility proxy
+- `oa_title_author_lit_terms_count` = 文学語を追加した、より保守的なcandidate indicator
+- いずれも、candidate-level relevance classificationを経ていない限り「関連する学術文献の確定件数」ではない
+- 30件のfull-abstract内部評価ではLLM分類のF1=0.957を得たが、これは取得済み候補内のclassification性能であり、OpenAlex全体に対するretrieval recallではない
+
+詳細は Stage 5b-4 を参照。
 
 #### HathiTrust
 
@@ -1369,6 +1388,11 @@ counts. The OpenAlex figures are pilot indicators and are not equivalent
 to exhaustive counts of scholarship about each literary work.
 
 
+##### Subsequent validation note — 2026-08-06
+
+The candidate-level classification prototype described in Stage 5b-4 directly supports this qualification. The `oa_recommended_count` / `oa_title_author_count` values in the 90-work sharing dataset should be interpreted as broad OpenAlex candidate-retrieval or academic-visibility indicators, not as validated counts of secondary scholarship. No historical values in this provisional sharing snapshot are replaced by the later prototype.
+
+
 #### Outputs
 
 | File | Status |
@@ -2201,6 +2225,991 @@ OpenAlexは、JSTORと同じ意味の「文学研究内部の注目」ではな�
 | openalex-test-targets-v1      | 2026-05-31 | `openalex_test_targets.tsv`               |
 | openalex-test-fullscan-212-v1 | 2026-05-31 | `openalex_test_fullscan_212.tsv`          |
 | openalex-test-audit-v2        | 2026-05-31 | `openalex_test_fullscan_212_audit_v2.tsv` |
+
+---
+
+### 5b-4. OpenAlex Candidate-Level Relevance Classification Prototype — 2026-08-04〜06
+
+#### 背景と目的
+
+Stage 5b-2では、旧title-only方式のノイズを減らすため、作品タイトル語句と作品著者姓がOpenAlex workのtitleまたはreconstructed abstract内で共起する `oa_title_author_count` を導入した。
+
+ただし、この値はcandidate retrievalの段階の件数であり、各候補が実際に対象文学作品についての学術的二次文献であることまでは保証しない。そこで、`share/openalex_literary_candidate_classification_prototype/` に小規模な診断prototypeを作成し、以下の2点を検証した。
+
+1. title + author条件で取得したcandidate poolに、実際にどの程度、対象文学作品に関する学術的議論が含まれるか
+2. LLMが、実質的な文学研究、短い学術的言及、作品に関連するが二次研究ではないレコード、無関係なfalse matchを区別できるか
+
+このprototypeはcomplete bibliographyやproduction-readyなscholarly-visibility datasetではなく、方法設計と共同研究用のsmall diagnostic prototypeとして位置づける。
+
+#### データと判定に使用したOpenAlexフィールド
+
+candidate retrievalおよびclassificationでは、OpenAlex workの以下の情報を使用した。
+
+- record title
+- record type
+- topics
+- reconstructed abstract
+
+publication full textは使用していない。
+
+OpenAlex topic labelsは診断用メタデータとして保持するが、自動的な採用・除外条件には使用しない。実例では、関連する文学研究に不適切なtopicが付く場合や、逆に無関係レコードに人文学系topicが付く場合が確認されているためである。
+
+#### 対象4作品
+
+3つの広くcanonicalな作品と、generic-title stress testとして1作品を選んだ。
+
+| Work | Author | Candidate pool |
+|---|---|---:|
+| *Heart of Darkness* | Joseph Conrad | 1,005 |
+| *The Great Gatsby* | F. Scott Fitzgerald | 858 |
+| *Ulysses* | James Joyce | 2,194 |
+| *The Job* | Sinclair Lewis | 161 |
+
+`The Job` は、短く一般的なtitleと一般的なsurname `Lewis` の組み合わせによりfalse matchが発生しやすいケースとして意図的に含めた。
+
+*Heart of Darkness*、*The Great Gatsby*、*Ulysses* のcandidate pool件数は、Stage 5b-2で得た `oa_title_author_count` と一致する。
+
+#### Candidate retrieval rule
+
+OpenAlex dump recordをcandidateとする条件は以下。
+
+```text
+対象文学作品の完全なtitle phraseが
+OpenAlex workの title + reconstructed abstract のどこかに出現
+かつ
+対象文学作品の著者surnameが
+同じ title + reconstructed abstract のどこかに出現
+```
+
+candidate retrievalではcomplete reconstructed abstractを使用した。
+
+各作品について最大40件をuniform reservoir samplingで抽出した。
+
+```text
+sampling method: uniform reservoir sampling
+seed: 20260713
+maximum sampled records per work: 40
+```
+
+candidate-pool countはbroad retrieval resultであり、relevant scholarly publication countではない。
+
+#### Classification labels
+
+各candidate recordを以下の5カテゴリに分類した。
+
+| Label | Meaning |
+|---|---|
+| `include_substantive` | 対象作品について実質的な解釈・分析・比較・受容・翻案・文脈的議論を行う学術的二次文献 |
+| `include_mention` | 学術的二次文献で、対象作品を比較・例・引用・参照として実際に用いるが、metadata上は持続的分析までは確認できないもの |
+| `exclude_non_scholarly` | 対象作品には関連するが、primary text、ebook、front matter、event record、personal recollection、download page等で、学術的二次文献とはみなさないもの |
+| `exclude_unrelated` | 無関係なtitle/phrase、surname collision等によるfalse match |
+| `unclear` | metadataが矛盾または不足し、信頼できる判断ができないもの |
+
+broad binary classificationでは以下のようにまとめる。
+
+```text
+include = include_substantive + include_mention
+exclude = exclude_non_scholarly + exclude_unrelated
+```
+
+`unclear` はbinary evaluationの確定例として扱わない。
+
+#### Initial diagnostic classification — 2026-08-04
+
+最初の40件×4作品のdiagnostic sampleは `gpt-5-mini` で分類した。
+
+```text
+model: gpt-5-mini
+prompt version: literary_visibility_v3_20260804
+```
+
+candidate retrieval自体にはcomplete reconstructed abstractを使った一方、このinitial classificationで保存・投入したabstractは先頭1,200 charactersに制限されていた。
+
+境界カテゴリである `include_mention`、`exclude_non_scholarly`、`unclear` は人手で確認した。Ulyssesではこのtargeted reviewによって2 recordsをrelabelした。
+
+##### Initial post-review sample composition
+
+| Target work | Sampled | Substantive | Mention | Non-scholarly | Unrelated | Unclear | Included share |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Heart of Darkness | 40 | 34 | 2 | 0 | 3 | 1 | 0.923 |
+| The Great Gatsby | 40 | 38 | 1 | 1 | 0 | 0 | 0.975 |
+| The Job | 40 | 0 | 0 | 0 | 40 | 0 | 0.000 |
+| Ulysses | 40 | 31 | 2 | 3 | 4 | 0 | 0.825 |
+
+この表はsampled candidate recordsの構成を示す診断結果である。visibility ranking、precision estimate、candidate pool全体へのextrapolated publication totalとして使用してはならない。
+
+特に `The Job` はcandidate poolが161件存在したにもかかわらず、抽出した40件すべてが `exclude_unrelated` だった。これはtitle + author共起だけでは、作品によっては大量のfalse positiveを除去できないことを直接示すstress-test caseである。
+
+また、1,200-character制限によって、一部recordではcandidate retrieval時に存在した判定根拠がclassification時のabstract snippetから落ちることが判明した。このため、上記initial sampleはdiagnostic evidenceとして保持するが、下記F1評価には使用しない。
+
+#### Full-abstract provisional internal evaluation — 2026-08-06
+
+initial reservoir samplesから別途30 recordsを選び、full reconstructed abstractを用いたprovisional internal evaluationを実施した。
+
+| Target work | Evaluation records |
+|---|---:|
+| Heart of Darkness | 8 |
+| The Great Gatsby | 8 |
+| Ulysses | 8 |
+| The Job | 6 |
+| Total | 30 |
+
+以前にdiscussion/exampleとして使用したrecordsはsampling前に除外した。
+
+```text
+sampling seed: 20260805
+model: gpt-5-mini
+prompt version: literary_visibility_v3_fullabstract_20260806
+```
+
+この評価ではhuman reviewerとLLM classifierの双方にcomplete reconstructed OpenAlex abstractを提示した。
+
+##### Binary confusion matrix
+
+| | Human include | Human exclude |
+|---|---:|---:|
+| LLM include | 22 | 2 |
+| LLM exclude | 0 | 6 |
+
+##### Metrics
+
+| Metric | Result |
+|---|---:|
+| Precision | 0.917 |
+| Recall | 1.000 |
+| F1 | 0.957 |
+| Accuracy | 0.933 |
+| Specificity | 0.750 |
+| Exact five-label agreement | 0.833 |
+
+human reviewerがrelevantと判断した22 recordsはすべてLLM classifierでもincludeとして保持された。
+
+binary false positiveは2件だった。
+
+- scholarly volumeに付随するpreliminary-material record
+- James Joyceに関するpersonal recollection
+
+いずれも対象作品または著者との関係自体はあるが、scholarly secondary literatureとは判断しなかった。
+
+#### Interpretation and methodological decision
+
+このprototypeによって、Stage 5b-2の `oa_title_author_count` の位置づけを以下のように限定する。
+
+1. `oa_title_author_count` は、作品タイトル + 著者surname条件を満たす broad candidate-retrieval count である。
+2. したがって、これをそのまま「対象作品についての学術文献数」または「関連論文数」と呼ばない。
+3. 学術的可視性のproxyとしては保持できるが、作品ごとのcandidate precisionは大きく異なりうる。
+4. `oa_title_author_lit_terms_count` はより保守的な補助指標だが、これもvalidated bibliographyではない。
+5. actual secondary scholarshipを数える用途では、candidate retrievalの後にrelevance classificationを置く二段階構造が必要である。
+6. F1=0.957は、すでにretrieveされた30 recordsについてのclassification性能である。OpenAlex全体から関連文献をどれだけ取り切れているかを示すretrieval recallではない。
+7. reported recall=1.000も同様に30-record evaluation sample内部のclassification recallであり、OpenAlex全体のrecallではない。
+
+したがって、現時点のOpenAlex workflowは概念的には以下の二段階として扱う。
+
+```text
+Stage A: candidate retrieval
+  title phrase + author surname co-occurrence
+  → oa_title_author_count
+
+Stage B: candidate relevance classification
+  substantive / mention / non-scholarly / unrelated / unclear
+  → validated scholarly-secondary subset
+```
+
+Stage Bは現在prototype段階であり、34,789作品全件や90-work sharing subset全件にはまだproduction-scaleで適用していない。
+
+#### Relation to the 90-work external-sharing dataset
+
+Stage 4i-2で共有した90作品の `oa_recommended_count` および `oa_title_author_lit_terms_count` はhistorical provisional valuesとして保持する。今回のprototypeによって過去の共有値を削除・置換しない。
+
+ただし、その解釈は以下のように限定する。
+
+- `oa_recommended_count` / `oa_title_author_count`: broad OpenAlex candidate-retrieval / academic-visibility indicator
+- `oa_title_author_lit_terms_count`: conservative candidate indicator
+- いずれもexhaustive count of scholarshipではない
+- candidate-level classification未実施の作品について、validated secondary-scholarship countとしては扱わない
+
+#### Illustrative diagnostic findings
+
+curated examplesでは以下のケースを確認した。
+
+- OpenAlex topicが不適切でもabstract本文からrelevant literary scholarshipを回収できる
+- 対象作品へのbrief but genuine scholarly comparison
+- electronic editions等、作品関連だがsecondary scholarshipではないrecords
+- generic titleおよびcommon surnameによるfalse match
+- metadataが矛盾し `unclear` とすべきrecords
+
+この結果も、OpenAlex topic labelsをautomatic exclusion criterionにしない判断を支持する。
+
+#### Shared prototype files
+
+Directory:
+
+```text
+share/openalex_literary_candidate_classification_prototype/
+```
+
+| File | Content |
+|---|---|
+| `README.md` | prototypeの目的・方法・結果・限界の説明 |
+| `curated_openalex_examples.tsv` | 代表的な6 recordsのdiagnostic examples |
+| `llm_judged_candidate_sample.tsv` | OpenAlex metadata、original/reviewed labels、reasons、review notesを含むdiagnostic subset |
+| `work_level_validation_summary.tsv` | 4作品の40-record reservoir sampleのwork-level summary |
+| `evaluation/provisional_internal_evaluation_30.tsv` | human labelsとfull-abstract LLM labelsの30-record比較 |
+| `evaluation/provisional_internal_evaluation_summary.json` | confusion matrixとevaluation metricsのmachine-readable summary |
+
+complete reconstructed abstractsはevaluation共有ファイルには再配布しない。
+
+#### Limitations
+
+このevaluationはprovisionalかつinternalである。
+
+- evaluation sampleは30 recordsのみ
+- 対象は4 literary worksのみ
+- prototype developmentとevaluationで同じ4作品を使用
+- human labelsは1 reviewerによる
+- classificationはpublication full textではなくOpenAlex metadataに基づく
+- OpenAlex abstract availability / metadata qualityはrecords間で大きく異なる
+- retrieval recallは未評価
+
+したがって、本結果をindependent external benchmark、complete bibliography、またはliterary studies全般における一般的なperformance estimateとして解釈しない。
+
+#### Production useに向けた次の課題
+
+- より大きいindependently reviewed evaluation setを作成
+- 対象文学作品の種類を拡張
+- retrieval recallを明示的に評価
+- secondary scholarshipとrelated non-scholarly recordsの境界判定を改善
+- 必要に応じて90-work subsetまたはより広い対象へcandidate-level classificationを拡張
+
+#### Status
+
+Status: completed as a small diagnostic and collaboration prototype.
+
+Use: methodological discussion and small-scale collaborative exploration.
+
+Not yet: production-ready scholarly-visibility dataset or exhaustive bibliography.
+
+#### Release記録
+
+| Release ID | Date | Key Artifact |
+|---|---|---|
+| openalex-candidate-classification-prototype-v1 | 2026-08-04 | `share/openalex_literary_candidate_classification_prototype/work_level_validation_summary.tsv` |
+| openalex-candidate-fullabstract-eval-v1 | 2026-08-06 | `share/openalex_literary_candidate_classification_prototype/evaluation/provisional_internal_evaluation_30.tsv` |
+
+---
+
+### 5b-5. OpenAlex Semantic Visibility — Production-Scale Extension, Validation, and 90-Work Integration — 2026-08-18〜19
+
+#### Purpose and relationship to Stage 5b-4
+
+Stage 5b-4 established a small diagnostic prototype for candidate-level relevance classification using four works and a 30-record full-abstract internal evaluation. The work on 2026-08-18〜19 extended that design substantially. The objectives were:
+
+1. test the classifier against a larger and more heterogeneous set of OpenAlex candidate records;
+2. separate prompt development from an independent held-out evaluation;
+3. apply the resulting fixed classifier to the full sampled candidate set for the 212-work validation/stress-test collection;
+4. derive a semantically corrected OpenAlex scholarly-visibility estimate at work level;
+5. join the resulting measure to the validated 90-work multi-source pilot for exploratory analysis with JSTOR, Goodreads, Open Library, and HathiTrust;
+6. preserve the paid API outputs so that expensive candidate-level classifications are not needlessly rerun.
+
+This section supersedes only the earlier statement in Stage 5b-4 that production-scale candidate-level classification had not yet been applied. The 2026-08-04〜06 prototype and its shared files remain historical snapshots and are not overwritten.
+
+---
+
+#### Working branch and reproducibility checkpoint
+
+The analysis was carried out on a dedicated Git branch:
+
+```text
+kakenc-2026-analysis
+```
+
+A pre-analysis status snapshot was saved as:
+
+```text
+audit/git_status_before_kakenc_analysis_20260818.txt
+```
+
+Because OpenAI API classification was run at several-thousand-record scale, the generated candidate-level judgment files are computationally and financially costly artifacts. They should be backed up and treated as release-like intermediate research products rather than casually regenerated.
+
+---
+
+#### 212-work validation / stress-test collection
+
+The validation set contained 212 Open Library work records:
+
+```text
+canonical = 98
+noncanonical / stress-test = 114
+```
+
+The set was intentionally broader than the dissertation's final 1880–1950 English-fiction scope. In addition to canonical works, it included top-ranked A/B/C/F cases, known noise cases, generic-title cases, person-name / subject-like records, and other difficult retrieval examples. It therefore functions primarily as a methodological stress-test set, not as the final literary-historical analysis population.
+
+OpenAlex title+author candidate retrieval produced:
+
+```text
+212 target works
+187 works with >=1 sampled candidate
+25 works with zero candidates
+100,509 total candidate hits before sampling
+6,007 sampled candidate records
+maximum sampled records per work = 40
+sampling method = uniform reservoir sampling
+sampling seed = 20260713
+```
+
+Core source files:
+
+```text
+derived/openalex_candidates_counts.tsv
+derived/openalex_candidates_dump.tsv
+```
+
+`openalex_candidates_dump.tsv` contains the 6,007 sampled records used for candidate-level semantic classification.
+
+---
+
+#### First large-scale classification run (6,007 records)
+
+The first 6,007-record API classification extended the earlier prompt to the full sampled candidate set.
+
+```text
+model: gpt-5-mini
+prompt_version: literary_visibility_validation212_20260818
+rows classified: 6,007
+```
+
+Primary output:
+
+```text
+derived/openalex_visibility_judgments_validation212.tsv
+```
+
+This run was important for diagnosing systematic errors at scale. Human review showed that the first large-scale prompt was highly sensitive for relevant scholarship but over-assigned `include_substantive`, especially for records that should have been `include_mention` or `exclude_non_scholarly`.
+
+---
+
+#### Human gold development set (300 records)
+
+A 300-record blind human review set was created across the 187 works represented in the sampled candidate dump:
+
+```text
+audit/openalex_validation212_human_blind_300.tsv
+audit/openalex_validation212_human_gold_300.tsv
+```
+
+Human-label distribution:
+
+| Human label | n |
+|---|---:|
+| `include_substantive` | 113 |
+| `include_mention` | 49 |
+| `exclude_non_scholarly` | 62 |
+| `exclude_unrelated` | 57 |
+| `unclear` | 19 |
+| **Total** | **300** |
+
+The five-label scheme remained identical to Stage 5b-4. For the primary binary scholarly-visibility decision:
+
+```text
+include = include_substantive + include_mention
+exclude = exclude_non_scholarly + exclude_unrelated
+unclear = excluded from decisive binary evaluation
+```
+
+##### Baseline large-scale prompt performance (`v1_validation212`)
+
+Five-class performance:
+
+```text
+accuracy = 0.650
+macro F1 = 0.484
+Cohen's kappa = 0.499
+```
+
+Binary scholarly-visibility performance:
+
+```text
+decisive N = 276
+accuracy = 0.906
+precision(include) = 0.865
+recall(include) = 0.994
+F1(include) = 0.925
+```
+
+The largest problem was `exclude_non_scholarly`: recall was only 0.339 (21/62 correct). `include_mention` was also frequently upgraded to `include_substantive`.
+
+---
+
+#### Prompt v4 development on the same 300-record development set
+
+A revised v4 classifier was developed with stronger priority on determining whether the record is a genuine scholarly secondary source before judging how substantively the target work is involved.
+
+Development-run output:
+
+```text
+derived/openalex_visibility_judgments_v4_dev300.tsv
+```
+
+Prompt / model:
+
+```text
+model: gpt-5-mini
+prompt_version: literary_visibility_v4_dev300_20260818
+```
+
+Development-set results:
+
+| Metric | v1 | v4 dev |
+|---|---:|---:|
+| Five-class accuracy | 0.650 | 0.713 |
+| Five-class macro F1 | 0.484 | 0.619 |
+| Cohen's kappa | 0.499 | 0.600 |
+| Binary accuracy | 0.906 | 0.963 |
+| Binary precision(include) | 0.865 | 0.951 |
+| Binary recall(include) | 0.994 | 0.987 |
+| Binary F1(include) | 0.925 | 0.969 |
+
+The main intended improvement was achieved for `exclude_non_scholarly`:
+
+```text
+v1 recall = 0.339
+v4 dev recall = 0.790
+```
+
+The remaining weakness was fine-grained differentiation between `include_substantive` and `include_mention`. Therefore the primary validated outcome for downstream use is broad binary scholarly visibility, not the two include subclasses as fully reliable separate measures.
+
+Evaluation summary file:
+
+```text
+audit/openalex_validation212_v1_vs_v4_summary.tsv
+```
+
+Important: the v4 development result is not an independent performance estimate because the prompt was revised with reference to this 300-record set.
+
+---
+
+#### Independent held-out validation set (150 records)
+
+After prompt development, a new held-out sample of 150 previously unseen candidate records was frozen before running v4.
+
+Sampling design:
+
+```text
+source pool: derived/openalex_candidates_dump.tsv
+previous 300 human-coded records excluded
+eligible unused pool: 5,707 records
+held-out sample: 150 records
+canonical: 75
+noncanonical: 75
+sampling seed: 20260818
+prediction labels were NOT used for sampling
+```
+
+Files:
+
+```text
+audit/openalex_validation212_heldout150_human_blind.tsv
+audit/openalex_validation212_heldout150_sampling_key.tsv
+audit/openalex_validation212_heldout150_human_gold.tsv
+derived/openalex_validation212_heldout150_input.tsv
+```
+
+The API input was explicitly stripped of `human_label`, `human_note`, and evaluation metadata before classification.
+
+Human gold distribution:
+
+| Human label | n |
+|---|---:|
+| `include_substantive` | 57 |
+| `include_mention` | 16 |
+| `exclude_non_scholarly` | 39 |
+| `exclude_unrelated` | 26 |
+| `unclear` | 12 |
+| **Total** | **150** |
+
+The v4 prompt was frozen and applied without substantive modification:
+
+```text
+model: gpt-5-mini
+prompt_version: literary_visibility_v4_heldout150_20260818
+output: derived/openalex_visibility_judgments_v4_heldout150.tsv
+```
+
+##### Held-out final evaluation
+
+Five-class:
+
+```text
+N = 150
+accuracy = 0.767
+macro precision = 0.744
+macro recall = 0.644
+macro F1 = 0.670
+Cohen's kappa = 0.669
+```
+
+Binary scholarly visibility:
+
+```text
+total N = 150
+decisive N = 135
+decisive coverage = 0.900
+accuracy = 0.926
+precision(include) = 0.878
+recall(include) = 1.000
+F1(include) = 0.935
+```
+
+Binary confusion matrix:
+
+| | LLM include | LLM exclude |
+|---|---:|---:|
+| Human include | 72 | 0 |
+| Human exclude | 10 | 53 |
+
+Interpretation:
+
+- the classifier showed no false negatives among decisive human include cases in this held-out set;
+- it remained somewhat inclusion-favoring, producing 10 binary false positives;
+- it is therefore suitable as a high-recall broad scholarly-visibility classifier for exploratory work-level estimation;
+- it is not yet a reliable fine-grained classifier of `substantive` versus `mention`;
+- the held-out F1=0.935, not the development F1=0.969, is the appropriate performance figure to report as an independent validation estimate.
+
+Saved evaluation files:
+
+```text
+audit/openalex_validation212_heldout150_final_metrics.tsv
+audit/openalex_validation212_heldout150_disagreements.tsv
+audit/openalex_validation212_heldout150_binary_errors.tsv
+```
+
+---
+
+#### Second full 6,007-record API classification — fixed v4 final run
+
+After held-out validation, the fixed v4 classifier was applied to all 6,007 sampled candidate records.
+
+Script / output:
+
+```text
+scripts/openalex_visibility_judge_v4_full6007.py
+derived/openalex_visibility_judgments_v4_full6007.tsv
+derived/openalex_visibility_summary_v4_full6007.tsv
+```
+
+Run metadata:
+
+```text
+model: gpt-5-mini
+prompt_version: literary_visibility_v4_final_20260818
+rows: 6,007
+works represented: 187
+errors: 0
+```
+
+Final label totals across the 6,007 sampled candidate records:
+
+| Label | n |
+|---|---:|
+| `include_substantive` | 3,380 |
+| `include_mention` | 325 |
+| `exclude_non_scholarly` | 1,294 |
+| `exclude_unrelated` | 738 |
+| `unclear` | 270 |
+| **Total** | **6,007** |
+
+This was the second several-thousand-record paid API run in this analysis cycle. The earlier `literary_visibility_validation212_20260818` run and the final v4 run should both be retained for provenance. Do not overwrite the earlier output simply because the final run is preferred for analysis.
+
+---
+
+#### API-cost preservation note
+
+OpenAI API usage in this analysis cycle was nontrivial. At minimum it included:
+
+```text
+6,007 records — first validation212 large-scale run
+300 records — v4 development rerun
+150 records — independent held-out run
+6,007 records — fixed v4 final full run
+```
+
+In addition to earlier 2026-08-04〜06 prototype calls, this means more than 12,000 candidate-level classifications were purchased during the 2026-08-18〜19 extension.
+
+The exact billed USD amount was not captured in the terminal logs recorded here. If exact accounting is required, copy the value from the OpenAI Platform Usage / Billing dashboard into this section rather than estimating it retrospectively.
+
+Because the two 6,007-record runs consumed paid API resources, the following files must be preserved and backed up:
+
+```text
+derived/openalex_visibility_judgments_validation212.tsv
+derived/openalex_visibility_judgments_v4_full6007.tsv
+derived/openalex_visibility_summary_v4_full6007.tsv
+audit/openalex_validation212_human_gold_300.tsv
+audit/openalex_validation212_heldout150_human_gold.tsv
+```
+
+Recommended policy: do not rerun these classifications unless the model/prompt changes for a documented methodological reason. Derived summaries can be regenerated locally from the preserved candidate-level judgment files at no API cost.
+
+---
+
+#### Work-level semantic scholarly-visibility estimate
+
+For each sampled work, broad scholarly inclusion was defined as:
+
+```text
+included_n = include_substantive_n + include_mention_n
+```
+
+`unclear` was excluded from the denominator used for the work-level scholarly rate:
+
+```text
+decided_n = included_n + exclude_non_scholarly_n + exclude_unrelated_n
+scholarly_rate = included_n / decided_n
+```
+
+A provisional work-level estimate was then calculated as:
+
+```text
+estimated_scholarly_count = total_candidates * scholarly_rate
+```
+
+Output:
+
+```text
+derived/openalex_visibility_summary_v4_full6007_enriched.tsv
+```
+
+Important interpretation:
+
+- `estimated_scholarly_count` is an extrapolated estimate from the sampled candidate relevance rate, not an observed count of validated scholarship;
+- estimates are particularly unstable when `sampled_n` is small or when `total_candidates` is extremely large;
+- for works with thousands of candidates, a 40-record sample may produce a numerically large extrapolation even when the scholarly rate is low;
+- therefore the estimate is appropriate for exploratory comparison, not for claiming an exact bibliography size.
+
+For the 139 works with `sampled_n >= 30`, raw candidate count and semantic estimate remained strongly but imperfectly associated:
+
+```text
+Spearman rho = 0.8479
+p = 1.39e-39
+```
+
+Large rank corrections included generic / ambiguous cases such as `Virginia`, `The American`, `Democracy`, `You Can`, and `The Job`. This analysis is primarily a measurement-quality diagnostic rather than a substantive literary-historical finding.
+
+---
+
+#### Integration with the validated 90-work multi-source pilot
+
+The validated external-sharing pilot contains 90 retained selection-list works. The Open Library work key provided a one-to-one join key.
+
+Input:
+
+```text
+share/multisource_literary_visibility_pilot_90works/literary_visibility_pilot_90works.csv
+derived/openalex_visibility_summary_v4_full6007_enriched.tsv
+```
+
+Join result:
+
+```text
+90-work duplicate work keys: 0
+OpenAlex summary duplicate work keys: 0
+matched: 83
+unmatched: 7
+```
+
+All seven unmatched works had `openalex_title_author_count = 0` in the 90-work pilot and therefore correctly had no sampled OpenAlex candidate records. They were treated as candidate-count zero rather than as join failures.
+
+The 83 matched works showed exact consistency between the historical `openalex_title_author_count` and the new `total_candidates` field.
+
+First integrated 90-work master:
+
+```text
+derived/literary_visibility_master_90works_v4.tsv
+```
+
+Core measures included:
+
+```text
+OpenAlex semantic scholarly visibility
+JSTOR L&L relevant count
+Open Library edition count
+HathiTrust volume count
+```
+
+Goodreads data were then joined from the 34,789-work analysis base using the same `work_key`:
+
+```text
+derived/canon_analysis_base.tsv
+```
+
+Goodreads match status among the 90 works:
+
+| Match type | n |
+|---|---:|
+| UNIQUE | 40 |
+| YEAR_AUTH | 23 |
+| RATINGS_MAX | 13 |
+| MANUAL_FIX | 4 |
+| NO_MATCH | 5 |
+| NO_MATCH_AUTH | 5 |
+
+Ten works had `gr_ratings = 0`.
+
+Current integrated 90-work exploratory master:
+
+```text
+derived/literary_visibility_master_90works_v5.tsv
+```
+
+This file is the current preferred 90-work exploratory analysis table as of 2026-08-19. It does not replace the historical collaboration-sharing CSV.
+
+---
+
+#### Multi-source correlation structure — exploratory result
+
+Using all 90 works, Spearman rank correlations were calculated among the five currently available measures.
+
+Output:
+
+```text
+derived/literary_visibility_correlations_90works_v5.tsv
+```
+
+Key results:
+
+| Pair | Spearman rho | p |
+|---|---:|---:|
+| OpenAlex semantic — JSTOR L&L | 0.9158 | 1.28e-36 |
+| OpenAlex semantic — Goodreads | 0.8132 | 2.11e-22 |
+| JSTOR L&L — Goodreads | 0.6481 | 5.02e-12 |
+| Goodreads — Open Library | 0.4325 | 2.08e-05 |
+| OpenAlex semantic — Open Library | 0.2484 | 0.0182 |
+| JSTOR L&L — Open Library | 0.1252 | 0.240 |
+| Open Library — HathiTrust | 0.0292 | 0.785 |
+| Goodreads — HathiTrust | 0.0143 | 0.894 |
+| OpenAlex semantic — HathiTrust | 0.0073 | 0.946 |
+| JSTOR L&L — HathiTrust | -0.0285 | 0.790 |
+
+Interpretive caution:
+
+- OpenAlex semantic and JSTOR L&L strongly converge as scholarly-attention measures in this 90-work pilot;
+- Goodreads is also strongly associated with scholarly visibility and therefore should not simply be described as an independent axis;
+- Open Library edition count is only moderately / weakly associated with the scholarly and reader measures;
+- HathiTrust volume count behaves very differently and should not be assumed to measure the same underlying circulation construct without further audit;
+- these results do not justify collapsing all measures into a single canonicity score.
+
+---
+
+#### Academic–reader residual analysis
+
+Because scholarly visibility and Goodreads readership were strongly associated, the analysis moved beyond simple correlation to ask which works systematically depart from the expected academic–reader relationship.
+
+For the 80 works with `gr_ratings > 0`, both variables were log-transformed with `log1p`. An OLS-style simple linear relation was fit as:
+
+```text
+log(OpenAlex semantic visibility) ~ log(Goodreads ratings)
+```
+
+Result:
+
+```text
+N = 80
+slope = 0.5053
+r = 0.7891
+R² = 0.6227
+p = 3.51e-18
+```
+
+Output:
+
+```text
+derived/academic_reader_residuals_90works_v5.tsv
+```
+
+Positive residuals indicate more scholarly visibility than expected from readership; negative residuals indicate more readership than expected from scholarly visibility.
+
+Illustrative academic-heavy cases included:
+
+```text
+Ulysses
+Secret Agent
+Dubliners
+Jacob's Room
+The Story of an African Farm
+Orlando
+The Ambassadors
+To the Lighthouse
+Mrs. Dalloway
+Heart of Darkness
+```
+
+Illustrative reader-heavy cases included:
+
+```text
+The Scarlet Pimpernel
+The Prisoner of Zenda
+Tarzan of the Apes
+White Fang
+The Jungle Book
+Treasure Island
+The Call of the Wild
+Nineteen Eighty-Four
+```
+
+These are exploratory configurations, not yet historically established "canonization pathways."
+
+---
+
+#### Independent replication with JSTOR
+
+The same residual design was repeated using JSTOR L&L relevant counts in place of OpenAlex semantic visibility:
+
+```text
+log(JSTOR L&L relevant count) ~ log(Goodreads ratings)
+```
+
+Output:
+
+```text
+derived/jstor_reader_residuals_90works_v5.tsv
+```
+
+Result:
+
+```text
+N = 80
+slope = 0.3550
+R² = 0.3857
+p = 7.92e-10
+```
+
+Most importantly, the OpenAlex-based and JSTOR-based residual rankings strongly agreed:
+
+```text
+Spearman rho = 0.8645
+p = 5.19e-25
+```
+
+This replication suggests that the academic-heavy / reader-heavy configuration is not merely an artifact of the new OpenAlex classifier. Two different scholarly data sources independently identify similar deviations from the readership relationship.
+
+---
+
+#### Bibliographic follow-up with Open Library edition counts
+
+The standardized OpenAlex-reader and JSTOR-reader residuals were averaged to create a provisional combined academic-reader residual. This combined residual was then compared with Open Library edition counts.
+
+Output:
+
+```text
+derived/residual_bibliographic_analysis_90works_v5.tsv
+```
+
+Result:
+
+```text
+N = 80
+Spearman rho(combined academic-reader residual, OL editions) = -0.2186
+p = 0.0514
+```
+
+For exploratory description only, works were temporarily grouped as:
+
+```text
+reader-heavy: combined residual < -1
+roughly balanced: -1 <= combined residual <= 1
+academic-heavy: combined residual > 1
+```
+
+Open Library edition distribution:
+
+| Configuration | Works | Median editions | Mean editions |
+|---|---:|---:|---:|
+| reader-heavy | 12 | 264.0 | 399.8 |
+| roughly balanced | 60 | 158.5 | 311.0 |
+| academic-heavy | 8 | 151.0 | 264.8 |
+
+The weak negative association is suggestive but did not meet the conventional p<.05 threshold. More importantly, extreme Open Library edition values require a targeted quality audit before edition count is interpreted straightforwardly as publication / circulation history.
+
+Known examples requiring review include unusually low or high edition counts for major works. Do not interpret these values historically until work-level Open Library aggregation has been checked.
+
+---
+
+#### Current methodological interpretation — 2026-08-19
+
+The immediate methodological contribution of this extension is not that simple string retrieval and LLM semantic classification differ; that had already been established in Stage 5b-4. The new contribution is that:
+
+1. the candidate-level semantic classifier has now been evaluated on an independent held-out set at substantially larger scale;
+2. the fixed classifier has been applied to the full 6,007-record sampled candidate set;
+3. a semantically qualified OpenAlex work-level scholarly-visibility estimate is now available for the validated 90-work pilot;
+4. OpenAlex and JSTOR independently recover a strongly similar academic-versus-reader residual structure;
+5. preliminary multi-source results therefore support investigation of recurring visibility configurations rather than a single canonicity ranking;
+6. these configurations should not yet be called historical "pathways" unless temporal/process evidence is added.
+
+This distinction is important for the dissertation and KAKENHI planning. The analytical goal is no longer merely to document pairwise divergence among indicators, but to test whether recurrent combinations of scholarly, readerly, bibliographic, pedagogical, and cross-cultural selection signals can explain different modes by which literary works remain visible, become canonized, or persist outside conventional scholarly canons.
+
+---
+
+#### Known limitations / next steps
+
+1. `estimated_scholarly_count` is extrapolated from at most 40 sampled candidates per work and should not be presented as an exact publication count.
+2. Retrieval recall against all relevant OpenAlex scholarship remains unmeasured.
+3. `include_substantive` vs `include_mention` remains substantially less reliable than broad include/exclude classification.
+4. The 212-work stress-test set contains out-of-scope and non-work-like records by design; it is not itself the final literary-historical analysis corpus.
+5. The validated 90-work pilot remains the preferred short-term analysis set until the full population-level OpenAlex semantic workflow is redesigned for cost and scale.
+6. Goodreads values are from the UCSD 2017 snapshot and should be used comparatively, not as current absolute readership counts.
+7. Open Syllabus coverage in the current repository is only a small 15-work target set and has not yet been integrated into this 90-work analysis.
+8. Open Library edition counts require targeted audit of extreme / suspicious values before they are interpreted as bibliographic circulation.
+9. HathiTrust volume counts appear nearly uncorrelated with the other measures in this pilot and require conceptual / data-quality review before being treated as the same type of circulation signal.
+10. Canon Curator / Canon Shelf cross-cultural selection data remain a separate collaboration stream and should be joined only after its provenance and selection-list semantics are finalized.
+
+---
+
+#### Key files to preserve
+
+```text
+# Candidate retrieval / large-scale API judgments
+derived/openalex_candidates_counts.tsv
+derived/openalex_candidates_dump.tsv
+derived/openalex_visibility_judgments_validation212.tsv
+derived/openalex_visibility_judgments_v4_dev300.tsv
+derived/openalex_visibility_judgments_v4_heldout150.tsv
+derived/openalex_visibility_judgments_v4_full6007.tsv
+derived/openalex_visibility_summary_v4_full6007.tsv
+derived/openalex_visibility_summary_v4_full6007_enriched.tsv
+
+# Human validation / audit
+audit/openalex_validation212_human_blind_300.tsv
+audit/openalex_validation212_human_gold_300.tsv
+audit/openalex_validation212_v1_vs_v4_summary.tsv
+audit/openalex_validation212_heldout150_human_blind.tsv
+audit/openalex_validation212_heldout150_sampling_key.tsv
+audit/openalex_validation212_heldout150_human_gold.tsv
+audit/openalex_validation212_heldout150_final_metrics.tsv
+audit/openalex_validation212_heldout150_disagreements.tsv
+audit/openalex_validation212_heldout150_binary_errors.tsv
+
+# 90-work integrated exploratory analysis
+derived/literary_visibility_master_90works_v4.tsv
+derived/literary_visibility_master_90works_v5.tsv
+derived/literary_visibility_correlations_90works_v5.tsv
+derived/academic_reader_residuals_90works_v5.tsv
+derived/jstor_reader_residuals_90works_v5.tsv
+derived/residual_bibliographic_analysis_90works_v5.tsv
+```
+
+---
+
+#### Release record
+
+| Release ID | Date | Key artifact / meaning |
+|---|---|---|
+| openalex-validation212-v1 | 2026-08-18 | `derived/openalex_visibility_judgments_validation212.tsv` — first 6,007-record classification run |
+| openalex-validation300-human-v1 | 2026-08-18 | `audit/openalex_validation212_human_gold_300.tsv` — development human gold set |
+| openalex-v4-dev300-v1 | 2026-08-18 | `derived/openalex_visibility_judgments_v4_dev300.tsv` — revised prompt development result |
+| openalex-v4-heldout150-v1 | 2026-08-18 | `audit/openalex_validation212_heldout150_final_metrics.tsv` — independent held-out evaluation, binary F1=0.935 |
+| openalex-v4-full6007-v1 | 2026-08-18 | `derived/openalex_visibility_judgments_v4_full6007.tsv` — preferred fixed-v4 candidate-level output |
+| openalex-semantic-summary-v1 | 2026-08-18 | `derived/openalex_visibility_summary_v4_full6007_enriched.tsv` — work-level semantic estimate |
+| literary-visibility-master90-v5 | 2026-08-19 | `derived/literary_visibility_master_90works_v5.tsv` — OpenAlex/JSTOR/Goodreads/OL/HT integrated pilot master |
+| academic-reader-residual90-v1 | 2026-08-19 | `derived/jstor_reader_residuals_90works_v5.tsv` + `derived/academic_reader_residuals_90works_v5.tsv` — replicated academic-reader configuration |
 
 ---
 

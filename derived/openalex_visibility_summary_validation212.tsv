@@ -1,0 +1,188 @@
+work_key	work_title	work_author	total_candidates	sampling_method	sampling_seed	sampled_n	include_substantive_n	include_mention_n	broad_visibility_include_n	exclude_non_scholarly_n	exclude_unrelated_n	unclear_n	error_n	broad_visibility_rate_among_decided	model	prompt_version
+/works/OL82911W	A Fable	William Faulkner	61	uniform_reservoir_sampling	20260713	40	23	2	25	0	13	2	0	0.658	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1190289W	À la recherche du temps perdu	Proust, Marcel	748	uniform_reservoir_sampling	20260713	40	35	1	36	2	2	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL38989822W	A portrait of the artist as a young man	Joyce, James	509	uniform_reservoir_sampling	20260713	40	27	3	30	2	5	3	0	0.811	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL88813W	A Room with a View	E. M. Forster	85	uniform_reservoir_sampling	20260713	40	31	2	33	2	4	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL262496W	A Study in Scarlet	Doyle, Arthur Conan	48	uniform_reservoir_sampling	20260713	40	22	8	30	6	4	0	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL82928W	Absalom, Absalom!	William Faulkner	379	uniform_reservoir_sampling	20260713	40	31	4	35	0	5	0	0	0.875	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL18448451W	Aesop's fables	Aesop.	362	uniform_reservoir_sampling	20260713	40	18	3	21	11	5	3	0	0.568	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1487721W	Alas!	Rhoda Broughton	1	uniform_reservoir_sampling	20260713	1	0	0	0	0	1	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL12781W	Alexander's Bridge	Willa Cather	32	uniform_reservoir_sampling	20260713	32	24	5	29	0	2	1	0	0.935	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1336767W	Arnold	Arnold, Matthew	34536	uniform_reservoir_sampling	20260713	40	3	0	3	0	37	0	0	0.075	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL82929W	As I Lay Dying	William Faulkner	285	uniform_reservoir_sampling	20260713	40	30	3	33	1	5	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL65437W	At Fault	Kate Chopin	13	uniform_reservoir_sampling	20260713	13	9	3	12	0	1	0	0	0.923	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL102746W	Billy Budd	Herman Melville	268	uniform_reservoir_sampling	20260713	40	31	2	33	2	4	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL5721394W	Brideshead Revisited	Evelyn Waugh	73	uniform_reservoir_sampling	20260713	40	28	4	32	1	6	1	0	0.821	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL23199W	Cannery Row	John Steinbeck	70	uniform_reservoir_sampling	20260713	40	19	8	27	0	12	1	0	0.692	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL15378100W	Chaucer	Chaucer, Geoffrey	7818	uniform_reservoir_sampling	20260713	40	26	5	31	4	4	1	0	0.795	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL5287344W	Coming home	Lester Cohen	2	uniform_reservoir_sampling	20260713	2	0	0	0	0	2	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL2238016W	Conversazione in Sicilia	Elio Vittorini	29	uniform_reservoir_sampling	20260713	29	25	1	26	1	2	0	0	0.897	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL7965965W	D.H. Lawrence	Lawrence, D. H.	3458	uniform_reservoir_sampling	20260713	40	36	1	37	0	3	0	0	0.925	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL38733821W	Daniel Deronda	George Eliot	320	uniform_reservoir_sampling	20260713	40	34	0	34	0	3	3	0	0.919	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL24219W	Democracy	Adams, Henry	324	uniform_reservoir_sampling	20260713	40	3	1	4	0	35	1	0	0.103	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL14867080W	Doctor Faustus	Thomas Mann	112	uniform_reservoir_sampling	20260713	40	29	2	31	1	7	1	0	0.795	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL43157758W	Don Quixote	Miguel de Cervantes Saavedra	84	uniform_reservoir_sampling	20260713	40	14	1	15	20	5	0	0	0.375	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL85892W	Dracula	Bram Stoker	774	uniform_reservoir_sampling	20260713	40	24	5	29	4	5	2	0	0.763	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL86320W	Dubliners	Joyce, James	689	uniform_reservoir_sampling	20260713	40	32	2	34	3	1	2	0	0.895	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL41035W	Edgar Allan Poe	Poe, Edgar Allan	3078	uniform_reservoir_sampling	20260713	40	25	2	27	7	6	0	0	0.675	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL98501W	Ethan Frome	Edith Wharton	83	uniform_reservoir_sampling	20260713	40	25	3	28	3	4	5	0	0.800	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL27517W	Farmer Giles of Ham	J. R. R. Tolkien	15	uniform_reservoir_sampling	20260713	15	4	6	10	1	2	2	0	0.769	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL86319W	Finnegans Wake	Joyce, James	755	uniform_reservoir_sampling	20260713	40	30	2	32	1	4	3	0	0.865	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL471666W	Five Little Pigs	Agatha Christie	5	uniform_reservoir_sampling	20260713	5	3	0	3	1	1	0	0	0.600	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL63009W	For Whom the Bell Tolls	Ernest Hemingway	249	uniform_reservoir_sampling	20260713	40	30	5	35	0	4	1	0	0.897	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL118986W	Germinal	Emile Zola	194	uniform_reservoir_sampling	20260713	40	35	1	36	1	2	1	0	0.923	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL4390503W	Gone to Earth	Mary Gladys Meredith Webb	8	uniform_reservoir_sampling	20260713	8	5	1	6	1	1	0	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44368791W	Gulliver's travels	Swift, Jonathan	491	uniform_reservoir_sampling	20260713	40	25	2	27	3	7	3	0	0.730	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL42601058W	Hard times	Charles Dickens	315	uniform_reservoir_sampling	20260713	40	32	3	35	0	3	2	0	0.921	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL31971259W	Heart of Darkness	Conrad, Joseph	1005	uniform_reservoir_sampling	20260713	40	34	2	36	0	3	1	0	0.923	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL25129727W	Hedda Gabler	Henrik Ibsen	156	uniform_reservoir_sampling	20260713	40	30	1	31	1	5	3	0	0.838	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL276471W	Henry James	James, Henry	5613	uniform_reservoir_sampling	20260713	40	28	3	31	0	6	3	0	0.838	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL29305W	Henry James	Leon Edel	144	uniform_reservoir_sampling	20260713	40	15	7	22	0	17	1	0	0.564	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL88881W	Howards End	E. M. Forster	182	uniform_reservoir_sampling	20260713	40	31	7	38	0	1	1	0	0.974	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL7906207W	In action	Frederick Britten Austin	60	uniform_reservoir_sampling	20260713	40	1	0	1	0	39	0	0	0.025	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39329W	Jacob's Room	Virginia Woolf	160	uniform_reservoir_sampling	20260713	40	29	2	31	1	4	4	0	0.861	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL34726252W	Jane Eyre	Brontë, Charlotte	1007	uniform_reservoir_sampling	20260713	40	37	0	37	1	1	1	0	0.949	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL4902750W	Java Head	Joseph Hergesheimer	1	uniform_reservoir_sampling	20260713	1	1	0	1	0	0	0	0	1.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL15202836W	Josephus	Josephus, Flavius.	2750	uniform_reservoir_sampling	20260713	40	22	3	25	1	12	2	0	0.658	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39453744W	Jude the obscure	Hardy, Thomas	343	uniform_reservoir_sampling	20260713	40	36	1	37	1	2	0	0	0.925	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL20172W	Kim	Kipling, Rudyard	218	uniform_reservoir_sampling	20260713	40	28	4	32	0	8	0	0	0.800	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL115067W	King Coal	Upton Sinclair	6	uniform_reservoir_sampling	20260713	6	2	2	4	0	2	0	0	0.667	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL118969W	L' argent	Emile Zola	41	uniform_reservoir_sampling	20260713	40	29	1	30	4	6	0	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL43405505W	Lady Chatterley's lover	Lawrence, D. H.	287	uniform_reservoir_sampling	20260713	40	36	1	37	0	2	1	0	0.949	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL109231W	Leonora	Bennett, Arnold	2	uniform_reservoir_sampling	20260713	2	0	0	0	0	2	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL82931W	Light in August	William Faulkner	289	uniform_reservoir_sampling	20260713	40	35	0	35	0	3	2	0	0.921	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL6700573W	Living Alone	Stella Benson	4	uniform_reservoir_sampling	20260713	4	2	0	2	0	2	0	0	0.500	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL18814811W	Looking backward	Bellamy, Edward	106	uniform_reservoir_sampling	20260713	40	30	3	33	0	7	0	0	0.825	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL32036014W	Lord Jim	Conrad, Joseph	372	uniform_reservoir_sampling	20260713	40	30	1	31	1	5	3	0	0.838	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL20839W	Maggie, a girl of the streets	Crane, Stephen	49	uniform_reservoir_sampling	20260713	40	31	2	33	3	4	0	0	0.825	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1124016W	Maria Edgeworth	Edgeworth, Maria	585	uniform_reservoir_sampling	20260713	40	24	5	29	4	7	0	0	0.725	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL144822W	Martin Eden	Jack London	94	uniform_reservoir_sampling	20260713	40	33	1	34	1	2	3	0	0.919	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1794911W	McTeague	Frank Norris	73	uniform_reservoir_sampling	20260713	40	31	1	32	1	6	1	0	0.821	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL4971729W	Megda	Emma Dunham Kelley	3	uniform_reservoir_sampling	20260713	3	2	0	2	0	1	0	0	0.667	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1451547W	Michael Kohlhaas	Heinrich von Kleist	101	uniform_reservoir_sampling	20260713	40	34	0	34	3	0	3	0	0.919	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL42468585W	Moby Dick	Herman Melville	971	uniform_reservoir_sampling	20260713	40	29	5	34	2	2	2	0	0.895	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44047506W	Moby-Dick; or, The whale	Herman Melville	40	uniform_reservoir_sampling	20260713	40	34	2	36	4	0	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL8675756W	Monkey	Wu, Cheng'en	92	uniform_reservoir_sampling	20260713	40	14	1	15	0	24	1	0	0.385	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL12104222W	Monkey	Chʻeng-en Wu	92	uniform_reservoir_sampling	20260713	40	14	1	15	3	22	0	0	0.375	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39349W	Mrs. Dalloway	Virginia Woolf	740	uniform_reservoir_sampling	20260713	40	35	2	37	0	3	0	0	0.925	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL275128W	Native Son	Wright, Richard	307	uniform_reservoir_sampling	20260713	40	28	5	33	0	6	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL5293697W	New day	Victor Stafford Reid	7	uniform_reservoir_sampling	20260713	7	3	0	3	0	3	1	0	0.500	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL27244253W	New South	Horatio M. Bennett	70	uniform_reservoir_sampling	20260713	40	0	1	1	0	39	0	0	0.025	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL505583W	Nightwood	Barnes, Djuna.	131	uniform_reservoir_sampling	20260713	40	31	3	34	1	4	1	0	0.872	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL3335290W	Nine Stories	J. D. Salinger	21	uniform_reservoir_sampling	20260713	21	16	0	16	2	2	1	0	0.800	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1168083W	Nineteen Eighty-Four	George Orwell	437	uniform_reservoir_sampling	20260713	40	28	3	31	6	2	1	0	0.795	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1064049W	Notre-Dame	Victor Hugo	244	uniform_reservoir_sampling	20260713	40	26	3	29	4	6	1	0	0.744	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44754882W	Oliver Twist	Charles Dickens	473	uniform_reservoir_sampling	20260713	40	27	6	33	2	4	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL2742623W	On writing	Anaïs Nin	44	uniform_reservoir_sampling	20260713	40	0	0	0	0	40	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39360W	Orlando	Virginia Woolf	431	uniform_reservoir_sampling	20260713	40	31	3	34	0	5	1	0	0.872	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44277048W	Our mutual friend	Charles Dickens	262	uniform_reservoir_sampling	20260713	40	28	2	30	0	9	1	0	0.769	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL509919W	Parade's End	Ford Madox Ford	102	uniform_reservoir_sampling	20260713	40	29	3	32	0	7	1	0	0.821	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL503565W	Paz en la guerra	Miguel de Unamuno	27	uniform_reservoir_sampling	20260713	27	20	0	20	2	3	2	0	0.800	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL507321W	Pembroke	Mary Eleanor Wilkins Freeman	9	uniform_reservoir_sampling	20260713	9	3	0	3	0	6	0	0	0.333	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL872903W	Peter Camenzind	Hermann Hesse	36	uniform_reservoir_sampling	20260713	36	27	1	28	5	3	0	0	0.778	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL462007W	Peter Pan	J. M. Barrie	241	uniform_reservoir_sampling	20260713	40	27	0	27	10	1	2	0	0.711	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44675271W	Pride and prejudice	Austen, Jane	1029	uniform_reservoir_sampling	20260713	40	28	3	31	3	4	2	0	0.816	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL17996804W	Quo vadis?	Henryk Sienkiewicz	53	uniform_reservoir_sampling	20260713	40	26	7	33	3	2	2	0	0.868	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL42430849W	Red Badge of Courage	Stephen Crane	153	uniform_reservoir_sampling	20260713	40	35	1	36	0	3	1	0	0.923	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL29252913W	Rip Van Winkle	Irving, Washington	100	uniform_reservoir_sampling	20260713	40	25	5	30	4	5	1	0	0.769	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL41540816W	Robert Elsmere	Humphry Ward	28	uniform_reservoir_sampling	20260713	28	20	2	22	0	5	1	0	0.815	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL32099881W	Robinson Crusoe	Daniel De Foe	86	uniform_reservoir_sampling	20260713	40	31	2	33	7	0	0	0	0.825	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL16574029W	Robinson Crusoe	Daniel Defoe	664	uniform_reservoir_sampling	20260713	40	31	3	34	2	2	2	0	0.895	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL82925W	Sanctuary	William Faulkner	135	uniform_reservoir_sampling	20260713	40	26	5	31	1	7	1	0	0.795	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL82930W	Sartoris	William Faulkner	79	uniform_reservoir_sampling	20260713	40	29	5	34	0	5	1	0	0.872	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1518264W	Sherlock Holmes	Doyle, Arthur Conan	645	uniform_reservoir_sampling	20260713	40	24	4	28	6	6	0	0	0.700	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL17638106W	Sir Gawain and the Green knight	S. O. Andrew	17	uniform_reservoir_sampling	20260713	17	8	0	8	2	5	2	0	0.533	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL18226531W	Sir Gawain and the Green Knight	Gollancz, Israel	3	uniform_reservoir_sampling	20260713	3	2	0	2	0	1	0	0	0.667	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL100203W	Sister Carrie	Theodore Dreiser	254	uniform_reservoir_sampling	20260713	40	29	4	33	2	4	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL81295W	Sons and Lovers	Lawrence, D. H.	299	uniform_reservoir_sampling	20260713	40	34	1	35	0	3	2	0	0.921	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1672346W	Stone soup	Marcia Brown	4	uniform_reservoir_sampling	20260713	4	0	0	0	0	4	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44014215W	Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	196	uniform_reservoir_sampling	20260713	40	28	2	30	4	6	0	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL98586W	Summer	Edith Wharton	131	uniform_reservoir_sampling	20260713	40	17	1	18	0	22	0	0	0.450	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	17	uniform_reservoir_sampling	20260713	17	11	2	13	1	3	0	0	0.765	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL7012129W	Temper	Lawrence H. Conrad	11	uniform_reservoir_sampling	20260713	11	0	0	0	0	11	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL468485W	Tender is the Night	F. Scott Fitzgerald	185	uniform_reservoir_sampling	20260713	40	34	2	36	0	4	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	504	uniform_reservoir_sampling	20260713	40	36	0	36	1	1	2	0	0.947	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL98491W	The Age of Innocence	Edith Wharton	174	uniform_reservoir_sampling	20260713	40	33	2	35	2	2	1	0	0.897	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL276470W	The Ambassadors	James, Henry	207	uniform_reservoir_sampling	20260713	40	32	1	33	1	6	0	0	0.825	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1067116W	The American	Howard Fast	2809	uniform_reservoir_sampling	20260713	40	0	0	0	1	39	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL7710777W	The American	Dillon, Mary	179	uniform_reservoir_sampling	20260713	40	0	0	0	0	40	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL37277W	The Autobiography of Alice B. Toklas	Gertrude Stein	70	uniform_reservoir_sampling	20260713	40	27	4	31	0	5	4	0	0.861	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL65430W	The Awakening	Kate Chopin	411	uniform_reservoir_sampling	20260713	40	34	1	35	1	3	1	0	0.897	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL468362W	The Beautiful and Damned	F. Scott Fitzgerald	52	uniform_reservoir_sampling	20260713	40	28	3	31	3	4	2	0	0.816	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL24161W	The  black arrow	Robert Louis Stevenson	9	uniform_reservoir_sampling	20260713	9	5	1	6	0	2	1	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL485410W	The border legion	Zane Grey	2	uniform_reservoir_sampling	20260713	2	1	0	1	1	0	0	0	0.500	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL14942956W	The Call of the Wild	Jack London	143	uniform_reservoir_sampling	20260713	40	28	2	30	2	5	3	0	0.811	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL247045W	The Consul	Davis, Richard Harding	2	uniform_reservoir_sampling	20260713	2	0	0	0	0	2	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1154817W	The Crock of Gold	Stephens, James	3	uniform_reservoir_sampling	20260713	3	1	2	3	0	0	0	0	1.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL98585W	The Custom of the Country	Edith Wharton	65	uniform_reservoir_sampling	20260713	40	33	5	38	0	1	1	0	0.974	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL100237W	The Financier	Theodore Dreiser	35	uniform_reservoir_sampling	20260713	35	27	2	29	0	4	2	0	0.879	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL4092658W	The Foundling	Georgette Heyer	1	uniform_reservoir_sampling	20260713	1	0	0	0	1	0	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL100196W	"The ""genius"""	Theodore Dreiser	21	uniform_reservoir_sampling	20260713	21	13	1	14	0	7	0	0	0.667	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL509889W	The Good Soldier	Ford Madox Ford	125	uniform_reservoir_sampling	20260713	40	25	2	27	2	8	3	0	0.730	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL109153W	The Grand Babylon Hotel	Bennett, Arnold	1	uniform_reservoir_sampling	20260713	1	1	0	1	0	0	0	0	1.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL35353208W	The Great Gatsby	F. Scott Fitzgerald	858	uniform_reservoir_sampling	20260713	40	39	0	39	1	0	0	0	0.975	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL4315764W	The Heavenly Twins	Sarah Grand	32	uniform_reservoir_sampling	20260713	32	25	2	27	0	3	2	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL42236259W	The house of mirth	Edith Wharton	218	uniform_reservoir_sampling	20260713	40	33	1	34	0	5	1	0	0.872	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL482892W	The Ides of March	Thornton Wilder	11	uniform_reservoir_sampling	20260713	11	7	1	8	1	2	0	0	0.727	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL51141W	The job	Sinclair Lewis	161	uniform_reservoir_sampling	20260713	40	0	0	0	0	40	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL44622934W	The jungle	Upton Sinclair	104	uniform_reservoir_sampling	20260713	40	26	8	34	1	4	1	0	0.872	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL19870W	The Jungle Book	Kipling, Rudyard	83	uniform_reservoir_sampling	20260713	40	21	3	24	10	5	1	0	0.615	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL20642341W	The key	Lee Thayer	31	uniform_reservoir_sampling	20260713	31	0	0	0	0	31	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL112798W	The marrow of tradition	Charles Waddell Chesnutt	54	uniform_reservoir_sampling	20260713	40	26	4	30	1	8	1	0	0.769	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL24164W	The master of Ballantrae	Robert Louis Stevenson	23	uniform_reservoir_sampling	20260713	23	19	0	19	2	2	0	0	0.826	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL505740W	The moon and sixpence	W. Somerset Maugham	41	uniform_reservoir_sampling	20260713	40	33	0	33	2	4	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL23200W	The Moon is Down	John Steinbeck	36	uniform_reservoir_sampling	20260713	36	22	6	28	3	5	0	0	0.778	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL262473W	The Mystery of Cloomber	Doyle, Arthur Conan	1	uniform_reservoir_sampling	20260713	1	1	0	1	0	0	0	0	1.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL32097612W	The nightingale	Hans Christian Andersen	32	uniform_reservoir_sampling	20260713	32	11	6	17	10	4	1	0	0.548	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1202890W	The ocean	Hanley, James	5	uniform_reservoir_sampling	20260713	5	1	0	1	0	4	0	0	0.200	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL715621W	The odd women	George Gissing	35	uniform_reservoir_sampling	20260713	35	26	1	27	1	7	0	0	0.771	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1140168W	The Patriot	Pearl S. Buck	5	uniform_reservoir_sampling	20260713	5	1	0	1	0	4	0	0	0.200	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL8193416W	The Picture of Dorian Gray	Oscar Wilde	504	uniform_reservoir_sampling	20260713	40	32	2	34	1	2	3	0	0.919	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1794919W	The Pit	Frank Norris	21	uniform_reservoir_sampling	20260713	21	13	2	15	0	5	1	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL17669937W	The portrait	A. G. Riddle	7	uniform_reservoir_sampling	20260713	7	0	0	0	0	7	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL276365W	The Portrait of a Lady	James, Henry	396	uniform_reservoir_sampling	20260713	40	36	0	36	1	3	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL106084W	The power and the Glory	Greene, Graham	70	uniform_reservoir_sampling	20260713	40	36	1	37	0	2	1	0	0.949	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL245401W	The Prisoner of Zenda	Anthony Hope	14	uniform_reservoir_sampling	20260713	14	6	1	7	3	4	0	0	0.500	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1140289W	The promise	Pearl S. Buck	28	uniform_reservoir_sampling	20260713	28	0	0	0	0	28	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL81293W	The Rainbow	Lawrence, D. H.	286	uniform_reservoir_sampling	20260713	40	33	0	33	0	6	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL42517032W	The red badge of courage	Crane, Stephen	153	uniform_reservoir_sampling	20260713	40	32	4	36	0	4	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39081W	The rescue	Conrad, Joseph	30	uniform_reservoir_sampling	20260713	30	20	2	22	1	5	2	0	0.786	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL27834207W	The Return of the Soldier	Rebecca West	40	uniform_reservoir_sampling	20260713	40	29	0	29	1	5	5	0	0.829	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL14864528W	The rise of David Levinsky	Abraham Cahan	24	uniform_reservoir_sampling	20260713	24	12	2	14	0	9	1	0	0.609	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL6833332W	The rising	Myrtle Johnston	12	uniform_reservoir_sampling	20260713	12	0	0	0	0	12	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL7730788W	The Rock	Bradfute Warwick	16	uniform_reservoir_sampling	20260713	16	0	0	0	0	16	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL24318597W	The Scarlet Letter	Nathaniel Hawthorne	796	uniform_reservoir_sampling	20260713	40	33	2	35	1	4	0	0	0.875	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL455546W	The Scarlet Letter	Lake Education	36	uniform_reservoir_sampling	20260713	36	13	9	22	2	11	1	0	0.629	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1253285W	The Scarlet Pimpernel	Orczy, Emmuska Orczy	8	uniform_reservoir_sampling	20260713	8	2	1	3	5	0	0	0	0.375	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39108W	The Secret Agent	Conrad, Joseph	285	uniform_reservoir_sampling	20260713	40	34	1	35	1	3	1	0	0.897	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL38827W	The shadow-line	Conrad, Joseph	71	uniform_reservoir_sampling	20260713	40	28	1	29	5	5	1	0	0.744	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL52246W	The Shape of Things to Come	H. G. Wells	16	uniform_reservoir_sampling	20260713	16	9	2	11	1	4	0	0	0.688	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL82870W	The Sound and the Fury	William Faulkner	492	uniform_reservoir_sampling	20260713	40	35	0	35	1	3	1	0	0.897	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL18561767W	The story of an African farm	Olive Schreiner	74	uniform_reservoir_sampling	20260713	40	36	1	37	1	2	0	0	0.925	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL62979W	The Sun Also Rises	Ernest Hemingway	416	uniform_reservoir_sampling	20260713	40	27	3	30	3	6	1	0	0.769	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL81599W	The talisman	King, Stephen	13	uniform_reservoir_sampling	20260713	13	2	2	4	2	7	0	0	0.308	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL52267W	The Time Machine	H. G. Wells	233	uniform_reservoir_sampling	20260713	40	26	2	28	2	10	0	0	0.700	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL32089427W	The trial	Yonge, Charlotte Mary	4	uniform_reservoir_sampling	20260713	4	2	0	2	0	2	0	0	0.500	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL276386W	The Turn of the Screw	James, Henry	280	uniform_reservoir_sampling	20260713	40	31	2	33	2	4	1	0	0.846	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39316W	The Waves	Virginia Woolf	358	uniform_reservoir_sampling	20260713	40	31	0	31	1	5	3	0	0.838	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL22372W	The way of all flesh	Butler, Samuel	35	uniform_reservoir_sampling	20260713	35	28	6	34	0	1	0	0	0.971	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL111382W	The Yearling	Marjorie Kinnan Rawlings	14	uniform_reservoir_sampling	20260713	14	5	4	9	2	3	0	0	0.643	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39575W	The years	Virginia Woolf	199	uniform_reservoir_sampling	20260713	40	18	3	21	1	17	1	0	0.538	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL468488W	This Side of Paradise	F. Scott Fitzgerald	99	uniform_reservoir_sampling	20260713	40	26	3	29	2	9	0	0	0.725	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL35383W	Three Lives	Gertrude Stein	50	uniform_reservoir_sampling	20260713	40	32	1	33	0	5	2	0	0.868	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1217993W	Three soldiers	John Dos Passos	31	uniform_reservoir_sampling	20260713	31	22	2	24	2	3	2	0	0.828	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL39396W	To the Lighthouse	Virginia Woolf	634	uniform_reservoir_sampling	20260713	40	30	0	30	1	4	5	0	0.857	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL25639159W	Tom Sawyer	Mark Twain	277	uniform_reservoir_sampling	20260713	40	19	7	26	3	9	2	0	0.684	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL24034W	Treasure Island	Robert Louis Stevenson	155	uniform_reservoir_sampling	20260713	40	23	7	30	3	7	0	0	0.750	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL40252771W	Turn of the Screw	Henry James	280	uniform_reservoir_sampling	20260713	40	32	1	33	2	2	3	0	0.892	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL1217995W	U.S.A	John Dos Passos	106	uniform_reservoir_sampling	20260713	40	32	4	36	1	3	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL35695219W	Ulysses	James Joyce	2194	uniform_reservoir_sampling	20260713	40	29	7	36	1	3	0	0	0.900	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL38753W	Under Western Eyes	Conrad, Joseph	181	uniform_reservoir_sampling	20260713	40	29	3	32	0	4	4	0	0.889	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL93840W	Une vie	Guy de Maupassant	54	uniform_reservoir_sampling	20260713	40	24	3	27	2	5	6	0	0.794	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL5721561W	Vile Bodies	Evelyn Waugh	24	uniform_reservoir_sampling	20260713	24	22	0	22	0	2	0	0	0.917	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL17711195W	Virginia	Maie Dove] [from old catalog Day	5433	uniform_reservoir_sampling	20260713	40	0	0	0	4	36	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL42516882W	Waverley	Scott, Walter	346	uniform_reservoir_sampling	20260713	40	33	1	34	0	6	0	0	0.850	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL74504W	White Fang	Jack London	55	uniform_reservoir_sampling	20260713	40	25	4	29	6	3	2	0	0.763	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL83012W	Winnetou	Karl Friedrich May	44	uniform_reservoir_sampling	20260713	40	24	3	27	6	5	2	0	0.711	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL104609W	Wolf Solent	J. S. Powys	8	uniform_reservoir_sampling	20260713	8	7	0	7	0	1	0	0	0.875	gpt-5-mini	literary_visibility_validation212_20260818
+/works/OL9655996W	You Can	George Matthew Adams	274	uniform_reservoir_sampling	20260713	40	0	0	0	2	38	0	0	0.000	gpt-5-mini	literary_visibility_validation212_20260818

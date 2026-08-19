@@ -1,0 +1,6 @@
+	llm:include_substantive	llm:include_mention	llm:exclude_non_scholarly	llm:exclude_unrelated	llm:unclear
+human:include_substantive	112	0	0	0	1
+human:include_mention	43	5	0	1	0
+human:exclude_non_scholarly	15	10	21	13	3
+human:exclude_unrelated	0	0	1	55	1
+human:unclear	14	1	0	2	2
