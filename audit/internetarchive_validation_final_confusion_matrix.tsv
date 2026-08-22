@@ -1,0 +1,7 @@
+	llm:adaptation_derivative	llm:pedagogical_metatext	llm:primary_text	llm:scholarly_metatext	llm:unclear	llm:unrelated
+human:adaptation_derivative	7	0	1	0	0	0
+human:pedagogical_metatext	0	1	0	0	0	0
+human:primary_text	0	0	45	0	0	0
+human:scholarly_metatext	0	0	0	7	0	0
+human:unclear	1	0	1	0	0	2
+human:unrelated	1	0	0	0	3	31

@@ -1,0 +1,91 @@
+openlibrary_work_key	selection_title	selection_author	primary_numfound_reported	primary_unique_retrieved	broad_numfound_reported	broad_unique_retrieved	broad_author_evidenced	broad_other_total	broad_other_retained	final_candidates_for_llm	retrieval_completed
+/works/OL2339087W	The Red Axe	S R Crockett	0	0	5	5	5	0	0	5	True
+/works/OL51141W	The Job	Sinclair Lewis	2	2	2458	1671	9	1662	100	109	True
+/works/OL81295W	Sons and Lovers	D. H. Lawrence	41	41	209	199	182	17	17	201	True
+/works/OL1794911W	McTeague	Frank Norris	17	17	46	46	42	4	4	46	True
+/works/OL468488W	This Side of Paradise	F Scott Fitzgerald	83	83	148	145	124	21	21	148	True
+/works/OL276470W	The Ambassadors	Henry James	62	62	186	184	127	57	57	184	True
+/works/OL35353208W	The Great Gatsby	F Scott Fitzgerald	111	111	305	298	241	57	57	302	True
+/works/OL82870W	The Sound and the Fury	William Faulkner	42	42	107	105	89	16	16	106	True
+/works/OL1797270W	Senator North	Gertrude Atherton	2	2	15	15	14	1	1	15	True
+/works/OL98491W	The Age of Innocence	Edith Wharton	42	42	100	99	81	18	18	99	True
+/works/OL1168083W	Nineteen Eighty-Four	George Orwell	40	40	98	97	88	9	9	97	True
+/works/OL276365W	The Portrait of a Lady	Henry James	66	64	183	172	150	22	22	174	True
+/works/OL31971259W	Heart of Darkness	Joseph Conrad	49	49	262	250	172	78	78	251	True
+/works/OL62979W	The Sun Also Rises	Ernest Hemingway	88	88	148	145	131	14	14	147	True
+/works/OL20839W	Maggie, a girl of the streets	Stephen Crane	12	12	39	39	38	1	1	39	True
+/works/OL1418251W	Tarzan of the Apes	Edgar Rice Burroughs	33	33	55	54	51	3	3	55	True
+/works/OL1253285W	The Scarlet Pimpernel	Emma Orczy	0	0	97	94	82	12	12	94	True
+/works/OL52267W	The Time Machine	H. G. Wells	44	44	206	198	144	54	54	199	True
+/works/OL37277W	Autobiography of Alice B Toklas	Gertrude Stein	2	2	19	19	7	12	12	19	True
+/works/OL144822W	Martin Eden	Jack London	20	20	51	51	46	5	5	51	True
+/works/OL18561767W	The Story of an African Farm	Olive Schreiner	5	5	25	25	20	5	5	25	True
+/works/OL262473W	The Mystery of the Cloomber	Arthur Conan Doyle	0	0	0	0	0	0	0	0	True
+/works/OL27834207W	Return Of The Soldier	Nathaniel West	0	0	20	20	20	0	0	20	True
+/works/OL4390503W	Gone to Earth	Mary Webb	6	6	14	14	12	2	2	14	True
+/works/OL13144755W	The Homeward Trail	Waldron Baily	1	1	4	4	2	2	2	4	True
+/works/OL42517032W	The Red Badge of Courage	Stephen Crane	96	94	256	248	207	41	41	251	True
+/works/OL88881W	Howard's End	E. M. Forster	2	2	7	7	7	0	0	7	True
+/works/OL38989822W	A Portrait of the Artist as a Young Man	James Joyce	69	69	178	171	154	17	17	173	True
+/works/OL39453744W	Jude the Obscure	Thomas Hardy	45	45	122	118	108	10	10	120	True
+/works/OL39108W	Secret Agent	Joseph Conrad	30	30	351	332	75	257	100	177	True
+/works/OL40434746W	Tess of the D'Urbervilles	Thomas Hardy	69	65	215	202	189	13	13	205	True
+/works/OL35695219W	Ulysses	James Joyce	113	110	1636	1493	342	1151	100	446	True
+/works/OL86320W	Dubliners	James Joyce	49	49	178	172	154	18	18	173	True
+/works/OL14864528W	The Rise of David Levinsky	Abraham Cahan	6	6	19	19	16	3	3	19	True
+/works/OL245401W	The Prisoner of Zenda	Anthony Hope	37	37	83	82	70	12	12	82	True
+/works/OL715621W	The Odd Women	George Gissing	4	4	16	16	15	1	1	16	True
+/works/OL12781W	Alexander's Bridge	Willa Cather	5	5	25	25	24	1	1	25	True
+/works/OL39329W	Jacob's Room	Virginia Woolf	11	11	33	33	29	4	4	33	True
+/works/OL98501W	Ethan Frome	Edith Wharton	77	77	199	198	138	60	60	199	True
+/works/OL24034W	Treasure Island	Robert Louis Stevenson	287	282	934	891	576	315	100	687	True
+/works/OL40252771W	The Turn of the Screw	Henry James	70	68	172	164	144	20	20	168	True
+/works/OL74504W	White Fang	Jack London	68	68	193	187	174	13	13	187	True
+/works/OL18814811W	Looking Backward	Edward Bellamy	40	40	162	159	93	66	66	161	True
+/works/OL4902750W	Java Head	Joseph Hergesheimer	7	7	42	42	19	23	23	42	True
+/works/OL42236259W	The House of Mirth	Edith Wharton	35	35	81	79	73	6	6	80	True
+/works/OL35383W	Three Lives	Gertrude Stein	5	5	111	107	22	85	85	107	True
+/works/OL8193416W	The Picture of Dorian Gray	Oscar Wilde	49	49	159	154	138	16	16	155	True
+/works/OL1799163W	Hearts courageous	Hallie Rives	0	0	13	13	4	9	9	13	True
+/works/OL43405505W	Lady Chatterley's Lover	D. H. Lawrence	20	20	128	127	119	8	8	127	True
+/works/OL41540816W	Robert Elsmere	Mrs. Humphry Ward	4	4	34	34	31	3	3	34	True
+/works/OL1487721W	Alas	Rhoda Broughton	1	1	622	580	9	571	100	109	True
+/works/OL82929W	As I Lay Dying	William Faulkner	20	20	66	66	53	13	13	66	True
+/works/OL2107271W	Stepsons Of Light	Eugene Manlove Rhodes	0	0	7	7	7	0	0	7	True
+/works/OL509889W	The Good Soldier	Ford Maddox Ford	0	0	97	96	39	57	57	96	True
+/works/OL4315764W	The Heavenly Twins	Sarah Grand	2	2	22	22	14	8	8	22	True
+/works/OL14942956W	The Call of the Wild	Jack London	98	96	289	283	240	43	43	283	True
+/works/OL109153W	Grand Babylon Hotel	Arnold Bennett	5	5	14	14	13	1	1	14	True
+/works/OL1217993W	Three Soldiers	John Dos Passos	22	22	41	41	34	7	7	41	True
+/works/OL112798W	Marrow of Tradition	Mary Chesnutt	0	0	21	21	16	5	5	21	True
+/works/OL65437W	At Fault	Kate Chopin	0	0	34	34	5	29	29	34	True
+/works/OL38827W	The Shadow-Line	Joseph Conrad	29	29	66	65	50	15	15	65	True
+/works/OL505740W	The Moon and Sixpence	W Somerset Maugham	46	46	98	95	83	12	12	96	True
+/works/OL20172W	Kim	Rudyard Kipling	82	82	10564	7754	113	7641	100	237	True
+/works/OL98585W	The Custom of the Country	Edith Wharton	16	16	43	43	29	14	14	43	True
+/works/OL468362W	The Beautiful and the Damned	F Scott Fitzgerald	1	1	10	10	2	8	8	10	True
+/works/OL100237W	The Financier	Theodore Dreiser	11	11	48	48	20	28	28	48	True
+/works/OL509919W	Parades End	Ford Maddox Ford	1	1	3	3	2	1	1	3	True
+/works/OL115067W	King Coal	Upton Sinclair	4	4	15	15	12	3	3	15	True
+/works/OL85892W	Dracula	Bram Stoker	76	74	712	662	248	414	100	354	True
+/works/OL1154817W	The Crock of Gold	Stephens James	13	13	57	56	41	15	15	57	True
+/works/OL1794919W	The Pit	Frank Norris	23	23	275	267	44	223	100	144	True
+/works/OL4971729W	Megda	Emma Kelley	0	0	3	3	3	0	0	3	True
+/works/OL44014215W	Strange Case of Dr Jekyll and Mr Hyde	Robert Louis Stevenson	52	51	155	149	133	16	16	151	True
+/works/OL19870W	The Jungle Book	Rudyard Kipling	99	97	348	332	227	105	100	330	True
+/works/OL111382W	The Yearling	Marjorie Kinman Rawlings	0	0	43	43	32	11	11	43	True
+/works/OL88813W	A Room with a View	E. M. Forster	25	25	84	81	73	8	8	82	True
+/works/OL63009W	For Whom the Bell Tolls	Ernest Hemingway	10	10	61	60	39	21	21	60	True
+/works/OL2337481W	The Frontiersman	Mary Noailles Murfree	0	0	14	14	0	14	14	14	True
+/works/OL39349W	Mrs. Dalloway	Virginia Woolf	14	14	67	67	60	7	7	67	True
+/works/OL468485W	Tender Is The Night	F Scott Fitzgerald	9	9	78	77	59	18	18	78	True
+/works/OL39396W	To the Lighthouse	Virginia Woolf	18	18	79	79	67	12	12	79	True
+/works/OL65430W	The Awakening	Kate Chopin	11	11	766	726	79	647	100	179	True
+/works/OL44622934W	The Jungle	Upton Sinclair	38	38	1518	1367	80	1287	100	181	True
+/works/OL462007W	Peter Pan	J. M. Barrie	36	36	518	471	224	247	100	326	True
+/works/OL507321W	Pembroke	Mary Wilkins Freeman	0	0	747	687	12	675	100	112	True
+/works/OL39360W	Orlando	Virginia Woolf	10	10	5345	4261	23	4238	100	125	True
+/works/OL100196W	The Genius	Theodore Dreiser	16	16	1055	992	28	964	100	130	True
+/works/OL100203W	Sister Carrie	Theodore Dreiser	62	62	119	117	102	15	15	118	True
+/works/OL485410W	The Border Legion	Zane Grey	24	24	34	34	29	5	5	34	True
+/works/OL18397742W	The North Star	Margaret Ellen Henry-Ruffin	0	0	137	137	0	137	100	100	True

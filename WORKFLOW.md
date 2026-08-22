@@ -1,10 +1,10 @@
 # WORKFLOW.md — canon-pipeline
 **DCC Digital Curation Workflow Narrative**
-Last updated: 2026-04-18
+Last updated: 2026-08-21
 Status: LIVING DOCUMENT — update on every major change
 
 
-Update note: 2026-08-19 — OpenAlex candidate-level relevance-classification prototype (2026-08-04–06) and the 2026-08-18–19 production-scale extension / validation / 90-work integration were added as later methodological qualifications. Historical descriptions and earlier decisions below are retained rather than silently overwritten.
+Update note: 2026-08-21 — OpenAlex production-scale validation, the reviewed v8 90-work visibility/configuration layer, and the Internet Archive object-type pilot/validation were added as later methodological qualifications. Historical descriptions and earlier decisions below are retained where useful for provenance, but superseded analytical values are explicitly marked.
 
 ---
 
@@ -1482,6 +1482,204 @@ formal repository release.
 - Regenerate the sharing dataset and its documentation after rematching.
 
 ---
+
+### Stage 4j: Internet Archive multi-object visibility pilot — 2026-08-20〜21
+
+#### Purpose
+
+Internet Archive (IA) was tested as an additional visibility source after the HathiTrust audit showed that `htid_count` is better interpreted as representation in a digitized library corpus / digitization history than as a straightforward circulation measure. IA is not treated as a simple edition-count substitute. Its value is that a title search can retrieve heterogeneous cultural objects around a literary work: copies of the primary text, scholarly criticism, pedagogical material, adaptations/derivatives, and unrelated title collisions.
+
+The analytical question is therefore not only “how many IA objects match this work?” but also “what kinds of objects constitute the work's IA presence?” This makes IA potentially useful for comparing the internal composition of literary visibility with OpenAlex, JSTOR, Goodreads, Open Library, and later pedagogical data.
+
+#### Initial 10-work retrieval / pagination probe
+
+A 10-work diagnostic set was used:
+
+```text
+The Great Gatsby / F. Scott Fitzgerald
+Heart of Darkness / Joseph Conrad
+Ulysses / James Joyce
+The Prisoner of Zenda / Anthony Hope
+Robert Elsmere / Mrs. Humphry Ward
+Alas! / Rhoda Broughton
+The Good Soldier / Ford Madox Ford
+Dracula / Bram Stoker
+The Jungle Book / Rudyard Kipling
+The Awakening / Kate Chopin
+```
+
+Exact-ish title+creator retrieval with `mediatype:texts` and pagination produced 473 unique IA text objects in the first candidate file. Counts varied strongly by work (e.g. Ulysses 101, The Great Gatsby 99, The Jungle Book 89, Dracula 69, Heart of Darkness 46, Alas! 1). These raw counts are retrieval counts, not edition counts and not yet work-level visibility measures.
+
+Outputs:
+
+```text
+derived/internetarchive_candidates_10works_v2.tsv
+```
+
+The retrieval experiment also showed why creator matching alone is insufficient. A broader validation pool contained 811 candidate records, of which 277 had a creator match and 534 did not. The non-creator-matching records are not simply noise: some can be criticism, teaching material, or derivative works about / based on the target work. Therefore production retrieval should preserve a broader title-based candidate layer and classify object relation semantically rather than discard all creator mismatches at retrieval time.
+
+#### Object-level classification schema
+
+The IA classifier distinguishes the relation of each retrieved object to the target literary work. Current top-level labels are:
+
+| Label | Meaning |
+|---|---|
+| `primary_text` | the target literary text itself, including standalone, collected/combined, translated, or otherwise edition-like manifestations |
+| `scholarly_metatext` | criticism, scholarly essays, casebooks, monographs, or other substantive secondary scholarship about the target work |
+| `pedagogical_metatext` | teaching, study, school, graded-reader, or instructional material whose primary function is pedagogical rather than scholarly criticism |
+| `adaptation_derivative` | adaptation, retelling, derivative cultural object, or other transformation based on the target work |
+| `unrelated` | title collision, phrase reuse, different work, or other record not substantively connected to the target literary work |
+| `unclear` | metadata are insufficient to determine the relation reliably |
+
+Additional fields preserve distinctions that a single label cannot capture:
+
+```text
+llm_subtype / human_subtype
+contains_primary_text
+is_about_target_work
+confidence
+note
+```
+
+This is important for combined volumes. For example, `Youth; Heart of Darkness; The End of the Tether` is a valid primary-text object for Heart of Darkness even though the target novella is bound with other Conrad texts. Likewise, a critical casebook can be `scholarly_metatext` while `contains_primary_text` remains `unclear` if the IA metadata do not establish whether the literary text itself is reproduced.
+
+#### Human validation set
+
+A stratified 100-record validation set was created from the broader candidate pool, balancing creator-match and creator-mismatch cases where possible across the test works. The human-coded file is:
+
+```text
+audit/internetarchive_validation_100_human.csv
+```
+
+Human label distribution (`n=100`):
+
+| Human label | n |
+|---|---:|
+| `primary_text` | 45 |
+| `unrelated` | 35 |
+| `adaptation_derivative` | 8 |
+| `scholarly_metatext` | 7 |
+| `unclear` | 4 |
+| `pedagogical_metatext` | 1 |
+
+#### LLM validation result
+
+Against the 100 manually coded records, the LLM object-type classifier achieved:
+
+```text
+overall accuracy = 0.9100
+weighted F1 = 0.9052
+macro F1 = 0.7856
+```
+
+Class-level performance:
+
+| Label | Precision | Recall | F1 | Support |
+|---|---:|---:|---:|---:|
+| `primary_text` | 0.957 | 1.000 | 0.978 | 45 |
+| `scholarly_metatext` | 1.000 | 1.000 | 1.000 | 7 |
+| `adaptation_derivative` | 0.778 | 0.875 | 0.824 | 8 |
+| `pedagogical_metatext` | 1.000 | 0.500 | 0.667 | 2 |
+| `unrelated` | 0.939 | 0.886 | 0.912 | 35 |
+| `unclear` | 0.000 | 0.000 | 0.000 | 3 |
+
+There were 9 disagreements. The main boundary problems were not primary text vs scholarship; those classes performed strongly. Errors concentrated in sparse-metadata cases and boundaries among pedagogical material, adaptation/derivative material, unrelated title reuse, and `unclear`. Examples include an Arabic high-school version of The Prisoner of Zenda, a graded-reader adaptation, film-related Dracula/Jungle Book records, and metaphorical uses of “Heart of Darkness.”
+
+Evaluation outputs:
+
+```text
+audit/internetarchive_validation_100.tsv
+audit/internetarchive_validation_100_human.csv
+audit/internetarchive_validation_100_evaluated.tsv
+audit/internetarchive_validation_class_report.tsv
+audit/internetarchive_validation_confusion_matrix.tsv
+audit/internetarchive_validation_100_human_final.csv
+audit/internetarchive_validation_100_final_evaluated.tsv
+audit/internetarchive_validation_final_class_report.tsv
+audit/internetarchive_validation_final_confusion_matrix.tsv
+```
+The final validation retained 9 disagreements. Most errors were concentrated in ambiguous or boundary cases; notably, all 45 human-coded primary-text records and all 7 scholarly-metatext records were recovered by the classifier, while the classifier did not reproduce the human `unclear` category (n=4).
+
+#### Current interpretation and next step
+
+The pilot supports using IA as a heterogeneous cultural-object visibility source rather than a single raw-count circulation indicator. For each literary work, future aggregation can preserve at least:
+
+```text
+IA primary-text object count
+IA scholarly-metatext count
+IA pedagogical-metatext count
+IA adaptation/derivative count
+IA unrelated / unclear audit counts
+```
+
+The resulting composition can then be compared with scholarly visibility (OpenAlex/JSTOR), reader visibility (Goodreads), bibliographic representation (reviewed Open Library records), and pedagogical selection (McGrath reading lists; Open Syllabus if bulk research access becomes available).
+
+Status as of 2026-08-21: classification design validated on 100 manually coded records; retrieval/classification remains a 10-work pilot and has not yet been expanded to the validated 90-work set or the full 34,789-work population. Raw IA object counts should not be interpreted as edition counts or direct readership/circulation counts.
+
+---
+
+#### Internet Archive 90-work classification and broad-retrieval diagnostic
+
+Following the 100-record validation, the Internet Archive procedure was applied to the 90-work pilot set.
+
+Retrieval was conducted in two stages:
+
+1. a primary-oriented query using title, creator, and `mediatype:texts`;
+2. a broader title-only query using title and `mediatype:texts`.
+
+The broad retrieval was intentionally used to capture not only editions of the target work but also scholarly, pedagogical, and derivative materials that may not contain the target author's name in the creator field.
+
+Across the 90 works, the broad queries reported 34,422 results. After retrieval and identifier-level deduplication, 28,901 unique Internet Archive text objects were obtained. To control very large and ambiguous result sets, all author-evidenced records were retained, while broad records without author evidence were capped at a reproducible random sample of 100 records per work when necessary.
+
+This produced 10,068 candidates for LLM classification. One work, *The Mystery of the Cloomber* by Arthur Conan Doyle, returned no Internet Archive candidates.
+
+The validated `gpt-5-mini` classifier assigned the 10,068 candidates as follows:
+
+| class | n |
+|---|---:|
+| primary_text | 6,360 |
+| scholarly_metatext | 763 |
+| pedagogical_metatext | 269 |
+| adaptation_derivative | 638 |
+| unrelated | 1,934 |
+| unclear | 104 |
+
+Files:
+
+- `derived/internetarchive_candidates_90works_v2.tsv`
+- `derived/internetarchive_retrieval_summary_90works_v2.tsv`
+- `derived/internetarchive_candidates_90works_llm_v1.tsv`
+
+#### Broad-other sampling diagnostic
+
+Because title-only retrieval can produce very large ambiguous pools for short or common titles, records without author metadata evidence (`broad_other`) were analyzed separately.
+
+Sixteen works had broad-other pools large enough to require sampling. For each of these works, 100 records were randomly retained and classified. Overall, 17.6% of the 1,600 sampled records were substantively related to the target work, but the rate varied sharply by work.
+
+Notable examples were:
+
+| work | related / 100 | related rate | dominant pattern |
+|---|---:|---:|---|
+| *The Jungle Book* | 93 | .93 | adaptation/derivative |
+| *Peter Pan* | 77 | .77 | adaptation/derivative |
+| *Dracula* | 64 | .64 | adaptation/derivative |
+| *Treasure Island* | 43 | .43 | adaptation/derivative |
+| *Ulysses* | 4 | .04 | mainly scholarly/primary |
+| *The Awakening* | 1 | .01 | primary |
+| remaining 10 sampled works | 0 | .00 | no related records in sample |
+
+The composition of these broad-other records differed substantially across works. Estimated label-specific counts within the retrieved broad-other pools particularly suggested strong derivative circulation for *Dracula*, *Peter Pan*, *Treasure Island*, and *The Jungle Book*, whereas the small estimated related component for *Ulysses* was primarily scholarly rather than derivative.
+
+Wilson 95% confidence intervals also showed that zero observed cases in a sample of 100 should not be interpreted as evidence of a genuinely empty broad-other population when the underlying candidate pool is very large. For example, *Kim* had 0 related records among 100 sampled from 7,641 broad-other candidates, but the corresponding upper confidence bound for the number of related records remained large.
+
+For this reason, projected broad-other counts are not currently used as the primary cross-work visibility measure. The principal comparative analysis should retain directly observed/core counts, while the broad-other estimates are treated as an exploratory diagnostic of forms of circulation that may become detached from explicit author metadata.
+
+This diagnostic nevertheless suggests a potentially important distinction between different forms of literary afterlife: textual circulation, scholarly mediation, pedagogical mediation, and adaptation/derivative circulation. In particular, some works appear to circulate extensively through adaptations and derivative objects even when the original author's name is absent from the metadata. This work-level heterogeneity should be retained for later comparison with OpenAlex, JSTOR, Goodreads, Open Syllabus, and other visibility dimensions.
+
+Sampling-estimate file:
+
+- `derived/internetarchive_broad_other_sampling_estimates_90works_v1.tsv`
+
 
 ## Stage 5: Academic Citations Enrichment
 
@@ -3048,19 +3246,14 @@ Interpretive caution:
 
 ---
 
-#### Academic–reader residual analysis
+#### Academic–reader residual analysis — retained model, updated downstream interpretation
 
-Because scholarly visibility and Goodreads readership were strongly associated, the analysis moved beyond simple correlation to ask which works systematically depart from the expected academic–reader relationship.
+Because scholarly visibility and Goodreads readership were strongly associated, the analysis moved beyond simple correlation to ask which works systematically depart from the expected academic–reader relationship. The residual models themselves were fit before the later Open Library/HathiTrust correction and therefore remain in the historical `v5` residual files: their inputs are OpenAlex/JSTOR and Goodreads, which were not changed by the OL/HT audit. The `v8` designation applies to the later integrated master and configuration/profile layer, not to a refit of these two regressions.
 
-For the 80 works with `gr_ratings > 0`, both variables were log-transformed with `log1p`. An OLS-style simple linear relation was fit as:
+For the 80 works with Goodreads reader data, both variables were log-transformed with `log1p`. The OpenAlex model was:
 
 ```text
 log(OpenAlex semantic visibility) ~ log(Goodreads ratings)
-```
-
-Result:
-
-```text
 N = 80
 slope = 0.5053
 r = 0.7891
@@ -3076,44 +3269,16 @@ derived/academic_reader_residuals_90works_v5.tsv
 
 Positive residuals indicate more scholarly visibility than expected from readership; negative residuals indicate more readership than expected from scholarly visibility.
 
-Illustrative academic-heavy cases included:
-
-```text
-Ulysses
-Secret Agent
-Dubliners
-Jacob's Room
-The Story of an African Farm
-Orlando
-The Ambassadors
-To the Lighthouse
-Mrs. Dalloway
-Heart of Darkness
-```
-
-Illustrative reader-heavy cases included:
-
-```text
-The Scarlet Pimpernel
-The Prisoner of Zenda
-Tarzan of the Apes
-White Fang
-The Jungle Book
-Treasure Island
-The Call of the Wild
-Nineteen Eighty-Four
-```
-
-These are exploratory configurations, not yet historically established "canonization pathways."
-
----
-
 #### Independent replication with JSTOR
 
-The same residual design was repeated using JSTOR L&L relevant counts in place of OpenAlex semantic visibility:
+The same residual design was repeated using JSTOR L&L relevant counts:
 
 ```text
 log(JSTOR L&L relevant count) ~ log(Goodreads ratings)
+N = 80
+slope = 0.3550
+R² = 0.3857
+p = 7.92e-10
 ```
 
 Output:
@@ -3122,69 +3287,102 @@ Output:
 derived/jstor_reader_residuals_90works_v5.tsv
 ```
 
-Result:
-
-```text
-N = 80
-slope = 0.3550
-R² = 0.3857
-p = 7.92e-10
-```
-
-Most importantly, the OpenAlex-based and JSTOR-based residual rankings strongly agreed:
+The OpenAlex-based and JSTOR-based residual rankings strongly agreed:
 
 ```text
 Spearman rho = 0.8645
 p = 5.19e-25
 ```
 
-This replication suggests that the academic-heavy / reader-heavy configuration is not merely an artifact of the new OpenAlex classifier. Two different scholarly data sources independently identify similar deviations from the readership relationship.
+This replication suggests that the academic-heavy / reader-heavy deviation is not merely an artifact of the OpenAlex classifier. Two independent scholarly sources recover a similar residual structure relative to Goodreads readership.
 
----
+#### Combined residual and v8 configuration layer
 
-#### Bibliographic follow-up with Open Library edition counts
-
-The standardized OpenAlex-reader and JSTOR-reader residuals were averaged to create a provisional combined academic-reader residual. This combined residual was then compared with Open Library edition counts.
-
-Output:
-
-```text
-derived/residual_bibliographic_analysis_90works_v5.tsv
-derived/hathitrust_90works_final.tsv
-derived/literary_visibility_master_90works_v8.tsv
-derived/literary_visibility_correlations_90works_v8.tsv
-```
-
-Result:
-
-```text
-N = 80
-Spearman rho(combined academic-reader residual, OL editions) = -0.2186
-p = 0.0514
-```
-
-For exploratory description only, works were temporarily grouped as:
+The standardized OpenAlex-reader and JSTOR-reader residuals were averaged into `academic_reader_residual_combined`. For exploratory description only:
 
 ```text
 reader-heavy: combined residual < -1
 roughly balanced: -1 <= combined residual <= 1
 academic-heavy: combined residual > 1
+no_reader_data: Goodreads value missing; no residual configuration assigned
 ```
 
-Open Library edition distribution:
+The corrected missingness rule is important: absence of Goodreads data is `NaN`, not a zero-valued readership observation. Ten of the 90 works therefore remain `no_reader_data` and are excluded from the residual configuration comparison.
 
-| Configuration | Works | Median editions | Mean editions |
-|---|---:|---:|---:|
-| reader-heavy | 12 | 264.0 | 399.8 |
-| roughly balanced | 60 | 158.5 | 311.0 |
-| academic-heavy | 8 | 151.0 | 264.8 |
+Current v8 outputs:
 
-The weak negative association is suggestive but did not meet the conventional p<.05 threshold. More importantly, extreme Open Library edition values require a targeted quality audit before edition count is interpreted straightforwardly as publication / circulation history.
+```text
+derived/literary_visibility_profiles_90works_v8.tsv
+derived/literary_visibility_configurations_core_90works_v8.tsv
+```
 
-Known examples requiring review include unusually low or high edition counts for major works. Do not interpret these values historically until work-level Open Library aggregation has been checked.
+Configuration counts:
+
+| Configuration | n |
+|---|---:|
+| academic-heavy | 8 |
+| roughly balanced | 60 |
+| reader-heavy | 12 |
+| no reader data | 10 |
+| Total | 90 |
+
+Academic-heavy cases (`residual > 1`) are:
+
+```text
+Ulysses
+Secret Agent
+Robert Elsmere
+The Ambassadors
+Heart of Darkness
+Dubliners
+The Heavenly Twins
+Orlando
+```
+
+Reader-heavy cases (`residual < -1`) are:
+
+```text
+The Scarlet Pimpernel
+The Jungle Book
+Tarzan of the Apes
+The Prisoner of Zenda
+White Fang
+The Yearling
+Grand Babylon Hotel
+The Mystery of the Cloomber
+The Job
+The Call of the Wild
+The Border Legion
+The North Star
+```
+
+These labels describe relative configurations inside the present 90-work pilot. They are not value judgments, fixed canon categories, or historically established “canonization pathways.”
+
+#### Bibliographic follow-up after the Open Library audit
+
+The earlier v5 comparison between the combined academic-reader residual and the raw/single-work-key Open Library edition count produced `rho = -0.2186, p = 0.0514`. That value is now superseded for interpretation because the Open Library work-fragmentation audit materially changed the bibliographic layer.
+
+Using the reviewed final Open Library work-level count in the v8 layer:
+
+```text
+N = 80
+Spearman rho(combined academic-reader residual, OL final) = -0.0452
+p = 0.690721
+```
+
+Thus, after bibliographic entity-resolution correction, there is no meaningful monotonic association in this pilot between being academically heavy vs reader heavy and the reviewed Open Library bibliographic representation count. The earlier weak negative pattern should not be used as the current result.
+
+The v8 configuration table therefore keeps three concepts separate:
+
+```text
+z_scholarly_composite     = standardized combined scholarly visibility
+z_reader_goodreads        = standardized Goodreads readership
+z_bibliographic_ol        = standardized reviewed Open Library bibliographic representation
+```
+
+HathiTrust is retained in the broader profile table as a separate digitization-representation variable (`z_digitization_hathi`), but is deliberately excluded from the core configuration table because the audit does not support treating HTID count as the same kind of circulation/bibliographic measure as Open Library.
 
 ---
-
 
 #### Open Library work-fragmentation and edition-count audit — 2026-08-19
 
@@ -3300,6 +3498,13 @@ derived/literary_visibility_correlations_90works_v5.tsv
 derived/academic_reader_residuals_90works_v5.tsv
 derived/jstor_reader_residuals_90works_v5.tsv
 derived/residual_bibliographic_analysis_90works_v5.tsv
+
+# Current reviewed v8 analysis / configurations
+derived/literary_visibility_master_90works_v8.tsv
+derived/literary_visibility_correlations_90works_v8.tsv
+derived/literary_visibility_profiles_90works_v8.tsv
+derived/literary_visibility_configurations_core_90works_v8.tsv
+derived/hathitrust_90works_final.tsv
 ```
 
 ---
@@ -3318,6 +3523,9 @@ derived/residual_bibliographic_analysis_90works_v5.tsv
 | academic-reader-residual90-v1 | 2026-08-19 | `derived/jstor_reader_residuals_90works_v5.tsv` + `derived/academic_reader_residuals_90works_v5.tsv` — replicated academic-reader configuration |
 | literary-visibility-master90-v8 | 2026-08-19 | `derived/literary_visibility_master_90works_v8.tsv` — reviewed OL edition counts + final audited HathiTrust layer |
 | hathitrust-90-final-v1 | 2026-08-19 | `derived/hathitrust_90works_final.tsv` — 90-work reviewed HathiTrust values, including corrected metadata retries and rejected false positive |
+| literary-visibility-config90-v8 | 2026-08-21 | `derived/literary_visibility_configurations_core_90works_v8.tsv` — corrected Goodreads missingness + academic/reader/core bibliographic configuration layer |
+| literary-visibility-profiles90-v8 | 2026-08-21 | `derived/literary_visibility_profiles_90works_v8.tsv` — extended profile layer retaining HathiTrust separately as digitization representation |
+| internetarchive-validation100-v1 | 2026-08-21 | `audit/internetarchive_validation_100_evaluated.tsv` — 100-record human/LLM IA object-type validation, accuracy=0.910 |
 
 ---
 
@@ -4510,3 +4718,53 @@ OpenAlex APIで2016–2025年の各誌を検索。検索語は digital humanitie
 * 本節の表は、OpenAlex APIによる再取得値であり、対象12誌の検索条件を揃えた最新版である。
 * Critical InquiryのPDF直接スキャン結果、PMLAの特集号効果、プロキシ被引用チェック、強シグナル確認は別手法として引き続き保持する。
 * 今後、各誌のヒット一覧を目視分類する場合は、`openalex_dh_keyword_hits_2016_2025.tsv`を使用する。
+
+
+## File inventory and version log
+
+This section records the principal derived datasets, audit files, and analysis outputs used in the current workflow. It is intended as a compact provenance record rather than a complete listing of every intermediate file.
+
+### Internet Archive
+
+| Version / stage | Date | File | Description |
+|---|---|---|---|
+| ia-validation100-v1 | 2026-08 | `audit/internetarchive_validation_100_human_final.csv` | Final human gold labels for the 100-record Internet Archive validation set |
+| ia-validation100-eval-v1 | 2026-08 | `audit/internetarchive_validation_100_final_evaluated.tsv` | Final human–LLM validation comparison; accuracy = 0.910 |
+| ia-retrieval90-v2 | 2026-08 | `derived/internetarchive_candidates_90works_v2.tsv` | Retained Internet Archive candidates for the 90-work pilot after primary and broad retrieval |
+| ia-retrieval90-summary-v2 | 2026-08 | `derived/internetarchive_retrieval_summary_90works_v2.tsv` | Work-level retrieval counts, including broad pool size and sampling information |
+| ia-classification90-v1 | 2026-08 | `derived/internetarchive_candidates_90works_llm_v1.tsv` | LLM classification of 10,068 retained IA candidates into primary, scholarly, pedagogical, adaptation/derivative, unrelated, and unclear classes |
+| ia-broad-other-estimates90-v1 | 2026-08 | `derived/internetarchive_broad_other_sampling_estimates_90works_v1.tsv` | Sampling-based estimates and Wilson 95% confidence intervals for broad-other candidate pools |
+
+### Current Internet Archive pipeline
+
+The current sequence is:
+
+`IA retrieval`
+→ `candidate deduplication`
+→ `author-evidence / broad-other separation`
+→ `LLM classification`
+→ `human validation`
+→ `work-level aggregation`
+→ `broad-other sampling diagnostic`
+
+Current validated classifier:
+
+- Model: `gpt-5-mini`
+- Human validation set: n = 100
+- Accuracy: 0.910
+- Weighted F1: 0.905
+- Classification labels:
+  - `primary_text`
+  - `scholarly_metatext`
+  - `pedagogical_metatext`
+  - `adaptation_derivative`
+  - `unrelated`
+  - `unclear`
+
+### Versioning notes
+
+- `v1`, `v2`, etc. refer to substantive changes in retrieval, classification, or analytical procedure rather than simple reruns.
+- Files under `audit/` preserve validation, manual review, and diagnostic evidence.
+- Files under `derived/` contain reproducible derived datasets used for subsequent analysis.
+- Earlier versions should be retained when they document a materially different methodological decision.
+- The file listed here as the current version should be used for downstream analysis unless otherwise noted.
