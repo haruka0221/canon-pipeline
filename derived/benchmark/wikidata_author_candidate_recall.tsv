@@ -1,0 +1,83 @@
+title	author	gold_qid	author_qids	n_author_works	gold_score	rank	tie_aware_rank	same_score_count	status
+Ulysses	James Joyce	Q6511	Q6882	68	1.0	4	1	4	OK
+Heart of Darkness	Conrad, Joseph	Q129778	Q82925	636	1.0	1	1	5	OK
+Dubliners	Joyce, James	Q459592	Q6882	68	1.0	1	1	2	OK
+The Ambassadors	James, Henry	Q650571	Q170509	156	1.0	1	1	1	OK
+The Sound and the Fury	William Faulkner	Q135515	Q38392	71	1.0	1	1	1	OK
+A portrait of the artist as a young man	Joyce, James	Q465360	Q6882	68	1.0	2	1	2	OK
+The Pit	Frank Norris	Q7757284	Q712746	13	1.0	1	1	1	OK
+As I Lay Dying	William Faulkner	Q1544119	Q38392	71	1.0	1	1	1	OK
+Orlando	Virginia Woolf	Q1629456	Q40909	84	0.5833333333333334	2	1	2	OK
+The Great Gatsby	F. Scott Fitzgerald	Q214371	Q93354	89	1.0	3	1	4	OK
+Mrs. Dalloway	Virginia Woolf	Q752584	Q40909	84	1.0	1	1	1	OK
+Turn of the Screw	Henry James	Q625923	Q170509	156	1.0	2	1	2	OK
+Sons and Lovers	Lawrence, D. H.	Q80771	Q34970	87	1.0	1	1	1	OK
+Tess of the D'Urbervilles	Thomas Hardy	Q649409	Q132805	139	1.0	3	1	3	OK
+Looking backward	Bellamy, Edward	Q1305106	Q455776	47	1.0	2	1	2	OK
+The Age of Innocence	Edith Wharton	Q1045464	Q276032	146	1.0	1	1	4	OK
+The house of mirth	Edith Wharton	Q6474536	Q276032	146	1.0	2	1	2	OK
+To the Lighthouse	Virginia Woolf	Q478016	Q40909	84	1.0	1	1	1	OK
+The job	Sinclair Lewis	Q7743319	Q123469	42	0.2857142857142857	2	2	1	OK
+The Sun Also Rises	Ernest Hemingway	Q501351	Q23434	153	1.0	5	1	5	OK
+Nineteen Eighty-Four	George Orwell	Q208460	Q3335	114	1.0	1	1	1	OK
+The red badge of courage	Crane, Stephen	Q1219239	Q206534	62	1.0	1	1	3	OK
+Lady Chatterley's lover	Lawrence, D. H.	Q750670	Q34970	87	1.0	3	1	3	OK
+Sister Carrie	Theodore Dreiser	Q1286961	Q486096	30	1.0	1	1	1	OK
+Kim	Kipling, Rudyard	Q19086249	Q34743	569	1.0	1	1	2	OK
+The Portrait of a Lady	James, Henry	Q861017	Q170509	156	1.0	1	1	1	OK
+The Picture of Dorian Gray	Oscar Wilde	Q82464	Q30875	292	1.0	3	1	3	OK
+McTeague	Frank Norris	Q11772710	Q712746	13	1.0	1	1	1	OK
+Parade's End	Ford Madox Ford	Q5579026	Q537112	15	1.0	1	1	1	OK
+The Time Machine	H. G. Wells	Q627333	Q42511	6875	1.0	6	1	6	OK
+The jungle	Upton Sinclair	Q260205	Q216134	67	1.0	1	1	2	OK
+Howards End	E. M. Forster	Q1146642	Q189119	33	1.0	1	1	1	OK
+"The ""genius"""	Theodore Dreiser	Q4593382	Q486096	30	1.0	1	1	1	OK
+The shadow-line	Conrad, Joseph	Q1120858	Q82925	636	1.0	1	1	2	OK
+This Side of Paradise	F. Scott Fitzgerald	Q2581681	Q93354	89	1.0	1	1	1	OK
+The Return of the Soldier	Rebecca West	Q7760466	Q236669	16	1.0	3	1	3	OK
+Three Lives	Gertrude Stein	Q7797597	Q188385	27	1.0	2	1	2	OK
+The Financier	Theodore Dreiser	Q577607	Q486096	30	1.0	1	1	1	OK
+The Autobiography of Alice B. Toklas	Gertrude Stein	Q6618986	Q188385	27	1.0	1	1	1	OK
+Martin Eden	Jack London	Q1317839	Q45765	8642	1.0	3	1	3	OK
+For Whom the Bell Tolls	Ernest Hemingway	Q200920	Q23434	153	1.0	2	1	2	OK
+The story of an African farm	Olive Schreiner	Q7766827	Q151180	10	1.0	1	1	1	OK
+The rise of David Levinsky	Abraham Cahan	Q7760882	Q329854	3	1.0	1	1	1	OK
+Jacob's Room	Virginia Woolf	Q1677745	Q40909	84	1.0	1	1	1	OK
+Ethan Frome	Edith Wharton	Q5402934	Q276032	146	1.0	3	1	3	OK
+Robert Elsmere	Humphry Ward	Q7344052	Q952452	27	1.0	1	1	1	OK
+Maggie, a girl of the streets	Crane, Stephen	Q3276774	Q206534	62	1.0	1	1	1	OK
+Alexander's Bridge	Willa Cather	Q4718102	Q229480	106	1.0	1	1	1	OK
+Treasure Island	Robert Louis Stevenson	Q185118	Q1512	285	1.0	3	1	3	OK
+A Room with a View	E. M. Forster	Q120288	Q189119	33	1.0	3	1	3	OK
+The Beautiful and Damned	F. Scott Fitzgerald	Q2531205	Q93354	89	1.0	1	1	1	OK
+The odd women	George Gissing	Q7754692	Q369790	36	1.0	1	1	1	OK
+The Call of the Wild	Jack London	Q476871	Q45765	8642	1.0	6756	1	6756	OK
+Three soldiers	John Dos Passos	Q7797826	Q312407	15	1.0	1	1	1	OK
+At Fault	Kate Chopin	Q131573518	Q230476	37	0.0	33	33	5	OK
+New day	Victor Stafford Reid	Q16387293	Q7926364	2	1.0	1	1	1	OK
+The Scarlet Pimpernel	Orczy, Emmuska Orczy	Q1249536	Q234530	48	1.0	1	1	1	OK
+Gone to Earth	Mary Gladys Meredith Webb	Q109284453	Q2306224	6	1.0	1	1	1	OK
+Java Head	Joseph Hergesheimer	Q107000085	Q5802152	20	1.0	1	1	1	OK
+Pembroke	Mary Eleanor Wilkins Freeman	Q7161943	Q276421	22	1.0	1	1	1	OK
+Tarzan of the Apes	Edgar Rice Burroughs	Q655296	Q148234	123	1.0	1	1	2	OK
+The Mystery of Cloomber	Doyle, Arthur Conan	Q4449924	Q35610	789	1.0	1	1	1	OK
+The prisoner of Zenda	Hope, Anthony	Q1193766	Q457287	32	1.0	1	1	1	OK
+White Fang	Jack London	Q152267	Q45765	8642	1.0	1	1	2	OK
+Alas!	Rhoda Broughton	Q111301777	Q449136	21	0.5714285714285714	1	1	1	OK
+The Grand Babylon Hotel	Bennett, Arnold	Q7737468	Q314158	32	1.0	1	1	1	OK
+King Coal	Upton Sinclair	Q16386559	Q216134	67	1.0	2	1	2	OK
+The Yearling	Marjorie Kinnan Rawlings	Q429806	Q465237	7	1.0	1	1	1	OK
+The border legion	Zane Grey	Q7719393	Q146763	45	1.0	1	1	1	OK
+The octopus, a story of California	Frank Norris	Q7754678	Q712746	13	1.0	1	1	1	OK
+Textplus - New Grub Street	George Gissing	Q7007870	Q369790	36	1.0	3	1	3	OK
+The uncalled, a novel	Paul Laurence Dunbar	Q130332685	Q974678	121	1.0	1	1	2	OK
+The Secret Agent	Conrad, Joseph	Q1247666	Q82925	636	1.0	1	1	1	OK
+Tender is the Night	F. Scott Fitzgerald	Q247372	Q93354	89	1.0	1	1	1	OK
+The Jungle Book	Kipling, Rudyard	Q189509	Q34743	569	1.0	1	1	1	OK
+Strange case of Dr. Jekyll and Mr. Hyde	Robert Louis Stevenson	Q217352	Q1512	285	1.0	1	1	2	OK
+Peter Pan	J. M. Barrie	Q3435337	Q81796	55	1.0	2	1	2	OK
+The Crock of Gold	Stephens, James	Q7728134	Q508101	8	1.0	1	1	1	OK
+Jude the obscure	Hardy, Thomas	Q1248773	Q132805	139	1.0	1	1	1	OK
+The Awakening	Kate Chopin	Q1567505	Q230476	37	1.0	3	1	3	OK
+The Custom of the Country	Edith Wharton	Q7728505	Q276032	146	1.0	1	1	1	OK
+The Rise of Silas Lapham	William Dean Howells	Q7760892	Q526709	28	1.0	1	1	1	OK

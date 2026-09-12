@@ -1,0 +1,3 @@
+system,n,TP,FN,FP,TN,precision_match_detection,recall_match_detection,f1_match_detection,primary_accuracy_all,set_aware_accuracy_all,primary_accuracy_positive,set_aware_accuracy_positive,ambiguous_primary_accuracy,ambiguous_set_aware_accuracy,predicted_match,predicted_no_match
+old_pipeline,130,81,7,0,42,1.0,0.9204545454545454,0.9585798816568047,0.9307692307692308,0.9307692307692308,0.8977272727272727,0.8977272727272727,1.0,1.0,81,49
+luna_enhanced_light,130,88,0,4,38,0.9565217391304348,1.0,0.9777777777777777,0.9538461538461539,0.9538461538461539,0.9772727272727273,0.9772727272727273,1.0,1.0,92,38

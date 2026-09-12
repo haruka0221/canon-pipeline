@@ -1,0 +1,131 @@
+target_id,title,decision,selected_qid,alternative_qids,confidence,issue_codes,reason
+OL35695219W,Ulysses,MATCH,Q6511,,high,,literary work by James Joyce
+OL31971259W,Heart of Darkness,MATCH,Q129778,,high,,literary work
+OL86320W,Dubliners,MATCH,Q459592,,high,,literary work
+OL276470W,The Ambassadors,MATCH,Q650571,,high,,literary work
+OL82870W,The Sound and the Fury,MATCH,Q135515,,high,,literary work
+OL38989822W,A portrait of the artist as a young man,MATCH,Q465360,,high,,literary work
+OL1794919W,The Pit,MATCH,Q7757284,,high,,literary work
+OL82929W,As I Lay Dying,MATCH,Q1544119,,high,,literary work
+OL39360W,Orlando,MATCH,Q1629456,,high,,literary work
+OL35353208W,The Great Gatsby,MATCH,Q214371,,high,,literary work
+OL39349W,Mrs. Dalloway,MATCH,Q752584,,high,,literary work
+OL40252771W,Turn of the Screw,MATCH,Q625923,,high,,literary work
+OL81295W,Sons and Lovers,MATCH,Q80771,,high,,literary work
+OL40434746W,Tess of the D'Urbervilles,MATCH,Q649409,,high,,literary work
+OL18814811W,Looking backward,MATCH,Q1305106,,high,,literary work
+OL98491W,The Age of Innocence,MATCH,Q1045464,,high,,literary work
+OL42236259W,The house of mirth,MATCH,Q6474536,,high,,literary work
+OL39396W,To the Lighthouse,MATCH,Q478016,,high,,literary work
+OL51141W,The job,MATCH,Q7743319,,high,,literary work
+OL62979W,The Sun Also Rises,MATCH,Q501351,,high,,literary work
+OL1168083W,Nineteen Eighty-Four,MATCH,Q208460,,high,,literary work
+OL42517032W,The red badge of courage,MATCH,Q1219239,,high,,literary work
+OL43405505W,Lady Chatterley's lover,MATCH,Q750670,,high,,literary work
+OL100203W,Sister Carrie,MATCH,Q1286961,,high,,literary work
+OL20172W,Kim,MATCH,Q589868,,high,,literary work
+OL276365W,The Portrait of a Lady,MATCH,Q861017,,high,,literary work
+OL8193416W,The Picture of Dorian Gray,MATCH,Q82464,,high,,literary work
+OL1794911W,McTeague,MATCH,Q11772710,,high,,literary work
+OL509919W,Parade's End,MATCH,Q5579026,,high,,literary work
+OL52267W,The Time Machine,MATCH,Q627333,,high,,literary work
+OL44622934W,The jungle,MATCH,Q260205,,high,,literary work
+OL88881W,Howards End,MATCH,Q1146642,,high,,literary work
+OL100196W,"The ""genius""",MATCH,Q4593382,,high,,literary work
+OL38827W,The shadow-line,AMBIGUOUS,,Q1120858;Q140076211,high,duplicate_work_items,two candidates for the same work
+OL468488W,This Side of Paradise,MATCH,Q2581681,,high,,literary work
+OL27834207W,The Return of the Soldier,MATCH,Q7760466,,high,,literary work
+OL35383W,Three Lives,MATCH,Q7797597,,high,,literary work
+OL100237W,The Financier,MATCH,Q577607,,high,,literary work
+OL37277W,The Autobiography of Alice B. Toklas,MATCH,Q6618986,,high,,literary work
+OL144822W,Martin Eden,MATCH,Q1317839,,high,,literary work
+OL63009W,For Whom the Bell Tolls,MATCH,Q200920,,high,,literary work
+OL18561767W,The story of an African farm,MATCH,Q7766827,,high,,literary work
+OL14864528W,The rise of David Levinsky,MATCH,Q7760882,,high,,literary work
+OL39329W,Jacob's Room,MATCH,Q1677745,,high,,literary work
+OL98501W,Ethan Frome,MATCH,Q5402934,,high,,literary work
+OL41540816W,Robert Elsmere,MATCH,Q7344052,,high,,literary work
+OL20839W,"Maggie, a girl of the streets",MATCH,Q3276774,,high,,literary work
+OL12781W,Alexander's Bridge,MATCH,Q4718102,,high,,literary work
+OL24034W,Treasure Island,MATCH,Q185118,,high,,literary work
+OL88813W,A Room with a View,MATCH,Q120288,,high,,literary work
+OL468362W,The Beautiful and Damned,MATCH,Q2531205,,high,,literary work
+OL715621W,The odd women,MATCH,Q7754692,,high,,literary work
+OL14942956W,The Call of the Wild,MATCH,Q476871,,high,,literary work
+OL1217993W,Three soldiers,MATCH,Q7797826,,high,,literary work
+OL65437W,At Fault,NO_MATCH,,,high,wrong_work,none of the supplied candidates match At Fault
+OL5293697W,New day,MATCH,Q16387293,,high,,literary work
+OL1253285W,The Scarlet Pimpernel,MATCH,Q1249536,,high,,literary work
+OL4390503W,Gone to Earth,MATCH,Q109284453,,high,,literary work
+OL4902750W,Java Head,MATCH,Q107000085,,high,,literary work
+OL507321W,Pembroke,MATCH,Q7161943,,high,,literary work
+OL1418251W,Tarzan of the Apes,MATCH,Q655296,,high,,literary work
+OL262473W,The Mystery of Cloomber,MATCH,Q4449924,,high,,literary work
+OL9056552W,The prisoner of Zenda,MATCH,Q1193766,,high,,literary work
+OL74504W,White Fang,MATCH,Q152267,,high,,literary work
+OL1487721W,Alas!,MATCH,Q111301777,,high,,literary work
+OL109153W,The Grand Babylon Hotel,MATCH,Q7737468,,high,,literary work
+OL115067W,King Coal,MATCH,Q16386559,,high,,literary work
+OL111382W,The Yearling,MATCH,Q429806,,high,,literary work
+OL485410W,The border legion,MATCH,Q7719393,,high,,literary work
+OL1794917W,"The octopus, a story of California",MATCH,Q7754678,,high,,literary work
+OL715553W,Textplus - New Grub Street,MATCH,Q29053296,,high,,literary work
+OL1797345W,"The uncalled, a novel",MATCH,Q130332685,,high,,literary work
+OL39108W,The Secret Agent,MATCH,Q1247666,,high,,literary work
+OL468485W,Tender is the Night,MATCH,Q247372,,high,,literary work
+OL19870W,The Jungle Book,MATCH,Q189509,,high,,literary work
+OL44014215W,Strange case of Dr. Jekyll and Mr. Hyde,MATCH,Q217352,,high,,literary work
+OL462007W,Peter Pan,MATCH,Q3435337,,high,,literary work
+OL1154817W,The Crock of Gold,MATCH,Q7728134,,high,,literary work
+OL39453744W,Jude the obscure,MATCH,Q1248773,,high,,literary work
+OL65430W,The Awakening,MATCH,Q1567505,,high,,literary work
+OL98585W,The Custom of the Country,MATCH,Q7728505,,high,,literary work
+OL69032W,The Rise of Silas Lapham,MATCH,Q7760892,,high,,literary work
+OL211982W,Way of revelation,NO_MATCH,,,high,wrong_work,no matching candidates
+OL7719221W,The silent witness,NO_MATCH,,,high,wrong_work;adaptation,candidates are films or episodes
+OL449576W,"So young, so fair",NO_MATCH,,,high,wrong_work,no matching candidates
+OL13139964W,Mistress Brent: A Story of Lord Baltimore's Colony in 1638,NO_MATCH,,,high,wrong_work,no matching candidates
+OL10489225W,Armour wherein he trusted,NO_MATCH,,,high,wrong_work,no matching candidates
+OL4417056W,Millions in motors,NO_MATCH,,,high,wrong_work,no matching candidates
+OL214825W,The lure o'gold,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1618981W,Rawhide Rawlins stories,NO_MATCH,,,high,wrong_work,no matching candidates
+OL85369W,We had a picnic this Sunday past,NO_MATCH,,,high,wrong_work,no matching candidates
+OL182131W,Proud Way,NO_MATCH,,,high,wrong_work,no matching candidates
+OL5202721W,The sword in the mountains,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1795872W,Stories of peace and war,NO_MATCH,,,high,wrong_work,no matching candidates
+OL5591842W,The silk stocking murders,MATCH,Q131315561,,high,,literary work
+OL11250419W,"In the coils, or, The coming conflict",NO_MATCH,,,high,wrong_work,no matching candidates
+OL1798692W,Mr. Dooley in peace and in war,NO_MATCH,,,high,wrong_work,no matching candidates
+OL2455066W,The passionate year,NO_MATCH,,,high,wrong_work,no matching candidates
+OL6108462W,Three pretty men,NO_MATCH,,,high,wrong_work,no matching candidates
+OL144983W,The princess passes,NO_MATCH,,,high,wrong_work,no matching candidates
+OL863687W,The fortunes of Nigel ; Count Robert of Paris,NO_MATCH,,,high,wrong_work,target combines works
+OL100195W,Free And Other Stories By Theodore Dreiser,NO_MATCH,,,high,wrong_work,no matching candidates
+OL5215840W,Heroes of chivalry and romance,NO_MATCH,,,high,wrong_work,no matching candidates
+OL2986859W,He dwelt among us,NO_MATCH,,,high,wrong_work,no matching candidates
+OL7003455W,Og son of fire,MATCH,Q134495649,,high,,literary work
+OL724306W,The crowning of a king,NO_MATCH,,,high,wrong_work,no matching candidates
+OL507361W,Edgewater people,NO_MATCH,,,high,wrong_work,no matching candidates
+OL8391025W,"Beaky, the greedy duck",NO_MATCH,,,high,wrong_work,no matching candidates
+OL6038060W,"Romances and epics of our northern ancestors, Norse, Celt and Teuton",NO_MATCH,,,high,wrong_work,no matching candidates
+OL3282831W,A Carolina cavalier,NO_MATCH,,,high,wrong_work,no matching candidates
+OL6608066W,The doctor looks at love and life,NO_MATCH,,,high,wrong_work,no matching candidates
+OL7133503W,In white and black,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1794619W,With Roberts to Pretoria,NO_MATCH,,,high,wrong_work,no matching candidates
+OL17036122W,A family flight over Egypt and Syria,NO_MATCH,,,high,wrong_work,no matching candidates
+OL13342888W,The Capsina: An Historical Novel,MATCH,Q124087127,,high,,literary work
+OL3613405W,Consider her ways,MATCH,Q133529823,,high,,literary work
+OL5693628W,The island of the stairs,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1501035W,The pathfinders of the revolution,NO_MATCH,,,high,wrong_work,no matching candidates
+OL6689778W,Briton or Boer?,MATCH,Q135188170,,high,,literary work
+OL1868652W,The mantel-piece minstrels and other stories,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1145604W,Queer stories for boys and girls,NO_MATCH,,,high,wrong_work,no matching candidates
+OL7547968W,The Little Swiss Wood Carver,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1441628W,Life with father,MATCH,Q14396011,,high,,literary work
+OL1164807W,Poor fool,NO_MATCH,,,high,wrong_work,no matching candidates
+OL1395812W,Ferdinand And Isabella,MATCH,Q111233897,,high,,literary work
+OL1590469W,A pillar of salt,NO_MATCH,,,high,wrong_work,no matching candidates
+OL17960893W,Lady Barbarina,NO_MATCH,,,high,wrong_work,no matching candidates
+OL2303527W,Rain on the wind,NO_MATCH,,,high,wrong_work,no matching candidates
+OL107437W,A sailor's sweetheart,MATCH,Q124081074,,high,,literary work
+OL1098472W,The wind blows over,NO_MATCH,,,high,wrong_work,no matching candidates

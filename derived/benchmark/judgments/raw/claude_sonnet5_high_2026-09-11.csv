@@ -1,0 +1,131 @@
+target_id,title,decision,selected_qid,alternative_qids,confidence,issue_codes,reason
+OL35695219W,Ulysses,AMBIGUOUS,Q6511,Q132204758;Q141008887,medium,duplicate_work_items,"Multiple candidates (Q6511, Q132204758, Q141008887) are distinct work-level items with matching title/author; likely duplicate representations of the same work."
+OL31971259W,Heart of Darkness,AMBIGUOUS,Q129778,Q136466314,medium,duplicate_work_items,"Multiple candidates (Q129778, Q136466314) are distinct work-level items with matching title/author; likely duplicate representations of the same work."
+OL86320W,Dubliners,MATCH,Q459592,,high,,"Title 'Dubliners' matches target; author matches 'Joyce, James'; instance_of=literary work; work-level item."
+OL276470W,The Ambassadors,MATCH,Q650571,,high,,"Title 'The Ambassadors' matches target; author matches 'James, Henry'; instance_of=literary work; work-level item."
+OL82870W,The Sound and the Fury,MATCH,Q135515,,high,,Title 'The Sound and the Fury' matches target; author matches 'William Faulkner'; instance_of=literary work; work-level item.
+OL38989822W,A portrait of the artist as a young man,MATCH,Q465360,,high,,"Title 'A Portrait of the Artist as a Young Man' matches target; author matches 'Joyce, James'; instance_of=literary work; work-level item."
+OL1794919W,The Pit,MATCH,Q7757284,,high,,Title 'The Pit' matches target; author matches 'Frank Norris'; instance_of=literary work; work-level item.
+OL82929W,As I Lay Dying,MATCH,Q1544119,,high,,Title 'As I Lay Dying' matches target; author matches 'William Faulkner'; instance_of=literary work; work-level item.
+OL39360W,Orlando,MATCH,Q1629456,,high,,Title 'Orlando: A Biography' matches target; author matches 'Virginia Woolf'; instance_of=literary work; work-level item.
+OL35353208W,The Great Gatsby,MATCH,Q214371,,high,,Title 'The Great Gatsby' matches target; author matches 'F. Scott Fitzgerald'; instance_of=literary work; work-level item.
+OL39349W,Mrs. Dalloway,MATCH,Q752584,,high,,Title 'Mrs Dalloway' matches target; author matches 'Virginia Woolf'; instance_of=literary work; work-level item.
+OL40252771W,Turn of the Screw,MATCH,Q625923,,high,,Title 'The Turn of the Screw' matches target; author matches 'Henry James'; instance_of=literary work; work-level item.
+OL81295W,Sons and Lovers,MATCH,Q80771,,high,,"Title 'Sons and Lovers' matches target; author matches 'Lawrence, D. H.'; instance_of=literary work; work-level item."
+OL40434746W,Tess of the D'Urbervilles,MATCH,Q649409,,high,,Title 'Tess of the d'Urbervilles' matches target; author matches 'Thomas Hardy'; instance_of=literary work; work-level item.
+OL18814811W,Looking backward,MATCH,Q1305106,,high,,"Title 'Looking Backward' matches target; author matches 'Bellamy, Edward'; instance_of=literary work; work-level item."
+OL98491W,The Age of Innocence,MATCH,Q1045464,,high,,Title 'The Age of Innocence' matches target; author matches 'Edith Wharton'; instance_of=literary work; work-level item.
+OL42236259W,The house of mirth,MATCH,Q6474536,,high,,"Title 'The House of Mirth' matches target; author matches 'Edith Wharton'; instance_of=literary work,serialized fiction; work-level item."
+OL39396W,To the Lighthouse,MATCH,Q478016,,high,,Title 'To the Lighthouse' matches target; author matches 'Virginia Woolf'; instance_of=literary work; work-level item.
+OL51141W,The job,MATCH,Q7743319,,high,,Title 'The Job; An American Novel' matches target; author matches 'Sinclair Lewis'; instance_of=literary work; work-level item.
+OL62979W,The Sun Also Rises,MATCH,Q501351,,high,,Title 'The Sun Also Rises' matches target; author matches 'Ernest Hemingway'; instance_of=literary work; work-level item.
+OL1168083W,Nineteen Eighty-Four,MATCH,Q208460,,high,,Title 'Nineteen Eighty-Four' matches target; author matches 'George Orwell'; instance_of=literary work; work-level item.
+OL42517032W,The red badge of courage,MATCH,Q1219239,,high,,"Title 'The Red Badge of Courage' matches target; author matches 'Crane, Stephen'; instance_of=literary work; work-level item."
+OL43405505W,Lady Chatterley's lover,MATCH,Q750670,,high,,"Title 'Lady Chatterley's Lover' matches target; author matches 'Lawrence, D. H.'; instance_of=literary work; work-level item."
+OL100203W,Sister Carrie,MATCH,Q1286961,,high,,Title 'Sister Carrie' matches target; author matches 'Theodore Dreiser'; instance_of=literary work; work-level item.
+OL20172W,Kim,AMBIGUOUS,Q589868,Q19086249,medium,duplicate_work_items,"Multiple candidates (Q589868, Q19086249) are distinct work-level items with matching title/author; likely duplicate representations of the same work."
+OL276365W,The Portrait of a Lady,MATCH,Q861017,,high,,"Title 'The Portrait of a Lady' matches target; author matches 'James, Henry'; instance_of=literary work; work-level item."
+OL8193416W,The Picture of Dorian Gray,MATCH,Q82464,,high,,Title 'The Picture of Dorian Gray' matches target; author matches 'Oscar Wilde'; instance_of=literary work; work-level item.
+OL1794911W,McTeague,MATCH,Q11772710,,high,,Title 'McTeague' matches target; author matches 'Frank Norris'; instance_of=literary work; work-level item.
+OL509919W,Parade's End,MATCH,Q5579026,,high,,"Title 'Parade's End' matches target; author matches 'Ford Madox Ford'; instance_of=literary tetralogy,novel series; work-level item."
+OL52267W,The Time Machine,MATCH,Q627333,,high,,"Title 'The Time Machine' matches target; author matches 'H. G. Wells'; instance_of=literary work,serialized fiction; work-level item."
+OL44622934W,The jungle,MATCH,Q260205,,high,,Title 'The Jungle' matches target; author matches 'Upton Sinclair'; instance_of=literary work; work-level item.
+OL88881W,Howards End,MATCH,Q1146642,,high,,Title 'Howards End' matches target; author matches 'E. M. Forster'; instance_of=literary work; work-level item.
+OL100196W,"The ""genius""",MATCH,Q4593382,,high,,"Title 'The ""Genius""' matches target; author matches 'Theodore Dreiser'; instance_of=literary work; work-level item."
+OL38827W,The shadow-line,MATCH,Q1120858,,high,,"Title 'The Shadow-Line' matches target; author matches 'Conrad, Joseph'; instance_of=literary work; work-level item."
+OL468488W,This Side of Paradise,MATCH,Q2581681,,high,,Title 'This Side of Paradise' matches target; author matches 'F. Scott Fitzgerald'; instance_of=literary work; work-level item.
+OL27834207W,The Return of the Soldier,MATCH,Q7760466,,high,,Title 'The Return of the Soldier' matches target; author matches 'Rebecca West'; instance_of=literary work; work-level item.
+OL35383W,Three Lives,MATCH,Q7797597,,high,,Title 'Three Lives' matches target; author matches 'Gertrude Stein'; instance_of=literary work; work-level item.
+OL100237W,The Financier,MATCH,Q577607,,high,,Title 'The Financier' matches target; author matches 'Theodore Dreiser'; instance_of=literary work; work-level item.
+OL37277W,The Autobiography of Alice B. Toklas,MATCH,Q6618986,,high,,Title 'The Autobiography of Alice B. Toklas' matches target; author matches 'Gertrude Stein'; instance_of=written work; work-level item.
+OL144822W,Martin Eden,MATCH,Q1317839,,high,,Title 'Martin Eden' matches target; author matches 'Jack London'; instance_of=literary work; work-level item.
+OL63009W,For Whom the Bell Tolls,AMBIGUOUS,Q200920,Q123290965,medium,duplicate_work_items,"Multiple candidates (Q200920, Q123290965) are distinct work-level items with matching title/author; likely duplicate representations of the same work."
+OL18561767W,The story of an African farm,MATCH,Q7766827,,high,,Title 'The Story of an African Farm' matches target; author matches 'Olive Schreiner'; instance_of=literary work; work-level item.
+OL14864528W,The rise of David Levinsky,MATCH,Q7760882,,high,,Title 'The Rise of David Levinsky' matches target; author matches 'Abraham Cahan'; instance_of=literary work; work-level item.
+OL39329W,Jacob's Room,MATCH,Q1677745,,high,,Title 'Jacob's Room' matches target; author matches 'Virginia Woolf'; instance_of=literary work; work-level item.
+OL98501W,Ethan Frome,MATCH,Q5402934,,high,,Title 'Ethan Frome' matches target; author matches 'Edith Wharton'; instance_of=literary work; work-level item.
+OL41540816W,Robert Elsmere,MATCH,Q7344052,,high,,Title 'Robert Elsmere' matches target; author matches 'Humphry Ward' (author matched via surname); instance_of=literary work; work-level item.
+OL20839W,"Maggie, a girl of the streets",MATCH,Q3276774,,high,,"Title 'Maggie: A Girl of the Streets' matches target; author matches 'Crane, Stephen'; instance_of=literary work; work-level item."
+OL12781W,Alexander's Bridge,MATCH,Q4718102,,high,,Title 'Alexander's Bridge' matches target; author matches 'Willa Cather'; instance_of=literary work; work-level item.
+OL24034W,Treasure Island,MATCH,Q185118,,high,,Title 'Treasure Island' matches target; author matches 'Robert Louis Stevenson'; instance_of=literary work; work-level item.
+OL88813W,A Room with a View,MATCH,Q120288,,high,,Title 'A Room with a View' matches target; author matches 'E. M. Forster'; instance_of=literary work; work-level item.
+OL468362W,The Beautiful and Damned,MATCH,Q2531205,,high,,Title 'The Beautiful and Damned' matches target; author matches 'F. Scott Fitzgerald'; instance_of=literary work; work-level item.
+OL715621W,The odd women,MATCH,Q7754692,,high,,Title 'The Odd Women' matches target; author matches 'George Gissing'; instance_of=literary work; work-level item.
+OL14942956W,The Call of the Wild,MATCH,Q476871,,high,,Title 'The Call of the Wild' matches target; author matches 'Jack London'; instance_of=literary work; work-level item.
+OL1217993W,Three soldiers,MATCH,Q7797826,,high,,Title 'Three Soldiers' matches target; author matches 'John Dos Passos'; instance_of=literary work; work-level item.
+OL65437W,At Fault,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL5293697W,New day,MATCH,Q16387293,,high,,Title 'New Day' matches target; author matches 'Victor Stafford Reid'; instance_of=literary work; work-level item.
+OL1253285W,The Scarlet Pimpernel,MATCH,Q1249536,,high,,"Title 'The Scarlet Pimpernel' matches target; author matches 'Orczy, Emmuska Orczy' (author matched via surname); instance_of=literary work; work-level item."
+OL4390503W,Gone to Earth,MATCH,Q109284453,,high,,Title 'Gone to Earth' matches target; author matches 'Mary Gladys Meredith Webb' (author matched via surname); instance_of=literary work; work-level item.
+OL4902750W,Java Head,MATCH,Q107000085,,medium,,Title 'Java Head' matches target; author matches 'Joseph Hergesheimer'; instance_of=literary work; work-level item.
+OL507321W,Pembroke,MATCH,Q7161943,,high,,Title 'Pembroke' matches target; author matches 'Mary Eleanor Wilkins Freeman'; instance_of=literary work; work-level item.
+OL1418251W,Tarzan of the Apes,MATCH,Q655296,,high,,Title 'Tarzan of the Apes' matches target; author matches 'Edgar Rice Burroughs'; instance_of=literary work; work-level item.
+OL262473W,The Mystery of Cloomber,MATCH,Q4449924,,high,,"Title 'The Mystery of Cloomber' matches target; author matches 'Doyle, Arthur Conan'; instance_of=literary work; work-level item."
+OL9056552W,The prisoner of Zenda,MATCH,Q1193766,,high,,"Title 'The Prisoner of Zenda' matches target; author matches 'Hope, Anthony'; instance_of=literary work; work-level item."
+OL74504W,White Fang,MATCH,Q152267,,high,,Title 'White Fang' matches target; author matches 'Jack London'; instance_of=literary work; work-level item.
+OL1487721W,Alas!,MATCH,Q111301777,,medium,,Title 'Alas! A Novel' matches target; author matches 'Rhoda Broughton'; instance_of=literary work; work-level item.
+OL109153W,The Grand Babylon Hotel,MATCH,Q7737468,,high,,"Title 'The Grand Babylon Hotel' matches target; author matches 'Bennett, Arnold'; instance_of=article,literary work; work-level item."
+OL115067W,King Coal,MATCH,Q16386559,,high,,Title 'King Coal' matches target; author matches 'Upton Sinclair'; instance_of=literary work; work-level item.
+OL111382W,The Yearling,MATCH,Q429806,,high,,Title 'The Yearling' matches target; author matches 'Marjorie Kinnan Rawlings'; instance_of=literary work; work-level item.
+OL485410W,The border legion,MATCH,Q7719393,,high,,Title 'The Border Legion' matches target; author matches 'Zane Grey'; instance_of=literary work; work-level item.
+OL1794917W,"The octopus, a story of California",MATCH,Q7754678,,high,,Title 'The Octopus: A Story of California' matches target; author matches 'Frank Norris'; instance_of=literary work; work-level item.
+OL715553W,Textplus - New Grub Street,MATCH,Q29053296,,medium,title_variant,Title 'New Grub Street' matches target (matched via core title / subtitle variant); author matches 'George Gissing'; instance_of=literary work; work-level item.
+OL1797345W,"The uncalled, a novel",MATCH,Q130332685,,medium,title_variant,Title 'The Uncalled' matches target (matched via core title / subtitle variant); author matches 'Paul Laurence Dunbar'; instance_of=literary work; work-level item.
+OL39108W,The Secret Agent,MATCH,Q1247666,,high,,"Title 'The Secret Agent' matches target; author matches 'Conrad, Joseph'; instance_of=literary work; work-level item."
+OL468485W,Tender is the Night,MATCH,Q247372,,high,,Title 'Tender Is the Night' matches target; author matches 'F. Scott Fitzgerald'; instance_of=literary work; work-level item.
+OL19870W,The Jungle Book,MATCH,Q189509,,high,,"Title 'The Jungle Book' matches target; author matches 'Kipling, Rudyard'; instance_of=literary work; work-level item."
+OL44014215W,Strange case of Dr. Jekyll and Mr. Hyde,MATCH,Q217352,,high,,Title 'Strange Case of Dr Jekyll and Mr Hyde' matches target; author matches 'Robert Louis Stevenson'; instance_of=literary work; work-level item.
+OL462007W,Peter Pan,AMBIGUOUS,Q3435337,Q19032697,medium,duplicate_work_items,"Multiple candidates (Q3435337, Q19032697) are distinct work-level items with matching title/author; likely duplicate representations of the same work."
+OL1154817W,The Crock of Gold,MATCH,Q7728134,,high,,"Title 'The Crock of Gold' matches target; author matches 'Stephens, James'; instance_of=literary work; work-level item."
+OL39453744W,Jude the obscure,MATCH,Q1248773,,high,,"Title 'Jude the Obscure' matches target; author matches 'Hardy, Thomas'; instance_of=literary work; work-level item."
+OL65430W,The Awakening,MATCH,Q1567505,,high,,Title 'The Awakening' matches target; author matches 'Kate Chopin'; instance_of=literary work; work-level item.
+OL98585W,The Custom of the Country,MATCH,Q7728505,,high,,Title 'The Custom of the Country' matches target; author matches 'Edith Wharton'; instance_of=literary work; work-level item.
+OL69032W,The Rise of Silas Lapham,MATCH,Q7760892,,high,,Title 'The Rise of Silas Lapham' matches target; author matches 'William Dean Howells'; instance_of=literary work; work-level item.
+OL211982W,Way of revelation,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL7719221W,The silent witness,NO_MATCH,,,low,author_ambiguity,A candidate literary work shares the title but is attributed to a different author than target author 'Kate Slaughter McKinney'; likely a different work sharing the same title.
+OL449576W,"So young, so fair",NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL13139964W,Mistress Brent: A Story of Lord Baltimore's Colony in 1638,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL10489225W,Armour wherein he trusted,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL4417056W,Millions in motors,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL214825W,The lure o'gold,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL1618981W,Rawhide Rawlins stories,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL85369W,We had a picnic this Sunday past,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL182131W,Proud Way,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL5202721W,The sword in the mountains,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL1795872W,Stories of peace and war,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL5591842W,The silk stocking murders,MATCH,Q131315561,,medium,,Title 'The Silk Stocking Murders' matches target; author matches 'Anthony Berkeley' (author matched via alias/partial name overlap); instance_of=literary work; work-level item.
+OL11250419W,"In the coils, or, The coming conflict",NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL1798692W,Mr. Dooley in peace and in war,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL2455066W,The passionate year,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL6108462W,Three pretty men,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL144983W,The princess passes,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL863687W,The fortunes of Nigel ; Count Robert of Paris,NO_MATCH,,,medium,wrong_work,"Target OpenLibrary record combines two distinct Walter Scott novels ('The Fortunes of Nigel' and 'Count Robert of Paris') as one compound title; no single supplied candidate represents this combined/omnibus entity, and treating it as either individual novel would misrepresent the target."
+OL100195W,Free And Other Stories By Theodore Dreiser,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL5215840W,Heroes of chivalry and romance,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL2986859W,He dwelt among us,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL7003455W,Og son of fire,MATCH,Q134495649,,medium,title_variant,Close title variant 'OgSon of Fire' (similarity 0.963) with matching author; treated as same work under a variant title/subtitle.
+OL724306W,The crowning of a king,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL507361W,Edgewater people,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL8391025W,"Beaky, the greedy duck",NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL6038060W,"Romances and epics of our northern ancestors, Norse, Celt and Teuton",NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL3282831W,A Carolina cavalier,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL6608066W,The doctor looks at love and life,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL7133503W,In white and black,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL1794619W,With Roberts to Pretoria,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL17036122W,A family flight over Egypt and Syria,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL13342888W,The Capsina: An Historical Novel,MATCH,Q124087127,,medium,title_variant,Title 'The Capsina' matches target (matched via core title / subtitle variant); author matches 'E. F. Benson' (author matched via surname); instance_of=literary work; work-level item.
+OL3613405W,Consider her ways,MATCH,Q133529823,,medium,,Title 'Consider Her Ways' matches target; author matches 'Frederick Philip Grove'; instance_of=literary work; work-level item.
+OL5693628W,The island of the stairs,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL1501035W,The pathfinders of the revolution,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL6689778W,Briton or Boer?,MATCH,Q135188170,,medium,,Title 'Briton or Boer? A Tale of the Fight for Africa' matches target; author matches 'George Chetwynd Griffith' (author matched via surname); instance_of=literary work; work-level item.
+OL1868652W,The mantel-piece minstrels and other stories,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL1145604W,Queer stories for boys and girls,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL7547968W,The Little Swiss Wood Carver,NO_MATCH,,,high,missing_metadata,"No candidates were supplied for this target (candidate_count=0), so no bibliographic match can be determined."
+OL1441628W,Life with father,MATCH,Q14396011,,high,,"Title 'Life with Father' matches target; author matches 'Day, Clarence'; instance_of=literary work; work-level item."
+OL1164807W,Poor fool,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL1395812W,Ferdinand And Isabella,MATCH,Q111233897,,medium,,"Title 'Ferdinand and Isabella' matches target; author matches 'Kesten, Hermann'; instance_of=literary work; work-level item."
+OL1590469W,A pillar of salt,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL17960893W,Lady Barbarina,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL2303527W,Rain on the wind,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).
+OL107437W,A sailor's sweetheart,MATCH,Q124081074,,medium,,Title 'A Sailor's Sweetheart: An Account of the Wr...' matches target; author matches 'William Clark Russell'; instance_of=literary work; work-level item.
+OL1098472W,The wind blows over,NO_MATCH,,,low,wrong_work,No supplied candidate corresponds to the target title/author combination (no matching literary work found among candidates; any title matches are unrelated/non-literary entities or lack author attribution).

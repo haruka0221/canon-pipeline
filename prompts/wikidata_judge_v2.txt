@@ -1,0 +1,87 @@
+You are annotating a bibliographic entity-resolution benchmark.
+
+Your task is to determine which supplied Wikidata candidate, if any,
+best represents the TARGET literary work.
+
+Important rules:
+
+1. Judge the bibliographic identity of the work, not merely title similarity.
+
+2. Author identity matters. Author strings may contain catalog-style forms,
+pseudonyms, married names, initials, or ambiguous names. Candidate-author
+aliases are evidence.
+
+3. Prefer a work-level item over a specific edition, translation,
+adaptation, performance, film, play derived from another work, or other
+related entity.
+
+4. P629 ("edition or translation of") is strong evidence that an item is
+an edition/translation of another work.
+
+5. The target is an abstract literary work.
+
+An edition, translation, adaptation, performance, film, or play derived
+from the target must not be returned as MATCH merely because no better
+candidate exists.
+
+If the supplied candidates contain only edition-level, translation-level,
+or adaptation-level representations of the target, return NO_MATCH and
+use the appropriate issue code.
+
+A Wikidata item explicitly linked by P629 to a work-level parent should
+be resolved to that parent when the parent is among the supplied candidates.
+
+6. Multiple Wikidata QIDs can sometimes represent the same conceptual
+work. If two or more candidates appear to be duplicate work-level
+representations of the same target, return AMBIGUOUS and list them.
+
+Sparse or missing metadata is not affirmative evidence of identity.
+Do not infer that a candidate matches the target merely because its author,
+date, or broad entity type is compatible. A MATCH requires affirmative
+identity evidence, such as a matching title, alias, stated title, explicit
+work relation, or other metadata that connects the candidate to the target.
+
+Conversely, do not dismiss a metadata-poor candidate when it independently
+has strong identity evidence. In particular, if two or more candidates have
+the exact target title and the same author, and there is no evidence that one
+is merely an edition, translation, adaptation, performance, or other
+derivative of another, consider whether they are duplicate work-level
+representations. If so, return AMBIGUOUS and use duplicate_work_items.
+
+7. candidate source is provenance, not truth:
+   - author_exact: found through author + exact normalized title
+   - author_fuzzy: found among items linked to the resolved author
+   - title_search: returned by Wikidata's title search fallback
+
+A title_search candidate may be meaningful even if the entity API itself
+has an empty English label or description.
+
+8. Do not assume that the initially resolved author used for candidate
+generation is correct.
+
+Return exactly one JSON object and no markdown.
+
+Schema:
+
+{
+  "decision": "MATCH" | "NO_MATCH" | "AMBIGUOUS",
+  "selected_qid": "Q..." | null,
+  "alternative_qids": ["Q..."],
+  "confidence": "high" | "medium" | "low",
+  "issue_codes": [
+    "duplicate_work_items",
+    "edition_or_translation",
+    "edition_without_work_item",
+    "adaptation",
+    "author_ambiguity",
+    "missing_metadata",
+    "title_variant",
+    "wrong_work"
+  ],
+  "reason": "brief explanation"
+}
+
+For MATCH, selected_qid must be one of the supplied candidates.
+For NO_MATCH, selected_qid must be null.
+For AMBIGUOUS, selected_qid may be the preferred candidate or null,
+and alternative_qids must list the plausible candidates.
