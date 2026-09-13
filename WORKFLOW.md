@@ -1,10 +1,12 @@
 # WORKFLOW.md — canon-pipeline
 **DCC Digital Curation Workflow Narrative**
-Last updated: 2026-08-21
+Last updated: 2026-09-13
 Status: LIVING DOCUMENT — update on every major change
 
 
-Update note: 2026-08-21 — OpenAlex production-scale validation, the reviewed v8 90-work visibility/configuration layer, and the Internet Archive object-type pilot/validation were added as later methodological qualifications. Historical descriptions and earlier decisions below are retained where useful for provenance, but superseded analytical values are explicitly marked.
+Update note: 2026-08-22 — Internet Archive retrieval/classification was completed for the validated 90-work pilot, including a Rebecca West identity correction, directly observed core visibility profiles, cross-source correlations, and academic–reader residual comparisons. OpenAlex production-scale validation and the reviewed v8 90-work visibility/configuration layer remain current. Historical descriptions and earlier decisions below are retained where useful for provenance, but superseded analytical values are explicitly marked.
+
+Update note: 2026-09-13 — Wikidata entity resolution was re-audited and redesigned for production-scale use. The final adjudicated 130-item development benchmark now distinguishes MATCH / NO_MATCH / AMBIGUOUS and supersedes the older single-QID benchmark as the current evaluation reference. A separate final blind 50-item holdout reached 48/50 three-way accuracy (0.960), binary precision 1.000, recall 0.917, F1 0.957, specificity 1.000, and primary-QID accuracy 11/12 (0.917) on gold-positive cases. The production resolver v3 and its prompts, adjudication materials, and holdout evaluation were committed in bea6d1a. To scale from the benchmark to all 34,789 Open Library works without repeated Wikidata API / WDQS rate limits, the 2026-08-05 Wikidata JSON dump was downloaded to the analysis server and a local SQLite candidate index is being built as of 2026-09-13. This population-scale local index is still in progress and must not yet be treated as a completed analytical output.
 
 ---
 
@@ -18,6 +20,26 @@ This pipeline constructs and validates a population of English-language fiction 
 **Working environment:** WSL (Ubuntu 24) on Windows, ~/canon-pipeline
 **Primary tools:** Python 3.12, pandas, rapidfuzz, pyahocorasick, pdfplumber
 **External data (local only):** OpenAlex works snapshot (620GB, /mnt/d/openalex/works/), JSTOR metadata (6.5GB), Critical Inquiry PDFs (254 files, 2019–2025)
+
+---
+
+## Documentation and provenance policy — 2026-09-13
+
+WORKFLOW.md remains the canonical entry point for the entire project. The repository is not moving to a model in which every database, experiment, or warning receives a separate document. Major changes, current status, authoritative outputs, known limitations, and links to any detailed methodological note should continue to be recorded here.
+
+Documentation is divided by function:
+
+- `WORKFLOW.md`: project-wide current state, chronology, authoritative outputs, superseded results, major decisions, known limitations, and next steps. If two records conflict, this file should identify which one is current.
+- `docs/`: only for a small number of self-contained methodological notes that are too detailed for WORKFLOW.md and are useful independently for implementation, benchmark construction, or dissertation methods writing. A `docs/` file is considered part of the canonical documentation only when it is linked from WORKFLOW.md.
+- `derived/`, `audit/`, benchmark directories, logs, and manifests: machine-readable results, review packets, evaluation outputs, hashes, and run-specific provenance. These should not be promoted into additional narrative documentation unless a durable methodological explanation is needed.
+
+Current detailed methodological note:
+
+- `docs/WIKIDATA_ENTITY_RESOLUTION.md` — detailed definition of the Wikidata resolution target, benchmark redesign, failure modes, work/edition/translation distinctions, duplicate work-level items, adjudication, and production workflow. This is a methodological appendix to WORKFLOW.md, not a replacement for it.
+
+Do not create `docs/JSTOR.md`, `docs/OPENALEX.md`, `docs/GOODREADS.md`, etc. by default. Keep those database workflows in WORKFLOW.md unless a section becomes a substantial standalone method in its own right. A single `docs/DATA_DICTIONARY.md` may be created later, but only after the population-level final master table is stable enough that column definitions, provenance, missing-value semantics, and versioning need a durable reference. Until then, the planned master-table schema should remain in WORKFLOW.md.
+
+Historical material is intentionally retained when useful for provenance, but every superseded result should be explicitly marked as historical and point to the current replacement.
 
 ---
 
@@ -516,6 +538,8 @@ working set rather than a fully validated gold set.
 
 ### 4e-ext: Wikidata Entity Resolution Benchmark — Canonical 82件・F1=0.969
 
+> Historical benchmark note (superseded 2026-09-13): the F1=0.969 result below remains useful as development history, but it is not the current final evaluation. Use the re-audited benchmark and final holdout described in 4e-ext-2 and `docs/WIKIDATA_ENTITY_RESOLUTION.md` for current methodological claims.
+
 #### 背景
 
 Wikidata照合は単なるメタデータマッチングではなく、著者名表記ゆれ・同タイトル別著作・Wikidata内部の複数エンティティ混在など複雑な失敗パターンに対処するため、LLM多段階推論エージェントの評価が必要だった。
@@ -571,6 +595,179 @@ Wikidata照合は単なるメタデータマッチングではなく、著者名
 #### OL sitelink品質問題の発見
 
 The House of MirthのOL sitelinkはQ131825212（1995年Project Gutenberg版・版レベルエンティティ）を指しており、正しい著作物レベル（FRBR Work）Q6474536とは異なっていた。エージェント予測が正解で、OL sitelink自体の品質問題が確認された。→ OL sitelinkを無条件にgold標準として使用できないことを示唆。
+
+### 4e-ext-2: Wikidata Entity Resolution — re-audited benchmark and production-scale workflow (2026-09-11–13)
+
+#### Current target and methodological definition
+
+The resolution target is the Wikidata entity that best represents the same abstract literary work as the Open Library work record. A matching title alone is insufficient. Edition/translation items, adaptations, performances, films, derived works, and unrelated same-title items must be distinguished from work-level entities. Duplicate work-level items may remain genuinely ambiguous rather than forcing a single artificial QID.
+
+The current workflow therefore separates three problems:
+
+1. entity identity — whether the candidate is the same intellectual/literary work;
+2. bibliographic granularity — work vs edition/translation/derived manifestation;
+3. canonical-QID selection — whether one of multiple plausible work-level Wikidata items should be preferred or the case should remain AMBIGUOUS.
+
+Detailed rationale and benchmark history: `docs/WIKIDATA_ENTITY_RESOLUTION.md`.
+
+#### Re-audited 130-item development benchmark
+
+The earlier benchmark was re-audited because a single strict QID could encode edition-level gold labels, duplicate work representations, or time-sensitive NO_MATCH judgments. The final adjudicated 130-item benchmark contains:
+
+| decision | n |
+|---|---:|
+| MATCH | 83 |
+| NO_MATCH | 42 |
+| AMBIGUOUS | 5 |
+| total | 130 |
+
+Gold construction retains provenance for direct human adjudication, model-consensus cases with human audit, and model-consensus cases not individually re-reviewed. The 130-item set is a development/adjudication benchmark and should not be described as a timeless external truth set, because Wikidata is dynamic.
+
+Key files:
+
+```text
+derived/benchmark/judgments/adjudication/wikidata_benchmark_adjudicated_final_130.csv
+derived/benchmark/judgments/adjudication/wikidata_final_gold_evaluation_summary.csv
+derived/benchmark/judgments/adjudication/wikidata_final_gold_evaluation_details.csv
+```
+
+#### Final blind 50-item holdout — v3
+
+A separate final holdout was reviewed blind with model predictions, candidate ranking, and scores hidden. Gold distribution and final production-v3 performance:
+
+| metric | result |
+|---|---:|
+| gold NO_MATCH | 38 |
+| gold MATCH | 12 |
+| three-way decision accuracy | 48/50 = 0.960 |
+| binary precision (MATCH/AMBIGUOUS vs NO_MATCH) | 1.000 |
+| binary recall | 0.917 |
+| binary F1 | 0.957 |
+| specificity | 1.000 |
+| primary-QID accuracy, gold-positive only | 11/12 = 0.917 |
+| set-aware Top-1, gold-positive only | 11/12 = 0.917 |
+
+The two disagreements were:
+
+- `Under Milk Wood / Dylan Thomas`: gold MATCH Q2497140; resolver AMBIGUOUS Q2497140 because multiple plausible work-level duplicate representations remained.
+- `The flower and market girls of Paris / Emile Zola`: gold MATCH Q338034; resolver NO_MATCH because the supplied candidate had thematic/author consistency but no affirmative title relation to the target English title.
+
+Final human-gold SHA256:
+
+```text
+c4aa43c60f5840d69adb28338474f7e5ae6de4a235d1981b6b92496dc5a84470
+```
+
+Key files:
+
+```text
+derived/benchmark/holdout/random50_v3_final/evaluation_random50_v3_final.md
+derived/benchmark/holdout/random50_v3_final/human_gold/random50_human_blind_51_100.tsv
+derived/benchmark/holdout/random50_v3_final/results.tsv
+derived/benchmark/holdout/random50_v3_final/judgments.jsonl
+derived/benchmark/holdout/random50_v3_final/FINAL_HOLDOUT_SHA256.txt
+```
+
+The benchmark, prompts, production resolver, adjudication files, and final holdout were committed on branch `kakenc-2026-analysis` in commit `bea6d1a` (`Add Wikidata entity resolution benchmark and final holdout evaluation`).
+
+#### Production resolver and author-resolution token-limit fix
+
+Production script:
+
+```text
+scripts/wikidata_resolver_production.py
+```
+
+Prompt sequence:
+
+```text
+prompts/wikidata_judge_v1.txt
+prompts/wikidata_judge_v2.txt
+prompts/wikidata_judge_v3.txt
+```
+
+A 500-record smoke test on the server exposed two scale-related problems before full-population execution:
+
+1. ambiguous author resolution could exhaust `max_output_tokens=300` entirely on model reasoning and return an empty visible response; a reproduced `Mackie, John` case completed successfully when the ceiling was increased to 1000;
+2. repeated online candidate retrieval triggered Wikidata HTTP 429 rate limiting after only a few dozen records.
+
+The author-resolution model ceiling was therefore changed from 300 to 1000 for the production-scale implementation. This is an operational fix to allow the existing author-resolution decision to complete, not a change to the benchmark target definition or judge prompt. The exact code used for the server run is separately protected by SHA256/run snapshots because this fix postdates commit `bea6d1a`.
+
+#### Production-scale decision: local Wikidata dump instead of repeated online retrieval
+
+Because 34,789 targets would repeatedly hit Wikidata API/WDQS rate limits, the production plan now retains the author-first logic but moves candidate retrieval to a local Wikidata snapshot.
+
+Source dump:
+
+```text
+/media/hdd1/user/tsutsui/wikidata/wikidata-20260805-all.json.bz2
+size: 102,577,987,071 bytes (~96 GiB)
+SHA256: f59fc38e64c41438b8783ac5640fc83b25618bd2142c12e3f08378ed512f902c
+Wikimedia snapshot: 2026-08-05
+download completed: 2026-09-13 02:15 JST
+```
+
+Population input prepared for Wikidata resolution:
+
+```text
+derived/wikidata_production/population_34789_2026-02-28.tsv
+rows: 34,789
+```
+
+Search-key preparation uses the same normalization functions as the production resolver. Current key counts:
+
+```text
+unique normalized authors: 13,730
+unique normalized titles: 31,194
+```
+
+Local-index builder:
+
+```text
+scripts/build_wikidata_local_index.py
+```
+
+Planned SQLite output:
+
+```text
+/media/hdd1/user/tsutsui/wikidata/wikidata_local_20260805.sqlite
+```
+
+The local index stores target-relevant author-name matches, `P50` author→item edges, metadata for P50-bearing/title-matching entities, exact normalized target-title matches, and FTS indexes for later local candidate retrieval. Relevant work metadata includes English labels/aliases, `P31`, `P50`, `P629`, `P577`, `P1476`, and English Wikipedia sitelink presence.
+
+Before full execution, the real dump structure was checked directly for `P50`, `P629`, and `P1476`; a 50,000-entity test dump produced `bad JSON lines: 0` and successfully recovered known work→author relations (e.g. `Finnegans Wake`→Q6507→James Joyce Q6882; `For Whom the Bell Tolls`→Q200920→Ernest Hemingway Q23434).
+
+As of 2026-09-13, the full SQLite index build is running on the server under tmux. This is an intermediate infrastructure build, not a completed Wikidata result. Do not merge its partial database into the literary-visibility master.
+
+Run provenance is frozen at:
+
+```text
+/media/hdd1/user/tsutsui/wikidata/index_run_manifest.txt
+/media/hdd1/user/tsutsui/wikidata/run_snapshot_20260913_1335/
+```
+
+The manifest records the current Git commit plus SHA256 hashes of the exact uncommitted index/resolver scripts, normalized key files, and source dump.
+
+#### Validation required before 34,789-work Wikidata output is accepted
+
+Completion of the local dump scan is not itself sufficient. Before population-scale QIDs are treated as final:
+
+1. run `scripts/evaluate_wikidata_local_candidates.py` against the adjudicated 130-item benchmark and final 50-item holdout;
+2. measure primary and set-aware candidate recall before any LLM judging;
+3. compare local candidate recall with the previously validated online candidate-generation workflow;
+4. inspect all benchmark/holdout misses and determine whether they arise from author resolution, title retrieval, `P629` collapsing, dump snapshot differences, or candidate truncation;
+5. only after candidate recall is acceptable, run the final v3 judge over the full population;
+6. preserve explicit states for matched / ambiguous / no match / unresolved or processing failure rather than collapsing all absence to a blank QID.
+
+Prepared evaluation script:
+
+```text
+scripts/evaluate_wikidata_local_candidates.py
+```
+
+A 50,000-entity partial-index run was used only as a plumbing test; its low benchmark recall is expected because most gold entities are absent from that partial dump and must not be reported as a model-quality result.
+
+---
 
 ### 4f. Edition Count (OL Editions Dump) — 完了 2026-03-28
 
@@ -829,6 +1026,15 @@ audit/hathitrust_title_fallback_review_90works.tsv
 audit/hathitrust_retry_3_corrected_results.tsv
 derived/hathitrust_90works_current.tsv
 derived/hathitrust_90works_final.tsv
+
+# Exploratory PCA / IA comparison
+derived/literary_visibility_pca_3metric_scores_90works_v8.tsv
+derived/literary_visibility_pca_3metric_loadings_90works_v8.tsv
+derived/literary_visibility_pca_3metric_variance_90works_v8.tsv
+derived/literary_visibility_pca_3metric_sensitivity_90works_v8.tsv
+derived/pca_residual_ia_analysis_90works_v8.tsv
+derived/pca_residual_ia_merged_90works_v8.tsv
+figures/literary_visibility_pca_3metric_pc1_pc2_90works_v8.png
 ```
 
 For the validated 90-work analysis, use `hathitrust_htid_count_final` and `hathitrust_pd_count_final` from `derived/hathitrust_90works_final.tsv`; do not reuse the historical `ht_final.tsv` value for these works without this correction layer. Conceptually, HTID count is treated here as representation in the HathiTrust digitized corpus / digitization history, not as a direct measure of readership or scholarly attention.
@@ -1614,7 +1820,7 @@ IA unrelated / unclear audit counts
 
 The resulting composition can then be compared with scholarly visibility (OpenAlex/JSTOR), reader visibility (Goodreads), bibliographic representation (reviewed Open Library records), and pedagogical selection (McGrath reading lists; Open Syllabus if bulk research access becomes available).
 
-Status as of 2026-08-21: classification design validated on 100 manually coded records; retrieval/classification remains a 10-work pilot and has not yet been expanded to the validated 90-work set or the full 34,789-work population. Raw IA object counts should not be interpreted as edition counts or direct readership/circulation counts.
+Historical status note (superseded 2026-08-22): as of 2026-08-21, classification design had been validated on 100 manually coded records but the 90-work expansion was still in progress. The following section records the completed 90-work retrieval/classification and subsequent analytical layer. Raw IA object counts should still not be interpreted as edition counts or direct readership/circulation counts.
 
 ---
 
@@ -1633,15 +1839,15 @@ Across the 90 works, the broad queries reported 34,422 results. After retrieval 
 
 This produced 10,068 candidates for LLM classification. One work, *The Mystery of the Cloomber* by Arthur Conan Doyle, returned no Internet Archive candidates.
 
-The validated `gpt-5-mini` classifier assigned the 10,068 candidates as follows:
+The validated `gpt-5-mini` classifier was applied to the 10,068 retained candidates. A subsequent identity audit found that *The Return of the Soldier* had inherited the wrong selection author (`Nathaniel West`) from the earlier Open Library matching layer. The target identity was corrected to Rebecca West, 20 IA records were re-retrieved and classified, and the 20 erroneous target rows were replaced without changing the total row count. The corrected candidate-level label distribution is:
 
 | class | n |
 |---|---:|
-| primary_text | 6,360 |
+| primary_text | 6,380 |
 | scholarly_metatext | 763 |
 | pedagogical_metatext | 269 |
 | adaptation_derivative | 638 |
-| unrelated | 1,934 |
+| unrelated | 1,914 |
 | unclear | 104 |
 
 Files:
@@ -1679,6 +1885,154 @@ This diagnostic nevertheless suggests a potentially important distinction betwee
 Sampling-estimate file:
 
 - `derived/internetarchive_broad_other_sampling_estimates_90works_v1.tsv`
+
+
+#### 2026-08-22 correction: *The Return of the Soldier* / Rebecca West
+
+A zero-related diagnostic exposed a bibliographic identity error inherited from the validated 90-work master: *The Return of the Soldier* was associated with `Nathaniel West` rather than Rebecca West. Direct IA probing showed 6 title+creator results and 20 title-only results for Rebecca West. All 20 retrieved records were classified as `primary_text`.
+
+The correction was incorporated by replacing the existing 20 target-work rows in `derived/internetarchive_candidates_90works_llm_v1.tsv`. The corrected file remains 10,068 rows with zero duplicate `(work, ia_identifier)` pairs.
+
+Correction artifacts:
+
+```text
+derived/internetarchive_return_of_the_soldier_retry.tsv
+derived/internetarchive_return_of_the_soldier_retry_llm.tsv
+```
+
+This correction changes the candidate-level totals by +20 `primary_text` and -20 `unrelated` relative to the pre-correction classification snapshot. It also reduces the directly observed zero-related set from four works to three.
+
+#### Directly observed/core IA visibility layer
+
+For cross-work comparison, the primary analytical layer uses directly observed/core classified records rather than sampling-projected broad-other counts. The resulting work-level file is:
+
+```text
+derived/internetarchive_visibility_90works_v1.tsv
+```
+
+It contains 90 works and the following corrected totals across the core classified layer:
+
+| measure | total |
+|---|---:|
+| `ia_primary_n` | 6,330 |
+| `ia_scholarly_n` | 749 |
+| `ia_pedagogical_n` | 268 |
+| `ia_adaptation_n` | 421 |
+| `ia_unrelated_n` | 622 |
+| `ia_unclear_n` | 78 |
+| `ia_related_n` | 7,768 |
+| `ia_core_classified_n` | 8,468 |
+
+Three works have zero directly observed related IA objects in the present retrieval layer:
+
+```text
+The Mystery of the Cloomber / Arthur Conan Doyle
+The Frontiersman / Mary Noailles Murfree
+The North Star / Margaret Ellen Henry-Ruffin
+```
+
+These zeros are retrieval-layer observations, not claims that no IA object related to the works exists. In particular, broad title searches for common titles can return many collisions, and the capped broad-other sampling layer is kept separate from the directly observed/core comparative measure.
+
+#### IA internal composition profiles
+
+A profile table was constructed from the directly observed/core counts:
+
+```text
+derived/internetarchive_visibility_profiles_90works_v1.tsv
+```
+
+For each work, the file preserves counts and shares for `primary`, `scholarly`, `pedagogical`, and `adaptation` components. Primary text is the largest component for all 87 works with at least one related object; the remaining three works have `no_related_objects`.
+
+The four IA count dimensions are positively correlated. Spearman correlations include:
+
+| pair | rho |
+|---|---:|
+| primary × scholarly | 0.750 |
+| primary × pedagogical | 0.706 |
+| primary × adaptation | 0.766 |
+| scholarly × pedagogical | 0.816 |
+| scholarly × adaptation | 0.556 |
+| pedagogical × adaptation | 0.561 |
+
+Output:
+
+```text
+derived/internetarchive_visibility_correlations_90works_v1.tsv
+```
+
+Because raw component counts scale with the overall size of a work's IA presence, composition shares are retained as a second analytical representation. Examples of high scholarly share include *Ulysses* (0.400), *Robert Elsmere* (0.265), *To the Lighthouse* (0.260), *Nineteen Eighty-Four* (0.253), and *Heart of Darkness* (0.248). High adaptation share is concentrated in works such as *Peter Pan* (0.280), *Dracula* (0.213), *The Jungle Book* (0.185), and *The Time Machine* (0.182).
+
+#### IA × external visibility comparison
+
+The IA profile joins cleanly to all 90 rows of `derived/literary_visibility_master_90works_v7.tsv` by `openlibrary_work_key`. Spearman comparisons were calculated against Goodreads ratings/reviews, OpenAlex semantic visibility, JSTOR L&L relevant count, reviewed Open Library edition count, HathiTrust volume count, and the existing reader signal.
+
+Output:
+
+```text
+derived/internetarchive_external_correlations_90works_v1.tsv
+```
+
+The strongest relationships are source-congruent rather than uniform across all external measures. Selected results:
+
+| IA measure | external measure | rho |
+|---|---|---:|
+| `ia_scholarly_n` | OpenAlex semantic visibility | 0.846 |
+| `ia_scholarly_n` | JSTOR L&L relevant count | 0.796 |
+| `ia_pedagogical_n` | Goodreads ratings | 0.801 |
+| `ia_related_n` | Goodreads ratings | 0.793 |
+| `ia_primary_n` | Goodreads ratings | 0.766 |
+| `ia_adaptation_n` | Goodreads ratings | 0.680 |
+
+Composition shares preserve a similar distinction. `ia_scholarly_share` correlates strongly with OpenAlex semantic visibility (`rho = 0.778`) and JSTOR L&L relevant count (`rho = 0.773`), while `ia_pedagogical_share` correlates strongly with Goodreads ratings (`rho = 0.774`). HathiTrust volume count has little association with the IA composition shares in this pilot.
+
+These results should not be interpreted as independent causal validation. They show cross-source convergence between the composition of IA presence and visibility patterns measured in separately constructed scholarly and reader-oriented sources.
+
+#### Academic–reader residual × IA composition
+
+The IA profile was also joined to the existing 80-work academic–reader residual analysis. Seventy-eight of the 80 residual works have nonzero IA related counts and therefore defined composition shares.
+
+Outputs:
+
+```text
+derived/internetarchive_residual_analysis_90works_v1.tsv
+derived/internetarchive_residual_merged_90works_v1.tsv
+```
+
+The clearest result is the relationship between academic-heavy residual position and the scholarly share of IA objects:
+
+| residual measure | IA composition measure | n | rho | p |
+|---|---|---:|---:|---:|
+| combined academic–reader residual | `ia_scholarly_share` | 78 | 0.526 | 7.67e-07 |
+| JSTOR residual z | `ia_scholarly_share` | 78 | 0.539 | 3.54e-07 |
+| OpenAlex residual z | `ia_scholarly_share` | 78 | 0.442 | 5.15e-05 |
+| combined academic–reader residual | `ia_primary_share` | 78 | -0.320 | 0.00423 |
+| combined academic–reader residual | `ia_adaptation_share` | 78 | -0.231 | 0.0416 |
+| combined academic–reader residual | `ia_pedagogical_share` | 78 | 0.218 | 0.0550 |
+
+Thus, works that are more academically visible than their Goodreads readership would predict also tend to have a larger scholarly-metatext share within their IA presence. Conversely, reader-heavy works tend to have a larger primary-text share, with a weaker tendency toward larger adaptation/derivative share. The pedagogical-share association is suggestive but does not reach the conventional 0.05 threshold for the combined residual.
+
+Illustrative academic-heavy cases include *Ulysses* (`ia_scholarly_share = 0.400`), *Robert Elsmere* (0.265), and *Heart of Darkness* (0.248). Reader-heavy cases include *The Scarlet Pimpernel* (0.014), *The Jungle Book* (0.000), *The Prisoner of Zenda* (0.000), and *White Fang* (0.011).
+
+Methodologically, this supports treating IA not as another scalar visibility count but as a heterogeneous object environment whose internal composition can be compared with independently constructed visibility configurations. The appropriate current formulation is cross-source convergence in visibility configuration, not an independent replication of the academic–reader distinction.
+
+#### Current status and limitations — 2026-08-22
+
+Status: completed for the validated 90-work pilot; not yet expanded to the full 34,789-work population.
+
+Current use:
+
+- direct/core IA counts as a 90-work comparative visibility layer;
+- composition shares as indicators of the form of IA presence;
+- broad-other projections only as exploratory diagnostics;
+- cross-source and residual comparisons as pilot-level evidence of configuration convergence.
+
+Do not interpret:
+
+- IA object counts as literal edition counts;
+- IA counts as direct readership or historical circulation counts;
+- zero retrieved related objects as proof of absence from Internet Archive;
+- broad-other sampling projections as equally precise work-level counts;
+- the observed correlations as causal or historically invariant relationships.
 
 
 ## Stage 5: Academic Citations Enrichment
@@ -3452,18 +3806,123 @@ These correlations remain exploratory because the sample consists of 90 validate
 
 ---
 
-#### Known limitations / next steps
+#### Current limitations and next steps
 
-1. `estimated_scholarly_count` is extrapolated from at most 40 sampled candidates per work and should not be presented as an exact publication count.
+The following limitations apply to the current validated 90-work analysis layer. Earlier limitations elsewhere in this document are retained as historical records where relevant, but the reviewed v8 values and the 2026-08-22 Internet Archive layer should be used for current interpretation.
+
+1. `estimated_scholarly_count` is extrapolated from at most 40 sampled OpenAlex candidates per work and should not be presented as an exact publication count.
 2. Retrieval recall against all relevant OpenAlex scholarship remains unmeasured.
-3. `include_substantive` vs `include_mention` remains substantially less reliable than broad include/exclude classification.
-4. The 212-work stress-test set contains out-of-scope and non-work-like records by design; it is not itself the final literary-historical analysis corpus.
-5. The validated 90-work pilot remains the preferred short-term analysis set until the full population-level OpenAlex semantic workflow is redesigned for cost and scale.
-6. Goodreads values are from the UCSD 2017 snapshot and should be used comparatively, not as current absolute readership counts.
-7. Open Syllabus coverage in the current repository is only a small 15-work target set and has not yet been integrated into this 90-work analysis.
-8. Open Library edition counts require targeted audit of extreme / suspicious values before they are interpreted as bibliographic circulation.
-9. HathiTrust volume counts appear nearly uncorrelated with the other measures in this pilot and require conceptual / data-quality review before being treated as the same type of circulation signal.
-10. Canon Curator / Canon Shelf cross-cultural selection data remain a separate collaboration stream and should be joined only after its provenance and selection-list semantics are finalized.
+3. `include_substantive` vs `include_mention` remains less reliable than the broader include/exclude distinction.
+4. The 212-work OpenAlex stress-test set contains out-of-scope and non-work-like records by design; it is a methodological validation set, not the final literary-historical corpus.
+5. The validated 90-work pilot remains the preferred short-term analysis set until the population-level semantic workflow is redesigned for cost and scale.
+6. Goodreads values come from the UCSD 2017 snapshot and should be used comparatively, not as current absolute readership counts. Missing Goodreads data are treated as missing (`NaN`), not as zero readership.
+7. Open Syllabus coverage is currently limited to a small 15-work target set and has not yet been integrated into the 90-work analysis.
+8. Open Library has now undergone a targeted work-fragmentation and edition-count audit for these 90 works. The reviewed `openlibrary_edition_count_final` is the current bibliographic measure, but it remains a proxy for Open Library bibliographic representation / edition-record proliferation rather than a verified count of historically distinct commercial editions.
+9. HathiTrust has now undergone a separate 90-work identity/title-fallback audit. `hathitrust_htid_count_final` remains approximately uncorrelated with the scholarly, reader, and Open Library measures and should be interpreted separately as digitized-corpus / library-digitization representation.
+10. Internet Archive counts describe the current retrieval/classification layer, not literal edition counts, readership, or historical circulation. Broad-other projections remain diagnostic rather than core work-level measures.
+11. Canon Curator / Canon Shelf cross-cultural selection data remain a separate collaboration stream and should be joined only after provenance and selection-list semantics are finalized.
+12. All multivariate results below remain exploratory because the 90 works are a validated selection-list pilot rather than the full 34,789-work population.
+
+---
+
+### Exploratory PCA of literary visibility — current 90-work specification (2026-08-22)
+
+#### Purpose
+
+The PCA is used as an exploratory summary of the multivariate visibility structure already observed in the correlation and residual analyses. It is not a canonicity score and does not define fixed canon categories.
+
+#### Preferred specification: three metrics
+
+The current preferred PCA uses:
+
+- OpenAlex semantic scholarly visibility
+- JSTOR L&L relevant-item count
+- Goodreads reader signal
+
+All variables were transformed with `log1p` and standardized before PCA. The three-metric specification is preferred because it isolates the scholarly/reader visibility structure while keeping the reviewed Open Library bibliographic measure and HathiTrust digitization measure conceptually separate.
+
+Explained variance:
+
+| Component | Variance explained | Cumulative |
+|---|---:|---:|
+| PC1 | 86.1% | 86.1% |
+| PC2 | 12.0% | 98.0% |
+| PC3 | 2.0% | 100.0% |
+
+Loadings:
+
+| Metric | PC1 | PC2 |
+|---|---:|---:|
+| OpenAlex semantic visibility | 0.610 | -0.110 |
+| JSTOR L&L relevant count | 0.571 | -0.625 |
+| Goodreads reader signal | 0.549 | 0.773 |
+
+Current interpretation:
+
+- PC1 = overall visibility within the three included measures. All three load positively and similarly.
+- PC2 = relative scholarly–reader configuration. Positive PC2 scores indicate relatively stronger reader visibility; negative scores indicate relatively stronger scholarly visibility.
+- PC2 should not be read as a simple popular-versus-scholarly binary, especially for works with low values on several measures.
+
+Representative cases:
+
+| Configuration | Examples |
+|---|---|
+| high overall visibility, scholarly-oriented | `Ulysses`, `Heart of Darkness` |
+| scholarly-oriented at more moderate visibility | `Secret Agent` |
+| reader-oriented | `The Jungle Book`, `The Scarlet Pimpernel`, `Tarzan of the Apes` |
+| high overall visibility, comparatively balanced | `The Great Gatsby`, `Dracula` |
+
+The PCA therefore supports the current analytical shift from a single canonicity ranking toward recurring visibility configurations.
+
+#### Relation to the academic–reader residual
+
+For the 80 works with Goodreads data, PC2 is strongly associated with the independently calculated combined academic–reader residual:
+
+```text
+Spearman rho = -0.967
+N = 80
+```
+
+This close relationship is expected because both analyses use overlapping scholarly and reader measures. It supports the interpretation of PC2 but is not an independent validation. The residual remains useful as a directly interpretable academic-heavy / reader-heavy deviation measure; PCA provides a multivariate summary of the same broader structure.
+
+#### Sensitivity analysis with Open Library
+
+A four-metric PCA including the reviewed Open Library edition count was also tested. The three-metric model is retained as the preferred exploratory specification because the bibliographic measure represents a conceptually distinct layer and the three-metric solution yields a particularly clear scholarly/reader structure.
+
+This does not mean that Open Library is unreliable or still unaudited. The 90-work Open Library work-fragmentation audit is complete for the current v8 layer. The decision is analytical: `openlibrary_edition_count_final` is retained as a separate bibliographic-representation signal rather than folded into the preferred PCA.
+
+HathiTrust is likewise excluded from the preferred PCA because its reviewed HTID count behaves approximately independently of the other current measures and is interpreted as digitization representation rather than the same latent visibility construct.
+
+#### Relation to Internet Archive profiles
+
+Internet Archive is also kept outside the preferred PCA. Its object-type profile is used as an additional heterogeneous layer describing the form of a work's IA presence. Examples include high scholarly shares for `Ulysses` (0.400) and `Heart of Darkness` (0.248), and stronger adaptation components for works such as `The Jungle Book` and `Dracula`.
+
+The IA profile partially converges with the scholarly/reader configuration but is not reducible to it. It should therefore be interpreted as evidence about modes or forms of digital cultural presence, not as another direct measurement of the same PCA dimensions.
+
+#### PCA outputs
+
+```text
+derived/literary_visibility_pca_scores_90works_v8.tsv
+derived/literary_visibility_pca_loadings_90works_v8.tsv
+derived/literary_visibility_pca_variance_90works_v8.tsv
+derived/literary_visibility_pca_3metric_scores_90works_v8.tsv
+derived/literary_visibility_pca_3metric_loadings_90works_v8.tsv
+derived/literary_visibility_pca_3metric_variance_90works_v8.tsv
+derived/literary_visibility_pca_3metric_sensitivity_90works_v8.tsv
+derived/literary_visibility_pca_3metric_quadrants_90works_v8.tsv
+derived/literary_visibility_representative_profiles_90works_v8.tsv
+derived/pca_residual_ia_analysis_90works_v8.tsv
+derived/pca_residual_ia_merged_90works_v8.tsv
+figures/literary_visibility_pca_3metric_pc1_pc2_90works_v8.png
+```
+
+#### PCA cautions
+
+- This is an exploratory 90-work pilot, not a population-level result.
+- PCA signs are arbitrary; interpretation depends on relative loadings.
+- PC1/PC2 quadrants are descriptive plotting regions, not validated canon categories.
+- Low-visibility works should not automatically be assigned a substantive scholarly/reader identity from PC2 alone.
+- The current figure has overlapping labels among several low-visibility works and should be revised before publication or presentation use.
 
 ---
 
@@ -3526,6 +3985,8 @@ derived/hathitrust_90works_final.tsv
 | literary-visibility-config90-v8 | 2026-08-21 | `derived/literary_visibility_configurations_core_90works_v8.tsv` — corrected Goodreads missingness + academic/reader/core bibliographic configuration layer |
 | literary-visibility-profiles90-v8 | 2026-08-21 | `derived/literary_visibility_profiles_90works_v8.tsv` — extended profile layer retaining HathiTrust separately as digitization representation |
 | internetarchive-validation100-v1 | 2026-08-21 | `audit/internetarchive_validation_100_evaluated.tsv` — 100-record human/LLM IA object-type validation, accuracy=0.910 |
+| literary-visibility-pca3-v8 | 2026-08-22 | `derived/literary_visibility_pca_3metric_scores_90works_v8.tsv` + `figures/literary_visibility_pca_3metric_pc1_pc2_90works_v8.png` — preferred three-metric exploratory PCA |
+
 
 ---
 
@@ -4734,6 +5195,12 @@ This section records the principal derived datasets, audit files, and analysis o
 | ia-retrieval90-summary-v2 | 2026-08 | `derived/internetarchive_retrieval_summary_90works_v2.tsv` | Work-level retrieval counts, including broad pool size and sampling information |
 | ia-classification90-v1 | 2026-08 | `derived/internetarchive_candidates_90works_llm_v1.tsv` | LLM classification of 10,068 retained IA candidates into primary, scholarly, pedagogical, adaptation/derivative, unrelated, and unclear classes |
 | ia-broad-other-estimates90-v1 | 2026-08 | `derived/internetarchive_broad_other_sampling_estimates_90works_v1.tsv` | Sampling-based estimates and Wilson 95% confidence intervals for broad-other candidate pools |
+| ia-visibility90-v1 | 2026-08-22 | `derived/internetarchive_visibility_90works_v1.tsv` | Corrected directly observed/core IA counts for all 90 works |
+| ia-profiles90-v1 | 2026-08-22 | `derived/internetarchive_visibility_profiles_90works_v1.tsv` | Work-level IA component counts and composition shares |
+| ia-internal-corr90-v1 | 2026-08-22 | `derived/internetarchive_visibility_correlations_90works_v1.tsv` | Spearman correlations among IA core visibility components |
+| ia-external-corr90-v1 | 2026-08-22 | `derived/internetarchive_external_correlations_90works_v1.tsv` | IA profile correlations with OpenAlex, JSTOR, Goodreads, Open Library, and HathiTrust |
+| ia-residual90-v1 | 2026-08-22 | `derived/internetarchive_residual_analysis_90works_v1.tsv` | Academic–reader residual × IA profile correlation results |
+| ia-residual-merged90-v1 | 2026-08-22 | `derived/internetarchive_residual_merged_90works_v1.tsv` | 80-work residual layer joined to IA profile |
 
 ### Current Internet Archive pipeline
 
@@ -4768,3 +5235,4 @@ Current validated classifier:
 - Files under `derived/` contain reproducible derived datasets used for subsequent analysis.
 - Earlier versions should be retained when they document a materially different methodological decision.
 - The file listed here as the current version should be used for downstream analysis unless otherwise noted.
+  
