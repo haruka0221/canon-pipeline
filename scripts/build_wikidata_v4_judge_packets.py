@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import json
+import sqlite3
+from pathlib import Path
+
+import pandas as pd
+
+from wikidata_candidate_generator_v2 import build_candidates
+
+
+DEFAULT_V2 = Path(
+    "/media/hdd1/user/tsutsui/wikidata/"
+    "wikidata_resolution_v2_evidence_20260805.sqlite"
+)
+DEFAULT_BASE = Path(
+    "/media/hdd1/user/tsutsui/wikidata/"
+    "wikidata_local_20260805.sqlite"
+)
+
+
+def load_json(s, default=None):
+    if default is None:
+        default = []
+    if s in (None, ""):
+        return default
+    try:
+        x = json.loads(s)
+        return x
+    except Exception:
+        return default
+
+
+def read_targets(path: Path):
+    sep = "\t" if path.suffix.lower() in {".tsv", ".txt"} else ","
+    df = pd.read_csv(path, sep=sep, dtype=str).fillna("")
+
+    required = {"target_id", "title", "author"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing columns: {sorted(missing)}")
+
+    if "year" not in df.columns:
+        df["year"] = ""
+
+    return df[["target_id", "title", "author", "year"]].to_dict("records")
+
+
+class Metadata:
+    def __init__(self, base):
+        self.base = base
+        self.cache = {}
+        self.label_cache = {}
+
+    def get(self, qid):
+        if qid in self.cache:
+            return self.cache[qid]
+
+        row = self.base.execute("""
+            SELECT
+                qid,
+                label_en,
+                description_en,
+                aliases_en,
+                p31,
+                p50,
+                p629,
+                p577,
+                p1476,
+                has_enwiki
+            FROM entities
+            WHERE qid=?
+        """, (qid,)).fetchone()
+
+        if row is None:
+            raise KeyError(f"Candidate QID missing from base DB: {qid}")
+
+        x = {
+            "qid": row[0],
+            "label": row[1] or "",
+            "description": row[2] or "",
+            "aliases": load_json(row[3]),
+            "p31": load_json(row[4]),
+            "p50": load_json(row[5]),
+            "p629": load_json(row[6]),
+            "publication_dates": load_json(row[7]),
+            "stated_titles": load_json(row[8]),
+            "has_enwiki": bool(row[9]),
+        }
+        self.cache[qid] = x
+        return x
+
+    def label(self, qid):
+        if qid in self.label_cache:
+            return self.label_cache[qid]
+
+        row = self.base.execute(
+            "SELECT label_en FROM entities WHERE qid=?",
+            (qid,),
+        ).fetchone()
+
+        label = row[0] if row and row[0] else ""
+        self.label_cache[qid] = label
+        return label
+
+    def relation_list(self, qids):
+        return [
+            {"qid": q, "label": self.label(q)}
+            for q in qids
+        ]
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input", type=Path, required=True)
+    ap.add_argument("--output", type=Path, required=True)
+    ap.add_argument("--v2-db", type=Path, default=DEFAULT_V2)
+    ap.add_argument("--base-db", type=Path, default=DEFAULT_BASE)
+    args = ap.parse_args()
+
+    targets = read_targets(args.input)
+
+    v2 = sqlite3.connect(args.v2_db)
+    base = sqlite3.connect(args.base_db)
+    meta = Metadata(base)
+
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+
+    total_candidates = 0
+    max_candidates = 0
+
+    with args.output.open("w", encoding="utf-8") as f:
+        for i, target in enumerate(targets, 1):
+            author_qids, candidates = build_candidates(
+                v2,
+                base,
+                target["target_id"],
+                target["title"],
+            )
+
+            enriched = []
+
+            for c in candidates:
+                m = meta.get(c["qid"])
+
+                enriched.append({
+                    "qid": c["qid"],
+                    "sources": c.get("sources", []),
+                    "via": c.get("via", []),
+                    "title_score": c.get("score"),
+                    "direct_support": c.get("direct_support", 0),
+                    "direct_author_match": c.get(
+                        "direct_author_match", False
+                    ),
+                    "label": m["label"],
+                    "description": m["description"],
+                    "aliases": m["aliases"],
+                    "stated_titles": m["stated_titles"],
+                    "publication_dates": m["publication_dates"],
+                    "instance_of": meta.relation_list(m["p31"]),
+                    "authors": meta.relation_list(m["p50"]),
+                    "edition_or_translation_of":
+                        meta.relation_list(m["p629"]),
+                    "has_enwiki": m["has_enwiki"],
+                })
+
+            packet = {
+                "target_id": target["target_id"],
+                "title": target["title"],
+                "author": target["author"],
+                "year": target["year"],
+                "author_candidate_qids": author_qids,
+                "author_candidates": [
+                    {"qid": q, "label": meta.label(q)}
+                    for q in author_qids
+                ],
+                "candidate_count": len(enriched),
+                "candidates": enriched,
+            }
+
+            f.write(
+                json.dumps(packet, ensure_ascii=False)
+                + "\n"
+            )
+
+            total_candidates += len(enriched)
+            max_candidates = max(max_candidates, len(enriched))
+
+            if i <= 5 or i % 25 == 0 or i == len(targets):
+                print(
+                    f"[{i}/{len(targets)}] "
+                    f"{target['target_id']} "
+                    f"candidates={len(enriched)}"
+                )
+
+    print("\nDONE")
+    print("targets:", len(targets))
+    print("total candidates:", total_candidates)
+    print("mean candidates:", round(total_candidates / len(targets), 3))
+    print("max candidates:", max_candidates)
+    print("output:", args.output)
+
+
+if __name__ == "__main__":
+    main()
