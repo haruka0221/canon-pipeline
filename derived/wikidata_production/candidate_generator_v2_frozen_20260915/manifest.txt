@@ -1,6 +1,6 @@
 Wikidata candidate generator v2 — frozen 2026-09-15
 
-git_parent_commit=bea6d1a303d302d438273c10b00f0d0976811870
+git_parent_commit=b0692bc317a17b5b626f9a676f1a362073411b80
 dump=wikidata-20260805-all.json.bz2
 dump_sha256=f59fc38e64c41438b8783ac5640fc83b25618bd2142c12e3f08378ed512f902c
 
