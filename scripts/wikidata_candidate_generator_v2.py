@@ -7,9 +7,9 @@ from difflib import SequenceMatcher
 from build_wikidata_resolution_v2_evidence import normalize_v2
 
 
-# Frozen after development on the adjudicated 130-item benchmark.
+# Frozen after development on the adjudicated 130-item benchmark and random development set.
 DIRECT_CAP = 5
-AUTHOR_FUZZY_K = 5
+AUTHOR_FUZZY_K = 10
 
 # Candidate packets should not duplicate thousands of manifestation QIDs.
 # Full provenance remains preserved in the v2 evidence database.
@@ -182,7 +182,7 @@ def build_candidates(
     #   2. manifestation/direct-evidence support count
     #   3. QID as deterministic tie-break
     #
-    # Hard cap = 5.
+    # Hard cap = author_fuzzy_k.
     # ------------------------------------------------------------
     support = Counter()
     via = defaultdict(set)

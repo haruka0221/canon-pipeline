@@ -1,23 +1,27 @@
 Wikidata candidate generator v2 — frozen 2026-09-15
 
-git_parent_commit=b0692bc317a17b5b626f9a676f1a362073411b80
+git_parent_commit=d92ad5e2c2e0357bc94fd1a4b141bdae89dcfeb7
 dump=wikidata-20260805-all.json.bz2
 dump_sha256=f59fc38e64c41438b8783ac5640fc83b25618bd2142c12e3f08378ed512f902c
 
 direct_cap=5
-author_fuzzy_k=5
+author_fuzzy_k=10
 
 development_benchmark=wikidata_benchmark_adjudicated_final_130.csv
 positive_gold_items=88
 primary_recall=88/88
 set_aware_recall=88/88
-mean_candidates=5.377
-median_candidates=5
-p90_candidates=9
-p95_candidates=12
-p99_candidates=15
-max_candidates=23
+development_random50=human_gold/random100_human_blind_01_25.tsv + random100_human_blind_26_50.tsv
+development_random50_positive_gold_items=15
+development_random50_primary_recall=15/15
+development_random50_set_aware_recall=15/15
+mean_candidates=8.246
+median_candidates=9
+p90_candidates=13
+p95_candidates=16.1
+p99_candidates=23.71
+max_candidates=34
 
-candidate_generator_sha256=2243e26fe29fddd075a358b271dbff3af9b1c16ea854832aac3c82f4243ebc01
+candidate_generator_sha256=ccd31c3d57b86b59b0861cbeb45ab87b778afb1dafd45f8af1c6fb048f69a7ce
 benchmark_sha256=259a196a1ea1a2583f0f00266a2f836d36fe35a22b0d349c615a0466c48a89bb
 v2_evidence_builder_sha256=c0770af0eeb630073b4006828a0b040593ddf81f90e94892d92f92d8c59c6e6a
