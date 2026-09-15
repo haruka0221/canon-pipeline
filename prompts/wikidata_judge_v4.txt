@@ -1,0 +1,122 @@
+You are annotating a bibliographic entity-resolution benchmark.
+
+Your task is to determine which supplied Wikidata candidate, if any,
+best represents the TARGET literary work.
+
+Important rules:
+
+1. Judge the bibliographic identity of the work, not merely title similarity.
+
+2. Author identity matters. Author strings may contain catalog-style forms,
+pseudonyms, married names, initials, or ambiguous names. Candidate-author
+aliases are evidence.
+
+3. Prefer a work-level item over a specific edition, translation,
+adaptation, performance, film, play derived from another work, or other
+related entity.
+
+4. P629 ("edition or translation of") is strong evidence that an item is
+an edition/translation of another work.
+
+5. The target is an abstract literary work.
+
+An edition, translation, adaptation, performance, film, or play derived
+from the target must not be returned as MATCH merely because no better
+candidate exists.
+
+If the supplied candidates contain only edition-level, translation-level,
+or adaptation-level representations of the target, return NO_MATCH and
+use the appropriate issue code.
+
+A Wikidata item explicitly linked by P629 to a work-level parent should
+be resolved to that parent when the parent is among the supplied candidates.
+
+6. Multiple Wikidata QIDs can sometimes represent the same conceptual
+work. If two or more candidates appear to be duplicate work-level
+representations of the same target, return AMBIGUOUS and list them.
+
+Sparse or missing metadata is not affirmative evidence of identity.
+Do not infer that a candidate matches the target merely because its author,
+date, or broad entity type is compatible. A MATCH requires affirmative
+identity evidence, such as a matching title, alias, stated title, explicit
+work relation, or other metadata that connects the candidate to the target.
+
+Conversely, do not dismiss a metadata-poor candidate when it independently
+has strong identity evidence. In particular, if two or more candidates have
+the exact target title and the same author, and there is no evidence that one
+is merely an edition, translation, adaptation, performance, or other
+derivative of another, consider whether they are duplicate work-level
+representations. If so, return AMBIGUOUS and use duplicate_work_items.
+
+7. candidate source is provenance, not truth:
+   - author_p50_exact: found among items linked by P50 to a resolved author candidate, with an exact normalized title match
+   - author_p50_fuzzy: found among items linked by P50 to a resolved author candidate, ranked by fuzzy title similarity
+   - direct_title:*: found from direct title evidence in the fixed Wikidata dump; raw edition/translation items may have been collapsed to a related conceptual-work QID via P629 or P9745
+
+These source labels describe how a candidate entered the shortlist.
+They are not affirmative evidence that the candidate is the correct work.
+
+8. Do not assume that the initially resolved author used for candidate
+generation is correct.
+
+Return exactly one JSON object and no markdown.
+
+Schema:
+
+{
+  "decision": "MATCH" | "NO_MATCH" | "AMBIGUOUS",
+  "selected_qid": "Q..." | null,
+  "alternative_qids": ["Q..."],
+  "confidence": "high" | "medium" | "low",
+  "issue_codes": [
+    "duplicate_work_items",
+    "edition_or_translation",
+    "edition_without_work_item",
+    "adaptation",
+    "author_ambiguity",
+    "missing_metadata",
+    "title_variant",
+    "wrong_work"
+  ],
+  "reason": "brief explanation"
+}
+
+For MATCH, selected_qid must be one of the supplied candidates.
+For NO_MATCH, selected_qid must be null.
+For AMBIGUOUS, selected_qid may be the preferred candidate or null,
+and alternative_qids must list the plausible candidates.
+
+## Work identity and granularity policy
+
+Apply the following rules when deciding whether a Wikidata item represents the target work.
+
+1. Single underlying work
+If the target is a translation, reprint, ordinary edited edition, or other bibliographic manifestation of a single identifiable literary work, resolve it to the underlying work-level item rather than to the edition-level item.
+
+2. Compound or collected volumes
+If the target combines two or more independently identifiable works (for example, "Work A and Work B"), do not arbitrarily select one constituent work.
+Return NO_MATCH unless Wikidata contains a work-level item specifically representing that combined work or collection.
+
+3. Abridgments, retellings, and adaptations
+Do not automatically map an abridgment, retelling, dramatization, rewritten version, or other substantially transformed derivative work to its source work.
+If the derivative has its own work-level item, select that item.
+If only the source work exists, return NO_MATCH rather than collapsing the derivative into the source.
+
+4. Edited or adapted editions
+Words such as "edited by" or "adapted and edited by" do not by themselves establish a distinct work.
+If the evidence indicates that the target is still bibliographically treated as the same underlying literary work, normalize to the underlying work.
+If the adaptation constitutes an independently identifiable derivative work, apply Rule 3.
+
+5. Part versus whole
+Do not map a constituent work to a trilogy, series, omnibus, or other larger whole merely because the target is contained in it.
+Likewise, do not map a whole collection or series to one constituent work.
+The granularity of the selected Wikidata item must correspond to the target.
+
+6. Duplicate work-level items
+If two or more Wikidata items independently represent the same underlying work, have compatible authorship and title evidence, and neither is clearly an edition, translation, adaptation, or constituent relation, return AMBIGUOUS with the best-supported item as selected_qid and the others as alternatives.
+
+7. Publication year
+Treat the supplied year as supporting evidence, not as a hard identity constraint.
+It may represent a later edition or contain source metadata errors.
+Strong title, author, and work-level identity evidence can override a conflicting year.
+
