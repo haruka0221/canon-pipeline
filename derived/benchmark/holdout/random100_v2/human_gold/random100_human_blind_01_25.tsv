@@ -1,0 +1,26 @@
+review_order	target_id	title	author	year	candidate_count	human_decision	human_selected_qid	human_alternative_qids	human_issue_codes	human_confidence	human_notes
+1	OL2341946W	Giovio and Guilia	Clinton Scollard	1892	1	NO_MATCH			wrong_work	high	Supplied candidate is a different work by the same author.
+2	OL7687945W	A Lion is in the Streets	Adria Locke Langley	1945	1	NO_MATCH			adaptation	high	Only supplied Wikidata candidate is the 1953 film adaptation; no separate work-level item for the 1945 novel found.
+3	OL247900W	Ten years a cowboy	Post, C. C.	1888	0	NO_MATCH			missing_metadata	high	No supplied candidates; no work-level Wikidata item found in independent title/author search.
+4	OL5944450W	Whimsical tales	Jerrold, Douglas William	1948	8	NO_MATCH			wrong_work	high	Supplied candidates are other works by Douglas Jerrold; no work-level item for Whimsical Tales found.
+5	OL1245480W	Henri Quatre, king of France	Heinrich Mann	1938	20	NO_MATCH			missing_metadata	high	Q42190815 represents the two-part Henri Quatre work as a whole; the target is the second part, Die Vollendung des Königs Henri Quatre / Henri Quatre, King of France. No separate work-level Wikidata item for the second part found.
+6	OL4392776W	Sara Skelton	Rachel Ferguson	1929	0	NO_MATCH			missing_metadata	high	No supplied candidates; no work-level Wikidata item found in independent title/author search.
+7	OL22130325W	Courtship in Kenya	Nora K. Strange	1932	0	NO_MATCH			missing_metadata	high	No supplied candidates; no work-level Wikidata item found in independent title/author search.
+8	OL22244170W	33 sardonics I can't forget	Tiffany Thayer	1946	1	NO_MATCH			wrong_work	high	Supplied candidate is Doctor Arnoldi, a different work by Tiffany Thayer; no work-level item for the target found.
+9	OL5475772W	The Life and Opinions of Tristram Shandy, Gentleman	Sterne, Laurence	1950	12	MATCH	Q1164083			high	Exact work-level match for The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne.
+10	OL1238539W	And then put out the light	E. C. R. Lorac	1950	21	MATCH	Q110130018		title_variant	high	Target title appears as an alias of Policemen in the Precinct by E. C. R. Lorac.
+11	OL18521604W	The inside of the cup	Winston Churchill	1913	13	MATCH	Q17111493			high	Exact work-level match for The Inside of the Cup by Winston Churchill.
+12	OL8258445W	Thurber Country Lt	James Thurber	1901	20	NO_MATCH			wrong_work;title_variant	high	Supplied candidates are other works by James Thurber; no work-level item for Thurber Country found.
+13	OL7349299W	Echoes of Flanders	Charles Laing Warr	1916	0	NO_MATCH			missing_metadata	high	No supplied candidates; no work-level Wikidata item found in independent title/author search.
+14	OL24981550W	The romance of King Arthur and his knights of the Round Table	Malory, Thomas	1917	4	NO_MATCH			adaptation	high	Target is Alfred W. Pollard's 1917 abridgment of Malory's Le Morte d'Arthur; Q1136104 represents the underlying Malory work, not this abridged adaptation. No separate work-level Wikidata item for the target found.
+15	OL24205670W	Experiences of an Irish R.M.	E. OE Somerville	1944	9	MATCH	Q124091969		title_variant	high	Target title is a shortened variant of Some Experiences of an Irish R. M.
+16	OL2238198W	Cing-Mars,  Adapted and edited by G.G. Loane	Alfred de Vigny	1899	20	MATCH	Q2376571		title_variant	high	Target is an adapted/edited edition of Alfred de Vigny's Cinq-Mars; resolved to the underlying literary work.
+17	OL237648W	Adrift	Julia Ditto Young	1889	10	NO_MATCH			wrong_work	high	Supplied candidate is an unrelated 2018 film with the same title; no work-level Wikidata item for Julia Ditto Young's Adrift found.
+18	OL1285618W	Jinny the carrier	Zangwill, Israel	1919	14	NO_MATCH			wrong_work	high	Supplied candidates are other works by Israel Zangwill; no work-level Wikidata item for Jinny the Carrier found.
+19	OL16511538W	Walled in	William Osborn Stoddard	1897	8	NO_MATCH			wrong_work	high	Supplied literary candidates are other works by William Osborn Stoddard; the exact-title candidate is an unrelated 2009 film. No work-level item for the target found.
+20	OL1448856W	Angel with spurs	Paul Iselin Wellman	1942	2	NO_MATCH			wrong_work	high	Supplied candidates are different works by Paul Wellman; no work-level Wikidata item for Angel with Spurs found.
+21	OL1454275W	Pitcairn's island	Nordhoff, Charles	1935	5	MATCH	Q7198636			high	Exact work-level match for Pitcairn's Island by Charles Nordhoff and James Norman Hall.
+22	OL6049728W	Love besieged	Charles E. Pearce	1911	0	NO_MATCH			missing_metadata	high	No supplied candidates; no work-level Wikidata item found in independent title/author search.
+23	OL7629196W	Quaker-born	Hannah, Ian C.	1916	1	NO_MATCH			wrong_work	high	Supplied candidate is an unrelated book review by Ian Hannah; no work-level Wikidata item for Quaker-born found.
+24	OL16515178W	The wreck of the Sea Lion	William Osborn Stoddard	1901	3	NO_MATCH			wrong_work	high	Supplied candidates are other works by William Osborn Stoddard; no work-level Wikidata item for The Wreck of the Sea Lion found.
+25	OL17651874W	The absentee	Edgeworth, Maria	1905	20	MATCH	Q7712149			high	Exact work-level match for The Absentee by Maria Edgeworth; the source year appears to reflect a later edition.
