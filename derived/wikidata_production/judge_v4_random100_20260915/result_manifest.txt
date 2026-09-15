@@ -1,0 +1,27 @@
+Wikidata judge v4 — random100 frozen results
+date=2026-09-15
+
+judge_runner_commit=964e37c408daa5f19ac63503f26c689dc862f42d
+judge_runner_sha256=c1ba87826480b3836dcef88374280141fd6da562a3fb07ea008ced54087d343d
+openai_python_version=3.13.0
+
+model=gpt-5.6-luna
+judge_prompt=prompts/wikidata_judge_v4.txt
+judge_prompt_stripped_sha256=48ccec53af8558d319833371a147b9eb214f76c9f53c1da82f102719e6706db4
+
+packet_sha256=984188f9c3be58b97613f1ed806ca0f495d7f895d98be3d8d6e0726c410f3834
+judgments_sha256=cfd4cdbb3913fecfff620ed848bfbe5240d1da658733cac241fb9470f933e96e
+
+rows=100
+unique_target_ids=100
+
+decision_MATCH=26
+decision_NO_MATCH=72
+decision_AMBIGUOUS=2
+
+confidence_high=69
+confidence_medium=2
+confidence_low=29
+
+integrity_errors=0
+gold_not_used_for_judging=true
