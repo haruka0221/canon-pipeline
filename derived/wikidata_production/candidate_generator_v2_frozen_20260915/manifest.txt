@@ -1,0 +1,23 @@
+Wikidata candidate generator v2 — frozen 2026-09-15
+
+git_parent_commit=bea6d1a303d302d438273c10b00f0d0976811870
+dump=wikidata-20260805-all.json.bz2
+dump_sha256=f59fc38e64c41438b8783ac5640fc83b25618bd2142c12e3f08378ed512f902c
+
+direct_cap=5
+author_fuzzy_k=5
+
+development_benchmark=wikidata_benchmark_adjudicated_final_130.csv
+positive_gold_items=88
+primary_recall=88/88
+set_aware_recall=88/88
+mean_candidates=5.377
+median_candidates=5
+p90_candidates=9
+p95_candidates=12
+p99_candidates=15
+max_candidates=23
+
+candidate_generator_sha256=2243e26fe29fddd075a358b271dbff3af9b1c16ea854832aac3c82f4243ebc01
+benchmark_sha256=259a196a1ea1a2583f0f00266a2f836d36fe35a22b0d349c615a0466c48a89bb
+v2_evidence_builder_sha256=c0770af0eeb630073b4006828a0b040593ddf81f90e94892d92f92d8c59c6e6a
