@@ -1,12 +1,15 @@
 # WORKFLOW.md — canon-pipeline
 **DCC Digital Curation Workflow Narrative**
-Last updated: 2026-09-13
+Last updated: 2026-09-18
 Status: LIVING DOCUMENT — update on every major change
 
 
 Update note: 2026-08-22 — Internet Archive retrieval/classification was completed for the validated 90-work pilot, including a Rebecca West identity correction, directly observed core visibility profiles, cross-source correlations, and academic–reader residual comparisons. OpenAlex production-scale validation and the reviewed v8 90-work visibility/configuration layer remain current. Historical descriptions and earlier decisions below are retained where useful for provenance, but superseded analytical values are explicitly marked.
 
 Update note: 2026-09-13 — Wikidata entity resolution was re-audited and redesigned for production-scale use. The final adjudicated 130-item development benchmark now distinguishes MATCH / NO_MATCH / AMBIGUOUS and supersedes the older single-QID benchmark as the current evaluation reference. A separate final blind 50-item holdout reached 48/50 three-way accuracy (0.960), binary precision 1.000, recall 0.917, F1 0.957, specificity 1.000, and primary-QID accuracy 11/12 (0.917) on gold-positive cases. The production resolver v3 and its prompts, adjudication materials, and holdout evaluation were committed in bea6d1a. To scale from the benchmark to all 34,789 Open Library works without repeated Wikidata API / WDQS rate limits, the 2026-08-05 Wikidata JSON dump was downloaded to the analysis server and a local SQLite candidate index is being built as of 2026-09-13. This population-scale local index is still in progress and must not yet be treated as a completed analytical output.
+
+
+Update note: 2026-09-18 — Wikidata entity resolution v6 completed a new prediction-blind fresh holdout evaluation and supersedes the 2026-09-13 v3 50-record holdout as the current evaluation reference. Human gold was frozen before predictions (`5c6316e`), v6 predictions were separately frozen (`c0fdc47`), and the final evaluation was frozen in `4a6b1ca`. Of 100 sampled records, 68 were independently classified as in-scope for the intended novel population. On these 68 records, end-to-end strict accuracy was 67/68 (0.985), with precision 1.000, recall 0.933, and F1 0.966. On all 100 records, strict accuracy was 98/100 (0.980), precision 1.000, recall 0.923, and F1 0.960. Both observed errors were genuine candidate-retrieval misses: the correct Wikidata QIDs predated the frozen 2026-08-05 snapshot but were absent from the frozen candidate sets. Conditional on the correct gold QID being available among candidates, the v6 judge selected it in all observed gold-positive cases (14/14 primary; 24/24 overall). The holdout is now frozen and must not be used for further v6 tuning. Detailed methodology and interpretation are recorded in `docs/WIKIDATA_ENTITY_RESOLUTION.md`; authoritative run-specific outputs remain under `derived/benchmark/holdout/fresh_random100_v6_20260918/`.
 
 ---
 

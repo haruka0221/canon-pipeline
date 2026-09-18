@@ -1248,3 +1248,95 @@ human-audited dual-model consensus, and unaudited dual-model consensus.
 See `docs/WIKIDATA_ENTITY_RESOLUTION.md` for benchmark design, failure modes,
 evaluation policy, adjudication procedure, and production-scale workflow.
 ```
+
+## 33. v6 fresh prediction-blind holdout — 2026-09-18
+
+A new 100-record holdout was sampled from the 34,789-work Open Library
+population after excluding records used in earlier Wikidata benchmarks.
+Human gold was completed and frozen before any v6 predictions were generated.
+
+### Frozen provenance
+
+- human-gold freeze: `5c6316e`
+- v6 prediction freeze: `c0fdc47`
+- final evaluation freeze: `4a6b1ca`
+
+Authoritative run-specific files are under:
+
+`derived/benchmark/holdout/fresh_random100_v6_20260918/`
+
+The human annotation protocol separates entity identity from population
+eligibility. Ordinary translations are treated as the same conceptual work,
+whereas explicit adaptations, abridgements, and retellings are not
+automatically collapsed to their sources. Eligibility is determined at the
+conceptual-work level rather than from the date of a later edition or
+translation.
+
+### Gold composition
+
+Of the 100 frozen records:
+
+- 26 were gold MATCH
+- 74 were gold NO_MATCH
+- 68 were INCLUDE
+- 32 were EXCLUDE_OUT_OF_SCOPE
+
+Excluded records were retained in the frozen sample and were not replaced.
+
+### Primary evaluation
+
+On the 68 records independently judged to belong to the intended population:
+
+- strict accuracy: **67/68 = 0.9853**
+- TP = 14
+- FP = 0
+- FN = 1
+- TN = 53
+- precision = **1.0000**
+- recall = **0.9333**
+- F1 = **0.9655**
+- candidate recall among gold MATCH cases = **14/15 = 0.9333**
+
+The sole primary error was *Prince Schamyl's Wooing*
+(OL1492280W; gold Q124092201). The correct QID was absent from the frozen
+candidate set.
+
+### Sensitivity analysis on all 100 records
+
+- strict accuracy: **98/100 = 0.9800**
+- TP = 24
+- FP = 0
+- FN = 2
+- TN = 74
+- precision = **1.0000**
+- recall = **0.9231**
+- F1 = **0.9600**
+- candidate recall among gold MATCH cases = **24/26 = 0.9231**
+
+The two errors were:
+
+1. *Rossingon FR Nightingale* — gold Q1200454
+2. *Prince Schamyl's Wooing* — gold Q124092201
+
+Both gold QIDs were absent from the frozen candidate sets. Revision-history
+checks confirmed that Q1200454 (created 2012-12-19) and Q124092201
+(created 2024-01-02) both predated the frozen 2026-08-05 Wikidata snapshot.
+They are therefore genuine candidate-retrieval misses rather than
+post-snapshot additions.
+
+### Interpretation
+
+No false-positive MATCH predictions occurred.
+
+Conditional on the correct gold QID being present in the frozen candidate set,
+v6 selected the correct QID in every observed gold-positive case:
+
+- primary population: **14/14**
+- all 100 records: **24/24**
+
+This conditional result is diagnostic rather than the main reported metric.
+The end-to-end evaluation remains 67/68 on the primary population.
+
+The fresh holdout is now frozen and must not be used for further v6 prompt or
+resolver tuning. The observed remaining error source is candidate retrieval,
+not semantic selection among supplied candidates.
