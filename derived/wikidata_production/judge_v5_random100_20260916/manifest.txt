@@ -40,3 +40,13 @@ judge_prompt_stripped_sha256=48ccec53af8558d319833371a147b9eb214f76c9f53c1da82f1
 
 wikidata_dump=wikidata-20260805-all.json.bz2
 wikidata_dump_sha256=f59fc38e64c41438b8783ac5640fc83b25618bd2142c12e3f08378ed512f902c
+
+judgments=derived/wikidata_production/judge_v5_random100_20260916/judgments.jsonl
+judgments_sha256=6372ba84dda8cdaeae31ccbff93f90f1f653b38b847ad3081554871513d6779f
+judgments_rows=100
+judgments_unique_targets=100
+judge_model=gpt-5.6-luna
+judge_prompt_sha256=48ccec53af8558d319833371a147b9eb214f76c9f53c1da82f102719e6706db4
+decision_counts=NO_MATCH:72,MATCH:27,AMBIGUOUS:1
+confidence_counts=high:72,low:26,medium:2
+candidate_integrity_errors=0
