@@ -1,0 +1,21 @@
+Wikidata judge v6 random100 input freeze
+created_utc	2026-09-18T04:08:38.755870+00:00
+parent_git_head	d10c46496b62e47f6d9e30523e4aeb2328ec08cd
+
+Design:
+- v5 candidate packets retained unchanged except for Open Library Edition enrichment
+- enrichment selected from exact normalized-title editions; exact year preferred
+- explicit source relations extracted conservatively
+- translation_of treated as conceptual-work identity evidence
+- abridged_from / based_on / adapted_from treated as derivative-work evidence
+- responsibility wording alone does not establish a distinct conceptual work
+- random100 human gold and v5 judgments were NOT read by the packet builder
+
+SHA256:
+8e5702b6534466cb4373a7fdd9cc4db7ac71b159b3675955c14671cbee4139f0  derived/wikidata_production/judge_v5_random100_20260916/stage2_packets.jsonl
+c4c5f83d6d9cfcc0464b8c0e733e051808ce58d4efbafe121c2739df66b9c0bb  derived/wikidata_production/ol_edition_random100_coverage_20260918/target_coverage.tsv
+c0ae039ae7482fdbe39664fee252118f4aac18327db968d53bda699c521be50a  derived/wikidata_production/ol_edition_random100_coverage_20260918/selected_editions.jsonl
+c50d080acc58277302daac804f08c7224b2b75160d56176abce5c80ceee9bc18  derived/wikidata_production/ol_edition_random100_coverage_20260918/relation_evidence.tsv
+9661e604dea819f24a46b28079d0427c80f9b7ef7eb2734e5c172fe68ed90153  scripts/build_wikidata_v6_judge_packets.py
+2b20f823cbd69a6220c35f9b6f73a3c2c3dbb20cd235feaa6a094a2cbd9a046b  prompts/wikidata_judge_v6.txt
+4c21ccf09d81619e2c521130a60a1a2d76a433638ea340cf52b8c0e74a28d279  derived/wikidata_production/judge_v6_random100_20260918/stage2_packets.jsonl
