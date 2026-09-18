@@ -1,0 +1,58 @@
+{
+  "audit_name": "zero_candidate_random100_manual_audit_v1",
+  "date": "2026-09-18",
+  "population": {
+    "description": "Targets with zero candidates after items-only production candidate generation",
+    "n": 10774
+  },
+  "sampling": {
+    "method": "simple random sample",
+    "n": 100,
+    "random_state": 20260918,
+    "source_file": "zero_candidate_audit_random100_seed20260918.tsv",
+    "source_sha256": "fc9d5f9f43add085c99c2ca59696c0af39e05c80243d6866fda2962ed7ab379b"
+  },
+  "manual_review": {
+    "file": "zero_candidate_audit_random100_manual_review_v1.tsv",
+    "sha256": "6866e94c8b5349ed223ca2419d1c733ab741ecaa65591f67c237fb3a504852a2",
+    "wikidata_status_counts": {
+      "NOT_FOUND_AFTER_SEARCH": 99,
+      "FOUND_VARIANT": 1
+    },
+    "preliminary_scope_counts": {
+      "INCLUDE": 60,
+      "EXCLUDE_OUT_OF_SCOPE": 23,
+      "UNCERTAIN_SCOPE": 17
+    }
+  },
+  "eligible_preliminary": {
+    "definition": "scope_review_prelim == INCLUDE",
+    "n": 60,
+    "wikidata_status_counts": {
+      "NOT_FOUND_AFTER_SEARCH": 59,
+      "FOUND_VARIANT": 1
+    },
+    "found_n": 1,
+    "not_found_after_search_n": 59,
+    "found_fraction": 0.016666666666666666
+  },
+  "found_items": [
+    {
+      "audit_index": "8",
+      "target_id": "OL1386177W",
+      "title": "Letzte am Schafott",
+      "author": "Le Fort, Gertrud",
+      "year": "1933",
+      "wikidata_status": "FOUND_VARIANT",
+      "qid": "Q1214380",
+      "retrieval_failure_mode": "TITLE_VARIANT_RETRIEVAL_MISS"
+    }
+  ],
+  "interpretation_notes": [
+    "NOT_FOUND_AFTER_SEARCH means that no corresponding work-level Wikidata item was identified during the additional manual search; it does not prove that no such item exists.",
+    "scope_review_prelim is a preliminary scope judgment and is intentionally kept separate from the Wikidata entity-resolution judgment.",
+    "The sample was frozen before manual inspection using random_state=20260918.",
+    "The audit is diagnostic of the zero-candidate population and was not used to tune the frozen v6 judge.",
+    "Detailed per-record search provenance (for example, all queries and URLs) was not retained for all 100 records; the manual-review TSV records the resulting judgments and should therefore be treated as a diagnostic audit."
+  ]
+}
