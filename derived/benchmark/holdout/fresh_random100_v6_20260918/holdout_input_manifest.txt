@@ -1,0 +1,28 @@
+Wikidata v6 fresh random100 holdout input freeze
+created_utc	2026-09-18T05:09:14.576142+00:00
+git_head_before_freeze	8213e43e665b039954c0aea2818ecb498ed5359c
+
+Protocol:
+- 100 fresh targets sampled before v6 predictions
+- no overlap with prior random100 or 130-item benchmark by ID or normalized title+author
+- candidate generation uses frozen local Wikidata evidence
+- one missing candidate entity (Q604281) retained and metadata-only supplemented from live Wikidata API
+- Open Library Edition evidence generated before v6 predictions
+- v6 enrichment logic is the already frozen random100 logic; no holdout-specific rule changes
+- Ninety-three source text retains leading colon exactly as produced by frozen parser
+- The cardinal's mistress retains work_titles/responsibility evidence without a parsed source_relation
+
+SHA256:
+131216758e0495a2ab753edb6184cfa9fb09f4ada39b6085d4902b8e15c9f236  derived/benchmark/holdout/fresh_random100_v6_20260918/targets.tsv
+eadc630ef9ed53910c4d066ae92d00e72de53104db98ad6c961236227e8deb35  derived/benchmark/holdout/fresh_random100_v6_20260918/input_manifest.txt
+79282f4dc70bf6ba94c8246985338b9d5a42cc9ad77a6b7915b32036da742a24  derived/benchmark/holdout/fresh_random100_v6_20260918/stage2_packets_v5_base.jsonl
+3cd0032de764fc82d10c9a0e9a61ddfbb8135abc4181cf30a8568725addeb029  derived/benchmark/holdout/fresh_random100_v6_20260918/stage2_packets.jsonl
+302412879163d5c95f428e662bbcfd6e641888c1cb12bb0c9254c1241cb9de25  derived/benchmark/holdout/fresh_random100_v6_20260918/openlibrary_editions/selected_editions.jsonl
+7f135772835a8f6d377740d0d9093b026b9a29c4ad95e367ffa38b9944408cc9  derived/benchmark/holdout/fresh_random100_v6_20260918/openlibrary_editions/target_coverage.tsv
+ad478f5b0ec8f768a4e7d95f5614a1feb0dd7bb58197504e26057bd396e0608c  derived/benchmark/holdout/fresh_random100_v6_20260918/supplement/missing_candidate_qids.txt
+1589ea4565d5a7968f1b886a0572f914ccf26f733dd01d5ba11f132495e24d1b  derived/benchmark/holdout/fresh_random100_v6_20260918/supplement/candidate_metadata_live_api.jsonl
+6f7261611a867837fd465fd389e550acc444ebf48c164e1da593d841620ab0c2  scripts/build_wikidata_v6_holdout_base_packets.py
+6530adb01dfab1ba8b3c89c3113ad4eede7a4d3b4b7b7af20d5fccd7afd81e49  scripts/build_ol_edition_holdout_evidence.py
+e4be3d05203e76022d95efc74a500b568f8143bf91d7e7f857043fdb9e5c221c  scripts/build_wikidata_v6_holdout_packets.py
+2b20f823cbd69a6220c35f9b6f73a3c2c3dbb20cd235feaa6a094a2cbd9a046b  prompts/wikidata_judge_v6.txt
+9d6d83fa7883db22dab3acc02b490fe56478e8b89a020967bce90b9cb7133a27  scripts/run_wikidata_v6_judge.py
