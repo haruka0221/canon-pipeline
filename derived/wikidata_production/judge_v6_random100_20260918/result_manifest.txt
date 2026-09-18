@@ -1,0 +1,23 @@
+Wikidata judge v6 random100 results
+created_utc	2026-09-18T04:19:18.634050+00:00
+git_head_before_result_commit	aac6905a3a27c90dc2fbc908905240d63a4bd8cb
+
+Development-set evaluation:
+strict_accuracy	97/100
+match_precision	0.962
+match_recall	0.926
+match_f1	0.943
+v5_to_v6_changed	3
+v5_to_v6_improved	3
+v5_to_v6_regressed	0
+
+Important:
+- random100 is a development set and must not be treated as fresh final validation
+- v6 was designed after analysis of v5 errors on this set
+- further tuning should be evaluated on a fresh holdout
+
+SHA256:
+4c21ccf09d81619e2c521130a60a1a2d76a433638ea340cf52b8c0e74a28d279  derived/wikidata_production/judge_v6_random100_20260918/stage2_packets.jsonl
+db378f66b01d992145ca24a4b201f4152fc5077d0e6fbb0d310b473766f558f8  derived/wikidata_production/judge_v6_random100_20260918/judgments.jsonl
+2b20f823cbd69a6220c35f9b6f73a3c2c3dbb20cd235feaa6a094a2cbd9a046b  prompts/wikidata_judge_v6.txt
+9d6d83fa7883db22dab3acc02b490fe56478e8b89a020967bce90b9cb7133a27  scripts/run_wikidata_v6_judge.py
