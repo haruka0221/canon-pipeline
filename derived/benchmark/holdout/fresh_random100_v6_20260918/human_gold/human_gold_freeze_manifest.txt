@@ -1,0 +1,2 @@
+f80bea1975fb4dd623b1c713a6ca026c95289f0fae45eb2f2dd674d88e18b07b  derived/benchmark/holdout/fresh_random100_v6_20260918/human_gold/human_gold.tsv
+eff2f7c894c30a98efaaf3172a4d894d126e9b2d203bf3e489fc409ee0dc2e1f  derived/benchmark/holdout/fresh_random100_v6_20260918/human_gold/ANNOTATION_PROTOCOL.md

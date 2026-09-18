@@ -1,101 +1,101 @@
-review_order	target_id	title	author	year	candidate_count	human_decision	human_selected_qid	human_alternative_qids	human_issue_codes	human_confidence	human_notes
-1	OL7764449W	Wine of fury	Leigh Rogers	1924	0						
-2	OL5204218W	Cross currents	Kate Mayhew Speake Penney	1938	5						
-3	OL27780635W	Second Prize	Chris Manby	1925	1						
-4	OL906860W	Brother Sims's mistake	Harry Stillwell Edwards	1920	0						
-5	OL15513643W	The private adventure of Captain Shaw	Edith Shay	1945	0						
-6	OL6674388W	Dartmoor	Maurice H. Hervey	1895	10						
-7	OL15383124W	The Story of Veronica	Robins, Denise	1946	0						
-8	OL4461481W	The last wolf of Ireland	Elona Malterre	1924	0						
-9	OL17665177W	Light in the darkness	Burk, Alice F.,	1883	5						
-10	OL3741150W	Novel on yellow paper, or, Work it out for yourself	Stevie Smith	1936	0						
-11	OL15801073W	La Chanson de Roland	Turoldus	1919	5						
-12	OL7027665W	By the waters of Babylon	Louis Wallis	1931	5						
-13	OL1491932W	In the Alamo	Opie Percival Read	1900	2						
-14	OL16269929W	The star jewels	Brown, Abbie Farwell	1905	4						
-15	OL32097737W	The three sisters	Perring	1887	5						
-16	OL166497W	The Prestige	Christopher Priest	1901	16						
-17	OL1127952W	The letters of Bret Harte	Bret Harte	1926	7						
-18	OL5032650W	American Short Stories	Charles Sears Baldwin	1904	3						
-19	OL44676566W	The kiss of death	Lawrence P. Bachmann	1946	5						
-20	OL1360170W	John Dryden and prose fiction	Amanda Mae Ellis	1930	0						
-21	OL240565W	Angel Pavement	Priestley, J. B.	1930	12						
-22	OL15621396W	"""In the world celestial"""	T. A. Bland	1905	1						
-23	OL466904W	Beichte eines Mörders	Joseph Roth	1936	10						
-24	OL65406W	Princess Sukey	Saunders, Marshall	1905	0						
-25	OL7694719W	Linda just right	Miller, Jane	1946	1						
-26	OL6667263W	Raleigh's Eden	Inglis Fletcher	1940	2						
-27	OL7859721W	Life in the Wabash Valley	G. F. Coburn	1907	0						
-28	OL4358791W	The fountain	Morgan, Charles	1932	15						
-29	OL250263W	Dumb foxglove	Annie Trumbull Slosson	1898	10						
-30	OL20584111W	Staircase 4	Helen Reilly	1949	2						
-31	OL108841W	California	J. Walker McSpadden	1926	5						
-32	OL486974W	Wind from the north	O'Neill, Joseph.	1934	7						
-33	OL7678249W	Daily walks	Cora M. Milligan	1943	0						
-34	OL6922956W	The golden warrior, the story of Harold and William	Hope Muntz	1948	0						
-35	OL28523W	Mule bone	Langston Hughes	1931	10						
-36	OL14848954W	The man from Mustang	Frederick Schiller Faust	1942	10						
-37	OL5352542W	Little Girl Blue lives in the woods till she learns to say please	Josephine Scribner Gates	1910	0						
-38	OL1237129W	Razin Stepan	Alekseĭ Chapygin	1946	0						
-39	OL118388W	Flatland	Edwin Abbott Abbott	1884	5						
-40	OL1418137W	The warlord of Mars #3	Edgar Rice Burroughs	1919	8						
-41	OL7864257W	The destroyer	Henry Knott	1908	5						
-42	OL12315943W	Miss Nightingale's ladies	Charles Hugh Terrot	1948	0						
-43	OL2339330W	With Osceola in Florida	Frederick A. Ober	1908	0						
-44	OL98782W	Sand	Will James	1929	6						
-45	OL7135335W	Laughter in hell	Jim Tully	1932	1						
-46	OL6043018W	Rip Van Winkle and Other Stories	Irving, Washington	1922	6						
-47	OL7097423W	The bonfire (A fogueira)	Cecilio J. Carneiro	1944	0						
-48	OL7752519W	Clipper folk	Oswald Wildridge	1920	0						
-49	OL32092098W	The story of a coral necklace	Robina F. Hardy	1889	7						
-50	OL5202774W	Friday's child	Louise Platt Hauck	1934	5						
-51	OL15376438W	Heavy Clay	Robins, Denise	1929	0						
-52	OL5204283W	Inspector French and the Starvel Tragedy	Freeman Wills Crofts	1927	10						
-53	OL18037403W	Women novelists of Queen Victoria's reign	Radcliffe College. Library	1897	0						
-54	OL1061650W	Dyrendel.	Bojer, Johan	1921	6						
-55	OL6831744W	The merchant prince	H. C. Bailey	1927	7						
-56	OL7441662W	Call the lady indiscreet	Paul Whelton	1946	10						
-57	OL7542550W	Runaway prentice	Ethel Parton	1939	0						
-58	OL20123050W	The married life of Helen and Warren	Mabel Herbert Urner	1925	0						
-59	OL141970W	High time	Mary Lasswell	1944	5						
-60	OL7578104W	Creative fiction writing	Dorothy McCleary	1947	0						
-61	OL5278774W	Daughter of earth	Agnes Smedley	1929	6						
-62	OL7761178W	Helen of London	Sidney Floyd Gowing	1923	1						
-63	OL22067446W	Profit and loss	Mary Dwinell Chellis	1884	5						
-64	OL19666093W	Ninety-three	Victor Hugo	1902	3						
-65	OL1795145W	The Scouts of Stonewall (His Civil War Series)	Joseph A. Altsheler	1914	7						
-66	OL890325W	Modern love	Meredith, George	1891	12						
-67	OL6058779W	Rod of the lone patrol	H. A. Cody	1916	0						
-68	OL15188919W	A Garland for Girls	Louisa May Alcott	1887	8						
-69	OL7541384W	L' humble Georgin	Descaves, Lucien	1932	6						
-70	OL7457688W	Outlaw sheriff	Will Jenkins	1934	11						
-71	OL485671W	West of the Pecos	Zane Grey	1931	9						
-72	OL6328941W	The watch night	Henry Bett	1912	0						
-73	OL4072529W	The Moving Picture Girls in War Plays Or The Sham Battles at Oak Farm	Laura Lee Hope	1916	9						
-74	OL22232323W	Mike Maroney, raider	David Sievert Lavender	1945	0						
-75	OL2341709W	Struggling upward	Horatio Alger	1890	7						
-76	OL1132746W	The cardinal's mistress	Benito Mussolini	1928	9						
-77	OL8408550W	Rossingon FR Nightingale	North-South Staff	1945	0						
-78	OL39458115W	The queen of the Pirate Isle	Bret Harte	1900	10						
-79	OL1771484W	Manimekalai	A. Mātavaiyā	1923	5						
-80	OL19812950W	The Luck of the Dudley Grahams: As Related in Extracts from Elizabeth Graham's Diary	Alice Calhoun Haines	1907	0						
-81	OL1492280W	Prince Schamyl's wooing	Savage, Richard	1892	3						
-82	OL16421017W	Candles' beams	Francis James Finn	1926	1						
-83	OL42515546W	Elizabethan tales	Edward Joseph Harrington O'Brien	1938	0						
-84	OL276395W	Washington Square	James, Henry	1880	25						
-85	OL4965200W	Yellowstone nights	Herbert Quick	1911	1						
-86	OL7711563W	The counterpart	Joseph Hornor Coates	1909	0						
-87	OL32033077W	His end was his beginning	Henrietta Buckmaster	1936	1						
-88	OL22127723W	No Man's Land	Vernon Bartlett	1930	6						
-89	OL276378W	The siege of London	James, Henry	1882	19						
-90	OL7732238W	The heart of the rose	Mabel Anne McKee	1913	1						
-91	OL180007W	Kit Carson's own story of his life	Christopher Carson	1926	3						
-92	OL4087568W	The polyglots	William Alexander Gerhardie	1925	2						
-93	OL16048286W	Kitty	Rosamond Marshall	1943	5						
-94	OL12578272W	Oyf fremder erd	Falek Zolf	1945	0						
-95	OL170820W	Ludwig Beethoven and the chiming tower bells	Opal Wheeler	1942	0						
-96	OL7551392W	Blackwater river	A. M. Grussi	1934	5						
-97	OL3919632W	Iceblink	Montgomery, Rutherford George	1941	4						
-98	OL7554986W	Replacement list of fiction	American Library Association. Book Buying Committee.	1933	0						
-99	OL136324W	Moonchild	Aleister Crowley	1929	12						
-100	OL2635379W	The King of Ireland's Son	Padraic Colum	1916	7						
+review_order	target_id	title	author	year	candidate_count	human_decision	human_selected_qid	human_alternative_qids	human_issue_codes	human_confidence	human_notes	evaluation_eligibility	eligibility_reason
+1	OL7764449W	Wine of fury	Leigh Rogers	1924	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	No corresponding Wikidata work found in prediction-blind live title/author search.	INCLUDE	
+2	OL5204218W	Cross currents	Kate Mayhew Speake Penney	1938	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Retrieved Wikidata results are journals, albums, films, choreography, or disambiguation; none matches the 1938 Penney work.	INCLUDE	
+3	OL27780635W	Second Prize	Chris Manby	1925	1	NO_MATCH			OUT_OF_SCOPE_YEAR_METADATA_ERROR;UNRELATED_WIKIDATA_RESULTS	HIGH	Target year 1925 is erroneous. Chris/Chrissie Manby's Second Prize was first published in 1997; supplied/search candidates do not represent the work.	EXCLUDE_OUT_OF_SCOPE	Actual work first published in 1997, outside intended 1880-1950 population.
+4	OL906860W	Brother Sims's mistake	Harry Stillwell Edwards	1920	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	1920 work by Harry Stillwell Edwards verified bibliographically; no corresponding Wikidata work found.	INCLUDE	
+5	OL15513643W	The private adventure of Captain Shaw	Edith Shay	1945	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND;OL_WORK_NOT_FOUND	MEDIUM	No corresponding Wikidata work found. Open Library editions endpoint for the sampled Work ID returns 404.	INCLUDE	
+6	OL6674388W	Dartmoor	Maurice H. Hervey	1895	10	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	No Wikidata result matches Maurice H. Hervey's 1895 novel Dartmoor; supplied candidates are other works/entities.	INCLUDE	
+7	OL15383124W	The Story of Veronica	Robins, Denise	1946	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Denise Robins's 1946 novel is bibliographically verified; no corresponding Wikidata work found.	INCLUDE	
+8	OL4461481W	The last wolf of Ireland	Elona Malterre	1924	0	NO_MATCH			OUT_OF_SCOPE_YEAR_METADATA_ERROR;NO_WIKIDATA_WORK_FOUND	HIGH	Target year 1924 is erroneous. The Last Wolf of Ireland by Elona Malterre was published in 1990; no corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Actual work published in 1990, outside intended 1880-1950 population.
+9	OL17665177W	Light in the darkness	Burk, Alice F.,	1883	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Retrieved Wikidata items are unrelated books, films, music, chapters, and articles; none matches Alice F. Burk's 1883 work.	INCLUDE	
+10	OL3741150W	Novel on yellow paper, or, Work it out for yourself	Stevie Smith	1936	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Stevie Smith's 1936 novel is independently verified, but no corresponding Wikidata work item was found in prediction-blind title/author search.	INCLUDE	
+11	OL15801073W	La Chanson de Roland	Turoldus	1919	5	MATCH	Q185427		OUT_OF_SCOPE_WORK_DATE	HIGH	Target resolves to The Song of Roland (Q185427). The supplied/live evidence includes an edition item pointing via P629 to Q185427. The underlying work dates to about 1100, so the 1919 target year reflects later publication/edition evidence.	EXCLUDE_OUT_OF_SCOPE	Underlying conceptual work predates the intended 1880-1950 work population.
+12	OL7027665W	By the waters of Babylon	Louis Wallis	1931	5	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Louis Wallis's 1931 fiction By the Waters of Babylon is bibliographically verified; live Wikidata results are unrelated.	INCLUDE	
+13	OL1491932W	In the Alamo	Opie Percival Read	1900	2	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Opie Percival Read's 1900 novel In the Alamo is bibliographically verified; no corresponding Wikidata work found.	INCLUDE	
+14	OL16269929W	The star jewels	Brown, Abbie Farwell	1905	4	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	The Star Jewels and Other Wonders (1905) is a mixed collection of fairy tales/children's poetry rather than a novel; no corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Not a novel; mixed collection of fairy tales and children's poetry.
+15	OL32097737W	The three sisters	Perring	1887	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	No Wikidata result matches Mrs. Perring's 1887 work; retrieved items with the same title are unrelated.	INCLUDE	
+16	OL166497W	The Prestige	Christopher Priest	1901	16	MATCH	Q944991		OUT_OF_SCOPE_YEAR_METADATA_ERROR	HIGH	The target title/author resolve unambiguously to Christopher Priest's The Prestige (Q944991), first published in 1995. Target year 1901 is erroneous.	EXCLUDE_OUT_OF_SCOPE	Actual work first published in 1995, outside intended 1880-1950 population.
+17	OL1127952W	The letters of Bret Harte	Bret Harte	1926	7	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	The Letters of Bret Harte is a 1926 edited correspondence collection, not a novel; no corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Not a novel; edited correspondence collection.
+18	OL5032650W	American Short Stories	Charles Sears Baldwin	1904	3	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;UNRELATED_WIKIDATA_RESULTS	HIGH	American Short Stories (1904) is an anthology selected and edited by Charles Sears Baldwin, not a novel. Retrieved Wikidata results are unrelated.	EXCLUDE_OUT_OF_SCOPE	Not a novel; edited short-story anthology.
+19	OL44676566W	The kiss of death	Lawrence P. Bachmann	1946	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Lawrence P. Bachmann's The Kiss of Death (1946) is bibliographically verified; retrieved Wikidata works with the same title have other authors or media.	INCLUDE	
+20	OL1360170W	John Dryden and prose fiction	Amanda Mae Ellis	1930	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	John Dryden and Prose Fiction is a scholarly study in the Colorado College publication series, not a novel; no corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Not a novel; scholarly literary study.
+21	OL240565W	Angel Pavement	Priestley, J. B.	1930	12	MATCH	Q4762241			HIGH	Angel Pavement resolves unambiguously to the 1930 J. B. Priestley novel Q4762241.	INCLUDE	
+22	OL15621396W	"""In the world celestial"""	T. A. Bland	1905	1	MATCH	Q133801591		TARGET_YEAR_EDITION_NOT_WORK_DATE	HIGH	In the World Celestial resolves to Q133801591. The conceptual work dates to 1901; the sampled 1905 Open Library record is explicitly a 4th edition.	INCLUDE	
+23	OL466904W	Beichte eines Mörders	Joseph Roth	1936	10	MATCH	Q814640			HIGH	Beichte eines Mörders resolves to Joseph Roth's Confession of a Murderer (Q814640), a 1936 literary work.	INCLUDE	
+24	OL65406W	Princess Sukey	Saunders, Marshall	1905	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Princess Sukey is Marshall Saunders's 1905 book-length juvenile fiction; no corresponding Wikidata work item found.	INCLUDE	
+25	OL7694719W	Linda just right	Miller, Jane	1946	1	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	MEDIUM	Linda Just Right is a 1946 illustrated children's book issued in boards (text by Jane Miller; pictures by Givens-Duzak); no corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Children's board/picture book rather than a novel.
+26	OL6667263W	Raleigh's Eden	Inglis Fletcher	1940	2	MATCH	Q106396627			HIGH	Raleigh's Eden resolves unambiguously to Q106396627, the 1940 novel by Inglis Fletcher.	INCLUDE	
+27	OL7859721W	Life in the Wabash Valley	G. F. Coburn	1907	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	No corresponding Wikidata work found for Life in the Wabash Valley. The frozen Open Library edition evidence classifies the item in American fiction and gives LC class PZ3.C6401 Li.	INCLUDE	
+28	OL4358791W	The fountain	Morgan, Charles	1932	15	MATCH	Q130425953			HIGH	The Fountain resolves to Q130425953: 1932 written work by Charles Langbridge Morgan. Frozen candidate evidence has exact title and author support.	INCLUDE	
+29	OL250263W	Dumb foxglove	Annie Trumbull Slosson	1898	10	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	The sampled work is Dumb Foxglove, and Other Stories (1898), a short-story collection, not a novel. No matching Wikidata collection item found.	EXCLUDE_OUT_OF_SCOPE	Short-story collection rather than a novel.
+30	OL20584111W	Staircase 4	Helen Reilly	1949	2	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Helen Reilly's Staircase 4 is verified as 1949 fiction; no corresponding Wikidata work item found.	INCLUDE	
+31	OL108841W	California	J. Walker McSpadden	1926	5	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	California (1926) is J. Walker McSpadden's 'romantic story for young people'; no corresponding Wikidata work item found.	INCLUDE	
+32	OL486974W	Wind from the north	O'Neill, Joseph.	1934	7	MATCH	Q133802287			HIGH	Wind from the North resolves unambiguously to Q133802287, the 1934 novel by Joseph O'Neill.	INCLUDE	
+33	OL7678249W	Daily walks	Cora M. Milligan	1943	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Frozen Open Library edition evidence explicitly describes Daily Walks as 'Poems.' No corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Poetry collection rather than a novel.
+34	OL6922956W	The golden warrior, the story of Harold and William	Hope Muntz	1948	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Golden Warrior is Hope Muntz's historical novel about Harold and William; no corresponding Wikidata work item found.	INCLUDE	
+35	OL28523W	Mule bone	Langston Hughes	1931	10	MATCH	Q6933876		OUT_OF_SCOPE_NON_NOVEL	HIGH	Mule Bone resolves to Q6933876, the play by Langston Hughes and Zora Neale Hurston.	EXCLUDE_OUT_OF_SCOPE	Play rather than a novel.
+36	OL14848954W	The man from Mustang	Frederick Schiller Faust	1942	10	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Man from Mustang is a Max Brand/Frederick Schiller Faust western novel, first serialized in 1933 and published in book form in 1942. No corresponding Wikidata work item found.	INCLUDE	
+37	OL5352542W	Little Girl Blue lives in the woods till she learns to say please	Josephine Scribner Gates	1910	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	MEDIUM	Little Girl Blue (1910) is an illustrated children's story about a live doll learning to say please; no corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Illustrated children's story/picture-story book rather than a novel.
+38	OL1237129W	Razin Stepan	Alekseĭ Chapygin	1946	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND;TARGET_YEAR_TRANSLATION	HIGH	Razin Stepan / Stepan Razin is Chapygin's historical novel originally published in 1926-27. The 1946 date corresponds to the English translation. Under the translation policy this is the same conceptual work; no corresponding Wikidata work item was found.	INCLUDE	
+39	OL118388W	Flatland	Edwin Abbott Abbott	1884	5	MATCH	Q728312			HIGH	Flatland resolves unambiguously to Q728312, the 1884 novella by Edwin Abbott Abbott.	INCLUDE	
+40	OL1418137W	The warlord of Mars #3	Edgar Rice Burroughs	1919	8	MATCH	Q2499056		TARGET_YEAR_EDITION_NOT_WORK_DATE	HIGH	The Warlord of Mars #3 resolves to Q2499056. The conceptual work was serialized in 1913-14; 1919 is the first book publication. '#3' denotes its position in the Barsoom series.	INCLUDE	
+41	OL7864257W	The destroyer	Henry Knott	1908	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	The Destroyer: Man to Demon (1908) is Henry Knott's temperance/moral novel about a family's destruction through alcohol. Supplied and live Wikidata results represent unrelated works/entities.	INCLUDE	
+42	OL12315943W	Miss Nightingale's ladies	Charles Hugh Terrot	1948	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Miss Nightingale's Ladies is Charles Terrot's 1948 novel based on Sarah Anne Terrot's diary. No corresponding Wikidata work found.	INCLUDE	
+43	OL2339330W	With Osceola in Florida	Frederick A. Ober	1908	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	With Osceola in Florida (1908) is historical juvenile/adventure fiction by Frederick A. Ober. No corresponding Wikidata work found.	INCLUDE	
+44	OL98782W	Sand	Will James	1929	6	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Sand is Will James's 1929 novel set among cowboys and horses. Supplied/live Wikidata items titled Sand represent unrelated works or entities.	INCLUDE	
+45	OL7135335W	Laughter in hell	Jim Tully	1932	1	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Laughter in Hell is Jim Tully's 1932 fiction work. The Wikidata title match Q6498212 is the 1933 film, not the underlying novel.	INCLUDE	
+46	OL6043018W	Rip Van Winkle and Other Stories	Irving, Washington	1922	6	MATCH	Q138515693		OUT_OF_SCOPE_NON_NOVEL	HIGH	Rip Van Winkle & Other Stories resolves to Q138515693, a short-story collection by Washington Irving.	EXCLUDE_OUT_OF_SCOPE	Short-story collection rather than a novel.
+47	OL7097423W	The bonfire (A fogueira)	Cecilio J. Carneiro	1944	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND;TARGET_YEAR_TRANSLATION	HIGH	The Bonfire is the 1944 English translation of Cecilio J. Carneiro's Brazilian novel A fogueira (1942). Under the translation policy this is the same conceptual work. No corresponding Wikidata work item found.	INCLUDE	
+48	OL7752519W	Clipper folk	Oswald Wildridge	1920	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Clipper Folk (1920) is documented as a volume of short stories by Oswald Wildridge. No corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Short-story collection rather than a novel.
+49	OL32092098W	The story of a coral necklace	Robina F. Hardy	1889	7	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	MEDIUM	The Story of a Coral Necklace (1889) is a short illustrated juvenile story (about 64 pages), rather than a novel. No corresponding Wikidata work item found.	EXCLUDE_OUT_OF_SCOPE	Short juvenile story/book rather than a novel.
+50	OL5202774W	Friday's child	Louise Platt Hauck	1934	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Friday's Child is Louise Platt Hauck's 1934 fiction/romance. The same-title Wikidata novel Q5503468 is Georgette Heyer's distinct 1944 work.	INCLUDE	
+51	OL15376438W	Heavy Clay	Robins, Denise	1929	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Heavy Clay is Denise Robins's 1929 novel. No corresponding Wikidata work item found.	INCLUDE	
+52	OL5204283W	Inspector French and the Starvel Tragedy	Freeman Wills Crofts	1927	10	MATCH	Q6038363			HIGH	Inspector French and the Starvel Tragedy resolves unambiguously to Q6038363, the 1927 novel by Freeman Wills Crofts.	INCLUDE	
+53	OL18037403W	Women novelists of Queen Victoria's reign	Radcliffe College. Library	1897	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Women Novelists of Queen Victoria's Reign (1897) is a collection of critical appreciations/essays about Victorian women novelists, not a novel.	EXCLUDE_OUT_OF_SCOPE	Literary-critical essay collection rather than a novel.
+54	OL1061650W	Dyrendel.	Bojer, Johan	1921	6	NO_MATCH			NO_WIKIDATA_WORK_FOUND;TARGET_YEAR_TRANSLATION	HIGH	Dyrendel corresponds to Johan Bojer's Dyrendal, originally published as a novel in 1919. An English translation, God and Woman (Dyrendal), appeared in 1921. Under the translation policy this is the same conceptual work. No corresponding Wikidata work item was identified.	INCLUDE	
+55	OL6831744W	The merchant prince	H. C. Bailey	1927	7	NO_MATCH			NO_WIKIDATA_WORK_FOUND;TARGET_YEAR_EDITION_NOT_WORK_DATE	HIGH	The Merchant Prince is an H. C. Bailey historical/romance novel first published in 1926. The sampled 1927 record reflects a later publication/edition. No corresponding Wikidata work item found.	INCLUDE	
+56	OL7441662W	Call the lady indiscreet	Paul Whelton	1946	10	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Call the Lady Indiscreet is Paul Whelton's 1946 book-length mystery novel. No corresponding Wikidata work item found; retrieved author candidates belong to an unrelated modern researcher with the same name.	INCLUDE	
+57	OL7542550W	Runaway prentice	Ethel Parton	1939	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Runaway Prentice is Ethel Parton's 1939 historical juvenile fiction, a book-length story set in 1800. No corresponding Wikidata work item found.	INCLUDE	
+58	OL20123050W	The married life of Helen and Warren	Mabel Herbert Urner	1925	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	The Married Life of Helen and Warren derives from Mabel Herbert Urner's long-running newspaper series of weekly approximately 1,500-word stories and was collected in book form in 1925. No corresponding Wikidata work item found.	EXCLUDE_OUT_OF_SCOPE	Collection/sequence of syndicated short stories rather than a single novel.
+59	OL141970W	High time	Mary Lasswell	1944	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	High Time is Mary Lasswell's 1944 humorous novel and the second Suds book. Retrieved Wikidata same-title items are unrelated albums, films, etc.	INCLUDE	
+60	OL7578104W	Creative fiction writing	Dorothy McCleary	1947	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Creative Fiction Writing (1947) is Dorothy McCleary's instructional book on fiction technique and short-story writing, not a work of fiction.	EXCLUDE_OUT_OF_SCOPE	Writing manual/nonfiction rather than a novel.
+61	OL5278774W	Daughter of earth	Agnes Smedley	1929	6	MATCH	Q5227913			HIGH	Daughter of Earth resolves to Q5227913, Agnes Smedley's 1929 autobiographical novel.	INCLUDE	
+62	OL7761178W	Helen of London	Sidney Floyd Gowing	1923	1	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Helen of London is Sidney Floyd Gowing's 1923 fiction work. No corresponding Wikidata work item found.	INCLUDE	
+63	OL22067446W	Profit and loss	Mary Dwinell Chellis	1884	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Profit and Loss is Mary Dwinell Chellis's 1884 fiction work. Retrieved Wikidata results are unrelated entities.	INCLUDE	
+64	OL19666093W	Ninety-three	Victor Hugo	1902	3	MATCH	Q199940		OUT_OF_SCOPE_WORK_DATE;TARGET_YEAR_TRANSLATION	HIGH	Ninety-three is an English translation of Victor Hugo's Quatrevingt-treize / Ninety-Three (Q199940), first published in 1874. Under the translation policy the translation is the same conceptual work.	EXCLUDE_OUT_OF_SCOPE	Underlying conceptual work was first published in 1874, before the intended 1880-1950 population.
+65	OL1795145W	The Scouts of Stonewall (His Civil War Series)	Joseph A. Altsheler	1914	7	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Scouts of Stonewall is Joseph A. Altsheler's historical Civil War fiction, volume 3 of the Civil War series. No corresponding Wikidata work item found.	INCLUDE	
+66	OL890325W	Modern love	Meredith, George	1891	12	MATCH	Q6888750		OUT_OF_SCOPE_NON_NOVEL;OUT_OF_SCOPE_WORK_DATE;TARGET_YEAR_EDITION_NOT_WORK_DATE	HIGH	Modern Love resolves to Q6888750. It is George Meredith's sequence of fifty sixteen-line sonnets, first published in 1862. The sampled 1891 record is a later reprint.	EXCLUDE_OUT_OF_SCOPE	Poetic sonnet sequence rather than a novel, and underlying work predates 1880.
+67	OL6058779W	Rod of the lone patrol	H. A. Cody	1916	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Rod of the Lone Patrol is H. A. Cody's 1916 coming-of-age/adventure novel. No corresponding Wikidata work item found.	INCLUDE	
+68	OL15188919W	A Garland for Girls	Louisa May Alcott	1887	8	MATCH	Q30896902		OUT_OF_SCOPE_NON_NOVEL	HIGH	A Garland for Girls resolves to Q30896902. It is a collection of short stories by Louisa May Alcott.	EXCLUDE_OUT_OF_SCOPE	Short-story collection rather than a novel.
+69	OL7541384W	L' humble Georgin	Descaves, Lucien	1932	6	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	MEDIUM	L'Humble Georgin (1932) is documented as a fictionalized but researched biography ('biographie romancée') of printmaker François Georgin. No corresponding Wikidata work item found.	EXCLUDE_OUT_OF_SCOPE	Fictionalized biography/biographical work rather than a novel in the target population.
+70	OL7457688W	Outlaw sheriff	Will Jenkins	1934	11	MATCH	Q134618996		AUTHOR_PSEUDONYM	HIGH	Outlaw Sheriff resolves to Q134618996, the 1934 novel published by Murray Leinster under his Will F. Jenkins/Will Jenkins name.	INCLUDE	
+71	OL485671W	West of the Pecos	Zane Grey	1931	9	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	West of the Pecos is Zane Grey's western fiction, first serialized in 1931-32 and later published in book form. Retrieved Wikidata title matches are films or unrelated entities; no corresponding literary-work item found.	INCLUDE	
+72	OL6328941W	The watch night	Henry Bett	1912	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Watch Night is Henry Bett's 1912 historical romance/novel. No corresponding Wikidata work item found.	INCLUDE	
+73	OL4072529W	The Moving Picture Girls in War Plays Or The Sham Battles at Oak Farm	Laura Lee Hope	1916	9	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Moving Picture Girls in War Plays is a 1916 book-length juvenile novel. No corresponding Wikidata work item found.	INCLUDE	
+74	OL22232323W	Mike Maroney, raider	David Sievert Lavender	1945	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Mike Maroney, Raider is David Lavender's 1945 historical juvenile fiction incorporating fictional characters into the Great Locomotive Chase. No corresponding Wikidata work found.	INCLUDE	
+75	OL2341709W	Struggling upward	Horatio Alger	1890	7	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Struggling Upward; or, Luke Larkin's Luck is a Horatio Alger novel, serialized in 1886 and published in book form in 1890. No corresponding Wikidata work item found.	INCLUDE	
+76	OL1132746W	The cardinal's mistress	Benito Mussolini	1928	9	NO_MATCH			NO_WIKIDATA_WORK_FOUND;TARGET_YEAR_TRANSLATION	HIGH	The Cardinal's Mistress is the 1928 English translation of Mussolini's Claudia Particella, l'amante del cardinale, originally serialized in 1909. Under the translation policy this is the same conceptual work. No corresponding Wikidata work item found.	INCLUDE	
+77	OL8408550W	Rossingon FR Nightingale	North-South Staff	1945	0	MATCH	Q1200454		CANDIDATE_RETRIEVAL_MISS;TARGET_METADATA_ERROR;OUT_OF_SCOPE_WORK_DATE	MEDIUM	The sampled record is heavily corrupted: title is recorded as 'Rossingon FR Nightingale', author as North-South Staff, and year as 1945. Frozen evidence nevertheless has publisher North-South, IA identifier lerossignol0000ande, and LC class J398.2 AND. North-South postdates 1945, and the evidence is consistent with Hans Christian Andersen's The Nightingale (Q1200454), first published in 1843.	EXCLUDE_OUT_OF_SCOPE	Corrupted target metadata; underlying conceptual work is Andersen's 1843 story, outside the intended 1880-1950 population.
+78	OL39458115W	The queen of the Pirate Isle	Bret Harte	1900	10	MATCH	Q124089944		OUT_OF_SCOPE_NON_NOVEL;TARGET_YEAR_EDITION_NOT_WORK_DATE	HIGH	The Queen of the Pirate Isle resolves to Q124089944. The underlying work dates to 1886; the sampled 1900 record is a later Warne edition. Although Wikidata describes it as a novel, bibliographic/textual evidence identifies it as an illustrated children's story.	EXCLUDE_OUT_OF_SCOPE	Short illustrated children's story rather than a novel.
+79	OL1771484W	Manimekalai	A. Mātavaiyā	1923	5	MATCH	Q140308664		OUT_OF_SCOPE_NON_NOVEL;DERIVATIVE_RELATION	HIGH	The target is A. Madhaviah's 1923 Manimekalai (Q140308664), not the ancient Tamil epic Q1480970 itself. Bibliographic sources describe Madhaviah's work as an English epitome/retelling of the ancient story. Under the adaptation policy it is treated as a distinct conceptual work.	EXCLUDE_OUT_OF_SCOPE	English epitome/retelling of an older epic rather than a novel in the target population.
+80	OL19812950W	The Luck of the Dudley Grahams: As Related in Extracts from Elizabeth Graham's Diary	Alice Calhoun Haines	1907	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Luck of the Dudley Grahams is Alice Calhoun Haines's 1907 diary-form juvenile novel. No corresponding Wikidata work item found.	INCLUDE	
+81	OL1492280W	Prince Schamyl's wooing	Savage, Richard	1892	3	MATCH	Q124092201		CANDIDATE_RETRIEVAL_MISS	HIGH	Prince Schamyl's Wooing resolves to Q124092201, the 1892 literary work by Richard Henry Savage. The correct work was not present in the frozen candidate set.	INCLUDE	
+82	OL16421017W	Candles' beams	Francis James Finn	1926	1	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Candles' Beams (1926) is a collection of six short religious stories for young readers. No corresponding Wikidata work item found.	EXCLUDE_OUT_OF_SCOPE	Short-story collection rather than a novel.
+83	OL42515546W	Elizabethan tales	Edward Joseph Harrington O'Brien	1938	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Elizabethan Tales is an anthology edited with an introduction by Edward J. O'Brien, rather than a single novel. No corresponding Wikidata work found.	EXCLUDE_OUT_OF_SCOPE	Edited story anthology rather than a novel.
+84	OL276395W	Washington Square	James, Henry	1880	25	MATCH	Q1548029			HIGH	Washington Square resolves unambiguously to Q1548029, Henry James's 1880 novel.	INCLUDE	
+85	OL4965200W	Yellowstone nights	Herbert Quick	1911	1	NO_MATCH			NO_WIKIDATA_WORK_FOUND	MEDIUM	Yellowstone Nights is Herbert Quick's 1911 book-length fiction, structured as a continuing Yellowstone travel narrative with embedded campfire stories. No corresponding Wikidata work item found.	INCLUDE	
+86	OL7711563W	The counterpart	Joseph Hornor Coates	1909	0	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	The Counterpart is Joseph Hornor Coates's 1909 fiction work, included in the Wright American fiction bibliography. Live Wikidata results are unrelated.	INCLUDE	
+87	OL32033077W	His end was his beginning	Henrietta Buckmaster	1936	1	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	His End Was His Beginning is Henrietta Buckmaster's 1936 fiction/novel. No corresponding Wikidata work item found.	INCLUDE	
+88	OL22127723W	No Man's Land	Vernon Bartlett	1930	6	NO_MATCH			UNRELATED_WIKIDATA_RESULTS;ALTERNATE_TITLE	HIGH	No Man's Land is Vernon Bartlett's 1930 fiction work, published in the United States under the title The Unknown Soldier. Retrieved Wikidata title matches are unrelated; no corresponding work item found.	INCLUDE	
+89	OL276378W	The siege of London	James, Henry	1882	19	MATCH	Q16055055		OUT_OF_SCOPE_NON_NOVEL	HIGH	The Siege of London resolves to Q16055055, the short story by Henry James.	EXCLUDE_OUT_OF_SCOPE	Short story rather than a novel.
+90	OL7732238W	The heart of the rose	Mabel Anne McKee	1913	1	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	MEDIUM	The Heart of the Rose is Mabel A. McKee's 1913 short book-length fictional narrative (44 pages). The retrieved Wikidata title match is a painting, not the literary work.	INCLUDE	
+91	OL180007W	Kit Carson's own story of his life	Christopher Carson	1926	3	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Kit Carson's Own Story of His Life is Carson's autobiography/memoir, dictated in 1856-57 and first published in 1926. No corresponding Wikidata work item found.	EXCLUDE_OUT_OF_SCOPE	Autobiography/memoir rather than a novel.
+92	OL4087568W	The polyglots	William Alexander Gerhardie	1925	2	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	The Polyglots is William Gerhardie's novel, first published in 1925. No corresponding Wikidata work item found.	INCLUDE	
+93	OL16048286W	Kitty	Rosamond Marshall	1943	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Kitty is Rosamond Marshall's 1943 historical romance/novel. Retrieved Wikidata same-title results are unrelated entities.	INCLUDE	
+94	OL12578272W	Oyf fremder erd	Falek Zolf	1945	0	NO_MATCH			NO_WIKIDATA_WORK_FOUND;GENRE_BOUNDARY_AUTOBIOGRAPHICAL_NOVEL	MEDIUM	Oyf fremder erd / On Foreign Soil (1945) is explicitly described on the added title page as 'an autobiographical novel'. Scholarly and archival sources also discuss it as memoir/autobiographical writing. For population eligibility, the contemporary bibliographic self-designation as a novel is retained. No corresponding Wikidata work item found.	INCLUDE	
+95	OL170820W	Ludwig Beethoven and the chiming tower bells	Opal Wheeler	1942	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Ludwig Beethoven and the Chiming Tower Bells (1942) is a children's fictionalized biography of Beethoven, not a novel. No corresponding Wikidata work item found.	EXCLUDE_OUT_OF_SCOPE	Fictionalized juvenile biography rather than a novel.
+96	OL7551392W	Blackwater river	A. M. Grussi	1934	5	NO_MATCH			UNRELATED_WIKIDATA_RESULTS	HIGH	Blackwater River is A. M. Grussi's 1934 fiction work. Frozen bibliographic evidence places it in fiction classes PZ3.G9258 and PS3513.R96. Retrieved Wikidata title matches are rivers or unrelated entities.	INCLUDE	
+97	OL3919632W	Iceblink	Montgomery, Rutherford George	1941	4	NO_MATCH			NO_WIKIDATA_WORK_FOUND	HIGH	Iceblink is Rutherford G. Montgomery's 1941 juvenile fiction/novel set in the Arctic. No corresponding Wikidata work item found.	INCLUDE	
+98	OL7554986W	Replacement list of fiction	American Library Association. Book Buying Committee.	1933	0	NO_MATCH			OUT_OF_SCOPE_NON_NOVEL;NO_WIKIDATA_WORK_FOUND	HIGH	Replacement List of Fiction (1933) is an American Library Association bibliographic/recommended replacement list with book-manufacture specifications, not a work of fiction.	EXCLUDE_OUT_OF_SCOPE	Bibliographic/library selection reference work rather than a novel.
+99	OL136324W	Moonchild	Aleister Crowley	1929	12	MATCH	Q6907673			HIGH	Moonchild resolves to Q6907673, Aleister Crowley's novel. It was written in 1917 and first published in 1929.	INCLUDE	
+100	OL2635379W	The King of Ireland's Son	Padraic Colum	1916	7	MATCH	Q7744561			HIGH	The King of Ireland's Son resolves unambiguously to Q7744561, Padraic Colum's 1916 children's novel, which weaves Irish folktales into a continuous narrative.	INCLUDE	
