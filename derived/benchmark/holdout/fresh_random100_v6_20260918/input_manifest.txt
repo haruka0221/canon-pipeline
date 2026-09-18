@@ -1,0 +1,23 @@
+Fresh Wikidata v6 final holdout target freeze
+seed	20260918
+sample_size	100
+population_rows	34789
+excluded_unique_target_ids	230
+excluded_unique_title_author_keys	230
+eligible_rows	34483
+
+Exclusion inputs:
+derived/benchmark/holdout/unseen_random100_seed20260912.tsv	id_col=target_id	ids=100	title_author_keys=100
+derived/benchmark/full_eval_130items_worklevel_v2.tsv	id_col=wk	ids=130	title_author_keys=130
+derived/benchmark/full_eval_130items.tsv	id_col=wk	ids=130	title_author_keys=130
+
+Protocol:
+- deterministic sample with seed 20260918
+- sampled from the 34,789-work population
+- excludes previous benchmark records by Open Library ID
+- also excludes normalized title+author matches to previous benchmarks
+- title+author exclusion prevents leakage through duplicate Open Library work records
+- generated before v6 predictions on these targets
+- this target list must not be resampled after freeze
+
+targets_sha256	131216758e0495a2ab753edb6184cfa9fb09f4ada39b6085d4902b8e15c9f236
