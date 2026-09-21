@@ -1,0 +1,20 @@
+{
+  "population_rows": 34789,
+  "resolution_stage_counts": {
+    "llm_judge": 24015,
+    "candidate_retrieval": 10774
+  },
+  "overall_decision_counts": {
+    "MATCH": 8442,
+    "NO_MATCH": 25989,
+    "AMBIGUOUS": 358
+  },
+  "llm_judge_decision_counts": {
+    "MATCH": 8442,
+    "NO_MATCH": 15215,
+    "AMBIGUOUS": 358
+  },
+  "selected_qid_rows": 8799,
+  "context_safe_fallback_rows": 1,
+  "zero_candidate_policy": "NO_MATCH at candidate_retrieval stage; does not assert absence of a Wikidata work item"
+}

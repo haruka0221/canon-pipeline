@@ -1,0 +1,13 @@
+{
+  "source_dump": "/media/hdd1/user/tsutsui/openlibrary/ol_dump_editions_2026-02-28.txt.gz",
+  "source_dump_size_bytes": 12194964686,
+  "targets_file": "derived/wikidata_production/full_34789_v6_20260918/targets_with_candidates_24015.tsv",
+  "target_work_count": 24015,
+  "lines_scanned": 55615769,
+  "limited_smoke_run": false,
+  "regex_prefilter_rows": 396947,
+  "json_parsed_rows": 396947,
+  "matched_edition_rows": 396945,
+  "target_works_with_at_least_one_edition": 24015,
+  "parse_errors": 0
+}
