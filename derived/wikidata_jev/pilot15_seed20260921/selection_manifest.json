@@ -1,0 +1,13 @@
+{
+  "purpose": "Exploratory Jev behavior pilot; not an accuracy evaluation and GPT-v6 decisions are not treated as gold.",
+  "seed": 20260921,
+  "n_per_gpt_decision": 5,
+  "total_selected": 15,
+  "filters": {
+    "max_candidates": 8,
+    "max_compact_state_chars": 60000,
+    "exclude_context_safe_fallback": true
+  },
+  "input_representation": "Exact compact_packet() implementation from scripts/run_wikidata_v6_judge.py",
+  "jev_model_planned": "jev-1.13.0"
+}

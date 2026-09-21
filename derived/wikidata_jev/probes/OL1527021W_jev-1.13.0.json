@@ -1,0 +1,47 @@
+{
+  "experiment": "single_target_probe",
+  "target_id": "OL1527021W",
+  "target": {
+    "title": "The search for the silver city",
+    "author": "Otis, James",
+    "year": "1893"
+  },
+  "requested_model": "jev-1.13.0",
+  "served_model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 3172,
+    "output_tokens": 76
+  },
+  "jev_results": [
+    {
+      "candidate_index": 0,
+      "qid": "Q133544927",
+      "label": "The Search for the Silver City",
+      "same_work_probability": 0.92
+    },
+    {
+      "candidate_index": 1,
+      "qid": "Q136258389",
+      "label": "The Princess and Joe Potter",
+      "same_work_probability": 0.06
+    },
+    {
+      "candidate_index": 2,
+      "qid": "Q7811907",
+      "label": "Toby Tyler; or, Ten Weeks with a Circus",
+      "same_work_probability": 0.06
+    },
+    {
+      "candidate_index": 3,
+      "qid": "Q92256817",
+      "label": "MAS NMR on a Red/Far-Red Photochromic Cyanobacteriochrome All2699 from Nostoc",
+      "same_work_probability": 0.03
+    }
+  ],
+  "gpt_v6_reference_NOT_SHOWN_TO_JEV": {
+    "decision": "MATCH",
+    "selected_qid": "Q133544927",
+    "confidence": "high",
+    "reason": "Exact title and 1893 literary-work match; the candidate identifies James Otis as James Otis Kaler, consistent with the target's catalog-style author form."
+  }
+}

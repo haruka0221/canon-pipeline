@@ -1,0 +1,16 @@
+{
+  "experiment": "wikidata_jev_holdout_v1",
+  "purpose": "Prediction-blind Jev run on frozen Wikidata v6 holdout packets. Human gold and GPT-v6 holdout judgments are not read by this runner.",
+  "model": "jev-1.13.0",
+  "question_spec_sha256": "0261be5dde85512125d6a773f16cf5131829b62d5fe6c42ffba9638518630f59",
+  "packets_path": "derived/benchmark/holdout/fresh_random100_v6_20260918/stage2_packets.jsonl",
+  "packets_sha256": "3cd0032de764fc82d10c9a0e9a61ddfbb8135abc4181cf30a8568725addeb029",
+  "compact_packet_source": "scripts/run_wikidata_v6_judge.py",
+  "compact_packet_source_sha256": "b3a7ed904cac2c5333a045d07b2992f2d8aad4861040bcf7692a855fc5dfcf1f",
+  "human_gold_accessed_by_runner": false,
+  "gpt_holdout_judgments_accessed_by_runner": false,
+  "zero_candidate_policy": "No Jev API call. Record deterministic retrieval-stage NO_MATCH-like outcome without asserting absence of a Wikidata work item.",
+  "total_packets": 100,
+  "candidate_positive_packets": 68,
+  "zero_candidate_packets": 32
+}

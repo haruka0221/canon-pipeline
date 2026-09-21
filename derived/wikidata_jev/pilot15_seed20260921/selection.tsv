@@ -1,0 +1,16 @@
+target_id	title	author	year	candidate_count	compact_state_chars	gpt_decision	gpt_selected_qid	gpt_confidence
+OL18150316W	Adventures in Time and Space	Raymond J. Healy	1946	2	1532	MATCH	Q4686621	high
+OL1100432W	He knew Lincoln, and other Billy Brown stories	Tarbell, Ida M.	1922	3	2293	MATCH	Q64684281	medium
+OL164155W	Kabloona	Gontran de Poncins	1924	1	866	MATCH	Q6344279	high
+OL12366526W	Loukis Laras	Dēmētrios Vikelas	1881	4	10896	MATCH	Q12880283	high
+OL83863W	Up in the hills	Edward Plunkett	1935	1	1294	MATCH	Q135034805	high
+OL126162W	Spanish castles by the Rhine	David Skaats Foster	1897	1	945	NO_MATCH		high
+OL17926865W	American legend	Robert Van Gelder	1946	1	850	NO_MATCH		high
+OL4137459W	The green ace	Palmer, Stuart	1950	5	6224	NO_MATCH		high
+OL36437943W	A summer in a cañon	Wiggin, Kate Douglas Smith	1917	8	5395	NO_MATCH		high
+OL1850575W	Men of the mountains	Stuart, Jesse	1941	1	884	NO_MATCH		high
+OL398847W	Grisly Grissell, or, The laidly lady of Whitburn	Yonge, Charlotte Mary	1894	8	5787	AMBIGUOUS	Q124083446	high
+OL39455895W	Alton Locke ...	Charles Kingsley	1898	7	6413	AMBIGUOUS	Q4736895	high
+OL1633253W	The secret of the Australian desert	Ernest Favenc	1895	5	4041	AMBIGUOUS	Q135107924	high
+OL43014953W	Black beauty: his grooms and companions	Anna Sewell	1890	3	2654	AMBIGUOUS	Q124081846	medium
+OL35695219W	Ulysses	James Joyce	1922	7	7294	AMBIGUOUS	Q6511	high
