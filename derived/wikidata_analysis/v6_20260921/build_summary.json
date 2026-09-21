@@ -1,0 +1,54 @@
+{
+  "input": {
+    "path": "derived/wikidata_production/full_34789_v6_20260918/final_resolution_v6_34789.tsv",
+    "sha256": "d1c2b08b4f05df8ac738fbcb987f8fcce98576d29585ebab502ccf1b513396f5",
+    "frozen_tag": "wikidata-v6-production-20260921",
+    "frozen_commit": "41e1076"
+  },
+  "rows": {
+    "resolution_all": 34789,
+    "wikidata_matches": 8442,
+    "unique_matched_qids": 6852
+  },
+  "decision_counts": {
+    "NO_MATCH": 25989,
+    "MATCH": 8442,
+    "AMBIGUOUS": 358
+  },
+  "resolution_stage_counts": {
+    "llm_judge": 24015,
+    "candidate_retrieval": 10774
+  },
+  "year_range": {
+    "min": 1880,
+    "max": 1950
+  },
+  "representation": {
+    "parquet_list_columns": [
+      "alternative_qids",
+      "issue_codes"
+    ],
+    "optional_empty_strings_normalized_to_null": [
+      "selected_qid",
+      "confidence",
+      "reason",
+      "model",
+      "prompt_sha256"
+    ],
+    "parquet_compression": "zstd",
+    "csv_scope": "MATCH rows only",
+    "duckdb_tables": [
+      "resolution_all",
+      "wikidata_matches"
+    ],
+    "duckdb_views": [
+      "resolution_counts"
+    ]
+  },
+  "software": {
+    "python": "3.12.3",
+    "pandas": "3.0.5",
+    "pyarrow": "25.0.1",
+    "duckdb": "1.5.5"
+  }
+}
