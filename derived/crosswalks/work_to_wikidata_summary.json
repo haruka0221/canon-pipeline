@@ -1,0 +1,12 @@
+{
+  "source_database": "derived/wikidata_analysis/v6_20260921/wikidata_analysis.duckdb",
+  "source_table": "resolution_all",
+  "output": "derived/crosswalks/work_to_wikidata.parquet",
+  "rows": 34789,
+  "unique_ol_work_ids": 34789,
+  "match": 8442,
+  "ambiguous": 358,
+  "no_match": 25989,
+  "resolved_wikidata_qids": 8442,
+  "rule": "wikidata_qid is populated only when decision == MATCH"
+}
