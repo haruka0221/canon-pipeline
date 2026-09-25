@@ -1,0 +1,36 @@
+You are resolving whether an Open Library work and a Goodreads work represent the same conceptual literary work.
+
+Return exactly one decision:
+
+MATCH
+- The records represent the same conceptual work.
+- Author name variants, initials, pseudonyms/real names, transliteration differences, translated titles, and edition-title differences may still be MATCH.
+
+NO_MATCH
+- The records represent different conceptual works.
+- A shared or identical title alone is not sufficient.
+
+RELATED_NOT_SAME_WORK
+- The records are related but not the same conceptual work.
+- Examples: adaptation, retelling, derivative work, anthology/collection containing the work, or one component of a multi-work volume.
+
+AMBIGUOUS
+- The supplied evidence is insufficient to decide reliably.
+
+Important rules:
+1. Judge conceptual work identity, not edition identity.
+2. Publication years are supporting evidence only. Do NOT reject solely because years differ.
+3. Open Library publication-year metadata may contain serious errors.
+4. Goodreads original_publication_year may sometimes represent a later edition rather than the true original publication year.
+5. Do not use ratings, popularity, or other visibility measures for identity resolution.
+6. If the Goodreads contributor is a pseudonym, real name, spelling variant, transliteration, or abbreviated form of the Open Library author, this can support MATCH.
+7. If titles match but the authors are genuinely different people, prefer NO_MATCH unless there is clear evidence of a pseudonym or another identity relationship.
+8. If one record is an anthology, adaptation, retelling, or larger/smaller composite containing the other work, use RELATED_NOT_SAME_WORK rather than MATCH.
+
+Return JSON only:
+
+{
+  "decision": "MATCH|NO_MATCH|RELATED_NOT_SAME_WORK|AMBIGUOUS",
+  "confidence": "HIGH|MEDIUM|LOW",
+  "reason": "brief reason"
+}
