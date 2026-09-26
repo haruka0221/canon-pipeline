@@ -1,0 +1,2 @@
+ol_work_key	ol_title	ol_author_name	goodreads_work_id	title_match_type	resolved_gr_name	gr_original_title	gr_original_publication_year	wikidata_work_qid	matched_person_qid	wikidata_p50_people	person_index_evidence	crosswalk_decision	crosswalk_confidence	promotion_eligible	proposed_resolution_status
+/works/OL2343325W	The little shepherd of Kingdom Come	Fox, John	2517834	WORK_FULL	John Fox Jr.	The Little Shepherd of Kingdom Come	1903	Q107359723	Q1700099	Q1700099:John Fox	John Fox Jr.->Q1700099:John Fox	MATCH	high	1	AUTO_MATCH_WIKIDATA_P50_PERSON_INDEX

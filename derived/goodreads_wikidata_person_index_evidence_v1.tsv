@@ -1,0 +1,5 @@
+ol_work_key	ol_title	ol_author_name	goodreads_work_id	title_match_type	gr_primary_contributors	wikidata_work_qid	wikidata_p50_qids	wikidata_p50_people	resolved_gr_person_qids	shared_p50_qids	person_resolution_status	person_index_evidence	crosswalk_decision	crosswalk_confidence
+/works/OL1002110W	The Besieged City	Lispector, Clarice.	581819	BOOK_FULL	Qian Zhong Shu | Qian Zhongshu	Q122965987	Q235955	Q235955:Clarice Lispector	Q559750		UNIQUE_OTHER	Qian Zhong Shu->Q559750:Qian Zhongshu || Qian Zhongshu->Q559750:Qian Zhongshu	MATCH	high
+/works/OL1161367W	The throne of Saturn	S. Fowler Wright	2914071	WORK_FULL	Allen Drury	Q7769155	Q7387474	Q7387474:S. Fowler Wright	Q733850		UNIQUE_OTHER	Allen Drury->Q733850:Allen Drury	MATCH	high
+/works/OL2343325W	The little shepherd of Kingdom Come	Fox, John	2517834	WORK_FULL	John Fox Jr.	Q107359723	Q1700099	Q1700099:John Fox	Q1700099	Q1700099	SAME_P50	John Fox Jr.->Q1700099:John Fox	MATCH	high
+/works/OL5185419W	The flaming sword	Dixon, Thomas	17107121	WORK_FULL	George Fort Gibbs	Q18389702	Q4993107	Q4993107:Thomas Dixon Jr.	Q5539373		UNIQUE_OTHER	George Fort Gibbs->Q5539373:George Fort Gibbs	MATCH	high
