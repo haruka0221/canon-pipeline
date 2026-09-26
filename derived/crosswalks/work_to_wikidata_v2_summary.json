@@ -1,0 +1,13 @@
+{
+  "source_crosswalk": "derived/crosswalks/work_to_wikidata.parquet",
+  "correction_layer": "derived/crosswalks/work_to_wikidata_corrections_v1.tsv",
+  "output": "derived/crosswalks/work_to_wikidata_v2.parquet",
+  "rows": 34789,
+  "corrections_applied": 1,
+  "decision_counts": {
+    "NO_MATCH": 25990,
+    "MATCH": 8441,
+    "AMBIGUOUS": 358
+  },
+  "policy": "Original v1 crosswalk remains unchanged. Source-supported corrections are overlaid with explicit provenance."
+}
