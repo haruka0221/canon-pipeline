@@ -1,12 +1,14 @@
 # WORKFLOW.md — canon-pipeline
-**DCC Digital Curation Workflow Narrative**
-Last updated: 2026-09-18
+**Research Data and Analysis Workflow**
+Last updated: 2026-09-26
 Status: LIVING DOCUMENT — update on every major change
 
 
 Update note: 2026-08-22 — Internet Archive retrieval/classification was completed for the validated 90-work pilot, including a Rebecca West identity correction, directly observed core visibility profiles, cross-source correlations, and academic–reader residual comparisons. OpenAlex production-scale validation and the reviewed v8 90-work visibility/configuration layer remain current. Historical descriptions and earlier decisions below are retained where useful for provenance, but superseded analytical values are explicitly marked.
 
 Update note: 2026-09-13 — Wikidata entity resolution was re-audited and redesigned for production-scale use. The final adjudicated 130-item development benchmark now distinguishes MATCH / NO_MATCH / AMBIGUOUS and supersedes the older single-QID benchmark as the current evaluation reference. A separate final blind 50-item holdout reached 48/50 three-way accuracy (0.960), binary precision 1.000, recall 0.917, F1 0.957, specificity 1.000, and primary-QID accuracy 11/12 (0.917) on gold-positive cases. The production resolver v3 and its prompts, adjudication materials, and holdout evaluation were committed in bea6d1a. To scale from the benchmark to all 34,789 Open Library works without repeated Wikidata API / WDQS rate limits, the 2026-08-05 Wikidata JSON dump was downloaded to the analysis server and a local SQLite candidate index is being built as of 2026-09-13. This population-scale local index is still in progress and must not yet be treated as a completed analytical output.
+
+Update note: 2026-09-13 — The population-level master-data architecture was defined before further source integration. The frozen 34,789-row Open Library source population will be preserved, while a project-native conceptual `work_id` and source-identity bridge will prevent Open Library Work records from being treated as the literary work itself. Work-level summaries will be separated from record/event-level evidence, all final work-level releases will be exported in synchronized TSV + Parquet form, and DuckDB will serve as a reproducible query/view layer rather than the sole storage format. Temporal provenance is now a first-class requirement: observation/snapshot time must be distinguished from event time, and all recoverable publication/review/edition/syllabus/object dates should be retained for later visibility-history analysis. HathiTrust is retained as historical/audit evidence but is excluded from the planned core final literary-visibility master.
 
 
 Update note: 2026-09-18 — Wikidata entity resolution v6 completed a new prediction-blind fresh holdout evaluation and supersedes the 2026-09-13 v3 50-record holdout as the current evaluation reference. Human gold was frozen before predictions (`5c6316e`), v6 predictions were separately frozen (`c0fdc47`), and the final evaluation was frozen in `4a6b1ca`. Of 100 sampled records, 68 were independently classified as in-scope for the intended novel population. On these 68 records, end-to-end strict accuracy was 67/68 (0.985), with precision 1.000, recall 0.933, and F1 0.966. On all 100 records, strict accuracy was 98/100 (0.980), precision 1.000, recall 0.923, and F1 0.960. Both observed errors were genuine candidate-retrieval misses: the correct Wikidata QIDs predated the frozen 2026-08-05 snapshot but were absent from the frozen candidate sets. Conditional on the correct gold QID being available among candidates, the v6 judge selected it in all observed gold-positive cases (14/14 primary; 24/24 overall). The holdout is now frozen and must not be used for further v6 tuning. Detailed methodology and interpretation are recorded in `docs/WIKIDATA_ENTITY_RESOLUTION.md`; authoritative run-specific outputs remain under `derived/benchmark/holdout/fresh_random100_v6_20260918/`.
@@ -45,6 +47,443 @@ Do not create `docs/JSTOR.md`, `docs/OPENALEX.md`, `docs/GOODREADS.md`, etc. by 
 Historical material is intentionally retained when useful for provenance, but every superseded result should be explicitly marked as historical and point to the current replacement.
 
 ---
+
+
+
+## Update note — 2026-09-25: identity, population, and period-scope redesign
+
+Population-scale Wikidata resolution and the OpenAlex production calibration exposed a structural problem in the historical Open Library population definition. The existing 34,789-row Open Library release remains frozen and must not be rewritten, but it is no longer treated as 34,789 definitively resolved conceptual works first published in 1880–1950.
+
+Detailed rules are maintained in:
+
+```text
+docs/IDENTITY_MODEL.md
+```
+
+That document is authoritative for source/project identity, bibliographic granularity, year evidence, and scope resolution. WORKFLOW.md records only the current project-wide decisions and release status.
+
+### Current population interpretation
+
+The historical release is now defined as:
+
+```text
+population-dump-v1
+= 34,789 Open Library Work records selected by the historical dump rule
+= frozen source population
+```
+
+It is retained as a reproducible source-level anchor for all historical Goodreads, JSTOR, OpenAlex, Wikidata, HathiTrust, edition-count, and canonical matching outputs.
+
+It must not be silently edited when later work discovers:
+
+- multiple OL Work records for one conceptual work;
+- out-of-period works;
+- missing in-period works;
+- edition/translation/work granularity problems;
+- incorrect or misleading publication years.
+
+Instead, later corrections are represented through project-level identity and scope layers.
+
+### Important correction to historical `first_publish_year` semantics
+
+`scripts/build_population_from_dump.py` did not recover a conceptual work's original publication year. For each Open Library Work it scanned linked Editions and retained the minimum year observed in Edition `publish_date`; English-language presence was tested separately across linked Editions.
+
+Therefore the historical column:
+
+```text
+first_publish_year
+```
+
+must be interpreted semantically as:
+
+```text
+ol_min_observed_edition_year
+```
+
+The historical column name is retained inside frozen files for reproducibility, but new documentation and derived outputs must not describe it as a resolved original work year.
+
+The earlier Stage 3a conclusion that `first_publish_year` was reliable as the population filter criterion is **superseded** by the 2026-09-25 population-scale audit.
+
+### 2026-09-25 Wikidata year audit
+
+Among 8,442 Wikidata `MATCH` source rows:
+
+```text
+agree_0_2y       4,176
+diff_3_5y          253
+diff_6_20y         630
+diff_gt20y       1,236
+cannot_compare    2,147
+```
+
+Wikidata work-year evidence placed 1,088 matched rows outside 1880–1950:
+
+```text
+pre-1880   862
+post-1950  226
+```
+
+Examples show at least two structurally different cases:
+
+1. later works whose OL-derived minimum edition year is incorrectly early (`Foster`, `Carpentaria`, `Socks`, `The Mist`, `Paranoia`, `The Prestige`);
+2. pre-1880 works represented by later editions/translations (`Robinson Crusoe`, `Don Quixote`, medieval and early-modern works).
+
+These results do not mean that Wikidata P577 should overwrite OL values automatically. They establish that edition-level year evidence and conceptual-work year evidence must be separated.
+
+### Revised data flow
+
+The project now distinguishes:
+
+```text
+frozen source population v1
+        ↓
+expanded candidate population
+        ↓
+identity resolution
+        ↓
+period / language / genre scope resolution
+        ↓
+analysis population release
+        ↓
+source-specific visibility measures
+```
+
+The frozen 34,789 Open Library rows remain preserved even when a later scope release excludes a conceptual work from the primary analysis.
+
+### Identity and scope are separate
+
+Project-native conceptual work IDs remain the intended analytical identity layer. A source record can be correctly resolved to a conceptual work but still be outside the dissertation period.
+
+Example:
+
+```text
+identity = resolved SAME work
+period_status = OUT_POST1950
+```
+
+Likewise, failure to find a work in Wikidata or Goodreads does not imply that it is out of scope. External-database coverage may correlate with cultural visibility and therefore cannot be used as an inclusion requirement.
+
+### Year evidence and scope outputs
+
+New derived layers should preserve source evidence before resolution. Planned artifacts:
+
+```text
+work_year_evidence.tsv / .parquet
+work_scope_resolution.tsv / .parquet
+```
+
+At minimum, year semantics must distinguish:
+
+```text
+original_work_year
+first_english_manifestation_year
+manifestation_publish_year
+source_reported_year
+```
+
+Period status should distinguish at least:
+
+```text
+IN_SCOPE
+OUT_PRE1880
+OUT_POST1950
+CONFLICT
+UNRESOLVED
+```
+
+The scope release must record `scope_policy_version` and `period_basis` so that 1880–1950 is never applied to an unnamed or ambiguous type of year.
+
+### Relationship to FRBR / IFLA LRM and Linked Data
+
+The project uses FRBR / IFLA LRM distinctions as a conceptual reference, especially the difference between conceptual Work and edition/Manifestation. It does not require every source entity to be forced into a full Work–Expression–Manifestation–Item ontology.
+
+Expression-level modeling (for translations or textual versions) remains optional until required analytically. Project/source identifiers, explicit relations, and provenance should remain LOD-friendly, but RDF is not required for the current implementation.
+
+### Effect on existing source integrations
+
+Existing Goodreads, JSTOR, HathiTrust, Wikidata, OpenAlex pilot/calibration, edition-count, and canonical matching outputs are not invalidated or deleted. They remain source-level evidence attached to frozen Open Library records.
+
+Later project-work and scope layers determine how these observations are aggregated or filtered for a dated analysis release.
+
+Historical analyses that used the 34,789 rows directly remain historical snapshots and must be labeled accordingly rather than silently recalculated.
+
+### Immediate implementation order
+
+1. Freeze and document the existing 34,789-row source population and its hash/provenance.
+2. Adopt `docs/IDENTITY_MODEL.md` v0.2 as the detailed identity/scope policy.
+3. Build `work_year_evidence` from available OL, Wikidata, Goodreads, canonical/manual, and other defensible bibliographic evidence without overwriting source values.
+4. Define and version `work_scope_resolution`.
+5. Construct an expanded candidate population to assess false negatives created by the historical minimum-edition-year filter.
+6. Freeze the primary `period_basis` before releasing the final analysis population.
+7. Only then freeze the next OpenAlex target registry and run the full OpenAlex Works scan.
+
+OpenAlex 30-shard calibration remains valid methodological evidence for retrieval design; only the final target/scope release is pending.
+
+
+## Population-level master data architecture — 2026-09-13
+
+### Purpose
+
+The final cross-source dataset must not become a flat table in which heterogeneous counts are treated as if they measured the same object at the same granularity. The project has already encountered three recurring structural problems: database records are not identical to conceptual literary works; one conceptual work may be fragmented across multiple source records; and source indicators count different kinds of objects (editions, catalogue records, scholarly publications, reader interactions, digital objects, linked-data entities, etc.). The master architecture therefore preserves these distinctions explicitly rather than normalizing them away.
+
+The design goal is a reproducible system in which every analytical value can be traced back to (a) the conceptual target work, (b) the source records/evidence from which it was aggregated, (c) the temporal context of the observation, and (d) the release/method that produced it.
+
+### 1. Preserve the frozen Open Library source population, but do not use `work_key` as the ultimate conceptual identity
+
+The existing Open Library dump population remains a frozen source-population release of **34,789 Open Library Work records**. This historical population must not be silently rewritten when later entity-resolution work discovers duplicate or fragmented Open Library Work records.
+
+However, an Open Library `work_key` is a database identifier, not necessarily a unique conceptual literary-work identifier. The Open Library fragmentation audit has already shown that one literary work can be represented by multiple Work records. Therefore the final architecture will introduce a project-native stable identifier:
+
+```text
+work_id
+```
+
+Example form (exact naming/numbering to be fixed at implementation):
+
+```text
+CW000001
+CW000002
+...
+```
+
+The project-native `work_id` represents the **conceptual literary work used as the analytical target**. It is deliberately source-neutral. Open Library, Wikidata, Goodreads, British Library, and other identifiers remain source identifiers attached to that conceptual target rather than substitutes for it.
+
+The identity layer should therefore distinguish at least:
+
+```text
+source_population_records
+    34,789 frozen Open Library Work records
+        |
+        v
+work_identity_map
+    Open Library work_key(s) -> project work_id
+        |
+        v
+works
+    one row per resolved conceptual literary work
+```
+
+A later decision that two Open Library Work records refer to the same conceptual work should update `work_identity_map`, not delete either historical Open Library record. Conversely, unresolved or genuinely ambiguous identity cases must remain explicit rather than being force-merged.
+
+### 2. Keep bibliographic/entity granularity explicit
+
+The pipeline should preserve the distinction between four levels:
+
+1. **conceptual work** — the literary work as an intellectual/cultural object (`work_id`);
+2. **manifestation / edition / volume** — a publication, translation, edition, digitized volume, or other bibliographic manifestation;
+3. **database record / entity** — an Open Library Work/Edition record, British Library catalogue record, Wikidata item, Goodreads work, Internet Archive object, etc.;
+4. **evidence / event record** — a scholarly publication, review, syllabus appearance, edition publication, digital object, or other dated observation that contributes to a work-level measure.
+
+Different sources may begin at different levels. They do not need to be forced into a common ontology before use. What must be common is the explicit mapping back to `work_id`, together with the source object type, matching status, and aggregation rule.
+
+### 3. Separate work-level summaries from record/event-level evidence
+
+The final analytical master should contain one work-level summary row per conceptual target work. Candidate records and event-level evidence should not be flattened into that table.
+
+Planned structure:
+
+```text
+master/
+    works.tsv
+    works.parquet
+    goodreads_work_visibility.tsv
+    goodreads_work_visibility.parquet
+    wikidata_work_resolution.tsv
+    wikidata_work_resolution.parquet
+    openalex_work_visibility.tsv
+    openalex_work_visibility.parquet
+    jstor_work_visibility.tsv
+    jstor_work_visibility.parquet
+    openlibrary_work_visibility.tsv
+    openlibrary_work_visibility.parquet
+    britishlibrary_work_visibility.tsv       # planned
+    britishlibrary_work_visibility.parquet   # planned
+    opensyllabus_work_visibility.tsv         # if/when available
+    opensyllabus_work_visibility.parquet
+    internetarchive_work_visibility.tsv      # after population-scale design is ready
+    internetarchive_work_visibility.parquet
+
+records_or_events/
+    openlibrary_editions.parquet
+    openalex_evidence.parquet
+    jstor_evidence.parquet
+    britishlibrary_records.parquet
+    internetarchive_objects.parquet
+    goodreads_reviews.parquet                # only if legally/technically available
+    syllabus_events.parquet                  # if event-level data become available
+```
+
+Exact paths can be adjusted when implementation begins; the structural distinction is the durable decision.
+
+### 4. TSV + Parquet dual release; DuckDB as the query layer
+
+For stable work-level releases, generate **TSV and Parquet from the same source table/query** whenever practical.
+
+```text
+TSV      = human-readable inspection / portable sharing format
+Parquet  = typed, compressed analytical storage format
+DuckDB   = reproducible query/join/view layer over the source Parquet files
+```
+
+DuckDB should not become the only copy of the research data. The source-specific Parquet/TSV releases remain durable artifacts; DuckDB views join them on demand. A final `literary_visibility_master` should preferably be a reproducible DuckDB view/query and may then be exported to TSV/Parquet for a dated analysis release.
+
+This avoids creating another opaque monolithic file like the historical `multi_signal_merged.tsv`, whose columns mixed different generations and quality states.
+
+### 5. Common status semantics: never collapse absence, zero, and unprocessed data
+
+Every source-specific work-level table must preserve processing/matching state separately from numeric values. At minimum the architecture must distinguish:
+
+```text
+processed_match
+processed_no_match
+ambiguous
+not_processed
+excluded
+error
+```
+
+Source-specific subtypes may be retained in an additional field (for example Goodreads `UNIQUE`, `YEAR_AUTH`, `RATINGS_MAX`; Wikidata `MATCH`, `NO_MATCH`, `AMBIGUOUS`).
+
+Rules:
+
+- numeric `0` means an observed/processed zero only when the source and method justify that interpretation;
+- `NULL`/missing must not silently mean zero;
+- `processed_no_match` is a completed result, not unfinished work;
+- `not_processed` means the pipeline has not yet produced an observation;
+- `ambiguous` preserves unresolved identity rather than forcing a value;
+- `excluded` records a deliberate scope/method decision;
+- `error` records a processing failure and should remain distinguishable from substantive absence.
+
+### 6. Source registry and release-level provenance
+
+Repeated provenance fields should not be copied unnecessarily into every row. Instead, each stable source-specific release should carry a `release_id`, linked to a compact source registry. Planned registry fields:
+
+```text
+release_id
+source
+source_snapshot_date
+retrieved_at
+source_object_unit
+measurement_unit
+aggregation_rule
+population_scope
+input_artifact
+script_or_query
+model_version
+prompt_version
+quality_status
+license
+redistribution_status
+included_in_core_analysis
+notes
+```
+
+Not every field applies to every source, but missing values should be explicit. This registry should document what a number actually counts. For example, a British Library count may represent distinct catalogue records; an Open Library count may represent resolved edition records; an OpenAlex count may represent semantically relevant scholarly records; Goodreads ratings represent accumulated reader interactions in the UCSD 2017 snapshot. These are intentionally not treated as interchangeable units.
+
+### 7. Time is a first-class data dimension
+
+A central future analytical goal is not only to ask **how visible a work is**, but **when it became visible, through which institutional/cultural channel, and whether different channels emerged at different times**. Therefore all recoverable temporal information should be retained even if it is not used in the current analysis.
+
+Two types of time must be kept separate:
+
+```text
+observation time
+    when the database/snapshot/API observation was made
+    examples: Wikidata dump date, Open Library dump date, Goodreads UCSD snapshot date
+
+event time
+    when the underlying event/record belongs historically
+    examples: scholarly publication year, edition publication year,
+              review date, syllabus term/year, digital-object upload/publication date
+```
+
+A cumulative snapshot count cannot by itself identify when attention began. For example, `gr_ratings = N` in the 2017 UCSD snapshot records accumulated readership up to that snapshot; it does not reveal the historical trajectory of those ratings unless dated review/rating events are separately available.
+
+Where source records contain dates, retain the least-processed source date together with precision/provenance fields where needed:
+
+```text
+event_date
+event_year
+date_precision      # day / month / year / approximate / unknown
+date_source
+observation_date
+release_id
+```
+
+If a source provides only a year, do not fabricate a full date. If a date is uncertain or parsed from free text, preserve the uncertainty/precision rather than silently coercing it to an exact timestamp.
+
+### 8. Preserve event tables so temporal visibility histories can be reconstructed later
+
+Where technically and legally possible, retain event/record-level data sufficient to reconstruct temporal distributions. Especially valuable candidates are:
+
+- **OpenAlex / JSTOR:** publication year/date of each relevant scholarly record;
+- **Open Library:** publication year/date of each resolved edition/manifestation;
+- **British Library:** publication dates of matched catalogue/bibliographic records, while keeping catalogue-record dates distinct from publication dates if both exist;
+- **Goodreads:** dated review/rating events only if available and permitted; the existing UCSD work-level cumulative counts alone must not be treated as a historical readership time series;
+- **Open Syllabus:** dated/term-level appearances if the obtainable dataset exposes them;
+- **Internet Archive:** object publication/upload/metadata dates where meaningful, with object type retained.
+
+This allows later construction of a work-level **visibility history / visibility biography** without re-scraping sources solely because useful dates were discarded.
+
+### 9. Temporal analytical features are derived outputs, not raw truth
+
+Potential later features include:
+
+```text
+first_scholarly_attention_year
+first_republication_year
+scholarly_takeoff_year
+reader_takeoff_year
+pedagogical_takeoff_year
+peak_decade
+visibility_change_points
+```
+
+These must **not** be hard-coded as source facts in the raw master. Their definitions are analytical choices. For example, a "takeoff year" might mean the first year above a fixed threshold, the year cumulative attention reaches a percentage threshold, or a statistically estimated change point. The event-level tables should be sufficiently complete that such definitions can be changed and recomputed without recollecting the underlying data.
+
+### 10. Raw / resolved / analytical layers must remain separate
+
+Do not overwrite source observations with corrected analytical values. Preserve three logical layers:
+
+```text
+raw/source record
+    -> resolved/reviewed identity or work-level aggregation
+        -> analytical derived variables
+```
+
+Examples of analytical-only variables include log transforms, z-scores, PCA scores, residuals, configuration labels, ranks, and later temporal takeoff/change-point estimates. These should be reproducible from the reviewed work-level source tables and should not be treated as primary source measurements.
+
+### 11. Current source-inclusion policy for the planned final literary-visibility master
+
+Current planned core / candidate sources:
+
+```text
+Open Library        population identity + bibliographic representation
+Goodreads           reader reception / readership snapshot
+OpenAlex            scholarly visibility
+JSTOR               scholarly visibility
+Wikidata            linked-data/entity visibility and work identity support
+British Library     bibliographic/catalogue visibility (planned)
+Open Syllabus       pedagogical visibility (if adequate data access is obtained)
+Internet Archive    heterogeneous cultural-object visibility (after scale-up design)
+```
+
+**HathiTrust is excluded from the planned core final literary-visibility master as of 2026-09-13.** The 90-work audit showed that HTID count behaves primarily as representation in a digitized-library corpus / digitization history rather than as a sufficiently interpretable core literary-visibility measure for this project. Existing HathiTrust files, audit results, and historical 90-work analyses are retained for provenance and methodological discussion, but HathiTrust should not be included in the default final DuckDB master view or future core multivariate model unless a new research question explicitly requires it.
+
+This decision does not retroactively delete or rewrite historical v5/v8 analyses that included HathiTrust; those remain dated analytical snapshots.
+
+### 12. Immediate implementation order
+
+The architecture should be implemented incrementally rather than waiting for every source to finish:
+
+1. create the project-native `work_id` design and `work_identity_map` without altering the frozen 34,789-row Open Library source population;
+2. create a minimal `source_registry` / release table;
+3. use Goodreads as the first completed source to produce a final-format work-level TSV + Parquet release, preserving match status and the 2017 snapshot provenance;
+4. add Wikidata after the local candidate index and benchmark validation are complete;
+5. add other sources only when their work-level aggregation and status semantics are sufficiently stable;
+6. build DuckDB views from the released source-specific Parquet files rather than manually editing a monolithic master.
+
+The implementation of this architecture should be recorded here in WORKFLOW.md. A separate `docs/DATA_DICTIONARY.md` should be created only later, when the column schema is stable enough to justify a durable data dictionary.
 
 ---
 
@@ -350,7 +789,9 @@ english_fiction, american_fiction
 
 **Result:** matched 98/100, near_match 2/100, mismatch 0/100. Apparent mismatches were caused by OL returning recent editions first (offset0 bias), not by data errors.
 
-**Conclusion:** `first_publish_year` is reliable as population filter criterion.
+**Historical conclusion (superseded 2026-09-25):** `first_publish_year` was initially treated as reliable as a population filter criterion based on this audit.
+
+> This conclusion is superseded by the 2026-09-25 population-scale temporal audit. The audit above tested consistency with linked Open Library Edition publication dates; it did not establish that the field represented the original publication year of the conceptual work. The historical field is retained for reproducibility but is now interpreted as `ol_min_observed_edition_year`. See the 2026-09-25 identity, population, and period-scope redesign above and `docs/IDENTITY_MODEL.md`.
 
 ---
 
@@ -822,6 +1263,8 @@ A 50,000-entity partial-index run was used only as a plumbing test; its low benc
 ---
 
 ## Stage 4g: HathiTrust 所蔵数取得 — Phase 1・2完了 2026-05-25
+
+> **Current analytical status — 2026-09-13:** HathiTrust is retained as historical/audit evidence but is excluded from the planned core final literary-visibility master and default future multivariate analysis. The sections below document completed work and remain part of the project provenance; they should not be read as a current decision to include HTID count as a core visibility indicator.
 
 ### HathiTrustとは何か
 
