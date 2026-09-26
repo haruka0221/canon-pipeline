@@ -1,0 +1,2 @@
+ol_work_key	ol_title	ol_author_name	goodreads_work_id	title_match_type	resolved_gr_name	gr_original_title	gr_original_publication_year	wikidata_work_qid	matched_person_qid	verified_ol_role	author_role_evidence_status	crosswalk_decision	crosswalk_confidence	promotion_eligible	proposed_resolution_status
+/works/OL14942914W	Through Russia	C. J. Hogarth	2078313	BOOK_FULL	Maxim Gorky	Po Rusi	1910	Q13181913	Q12706	translator	SOURCE_SUPPORTED_AUTHOR_ROLE_CONFLICT	MATCH	high	1	AUTO_MATCH_WIKIDATA_P50_AUTHOR_ROLE
