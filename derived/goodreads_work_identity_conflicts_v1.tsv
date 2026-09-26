@@ -1,0 +1,2 @@
+ol_work_key	ol_title	ol_author_name	goodreads_work_id	title_match_type	gr_original_title	gr_original_publication_year	goodreads_contributors	rejected_wikidata_qid	distinct_ol_work_id	crosswalk_correction_type	evidence_status	conflict_type	proposed_resolution_status
+/works/OL69043W	Under the sunset	William Dean Howells	768567	WORK_FULL	Under the Sunset	1881	Bram Stoker [<EMPTY>]	Q301517	OL85885W	SAME_TITLE_DIFFERENT_WORK	SOURCE_SUPPORTED	SAME_TITLE_DIFFERENT_WORK	NO_MATCH_WIKIDATA_WORK_IDENTITY_CONFLICT
