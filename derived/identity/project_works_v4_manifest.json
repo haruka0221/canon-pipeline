@@ -1,0 +1,76 @@
+{
+  "counts": {
+    "current_target_members": 32706,
+    "new_current_target_members": 923,
+    "new_external_members": 573,
+    "new_membership_rows": 1496,
+    "new_project_works": 433,
+    "pending_current_targets": 2083,
+    "pending_external_entities": 1201,
+    "pending_member_entities": 3284,
+    "pending_units_without_w_id": 761,
+    "previous_membership_rows": 43409,
+    "previous_project_works": 31653,
+    "project_works": 32086,
+    "work_identity_map_rows": 44905
+  },
+  "created_at": "2026-09-27",
+  "id_range": {
+    "first": "W000000001",
+    "first_new": "W000031654",
+    "last": "W000032086",
+    "previous_last": "W000031653"
+  },
+  "inputs": {
+    "aggregation_decisions_v3": {
+      "artifact": "derived/identity/aggregation_decisions_v3.parquet",
+      "sha256": "182707e4f4fd3de22f41718a43138bd15902d384489dc21f3e3e68163894e031"
+    },
+    "aggregation_decisions_v4": {
+      "artifact": "derived/identity/aggregation_decisions_v4.parquet",
+      "sha256": "f66657c80af318bce077f763018328a46bb570bf8cdf1e200f76fc751c6dd236"
+    },
+    "aggregation_policy": {
+      "artifact": "docs/AGGREGATION_POLICY.md",
+      "sha256": "52abedaf4460134fb1d481c68cfc921e8b6ce03dfa534023fcfe54b23e1cdbf8"
+    },
+    "aggregation_review_members": {
+      "artifact": "derived/identity/aggregation_review_members_v1.parquet",
+      "sha256": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7"
+    },
+    "llm_adjudication": {
+      "artifact": "derived/identity/aggregation_llm_review_adjudication_v1.parquet",
+      "sha256": "3b51cccbc437f564b4c15d1b5dba865920bc3a36adae96f93560eafc6bd944c5"
+    },
+    "llm_review_methodology": {
+      "artifact": "docs/AGGREGATION_LLM_REVIEW.md",
+      "sha256": "1cbba577d6587d21e81f682301c6c638b3eb344d8c1881408f0e512e6893312a"
+    },
+    "previous_project_works": {
+      "artifact": "derived/identity/project_works_v3.parquet",
+      "sha256": "a117c137e7e02e32bdeb177dc617e8e7400e6f3e7109c0b80078257c41d23e34"
+    },
+    "previous_work_identity_map": {
+      "artifact": "derived/identity/work_identity_map_v3.parquet",
+      "sha256": "21c4dcfb971934f3e3c0bb4cdcced4e33ffdcfe7bfd79c03930790d88e8d7031"
+    }
+  },
+  "outputs": {
+    "project_works_parquet": "derived/identity/project_works_v4.parquet",
+    "project_works_parquet_sha256": "ad238bec15510ab62ef7052452658f23375e62e8927cf61cce9ab37ae76384b2",
+    "project_works_tsv": "derived/identity/project_works_v4.tsv",
+    "project_works_tsv_sha256": "f7760f3292e3f36f79571e85deb2944028c2c113ff80ed8edb64a6d03e471f7d",
+    "work_identity_map_parquet": "derived/identity/work_identity_map_v4.parquet",
+    "work_identity_map_parquet_sha256": "a08fd8e055c3718ebc5ea44bb6cd5297eb128881b46ecca6d842fc610087af6e",
+    "work_identity_map_tsv": "derived/identity/work_identity_map_v4.tsv",
+    "work_identity_map_tsv_sha256": "ee8387b6a086a95e3ed53d4938c3ec787e30a4a1b3ca6a69e358e1e1c8846af0"
+  },
+  "release": "project-works-v4",
+  "semantics": {
+    "append_only": "All v3 project-work IDs and membership rows are preserved exactly. Only the 433 units newly accepted by aggregation decisions v4 are appended.",
+    "held_units_are_intentionally_unresolved": true,
+    "important_note": "The 761 remaining aggregation units are not assigned project W IDs in this release.",
+    "new_w_range": "W000031654-W000032086",
+    "previous_release": "project-works-v3"
+  }
+}
