@@ -783,6 +783,9 @@ source granularity、誤対応、重複entity、translation / adaptation等の�
 `project_works.*`および`work_identity_map.*`は、
 別途version管理されたproject-level aggregation policyに基づいて生成する。
 
+現在のaggregation policyは
+`docs/AGGREGATION_POLICY.md` に定義する。
+
 少なくとも以下を区別できるようにする。
 
 ```text
@@ -847,7 +850,7 @@ numeric `0`、missing、unprocessedを同一視しない。
 * Primary period basisを`original_work_year`とするか、`first_english_manifestation_year`とするか。
 * 翻訳を原作品と同一project workに集約する分析と、Expression相当として分ける分析の境界。
 * adaptationのrelationと集計方針。
-* project work clusterの最終確定rule。
+* project work clusterの最終確定rule（特に`multi_ol_no_explicit_split`および`cross_source_conflict` unitの判定基準）。
 * `UNRESOLVED` period casesをprimary analysisに含めるか、sensitivity analysisに回すか。
 * confidence / manual review tierをどの粒度で持つか。
 * candidate population v2をどこまで拡張してfalse negativeを回収するか。
