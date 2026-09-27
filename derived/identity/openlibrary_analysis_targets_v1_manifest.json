@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "corrected_historical_force_map_target": 3,
+    "current_unique_targets": 34789,
+    "unchanged_frozen_target": 34786
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "frozen_population": {
+      "artifact": "derived/ol_dump_population_fiction_2026-02-28.tsv",
+      "rows": 34789,
+      "sha256": "70630644b8300088a8ba1f46c7a2eaa81cc37a67e251e1068e217fbf86be9ba7"
+    },
+    "source_entities": {
+      "artifact": "derived/identity/source_entities_v2.parquet",
+      "sha256": "4397d9406632a9507d10bc20024711fce28b22136ed3ef5447451bd12200b637"
+    },
+    "target_corrections": {
+      "artifact": "derived/identity/openlibrary_target_corrections_v1.tsv",
+      "rows": 3,
+      "sha256": "ca16d3382b4b10f619cc2af7b796d14d12fab2630d584afdc014dbd2b3d8a410"
+    }
+  },
+  "outputs": {
+    "parquet": "derived/identity/openlibrary_analysis_targets_v1.parquet",
+    "parquet_sha256": "7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21",
+    "tsv": "derived/identity/openlibrary_analysis_targets_v1.tsv",
+    "tsv_sha256": "021eab7dd569385a85f00033d8a5f8e7ab53086951bc586322df3e904a55a35c"
+  },
+  "release": "openlibrary-analysis-targets-v1",
+  "row_count": 34789,
+  "semantics": {
+    "current_target": "The Open Library Work used as the current analysis anchor after explicit target corrections.",
+    "historical_target": "The Open Library Work selected in the frozen 34,789-row historical population.",
+    "important_note": "Historical source entities remain valid registry entities even when they are no longer current analysis targets. Source-level identity assertions attached to them are not silently deleted."
+  }
+}
