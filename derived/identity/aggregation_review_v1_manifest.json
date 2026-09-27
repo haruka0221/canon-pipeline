@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "accepted_external_entities_in_units": 13400,
+    "current_analysis_targets": 34789,
+    "membership_rows": 48189,
+    "provisional_units": 32847,
+    "structural_class_current_targets": {
+      "cross_source_conflict": 46,
+      "multi_ol_no_explicit_split": 3204,
+      "no_accepted_external_identity": 23295,
+      "single_ol_cross_source_corroborated": 3154,
+      "single_ol_single_external_source": 5090
+    },
+    "structural_class_units": {
+      "cross_source_conflict": 14,
+      "multi_ol_no_explicit_split": 1294,
+      "no_accepted_external_identity": 23295,
+      "single_ol_cross_source_corroborated": 3154,
+      "single_ol_single_external_source": 5090
+    }
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "analysis_targets": {
+      "artifact": "derived/identity/openlibrary_analysis_targets_v1.parquet",
+      "current_targets": 34789,
+      "sha256": "7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21"
+    },
+    "identity_assertions": {
+      "all_assertions": 16065,
+      "artifact": "derived/identity/identity_assertions_v1.parquet",
+      "excluded_assertion_ids": [
+        "A000009386"
+      ],
+      "included_current_target_assertions": 16064,
+      "sha256": "6079e7b279cfce95ec6b4fd7f0375477bd3c5b2634decc240a3e325542f2ed8c"
+    },
+    "source_entities": {
+      "artifact": "derived/identity/source_entities_v2.parquet",
+      "sha256": "4397d9406632a9507d10bc20024711fce28b22136ed3ef5447451bd12200b637"
+    }
+  },
+  "outputs": {
+    "members_parquet": "derived/identity/aggregation_review_members_v1.parquet",
+    "members_parquet_sha256": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7",
+    "members_tsv": "derived/identity/aggregation_review_members_v1.tsv",
+    "members_tsv_sha256": "f656b9393eac5a12f15ca39bf6abb30c2ad47c5343bfadcd928fdf4043ab3978",
+    "units_parquet": "derived/identity/aggregation_review_units_v1.parquet",
+    "units_parquet_sha256": "c4cd2fc283608e16eedeadc8bced8a9a79bc37ae29c0068727bf3e4013113495",
+    "units_tsv": "derived/identity/aggregation_review_units_v1.tsv",
+    "units_tsv_sha256": "bbcf970ccbabf94479cab96a315278649640494048210fa2d964ceaaaffadbb0"
+  },
+  "release": "aggregation-review-v1",
+  "semantics": {
+    "assertion_projection": "Only identity assertions whose left_entity_id is a current Open Library analysis target are included in the aggregation graph. Historical source-level assertions remain preserved in identity_assertions_v1.",
+    "important_note": "These units are not project conceptual works. No W identifiers are assigned in this release, and connected components must not be interpreted as validated conceptual-work counts.",
+    "unit_anchor_entity_id": "The lexically smallest current Open Library entity_id in the unit. It is a deterministic release-local anchor and is not a conceptual work identifier.",
+    "unit_definition": "A provisional aggregation unit formed from current Open Library analysis targets and accepted source-specific SAME assertions."
+  }
+}
