@@ -1,6 +1,6 @@
 # Aggregation Policy
 
-Version: 1  
+Version: 1
 Date: 2026-09-27
 
 ## 1. Purpose
