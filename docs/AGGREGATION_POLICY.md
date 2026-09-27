@@ -293,6 +293,44 @@ release policy.
 This must not be interpreted as a claim that Open Library has perfectly
 deduplicated conceptual works.
 
+### 10.1 Initial automatic decision policy for v1
+
+For `aggregation_decisions_v1`, the three structural classes containing
+exactly one current Open Library target receive:
+
+- `aggregation_decision = ONE_WORK`
+- `decision_method = single_current_target_policy`
+- `decision_version = v1`
+- `review_status = auto_accepted`
+
+The three classes are:
+
+- `no_accepted_external_identity`
+- `single_ol_single_external_source`
+- `single_ol_cross_source_corroborated`
+
+`ONE_WORK` means that the project may represent that provisional unit as one
+project conceptual work in the current release.
+
+It does not claim that Open Library has globally deduplicated all conceptual
+works, and it does not prevent a later versioned merge if another provisional
+unit is later shown to represent the same conceptual work.
+
+Units classified as:
+
+- `multi_ol_no_explicit_split`
+- `cross_source_conflict`
+
+receive:
+
+- `aggregation_decision = MANUAL_REVIEW_REQUIRED`
+- `decision_method = structural_review_gate`
+- `decision_version = v1`
+- `review_status = pending`
+
+No `MULTIPLE_WORKS` or `UNRESOLVED` decisions are assigned automatically in
+v1. Those decisions require additional evidence or review.
+
 ## 11. Conditions for issuing `W...` identifiers
 
 A `W...` identifier may be issued only when:

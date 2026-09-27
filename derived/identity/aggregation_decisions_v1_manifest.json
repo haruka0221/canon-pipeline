@@ -1,0 +1,56 @@
+{
+  "counts": {
+    "MANUAL_REVIEW_REQUIRED": 1308,
+    "ONE_WORK": 31539,
+    "structural_decisions": {
+      "cross_source_conflict|MANUAL_REVIEW_REQUIRED": 14,
+      "multi_ol_no_explicit_split|MANUAL_REVIEW_REQUIRED": 1294,
+      "no_accepted_external_identity|ONE_WORK": 23295,
+      "single_ol_cross_source_corroborated|ONE_WORK": 3154,
+      "single_ol_single_external_source|ONE_WORK": 5090
+    }
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "aggregation_policy": {
+      "artifact": "docs/AGGREGATION_POLICY.md",
+      "sha256": "ecc8094e42dd7a2818db64a23ca4be2058a0660c41777216158d8ff8159685e5",
+      "version": "1"
+    },
+    "aggregation_review_units": {
+      "artifact": "derived/identity/aggregation_review_units_v1.parquet",
+      "rows": 32847,
+      "sha256": "c4cd2fc283608e16eedeadc8bced8a9a79bc37ae29c0068727bf3e4013113495"
+    }
+  },
+  "outputs": {
+    "parquet": "derived/identity/aggregation_decisions_v1.parquet",
+    "parquet_sha256": "87e0a7952da50d4e45e94c6cb4e6a0013fadca1bdbca4ff284779cbb9b6a6aee",
+    "tsv": "derived/identity/aggregation_decisions_v1.tsv",
+    "tsv_sha256": "2af4a40cb55a6aec4302bbfbfdd444e7ca06585563540ef0e2be3e2aec9a34b1"
+  },
+  "policy": {
+    "decision_version": "v1",
+    "review_classes": [
+      "cross_source_conflict",
+      "multi_ol_no_explicit_split"
+    ],
+    "review_decision": "MANUAL_REVIEW_REQUIRED",
+    "review_method": "structural_review_gate",
+    "single_target_classes": [
+      "no_accepted_external_identity",
+      "single_ol_cross_source_corroborated",
+      "single_ol_single_external_source"
+    ],
+    "single_target_decision": "ONE_WORK",
+    "single_target_method": "single_current_target_policy"
+  },
+  "release": "aggregation-decisions-v1",
+  "row_count": 32847,
+  "semantics": {
+    "decision_scope": "Project-level decisions about provisional aggregation units. These decisions do not modify source entities or source-level identity assertions.",
+    "important_note": "This release assigns no W identifiers.",
+    "manual_review_required": "Project-work boundaries must be reviewed before W identifiers are assigned.",
+    "one_work": "The current project release may represent the provisional unit as one conceptual work. This is versioned and does not assert global source deduplication."
+  }
+}
