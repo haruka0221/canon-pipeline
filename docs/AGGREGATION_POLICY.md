@@ -604,6 +604,14 @@ Historical v1 membership continues to cite
 `aggregation_decisions_v1:ONE_WORK`; newly added v2 membership cites
 `aggregation_decisions_v2:ONE_WORK`.
 
+For `project_works_v3`, all 31,651 previously released project works and all
+43,400 previously released membership rows are preserved unchanged. The two
+units newly accepted by `aggregation_decisions_v3` receive:
+
+`W000031652` and `W000031653`.
+
+Their new membership rows cite `aggregation_decisions_v3:ONE_WORK`.
+
 ## 14. Later merge of project works
 
 If later evidence shows that two previously released project works should be

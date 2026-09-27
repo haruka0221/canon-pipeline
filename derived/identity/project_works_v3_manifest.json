@@ -1,0 +1,66 @@
+{
+  "counts": {
+    "current_target_members": 31783,
+    "external_members": 11626,
+    "new_current_target_members": 5,
+    "new_external_members": 4,
+    "new_membership_rows": 9,
+    "new_project_works": 2,
+    "pending_current_targets": 3006,
+    "pending_units_without_w_id": 1194,
+    "previous_membership_rows": 43400,
+    "previous_project_works": 31651,
+    "project_works": 31653,
+    "work_identity_map_rows": 43409
+  },
+  "created_at": "2026-09-27",
+  "id_range": {
+    "first": "W000000001",
+    "first_new": "W000031652",
+    "last": "W000031653",
+    "previous_last": "W000031651"
+  },
+  "inputs": {
+    "aggregation_decisions_v2": {
+      "artifact": "derived/identity/aggregation_decisions_v2.parquet",
+      "sha256": "a65d83dc2697457a8000b0eb2734050e482446d05d8b9f701d6d0257e8315897"
+    },
+    "aggregation_decisions_v3": {
+      "artifact": "derived/identity/aggregation_decisions_v3.parquet",
+      "sha256": "182707e4f4fd3de22f41718a43138bd15902d384489dc21f3e3e68163894e031"
+    },
+    "aggregation_policy": {
+      "artifact": "docs/AGGREGATION_POLICY.md",
+      "sha256": "52abedaf4460134fb1d481c68cfc921e8b6ce03dfa534023fcfe54b23e1cdbf8",
+      "version": "1"
+    },
+    "aggregation_review_members": {
+      "artifact": "derived/identity/aggregation_review_members_v1.parquet",
+      "sha256": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7"
+    },
+    "previous_project_works": {
+      "artifact": "derived/identity/project_works_v2.parquet",
+      "sha256": "9aee7eaf5e15579fa736d52e6f047fca3b83b6a0c8c5d8bd058e72ed262beb50"
+    },
+    "previous_work_identity_map": {
+      "artifact": "derived/identity/work_identity_map_v2.parquet",
+      "sha256": "7de4df07c53527ecb11cebc9e892c1fd06ac3eba7537265b6944fbaec8ec2cfc"
+    }
+  },
+  "outputs": {
+    "project_works_parquet": "derived/identity/project_works_v3.parquet",
+    "project_works_parquet_sha256": "a117c137e7e02e32bdeb177dc617e8e7400e6f3e7109c0b80078257c41d23e34",
+    "project_works_tsv": "derived/identity/project_works_v3.tsv",
+    "project_works_tsv_sha256": "a2895a2935ed89e12ed3f7bca1caa38d49664b68325102545fecc504d21345b4",
+    "work_identity_map_parquet": "derived/identity/work_identity_map_v3.parquet",
+    "work_identity_map_parquet_sha256": "21c4dcfb971934f3e3c0bb4cdcced4e33ffdcfe7bfd79c03930790d88e8d7031",
+    "work_identity_map_tsv": "derived/identity/work_identity_map_v3.tsv",
+    "work_identity_map_tsv_sha256": "fb47d02a7778998ec8a657b8a85bb9fd0b54dd8225f6279dcd4a20ca66318668"
+  },
+  "release": "project-works-v3",
+  "semantics": {
+    "append_only": "All v2 W IDs and membership rows are preserved exactly; only two newly eligible v3 units are appended.",
+    "new_assignment": "E000016422 and E000018958 receive W000031652 and W000031653 respectively.",
+    "previous_release": "project-works-v2"
+  }
+}
