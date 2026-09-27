@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "accepted_external_identity_members": 11398,
+    "current_analysis_target_members": 31539,
+    "pending_units_without_w_id": 1308,
+    "project_works": 31539,
+    "work_identity_map_rows": 42937
+  },
+  "created_at": "2026-09-27",
+  "id_range": {
+    "first": "W000000001",
+    "last": "W000031539"
+  },
+  "inputs": {
+    "aggregation_decisions": {
+      "artifact": "derived/identity/aggregation_decisions_v1.parquet",
+      "sha256": "87e0a7952da50d4e45e94c6cb4e6a0013fadca1bdbca4ff284779cbb9b6a6aee"
+    },
+    "aggregation_policy": {
+      "artifact": "docs/AGGREGATION_POLICY.md",
+      "sha256": "5459fb229862ee8d602679e39ef55e9c34e1f5f8393a590c02676686ce7aa123",
+      "version": "1"
+    },
+    "aggregation_review_members": {
+      "artifact": "derived/identity/aggregation_review_members_v1.parquet",
+      "sha256": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7"
+    }
+  },
+  "outputs": {
+    "project_works_parquet": "derived/identity/project_works_v1.parquet",
+    "project_works_parquet_sha256": "cf510ff93f07bc5389e87dce92bf47078b4d5e588dabf69d9c1cb272498d00c2",
+    "project_works_tsv": "derived/identity/project_works_v1.tsv",
+    "project_works_tsv_sha256": "231bd8bb8ddc6f958fdbc205e7e46194fede9ecd5e64e8d8a38d1d1de4d55d0c",
+    "work_identity_map_parquet": "derived/identity/work_identity_map_v1.parquet",
+    "work_identity_map_parquet_sha256": "9eeca2d5d19cda84dc79d5ef1acf59bdfa4cdbd5a2b7ad6cc258883a4c2257c5",
+    "work_identity_map_tsv": "derived/identity/work_identity_map_v1.tsv",
+    "work_identity_map_tsv_sha256": "b0b65790ab7bb84cf3b5bfa3cdb8389eca21623fa1957a317530e3b4504be0b1"
+  },
+  "release": "project-works-v1",
+  "semantics": {
+    "initial_assignment": "Only aggregation_decisions_v1 rows with aggregation_decision=ONE_WORK receive W IDs.",
+    "lineage": "No project-work lineage rows are required for this first project-work release.",
+    "membership": "work_identity_map_v1 records project-level membership separately from source-level identity assertions.",
+    "pending_units": "MANUAL_REVIEW_REQUIRED units receive no W ID and no work-identity membership in v1.",
+    "project_work": "A project-native conceptual work created only from a versioned aggregation decision.",
+    "w_id_policy": "Eligible units are sorted lexically by unit_anchor_entity_id and assigned W IDs sequentially from W000000001. Released W IDs must never be renumbered or reused."
+  }
+}

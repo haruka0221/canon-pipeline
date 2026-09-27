@@ -371,6 +371,129 @@ new evidence is added.
 New project works receive new identifiers after the highest previously
 released `W...` identifier.
 
+### 13.1 Initial `W` assignment
+
+For the first stable project-work release, only units with:
+
+`aggregation_decision = ONE_WORK`
+
+receive a project-work identifier.
+
+Units with:
+
+`aggregation_decision = MANUAL_REVIEW_REQUIRED`
+
+receive no `W...` identifier until a later versioned aggregation decision
+establishes their conceptual-work boundary.
+
+For `project_works_v1`, eligible units are sorted lexically by
+`unit_anchor_entity_id` and assigned sequential identifiers beginning with:
+
+`W000000001`
+
+The initial release therefore assigns `W...` identifiers only to the 31,539
+auto-accepted `ONE_WORK` units.
+
+This ordering is used only to make the initial assignment deterministic.
+After release, existing `W...` identifiers are stable and are never
+renumbered because new works are added.
+
+### 13.2 `project_works` registry
+
+The initial project-work registry has the following minimum fields:
+
+```text
+project_work_id
+origin_unit_anchor_entity_id
+aggregation_decision
+aggregation_decision_version
+status
+created_at
+```
+
+For the initial release:
+
+```text
+aggregation_decision = ONE_WORK
+aggregation_decision_version = v1
+status = active
+```
+
+`origin_unit_anchor_entity_id` records the provisional aggregation unit from
+which the project work was initially created. It is provenance, not the
+identity of the project work itself.
+
+### 13.3 `work_identity_map`
+
+Project-work membership is stored separately from the project-work registry.
+
+The initial mapping has the following minimum fields:
+
+```text
+project_work_id
+source_entity_id
+membership_role
+membership_basis
+aggregation_decision_version
+created_at
+```
+
+For `project_works_v1`, all source entities belonging to an accepted
+`ONE_WORK` aggregation unit may be mapped to the corresponding `W...`
+identifier.
+
+`membership_role` preserves whether the entity entered the aggregation unit
+as:
+
+```text
+current_analysis_target
+accepted_external_identity
+```
+
+`membership_basis` records the aggregation decision that authorized the
+mapping.
+
+Source-level `SAME` assertions remain independently preserved and are not
+replaced by this mapping.
+
+### 13.4 Project-work lineage
+
+Changes to an already released project-work boundary are represented in a
+separate versioned lineage table rather than by rewriting historical
+releases.
+
+The minimum lineage schema is:
+
+```text
+event_type
+predecessor_project_work_id
+successor_project_work_id
+decision_version
+reason
+created_at
+```
+
+Allowed initial `event_type` values are:
+
+```text
+MERGE
+SPLIT
+SUPERSEDE
+```
+
+A merge is represented by multiple predecessor-to-successor rows when
+necessary.
+
+A split is represented by multiple predecessor-to-successor rows when
+necessary.
+
+Historical `project_works` and `work_identity_map` releases remain unchanged.
+The current release may mark an earlier project work as superseded, but its
+identifier and historical membership are preserved.
+
+No lineage rows are required for `project_works_v1`, because it is the first
+project-work release.
+
 ## 14. Later merge of project works
 
 If later evidence shows that two previously released project works should be
