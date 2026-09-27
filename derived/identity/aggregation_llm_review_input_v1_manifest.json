@@ -1,0 +1,58 @@
+{
+  "counts": {
+    "current_openlibrary_targets": 3006,
+    "external_entities": 1774,
+    "member_entities": 4780,
+    "review_units": 1194
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "aggregation_decisions_v3": {
+      "artifact": "derived/identity/aggregation_decisions_v3.parquet",
+      "sha256": "182707e4f4fd3de22f41718a43138bd15902d384489dc21f3e3e68163894e031"
+    },
+    "aggregation_review_members_v1": {
+      "artifact": "derived/identity/aggregation_review_members_v1.parquet",
+      "sha256": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7"
+    },
+    "historical_openlibrary_population": {
+      "artifact": "derived/ol_dump_population_fiction_2026-02-28.tsv",
+      "fields_used": [
+        "work_key",
+        "subject_keys_str"
+      ],
+      "read_from": "/home/haruka221/canon-pipeline/derived/ol_dump_population_fiction_2026-02-28.tsv",
+      "sha256": "70630644b8300088a8ba1f46c7a2eaa81cc37a67e251e1068e217fbf86be9ba7"
+    },
+    "identity_assertions_v1": {
+      "artifact": "derived/identity/identity_assertions_v1.parquet",
+      "sha256": "6079e7b279cfce95ec6b4fd7f0375477bd3c5b2634decc240a3e325542f2ed8c"
+    },
+    "openlibrary_analysis_targets_v1": {
+      "artifact": "derived/identity/openlibrary_analysis_targets_v1.parquet",
+      "sha256": "7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21"
+    },
+    "source_entities_v2": {
+      "artifact": "derived/identity/source_entities_v2.parquet",
+      "sha256": "4397d9406632a9507d10bc20024711fce28b22136ed3ef5447451bd12200b637"
+    }
+  },
+  "outputs": {
+    "index_tsv": "derived/identity/aggregation_llm_review_index_v1.tsv",
+    "index_tsv_sha256": "aecfb35e6ccef9a4578f6b0c4c2340ec3ba5bccd24a66f39ee0905d3c46ba834",
+    "jsonl": "derived/identity/aggregation_llm_review_input_v1.jsonl",
+    "jsonl_sha256": "800b0035148faaf303e75c65e20c5e6f0594c8da1147daa0014fe1b26cece4d6"
+  },
+  "purpose": "Deterministic review packets for the 1,194 aggregation units still pending after aggregation_decisions_v3.",
+  "release": "aggregation-llm-review-input-v1",
+  "review_policy": {
+    "allowed_decisions": [
+      "ONE_WORK",
+      "MULTIPLE_WORKS",
+      "UNRESOLVED"
+    ],
+    "note": "The LLM reviews partitions of current Open Library targets. External source entities are evidence, not the objects being partitioned.",
+    "prompt": "prompts/aggregation_llm_review_v1.md",
+    "prompt_sha256": "e08b11e3e292c681df9d902a28640c6dff0af3e41398a7d7d1f8312b0ba2a987"
+  }
+}

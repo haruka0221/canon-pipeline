@@ -1,0 +1,61 @@
+{
+  "accepted_metadata_patterns": {
+    "different_titles": 88,
+    "same_title_author": 65,
+    "same_title_author_year": 157,
+    "same_title_only": 123
+  },
+  "counts": {
+    "final_auto_accept_current_targets": 923,
+    "final_auto_accept_units": 433,
+    "held_current_targets": 2083,
+    "held_units": 761,
+    "historical_error_rows": 1,
+    "review_units": 1194,
+    "runner_auto_accept": 442,
+    "unresolved_error_anchors": 0
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "historical_errors": {
+      "artifact": "derived/identity/aggregation_llm_review_errors_v1.jsonl",
+      "note": "The logged quota error was later resolved by a successful rerun.",
+      "sha256": "8b94a84ac3e41547db077be610b82394398c50cf9db173bbd368da89bae78fc5"
+    },
+    "prompt": {
+      "artifact": "prompts/aggregation_llm_review_v2.md",
+      "sha256": "65134d8fd6bab547272146ea2cb1661ba2aa30939e4e6e02a4e7d28742d5a6f6"
+    },
+    "raw_results": {
+      "artifact": "derived/identity/aggregation_llm_review_results_v1.jsonl",
+      "sha256": "57bf8ef716e711c5fb8a92333be2a332f00013976d50d53fcbe0db05a9b96448"
+    },
+    "review_packets": {
+      "artifact": "derived/identity/aggregation_llm_review_input_v1.jsonl",
+      "sha256": "800b0035148faaf303e75c65e20c5e6f0594c8da1147daa0014fe1b26cece4d6"
+    }
+  },
+  "llm_confidence": {
+    "high": 464,
+    "low": 28,
+    "medium": 702
+  },
+  "llm_decisions": {
+    "MULTIPLE_WORKS": 19,
+    "ONE_WORK": 871,
+    "UNRESOLVED": 304
+  },
+  "outputs": {
+    "parquet": "derived/identity/aggregation_llm_review_adjudication_v1.parquet",
+    "parquet_sha256": "3b51cccbc437f564b4c15d1b5dba865920bc3a36adae96f93560eafc6bd944c5",
+    "tsv": "derived/identity/aggregation_llm_review_adjudication_v1.tsv",
+    "tsv_sha256": "5405cee3e2ba183d0af95fa1af17a9c5d19e22f1843de41b7d91dce32479bef3"
+  },
+  "release": "aggregation-llm-review-adjudication-v1",
+  "semantics": {
+    "final_auto_accept_rule": "Runner auto-accept must pass, relation flags must be limited to duplicate_record/title_variant/authorship_variant and include duplicate_record, the unit must be multi_ol_no_explicit_split, and all OL targets must share at least one strong directly asserted Goodreads or Wikidata identity.",
+    "held_units": "Units not passing the final gate remain unresolved for the current OL/Goodreads/Wikidata stage and are not automatically split or merged.",
+    "llm_results_are_not_project_decisions": true,
+    "purpose": "Freeze the complete 1,194-unit LLM review and the deterministic safety gates used to select units eligible for automatic ONE_WORK aggregation."
+  }
+}
