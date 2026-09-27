@@ -233,7 +233,14 @@ source entities間のidentity判断を識別する。
 S000000001
 ```
 
-使用したdump / API / datasetの時点を識別する。
+使用したdump / API / datasetの時点を識別するための予約scheme。
+
+初期v1では中央`source_snapshots.*` registryは作成しない。
+既存実装との互換性を優先し、各artifactの`source_snapshot`フィールドと、
+manifest / provenance artifactによってsnapshot provenanceを保持する。
+
+将来、複数artifact間でsnapshot自体を共通entityとして参照する必要が生じた場合に、
+`S` ID registryを導入できる。
 
 ---
 
@@ -495,15 +502,281 @@ work_scope_resolution.*
 
 `*` は安定releaseではTSV + Parquetを基本とする。
 
-Source-specific visibility tables（Goodreads / OpenAlex / JSTOR等）はこれらを置き換えず、`project_work_id`またはbridgeを通じて接続する。
+Source-specific visibility tables（Goodreads / OpenAlex / JSTOR等）はこれらを置き換えず、
+`project_work_id`またはbridgeを通じて接続する。
 
-### 9.1 No destructive rewrite
+### 9.1 `source_entities_v1`
+
+初期実装では、外部情報源のrecord / entityを安定したproject-local IDで参照するため、
+`source_entities_v1.tsv` / `source_entities_v1.parquet`を作成する。
+
+最低限のschemaは以下とする。
+
+```text
+entity_id
+source
+source_namespace
+source_id
+entity_type
+source_snapshot
+source_artifact
+provenance_ref
+created_at
+```
+
+各列の意味：
+
+```text
+entity_id
+    project-local source entity ID (`E000000001` etc.)
+
+source
+    openlibrary / goodreads / wikidata 等
+
+source_namespace
+    source内部のentity namespace
+    例: Open Library `work`, Goodreads `work`, Wikidata `item`
+
+source_id
+    source-native identifier
+    例: OL16583974W, 1511660, Q840974
+
+entity_type
+    現時点での大まかなentity種別
+    例: work / edition / person / volume / record / unknown
+
+source_snapshot
+    source recordが由来するsnapshotの日付または既存artifactで明示されたsnapshot値
+    不明な場合は推測せず空欄を許容する
+
+source_artifact
+    このsource entityをregistryへ導入した直接の入力artifact
+
+provenance_ref
+    manifest / summary / provenance documentation等への参照
+
+created_at
+    registry releaseに固定された作成日時
+    rebuild時のwall-clock timeを直接使用してrelease checksumを変化させない
+```
+
+初期v1では、現在監査済みのartifactから少なくとも以下を登録する。
+
+```text
+Open Library Work records
+    frozen source population v1 の34,789 records
+
+Goodreads Work entities
+    goodreads_work_crosswalk_v1でacceptedまたはcandidateとして
+    明示的に参照されたunique Goodreads Work IDs
+
+Wikidata items
+    work_to_wikidata_v2でaccepted MATCHとなったunique QIDs
+```
+
+candidateとして参照されたsource entityをregistryへ登録することは、
+そのcandidateのidentityをacceptedとすることを意味しない。
+
+#### Source entity natural key
+
+source entityのnatural keyは次とする。
+
+```text
+(source, source_namespace, source_id)
+```
+
+このtupleは`source_entities_v1`内で一意でなければならない。
+
+#### Stable `E` ID policy
+
+`E` IDは一度releaseされた後に再利用・再採番しない。
+
+v1では、初期対象となるnatural keyの集合を固定された決定的順序で並べ、
+`E000000001`から連番を割り当てる。
+
+以後のreleaseでは、
+
+```text
+existing natural key -> existing E IDを保持
+new natural key      -> 現在の最大E IDの後ろにappend
+```
+
+とする。
+
+新しいsource entityの追加によって、既存entityの`E` IDを変更してはならない。
+
+### 9.2 `identity_assertions_v1`
+
+source entities間のidentity判断は、
+`identity_assertions_v1.tsv` / `identity_assertions_v1.parquet`
+としてsource registryから分離して保存する。
+
+最低限のschemaは以下とする。
+
+```text
+assertion_id
+left_entity_id
+right_entity_id
+identity_type
+identity_decision
+method
+method_version
+evidence
+source_artifact
+source_snapshot
+confidence
+review_status
+created_at
+```
+
+各列の意味：
+
+```text
+assertion_id
+    project-local assertion ID (`A000000001` etc.)
+
+left_entity_id
+right_entity_id
+    `source_entities`のE ID
+
+identity_type
+    work / person 等、何についてのidentity判断か
+
+identity_decision
+    SAME / DIFFERENT / AMBIGUOUS / UNRESOLVED
+
+method
+    判断を生成したresolution method / pipeline
+
+method_version
+    使用したmethodまたはcrosswalkのversion
+
+evidence
+    source-specificな判断根拠を保持するJSON objectの安定serialization
+
+source_artifact
+    assertionの直接の入力または判定を保存したartifact
+
+source_snapshot
+    methodが明示的に使用したsnapshot値
+    不明な場合は推測せず空欄を許容する
+
+confidence
+    source methodがconfidenceを明示している場合に保存する
+    異なるpipeline間で意味を勝手に正規化しない
+
+review_status
+    project-level aggregation前に追加確認が必要か等を示す状態
+
+created_at
+    assertion releaseに固定された作成日時
+```
+
+`evidence`は、共通schemaへsource-specific列を大量に展開する代わりに、
+元判定を再監査できる情報を保持する。
+
+例：
+
+```text
+Goodreads:
+    crosswalk_decision
+    resolution_status_detail
+    title_match_type
+    author_match_quality
+    baseline_resolution_version
+
+Wikidata:
+    decision
+    confidence
+    resolution_stage
+    decision_source
+    correction_applied
+    original_decision
+    original_wikidata_qid
+    correction_type
+```
+
+元artifact自体はhistorical artifactとして保持し、
+`evidence`はそれを置き換えない。
+
+#### Initial assertion policy
+
+初期v1では、既存のsource-specific crosswalkでaccepted `MATCH`となっている
+Open Library Work ↔ external source entity の対応を、
+
+```text
+identity_type = work
+identity_decision = SAME
+```
+
+としてversion付きassertionに変換できる。
+
+ここでの`SAME`は、そのsource-specific resolution methodが
+work identityとしてacceptedした判断を記録するものであり、
+external source entity自体の粒度や正確性を無条件に保証するものではない。
+そのため、このassertionだけからproject-work membershipを自動生成しない。
+
+ただし、
+
+```text
+NO_CANDIDATE
+```
+
+は対応するright-hand entityが存在しないため、
+pairwise identity assertionへ変換しない。
+
+また、candidate entityが明示されていない`NO_MATCH`や、
+target-levelの`AMBIGUOUS`を、
+根拠なく特定entityとの`DIFFERENT` / `AMBIGUOUS` pairへ変換しない。
+
+### 9.3 Identity assertion and project-work aggregation are separate
+
+acceptedなsource-level identity assertionは、
+それ自体ではproject workへの自動統合命令ではない。
+
+特に、
+
+```text
+E1 SAME E2
+E2 SAME E3
+```
+
+というassertionが存在しても、
+source granularity、誤対応、重複entity、translation / adaptation等の問題を確認せず、
+単純なtransitive closureだけで`W` entityを生成しない。
+
+`project_works.*`および`work_identity_map.*`は、
+別途version管理されたproject-level aggregation policyに基づいて生成する。
+
+少なくとも以下を区別できるようにする。
+
+```text
+cross-source corroborated
+single-source supported
+cross-source conflict
+manual review required
+unresolved
+```
+
+このreview / aggregation層を通過した場合にのみ、
+複数source entitiesを一つのproject conceptual workへまとめる。
+
+したがって、
+
+```text
+accepted crosswalk MATCH
+    != automatic project-work membership
+```
+
+である。
+
+### 9.4 No destructive rewrite
 
 既存の34,789-row outputsやsource-specific match filesはhistorical artifactsとして保存する。
 
 修正は新releaseまたはderived layerとして行い、過去の結果をsilent overwriteしない。
 
-### 9.2 Status semantics remain explicit
+### 9.5 Status semantics remain explicit
 
 少なくとも以下を区別する。
 
