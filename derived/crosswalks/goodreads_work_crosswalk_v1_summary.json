@@ -1,0 +1,33 @@
+{
+  "crosswalk_version": "v1",
+  "baseline_resolution_version": "v13",
+  "row_count": 34789,
+  "crosswalk_decision_counts": {
+    "NO_CANDIDATE": 22465,
+    "MATCH": 7624,
+    "AMBIGUOUS": 4685,
+    "NO_MATCH": 15
+  },
+  "processing_status_counts": {
+    "processed_no_match": 22480,
+    "processed_match": 7624,
+    "ambiguous": 4685
+  },
+  "match_count": 7624,
+  "accepted_goodreads_work_ids": 7624,
+  "candidate_goodreads_work_ids": 8216,
+  "provisional_review_candidates": 592,
+  "decision_semantics": {
+    "MATCH": "accepted Goodreads work identity in crosswalk v1",
+    "NO_MATCH": "candidate identity was evaluated and rejected; this is an identity decision, not a statement about Goodreads coverage",
+    "NO_CANDIDATE": "the current candidate-generation/resolution pipeline produced no candidate for acceptance; this does not establish that no corresponding Goodreads work exists",
+    "AMBIGUOUS": "identity remains unresolved and no Goodreads work identity has been accepted"
+  },
+  "processing_status_semantics": {
+    "processed_match": "processing completed with an accepted match",
+    "processed_no_match": "processing completed without an accepted match; consult crosswalk_decision to distinguish NO_MATCH from NO_CANDIDATE",
+    "ambiguous": "processing completed but identity remains unresolved"
+  },
+  "candidate_field_policy": "candidate_* fields preserve candidate evidence and do not by themselves represent an accepted Goodreads identity",
+  "reserved_work_id_policy": "work_id is intentionally blank in v1; project-defined conceptual work identity will be assigned in a later identity layer"
+}

@@ -71,3 +71,6 @@ derived/*.bak
 
 # 大きすぎるファイル（>100MB）
 derived/goodreads_works_index_v2.tsv
+
+# Reproducible DuckDB query layer
+derived/crosswalks/canon_crosswalks.duckdb
