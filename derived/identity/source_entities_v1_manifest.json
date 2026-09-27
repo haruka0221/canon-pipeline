@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-27",
+  "entity_id_policy": {
+    "format": "E#########",
+    "future_policy": "preserve all released E IDs; append new natural keys after the current maximum E ID",
+    "source_order": [
+      "openlibrary",
+      "goodreads",
+      "wikidata"
+    ],
+    "v1_assignment": "deterministic ordering by explicit source order, then source_namespace, then source_id"
+  },
+  "natural_key": [
+    "source",
+    "source_namespace",
+    "source_id"
+  ],
+  "outputs": {
+    "parquet": "derived/identity/source_entities_v1.parquet",
+    "parquet_sha256": "218ce052889f3f35b89eceedfadfb8ff9386f5407c17f26544e145d60302397e",
+    "tsv": "derived/identity/source_entities_v1.tsv",
+    "tsv_sha256": "d80621c880910079a1902003c26ee9da8e1625c2b9be4421b7c80d7a90f46a09"
+  },
+  "release_id": "source-entities-v1",
+  "row_count": 48652,
+  "source_counts": {
+    "goodreads": 7011,
+    "openlibrary": 34789,
+    "wikidata": 6852
+  },
+  "sources": {
+    "goodreads": {
+      "accepted_unique_entities": 6548,
+      "provenance_ref": "derived/crosswalks/goodreads_work_crosswalk_v1_summary.json",
+      "registry_input": "derived/crosswalks/goodreads_work_crosswalk_v1.tsv",
+      "registry_input_sha256": "67669070e58630d86031d9aa69f5d241c72910b10abb75835797656b60039d56",
+      "snapshot_semantics": "UCSD Book Graph collection snapshot; documented as collected in late 2017",
+      "source_snapshot": "2017",
+      "unique_entities": 7011
+    },
+    "openlibrary": {
+      "provenance_ref": "derived/population_dump_v1_manifest.json",
+      "records": 34789,
+      "registry_input_logical_artifact": "derived/ol_dump_population_fiction_2026-02-28.tsv",
+      "registry_input_sha256": "70630644b8300088a8ba1f46c7a2eaa81cc37a67e251e1068e217fbf86be9ba7",
+      "source_snapshot": "2026-02-28"
+    },
+    "wikidata": {
+      "provenance_ref": "derived/crosswalks/work_to_wikidata_v2_summary.json",
+      "registry_input": "derived/crosswalks/work_to_wikidata_v2.parquet",
+      "registry_input_sha256": "2efa94b496c65ab2e9a7cb78850ddd4ff4a5759775f90067d221ff6485325c16",
+      "source_snapshot": "2026-08-05",
+      "unique_accepted_entities": 6852
+    }
+  }
+}
