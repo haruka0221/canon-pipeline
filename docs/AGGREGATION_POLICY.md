@@ -534,6 +534,32 @@ identifier and historical membership are preserved.
 No lineage rows are required for `project_works_v1`, because it is the first
 project-work release.
 
+### 13.5 Subsequent project-work releases
+
+A later project-work release must preserve every previously released
+`project_work_id`.
+
+When a later aggregation-decision release makes additional units eligible for
+project-work assignment:
+
+1. existing project-work registry rows are retained unchanged;
+2. existing work-identity membership rows are retained unchanged;
+3. newly eligible units are sorted deterministically by
+   `unit_anchor_entity_id`;
+4. new `W...` identifiers are appended after the highest previously released
+   identifier; and
+5. new membership rows record the aggregation-decision version that authorized
+   them.
+
+For `project_works_v2`, the 31,539 project works from v1 are preserved and the
+112 units newly accepted by `aggregation_decisions_v2` receive:
+
+`W000031540` through `W000031651`.
+
+Historical v1 membership continues to cite
+`aggregation_decisions_v1:ONE_WORK`; newly added v2 membership cites
+`aggregation_decisions_v2:ONE_WORK`.
+
 ## 14. Later merge of project works
 
 If later evidence shows that two previously released project works should be
