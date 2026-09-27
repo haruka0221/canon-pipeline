@@ -1,0 +1,103 @@
+{
+  "release_id": "population-dump-v1",
+  "status": "frozen_historical_source_population",
+  "authoritative_audit_date": "2026-09-27",
+
+  "source_population": {
+    "source": "Open Library",
+    "source_entity_type": "Work record",
+    "snapshot_date": "2026-02-28",
+    "artifact": "derived/ol_dump_population_fiction_2026-02-28.tsv",
+    "records": 34789,
+    "sha256": "70630644b8300088a8ba1f46c7a2eaa81cc37a67e251e1068e217fbf86be9ba7"
+  },
+
+  "upstream_base_population": {
+    "artifact": "derived/ol_dump_population_2026-02-28.tsv",
+    "parsed_records": 2044920,
+    "sha256": "1de8541ce871737c37720233ce7ef75079e55040dfe45dc488cd5657f3c80da1"
+  },
+
+  "historical_construction": {
+    "base_script": "scripts/build_population_from_dump.py",
+    "base_script_initial_commit": "7771e0d",
+    "fiction_filter_documentation_commit": "085813c",
+    "documented_fiction_signal_count": 18,
+    "exact_original_signal_list_preserved": false,
+    "original_one_off_filter_code_preserved": false
+  },
+
+  "reconstruction_audit_20260927": {
+    "method": "reconstruct sufficient subject-signal OR rule from surviving base and frozen output",
+    "sufficient_signal_count": 17,
+    "signals": [
+      "fiction",
+      "juvenile_fiction",
+      "fiction_general",
+      "english_fiction",
+      "short_stories",
+      "romances",
+      "american_fiction",
+      "detective_and_mystery_stories",
+      "science_fiction",
+      "western_stories",
+      "historical_fiction",
+      "dime_novels",
+      "adventure_stories",
+      "love_stories",
+      "war_stories",
+      "novel",
+      "novels"
+    ],
+    "reconstructed_records": 34789,
+    "extra_records": 0,
+    "missing_records": 0,
+    "exact_work_key_set_equality": true,
+    "interpretation": "sufficient reconstructed rule; not claimed to be the exact recovered historical 18-signal rule",
+    "plausible_redundant_historical_signal": {
+      "signal": "literary_fiction",
+      "status": "unproven"
+    }
+  },
+
+  "historical_field_semantics": {
+    "first_publish_year": {
+      "status": "historical_column_name",
+      "meaning": "minimum parsed year observed among linked Open Library Edition publish_date values in the historical dump-building workflow",
+      "not_equivalent_to": [
+        "resolved conceptual-work original publication year",
+        "resolved first English publication year",
+        "publication year of a specific manifestation unless independently identified"
+      ]
+    }
+  },
+
+  "release_semantics": {
+    "is_conceptual_work_population": false,
+    "is_final_analysis_population": false,
+    "immutable_historical_anchor": true
+  },
+
+  "downstream_checks": {
+    "wikidata_production_input": {
+      "artifact": "derived/wikidata_production/population_34789_2026-02-28.tsv",
+      "sha256": "98c9284dcf381edf2e0e82de19d93ae8c418ba97a72881b43886c2778a2d019d",
+      "reconstructed_from_surviving_author_enriched_population": true,
+      "exact_sha256_match": true
+    }
+  },
+
+  "policy": {
+    "preserve_source_rows": true,
+    "resolve_identity_in_separate_layer": true,
+    "resolve_year_evidence_in_separate_layer": true,
+    "resolve_scope_in_separate_layer": true,
+    "future_analysis_populations_must_be_versioned": true
+  },
+
+  "documentation": {
+    "authoritative_human_readable_note": "docs/POPULATION_PROVENANCE.md",
+    "historical_provenance_record": "derived/prov.json",
+    "identity_scope_policy": "docs/IDENTITY_MODEL.md"
+  }
+}

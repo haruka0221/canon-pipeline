@@ -283,8 +283,8 @@ current crosswalk definitions above, the 2026-09-27 baseline and
 
 ### Immediate implementation order
 
-1. Freeze and document the existing 34,789-row source population and its hash/provenance.
-2. Adopt `docs/IDENTITY_MODEL.md` v0.2 as the detailed identity/scope policy.
+1. ✅ DONE 2026-09-27 — Freeze and document the existing 34,789-row source population and its hash/provenance. See `docs/POPULATION_PROVENANCE.md` and `derived/population_dump_v1_manifest.json`.
+2. Adopt and verify `docs/IDENTITY_MODEL.md` v0.2 as the detailed identity/scope policy.
 3. Build `work_year_evidence` from available OL, Wikidata, Goodreads, canonical/manual, and other defensible bibliographic evidence without overwriting source values.
 4. Define and version `work_scope_resolution`.
 5. Construct an expanded candidate population to assess false negatives created by the historical minimum-edition-year filter.
@@ -783,7 +783,11 @@ python3 scripts/build_author_lookup.py
 
 ### Evidence / Logs
 - `logs/build_population_from_dump_{date}.log`
-- `derived/prov.json` (population-dump-v1 provenance record)
+- `derived/prov.json` — historical population-dump-v1 provenance record (2026-03)
+- `docs/POPULATION_PROVENANCE.md` — authoritative reconstruction and provenance audit (2026-09-27)
+- `derived/population_dump_v1_manifest.json` — machine-readable frozen population manifest
+
+The September 2026 audit clarifies that the 34,789 rows are a frozen Open Library source-record population, not a resolved conceptual-work population. Historical construction details and the reconstructed sufficient fiction-signal rule are documented in `docs/POPULATION_PROVENANCE.md`.
 
 ---
 
