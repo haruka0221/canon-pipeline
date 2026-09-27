@@ -658,8 +658,11 @@ source_artifact
     assertionの直接の入力または判定を保存したartifact
 
 source_snapshot
-    methodが明示的に使用したsnapshot値
-    不明な場合は推測せず空欄を許容する
+    assertionのright-hand source entityが由来するprimary source snapshot
+    初期v1ではOpen Libraryをleft、Goodreads / Wikidataをrightに置く
+    複数sourceをidentity判断に使用した場合は、既知の全input snapshotを
+    `evidence.source_snapshots`にも保存する
+    不明なsnapshotは推測しない
 
 confidence
     source methodがconfidenceを明示している場合に保存する
@@ -698,6 +701,38 @@ Wikidata:
 
 元artifact自体はhistorical artifactとして保持し、
 `evidence`はそれを置き換えない。
+
+#### Initial v1 confidence and review semantics
+
+`confidence`はsource-specific resolution methodが明示的に持つ値のみを保存する。
+異なるpipeline間で共通尺度へ変換したり、値を推定したりしない。
+
+初期v1のaccepted assertionについては、
+
+```text
+review_status = not_assessed_for_project_aggregation
+```
+
+とする。
+
+#### Stable `A` ID policy
+
+`A` IDは一度releaseされた後に再利用・再採番しない。
+
+v1では、初期assertion集合を固定された決定的順序で並べ、
+`A000000001`から連番を割り当てる。
+
+以後のreleaseでは、既存assertionの`A` IDを保持し、
+新しいassertionだけを現在の最大`A` IDの後ろに追加する。
+
+既存のsource-specific judgmentが後に訂正・supersedeされた場合も、
+historical assertionをsilent overwriteして別の意味に変更しない。
+必要な訂正は新しいversioned assertion / resolution layerとして記録する。
+
+source-specificなreview flag（例：Goodreads `review_needed=0`）は
+`evidence`内に保持するが、project-level aggregation reviewの完了を意味しない。
+同様に、Wikidataの`confidence=high`等もsource-resolution confidenceであり、
+project-work membershipの確定度とは区別する。
 
 #### Initial assertion policy
 
