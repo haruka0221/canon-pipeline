@@ -1,0 +1,62 @@
+{
+  "append": {
+    "entity_ids": [
+      "E000048653",
+      "E000048654",
+      "E000048655"
+    ],
+    "policy": "Preserve all released v1 E IDs and append new natural keys after the previous maximum E ID. New keys within this append batch are ordered lexically by source_id.",
+    "row_count": 3,
+    "source_ids": [
+      "OL245401W",
+      "OL509889W",
+      "OL85892W"
+    ]
+  },
+  "appended_source_provenance": {
+    "OL245401W": {
+      "provenance_note": "Historical Open Library API-era project artifact. Exact row-level source snapshot date is not preserved; do not interpret this entity as originating from the 2026-02-28 Works Dump snapshot.",
+      "source_artifact": "derived/phd_supplement_works.tsv",
+      "source_artifact_sha256": "a51ff0d56fdc0b2532ee75af0b3f79f5e6c6616e356df7900aef35b8329c15a2",
+      "source_snapshot": ""
+    },
+    "OL509889W": {
+      "provenance_note": "Historical Open Library API-era project artifact. Exact row-level source snapshot date is not preserved; do not interpret this entity as originating from the 2026-02-28 Works Dump snapshot.",
+      "source_artifact": "derived/ol_works_population_unique_clean.tsv",
+      "source_artifact_sha256": "be195db203adb0c330c789fa97137c584230a637312f4724279856bc17038758",
+      "source_snapshot": ""
+    },
+    "OL85892W": {
+      "provenance_note": "Historical Open Library API-era project artifact. Exact row-level source snapshot date is not preserved; do not interpret this entity as originating from the 2026-02-28 Works Dump snapshot.",
+      "source_artifact": "derived/ol_works_population_unique_clean.tsv",
+      "source_artifact_sha256": "be195db203adb0c330c789fa97137c584230a637312f4724279856bc17038758",
+      "source_snapshot": ""
+    }
+  },
+  "created_at": "2026-09-27",
+  "openlibrary_target_correction": {
+    "artifact": "derived/identity/openlibrary_target_corrections_v1.tsv",
+    "correction_date": "2026-05-28",
+    "notes": "Three corrected Open Library Work targets replace historical project target-selection errors. They do not replace or mutate the historical Open Library entities already registered in v1.",
+    "sha256": "ca16d3382b4b10f619cc2af7b796d14d12fab2630d584afdc014dbd2b3d8a410"
+  },
+  "outputs": {
+    "parquet": "derived/identity/source_entities_v2.parquet",
+    "parquet_sha256": "4397d9406632a9507d10bc20024711fce28b22136ed3ef5447451bd12200b637",
+    "tsv": "derived/identity/source_entities_v2.tsv",
+    "tsv_sha256": "1769f25935a0bed58a64ba6f2ea2f0dfa9e02926ff7512770e9c9d41f42454bc"
+  },
+  "previous_release": {
+    "artifact": "derived/identity/source_entities_v1.parquet",
+    "release": "source-entities-v1",
+    "row_count": 48652,
+    "sha256": "218ce052889f3f35b89eceedfadfb8ff9386f5407c17f26544e145d60302397e"
+  },
+  "release": "source-entities-v2",
+  "row_count": 48655,
+  "source_counts": {
+    "goodreads": 7011,
+    "openlibrary": 34792,
+    "wikidata": 6852
+  }
+}
