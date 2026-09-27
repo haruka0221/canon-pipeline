@@ -1,0 +1,55 @@
+{
+  "assertion_id_policy": {
+    "future_policy": "Released A IDs are never renumbered or reused. Future assertions append after the current maximum A ID.",
+    "initial_release": "A000000001 through A000016065",
+    "ordering": [
+      "Goodreads assertions first",
+      "Wikidata assertions second",
+      "within each source: lexical Open Library source_id, then lexical external source_id"
+    ]
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "goodreads": {
+      "accepted_match_rows": 7624,
+      "artifact": "derived/crosswalks/goodreads_work_crosswalk_v1.tsv",
+      "method": "goodreads_resolution_pipeline",
+      "method_version": "v13",
+      "right_source_snapshot": "2017",
+      "sha256": "67669070e58630d86031d9aa69f5d241c72910b10abb75835797656b60039d56",
+      "wikidata_supported_match_rows": 16
+    },
+    "wikidata": {
+      "accepted_match_rows": 8441,
+      "artifact": "derived/crosswalks/work_to_wikidata_v2.parquet",
+      "confidence_counts": {
+        "high": 7985,
+        "low": 19,
+        "medium": 437
+      },
+      "method": "llm_judge",
+      "method_version": "gpt-5.6-luna_v6",
+      "right_source_snapshot": "2026-08-05",
+      "sha256": "2efa94b496c65ab2e9a7cb78850ddd4ff4a5759775f90067d221ff6485325c16"
+    }
+  },
+  "outputs": {
+    "parquet": "derived/identity/identity_assertions_v1.parquet",
+    "parquet_sha256": "6079e7b279cfce95ec6b4fd7f0375477bd3c5b2634decc240a3e325542f2ed8c",
+    "tsv": "derived/identity/identity_assertions_v1.tsv",
+    "tsv_sha256": "82499d00a96e05549e6e416ed4129c472ed76e465a74ec65a76db7117251d287"
+  },
+  "release": "identity-assertions-v1",
+  "review_status": "not_assessed_for_project_aggregation",
+  "row_count": 16065,
+  "semantics": {
+    "identity_decision": "SAME",
+    "identity_type": "work",
+    "note": "Each row records an accepted source-specific work-identity judgment. SAME does not by itself establish project-work membership and must not be transitively closed into project works without a separate aggregation policy."
+  },
+  "source_entities": {
+    "artifact": "derived/identity/source_entities_v2.parquet",
+    "release": "source-entities-v2",
+    "sha256": "4397d9406632a9507d10bc20024711fce28b22136ed3ef5447451bd12200b637"
+  }
+}
