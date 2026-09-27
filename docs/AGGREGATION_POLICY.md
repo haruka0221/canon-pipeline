@@ -331,6 +331,46 @@ receive:
 No `MULTIPLE_WORKS` or `UNRESOLVED` decisions are assigned automatically in
 v1. Those decisions require additional evidence or review.
 
+### 10.2 Strict multi-OL cross-source rule for v2
+
+`aggregation_decisions_v2` adds one conservative automatic aggregation rule
+for units previously classified as `multi_ol_no_explicit_split`.
+
+A unit may be changed from `MANUAL_REVIEW_REQUIRED` to `ONE_WORK` only when
+all of the following conditions hold:
+
+1. all current Open Library targets have the same title after Unicode NFKC
+   normalization, case folding, and removal of non-alphanumeric characters;
+2. all current Open Library targets have the same non-empty `author_keys`;
+3. all current Open Library targets have the same non-empty historical
+   `first_publish_year`;
+4. the unit contains exactly one Goodreads entity and exactly one Wikidata
+   entity;
+5. every current Open Library target has a direct accepted `SAME` assertion
+   to that Goodreads entity;
+6. every current Open Library target has a direct accepted `SAME` assertion
+   to that Wikidata entity;
+7. every relevant Goodreads assertion has
+   `resolution_status_detail = AUTO_MATCH_HIGH`; and
+8. every relevant Wikidata assertion has `confidence = high`.
+
+The decision metadata for units accepted by this rule is:
+
+- `aggregation_decision = ONE_WORK`
+- `decision_method = multi_ol_exact_metadata_cross_source_rule`
+- `decision_version = v2`
+- `review_status = auto_accepted`
+
+This rule is an operational project aggregation rule. It does not claim that
+the Open Library records have been proven to be duplicate records in every
+bibliographic or ontological sense.
+
+Units failing any condition remain under their previous decision.
+
+Existing v1 decisions are preserved historically. In the v2 decision release,
+unchanged rows retain the decision version under which their current decision
+was originally made.
+
 ## 11. Conditions for issuing `W...` identifiers
 
 A `W...` identifier may be issued only when:
