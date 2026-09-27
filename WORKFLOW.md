@@ -207,6 +207,80 @@ Later project-work and scope layers determine how these observations are aggrega
 
 Historical analyses that used the 34,789 rows directly remain historical snapshots and must be labeled accordingly rather than silently recalculated.
 
+### Current Goodreads identity-resolution status — 2026-09-27
+
+The current Goodreads identity baseline is:
+
+```text
+derived/crosswalks/goodreads_work_crosswalk_v1.tsv
+derived/crosswalks/goodreads_work_crosswalk_v1.parquet
+```
+
+It is derived from Goodreads resolution v13 and covers all 34,789 frozen
+Open Library source records.
+
+Current decisions:
+
+```text
+MATCH           7,624
+NO_MATCH           15
+NO_CANDIDATE   22,465
+AMBIGUOUS        4,685
+```
+
+Only `MATCH` rows contain an accepted Goodreads work identity.
+
+`NO_CANDIDATE` means that the current candidate-generation/resolution
+pipeline produced no candidate that could be accepted. It must not be
+interpreted as confirmed absence from Goodreads.
+
+Two important unresolved candidate groups are preserved separately:
+
+```text
+592 provisional review candidates
+    = REVIEW_BASE / REVIEW_SURNAME_ONLY candidates retained in
+      crosswalk `candidate_*` fields
+
+909 singleton-FULL unresolved candidates
+    = one explicit Goodreads candidate per row, retained for future
+      LLM-assisted identity review
+```
+
+The 909-row queue is currently triaged as:
+
+```text
+TEMPORAL_CONFLICT_GR_MUCH_NEWER       584
+TEMPORALLY_PLAUSIBLE_UNRESOLVED       227
+YEAR_MISSING                           73
+POSSIBLE_OLDER_WORK_MANIFESTATION      25
+                                      ---
+                                      909
+```
+
+Temporal triage is prioritization evidence only and is not an identity rule.
+In particular, temporal conflict does not automatically imply `NO_MATCH`.
+
+A production LLM review of these 909 rows has not yet been run. The future
+LLM protocol, benchmark, prompt/schema, provenance, and human-adjudication
+procedure must be versioned before a full production run.
+
+`goodreads_work_crosswalk_v1` is a frozen baseline and must not be silently
+overwritten. Future retrieval- or LLM-assisted decisions must be stored in a
+new versioned evidence/assertion layer and, after validation, incorporated
+into a later crosswalk release such as `goodreads_work_crosswalk_v2`.
+
+Detailed resolution semantics, exact source files, DuckDB views, and the
+future 909-row resumption checklist are documented in:
+
+```text
+docs/GOODREADS_ENTITY_RESOLUTION.md
+```
+
+Earlier Goodreads sections in this file remain historical workflow snapshots.
+Where their older status labels or absence semantics conflict with the
+current crosswalk definitions above, the 2026-09-27 baseline and
+`docs/GOODREADS_ENTITY_RESOLUTION.md` supersede them.
+
 ### Immediate implementation order
 
 1. Freeze and document the existing 34,789-row source population and its hash/provenance.
