@@ -371,6 +371,50 @@ Existing v1 decisions are preserved historically. In the v2 decision release,
 unchanged rows retain the decision version under which their current decision
 was originally made.
 
+### 10.3 Direct Open Library identity-evidence rule for v3
+
+`aggregation_decisions_v3` adds a second conservative automatic aggregation
+rule for units that remained `MANUAL_REVIEW_REQUIRED` after v2.
+
+A unit may be changed to `ONE_WORK` only when all of the following conditions
+hold:
+
+1. it is classified as `multi_ol_no_explicit_split`;
+2. all current Open Library targets have the same title after Unicode NFKC
+   normalization, case folding, and removal of non-alphanumeric characters;
+3. all current Open Library targets have the same non-empty `author_keys`;
+4. all current Open Library targets have the same non-empty historical
+   `first_publish_year`;
+5. the unit contains exactly one Goodreads entity and exactly one Wikidata
+   entity;
+6. every current Open Library target has a direct accepted `SAME` assertion
+   to that Goodreads entity;
+7. every current Open Library target has a direct accepted `SAME` assertion
+   to that Wikidata entity;
+8. every relevant Goodreads assertion has
+   `resolution_status_detail = AUTO_MATCH_IDENTITY_EVIDENCE`;
+9. every relevant Goodreads assertion records either
+   `IDENTITY_OL_DIRECT` or `IDENTITY_OL_REDIRECT_DIRECT` as
+   `author_match_quality`, has `review_needed = 0`, and has a full work/book
+   title match;
+10. every relevant Wikidata assertion has `confidence = high`.
+
+The decision metadata for units accepted by this rule is:
+
+- `aggregation_decision = ONE_WORK`
+- `decision_method = multi_ol_identity_evidence_cross_source_rule`
+- `decision_version = v3`
+- `review_status = auto_accepted`
+
+This rule uses explicit Open Library identity evidence already preserved by the
+Goodreads resolution pipeline. It does not infer membership through transitive
+closure. A unit lacking a direct accepted assertion from every current Open
+Library target to both external entities remains unresolved by this rule.
+
+Existing v1 and v2 decisions remain historically unchanged. In the v3 release,
+unchanged rows retain the decision version under which their current decision
+was originally made.
+
 ## 11. Conditions for issuing `W...` identifiers
 
 A `W...` identifier may be issued only when:

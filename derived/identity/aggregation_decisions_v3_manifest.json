@@ -1,0 +1,69 @@
+{
+  "counts": {
+    "MANUAL_REVIEW_REQUIRED": 1194,
+    "ONE_WORK": 31653,
+    "newly_promoted_current_targets": 5,
+    "newly_promoted_units": 2
+  },
+  "created_at": "2026-09-27",
+  "inputs": {
+    "aggregation_policy": {
+      "artifact": "docs/AGGREGATION_POLICY.md",
+      "sha256": "762b1dc703ed5876495aa9cf8430069c1019cc515ff76059651b847759f3bf05",
+      "version": "1"
+    },
+    "analysis_targets": {
+      "artifact": "derived/identity/openlibrary_analysis_targets_v1.parquet",
+      "sha256": "7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21"
+    },
+    "identity_assertions": {
+      "artifact": "derived/identity/identity_assertions_v1.parquet",
+      "sha256": "6079e7b279cfce95ec6b4fd7f0375477bd3c5b2634decc240a3e325542f2ed8c"
+    },
+    "previous_decisions": {
+      "artifact": "derived/identity/aggregation_decisions_v2.parquet",
+      "sha256": "a65d83dc2697457a8000b0eb2734050e482446d05d8b9f701d6d0257e8315897"
+    },
+    "review_members": {
+      "artifact": "derived/identity/aggregation_review_members_v1.parquet",
+      "sha256": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7"
+    }
+  },
+  "outputs": {
+    "parquet": "derived/identity/aggregation_decisions_v3.parquet",
+    "parquet_sha256": "182707e4f4fd3de22f41718a43138bd15902d384489dc21f3e3e68163894e031",
+    "tsv": "derived/identity/aggregation_decisions_v3.tsv",
+    "tsv_sha256": "ab3a55c4ae41fe8acafc63662d6e75a8a939e04c1123ea0c18213649a7d8374a"
+  },
+  "promoted_unit_anchor_entity_ids": [
+    "E000016422",
+    "E000018958"
+  ],
+  "release": "aggregation-decisions-v3",
+  "row_count": 32847,
+  "rule": {
+    "criteria": [
+      "multi_ol_no_explicit_split",
+      "same normalized non-empty title",
+      "same non-empty author_keys",
+      "same non-empty first_publish_year",
+      "exactly one Goodreads entity",
+      "exactly one Wikidata entity",
+      "every OL directly SAME to Goodreads",
+      "every OL directly SAME to Wikidata",
+      "all Goodreads AUTO_MATCH_IDENTITY_EVIDENCE",
+      "Goodreads author evidence is IDENTITY_OL_DIRECT or IDENTITY_OL_REDIRECT_DIRECT",
+      "Goodreads review_needed=0",
+      "Goodreads full title match",
+      "all Wikidata confidence high"
+    ],
+    "decision_version": "v3",
+    "name": "multi_ol_identity_evidence_cross_source_rule"
+  },
+  "semantics": {
+    "important_note": "Earlier aggregation-decision releases remain unchanged as historical releases.",
+    "previous_release": "aggregation-decisions-v2",
+    "unchanged_rows": 32845,
+    "update": "Two additional multi-OL units are promoted from MANUAL_REVIEW_REQUIRED to ONE_WORK by the strict direct Open Library identity-evidence cross-source rule."
+  }
+}
