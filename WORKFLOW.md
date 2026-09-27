@@ -284,12 +284,13 @@ current crosswalk definitions above, the 2026-09-27 baseline and
 ### Immediate implementation order
 
 1. ✅ DONE 2026-09-27 — Freeze and document the existing 34,789-row source population and its hash/provenance. See `docs/POPULATION_PROVENANCE.md` and `derived/population_dump_v1_manifest.json`.
-2. Adopt and verify `docs/IDENTITY_MODEL.md` v0.2 as the detailed identity/scope policy.
-3. Build `work_year_evidence` from available OL, Wikidata, Goodreads, canonical/manual, and other defensible bibliographic evidence without overwriting source values.
-4. Define and version `work_scope_resolution`.
-5. Construct an expanded candidate population to assess false negatives created by the historical minimum-edition-year filter.
-6. Freeze the primary `period_basis` before releasing the final analysis population.
-7. Only then freeze the next OpenAlex target registry and run the full OpenAlex Works scan.
+2. ✅ DONE 2026-09-27 — Adopt and verify `docs/IDENTITY_MODEL.md` v0.2 as the detailed identity/scope policy.
+3. Establish the minimal identity foundation: `source_entities`, `identity_assertions`, `project_works`, and `work_identity_map`. Project IDs must not replace or erase source identifiers.
+4. Build `work_year_evidence` from available OL, Wikidata, Goodreads, canonical/manual, and other defensible bibliographic evidence without overwriting source values. Source-level evidence may be stored against `source_entity_id` before `project_work_id` is resolved.
+5. Define and version `work_scope_resolution`.
+6. Construct an expanded candidate population to assess false negatives created by the historical minimum-edition-year filter.
+7. Freeze the primary `period_basis` before releasing the final analysis population.
+8. Only then freeze the next OpenAlex target registry and run the full OpenAlex Works scan.
 
 OpenAlex 30-shard calibration remains valid methodological evidence for retrieval design; only the final target/scope release is pending.
 
@@ -306,17 +307,17 @@ The design goal is a reproducible system in which every analytical value can be 
 
 The existing Open Library dump population remains a frozen source-population release of **34,789 Open Library Work records**. This historical population must not be silently rewritten when later entity-resolution work discovers duplicate or fragmented Open Library Work records.
 
-However, an Open Library `work_key` is a database identifier, not necessarily a unique conceptual literary-work identifier. The Open Library fragmentation audit has already shown that one literary work can be represented by multiple Work records. Therefore the final architecture will introduce a project-native stable identifier:
+However, an Open Library `work_key` is a database identifier, not necessarily a unique conceptual literary-work identifier. The Open Library fragmentation audit has already shown that one literary work can be represented by multiple Work records. Therefore the final architecture uses a project-native stable identifier for conceptual works, represented in `docs/IDENTITY_MODEL.md` as:
 
 ```text
-work_id
+project_work_id
 ```
 
-Example form (exact naming/numbering to be fixed at implementation):
+Identifier form:
 
 ```text
-CW000001
-CW000002
+W000000001
+W000000002
 ...
 ```
 

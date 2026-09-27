@@ -1,7 +1,8 @@
 # Identity and Scope Model v0.2
 
-**Status:** Draft for implementation<br>
-**Date:** 2026-09-25
+**Status:** Adopted for implementation<br>
+**Date:** 2026-09-25<br>
+**Adopted:** 2026-09-27<br>
 **Supersedes:** `Identity Model v0.1` (2026-09-21)
 
 ## 1. Purpose
@@ -321,17 +322,33 @@ ol_min_observed_edition_year
 
 ```text
 year_evidence_id
-project_work_id / source_entity_id
+project_work_id
+source_entity_id
 source
 source_id
 property_or_field
+raw_value
 year_value
 year_role
 entity_granularity
 snapshot_id
 method
+method_version
+review_status
 notes
+created_at
 ```
+
+`project_work_id` と `source_entity_id` は別々のnullable列として保持する。
+少なくとも一方は、そのevidenceを現在どのentityに結び付けているかを示す。
+
+identity resolution前のsource-nativeな年証拠は、`source_entity_id` に結び付け、
+`project_work_id` を空欄のまま保存できる。後にproject workへ対応付けても、
+元の`source_entity_id`とsource-native evidenceを失わない。
+
+`raw_value` はsourceから取得した値を可能な限りそのまま保持し、
+`year_value` は比較・scope resolutionに使用可能な正規化済みの年を保持する。
+正規化できない値を無理に数値化せず、必要に応じて`review_status`で明示する。
 
 `year_role` の例：
 
@@ -467,6 +484,14 @@ work_identity_map.*
 work_year_evidence.*
 work_scope_resolution.*
 ```
+
+実装上は、まずsource entityを安定して識別できる層を作り、
+その上にidentity assertion / project work mappingを構築する。
+
+ただし、全source recordのconceptual identityが解決するまで
+`work_year_evidence`の収集を待つ必要はない。identity未解決の年証拠は
+`source_entity_id`に結び付けて保存し、project workが確定した時点で
+`project_work_id`を追加して接続できるようにする。
 
 `*` は安定releaseではTSV + Parquetを基本とする。
 
