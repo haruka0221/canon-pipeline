@@ -22,13 +22,18 @@ Important semantics
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 import gzip
 import hashlib
 import json
 import os
 from pathlib import Path
+import platform
+import subprocess
+import sys
 
 import pandas as pd
+import pyarrow as pa
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -88,6 +93,20 @@ def sha256_file(path: Path) -> str:
 def require(path: Path) -> None:
     if not path.exists():
         raise FileNotFoundError(path)
+
+
+def git_capture(*args: str) -> str:
+    result = subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+    )
+
+    if result.returncode != 0:
+        return ""
+
+    return result.stdout.strip()
 
 
 def scalar_text(value) -> str:
@@ -228,6 +247,53 @@ def main() -> None:
         targets_path,
     ]:
         require(path)
+
+    run_started_at_utc = datetime.now(
+        timezone.utc
+    ).isoformat()
+
+    script_path = Path(__file__).resolve()
+
+    git_status_at_start = git_capture(
+        "status",
+        "--porcelain",
+    )
+
+    execution_metadata = {
+        "run_started_at_utc":
+            run_started_at_utc,
+        "execution_worktree":
+            str(ROOT),
+        "builder_script":
+            str(script_path.relative_to(ROOT)),
+        "builder_script_sha256":
+            sha256_file(script_path),
+        "builder_git_commit":
+            git_capture("rev-parse", "HEAD"),
+        "builder_git_branch":
+            (
+                git_capture(
+                    "branch",
+                    "--show-current",
+                )
+                or "(detached)"
+            ),
+        "git_clean_at_start":
+            git_status_at_start == "",
+        "python_executable":
+            sys.executable,
+        "python_version":
+            platform.python_version(),
+        "pandas_version":
+            pd.__version__,
+        "pyarrow_version":
+            pa.__version__,
+        "argv":
+            [
+                sys.executable,
+                *sys.argv,
+            ],
+    }
 
     out_dir.mkdir(
         parents=True,
@@ -972,9 +1038,16 @@ def main() -> None:
     # 7. Manifest
     # ---------------------------------------------------------
 
+    execution_metadata[
+        "run_finished_at_utc"
+    ] = datetime.now(
+        timezone.utc
+    ).isoformat()
+
     manifest = {
         "release": RELEASE,
         "created_at": CREATED_AT,
+        "execution": execution_metadata,
         "semantics": {
             "current_target_source": (
                 "Current Open Library analysis targets from "
