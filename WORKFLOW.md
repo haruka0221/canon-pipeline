@@ -1,7 +1,18 @@
 # WORKFLOW.md — canon-pipeline
 **Research Data and Analysis Workflow**
-Last updated: 2026-09-26
+Last updated: 2026-09-28
 Status: LIVING DOCUMENT — update on every major change
+
+Update note: 2026-09-28 — The Open Library Works dump for the frozen
+2026-02-28 snapshot was re-acquired from the original Archive.org release
+after the historical local raw copy was found to be no longer preserved.
+The re-acquired file is 3,920,616,854 bytes, passes `gzip -t`, and has SHA256
+`a4714480bd20a7ad41538653d69ed43a012efecfba57cd5194edb2768cfc26ad`.
+This is source-file provenance recovery and does not create a new source
+snapshot or alter `population-dump-v1`. Details are recorded in
+`docs/POPULATION_PROVENANCE.md` and
+`derived/openlibrary_dump_reacquisition_20260928_manifest.json`.
+
 
 
 Update note: 2026-08-22 — Internet Archive retrieval/classification was completed for the validated 90-work pilot, including a Rebecca West identity correction, directly observed core visibility profiles, cross-source correlations, and academic–reader residual comparisons. OpenAlex production-scale validation and the reviewed v8 90-work visibility/configuration layer remain current. Historical descriptions and earlier decisions below are retained where useful for provenance, but superseded analytical values are explicitly marked.

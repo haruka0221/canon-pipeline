@@ -43,6 +43,58 @@ The historical provenance record is preserved in:
 That file is retained as a historical record and is not silently
 rewritten to incorporate later audit findings.
 
+### 2.1 Source-file custody and 2026-09-28 Works dump re-acquisition
+
+The historical population was originally constructed from the Open Library
+2026-02-28 Works and Editions snapshot.
+
+The Works dump was first downloaded locally on 2026-03-07 for the historical
+population construction. The original local raw Works dump was subsequently
+deleted after the derived population artifacts had been created.
+
+On 2026-09-28, the same published Open Library snapshot was re-acquired from
+the same Archive.org release for provenance recovery and current source-level
+metadata inspection:
+
+```text
+source:
+https://archive.org/download/ol_dump_2026-02-28/ol_dump_works_2026-02-28.txt.gz
+
+snapshot date:
+2026-02-28
+
+re-acquisition date:
+2026-09-28
+
+local server path:
+/media/hdd1/user/tsutsui/openlibrary/ol_dump_works_2026-02-28.txt.gz
+
+size:
+3,920,616,854 bytes
+
+SHA256:
+a4714480bd20a7ad41538653d69ed43a012efecfba57cd5194edb2768cfc26ad
+
+gzip integrity check:
+passed
+```
+
+This is a re-acquisition of the same published 2026-02-28 snapshot, not a new
+Open Library snapshot.
+
+No checksum of the original 2026-03-07 local Works dump is known to survive.
+Therefore, the re-acquired file can be identified as the same published
+snapshot and source artifact, but bit-for-bit identity with the deleted
+historical local copy is not independently asserted.
+
+The Editions dump from the same 2026-02-28 snapshot remained preserved on the
+analysis server.
+
+The Authors dump was not part of the original population-construction step.
+It was acquired later for author-name and author-identity work and should
+therefore be documented separately from the Works/Editions population-source
+lineage.
+
 ## 3. Recoverable historical construction
 
 Git commit `7771e0d` introduced

@@ -1,0 +1,26 @@
+{
+  "record_type": "openlibrary_dump_reacquisition",
+  "created_at": "2026-09-28",
+  "source": "Open Library",
+  "artifact_type": "works_dump",
+  "snapshot_date": "2026-02-28",
+  "source_url": "https://archive.org/download/ol_dump_2026-02-28/ol_dump_works_2026-02-28.txt.gz",
+  "historical_first_acquisition_date": "2026-03-07",
+  "historical_local_copy_status": "deleted_after_population_construction",
+  "reacquisition_date": "2026-09-28",
+  "reacquisition_local_path": "/media/hdd1/user/tsutsui/openlibrary/ol_dump_works_2026-02-28.txt.gz",
+  "size_bytes": 3920616854,
+  "sha256": "a4714480bd20a7ad41538653d69ed43a012efecfba57cd5194edb2768cfc26ad",
+  "gzip_integrity_check": "passed",
+  "relationship_to_historical_source": "same_published_snapshot_reacquired",
+  "historical_original_sha256_available": false,
+  "bitwise_identity_to_deleted_historical_copy_asserted": false,
+  "notes": [
+    "The Editions dump from the 2026-02-28 snapshot remained preserved on the analysis server.",
+    "The Authors dump was acquired later for author-name and author-identity work and was not part of the original population-construction step."
+  ],
+  "documentation": {
+    "authoritative_provenance_note": "docs/POPULATION_PROVENANCE.md",
+    "historical_provenance_record": "derived/prov.json"
+  }
+}
