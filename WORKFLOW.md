@@ -3,6 +3,26 @@
 Last updated: 2026-09-28
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-09-28 — `openlibrary-author-source-v1` was frozen in
+commit `16d0a29` as the project source-native author layer for the 34,789
+current Open Library analysis targets. Rather than inheriting historical
+population `author_keys` / `author_name` values, the layer re-extracts
+Work→Author edges directly from the fixed Open Library 2026-02-28 Works dump
+and resolves the referenced Author records against the fixed 2026-02-28
+Authors dump. The release contains 37,652 Work→Author edges referencing
+16,405 unique Author IDs; 16,402 Author records were found and 3 source
+references remain unresolved. There are 354 current targets with no
+`authors` entries and 1,730 with more than one author entry. All 16,402
+resolved Author records contain `name`; `personal_name` is present for
+14,277 and `fuller_name` for 82. Open Library `Work.authors` is treated as
+source evidence, not as a guaranteed list of original literary authors.
+No OpenAlex `query_author_selection_rule` has yet been frozen. Author-source
+artifacts and their manifest are under
+`derived/openlibrary_author_source_v1/`; detailed provenance is recorded in
+`docs/POPULATION_PROVENANCE.md` and OpenAlex use is documented in
+`docs/OPENALEX_MATCHING_METHOD.md`.
+
+
 Update note: 2026-09-28 — The fixed Open Library Authors dump for the
 2026-02-28 snapshot was re-acquired from the original Archive.org release
 after the historical local copy could not be found. The re-acquired file is

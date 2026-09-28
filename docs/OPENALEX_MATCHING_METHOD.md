@@ -447,30 +447,61 @@ The source relationship and `author_ordinal` should remain recoverable.
 
 The retrieval policy may choose a primary query author, but that choice must be represented as a retrieval rule rather than as source truth.
 
-### 10.3 Current implementation status
+### 10.3 Frozen Open Library author source layer
 
-A source-layer design exists for preserving:
-
-```text
-Open Library Author records
-source-native name types
-alternate names
-Work → Author edges
-author ordinal
-```
-
-Before v3 production, the exact author source artifacts used by the registry must be committed, versioned, and frozen in the current integration branch.
-
-The first production `query_author_selection_rule` must be selected only after auditing coverage and disagreement among available name fields such as:
+The source-native Open Library author layer was frozen on 2026-09-28 as:
 
 ```text
-name
-personal_name
-fuller_name
-alternate_name
+release:
+openlibrary-author-source-v1
+
+artifact directory:
+derived/openlibrary_author_source_v1/
+
+freeze commit:
+16d0a29
 ```
 
-Until that audit is complete, the selection rule remains intentionally unfrozen.
+The release is built from the 34,789 current Open Library analysis targets.
+It does **not** inherit historical population `author_keys` or `author_name`
+values as source truth. Instead, current target IDs are looked up directly
+in the fixed 2026-02-28 Open Library Works dump, all source-native
+`Work.authors` entries and their ordinals are preserved, and referenced
+Author records are then extracted from the fixed 2026-02-28 Authors dump.
+
+The release contains:
+
+```text
+current targets                       34,789
+Work → Author edges                    37,652
+unique referenced Author IDs           16,405
+Author records found                   16,402
+Author records missing                      3
+author-name evidence rows              57,510
+targets with no author entries            354
+targets with >1 author entry             1,730
+```
+
+All 16,402 resolved Author records contain a non-empty `name`.
+`personal_name` is present for 14,277 records and `fuller_name` for 82.
+
+Three Work-side Author references have no corresponding Author record in
+either the fixed 2026-02-28 Authors dump or the separately preserved later
+September 2026 Authors dump. They remain explicit unresolved source
+references and are not manually repaired in the source layer.
+
+The audit also shows that Open Library `Work.authors` cannot be interpreted
+as a guaranteed list of original literary authors. The current Open Library
+record for *The Prisoner of Zenda*, for example, contains 16 author edges:
+Anthony Hope is ordinal 0, alongside 15 additional person or organization
+records. Therefore all source-native relationships are preserved, while a
+retrieval-specific author must be selected separately.
+
+The first production `query_author_selection_rule` remains intentionally
+**unfrozen**. Its selection must be based on an explicit audit of the frozen
+source layer rather than on the earlier single-author population columns.
+The selected query author will be a derived retrieval value and will not
+overwrite or redefine source-native authorship evidence.
 
 ---
 

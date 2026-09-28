@@ -1,7 +1,7 @@
 # Open Library Source Population Provenance
 
 Status: authoritative provenance audit
-Audit date: 2026-09-27
+Audit date: 2026-09-28
 Historical release: `population-dump-v1`
 
 ## 1. What the 34,789-row release represents
@@ -145,6 +145,199 @@ That file is a distinct later Authors dump and must not be treated as the
 
 The fixed 2026-02-28 Authors dump is used when source-native author records
 need to be aligned with the 2026-02-28 Works and Editions snapshot.
+
+### 2.3 Current-target author source layer v1
+
+On 2026-09-28 the project froze a new source-native author layer for the
+34,789 **current** Open Library analysis targets:
+
+```text
+release:
+openlibrary-author-source-v1
+
+freeze commit:
+16d0a29
+
+builder:
+scripts/build_openlibrary_author_source_v1.py
+
+builder commit used for the frozen run:
+0d77b598b38f9b96c9870fafe8a57a344a8fca7a
+```
+
+This layer was created because the current analysis-target release includes
+three explicit Open Library target corrections. The historical population
+row may therefore retain historical `author_keys` associated with a
+superseded source Work. The new layer does not use those historical
+`author_keys` or historical `author_name` fields as source truth.
+
+Instead, it reconstructs author evidence through the following path:
+
+```text
+openlibrary_analysis_targets_v1
+        │
+        │ current_ol_work_id
+        ▼
+fixed Open Library Works dump, 2026-02-28
+        │
+        │ source-native Work.authors entries
+        ▼
+Work → Author source-native edges
+        │
+        ▼
+fixed Open Library Authors dump, 2026-02-28
+        │
+        ├── name
+        ├── personal_name
+        ├── fuller_name
+        └── alternate_names
+```
+
+The fixed inputs used by the frozen run were:
+
+```text
+current-target artifact:
+derived/identity/openlibrary_analysis_targets_v1.parquet
+
+target artifact SHA256:
+7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21
+
+Works dump:
+/media/hdd1/user/tsutsui/openlibrary/ol_dump_works_2026-02-28.txt.gz
+
+Works SHA256:
+a4714480bd20a7ad41538653d69ed43a012efecfba57cd5194edb2768cfc26ad
+
+Authors dump:
+/media/hdd1/user/tsutsui/openlibrary/ol_dump_authors_2026-02-28.txt.gz
+
+Authors SHA256:
+9e28a45c3db56f7d89eceaa01024865bacc458c84fc83d29044f6897987a363d
+```
+
+The production run was executed in the clean detached worktree:
+
+```text
+/home/tsutsui/canon-pipeline-openalex
+```
+
+with:
+
+```text
+Python executable:
+/home/tsutsui/venvs/canon/bin/python3
+
+Python:
+3.12.3
+
+pandas:
+3.0.5
+
+pyarrow:
+25.0.1
+
+builder script SHA256:
+943d57f8374ea9174ebd58d12954acb5a097e77394a44eb5f9e81fa34b5cd29c
+
+run started:
+2026-09-28T12:36:45.134502+00:00
+
+run finished:
+2026-09-28T12:38:40.669160+00:00
+```
+
+The frozen output directory is:
+
+```text
+derived/openlibrary_author_source_v1/
+```
+
+and contains synchronized TSV and Parquet releases for:
+
+```text
+openlibrary_current_work_records_v1
+openlibrary_current_work_authors_v1
+openlibrary_author_records_v1
+openlibrary_author_names_v1
+openlibrary_missing_authors_v1
+```
+
+plus:
+
+```text
+openlibrary_author_source_v1_manifest.json
+```
+
+The frozen release contains:
+
+```text
+current Open Library targets:          34,789
+Work → Author edges:                   37,652
+unique referenced Author IDs:          16,405
+Author records found:                  16,402
+Author records missing:                     3
+author-name evidence rows:             57,510
+
+targets without author entries:           354
+targets with >1 author entry:            1,730
+
+name non-empty:                        16,402
+personal_name non-empty:               14,277
+fuller_name non-empty:                     82
+```
+
+The three unresolved Author references are:
+
+```text
+OL1176752W   The Dewy Morn: A Novel
+  author ordinal 1 → /authors/OL6789084A
+
+OL36050583W  Jude the Obscure
+  author ordinal 0 → /authors/OL6817526A
+
+OL41363589W  Tales of the Fish Patrol
+  author ordinal 0 → /authors/OL9258086A
+```
+
+All three references are present in the fixed 2026-02-28 Works dump, but
+none of the three Author IDs occurs in either the fixed 2026-02-28 Authors
+dump or the separately preserved September 2026 `authors_latest` dump.
+They are therefore retained as unresolved source references rather than
+silently repaired or manually replaced.
+
+The audit also demonstrated why Open Library `Work.authors` must not be
+treated as synonymous with a definitive original-author list. For example,
+the current Open Library Work for *The Prisoner of Zenda* contains 16 author
+edges: Anthony Hope is ordinal 0, alongside 15 additional person or
+organization records, including Gary Hoppenstand, Diane Mowat, Alan Marks,
+and Smidgen Press. The source `authors` relation itself does not establish
+that all of these records represent original literary authorship.
+Accordingly, every source-native edge and its ordinal are preserved, while
+selection of a retrieval author is a separate downstream decision.
+
+The production run was preceded by an independent pre-freeze run. After
+execution-provenance metadata was added to the builder, the production run
+was repeated from a clean Git worktree. All ten data outputs (five TSV and
+five Parquet files) were byte-for-byte identical between the two runs by
+SHA256 comparison.
+
+The pre-freeze audit copy is retained outside the repository at:
+
+```text
+/media/hdd1/user/tsutsui/openlibrary/audit/
+openlibrary_author_source_v1_prefreeze_20260928/
+```
+
+The production execution log is retained locally at:
+
+```text
+/home/tsutsui/canon-pipeline-openalex/
+logs/openlibrary_author_source_v1_20260928.log
+```
+
+The log is intentionally not a repository artifact because `logs/*.log` is
+ignored. Machine-readable release provenance, input/output hashes, counts,
+and execution metadata are instead preserved in the committed manifest.
 
 ## 3. Recoverable historical construction
 
