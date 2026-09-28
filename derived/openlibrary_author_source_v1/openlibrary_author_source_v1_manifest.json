@@ -1,0 +1,110 @@
+{
+  "counts": {
+    "author_name_evidence_rows": 57510,
+    "author_records_found": 16402,
+    "author_records_missing": 3,
+    "current_targets": 34789,
+    "fuller_name_nonempty": 82,
+    "name_nonempty": 16402,
+    "personal_name_nonempty": 14277,
+    "targets_with_multiple_author_entries": 1730,
+    "targets_without_author_entries": 354,
+    "unique_referenced_author_ids": 16405,
+    "work_author_edges": 37652
+  },
+  "created_at": "2026-09-28",
+  "execution": {
+    "argv": [
+      "/home/tsutsui/venvs/canon/bin/python3",
+      "scripts/build_openlibrary_author_source_v1.py",
+      "--works-dump",
+      "/media/hdd1/user/tsutsui/openlibrary/ol_dump_works_2026-02-28.txt.gz",
+      "--authors-dump",
+      "/media/hdd1/user/tsutsui/openlibrary/ol_dump_authors_2026-02-28.txt.gz"
+    ],
+    "builder_git_branch": "(detached)",
+    "builder_git_commit": "0d77b598b38f9b96c9870fafe8a57a344a8fca7a",
+    "builder_script": "scripts/build_openlibrary_author_source_v1.py",
+    "builder_script_sha256": "943d57f8374ea9174ebd58d12954acb5a097e77394a44eb5f9e81fa34b5cd29c",
+    "execution_worktree": "/home/tsutsui/canon-pipeline-openalex",
+    "git_clean_at_start": true,
+    "pandas_version": "3.0.5",
+    "pyarrow_version": "25.0.1",
+    "python_executable": "/home/tsutsui/venvs/canon/bin/python3",
+    "python_version": "3.12.3",
+    "run_finished_at_utc": "2026-09-28T12:38:40.669160+00:00",
+    "run_started_at_utc": "2026-09-28T12:36:45.134502+00:00"
+  },
+  "inputs": {
+    "analysis_targets": {
+      "artifact": "derived/identity/openlibrary_analysis_targets_v1.parquet",
+      "rows": 34789,
+      "sha256": "7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21"
+    },
+    "authors_dump": {
+      "local_path_at_run": "/media/hdd1/user/tsutsui/openlibrary/ol_dump_authors_2026-02-28.txt.gz",
+      "provenance_manifest": "derived/openlibrary_authors_dump_reacquisition_20260928_manifest.json",
+      "sha256": "9e28a45c3db56f7d89eceaa01024865bacc458c84fc83d29044f6897987a363d",
+      "size_bytes": 755365970,
+      "snapshot_date": "2026-02-28",
+      "source_url": "https://archive.org/download/ol_dump_2026-02-28/ol_dump_authors_2026-02-28.txt.gz"
+    },
+    "works_dump": {
+      "local_path_at_run": "/media/hdd1/user/tsutsui/openlibrary/ol_dump_works_2026-02-28.txt.gz",
+      "provenance_manifest": "derived/openlibrary_dump_reacquisition_20260928_manifest.json",
+      "sha256": "a4714480bd20a7ad41538653d69ed43a012efecfba57cd5194edb2768cfc26ad",
+      "size_bytes": 3920616854,
+      "snapshot_date": "2026-02-28",
+      "source_url": "https://archive.org/download/ol_dump_2026-02-28/ol_dump_works_2026-02-28.txt.gz"
+    }
+  },
+  "outputs": {
+    "author_names_parquet": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_author_names_v1.parquet",
+      "sha256": "45f9e39059e074089cf9d93a5dd684574dd0a3d6c95b86e0ff71b9786a2d0aed"
+    },
+    "author_names_tsv": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_author_names_v1.tsv",
+      "sha256": "0e83ea10c9973839271ebabb628225557c919e0a46e45b9a8395992c05c8f84c"
+    },
+    "author_records_parquet": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_author_records_v1.parquet",
+      "sha256": "5652124edd9e26387848e444fac8704c5bf551dd28d3bd1f6187741c7f2263dc"
+    },
+    "author_records_tsv": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_author_records_v1.tsv",
+      "sha256": "e081b87ea7b3ba45683ef663e81ebd570b26b0b3ce0af59fb10a31a1af34cef8"
+    },
+    "missing_authors_parquet": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_missing_authors_v1.parquet",
+      "sha256": "9b2d01ddd33c099bec948db84afa96467fcc1beba4c03f41790818806306ff36"
+    },
+    "missing_authors_tsv": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_missing_authors_v1.tsv",
+      "sha256": "9f6a5958b938135cd09c38744e71081dec02779e623b20d2875c36f4f663a56c"
+    },
+    "work_authors_parquet": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_current_work_authors_v1.parquet",
+      "sha256": "104d5484a1b78d553840408644581c4606cb52529331359d480aa372103d6286"
+    },
+    "work_authors_tsv": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_current_work_authors_v1.tsv",
+      "sha256": "05fa01b9325e58ca9ca962ddd4decc92551b93edf17d158970b0b650de00f2e6"
+    },
+    "work_records_parquet": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_current_work_records_v1.parquet",
+      "sha256": "afc8e7b6e37762b93c3471a4ccf122becec326307a237c41deb268946c581f16"
+    },
+    "work_records_tsv": {
+      "artifact": "derived/openlibrary_author_source_v1/openlibrary_current_work_records_v1.tsv",
+      "sha256": "fc91775845c387ea8a833051bcd8d18b86d7fb0b5c0638b3dc254fb7ccb9d52b"
+    }
+  },
+  "release": "openlibrary-author-source-v1",
+  "semantics": {
+    "author_records": "Source-native Open Library Author records referenced by current Work.author edges and extracted from the fixed 2026-02-28 Authors dump.",
+    "current_target_source": "Current Open Library analysis targets from openlibrary_analysis_targets_v1.",
+    "important_note": "Open Library Work.authors entries are preserved as source evidence and are not assumed to be equivalent to original literary authorship. No query-author selection is performed in this release.",
+    "work_author_edges": "Source-native Work.authors entries re-extracted from the fixed 2026-02-28 Open Library Works dump."
+  }
+}
