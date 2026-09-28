@@ -1,0 +1,37 @@
+{
+  "added_review_batch": {
+    "method": "manual bibliographic review with ChatGPT assistance",
+    "review_ids": [
+      "OAR0041-OAR0060"
+    ],
+    "rows": 20
+  },
+  "counts": {
+    "ordinal0_retrieval_safe": {
+      "NO": 8,
+      "PENDING": 95,
+      "YES": 52
+    },
+    "pending": 95,
+    "recommended_query_author_action": {
+      "NO_OL_AUTHOR": 5,
+      "PENDING": 95,
+      "USE_MULTIPLE_OL_AUTHORS": 6,
+      "USE_ORDINAL0": 46,
+      "USE_OTHER_ORDINAL": 3
+    },
+    "reviewed": 60,
+    "rows": 155
+  },
+  "created_at": "2026-09-28",
+  "output": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_adjudication_results_v3.tsv",
+    "sha256": "2e4c3b695314e2cb0233a0896c210d02508ae131db3813aebf02463d289083d8"
+  },
+  "release": "openlibrary-query-author-human-adjudication-results-v3",
+  "source_results": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_adjudication_results_v2.tsv",
+    "release": "openlibrary-query-author-human-adjudication-results-v2",
+    "sha256": "fec613d6c7eea4320577970f00e35fbbc972a1ecfffd59d948c5ee343ebf4bfa"
+  }
+}
