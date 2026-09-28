@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "by_bucket": {
+      "MULTI_BASELINE": 50,
+      "MULTI_HIGH": 5,
+      "MULTI_LOW": 50,
+      "MULTI_MEDIUM": 50
+    },
+    "rows": 155
+  },
+  "created_at": "2026-09-28",
+  "input": {
+    "artifact": "derived/openlibrary_query_author_audit_v1/openlibrary_multi_author_audit_v1.tsv",
+    "sha256": "10afeff261b0ed3d40fc107c385308210114974c7eba3cc6008803de9ca227a9",
+    "source_release": "openlibrary-query-author-audit-v1"
+  },
+  "output": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_v1.tsv",
+    "sha256": "01d34ce11c6e53e2602728e8efb3389ee1d7c41a8df3d846e2aa382e359c6296"
+  },
+  "purpose": "Stratified manual review of multi-author Open Library targets before freezing query_author_selection_rule v1.",
+  "release": "openlibrary-query-author-human-review-v1",
+  "review_question": "Is Open Library author ordinal 0 safe to use as the retrieval author in an OpenAlex title+author query for this target?",
+  "review_values": {
+    "ordinal0_retrieval_safe": [
+      "YES",
+      "NO",
+      "UNCLEAR"
+    ],
+    "review_case_type": [
+      "straightforward",
+      "duplicate_same_person",
+      "translator_editor_adapter",
+      "coauthor_collaborator",
+      "anthology_collection",
+      "organization_or_publisher",
+      "missing_author_record",
+      "target_or_scope_problem",
+      "other"
+    ]
+  },
+  "sampling": {
+    "MULTI_BASELINE": 50,
+    "MULTI_HIGH": "all",
+    "MULTI_LOW": 50,
+    "MULTI_MEDIUM": 50,
+    "seed": 20260928
+  }
+}
