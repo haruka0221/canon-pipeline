@@ -95,6 +95,57 @@ It was acquired later for author-name and author-identity work and should
 therefore be documented separately from the Works/Editions population-source
 lineage.
 
+### 2.2 2026-09-28 Authors dump re-acquisition
+
+Repository documentation from March 2026 refers to an Open Library Authors
+dump named:
+
+```text
+raw/ol_dump/ol_dump_authors_2026-02-28.txt.gz
+```
+
+and `scripts/build_author_lookup.py` was written to consume that fixed
+2026-02-28 Authors snapshot.
+
+During the 2026-09-28 provenance audit, however, the historical local copy of
+that file could not be found. A fixed copy of the same published Open Library
+2026-02-28 Authors snapshot was therefore re-acquired from Archive.org.
+
+```text
+source:
+https://archive.org/download/ol_dump_2026-02-28/ol_dump_authors_2026-02-28.txt.gz
+
+snapshot date:
+2026-02-28
+
+re-acquisition date:
+2026-09-28
+
+local server path:
+/media/hdd1/user/tsutsui/openlibrary/ol_dump_authors_2026-02-28.txt.gz
+
+size:
+755,365,970 bytes
+
+SHA256:
+9e28a45c3db56f7d89eceaa01024865bacc458c84fc83d29044f6897987a363d
+
+gzip integrity check:
+passed
+```
+
+A separate later file is preserved at:
+
+```text
+/media/hdd1/Openlibrary/ol_dump_authors_latest.txt.gz
+```
+
+That file is a distinct later Authors dump and must not be treated as the
+2026-02-28 source snapshot.
+
+The fixed 2026-02-28 Authors dump is used when source-native author records
+need to be aligned with the 2026-02-28 Works and Editions snapshot.
+
 ## 3. Recoverable historical construction
 
 Git commit `7771e0d` introduced

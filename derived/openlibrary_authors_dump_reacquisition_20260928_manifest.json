@@ -1,0 +1,23 @@
+{
+  "record_type": "openlibrary_dump_reacquisition",
+  "created_at": "2026-09-28",
+  "source": "Open Library",
+  "artifact_type": "authors_dump",
+  "snapshot_date": "2026-02-28",
+  "source_url": "https://archive.org/download/ol_dump_2026-02-28/ol_dump_authors_2026-02-28.txt.gz",
+  "reacquisition_date": "2026-09-28",
+  "reacquisition_local_path": "/media/hdd1/user/tsutsui/openlibrary/ol_dump_authors_2026-02-28.txt.gz",
+  "size_bytes": 755365970,
+  "sha256": "9e28a45c3db56f7d89eceaa01024865bacc458c84fc83d29044f6897987a363d",
+  "gzip_integrity_check": "passed",
+  "relationship_to_project": "fixed author snapshot aligned with the 2026-02-28 Open Library Works and Editions snapshot",
+  "historical_original_sha256_available": false,
+  "notes": [
+    "Repository documentation from March 2026 refers to an authors dump named ol_dump_authors_2026-02-28.txt.gz, but the historical local copy was not found during the 2026-09-28 audit.",
+    "A separate later file, /media/hdd1/Openlibrary/ol_dump_authors_latest.txt.gz, is preserved as a distinct later snapshot and is not treated as the 2026-02-28 Authors dump."
+  ],
+  "documentation": {
+    "authoritative_provenance_note": "docs/POPULATION_PROVENANCE.md",
+    "historical_provenance_record": "derived/prov.json"
+  }
+}

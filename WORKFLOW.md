@@ -3,6 +3,15 @@
 Last updated: 2026-09-28
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-09-28 — The fixed Open Library Authors dump for the
+2026-02-28 snapshot was re-acquired from the original Archive.org release
+after the historical local copy could not be found. The re-acquired file is
+755,365,970 bytes, passes `gzip -t`, and has SHA256
+`9e28a45c3db56f7d89eceaa01024865bacc458c84fc83d29044f6897987a363d`.
+A separately preserved `ol_dump_authors_latest.txt.gz` is treated as a later,
+distinct snapshot. Details are recorded in `docs/POPULATION_PROVENANCE.md`.
+
+
 Update note: 2026-09-28 — The Open Library Works dump for the frozen
 2026-02-28 snapshot was re-acquired from the original Archive.org release
 after the historical local raw copy was found to be no longer preserved.
