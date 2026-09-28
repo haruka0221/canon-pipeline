@@ -1,0 +1,53 @@
+{
+  "counts": {
+    "current_targets": 34789,
+    "manual_review_sample_rows": 125,
+    "maximum_author_entry_count": 54,
+    "multi": 1730,
+    "multi_author_count_ge_5": 139,
+    "multi_duplicate_normalized_name": 167,
+    "multi_ordinal0_org_like_heuristic": 4,
+    "multi_ordinal0_record_missing": 1,
+    "multi_with_any_missing_author_record": 2,
+    "no_author_entry": 354,
+    "single_resolved": 32704,
+    "single_unresolved": 1
+  },
+  "created_at": "2026-09-28",
+  "important_note": "Organization-like and other risk flags are heuristic review aids only and are not source truth.",
+  "input_sha256": {
+    "derived/openlibrary_author_source_v1/openlibrary_author_records_v1.parquet": "5652124edd9e26387848e444fac8704c5bf551dd28d3bd1f6187741c7f2263dc",
+    "derived/openlibrary_author_source_v1/openlibrary_current_work_authors_v1.parquet": "104d5484a1b78d553840408644581c4606cb52529331359d480aa372103d6286",
+    "derived/openlibrary_author_source_v1/openlibrary_current_work_records_v1.parquet": "afc8e7b6e37762b93c3471a4ccf122becec326307a237c41deb268946c581f16"
+  },
+  "outputs": {
+    "all_work_status": {
+      "artifact": "derived/openlibrary_query_author_audit_v1/openlibrary_query_author_status_v1.tsv",
+      "sha256": "e0c77c1aa0145de262e79893ddf94fade18d4d435f96dfb57d146dccdab7428a"
+    },
+    "author_count_distribution": {
+      "artifact": "derived/openlibrary_query_author_audit_v1/author_count_distribution_v1.tsv",
+      "sha256": "2006d04d5180fb9b3208aa83f02a662ef700291ca3e5a9e6f3c07a97e9e105ff"
+    },
+    "complexity_summary": {
+      "artifact": "derived/openlibrary_query_author_audit_v1/selection_complexity_summary_v1.tsv",
+      "sha256": "98ecd0a15b0b58da324d795044a7d98e1540f1f72111d06fcca526804694c87b"
+    },
+    "multi_author_audit": {
+      "artifact": "derived/openlibrary_query_author_audit_v1/openlibrary_multi_author_audit_v1.tsv",
+      "sha256": "10afeff261b0ed3d40fc107c385308210114974c7eba3cc6008803de9ca227a9"
+    },
+    "review_bucket_summary": {
+      "artifact": "derived/openlibrary_query_author_audit_v1/multi_review_bucket_summary_v1.tsv",
+      "sha256": "d8dcd1a127db7d54b9cafdf6c6b2a04b065b4bad57ca8bd70b090f5e8acf49fb"
+    },
+    "review_sample": {
+      "artifact": "derived/openlibrary_query_author_audit_v1/multi_author_manual_review_sample_v1.tsv",
+      "sha256": "b76ba1e2df0ed695fd623f2c7c37d1c8769ed4485e8c0c2f85af6bfa573c29f3"
+    }
+  },
+  "purpose": "Audit the frozen Open Library author source layer before freezing query_author_selection_rule v1.",
+  "release": "openlibrary-query-author-audit-v1",
+  "source_manifest": "derived/openlibrary_author_source_v1/openlibrary_author_source_v1_manifest.json",
+  "source_release": "openlibrary-author-source-v1"
+}
