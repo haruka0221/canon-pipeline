@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-28",
+  "output": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_adjudication_v1.tsv",
+    "rows": 155,
+    "sha256": "2e0c6617030a4187cebe4459bbe947e792045b2ac30befe56fd3859548d6970f"
+  },
+  "release": "openlibrary-query-author-human-adjudication-v1",
+  "semantics": {
+    "important_note": "The review asks whether an Open Library author value is safe and useful as an OpenAlex retrieval disambiguator. It does not attempt to establish definitive literary authorship.",
+    "ordinal0_retrieval_safe": [
+      "YES",
+      "NO",
+      "UNCLEAR",
+      "PENDING"
+    ],
+    "preferred_author_names": "Human-readable corresponding author names, NONE, UNCLEAR, or PENDING.",
+    "preferred_author_ordinals": "Semicolon-separated OL author ordinals, NONE, UNCLEAR, or PENDING.",
+    "recommended_query_author_action": [
+      "USE_ORDINAL0",
+      "USE_OTHER_ORDINAL",
+      "USE_MULTIPLE_OL_AUTHORS",
+      "NO_OL_AUTHOR",
+      "UNCLEAR",
+      "PENDING"
+    ],
+    "review_case_types": {
+      "allowed_values": [
+        "straightforward",
+        "duplicate_same_person",
+        "name_variant_or_error",
+        "translator_editor_adapter",
+        "coauthor_collaborator",
+        "anthology_collection",
+        "corporate_or_institutional_author",
+        "publisher_or_production_entity",
+        "missing_author_record",
+        "target_or_scope_problem",
+        "other",
+        "PENDING"
+      ],
+      "format": "Semicolon-separated one or more values."
+    },
+    "review_evidence_basis": [
+      "PACKET_ONLY",
+      "EXTERNAL_BIBLIOGRAPHIC",
+      "PACKET_AND_EXTERNAL",
+      "PENDING"
+    ],
+    "review_evidence_refs": "Identifiers, URLs, or short source labels supporting the adjudication, or PENDING."
+  },
+  "source_review_packet": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_v1.tsv",
+    "rows": 155,
+    "sha256": "01d34ce11c6e53e2602728e8efb3389ee1d7c41a8df3d846e2aa382e359c6296"
+  }
+}
