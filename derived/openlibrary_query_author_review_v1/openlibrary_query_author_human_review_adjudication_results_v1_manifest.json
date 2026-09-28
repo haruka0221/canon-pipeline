@@ -1,0 +1,40 @@
+{
+  "calibration_batch": {
+    "method": "manual bibliographic calibration with ChatGPT assistance",
+    "review_ids": [
+      "OAR0001-OAR0020"
+    ],
+    "rows": 20
+  },
+  "counts": {
+    "ordinal0_retrieval_safe": {
+      "NO": 7,
+      "PENDING": 135,
+      "YES": 13
+    },
+    "pending": 135,
+    "recommended_query_author_action": {
+      "NO_OL_AUTHOR": 4,
+      "PENDING": 135,
+      "USE_MULTIPLE_OL_AUTHORS": 3,
+      "USE_ORDINAL0": 10,
+      "USE_OTHER_ORDINAL": 3
+    },
+    "reviewed": 20,
+    "rows": 155
+  },
+  "created_at": "2026-09-28",
+  "output": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_adjudication_results_v1.tsv",
+    "sha256": "1cb17e4cab6902b64af388f29f4ddb8a3a7d4cb3d9e3679a3de2c194ffb76261"
+  },
+  "release": "openlibrary-query-author-human-adjudication-results-v1",
+  "source_review_packet": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_v1.tsv",
+    "sha256": "01d34ce11c6e53e2602728e8efb3389ee1d7c41a8df3d846e2aa382e359c6296"
+  },
+  "source_template": {
+    "artifact": "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_adjudication_v1.tsv",
+    "sha256": "2e0c6617030a4187cebe4459bbe947e792045b2ac30befe56fd3859548d6970f"
+  }
+}
