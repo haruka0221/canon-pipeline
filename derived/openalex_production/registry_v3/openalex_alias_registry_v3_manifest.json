@@ -1,0 +1,80 @@
+{
+  "alias_normalization": {
+    "note": "This is alias-string normalization for registry diagnostics. It is not the future normalized_query_signature execution rule.",
+    "rule": [
+      "Unicode NFKC",
+      "Unicode casefold",
+      "collapse all whitespace runs to one ASCII space",
+      "strip leading/trailing whitespace",
+      "do not remove punctuation",
+      "do not remove leading articles"
+    ],
+    "version": "openalex_alias_title_norm_v1"
+  },
+  "counts": {
+    "alias_rows": 34789,
+    "corrected_historical_target_rows": 3,
+    "cross_w_normalized_title_collision_values": 1635,
+    "cross_w_normalized_title_collision_w_memberships": 3644,
+    "empty_normalized_titles": 0,
+    "empty_raw_titles": 0,
+    "max_openlibrary_aliases_per_w": 6,
+    "resolved_alias_rows": 32706,
+    "resolved_w_targets": 32086,
+    "target_rows": 32847,
+    "unresolved_alias_rows": 2083,
+    "unresolved_unit_targets": 761,
+    "within_w_alias_rows_in_normalized_duplicate_groups": 977,
+    "within_w_normalized_duplicate_groups": 465,
+    "works_with_multiple_openlibrary_aliases": 547
+  },
+  "created_at": "2026-09-29",
+  "inputs": {
+    "derived/identity/aggregation_decisions_v4.parquet": "f66657c80af318bce077f763018328a46bb570bf8cdf1e200f76fc751c6dd236",
+    "derived/identity/aggregation_review_members_v1.parquet": "c4a64b594bba62d2761ee8b3bbfeb5f2854f65357af4620809f11a0f0de542f7",
+    "derived/identity/openlibrary_analysis_targets_v1.parquet": "7200fe0721a2a112da8351aea2561914c71322ccac45764d97c425ef5046ff21",
+    "derived/identity/project_works_v4.parquet": "ad238bec15510ab62ef7052452658f23375e62e8927cf61cce9ab37ae76384b2",
+    "derived/identity/source_entities_v2.parquet": "4397d9406632a9507d10bc20024711fce28b22136ed3ef5447451bd12200b637",
+    "derived/identity/work_identity_map_v4.parquet": "a08fd8e055c3718ebc5ea44bb6cd5297eb128881b46ecca6d842fc610087af6e"
+  },
+  "next_step": "define_and_version_r2_representative_alias_rule",
+  "outputs": {
+    "aliases_parquet": {
+      "artifact": "derived/openalex_production/registry_v3/openalex_aliases_v3.parquet",
+      "sha256": "df376ddf1b3e98531b464bd9f4330f49371e8783bdb4bfe9d54c11ea0540f269"
+    },
+    "aliases_tsv": {
+      "artifact": "derived/openalex_production/registry_v3/openalex_aliases_v3.tsv",
+      "sha256": "005760580f04f7ac04353a6354ad386df56e54a8423550379e9e3bb3b8e390e4"
+    },
+    "targets_parquet": {
+      "artifact": "derived/openalex_production/registry_v3/openalex_targets_v3.parquet",
+      "sha256": "5be3ac5fe3e7177983cef65761fbdff1112b6ab297af992b1a9825ce5ab26d09"
+    },
+    "targets_tsv": {
+      "artifact": "derived/openalex_production/registry_v3/openalex_targets_v3.tsv",
+      "sha256": "ff8fa5cdada051dc65243a8686c51adf3dbb32ba33eb4c3c7dc75909beeeb1f1"
+    }
+  },
+  "purpose": "Re-express the 34,789 current Open Library retrieval-title targets against project-native W identity, while preserving the 761 intentionally unresolved aggregation units in a separate lane.",
+  "registry_version": "v3",
+  "release": "openalex-alias-registry-v3",
+  "semantics": {
+    "alias_quality": "All frozen current Open Library target titles are marked usable as source title evidence. Retrieval ambiguity, generic-title burden, and R4 eligibility are later query/retrieval diagnostics and are not encoded as alias-quality exclusions.",
+    "alias_scope_v3": "This first v3 alias release contains one title alias for each current Open Library analysis target. Goodreads/Wikidata titles are not promoted here; they remain corroborating evidence until a separate uniform alias-expansion rule is defined.",
+    "duplicate_policy": "Alias rows are not deduplicated across source entities, within W, or across W. Provenance survives normalization collisions.",
+    "master_resolved_unit": "project_work_id from project_works_v4",
+    "query_author_policy": "openlibrary-query-author-selection-v1 is intentionally not merged into the alias registry. It will be joined at logical-query creation.",
+    "representative_title": "No R2 representative alias is selected in this release. That is the next separately versioned milestone.",
+    "resolved_lane": "One OpenAlex target row per released project W. All current Open Library target titles assigned to that W are retained as separate alias rows.",
+    "unresolved_lane": "One target row per aggregation_decisions_v4 MANUAL_REVIEW_REQUIRED unit, with project_work_id left null/empty. Its current Open Library titles are retained as aliases but cannot contribute to current W-level visibility."
+  },
+  "source_releases": {
+    "aggregation_decision_release": "aggregation-decisions-v4",
+    "identity_release": "project-works-v4",
+    "openlibrary_target_release": "openlibrary-analysis-targets-v1",
+    "scope_release": "not_applied",
+    "source_entity_release": "source-entities-v2"
+  },
+  "status": "frozen_alias_and_target_registry"
+}

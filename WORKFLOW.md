@@ -3,6 +3,48 @@
 Last updated: 2026-09-29
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-09-29 — The OpenAlex v3 retrieval-registry foundation
+was constructed against the released project identity layer. The current
+alias registry contains one Open Library title alias for each of the 34,789
+current Open Library analysis targets; it is an OL-title alias layer and does
+not yet mean that Goodreads, Wikidata, or other source aliases have been
+integrated into the OpenAlex registry. The registry contains 32,086 resolved
+project W targets and 761 unresolved aggregation-unit targets. The 34,789
+alias rows comprise 32,706 resolved-W aliases and 2,083 unresolved-source
+aliases.
+
+R2 representative-alias selection v1 uses the project identity anchor as a
+deterministic retrieval baseline: `project_works_v4.origin_unit_anchor_entity_id`
+for resolved W and the unresolved unit anchor for unresolved units. It is not
+a best-title, canonical-title, or literary-historical title judgment. The
+logical query registry contains 101,710 calibration-candidate rows:
+32,493 R2, 34,428 R3, and 34,789 R4. By target lane, these are 31,734 /
+32,354 / 32,706 for resolved W and 759 / 2,074 / 2,083 for unresolved
+sources. R3 uses the primary query author selected for each alias's own Open
+Library source target. The 22 human-reviewed additional-author cases remain
+calibration evidence and are not automatic production routes. All 34,789 R4
+title-only rows remain calibration candidates; full title-only production
+routing has not been frozen.
+
+Execution normalization was calibrated separately from literary-work identity.
+`openalex_execution_query_norm_v1` applies Unicode NFKC, Unicode casefold,
+consecutive-whitespace collapse, and outer-whitespace stripping while
+preserving punctuation, apostrophes, hyphens/dashes, leading articles,
+diacritics, and non-Latin scripts. The 101,710 logical queries map to 63,624
+physical execution signatures: 32,237 title+author and 31,387 title-only.
+Execution deduplication therefore removes 38,086 redundant physical searches
+without discarding logical query provenance. There are 2,474 execution
+signatures shared by more than one resolved W and 3 shared by more than one
+unresolved unit; these are expected retrieval-string collisions and do not
+imply literary-work identity. The maximum logical-query fan-out is 37, for
+the generic R4 title `Short stories`.
+
+Artifacts are under `derived/openalex_production/registry_v3/`. Logical
+`query_id` provenance remains separate from `normalized_query_signature`;
+the latter is only a physical-execution deduplication key. R2/R3/R4
+production routing, including R4 title-only eligibility, remains unfrozen
+pending W-level retrieval calibration.
+
 Update note: 2026-09-29 — Open Library query-author selection for OpenAlex v3
 was calibrated and frozen as `openlibrary-query-author-selection-v1` in
 commit `3c00110`. The frozen Open Library author source contains 1,730

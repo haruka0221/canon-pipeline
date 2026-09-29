@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "by_route": {
+      "R2": 32493,
+      "R3": 34428,
+      "R4": 34789
+    },
+    "logical_queries": 101710,
+    "r2_r3_exact_logical_string_overlap": 32493,
+    "title_author_queries": 66921,
+    "title_only_queries": 34789
+  },
+  "created_at": "2026-09-29",
+  "inputs": {
+    "derived/openalex_production/registry_v3/openalex_alias_registry_v3_manifest.json": "d59935ca7d6e8db1eff00bcf53473da0f22dac49afe0a233c42e780baa216d66",
+    "derived/openalex_production/registry_v3/openalex_aliases_v3.parquet": "df376ddf1b3e98531b464bd9f4330f49371e8783bdb4bfe9d54c11ea0540f269",
+    "derived/openalex_production/registry_v3/openalex_r2_representative_aliases_v1.parquet": "fb9213b86dbfc18a452e1362b98e5455a4e27beb5d42a72205cbacb917a93cea",
+    "derived/openalex_production/registry_v3/openalex_r2_representative_aliases_v1_manifest.json": "b666d3d488f50562244cfbeca115f3b7ea89ed65baa42edf0f60d820d31d70ef",
+    "derived/openlibrary_query_author_selection_v1/openlibrary_query_author_selection_v1.parquet": "441d7ab5552355cfa3fc669595007fe301cd35c6e5854dd4897216bb254c3cae",
+    "derived/openlibrary_query_author_selection_v1/openlibrary_query_author_selection_v1_manifest.json": "9212f322a970c1c53db4878824d72b0acb65e9bc4406762f097c1dfdcbb2d329"
+  },
+  "next_step": "construct_normalized_execution_signatures",
+  "outputs": {
+    "parquet": {
+      "artifact": "derived/openalex_production/registry_v3/openalex_queries_v3.parquet",
+      "sha256": "8bc842d527e2e688799d03136080d12373759f85dde8be5a4b96f641e02082e4"
+    },
+    "tsv": {
+      "artifact": "derived/openalex_production/registry_v3/openalex_queries_v3.tsv",
+      "sha256": "a478b6ad882ec2896e3b1554ec955e3a0f1d95ac32876a21adb96d9de9d52228"
+    }
+  },
+  "purpose": "Freeze logical OpenAlex calibration queries separately from physical execution deduplication.",
+  "query_registry_version": "v3",
+  "release": "openalex-query-registry-v3",
+  "semantics": {
+    "R2": "Representative identity-anchor alias plus its frozen Open Library-derived primary query author. Targets without a selected query author do not receive an R2 title-author query.",
+    "R3": "All current Open Library title aliases whose own source target has a selected primary query author.",
+    "R4": "All current Open Library title aliases as title-only calibration candidates. Presence in the logical registry does not imply final production routing eligibility.",
+    "query_id": "Stable sequential logical-query identifier within registry v3. IDs are assigned after deterministic sorting by target, route, alias, query form, title, and author.",
+    "r2_r3_overlap_policy": "R2 and R3 logical queries are both preserved even where their raw query strings are identical. Execution-level deduplication happens in the next registry layer.",
+    "scope_release": "not_applied"
+  },
+  "source_releases": {
+    "alias_registry": "openalex-alias-registry-v3",
+    "query_author_selection": "openlibrary-query-author-selection-v1",
+    "representative_aliases": "openalex-r2-representative-aliases-v1"
+  }
+}

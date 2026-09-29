@@ -718,6 +718,98 @@ Multiple logical `query_id` values may map to one execution signature.
 
 This separation permits efficient full-dump scanning without losing methodological provenance.
 
+### 13.1 Frozen v3 execution-registry implementation
+
+The first v3 execution-registry implementation uses:
+
+```text
+normalization rule:
+openalex_execution_query_norm_v1
+```
+
+with the following conservative operations:
+
+```text
+Unicode NFKC
+Unicode casefold
+collapse consecutive whitespace
+strip leading/trailing whitespace
+```
+
+The rule intentionally does not apply:
+
+```text
+punctuation deletion
+apostrophe deletion
+hyphen or dash deletion
+dash canonicalization
+leading-article deletion
+diacritic stripping
+ASCII transliteration
+non-Latin character deletion
+```
+
+Calibration compared this rule with both raw exact strings and more aggressive
+alternatives. A punctuation-spacing variant would reduce the execution count
+by only four additional signatures, while the historical ASCII-oriented
+normalization can destroy non-Latin title evidence. The conservative rule was
+therefore selected for v1.
+
+The current logical registry contains:
+
+```text
+logical queries                    101,710
+
+R2                                  32,493
+R3                                  34,428
+R4                                  34,789
+```
+
+By target lane:
+
+```text
+                         R2       R3       R4
+resolved_w            31,734   32,354   32,706
+unresolved_source        759    2,074    2,083
+```
+
+R2 is an identity-anchor retrieval baseline, not a canonical-title or
+best-title judgment. R3 uses the frozen primary query author belonging to each
+Open Library alias's own source target. Human-reviewed additional authors
+remain calibration evidence only. R4 rows remain calibration candidates and
+do not imply that all title-only queries will be executed in the final
+production policy.
+
+Under `openalex_execution_query_norm_v1`, the logical registry maps to:
+
+```text
+physical execution signatures       63,624
+title_author                         32,237
+title_only                           31,387
+logical rows saved by dedup          38,086
+```
+
+The physical layer is represented separately through:
+
+```text
+openalex_query_execution_map_v3
+    query_id -> execution_id / normalized_query_signature
+
+openalex_query_executions_v3
+    one row per normalized physical execution signature
+```
+
+The current registry contains 2,474 signatures shared by more than one
+resolved W and 3 shared by more than one unresolved aggregation unit. Such
+collisions are expected and do not imply identity. The largest observed
+fan-out is the generic title-only query `Short stories`, shared by 37 resolved
+W entities.
+
+The stable semantic execution key is `normalized_query_signature`, computed
+from query form, normalized title, and normalized author. Sequential
+`execution_id` values are release-local identifiers. All target, alias, route,
+and `query_id` provenance remains in the query-to-execution mapping.
+
 ---
 
 ## 14. Raw hit layer
@@ -1343,9 +1435,17 @@ retrieval freeze. Query-author selection is no longer in this list:
 
 ### 29.1 R2 representative-title selection
 
-The final representative-alias rule remains to be specified and versioned.
+A deterministic R2 baseline has now been versioned as
+`openalex-r2-representative-aliases-v1`.
 
-It must not rely on the historical `canonical` flag as if that flag established project-level title authority.
+For resolved W, it selects the alias corresponding to
+`project_works_v4.origin_unit_anchor_entity_id`; for unresolved units, it
+selects the unit-anchor alias. This is an identity-structural retrieval
+baseline, not a best-title or canonical-title judgment.
+
+Whether this baseline is retained unchanged in the final production retrieval
+policy remains subject to R2/R3/R4 retrieval calibration. The historical
+`canonical` flag is not treated as project-level title authority.
 
 ### 29.2 R4 operational routing policy
 
@@ -1359,26 +1459,31 @@ Character names and work-specific terminology remain experimental until separate
 
 ## 30. Immediate implementation sequence
 
-Completed OpenAlex v3 preparation milestones are:
+Completed OpenAlex v3 preparation and registry milestones are:
 
 1. author-source coverage audited for all 34,789 current Open Library targets;
 2. `openlibrary-author-source-v1` frozen;
 3. MULTI author-risk audit and 155-target stratified human review completed;
-4. `openlibrary-query-author-selection-v1` frozen in commit `3c00110`.
+4. `openlibrary-query-author-selection-v1` frozen in commit `3c00110`;
+5. W-based Open Library title alias registry v3 constructed;
+6. deterministic R2 representative-alias baseline v1 constructed;
+7. logical query registry v3 constructed with stable `query_id`;
+8. `openalex_execution_query_norm_v1` calibrated and the query-to-execution
+   registry constructed, reducing 101,710 logical queries to 63,624 physical
+   execution signatures without collapsing logical provenance.
 
 The next implementation steps are:
 
-1. construct the W-based alias registry v3;
-2. define and version the R2 representative-alias rule;
-3. construct the logical query registry with stable `query_id`;
-4. construct normalized execution signatures;
-5. rerun retrieval calibration at W level;
-6. evaluate R2 / R3 / R4 candidate burden, collisions, recall, and precision;
-7. freeze the production retrieval policy;
-8. perform the full OpenAlex scan;
-9. adjudicate candidate attribution / mention;
-10. aggregate accepted evidence to W-level scholarly visibility;
-11. keep unresolved source-target results separate until a later identity release.
+1. rerun retrieval calibration at W level using the v3 registries;
+2. evaluate R2 / R3 / R4 candidate burden, cross-target collisions,
+   incremental recall, precision, and review burden;
+3. determine whether additional uniform R3 author expansion is warranted;
+4. freeze the production retrieval-routing policy, including R4 eligibility;
+5. perform the full OpenAlex scan under the frozen policy;
+6. preserve query-hit and candidate-query evidence separately;
+7. adjudicate document scope, target attribution, and mention strength;
+8. aggregate accepted evidence to W-level scholarly visibility;
+9. keep unresolved source-target results separate until a later identity release.
 
 ---
 
