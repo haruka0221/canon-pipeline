@@ -51,8 +51,10 @@ references remain unresolved. There are 354 current targets with no
 resolved Author records contain `name`; `personal_name` is present for
 14,277 and `fuller_name` for 82. Open Library `Work.authors` is treated as
 source evidence, not as a guaranteed list of original literary authors.
-No OpenAlex `query_author_selection_rule` has yet been frozen. Author-source
-artifacts and their manifest are under
+At this 2026-09-28 checkpoint, no OpenAlex `query_author_selection_rule`
+had yet been frozen; this was superseded on 2026-09-29 by
+`openlibrary-query-author-selection-v1`. Author-source artifacts and their
+manifest are under
 `derived/openlibrary_author_source_v1/`; detailed provenance is recorded in
 `docs/POPULATION_PROVENANCE.md` and OpenAlex use is documented in
 `docs/OPENALEX_MATCHING_METHOD.md`.
