@@ -3,6 +3,40 @@
 Last updated: 2026-09-29
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-09-29 — The OpenAlex v3 retrieval-calibration
+population was frozen as `openalex-retrieval-calibration-sample-v1`.
+The sample is derived reproducibly from the frozen v3 logical-query and
+execution registries and is intended to remain fixed while R2/R3/R4 and
+author-text matching policies are compared.
+
+The calibration population contains 1,852 resolved project W and all 761
+unresolved aggregation units, for 2,613 target units total. All logical
+queries belonging to those targets are retained: 11,008 logical queries
+mapping to 5,785 unique physical execution IDs. Route counts are 2,259 R2,
+4,194 R3, and 4,555 R4. By lane, resolved W contribute 1,500 R2, 2,120 R3,
+and 2,472 R4 queries; the unresolved lane contributes 759 R2, 2,074 R3,
+and 2,083 R4 queries.
+
+Resolved-W selection is the union of seven predefined cohorts: a stable
+300-W baseline sample; all 547 multi-Open-Library-alias W; all 352 W without
+an R2 query; all 336 W with an R4 execution signature shared by at least four
+resolved W; a stable 150-W sample sensitive to conservative surname-first
+author reversal; a stable 100-W sample with a one-token R4 title; and a
+stable 100-W sample with a two-token R4 title. Randomized cohorts use
+SHA256 ranking of seed, cohort name, and project_work_id rather than a
+library-specific pseudo-random implementation.
+
+The frozen sample does not freeze the scholarly-text matching contract,
+A1/A2/A3 author matching, R2/R3/R4 production eligibility, R4 routing
+thresholds, or the final scholarly-visibility policy. Those remain subjects
+of retrieval calibration. Unresolved units remain a separate diagnostic lane
+and cannot contribute directly to current W-level visibility.
+
+Artifacts are under
+`derived/openalex_production/retrieval_calibration_sample_v1/`.
+The detailed design and next retrieval steps are documented in
+`docs/OPENALEX_MATCHING_METHOD.md`.
+
 Update note: 2026-09-29 — The OpenAlex v3 retrieval-registry foundation
 was constructed against the released project identity layer. The current
 alias registry contains one Open Library title alias for each of the 34,789

@@ -1,6 +1,6 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Design adopted for implementation; query-author selection v1 frozen; registry v3 not yet frozen  
+**Status:** Registry v3 and retrieval-calibration sample v1 frozen; retrieval matching policy under calibration  
 **Date:** 2026-09-29  
 **Current identity baseline:** `project_works_v4`  
 **Repository:** `haruka0221/canon-pipeline`  
@@ -812,6 +812,121 @@ and `query_id` provenance remains in the query-to-execution mapping.
 
 ---
 
+## 13.2 Frozen retrieval-calibration sample v1
+
+The first fixed population for comparing R2/R3/R4 retrieval behavior is:
+
+```text
+release:
+openalex-retrieval-calibration-sample-v1
+
+artifact directory:
+derived/openalex_production/retrieval_calibration_sample_v1/
+```
+
+The sample was frozen before retrieval-policy evaluation so that route or
+matching choices are not tuned by repeatedly changing the target population.
+
+Its target population is:
+
+```text
+resolved project W                    1,852
+unresolved aggregation units           761
+target units total                    2,613
+```
+
+All logical R2/R3/R4 queries associated with these target units are retained:
+
+```text
+logical queries                      11,008
+unique physical execution IDs        5,785
+
+R2                                   2,259
+R3                                   4,194
+R4                                   4,555
+```
+
+By target lane:
+
+```text
+                         R2       R3       R4
+resolved_w             1,500    2,120    2,472
+unresolved_source        759    2,074    2,083
+```
+
+The resolved-W population is the union of the following predefined cohorts:
+
+```text
+baseline_random                  300
+multi_alias_all                  547
+r2_missing_all                   352
+high_r4_collision_all            336
+a2_sensitive_random              150
+one_token_title_random           100
+two_token_title_random           100
+```
+
+The exhaustive cohorts retain all qualifying W. Random cohorts are selected
+by deterministic SHA256 ranking using:
+
+```text
+seed
++ ASCII Unit Separator
++ cohort name
++ ASCII Unit Separator
++ project_work_id
+```
+
+with seed:
+
+```text
+20260929
+```
+
+This avoids dependence on pandas or NumPy random-number implementation
+details.
+
+The cohort semantics are:
+
+- `baseline_random`: general resolved-W baseline;
+- `multi_alias_all`: every resolved W having more than one current Open
+  Library title alias, used especially to measure the incremental effect of
+  R3 over R2;
+- `r2_missing_all`: every resolved W lacking an R2 title-author query,
+  important for rescue-route evaluation;
+- `high_r4_collision_all`: every resolved W having at least one R4 execution
+  string shared by four or more resolved W;
+- `a2_sensitive_random`: a stable sample whose query-author evidence includes
+  a simple surname-first comma form suitable for conservative author-order
+  reversal testing;
+- `one_token_title_random` and `two_token_title_random`: stable samples for
+  high-risk short-title calibration.
+
+The union contains more members with a given feature than the nominal random
+cohort size when those W enter through another cohort. For example,
+`a2_sensitive` feature coverage in the final union is 222 W even though the
+dedicated A2-sensitive random cohort contains 150 W.
+
+All 761 unresolved units are retained in parallel for retrieval diagnostics.
+They are not W entities and cannot contribute directly to current W-level
+visibility.
+
+Freezing this sample does not freeze:
+
+```text
+title / abstract matching normalization
+A1 author matching
+A2 author-order variants
+A3 surname-only matching
+R2 / R3 / R4 production eligibility
+R4 operational thresholds
+final visibility judgment policy
+```
+
+Those decisions are evaluated against this fixed calibration population.
+
+---
+
 ## 14. Raw hit layer
 
 The raw retrieval layer must preserve one row per logical query / OpenAlex hit relationship where practical.
@@ -1474,16 +1589,22 @@ Completed OpenAlex v3 preparation and registry milestones are:
 
 The next implementation steps are:
 
-1. rerun retrieval calibration at W level using the v3 registries;
-2. evaluate R2 / R3 / R4 candidate burden, cross-target collisions,
+1. define and calibrate the snapshot scholarly-text matching contract against
+   the frozen retrieval-calibration sample v1;
+2. compare A1 full-name, A2 conservative author-order-variant, and
+   experimental A3 surname-anchor evidence;
+3. scan the fixed OpenAlex snapshot once for title / abstract retrieval
+   evidence while retaining query-level provenance;
+4. evaluate R2 / R3 / R4 candidate burden, cross-target collisions,
    incremental recall, precision, and review burden;
-3. determine whether additional uniform R3 author expansion is warranted;
-4. freeze the production retrieval-routing policy, including R4 eligibility;
-5. perform the full OpenAlex scan under the frozen policy;
-6. preserve query-hit and candidate-query evidence separately;
-7. adjudicate document scope, target attribution, and mention strength;
-8. aggregate accepted evidence to W-level scholarly visibility;
-9. keep unresolved source-target results separate until a later identity release.
+5. determine whether any uniform author expansion beyond the frozen primary
+   query author is warranted;
+6. freeze the production retrieval-routing policy, including R4 eligibility;
+7. perform the full OpenAlex production scan under the frozen policy;
+8. preserve query-hit and candidate-query evidence separately;
+9. adjudicate document scope, target attribution, and mention strength;
+10. aggregate accepted evidence to W-level scholarly visibility;
+11. keep unresolved source-target results separate until a later identity release.
 
 ---
 
