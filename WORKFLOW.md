@@ -1,7 +1,42 @@
 # WORKFLOW.md — canon-pipeline
 **Research Data and Analysis Workflow**
-Last updated: 2026-09-28
+Last updated: 2026-09-29
 Status: LIVING DOCUMENT — update on every major change
+
+Update note: 2026-09-29 — Open Library query-author selection for OpenAlex v3
+was calibrated and frozen as `openlibrary-query-author-selection-v1` in
+commit `3c00110`. The frozen Open Library author source contains 1,730
+targets with more than one `Work.authors` entry. These MULTI cases were
+stratified into heuristic risk buckets, and a 155-target human-review set was
+formed from 50 random MULTI_BASELINE, 50 random MULTI_LOW, 50 random
+MULTI_MEDIUM, and all 5 MULTI_HIGH cases. The review asked whether author
+ordinal 0 was safe and useful as an OpenAlex title+author retrieval
+disambiguator; it was a retrieval decision, not a definitive authorship
+judgment. Final ordinal-0 results were 145 YES and 10 NO. By bucket, the
+results were 50/50 YES for BASELINE, 48/50 for LOW, 47/50 for MEDIUM, and
+0/5 for HIGH. Review actions were 123 USE_ORDINAL0, 22
+USE_MULTIPLE_OL_AUTHORS, 4 USE_OTHER_ORDINAL, and 6 NO_OL_AUTHOR.
+
+The frozen project-wide primary selection contains 34,424 USE_ORDINAL0,
+4 USE_OTHER_ORDINAL, and 361 NO_OL_AUTHOR rows across all 34,789 current
+targets. Selection provenance is retained explicitly: 32,704
+AUTO_SINGLE_RESOLVED; 1,575 AUTO_MULTI_ORDINAL0_CALIBRATED; 354
+NO_AUTHOR_ENTRY; 145 HUMAN_REVIEW_CONFIRMED_ORDINAL0; 6
+HUMAN_REVIEW_NO_OL_AUTHOR; 4 HUMAN_REVIEW_OVERRIDE; and 1
+SINGLE_UNRESOLVED. All MULTI_HIGH cases were manually reviewed. For
+unreviewed BASELINE/LOW/MEDIUM MULTI cases, ordinal 0 is a calibrated default,
+not a human-verified value. Selected raw author strings use frozen Open Library
+`Author.name`; source-native `Work.authors` records remain unchanged.
+
+Twenty-two reviewed targets contained additional Open Library authors judged
+useful for retrieval. Those names are preserved as
+`CALIBRATION_EVIDENCE_NOT_AUTOMATIC_PRODUCTION_ROUTE`; they are not
+automatically enabled only for sampled works, because that would make
+retrieval conditions uneven across the population. They may inform a future
+uniform R3 author-expansion rule. Release artifacts are under
+`derived/openlibrary_query_author_selection_v1/`; the full method and the
+remaining OpenAlex v3 implementation sequence are documented in
+`docs/OPENALEX_MATCHING_METHOD.md`.
 
 Update note: 2026-09-28 — `openlibrary-author-source-v1` was frozen in
 commit `16d0a29` as the project source-native author layer for the 34,789

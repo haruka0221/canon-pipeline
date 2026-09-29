@@ -1,7 +1,7 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Design adopted for implementation; registry v3 not yet frozen  
-**Date:** 2026-09-28  
+**Status:** Design adopted for implementation; query-author selection v1 frozen; registry v3 not yet frozen  
+**Date:** 2026-09-29  
 **Current identity baseline:** `project_works_v4`  
 **Repository:** `haruka0221/canon-pipeline`  
 **Branch:** `kakenc-integration-20260927`  
@@ -497,11 +497,117 @@ Anthony Hope is ordinal 0, alongside 15 additional person or organization
 records. Therefore all source-native relationships are preserved, while a
 retrieval-specific author must be selected separately.
 
-The first production `query_author_selection_rule` remains intentionally
-**unfrozen**. Its selection must be based on an explicit audit of the frozen
-source layer rather than on the earlier single-author population columns.
-The selected query author will be a derived retrieval value and will not
-overwrite or redefine source-native authorship evidence.
+The project-wide Open Library-derived query-author selection rule was
+subsequently calibrated and frozen on 2026-09-29 as described below.
+
+### 10.4 Frozen Open Library query-author selection v1
+
+The first production query-author selection release is:
+
+```text
+release:
+openlibrary-query-author-selection-v1
+
+artifact directory:
+derived/openlibrary_query_author_selection_v1/
+
+freeze commit:
+3c00110
+```
+
+The release was derived from the frozen author-source layer, the query-author
+audit, and a stratified manual review of the 1,730 targets with more than one
+Open Library `Work.authors` entry.
+
+The MULTI population was divided into heuristic review buckets. The heuristics
+were used only to stratify review risk; they are not treated as source truth.
+The human-review sample contained 155 targets:
+
+```text
+MULTI_BASELINE     50 random
+MULTI_LOW          50 random
+MULTI_MEDIUM       50 random
+MULTI_HIGH          5 all
+total             155
+```
+
+The review question was whether Open Library author ordinal 0 was safe and
+useful as an OpenAlex title+author retrieval disambiguator for the target.
+This was explicitly a retrieval decision, not a definitive
+literary-historical authorship judgment.
+
+Final human-review results were:
+
+```text
+ordinal0_retrieval_safe
+
+YES    145
+NO      10
+```
+
+By review bucket:
+
+```text
+MULTI_BASELINE   50 / 50 YES
+MULTI_LOW        48 / 50 YES
+MULTI_MEDIUM     47 / 50 YES
+MULTI_HIGH        0 /  5 YES
+```
+
+Recommended review actions were:
+
+```text
+USE_ORDINAL0               123
+USE_MULTIPLE_OL_AUTHORS     22
+USE_OTHER_ORDINAL            4
+NO_OL_AUTHOR                 6
+```
+
+The resulting project-wide primary selection rule covers all 34,789 current
+Open Library analysis targets:
+
+```text
+USE_ORDINAL0         34,424
+USE_OTHER_ORDINAL         4
+NO_OL_AUTHOR            361
+```
+
+The selection basis is preserved explicitly:
+
+```text
+AUTO_SINGLE_RESOLVED               32,704
+AUTO_MULTI_ORDINAL0_CALIBRATED      1,575
+NO_AUTHOR_ENTRY                        354
+HUMAN_REVIEW_CONFIRMED_ORDINAL0       145
+HUMAN_REVIEW_NO_OL_AUTHOR                6
+HUMAN_REVIEW_OVERRIDE                    4
+SINGLE_UNRESOLVED                         1
+```
+
+For unreviewed MULTI targets, ordinal 0 is used only in the
+`MULTI_BASELINE`, `MULTI_LOW`, and `MULTI_MEDIUM` buckets under the
+explicit basis `AUTO_MULTI_ORDINAL0_CALIBRATED`. All five
+`MULTI_HIGH` targets were reviewed manually.
+
+The raw selected query-author string is the frozen Open Library
+`Author.name`. `personal_name`, `fuller_name`, and
+`alternate_names` are not substituted in selection v1.
+
+Twenty-two reviewed targets had more than one Open Library author judged useful
+for retrieval. Those additional names are retained as calibration evidence
+with:
+
+```text
+CALIBRATION_EVIDENCE_NOT_AUTOMATIC_PRODUCTION_ROUTE
+```
+
+They are not automatically enabled as production query routes, because doing so
+only for sampled targets would make retrieval conditions uneven across the
+population. They may inform a later uniformly defined R3 author-expansion rule.
+
+The selected query author remains a derived retrieval value. It does not
+overwrite the source-native `Work.authors` evidence and must not be presented
+as the definitive literary-historical author record.
 
 ---
 
@@ -1231,40 +1337,21 @@ The following design principles are adopted for registry v3 implementation:
 
 ## 29. Items intentionally not yet frozen
 
-The following require calibration or coverage audit before production freeze:
+The following still require calibration or coverage audit before production
+retrieval freeze. Query-author selection is no longer in this list:
+`openlibrary-query-author-selection-v1` was frozen on 2026-09-29.
 
-### 29.1 Query-author selection rule
-
-The exact preference order among source-native author names remains to be tested.
-
-Candidates include:
-
-```text
-name
-personal_name
-fuller_name
-alternate_name
-```
-
-The rule should be chosen after checking:
-
-- coverage;
-- disagreement rates;
-- formatting effects;
-- multi-author cases;
-- retrieval consequences.
-
-### 29.2 R2 representative-title selection
+### 29.1 R2 representative-title selection
 
 The final representative-alias rule remains to be specified and versioned.
 
 It must not rely on the historical `canonical` flag as if that flag established project-level title authority.
 
-### 29.3 R4 operational routing policy
+### 29.2 R4 operational routing policy
 
 Candidate burden, collision, precision, and incremental recall should be evaluated before choosing the final route policy.
 
-### 29.4 Semantic-recall route
+### 29.3 Semantic-recall route
 
 Character names and work-specific terminology remain experimental until separately validated.
 
@@ -1272,22 +1359,26 @@ Character names and work-specific terminology remain experimental until separate
 
 ## 30. Immediate implementation sequence
 
+Completed OpenAlex v3 preparation milestones are:
+
+1. author-source coverage audited for all 34,789 current Open Library targets;
+2. `openlibrary-author-source-v1` frozen;
+3. MULTI author-risk audit and 155-target stratified human review completed;
+4. `openlibrary-query-author-selection-v1` frozen in commit `3c00110`.
+
 The next implementation steps are:
 
-1. audit author-source coverage for all current Open Library analysis targets;
-2. freeze the Open Library author evidence artifacts required by OpenAlex v3;
-3. define and version the first query-author selection rule;
-4. construct W-based alias registry v3;
-5. define the R2 representative-alias rule;
-6. construct the logical query registry with stable `query_id`;
-7. construct normalized execution signatures;
-8. rerun retrieval calibration at W level;
-9. evaluate R2 / R3 / R4 candidate burden, collisions, recall, and precision;
-10. freeze the production retrieval policy;
-11. perform the full OpenAlex scan;
-12. adjudicate candidate attribution / mention;
-13. aggregate accepted evidence to W-level scholarly visibility;
-14. keep unresolved source-target results separate until a later identity release.
+1. construct the W-based alias registry v3;
+2. define and version the R2 representative-alias rule;
+3. construct the logical query registry with stable `query_id`;
+4. construct normalized execution signatures;
+5. rerun retrieval calibration at W level;
+6. evaluate R2 / R3 / R4 candidate burden, collisions, recall, and precision;
+7. freeze the production retrieval policy;
+8. perform the full OpenAlex scan;
+9. adjudicate candidate attribution / mention;
+10. aggregate accepted evidence to W-level scholarly visibility;
+11. keep unresolved source-target results separate until a later identity release.
 
 ---
 
