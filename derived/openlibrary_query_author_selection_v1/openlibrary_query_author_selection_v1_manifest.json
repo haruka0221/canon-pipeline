@@ -1,0 +1,64 @@
+{
+  "counts": {
+    "calibrated_multi_by_bucket": {
+      "MULTI_BASELINE": 969,
+      "MULTI_LOW": 384,
+      "MULTI_MEDIUM": 222
+    },
+    "human_reviewed_targets": 155,
+    "no_query_author_selected": 361,
+    "primary_action": {
+      "NO_OL_AUTHOR": 361,
+      "USE_ORDINAL0": 34424,
+      "USE_OTHER_ORDINAL": 4
+    },
+    "query_author_selected": 34428,
+    "reviewed_additional_author_edges": 25,
+    "reviewed_additional_author_targets": 22,
+    "rows": 34789,
+    "selection_basis": {
+      "AUTO_MULTI_ORDINAL0_CALIBRATED": 1575,
+      "AUTO_SINGLE_RESOLVED": 32704,
+      "HUMAN_REVIEW_CONFIRMED_ORDINAL0": 145,
+      "HUMAN_REVIEW_NO_OL_AUTHOR": 6,
+      "HUMAN_REVIEW_OVERRIDE": 4,
+      "NO_AUTHOR_ENTRY": 354,
+      "SINGLE_UNRESOLVED": 1
+    }
+  },
+  "created_at": "2026-09-29",
+  "input_sha256": {
+    "derived/openlibrary_author_source_v1/openlibrary_author_records_v1.parquet": "5652124edd9e26387848e444fac8704c5bf551dd28d3bd1f6187741c7f2263dc",
+    "derived/openlibrary_author_source_v1/openlibrary_current_work_authors_v1.parquet": "104d5484a1b78d553840408644581c4606cb52529331359d480aa372103d6286",
+    "derived/openlibrary_query_author_audit_v1/openlibrary_query_author_status_v1.tsv": "e0c77c1aa0145de262e79893ddf94fade18d4d435f96dfb57d146dccdab7428a",
+    "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_adjudication_results_v8.tsv": "c3b128e9601af651f90ef0c3b04d04967bc6bcf8e252cc07ec49e5be4ceab3ae",
+    "derived/openlibrary_query_author_review_v1/openlibrary_query_author_human_review_v1.tsv": "01d34ce11c6e53e2602728e8efb3389ee1d7c41a8df3d846e2aa382e359c6296"
+  },
+  "outputs": {
+    "parquet": {
+      "artifact": "derived/openlibrary_query_author_selection_v1/openlibrary_query_author_selection_v1.parquet",
+      "sha256": "441d7ab5552355cfa3fc669595007fe301cd35c6e5854dd4897216bb254c3cae"
+    },
+    "tsv": {
+      "artifact": "derived/openlibrary_query_author_selection_v1/openlibrary_query_author_selection_v1.tsv",
+      "sha256": "5561f5146d262fff448428c8d70388f8bbb06e6a9b4a3c095f89ccbe6129ca37"
+    }
+  },
+  "purpose": "Freeze the first project-wide Open Library-derived primary query-author selection rule for OpenAlex retrieval.",
+  "query_author_selection_rule": "openlibrary_query_author_selection_rule",
+  "query_author_selection_version": "v1",
+  "release": "openlibrary-query-author-selection-v1",
+  "semantics": {
+    "author_name_policy": "The selected raw query-author string is Open Library Author.name from the frozen 2026-02-28 author source layer. personal_name, fuller_name, and alternate_names are not substituted in selection v1.",
+    "primary_r2_policy": "One primary Open Library-derived query author per eligible target.",
+    "query_author": "Derived retrieval value for OpenAlex query disambiguation; not definitive literary-historical authorship.",
+    "reviewed_additional_author_policy": "Additional author names observed in the stratified human-review sample are retained as calibration evidence only and are not automatically enabled as production query routes.",
+    "unreviewed_multi_policy": "For unreviewed MULTI_BASELINE, MULTI_LOW, and MULTI_MEDIUM targets, ordinal 0 is used as a calibrated default. All MULTI_HIGH targets were human reviewed."
+  },
+  "source_releases": {
+    "author_source": "openlibrary-author-source-v1",
+    "human_adjudication": "openlibrary-query-author-human-adjudication-results-v8",
+    "human_review_packet": "openlibrary-query-author-human-review-v1",
+    "query_author_audit": "openlibrary-query-author-audit-v1"
+  }
+}
