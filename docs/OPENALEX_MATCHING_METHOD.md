@@ -1,6 +1,6 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; complete-snapshot profile v2 pending
+**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; scanner compatibility smoke test passed; profile v2 runner frozen; complete profile v2 scan pending
 **Date:** 2026-09-30
 **Current identity baseline:** `project_works_v4`
 **Repository:** `haruka0221/canon-pipeline`
@@ -79,6 +79,68 @@ profile audit
     ->
 retrieval-policy evaluation
 ```
+
+### Scanner compatibility smoke test
+
+Before constructing the complete profile-v2 run, the existing profile-v1
+scanner was exercised without changing its matching semantics against five
+evenly spaced files from the verified 2026-09-23 snapshot.
+
+Selected files:
+
+```text
+updated_date=2016-06-24/part_0000.gz
+updated_date=2026-02-09/part_0016.gz
+updated_date=2026-08-13/part_0012.gz
+updated_date=2026-09-02/part_0035.gz
+updated_date=2026-09-23/part_0049.gz
+```
+
+The test read 902,053 OpenAlex records. Strict independent re-reading of the
+same files found zero UTF-8 errors, zero JSON errors, zero missing OpenAlex
+IDs, and zero non-dictionary `abstract_inverted_index` values.
+
+The scanner produced 11,008 logical-query rows, 2,858 title-pattern rows,
+246 A1/A2 candidate-query evidence rows, and 61 candidate OpenAlex metadata
+rows. Audit checks found no duplicate `(query_id, openalex_work_id)` evidence
+keys, no duplicate OpenAlex metadata IDs, no evidence IDs missing metadata,
+and the summed query-level A2 count equaled the 246 materialized evidence
+rows.
+
+This establishes compatibility of the existing matching implementation with
+the 2026-09-23 snapshot. It does not itself constitute the complete profile.
+
+### Complete-profile v2 runner
+
+The profile-v2 runner preserves the profile-v1 matching contract:
+
+```text
+openalex_snapshot_title_abstract_token_phrase_v1
+```
+
+The core normalization, abstract reconstruction, automaton construction,
+pattern matching, and A1/A2/A3 semantics are intentionally unchanged.
+
+Profile v2 instead strengthens execution provenance and snapshot guards. It
+requires the frozen 2026-09-23 snapshot characteristics:
+
+```text
+files                         2,040
+compressed bytes        659,026,072,445
+record count            476,196,327
+inventory SHA256
+57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9
+official manifest SHA256
+441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e
+```
+
+A complete run fails if the observed snapshot contract differs, if a JSON
+parse error occurs, or if the complete row count differs from the official
+manifest record count.
+
+The v2 manifest additionally records runtime package versions and Git state.
+All outputs use separate `*_v2` names; profile-v1 artifacts remain frozen and
+unchanged.
 
 **Branch:** `kakenc-integration-20260927`
 **Baseline commit at drafting:** `a5c9165` (`Add project works v4`)

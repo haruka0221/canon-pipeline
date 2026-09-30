@@ -3,6 +3,74 @@
 Last updated: 2026-09-30
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-09-30 — The OpenAlex 2026-09-23 Works snapshot
+passed a scanner-compatibility smoke test using the existing frozen profile-v1
+matching implementation.
+
+Five files were selected evenly across the complete 2,040-file snapshot,
+covering the historical and current ends of the release:
+
+```text
+updated_date=2016-06-24/part_0000.gz
+updated_date=2026-02-09/part_0016.gz
+updated_date=2026-08-13/part_0012.gz
+updated_date=2026-09-02/part_0035.gz
+updated_date=2026-09-23/part_0049.gz
+```
+
+The smoke run processed:
+
+```text
+OpenAlex rows read                   902,053
+UTF-8 errors                              0
+JSON errors                               0
+missing OpenAlex IDs                      0
+non-dict abstract indexes                 0
+
+logical queries                      11,008
+title patterns                        2,858
+A1/A2 query × OA evidence rows          246
+A1/A2 OA metadata rows                   61
+```
+
+Output invariants also passed:
+
+```text
+duplicate (query_id, OA) evidence          0
+duplicate OA metadata IDs                  0
+evidence OA IDs missing metadata           0
+summed query-level A2 counts             246
+```
+
+The title/author matching core used for profile v2 remains byte-for-byte
+identical to profile v1 for:
+
+```text
+match_tokens
+reconstruct_abstract
+oa_id
+build_automaton
+find_patterns
+```
+
+A dedicated `openalex_retrieval_calibration_profile_v2.py` runner was then
+prepared for the complete 2026-09-23 snapshot. The matching contract remains
+`openalex_snapshot_title_abstract_token_phrase_v1`; v2 changes provenance and
+execution safeguards rather than the retrieval-matching semantics.
+
+The v2 runner:
+
+- requires the verified 2026-09-23 snapshot contract;
+- checks 2,040 files and 659,026,072,445 compressed bytes;
+- checks the frozen inventory and official-manifest SHA256 values;
+- requires 476,196,327 rows in a complete run;
+- fails on any JSON parse error;
+- records runtime package versions and Git state;
+- writes separate `*_v2` artifacts and does not overwrite profile v1.
+
+The complete profile-v2 scan must be launched only from a clean frozen Git
+commit containing this runner.
+
 Update note: 2026-09-30 — The OpenAlex 2026-09-23 Works release was
 downloaded independently and verified complete against its official manifest
 before any new full-profile scan.
