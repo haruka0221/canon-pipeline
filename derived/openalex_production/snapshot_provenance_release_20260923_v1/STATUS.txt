@@ -1,0 +1,71 @@
+OPENALEX SNAPSHOT STATUS
+
+Status:
+MANIFEST-VERIFIED COMPLETE SNAPSHOT
+
+Release:
+2026-09-23
+
+Entity:
+works
+
+Format:
+jsonl
+
+Official manifest:
+works/manifest.json
+
+Manifest SHA256:
+441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e
+
+Manifest files:
+2040
+
+Verified completed files:
+2040
+
+Missing files:
+0
+
+Unexpected files:
+0
+
+Size mismatches:
+0
+
+Temporary .aria2 files:
+0
+
+Manifest compressed bytes:
+659026072445
+
+Verified actual compressed bytes:
+659026072445
+
+Manifest record count:
+476196327
+
+Updated-date range:
+2016-06-24 through 2026-09-23
+
+Inventory path+size SHA256:
+57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9
+
+Inventory hash contract:
+SHA256 over UTF-8 lines sorted by relative path:
+<relative_path>\t<byte_size>\n
+
+Verification artifacts:
+snapshot_verification_v1.json
+snapshot_inventory_v1.tsv
+
+Interpretation:
+This snapshot is complete relative to the official OpenAlex 2026-09-23
+Works manifest. Every expected file is present and matches its manifest
+content_length.
+
+The upstream manifest does not provide per-file cryptographic content
+checksums. Gzip and JSONL readability will therefore be exercised separately
+by the compatibility smoke test and the subsequent full profile scan.
+
+Do not mix files from another OpenAlex release into this snapshot.

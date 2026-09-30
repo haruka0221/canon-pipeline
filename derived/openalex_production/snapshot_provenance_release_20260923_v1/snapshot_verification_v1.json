@@ -1,0 +1,47 @@
+{
+  "verification_version": "snapshot_verification_v1",
+  "status": "VERIFIED_COMPLETE",
+  "release": {
+    "date": "2026-09-23",
+    "entity": "works",
+    "format": "jsonl",
+    "source_prefix": "s3://openalex/data/jsonl/works/"
+  },
+  "manifest": {
+    "path": "works/manifest.json",
+    "sha256": "441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e",
+    "entries": 2040,
+    "unique_paths": 2040,
+    "record_count": 476196327,
+    "content_length": 659026072445,
+    "summed_record_count": 476196327,
+    "summed_content_length": 659026072445
+  },
+  "actual_inventory": {
+    "files": 2040,
+    "bytes": 659026072445,
+    "inventory_path_size_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9",
+    "inventory_hash_contract": "SHA256 over UTF-8 lines sorted by relative path: <relative_path>\\t<byte_size>\\n",
+    "updated_date_min": "2016-06-24",
+    "updated_date_max": "2026-09-23"
+  },
+  "discrepancies": {
+    "duplicate_manifest_paths": [],
+    "missing_files": [],
+    "unexpected_files": [],
+    "size_mismatches": [],
+    "temporary_aria2_files": []
+  },
+  "checks": {
+    "manifest_entry_count_matches_top_level": true,
+    "manifest_paths_unique": true,
+    "manifest_content_length_sum_matches_top_level": true,
+    "manifest_record_count_sum_matches_top_level": true,
+    "actual_file_count_matches_manifest": true,
+    "missing_files_zero": true,
+    "unexpected_files_zero": true,
+    "size_mismatches_zero": true,
+    "temporary_aria2_files_zero": true,
+    "actual_total_bytes_matches_manifest": true
+  }
+}

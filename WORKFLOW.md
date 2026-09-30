@@ -3,6 +3,58 @@
 Last updated: 2026-09-30
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-09-30 — The OpenAlex 2026-09-23 Works release was
+downloaded independently and verified complete against its official manifest
+before any new full-profile scan.
+
+The verified snapshot contains:
+
+```text
+release date                         2026-09-23
+entity                               works
+format                               jsonl
+manifest files                       2,040
+verified completed files             2,040
+missing files                            0
+unexpected files                         0
+size mismatches                          0
+temporary .aria2 files                   0
+compressed bytes               659,026,072,445
+manifest record count          476,196,327
+updated_date range          2016-06-24 through 2026-09-23
+```
+
+The official manifest SHA256 is:
+
+```text
+441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e
+```
+
+The deterministic path-plus-size inventory SHA256 is:
+
+```text
+57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9
+```
+
+The inventory hash is a provenance hash over sorted relative paths and byte
+sizes, not a byte-level checksum of the compressed data.
+
+This release is now the manifest-verified complete OpenAlex snapshot intended
+for the next calibration profile. It remains separate from the historical
+901-file partial snapshot used for profile v1. Files from different OpenAlex
+releases must not be mixed.
+
+Before the full profile v2 scan, the scanner must still pass a schema/read
+compatibility smoke test on this release. Gzip and JSONL readability will
+therefore be exercised separately by the smoke test and subsequent full scan.
+
+Snapshot provenance artifacts are stored under:
+
+```text
+derived/openalex_production/snapshot_provenance_release_20260923_v1/
+```
+
+
 Update note: 2026-09-30 — A snapshot-completeness audit established
 that `openalex-retrieval-calibration-profile-v1` was a complete scan of the
 locally available 901-file OpenAlex inventory, but not of the complete

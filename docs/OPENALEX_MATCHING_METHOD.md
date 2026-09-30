@@ -1,9 +1,85 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot calibration profile v1 retained for calibration; complete-snapshot production profile pending
+**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; complete-snapshot profile v2 pending
 **Date:** 2026-09-30
 **Current identity baseline:** `project_works_v4`
 **Repository:** `haruka0221/canon-pipeline`
+
+## Snapshot checkpoint — 2026-09-30
+
+A replacement OpenAlex Works snapshot was acquired independently from the
+official 2026-09-23 release and verified against its own manifest before any
+new full-profile execution.
+
+Verified snapshot:
+
+```text
+release date                         2026-09-23
+entity                               works
+format                               jsonl
+manifest files                       2,040
+verified files                       2,040
+missing files                            0
+unexpected files                         0
+size mismatches                          0
+temporary .aria2 files                   0
+compressed bytes               659,026,072,445
+record count                   476,196,327
+updated_date min                     2016-06-24
+updated_date max                     2026-09-23
+```
+
+Official manifest SHA256:
+
+```text
+441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e
+```
+
+Path-plus-size inventory SHA256:
+
+```text
+57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9
+```
+
+The inventory hash is defined as SHA256 over UTF-8 lines sorted by relative
+path, with each line encoded as:
+
+```text
+<relative_path>\t<byte_size>\n
+```
+
+It is an inventory-provenance hash rather than a content checksum.
+
+This snapshot supersedes the incomplete 901-file inventory as the intended
+input for the next complete calibration profile, but it does not alter or
+overwrite profile v1. The historical profile v1 remains reproducible for its
+own partial input snapshot.
+
+The upstream manifest does not provide per-file cryptographic checksums.
+Accordingly, manifest completeness verifies path presence and byte length;
+gzip and JSONL readability remain separate execution-time checks and must be
+exercised by the compatibility smoke test and full profile scan.
+
+Provenance artifacts:
+
+```text
+derived/openalex_production/snapshot_provenance_release_20260923_v1/
+```
+
+The next execution sequence is:
+
+```text
+manifest-verified snapshot
+    ->
+scanner compatibility smoke test
+    ->
+complete calibration profile v2
+    ->
+profile audit
+    ->
+retrieval-policy evaluation
+```
+
 **Branch:** `kakenc-integration-20260927`
 **Baseline commit at drafting:** `a5c9165` (`Add project works v4`)
 
