@@ -3,12 +3,48 @@
 Last updated: 2026-09-30
 Status: LIVING DOCUMENT — update on every major change
 
-Update note: 2026-09-30 — The first full OpenAlex retrieval-calibration
-profile was completed and audited against the frozen
-`openalex-retrieval-calibration-sample-v1`.
+Update note: 2026-09-30 — A snapshot-completeness audit established
+that `openalex-retrieval-calibration-profile-v1` was a complete scan of the
+locally available 901-file OpenAlex inventory, but not of the complete
+upstream snapshot described by the bundled manifest.
 
-The calibration scan processed the complete fixed OpenAlex snapshot inventory
-used for this experiment:
+The frozen v1 run remains reproducible for its exact input inventory:
+
+```text
+local completed files                 901
+local compressed bytes        182,243,772,809
+local inventory SHA256
+4497f9cfc56c6d0495d5ae8c1b884d7efe78503fb90451bb8fd5f5aa6289087c
+```
+
+The bundled upstream manifest describes:
+
+```text
+manifest files                       2,236
+manifest compressed bytes      625,893,062,869
+manifest record count          482,451,464
+missing local files                  1,335
+missing compressed bytes       443,649,290,060
+```
+
+Accordingly, profile v1 is retained as a calibration result for the frozen
+901-file partial snapshot inventory and must not be used as the final
+production OpenAlex baseline. A new complete snapshot will be acquired and
+profiled separately.
+
+The completeness audit is preserved under:
+
+```text
+derived/openalex_production/snapshot_provenance_v1/
+```
+
+
+Update note: 2026-09-30 — The first complete scan of the locally available
+901-file OpenAlex retrieval-calibration inventory was completed and audited
+against the frozen `openalex-retrieval-calibration-sample-v1`.
+
+The calibration scan processed the complete fixed 901-file OpenAlex inventory
+locally available to this experiment at scan time:
 
 ```text
 snapshot files                         901

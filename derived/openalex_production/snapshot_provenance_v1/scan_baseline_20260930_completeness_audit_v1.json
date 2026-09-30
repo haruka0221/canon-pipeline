@@ -1,0 +1,21 @@
+{
+  "audit_date": "2026-09-30",
+  "status": "partial_upstream_snapshot_inventory",
+  "interpretation": "All locally available completed .gz files were scanned, but the local inventory is incomplete relative to the bundled upstream manifest.",
+  "upstream_manifest": {
+    "entries": 2236,
+    "record_count": 482451464,
+    "content_length": 625893062869,
+    "date_field_present": false
+  },
+  "local_completed_inventory": {
+    "files": 901,
+    "bytes": 182243772809,
+    "inventory_sha256": "4497f9cfc56c6d0495d5ae8c1b884d7efe78503fb90451bb8fd5f5aa6289087c"
+  },
+  "missing_relative_to_manifest": {
+    "files": 1335,
+    "bytes": 443649290060
+  },
+  "retrieval_note": "The original s3://openalex/data flat-layout release is no longer assumed recoverable from the current public bucket. Current legacy-data must not be mixed with this inventory."
+}

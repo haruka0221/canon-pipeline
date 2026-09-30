@@ -1,6 +1,6 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Registry v3, retrieval-calibration sample v1, and full calibration profile v1 frozen; production retrieval policy under evaluation
+**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot calibration profile v1 retained for calibration; complete-snapshot production profile pending
 **Date:** 2026-09-30
 **Current identity baseline:** `project_works_v4`
 **Repository:** `haruka0221/canon-pipeline`
@@ -944,6 +944,26 @@ inventory SHA256
 updated_date min                  2016-06-24
 updated_date max                  2025-11-06
 records read                     152,044,758
+```
+
+A later snapshot-completeness audit showed that the 901-file input
+inventory was incomplete relative to the bundled upstream manifest. The
+manifest describes 2,236 files, while 1,335 files totaling 443,649,290,060
+compressed bytes were absent locally.
+
+Therefore, profile v1 is interpreted as a complete scan of its frozen
+901-file local input inventory, not as a complete scan of the upstream
+OpenAlex snapshot. Its artifacts remain unchanged and reproducible, but they
+are retained for calibration rather than as the final production baseline.
+
+A new complete OpenAlex snapshot must be acquired and scanned independently;
+files from a different snapshot release must not be mixed into the 901-file
+inventory.
+
+The completeness audit is stored under:
+
+```text
+derived/openalex_production/snapshot_provenance_v1/
 ```
 
 The matching registry used for this run is stored under:
