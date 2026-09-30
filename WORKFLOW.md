@@ -1,7 +1,84 @@
 # WORKFLOW.md — canon-pipeline
 **Research Data and Analysis Workflow**
-Last updated: 2026-09-29
+Last updated: 2026-09-30
 Status: LIVING DOCUMENT — update on every major change
+
+Update note: 2026-09-30 — The first full OpenAlex retrieval-calibration
+profile was completed and audited against the frozen
+`openalex-retrieval-calibration-sample-v1`.
+
+The calibration scan processed the complete fixed OpenAlex snapshot inventory
+used for this experiment:
+
+```text
+snapshot files                         901
+snapshot compressed bytes     182,243,772,809
+snapshot inventory SHA256
+4497f9cfc56c6d0495d5ae8c1b884d7efe78503fb90451bb8fd5f5aa6289087c
+
+updated_date range
+2016-06-24 through 2025-11-06
+
+OpenAlex records read          152,044,758
+```
+
+The calibration matching registry contains 11,008 logical queries mapped to
+2,858 distinct title-match patterns. The full profile observed 11,342,122
+OpenAlex records matching at least one calibration title pattern.
+
+To control candidate explosion, the full calibration profile materializes
+candidate-level evidence only for title-author queries satisfying the
+calibration A1/A2 author evidence contract. R4 title-only retrieval is counted
+exactly but its candidate IDs are not materialized at this stage.
+
+The resulting full-profile artifacts contain:
+
+```text
+title patterns                         2,858
+logical queries                       11,008
+A1/A2 query × OpenAlex evidence rows  79,625
+unique OpenAlex metadata rows         23,214
+```
+
+The audited profile has no duplicate `(query_id, openalex_work_id)` evidence
+keys, no duplicate OpenAlex metadata IDs, no evidence IDs missing metadata,
+and the summed query-level A2 counts equal the 79,625 materialized evidence
+rows exactly.
+
+Resolved-W calibration results show measurable but limited incremental
+retrieval from both alias expansion and conservative author-order handling:
+
+```text
+R2 + A1              11,239 candidates / 407 W
+R3 + A1              11,386 candidates / 429 W
+R2 + A2              11,329 candidates / 423 W
+R3 + A2              11,472 candidates / 443 W
+
+R3+A1 minus R2+A1       147 candidates / 31 W
+R3+A2 minus R2+A2       143 candidates / 29 W
+R3+A2 minus R3+A1        86 candidates / 17 W
+```
+
+These are calibration retrieval counts, not accepted scholarly-mention counts.
+
+R4 burden is strongly title-length dependent. Across the 2,858 physical title
+patterns, one-token titles account for 12,974,198 raw title hits, compared
+with 532,031 for two-token titles and 114,877 for three-token titles.
+Therefore R4 production eligibility remains unresolved and must not be inferred
+from the existence of this calibration profile.
+
+The full calibration profile freezes the observed run, its snapshot provenance,
+the calibration matching contract, and its diagnostic outputs. It does not
+freeze the final R2/R3/R4 production routing policy, R4 eligibility thresholds,
+A3 surname-only production use, document-scope judgment, target attribution,
+mention-strength judgment, or W-level visibility aggregation.
+
+Artifacts are under:
+
+```text
+derived/openalex_production/retrieval_match_registry_v1/
+derived/openalex_production/retrieval_calibration_profile_v1/
+```
 
 Update note: 2026-09-29 — The OpenAlex v3 retrieval-calibration
 population was frozen as `openalex-retrieval-calibration-sample-v1`.

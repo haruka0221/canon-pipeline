@@ -1,10 +1,10 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Registry v3 and retrieval-calibration sample v1 frozen; retrieval matching policy under calibration  
-**Date:** 2026-09-29  
-**Current identity baseline:** `project_works_v4`  
-**Repository:** `haruka0221/canon-pipeline`  
-**Branch:** `kakenc-integration-20260927`  
+**Status:** Registry v3, retrieval-calibration sample v1, and full calibration profile v1 frozen; production retrieval policy under evaluation
+**Date:** 2026-09-30
+**Current identity baseline:** `project_works_v4`
+**Repository:** `haruka0221/canon-pipeline`
+**Branch:** `kakenc-integration-20260927`
 **Baseline commit at drafting:** `a5c9165` (`Add project works v4`)
 
 ## 1. Purpose
@@ -924,6 +924,123 @@ final visibility judgment policy
 ```
 
 Those decisions are evaluated against this fixed calibration population.
+
+---
+
+## 13.3 Full retrieval-calibration profile v1
+
+The fixed calibration population was scanned against one fixed OpenAlex
+snapshot inventory after the profile implementation passed exact parity
+against the earlier five-file smoke scanner.
+
+The snapshot is identified by inventory rather than by filesystem path:
+
+```text
+files                                  901
+compressed bytes               182,243,772,809
+inventory SHA256
+4497f9cfc56c6d0495d5ae8c1b884d7efe78503fb90451bb8fd5f5aa6289087c
+
+updated_date min                  2016-06-24
+updated_date max                  2025-11-06
+records read                     152,044,758
+```
+
+The matching registry used for this run is stored under:
+
+```text
+derived/openalex_production/retrieval_match_registry_v1/
+```
+
+It maps the frozen 11,008 calibration logical queries to 2,858 normalized
+title-match patterns and versioned A1/A2/A3 author-evidence fields.
+
+The profile scanner searches the OpenAlex Work display title plus reconstructed
+abstract under the frozen calibration token-phrase contract. This is a
+project-defined reproducible snapshot retrieval contract; it is not asserted
+to reproduce every field searched by the live OpenAlex API.
+
+The full run records exact counts for every calibration title pattern and
+logical query. Candidate-level rows are materialized only for A1/A2-qualified
+title-author evidence. R4 title-only candidates are counted but are not
+materialized before production eligibility is determined.
+
+Full-profile counts are:
+
+```text
+title patterns                         2,858
+logical queries                       11,008
+OA records with any title hit     11,342,122
+A1/A2 candidate-query rows            79,625
+A1/A2 OA metadata rows                23,214
+```
+
+Integrity checks passed:
+
+```text
+title-match pattern IDs unique                         yes
+query IDs unique                                       yes
+duplicate (query_id, OpenAlex Work) evidence keys        0
+duplicate OpenAlex metadata IDs                          0
+evidence OpenAlex IDs missing metadata                   0
+sum(query a2_hit_count) == evidence rows               yes
+```
+
+For resolved W, candidate-set comparisons are:
+
+```text
+                         candidates       W
+R2 + A1                     11,239       407
+R3 + A1                     11,386       429
+R2 + A2                     11,329       423
+R3 + A2                     11,472       443
+
+R3+A1 minus R2+A1              147        31
+R3+A2 minus R2+A2              143        29
+R3+A2 minus R3+A1               86        17
+```
+
+These differences establish retrieval increment only. They do not establish
+precision or accepted scholarly visibility. Candidate-level review remains
+necessary before production routing is frozen.
+
+A2-only evidence also exists in the resolved lane. Across query-level evidence,
+194 resolved rows and 625 unresolved rows satisfy A2 but not A1. After
+candidate aggregation, the resolved R3+A2 candidate set contains 86
+`(project_work_id, openalex_work_id)` pairs not present in R3+A1, spanning
+17 W.
+
+A3 remains diagnostic. Its much larger hit counts relative to A1/A2 indicate
+that surname-only matching cannot be treated as an automatically accepted
+uniform production route on the basis of this calibration alone.
+
+Title-only burden is highly concentrated in short titles:
+
+```text
+tokens    patterns    patterns with hit    total title hits
+1              290                  284         12,974,198
+2              576                  485            532,031
+3              586                  463            114,877
+4-5            852                  537             25,830
+6-10           469                  201              5,211
+11+             85                   23                 42
+```
+
+Accordingly, this milestone freezes the calibration observations and their
+provenance, not a final production decision.
+
+Still not frozen:
+
+```text
+R2 / R3 / R4 production routing
+R4 title-only eligibility or burden thresholds
+A3 surname-only production use
+precision judgment for incremental R3 / A2 candidates
+document scope
+target attribution
+mention strength
+W-level scholarly-visibility aggregation
+```
 
 ---
 
