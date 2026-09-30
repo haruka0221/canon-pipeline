@@ -1,0 +1,22 @@
+sample_id	stratum	target_lane	project_work_id	unresolved_unit_anchor_entity_id	selection_method	reference_title
+BLV001	uk_first_edition	resolved_w	W000030670		purposive	The Picture of Dorian Gray
+BLV002	uk_first_edition	resolved_w	W000032021		purposive	Tess of the d'Urbervilles
+BLV003	uk_first_edition	resolved_w	W000018010		purposive	Mrs. Dalloway
+BLV004	short_title	resolved_w	W000031897		purposive	Kim
+BLV005	short_title	resolved_w	W000007201		purposive	She
+BLV006	pseudonym_us_first	resolved_w	W000001624		purposive	Burmese Days
+BLV007	us_author	resolved_w	W000031971		purposive	The House of Mirth
+BLV008	us_author	resolved_w	W000000003		purposive	Sister Carrie
+BLV009	prolific_popular	resolved_w	W000004670		purposive	The Four Just Men
+BLV010	fragmentation_candidate	resolved_w	W000014272		purposive	Heart of Darkness
+BLV011	fragmentation_candidate	resolved_w	W000014830		purposive	Heart of Darkness
+BLV012	fragmentation_candidate	resolved_w	W000017583		purposive	Heart of Darkness
+BLV013	fragmentation_candidate	resolved_w	W000030652		purposive	Heart of Darkness
+BLV014	collection_as_w	resolved_w	W000014701		purposive	Everyman's Library Wilde omnibus
+BLV015	collection_as_w	resolved_w	W000031089		purposive	A Room With a View / Howards End / Maurice
+BLV016	unresolved_purposive	unresolved_source		E000016319	purposive	Howards End
+BLV017	random_w	resolved_w	W000000582		random_seed_20260930	The Orange Fairy Book
+BLV018	random_w	resolved_w	W000006387		random_seed_20260930	Four chapters
+BLV019	random_w	resolved_w	W000030186		random_seed_20260930	The shen's pigtail
+BLV020	random_w	resolved_w	W000001300		random_seed_20260930	The Graysons
+BLV021	random_unresolved	unresolved_source		E000000192	random_seed_20260930	Baron Munchausen
