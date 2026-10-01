@@ -1,0 +1,124 @@
+{
+  "audit_release": "openalex-retrieval-calibration-profile-v2-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-01T13:52:13.229354+00:00",
+  "checks": {
+    "duplicate_oa_metadata_zero": true,
+    "duplicate_query_oa_zero": true,
+    "evidence_missing_metadata_zero": true,
+    "evidence_rows_251905": true,
+    "git_clean": true,
+    "git_commit_frozen": true,
+    "json_errors_zero": true,
+    "logical_queries_11008": true,
+    "oa_metadata_rows_73931": true,
+    "official_manifest_sha256_frozen": true,
+    "processed_files_2040": true,
+    "query_ids_unique": true,
+    "release_is_v2": true,
+    "run_mode_is_full": true,
+    "snapshot_files_2040": true,
+    "snapshot_inventory_sha256_frozen": true,
+    "snapshot_rows_match_manifest": true,
+    "sum_a2_equals_evidence_rows": true,
+    "title_patterns_2858": true,
+    "title_patterns_unique": true,
+    "unknown_evidence_queries_zero": true
+  },
+  "counts": {
+    "a12_candidate_query_rows": 251905,
+    "a12_oa_record_rows": 73931,
+    "json_errors": 0,
+    "logical_queries": 11008,
+    "oa_with_any_title_hit": 40803703,
+    "snapshot_rows_read": 476196327,
+    "title_patterns": 2858
+  },
+  "execution_log": {
+    "bytes": 187677,
+    "filename": "openalex_retrieval_calibration_profile_v2_run.log",
+    "sha256": "f02f8db00f7ca4af82fd268f3ab61949236a1c94204fb48d2bf5588d14baddd5"
+  },
+  "interpretation": "This audit freezes the observed complete calibration profile. It does not freeze R2/R3/R4 production routing, target attribution, mention-strength policy, or W-level visibility aggregation.",
+  "invariants": {
+    "duplicate_oa_metadata": 0,
+    "duplicate_query_oa": 0,
+    "evidence_oa_missing_metadata": 0,
+    "evidence_query_missing_query_table": 0,
+    "summed_query_a2_count": 251905
+  },
+  "profile_manifest": {
+    "filename": "openalex_retrieval_calibration_profile_v2_manifest.json",
+    "sha256": "5033ae85b55696b15ead38a5daaddc7be24aef21650be241c8104f4bca492c5e"
+  },
+  "profile_output_hash_checks": {
+    "a12_evidence": {
+      "actual_sha256": "a7329851aa47f93a7e72ae38f888aceec0715705ac023e3aeba2e1c530047cc3",
+      "expected_sha256": "a7329851aa47f93a7e72ae38f888aceec0715705ac023e3aeba2e1c530047cc3",
+      "matches": true
+    },
+    "a12_records": {
+      "actual_sha256": "1d51f75dc64decbd263d389f144469557f1e6a85c1b8d7e7c40db2800a0c7da8",
+      "expected_sha256": "1d51f75dc64decbd263d389f144469557f1e6a85c1b8d7e7c40db2800a0c7da8",
+      "matches": true
+    },
+    "patterns_parquet": {
+      "actual_sha256": "ece59c33959b112f6475b9b13fd32dadad0f2d4c10ab8cb2cc7289d63ab92b91",
+      "expected_sha256": "ece59c33959b112f6475b9b13fd32dadad0f2d4c10ab8cb2cc7289d63ab92b91",
+      "matches": true
+    },
+    "patterns_tsv": {
+      "actual_sha256": "de3410647b9ebfe1e020cc8f5f08463551783e3ec9cdd987af2c609c41a92af9",
+      "expected_sha256": "de3410647b9ebfe1e020cc8f5f08463551783e3ec9cdd987af2c609c41a92af9",
+      "matches": true
+    },
+    "queries_parquet": {
+      "actual_sha256": "34323f4a83f16a0a6208c0231c0b156ddee2822fc5173f8e7d55e453cf9a11f1",
+      "expected_sha256": "34323f4a83f16a0a6208c0231c0b156ddee2822fc5173f8e7d55e453cf9a11f1",
+      "matches": true
+    },
+    "queries_tsv": {
+      "actual_sha256": "b0e1e3e8816b5f341851c668d21741596ebdc8dd40ca83df47ad893eb3dec0b0",
+      "expected_sha256": "b0e1e3e8816b5f341851c668d21741596ebdc8dd40ca83df47ad893eb3dec0b0",
+      "matches": true
+    }
+  },
+  "profile_release": "openalex-retrieval-calibration-profile-v2",
+  "route_diagnostics": {
+    "R2": {
+      "a1_hit_count_sum": 76048,
+      "a2_hit_count_sum": 76538,
+      "logical_queries": 2259,
+      "title_hit_count_sum": 67416871
+    },
+    "R3": {
+      "a1_hit_count_sum": 173493,
+      "a2_hit_count_sum": 175367,
+      "logical_queries": 4194,
+      "title_hit_count_sum": 89984684
+    },
+    "R4": {
+      "a1_hit_count_sum": 0,
+      "a2_hit_count_sum": 0,
+      "logical_queries": 4555,
+      "title_hit_count_sum": 91214798
+    }
+  },
+  "runtime": {
+    "git_commit": "d6a02ddf9055ab6289db344221624d5b4064180b",
+    "git_dirty": false,
+    "pandas": "3.0.5",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+    "pyahocorasick": "2.3.1",
+    "pyarrow": "25.0.1",
+    "python": "3.12.3"
+  },
+  "snapshot": {
+    "bytes": 659026072445,
+    "files": 2040,
+    "inventory_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9",
+    "official_manifest_sha256": "441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e",
+    "record_count": 476196327,
+    "release_date": "2026-09-23"
+  }
+}

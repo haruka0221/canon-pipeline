@@ -1,6 +1,6 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; scanner compatibility smoke test passed; profile v2 runner frozen; complete profile v2 scan pending
+**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; complete profile v2 scan finished and audited; production retrieval policy pending
 **Date:** 2026-09-30
 **Current identity baseline:** `project_works_v4`
 **Repository:** `haruka0221/canon-pipeline`
@@ -109,6 +109,79 @@ rows.
 
 This establishes compatibility of the existing matching implementation with
 the 2026-09-23 snapshot. It does not itself constitute the complete profile.
+
+### Complete profile v2 result
+
+The frozen v2 runner was executed against all 2,040 files in the verified
+2026-09-23 OpenAlex Works snapshot.
+
+Execution provenance:
+
+```text
+Git commit
+d6a02ddf9055ab6289db344221624d5b4064180b
+
+Python             3.12.3
+pandas             3.0.5
+pyarrow            25.0.1
+pyahocorasick      2.3.1
+git_dirty          false
+```
+
+The scan processed exactly the official manifest record count:
+
+```text
+snapshot rows read                         476,196,327
+JSON errors                                          0
+OpenAlex records with any title-pattern hit 40,803,703
+logical queries                                  11,008
+title patterns                                    2,858
+A1/A2 candidate-query evidence rows             251,905
+materialized OpenAlex metadata rows              73,931
+```
+
+The full audit confirmed:
+
+- all 2,040 processed files equal the frozen snapshot inventory;
+- zero duplicate `(query_id, openalex_work_id)` evidence keys;
+- zero duplicate materialized OpenAlex metadata IDs;
+- zero evidence OpenAlex IDs missing metadata;
+- zero evidence query IDs missing the query table;
+- summed query-level A2 counts equal all 251,905 materialized evidence rows;
+- query and title-pattern TSV/Parquet row counts agree;
+- all evidence source-file references belong to the frozen snapshot;
+- all output SHA256 values match the hashes written by the run manifest.
+
+The profile audit artifact is:
+
+```text
+derived/openalex_production/retrieval_calibration_profile_v2/
+full_inventory_57959e90/
+openalex_retrieval_calibration_profile_v2_audit_v1.json
+```
+
+Its SHA256 is:
+
+```text
+1ab7203283e93e80602cd881835c6f538a231c1a8b833da2a0ae2c46ce2c26aa
+```
+
+Descriptive route-level totals are:
+
+```text
+route  logical queries  title-hit count sum  A1 count  A2 count
+R2              2,259           67,416,871    76,048    76,538
+R3              4,194           89,984,684   173,493   175,367
+R4              4,555           91,214,798         0         0
+```
+
+These are logical-query-level totals. A scholarly OpenAlex record may be
+counted under multiple logical queries, so they are not unique-record totals.
+
+Profile v2 freezes the complete observed calibration profile, not the final
+retrieval policy. R2/R3/R4 production eligibility, R4 short-title handling,
+A3 production use, target attribution, mention-strength classification, and
+W-level visibility aggregation remain separate later decisions.
 
 ### Complete-profile v2 runner
 

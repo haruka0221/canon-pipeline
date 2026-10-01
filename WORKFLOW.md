@@ -3,6 +3,83 @@
 Last updated: 2026-09-30
 Status: LIVING DOCUMENT — update on every major change
 
+Update note: 2026-10-01 — The complete OpenAlex retrieval-calibration
+profile v2 was executed and audited successfully against the manifest-verified
+2026-09-23 OpenAlex Works snapshot.
+
+Execution baseline:
+
+```text
+runner commit
+d6a02ddf9055ab6289db344221624d5b4064180b
+
+snapshot files                         2,040
+snapshot compressed bytes      659,026,072,445
+snapshot records                476,196,327
+snapshot inventory SHA256
+57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9
+official manifest SHA256
+441a4d047be6e5f21146c30525c3a6fee6a820b171f7fd6b6f0c069cdad9d05e
+```
+
+The complete scan read all 476,196,327 records with zero JSON parse errors.
+
+Observed calibration-profile counts:
+
+```text
+OpenAlex records with >=1 title-pattern hit   40,803,703
+logical queries                                   11,008
+physical title patterns                            2,858
+A1/A2 query x OpenAlex evidence rows             251,905
+unique materialized OpenAlex metadata rows        73,931
+```
+
+Full-profile audit invariants passed:
+
+```text
+duplicate (query_id, OpenAlex Work) evidence          0
+duplicate OpenAlex metadata IDs                       0
+evidence OpenAlex IDs missing metadata                0
+evidence query IDs missing query table                0
+summed query-level A2 counts                    251,905
+```
+
+TSV/Parquet row-count parity also passed for the query and title-pattern
+tables, all source-file provenance references belonged to the frozen snapshot,
+and every output SHA256 matched the SHA256 recorded by the profile manifest.
+
+Descriptive route-level calibration totals were:
+
+```text
+R2  queries 2,259   title-hit sum 67,416,871   A1 76,048   A2 76,538
+R3  queries 4,194   title-hit sum 89,984,684   A1 173,493  A2 175,367
+R4  queries 4,555   title-hit sum 91,214,798   A1 0        A2 0
+```
+
+These route totals are logical-query-level sums and may count the same
+OpenAlex record under multiple queries. They are descriptive calibration
+results, not unique scholarly-work counts and not production-policy decisions.
+
+The audited release is stored under:
+
+```text
+derived/openalex_production/retrieval_calibration_profile_v2/
+    full_inventory_57959e90/
+```
+
+Audit artifact:
+
+```text
+openalex_retrieval_calibration_profile_v2_audit_v1.json
+SHA256:
+1ab7203283e93e80602cd881835c6f538a231c1a8b833da2a0ae2c46ce2c26aa
+```
+
+Profile v2 preserves the profile-v1 matching contract. The production
+R2/R3/R4 routing policy, R4 title-only eligibility, A3 production use,
+document-scope judgment, target attribution, mention strength, and W-level
+visibility aggregation remain unfrozen.
+
 Update note: 2026-09-30 — The OpenAlex 2026-09-23 Works snapshot
 passed a scanner-compatibility smoke test using the existing frozen profile-v1
 matching implementation.
