@@ -1,0 +1,13 @@
+q2_row_id	sample_ids	work_label	expected_year	expected_publisher	expected_place	note
+Q2R01	BLV001	Dorian Gray	1891	Ward, Lock & Co.	London	book form; serial in Lippincott's July 1890
+Q2R02	BLV002	Tess	1891	James R. Osgood, McIlvaine & Co.	London	3 volumes
+Q2R03	BLV003	Mrs Dalloway	1925	Hogarth Press	London	published 14 May 1925
+Q2R04	BLV004	Kim	1901	Macmillan & Co.	London	17 Oct 1901; US Doubleday 1 Oct 1901 earlier
+Q2R05	BLV005	She	1887	Longmans, Green & Co.	London	1 Jan 1887; US Harper 24 Dec 1886 earlier
+Q2R06	BLV006	Burmese Days	1935	Victor Gollancz	London	24 Jun 1935; US Harper 25 Oct 1934 earlier
+Q2R07	BLV007	House of Mirth	1905	Macmillan & Co.	London
+Q2R08	BLV008	Sister Carrie	1901	William Heinemann	London	Dollar Library of American Fiction; abridged by Arthur Henry
+Q2R09	BLV009	Four Just Men	1905	Tallis Press	London	revised ed. Tallis 1906
+Q2R10	BLV010;BLV011;BLV012;BLV013	Heart of Darkness	1902	William Blackwood & Sons	Edinburgh and London	first appearance in Youth: A Narrative, and Two Other Stories; addendum 2 §3
+Q2R11	BLV016	Howards End	1910	Edward Arnold	London
+Q2R12	BLV017	Orange Fairy Book	1906	Longmans, Green & Co.	London	First Edition August 1906
