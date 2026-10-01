@@ -168,9 +168,14 @@ def main():
         EVIDENCE
     ).fillna("")
 
+    # Keep OpenAlex metadata dtypes intact.
+    # In particular, publication_year is float64 with genuine missing
+    # values in the frozen profile. Replacing those missing values with
+    # "" creates a mixed float/string object column that cannot be
+    # serialized reliably to Parquet.
     oa = pd.read_parquet(
         OA_RECORDS
-    ).fillna("")
+    )
 
     q = pd.read_parquet(
         QUERIES
