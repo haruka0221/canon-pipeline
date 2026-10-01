@@ -1,6 +1,6 @@
 # OpenAlex Scholarly Visibility Matching Method
 
-**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; complete profile v2 scan finished and audited; production retrieval policy pending
+**Status:** Registry v3 and retrieval-calibration sample v1 frozen; 901-file partial-snapshot profile v1 retained for calibration; OpenAlex 2026-09-23 Works snapshot manifest-verified complete; complete profile v2 scan finished and audited; precision-review candidate universe v2 frozen; relevance judgments and production retrieval policy pending
 **Date:** 2026-09-30
 **Current identity baseline:** `project_works_v4`
 **Repository:** `haruka0221/canon-pipeline`
@@ -182,6 +182,89 @@ Profile v2 freezes the complete observed calibration profile, not the final
 retrieval policy. R2/R3/R4 production eligibility, R4 short-title handling,
 A3 production use, target attribution, mention-strength classification, and
 W-level visibility aggregation remain separate later decisions.
+
+### Precision-review candidate universe v2
+
+After completion of profile v2, the incremental candidate universe for
+retrieval-precision evaluation was rebuilt from the complete snapshot rather
+than reusing the earlier 901-file partial-snapshot diagnostic set.
+
+For resolved project W, the two review strata are defined as:
+
+```text
+ALIAS_EXPANSION
+    (R3 + A2) - (R2 + A2)
+
+A2_AUTHOR_REVERSAL
+    (R3 + A2) - (R3 + A1)
+```
+
+Observed complete-profile counts are:
+
+```text
+stratum               W×OpenAlex candidates   project W
+ALIAS_EXPANSION                       409          38
+A2_AUTHOR_REVERSAL                    268          31
+intersection                            0           0
+union                                 677          69
+```
+
+This supersedes the earlier partial-profile review-universe size of 229
+candidates / 46 W as the basis for final retrieval-policy evaluation. The old
+partial-profile result remains historical calibration evidence and is not
+deleted or rewritten.
+
+The v2 candidate builder was executed from:
+
+```text
+c0e74e23df76f459ea101ddef9880452f9003594
+```
+
+An earlier builder execution at `54d7735` successfully constructed and wrote
+the candidate TSV but failed before Parquet serialization because a global
+`fillna("")` converted nullable numeric `publication_year` values into a mixed
+float/string column. Commit `c0e74e2` fixes only this serialization issue by
+preserving OpenAlex metadata dtypes; the candidate-set definitions are
+unchanged.
+
+The successful candidate release contains exactly 677 unique
+`(project_work_id, openalex_work_id)` pairs and 677 unique
+`review_candidate_id` values. TSV and Parquet representations contain
+identical candidate keys.
+
+Authoritative artifacts:
+
+```text
+derived/openalex_production/retrieval_precision_review_candidates_v2/
+full_profile_57959e90/
+    openalex_retrieval_precision_review_candidates_v2.tsv
+    openalex_retrieval_precision_review_candidates_v2.parquet
+    openalex_retrieval_precision_review_candidates_v2_manifest.json
+    openalex_retrieval_precision_review_candidates_v2_audit_v1.json
+```
+
+SHA256:
+
+```text
+TSV
+2afbeccf04c2a532f3fab1eee2585e92fc61b1fb9591c699f7a7aaa44de96728
+
+Parquet
+f493919249217f62a8c4477abb94950a6849521d02e2aa75fe01663f91f471e7
+
+manifest
+2cdb5e0d48af64c1d659d8f5c4e1e0ba0acdb8af4941d226d065e7a52d9b750b
+
+audit
+61fb70e9176bf42518d33a74f3737bfecdbafe8377c1dfdcef6f13e061da660c
+```
+
+The audit records the builder commit, clean Git state, source profile and
+snapshot hashes, row counts, uniqueness invariants, and TSV/Parquet identity.
+
+No relevance labels are included in this release. Human review, possible LLM
+first-pass classification, precision estimates, and the eventual production
+choice among R2/R3 and A1/A2 remain later analytical decisions.
 
 ### Complete-profile v2 runner
 

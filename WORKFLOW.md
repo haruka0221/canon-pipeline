@@ -1,6 +1,6 @@
 # WORKFLOW.md — canon-pipeline
 **Research Data and Analysis Workflow**
-Last updated: 2026-09-30
+Last updated: 2026-10-01
 Status: LIVING DOCUMENT — update on every major change
 
 Update note: 2026-10-01 — The complete OpenAlex retrieval-calibration
@@ -79,6 +79,82 @@ Profile v2 preserves the profile-v1 matching contract. The production
 R2/R3/R4 routing policy, R4 title-only eligibility, A3 production use,
 document-scope judgment, target attribution, mention strength, and W-level
 visibility aggregation remain unfrozen.
+
+Update note: 2026-10-01 — A complete precision-review candidate universe
+was rebuilt from the audited OpenAlex retrieval-calibration profile v2 and
+frozen as `openalex-retrieval-precision-review-candidates-v2`.
+
+The review universe is restricted to resolved project-W candidates and isolates
+the two incremental retrieval mechanisms that require precision evaluation:
+
+```text
+alias increment
+    R3+A2 minus R2+A2
+    409 W×OpenAlex candidates / 38 W
+
+A2 author-order increment
+    R3+A2 minus R3+A1
+    268 W×OpenAlex candidates / 31 W
+
+intersection
+    0 candidates
+
+review union
+    677 W×OpenAlex candidates / 69 W
+```
+
+The zero intersection means that the alias-expansion increment and the
+conservative A2 author-order increment can be evaluated as disjoint candidate
+sets in this calibration population.
+
+Candidate-universe builder execution:
+
+```text
+builder commit
+c0e74e23df76f459ea101ddef9880452f9003594
+
+source snapshot inventory SHA256
+57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9
+```
+
+The candidate release was audited with:
+
+```text
+rows                                 677
+unique project W                      69
+ALIAS_EXPANSION                      409
+A2_AUTHOR_REVERSAL                   268
+duplicate W×OpenAlex pairs             0
+duplicate review_candidate_id          0
+TSV / Parquet candidate keys   identical
+```
+
+The authoritative release is stored under:
+
+```text
+derived/openalex_production/retrieval_precision_review_candidates_v2/
+    full_profile_57959e90/
+```
+
+Release SHA256 values:
+
+```text
+TSV
+2afbeccf04c2a532f3fab1eee2585e92fc61b1fb9591c699f7a7aaa44de96728
+
+Parquet
+f493919249217f62a8c4477abb94950a6849521d02e2aa75fe01663f91f471e7
+
+manifest
+2cdb5e0d48af64c1d659d8f5c4e1e0ba0acdb8af4941d226d065e7a52d9b750b
+
+audit
+61fb70e9176bf42518d33a74f3737bfecdbafe8377c1dfdcef6f13e061da660c
+```
+
+This release contains retrieval candidates only. No human or LLM relevance
+judgments have yet been assigned. It therefore freezes the review universe,
+not the precision estimate and not the final production R2/R3/A1/A2 policy.
 
 Update note: 2026-09-30 — The OpenAlex 2026-09-23 Works snapshot
 passed a scanner-compatibility smoke test using the existing frozen profile-v1

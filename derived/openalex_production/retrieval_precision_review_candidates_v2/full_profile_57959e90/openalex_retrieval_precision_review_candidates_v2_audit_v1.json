@@ -1,0 +1,55 @@
+{
+  "audit_release": "openalex-retrieval-precision-review-candidates-v2-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-01T14:26:34.681532+00:00",
+  "candidate_release": {
+    "manifest_sha256": "2cdb5e0d48af64c1d659d8f5c4e1e0ba0acdb8af4941d226d065e7a52d9b750b",
+    "profile_audit_sha256": "1ab7203283e93e80602cd881835c6f538a231c1a8b833da2a0ae2c46ce2c26aa",
+    "profile_manifest_sha256": "5033ae85b55696b15ead38a5daaddc7be24aef21650be241c8104f4bca492c5e",
+    "release": "openalex-retrieval-precision-review-candidates-v2",
+    "snapshot_inventory_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9"
+  },
+  "checks": {
+    "a2_increment_268": true,
+    "alias_increment_409": true,
+    "builder_commit_expected": true,
+    "duplicate_review_id_zero": true,
+    "duplicate_w_oa_zero": true,
+    "git_clean": true,
+    "parquet_hash_matches_manifest": true,
+    "tsv_hash_matches_manifest": true,
+    "tsv_parquet_candidate_keys_identical": true,
+    "union_rows_677": true,
+    "union_works_69": true
+  },
+  "counts": {
+    "a2_increment_pairs": 268,
+    "a2_increment_works": 31,
+    "alias_increment_pairs": 409,
+    "alias_increment_works": 38,
+    "intersection_pairs": 0,
+    "union_pairs": 677,
+    "union_works": 69
+  },
+  "execution": {
+    "builder_git_commit": "c0e74e23df76f459ea101ddef9880452f9003594",
+    "builder_path": "scripts/build_openalex_retrieval_precision_review_v2.py",
+    "builder_sha256": "da636aea2259370ec9973df32b8354108c4ddc01d08aa6cec0835a8c3ec2c4ca",
+    "git_dirty": false
+  },
+  "interpretation": "This audit freezes the complete precision-review candidate universe derived from OpenAlex retrieval-calibration profile v2. It contains no human or LLM relevance judgments and does not freeze the production retrieval policy.",
+  "outputs": {
+    "openalex_retrieval_precision_review_candidates_v2.parquet": {
+      "bytes": 825663,
+      "sha256": "f493919249217f62a8c4477abb94950a6849521d02e2aa75fe01663f91f471e7"
+    },
+    "openalex_retrieval_precision_review_candidates_v2.tsv": {
+      "bytes": 1703608,
+      "sha256": "2afbeccf04c2a532f3fab1eee2585e92fc61b1fb9591c699f7a7aaa44de96728"
+    },
+    "openalex_retrieval_precision_review_candidates_v2_manifest.json": {
+      "bytes": 1827,
+      "sha256": "2cdb5e0d48af64c1d659d8f5c4e1e0ba0acdb8af4941d226d065e7a52d9b750b"
+    }
+  }
+}
