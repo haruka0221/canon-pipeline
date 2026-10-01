@@ -291,7 +291,7 @@ def main():
                   'has_f776', 'source_files']
 
     with open(derived / 'records_parsed.tsv', 'w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t', extrasaction='ignore')
+        writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t', extrasaction='ignore', lineterminator='\n')
         writer.writeheader()
         for marc_001 in sorted(records.keys()):
             rec = records[marc_001].copy()
@@ -300,7 +300,7 @@ def main():
 
     # Write target_record_links.tsv
     with open(derived / 'target_record_links.tsv', 'w', newline='') as f:
-        writer = csv.writer(f, delimiter='\t')
+        writer = csv.writer(f, delimiter='\t', lineterminator='\n')
         writer.writerow(['sample_id', 'marc_001', 'routes'])
         for sample_id in sorted(target_record_routes.keys()):
             for marc_001 in sorted(target_record_routes[sample_id].keys()):
@@ -355,7 +355,7 @@ def main():
             era_field_presence[era]['f776'] += 1
 
     with open(derived / 'field_presence.tsv', 'w', newline='') as f:
-        writer = csv.writer(f, delimiter='\t')
+        writer = csv.writer(f, delimiter='\t', lineterminator='\n')
         writer.writerow(['era', 'total_records', 'field', 'present_count', 'present_pct'])
 
         for era in sorted(era_counts.keys()):
