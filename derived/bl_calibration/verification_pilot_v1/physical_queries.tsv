@@ -1,0 +1,97 @@
+phys_id	physical_signature	cql_sent	route_class	n_logical
+BLP0001	"alma.title == ""the picture of dorian gray"" and alma.creator all ""oscar wilde"""	"alma.title == ""The Picture of Dorian Gray"" and alma.creator all ""Oscar Wilde"""	TITLE_OR_KEYWORD	1
+BLP0002	"alma.title == ""the picture of dorian gray"""	"alma.title == ""The Picture of Dorian Gray"""	TITLE_OR_KEYWORD	1
+BLP0003	"alma.title = ""the picture of dorian gray"""	"alma.title = ""The Picture of Dorian Gray"""	TITLE_OR_KEYWORD	1
+BLP0004	"alma.all_for_ui all ""the picture of dorian gray wilde"""	"alma.all_for_ui all ""The Picture of Dorian Gray Wilde"""	TITLE_OR_KEYWORD	1
+BLP0005	"alma.creator all ""oscar wilde"""	"alma.creator all ""Oscar Wilde"""	A1	2
+BLP0006	"alma.title == ""tess of the d'urbervilles"" and alma.creator all ""thomas hardy"""	"alma.title == ""Tess of the D'Urbervilles"" and alma.creator all ""Thomas Hardy"""	TITLE_OR_KEYWORD	1
+BLP0007	"alma.title == ""tess of the d'urbervilles"""	"alma.title == ""Tess of the D'Urbervilles"""	TITLE_OR_KEYWORD	1
+BLP0008	"alma.title = ""tess of the d'urbervilles"""	"alma.title = ""Tess of the D'Urbervilles"""	TITLE_OR_KEYWORD	1
+BLP0009	"alma.all_for_ui all ""tess of the d'urbervilles hardy"""	"alma.all_for_ui all ""Tess of the D'Urbervilles Hardy"""	TITLE_OR_KEYWORD	1
+BLP0010	"alma.creator all ""thomas hardy"""	"alma.creator all ""Thomas Hardy"""	A1	1
+BLP0011	"alma.title == ""mrs. dalloway"" and alma.creator all ""virginia woolf"""	"alma.title == ""Mrs. Dalloway"" and alma.creator all ""Virginia Woolf"""	TITLE_OR_KEYWORD	1
+BLP0012	"alma.title == ""mrs. dalloway"""	"alma.title == ""Mrs. Dalloway"""	TITLE_OR_KEYWORD	1
+BLP0013	"alma.title = ""mrs. dalloway"""	"alma.title = ""Mrs. Dalloway"""	TITLE_OR_KEYWORD	1
+BLP0014	"alma.all_for_ui all ""mrs. dalloway woolf"""	"alma.all_for_ui all ""Mrs. Dalloway Woolf"""	TITLE_OR_KEYWORD	1
+BLP0015	"alma.creator all ""virginia woolf"""	"alma.creator all ""Virginia Woolf"""	A1	1
+BLP0016	"alma.title == ""kim"" and alma.creator all ""rudyard kipling"""	"alma.title == ""Kim"" and alma.creator all ""Rudyard Kipling"""	TITLE_OR_KEYWORD	1
+BLP0017	"alma.title == ""kim"""	"alma.title == ""Kim"""	TITLE_OR_KEYWORD	1
+BLP0018	"alma.title = ""kim"""	"alma.title = ""Kim"""	TITLE_OR_KEYWORD	1
+BLP0019	"alma.all_for_ui all ""kim kipling"""	"alma.all_for_ui all ""Kim Kipling"""	TITLE_OR_KEYWORD	1
+BLP0020	"alma.creator all ""rudyard kipling"""	"alma.creator all ""Rudyard Kipling"""	A1	1
+BLP0021	"alma.title == ""she"" and alma.creator all ""h. rider haggard"""	"alma.title == ""She"" and alma.creator all ""H. Rider Haggard"""	TITLE_OR_KEYWORD	1
+BLP0022	"alma.title == ""she"""	"alma.title == ""She"""	TITLE_OR_KEYWORD	1
+BLP0023	"alma.title = ""she"""	"alma.title = ""She"""	TITLE_OR_KEYWORD	1
+BLP0024	"alma.all_for_ui all ""she haggard"""	"alma.all_for_ui all ""She Haggard"""	TITLE_OR_KEYWORD	1
+BLP0025	"alma.creator all ""h. rider haggard"""	"alma.creator all ""H. Rider Haggard"""	A1	1
+BLP0026	"alma.title == ""burmese days"" and alma.creator all ""george orwell"""	"alma.title == ""Burmese Days"" and alma.creator all ""George Orwell"""	TITLE_OR_KEYWORD	1
+BLP0027	"alma.title == ""burmese days"""	"alma.title == ""Burmese Days"""	TITLE_OR_KEYWORD	1
+BLP0028	"alma.title = ""burmese days"""	"alma.title = ""Burmese Days"""	TITLE_OR_KEYWORD	1
+BLP0029	"alma.all_for_ui all ""burmese days orwell"""	"alma.all_for_ui all ""Burmese Days Orwell"""	TITLE_OR_KEYWORD	1
+BLP0030	"alma.creator all ""george orwell"""	"alma.creator all ""George Orwell"""	A1	1
+BLP0031	"alma.title == ""the house of mirth"" and alma.creator all ""edith wharton"""	"alma.title == ""The house of mirth"" and alma.creator all ""Edith Wharton"""	TITLE_OR_KEYWORD	1
+BLP0032	"alma.title == ""the house of mirth"""	"alma.title == ""The house of mirth"""	TITLE_OR_KEYWORD	1
+BLP0033	"alma.title = ""the house of mirth"""	"alma.title = ""The house of mirth"""	TITLE_OR_KEYWORD	1
+BLP0034	"alma.all_for_ui all ""the house of mirth wharton"""	"alma.all_for_ui all ""The house of mirth Wharton"""	TITLE_OR_KEYWORD	1
+BLP0035	"alma.creator all ""edith wharton"""	"alma.creator all ""Edith Wharton"""	A1	1
+BLP0036	"alma.title == ""sister carrie"" and alma.creator all ""theodore dreiser"""	"alma.title == ""Sister Carrie"" and alma.creator all ""Theodore Dreiser"""	TITLE_OR_KEYWORD	1
+BLP0037	"alma.title == ""sister carrie"""	"alma.title == ""Sister Carrie"""	TITLE_OR_KEYWORD	1
+BLP0038	"alma.title = ""sister carrie"""	"alma.title = ""Sister Carrie"""	TITLE_OR_KEYWORD	1
+BLP0039	"alma.all_for_ui all ""sister carrie dreiser"""	"alma.all_for_ui all ""Sister Carrie Dreiser"""	TITLE_OR_KEYWORD	1
+BLP0040	"alma.creator all ""theodore dreiser"""	"alma.creator all ""Theodore Dreiser"""	A1	1
+BLP0041	"alma.title == ""the four just men"" and alma.creator all ""edgar wallace"""	"alma.title == ""The Four Just Men"" and alma.creator all ""Edgar Wallace"""	TITLE_OR_KEYWORD	1
+BLP0042	"alma.title == ""the four just men"""	"alma.title == ""The Four Just Men"""	TITLE_OR_KEYWORD	1
+BLP0043	"alma.title = ""the four just men"""	"alma.title = ""The Four Just Men"""	TITLE_OR_KEYWORD	1
+BLP0044	"alma.all_for_ui all ""the four just men wallace"""	"alma.all_for_ui all ""The Four Just Men Wallace"""	TITLE_OR_KEYWORD	1
+BLP0045	"alma.creator all ""edgar wallace"""	"alma.creator all ""Edgar Wallace"""	A1	1
+BLP0046	"alma.title == ""heart of darkness"" and alma.creator all ""joseph conrad"""	"alma.title == ""Heart of Darkness"" and alma.creator all ""Joseph Conrad"""	TITLE_OR_KEYWORD	4
+BLP0047	"alma.title == ""heart of darkness"""	"alma.title == ""Heart of Darkness"""	TITLE_OR_KEYWORD	4
+BLP0048	"alma.title = ""heart of darkness"""	"alma.title = ""Heart of Darkness"""	TITLE_OR_KEYWORD	4
+BLP0049	"alma.all_for_ui all ""heart of darkness conrad"""	"alma.all_for_ui all ""Heart of Darkness Conrad"""	TITLE_OR_KEYWORD	4
+BLP0050	"alma.creator all ""joseph conrad"""	"alma.creator all ""Joseph Conrad"""	A1	4
+BLP0051	"alma.title == ""the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858)"" and alma.creator all ""oscar wilde"""	"alma.title == ""The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858)"" and alma.creator all ""Oscar Wilde"""	TITLE_OR_KEYWORD	1
+BLP0052	"alma.title == ""the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858)"""	"alma.title == ""The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858)"""	TITLE_OR_KEYWORD	1
+BLP0053	"alma.title = ""the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858)"""	"alma.title = ""The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858)"""	TITLE_OR_KEYWORD	1
+BLP0054	"alma.all_for_ui all ""the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858) wilde"""	"alma.all_for_ui all ""The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858) Wilde"""	TITLE_OR_KEYWORD	1
+BLP0055	"alma.title == ""a room with a view / howards end / maurice"" and alma.creator all ""e. m. forster"""	"alma.title == ""A Room With a View / Howards End / Maurice"" and alma.creator all ""E. M. Forster"""	TITLE_OR_KEYWORD	1
+BLP0056	"alma.title == ""a room with a view / howards end / maurice"""	"alma.title == ""A Room With a View / Howards End / Maurice"""	TITLE_OR_KEYWORD	1
+BLP0057	"alma.title = ""a room with a view / howards end / maurice"""	"alma.title = ""A Room With a View / Howards End / Maurice"""	TITLE_OR_KEYWORD	1
+BLP0058	"alma.all_for_ui all ""a room with a view / howards end / maurice forster"""	"alma.all_for_ui all ""A Room With a View / Howards End / Maurice Forster"""	TITLE_OR_KEYWORD	1
+BLP0059	"alma.creator all ""e. m. forster"""	"alma.creator all ""E. M. Forster"""	A1	2
+BLP0060	"alma.title == ""howards end"" and alma.creator all ""e. m. forster"""	"alma.title == ""Howards End"" and alma.creator all ""E. M. Forster"""	TITLE_OR_KEYWORD	1
+BLP0061	"alma.title == ""howards end"""	"alma.title == ""Howards End"""	TITLE_OR_KEYWORD	1
+BLP0062	"alma.title = ""howards end"""	"alma.title = ""Howards End"""	TITLE_OR_KEYWORD	1
+BLP0063	"alma.all_for_ui all ""howards end forster"""	"alma.all_for_ui all ""Howards End Forster"""	TITLE_OR_KEYWORD	1
+BLP0064	"alma.title == ""the orange fairy book"" and alma.creator all ""andrew lang"""	"alma.title == ""The Orange Fairy Book"" and alma.creator all ""Andrew Lang"""	TITLE_OR_KEYWORD	1
+BLP0065	"alma.title == ""the orange fairy book"""	"alma.title == ""The Orange Fairy Book"""	TITLE_OR_KEYWORD	1
+BLP0066	"alma.title = ""the orange fairy book"""	"alma.title = ""The Orange Fairy Book"""	TITLE_OR_KEYWORD	1
+BLP0067	"alma.all_for_ui all ""the orange fairy book lang"""	"alma.all_for_ui all ""The Orange Fairy Book Lang"""	TITLE_OR_KEYWORD	1
+BLP0068	"alma.creator all ""andrew lang"""	"alma.creator all ""Andrew Lang"""	A1	1
+BLP0069	"alma.title == ""four chapters"" and alma.creator all ""rabindranath tagore"""	"alma.title == ""Four chapters"" and alma.creator all ""Rabindranath Tagore"""	TITLE_OR_KEYWORD	1
+BLP0070	"alma.title == ""four chapters"""	"alma.title == ""Four chapters"""	TITLE_OR_KEYWORD	1
+BLP0071	"alma.title = ""four chapters"""	"alma.title = ""Four chapters"""	TITLE_OR_KEYWORD	1
+BLP0072	"alma.all_for_ui all ""four chapters tagore"""	"alma.all_for_ui all ""Four chapters Tagore"""	TITLE_OR_KEYWORD	1
+BLP0073	"alma.creator all ""rabindranath tagore"""	"alma.creator all ""Rabindranath Tagore"""	A1	1
+BLP0074	"alma.title == ""the shen's pigtail"" and alma.creator all ""julian croskey"""	"alma.title == ""The shen's pigtail"" and alma.creator all ""Julian Croskey"""	TITLE_OR_KEYWORD	1
+BLP0075	"alma.title == ""the shen's pigtail"""	"alma.title == ""The shen's pigtail"""	TITLE_OR_KEYWORD	1
+BLP0076	"alma.title = ""the shen's pigtail"""	"alma.title = ""The shen's pigtail"""	TITLE_OR_KEYWORD	1
+BLP0077	"alma.all_for_ui all ""the shen's pigtail croskey"""	"alma.all_for_ui all ""The shen's pigtail Croskey"""	TITLE_OR_KEYWORD	1
+BLP0078	"alma.creator all ""julian croskey"""	"alma.creator all ""Julian Croskey"""	A1	1
+BLP0079	"alma.title == ""the graysons"" and alma.creator all ""edward eggleston"""	"alma.title == ""The Graysons"" and alma.creator all ""Edward Eggleston"""	TITLE_OR_KEYWORD	1
+BLP0080	"alma.title == ""the graysons"""	"alma.title == ""The Graysons"""	TITLE_OR_KEYWORD	1
+BLP0081	"alma.title = ""the graysons"""	"alma.title = ""The Graysons"""	TITLE_OR_KEYWORD	1
+BLP0082	"alma.all_for_ui all ""the graysons eggleston"""	"alma.all_for_ui all ""The Graysons Eggleston"""	TITLE_OR_KEYWORD	1
+BLP0083	"alma.creator all ""edward eggleston"""	"alma.creator all ""Edward Eggleston"""	A1	1
+BLP0084	"alma.title == ""the surprising adventures of baron munchausen"" and alma.creator all ""rudolf erich raspe"""	"alma.title == ""The surprising adventures of Baron Munchausen"" and alma.creator all ""Rudolf Erich Raspe"""	TITLE_OR_KEYWORD	1
+BLP0085	"alma.title == ""the surprising adventures of baron munchausen"""	"alma.title == ""The surprising adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1
+BLP0086	"alma.title = ""the surprising adventures of baron munchausen"""	"alma.title = ""The surprising adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1
+BLP0087	"alma.all_for_ui all ""the surprising adventures of baron munchausen raspe"""	"alma.all_for_ui all ""The surprising adventures of Baron Munchausen Raspe"""	TITLE_OR_KEYWORD	1
+BLP0088	"alma.title == ""the adventures of baron munchausen"" and alma.creator all ""rudolf erich raspe"""	"alma.title == ""The adventures of Baron Munchausen"" and alma.creator all ""Rudolf Erich Raspe"""	TITLE_OR_KEYWORD	1
+BLP0089	"alma.title == ""the adventures of baron munchausen"""	"alma.title == ""The adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1
+BLP0090	"alma.title = ""the adventures of baron munchausen"""	"alma.title = ""The adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1
+BLP0091	"alma.all_for_ui all ""the adventures of baron munchausen raspe"""	"alma.all_for_ui all ""The adventures of Baron Munchausen Raspe"""	TITLE_OR_KEYWORD	1
+BLP0092	"alma.title == ""the singular adventures of baron munchausen"" and alma.creator all ""rudolf erich raspe"""	"alma.title == ""The singular adventures of Baron Munchausen"" and alma.creator all ""Rudolf Erich Raspe"""	TITLE_OR_KEYWORD	1
+BLP0093	"alma.title == ""the singular adventures of baron munchausen"""	"alma.title == ""The singular adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1
+BLP0094	"alma.title = ""the singular adventures of baron munchausen"""	"alma.title = ""The singular adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1
+BLP0095	"alma.all_for_ui all ""the singular adventures of baron munchausen raspe"""	"alma.all_for_ui all ""The singular adventures of Baron Munchausen Raspe"""	TITLE_OR_KEYWORD	1
+BLP0096	"alma.creator all ""rudolf erich raspe"""	"alma.creator all ""Rudolf Erich Raspe"""	A1	1

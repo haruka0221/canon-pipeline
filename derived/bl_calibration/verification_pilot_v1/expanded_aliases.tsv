@@ -1,0 +1,30 @@
+sample_id	alias_id	target_lane	project_work_id	unresolved_unit_anchor_entity_id	alias_source_record_id	alias_value_raw	alias_value_norm	alias_quality	primary_action	query_author_name
+BLV001	OAA000033803	resolved_w	W000030670		OL8193416W	The Picture of Dorian Gray	the picture of dorian gray	usable	USE_ORDINAL0	Oscar Wilde
+BLV002	OAA000020420	resolved_w	W000032021		OL40434746W	Tess of the D'Urbervilles	tess of the d'urbervilles	usable	USE_ORDINAL0	Thomas Hardy
+BLV002	OAA000022186	resolved_w	W000032021		OL43906748W	Tess of the d'Urbervilles	tess of the d'urbervilles	usable	USE_ORDINAL0	Thomas Hardy
+BLV003	OAA000020006	resolved_w	W000018010		OL39349W	Mrs. Dalloway	mrs. dalloway	usable	USE_ORDINAL0	Virginia Woolf
+BLV004	OAA000011056	resolved_w	W000031897		OL19908W	Kim	kim	usable	USE_ORDINAL0	Rudyard Kipling
+BLV004	OAA000011301	resolved_w	W000031897		OL20172W	Kim	kim	usable	USE_ORDINAL0	Rudyard Kipling
+BLV005	OAA000007933	resolved_w	W000007201		OL17453W	She	she	usable	USE_ORDINAL0	H. Rider Haggard
+BLV006	OAA000001798	resolved_w	W000001624		OL1168015W	Burmese Days	burmese days	usable	USE_ORDINAL0	George Orwell
+BLV007	OAA000017446	resolved_w	W000031971		OL32146991W	The house of mirth	the house of mirth	usable	USE_ORDINAL0	Edith Wharton
+BLV007	OAA000020965	resolved_w	W000031971		OL42236259W	The house of mirth	the house of mirth	usable	USE_ORDINAL0	Edith Wharton
+BLV007	OAA000034689	resolved_w	W000031971		OL98587W	The House of Mirth	the house of mirth	usable	USE_ORDINAL0	Edith Wharton
+BLV008	OAA000000003	resolved_w	W000000003		OL100203W	Sister Carrie	sister carrie	usable	USE_ORDINAL0	Theodore Dreiser
+BLV009	OAA000005126	resolved_w	W000004670		OL1517879W	The Four Just Men	the four just men	usable	USE_ORDINAL0	Edgar Wallace
+BLV010	OAA000015723	resolved_w	W000014272		OL29000391W	Heart of Darkness	heart of darkness	usable	USE_ORDINAL0	Joseph Conrad
+BLV011	OAA000016369	resolved_w	W000014830		OL31971259W	Heart of Darkness	heart of darkness	usable	USE_ORDINAL0	Joseph Conrad
+BLV012	OAA000019489	resolved_w	W000017583		OL38663W	Heart of Darkness	heart of darkness	usable	USE_ORDINAL0	Joseph Conrad
+BLV013	OAA000033782	resolved_w	W000030652		OL8137762W	Heart of darkness	heart of darkness	usable	USE_ORDINAL0	Joseph Conrad
+BLV014	OAA000016205	resolved_w	W000014701		OL31329594W	The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858)	the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858)	usable	USE_ORDINAL0	Oscar Wilde
+BLV015	OAA000034287	resolved_w	W000031089		OL88814W	A Room With a View / Howards End / Maurice	a room with a view / howards end / maurice	usable	USE_ORDINAL0	E. M. Forster
+BLV016	OAA000016317	unresolved_source		E000016319	OL31830224W	Howards End	howards end	usable	USE_ORDINAL0	E. M. Forster
+BLV016	OAA000034299	unresolved_source		E000016319	OL88881W	Howards End	howards end	usable	USE_ORDINAL0	E. M. Forster
+BLV017	OAA000000669	resolved_w	W000000582		OL1088838W	The Orange Fairy Book	the orange fairy book	usable	USE_ORDINAL0	Andrew Lang
+BLV018	OAA000007020	resolved_w	W000006387		OL16312643W	Four chapters	four chapters	usable	USE_ORDINAL0	Rabindranath Tagore
+BLV019	OAA000033263	resolved_w	W000030186		OL7859676W	The shen's pigtail	the shen's pigtail	usable	USE_ORDINAL0	Julian Croskey
+BLV020	OAA000001455	resolved_w	W000001300		OL1145615W	The Graysons	the graysons	usable	USE_ORDINAL0	Edward Eggleston
+BLV021	OAA000000192	unresolved_source		E000000192	OL10421923W	The surprising adventures of Baron Munchausen	the surprising adventures of baron munchausen	usable	USE_ORDINAL0	Rudolf Erich Raspe
+BLV021	OAA000000193	unresolved_source		E000000192	OL10421924W	The adventures of Baron Munchausen	the adventures of baron munchausen	usable	USE_ORDINAL0	Rudolf Erich Raspe
+BLV021	OAA000028368	unresolved_source		E000000192	OL7023871W	The singular adventures of Baron Munchausen	the singular adventures of baron munchausen	usable	USE_ORDINAL0	Rudolf Erich Raspe
+BLV021	OAA000028369	unresolved_source		E000000192	OL7023874W	The adventures of Baron Munchausen	the adventures of baron munchausen	usable	USE_ORDINAL0	Rudolf Erich Raspe

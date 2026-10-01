@@ -1,0 +1,23 @@
+{
+  "script_version": "bl_verification_pilot_v1_runner_1",
+  "script_sha256": "960da345412b1805d7971edf0aa185e245c2aa15f03ed5f7c5fa7f68b6e6c34b",
+  "git_head": "efc79e157568ecd9552f1dcdca8b38aeee6e9fa5",
+  "freeze_commit": "b7ad972",
+  "endpoint": "https://eu06.alma.exlibrisgroup.com/view/sru/44BL_MAIN",
+  "sru_version": "1.2",
+  "record_schema": "marcxml",
+  "page_size": 20,
+  "cap": 200,
+  "min_interval_s": 3.0,
+  "retry_wait_s": 30.0,
+  "max_retries": 3,
+  "raw_root": "/home/haruka221/bl_raw/verification_pilot_v1",
+  "run_finished_utc": "2026-10-01T11:47:14.326249Z",
+  "http_requests_this_invocation": 293,
+  "inputs": {
+    "protocol": "a54d86ac25d7b66aaac6909cc6f7988a8616e24ade9f88807177df424aff85eb",
+    "sample": "debd0af6dc02ffe3aa7fcfd52a748064725f51482b705b321ad3bda554f51bf1",
+    "aliases": "005760580f04f7ac04353a6354ad386df56e54a8423550379e9e3bb3b8e390e4",
+    "query_authors": "5561f5146d262fff448428c8d70388f8bbb06e6a9b4a3c095f89ccbe6129ca37"
+  }
+}
