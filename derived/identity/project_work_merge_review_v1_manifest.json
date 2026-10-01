@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "high_confidence": 3,
+    "merge_decisions": 3,
+    "predecessor_project_works": 7,
+    "review_groups": 3
+  },
+  "created_at": "2026-10-01",
+  "inputs": {
+    "derived/identity/project_works_v4.tsv": "f7760f3292e3f36f79571e85deb2944028c2c113ff80ed8edb64a6d03e471f7d",
+    "derived/identity/source_entities_v2.tsv": "1769f25935a0bed58a64ba6f2ea2f0dfa9e02926ff7512770e9c9d41f42454bc",
+    "derived/identity/work_identity_map_v4.tsv": "ee8387b6a086a95e3ed53d4938c3ec787e30a4a1b3ca6a69e358e1e1c8846af0",
+    "derived/openlibrary_author_source_v1/openlibrary_author_records_v1.tsv": "e081b87ea7b3ba45683ef663e81ebd570b26b0b3ce0af59fb10a31a1af34cef8",
+    "derived/openlibrary_author_source_v1/openlibrary_current_work_authors_v1.tsv": "05fa01b9325e58ca9ca962ddd4decc92551b93edf17d158970b0b650de00f2e6",
+    "derived/openlibrary_author_source_v1/openlibrary_current_work_records_v1.tsv": "fc91775845c387ea8a833051bcd8d18b86d7fb0b5c0638b3dc254fb7ccb9d52b"
+  },
+  "output": {
+    "artifact": "derived/identity/project_work_merge_review_v1.tsv",
+    "sha256": "2cab9eb40a47ab1c0d5b29e812473c4b9b3abd63ccfa162d06b5c836785c0987"
+  },
+  "release": "project-work-merge-review-v1",
+  "semantics": {
+    "decision_scope": "Conceptual-work identity only. Corpus scope is not evaluated.",
+    "historical_release_policy": "This artifact records merge judgments only. It does not rewrite project_works_v4 or work_identity_map_v4.",
+    "next_step": "Represent accepted merges in a versioned project-work lineage/current-identity release.",
+    "unit_of_review": "project-work merge group"
+  }
+}
