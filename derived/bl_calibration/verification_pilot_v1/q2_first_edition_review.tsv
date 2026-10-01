@@ -1,0 +1,13 @@
+q2_row_id	work_label	llm_decision	matched_marc_001	human_decision	human_note	reviewer	review_date
+Q2R01	Dorian Gray	found	990039236380109251	found	Ward, Lock, [1891]; matches.	Haruka TSUTSUI	2026-10-01
+Q2R02	Tess	found	990015941950109251;99216938395909251	found	Three-volume 1891 Osgood, McIlvaine edition; two records describe the same edition (one 264-based, one 260-based). LLM reason states 008 Date1 1892 for the second record; actual 008 Date1 is 1891 (LLM reason error; decision unaffected).	Haruka TSUTSUI	2026-10-01
+Q2R03	Mrs Dalloway	found	990039742500109251	found	"Publisher given as ""L. & V. Woolf"" (early Hogarth Press imprint form); 1925; matches."	Haruka TSUTSUI	2026-10-01
+Q2R04	Kim	found	990019729670109251	found	"Macmillan 1901; 245$a in old-record form ""[Kim. [With plates.]]""."	Haruka TSUTSUI	2026-10-01
+Q2R05	She	found	990015617460109251;99216888402709251;99216972445509251	found	Three records for the 1887 Longmans edition (probable duplicate records).	Haruka TSUTSUI	2026-10-01
+Q2R06	Burmese Days	found	990027226710109251	found	"Gollancz 1935; 245$a ""Burmese Days. A novel.""."	Haruka TSUTSUI	2026-10-01
+Q2R07	House of Mirth	found	990039009050109251	found	Macmillan, London, 1905; matches.	Haruka TSUTSUI	2026-10-01
+Q2R08	Sister Carrie	not_found_determinable	 	not_found_determinable	"Only candidate is the 1900 Doubleday (US) edition. The one undated linked record (990089281570109251) is a Research Publications reproduction of the 1900 edition (008 type r, Date2 1900); its roman-numeral flag is a false positive from ""Inc."". LLM reason omitted the undated record (prompt rule 10 not followed). Reason for absence of the Heinemann 1901 edition unknown."	Haruka TSUTSUI	2026-10-01
+Q2R09	Four Just Men	found	990038393490109251	found	"Tallis Press 1905; 245$a ""The Four Just Men. [A novel.]""."	Haruka TSUTSUI	2026-10-01
+Q2R10	Heart of Darkness	undetermined_cap		undetermined_cap	No candidates in 1901-1903; per addendum 2 §3, the 1902 Youth volume is not retrievable by T1/T2 and K1/A1 were capped.	Haruka TSUTSUI	2026-10-01
+Q2R11	Howards End	found	990012721870109251	found	Edward Arnold 1910; matches.	Haruka TSUTSUI	2026-10-01
+Q2R12	Orange Fairy Book	found	990020685220109251	found	Longmans 1906; matches.	Haruka TSUTSUI	2026-10-01

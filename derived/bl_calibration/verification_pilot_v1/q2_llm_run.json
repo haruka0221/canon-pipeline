@@ -1,0 +1,14 @@
+{
+  "model_identifier": "claude-sonnet-4-5-20250929",
+  "prompt_version": "q2_llm_prompt_v1",
+  "prompt_sha256": "3559f82ea98092ba095669ad135a2df803dfbf2c054bb86dc9f1e1778141c25c",
+  "input_files": {
+    "q2_ground_truth.tsv": "5ef37eb2337242c144e398036984c6cf485aeb215e82147b4162b33011ab628e",
+    "q2_candidates.tsv": "1c3cc7ffc3d4b66581d3421562c790870b23129a731f902d5769168b04df07fc",
+    "q2_candidates_diagnostics.tsv": "093d855c5659de477e481649beddb8ed6508a3072cb7646157db39c3577c7c57"
+  },
+  "output_files": {
+    "q2_llm_output.tsv": "generated",
+    "q2_llm_run.json": "this file"
+  }
+}
