@@ -1,0 +1,164 @@
+{
+  "artifacts": {
+    "openalex_a12_candidate_oa_records_v3.parquet": {
+      "bytes": 60153793,
+      "sha256": "1d51f75dc64decbd263d389f144469557f1e6a85c1b8d7e7c40db2800a0c7da8"
+    },
+    "openalex_a12_candidate_query_evidence_v3.parquet": {
+      "bytes": 2708162,
+      "sha256": "fcef2670975587f863120b94dbd17edac8b05694622349a3471a0c49f02e2ec2"
+    },
+    "openalex_query_profile_counts_v3.parquet": {
+      "bytes": 517732,
+      "sha256": "1c2efa174d5e85851cf7943683a7542b337760fa46e80ae7fd3bc5a90046ab71"
+    },
+    "openalex_query_profile_counts_v3.tsv": {
+      "bytes": 1956512,
+      "sha256": "f97b5796d02cffe601cc0165d0f6bc5bda14bbc2a7bffd48e0dbb8b855ca0718"
+    },
+    "openalex_retrieval_calibration_profile_v3_manifest.json": {
+      "bytes": 103579,
+      "sha256": "485def4b5b05fd37e5127f59a61902d8bc46acca06e540cae5a36ea1e48d6a2a"
+    },
+    "openalex_retrieval_query_semantic_map_v1_to_v2_v1.parquet": {
+      "bytes": 568006,
+      "sha256": "e953777f68b1623670e2d62f14fa10d37d6cecd8727374211c4021e86685a962"
+    },
+    "openalex_retrieval_query_semantic_map_v1_to_v2_v1.tsv": {
+      "bytes": 2143872,
+      "sha256": "1724bdfa902f1ce2a5b15f70528a0b7145897e431ed8fbd95ed9deaeb7d87bfe"
+    },
+    "openalex_title_pattern_counts_v3.parquet": {
+      "bytes": 144518,
+      "sha256": "9cc9cf55923da25ef1f8922eea2907043809fbeb1b85ef769259bbc23ce80027"
+    },
+    "openalex_title_pattern_counts_v3.tsv": {
+      "bytes": 206394,
+      "sha256": "5e6f135908d75eb0e7edb35282eefe12e78cd0447eeb0d219740761646786b93"
+    }
+  },
+  "audit_release": "openalex-retrieval-calibration-profile-v3-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-02T11:57:03.700290+00:00",
+  "builder_git_commit": "74d9ad63b80c0dc2fd5d009b32f7a4545ca8b7c7",
+  "candidate_evidence_reprojection": {
+    "dropped_rows": 18,
+    "duplicate_query_oa_pairs": 0,
+    "exact_reconstruction_match": true,
+    "rows_changing_project_work": 34,
+    "source_rows": 251905,
+    "target_rows": 251887
+  },
+  "checks": {
+    "a12_evidence_independently_reconstructed": true,
+    "builder_commit_exact": true,
+    "manifest_input_hashes_exact": true,
+    "manifest_output_hashes_exact": true,
+    "oa_records_byte_identical": true,
+    "output_file_set_exact": true,
+    "pattern_metadata_change_set_exact": true,
+    "query_profile_scan_counts_preserved": true,
+    "semantic_map_independently_reproduced": true,
+    "snapshot_rescan_required_false": true,
+    "successor_evidence_counts_exact": true,
+    "title_pattern_metadata_recomputed": true,
+    "title_pattern_scan_counts_preserved": true,
+    "tsv_parquet_parity": true
+  },
+  "counts": {
+    "a12_candidate_query_rows": 251887,
+    "a12_candidate_rows_changed_project_w": 34,
+    "a12_oa_record_rows": 73931,
+    "dropped_a12_candidate_query_rows": 18,
+    "dropped_source_query_rows": 10,
+    "logical_queries": 10998,
+    "semantic_query_map_changed_project_w": 17,
+    "semantic_query_map_changed_query_id": 6025,
+    "semantic_query_map_rows": 10998,
+    "semantic_query_map_same_query_id": 4973,
+    "source_a12_candidate_query_rows": 251905,
+    "source_logical_queries": 11008,
+    "title_patterns": 2858,
+    "title_patterns_with_registry_metadata_change": 3
+  },
+  "derivation": "deterministic_reprojection_without_snapshot_rescan",
+  "identity_v5_successor_evidence": {
+    "W000032087": {
+      "oa": 7,
+      "queries": 4,
+      "rows": 28
+    },
+    "W000032088": {
+      "oa": 1,
+      "queries": 3,
+      "rows": 3
+    },
+    "W000032089": {
+      "oa": 1,
+      "queries": 3,
+      "rows": 3
+    }
+  },
+  "interpretation": "Profile v3 is a deterministic reprojection of the frozen full-profile-v2 OpenAlex scan evidence onto retrieval-match-registry-v2 / identity-v5 provenance. All 10,998 retained logical queries map 1:1 through scanner-facing semantic identity. Query-level scan counts and title-pattern scan counts are preserved exactly; only registry-derived metadata is recomputed. A1/A2 evidence is exactly reconstructible after the audited rekey, and the 73,931 OA metadata records are byte-identical to profile v2. No OpenAlex snapshot rescan is required.",
+  "oa_record_reuse": {
+    "all_records_remain_referenced": true,
+    "byte_identical": true,
+    "source_rows": 73931,
+    "target_rows": 73931
+  },
+  "reuse_contract": {
+    "cross_release_query_join_uses_semantic_identity": true,
+    "matching_contract_unchanged": true,
+    "profile_v2_scan_counts_reused": true,
+    "snapshot_provenance_unchanged": true,
+    "snapshot_rescan_performed": false,
+    "snapshot_rescan_required": false
+  },
+  "semantic_mapping": {
+    "cardinality": "1:1",
+    "changed_project_work": 17,
+    "changed_query_id": 6025,
+    "dropped_old_queries": 10,
+    "rows": 10998,
+    "same_query_id": 4973
+  },
+  "source_release": "openalex-retrieval-calibration-profile-v2",
+  "target_release": "openalex-retrieval-calibration-profile-v3",
+  "title_pattern_reprojection": {
+    "metadata_changed_patterns": {
+      "the english novel": {
+        "logical_query_rows": [
+          "42",
+          "40"
+        ],
+        "resolved_w": [
+          "14",
+          "12"
+        ]
+      },
+      "the golden horseshoe": {
+        "logical_query_rows": [
+          "12",
+          "5"
+        ],
+        "resolved_w": [
+          "4",
+          "1"
+        ]
+      },
+      "the short story": {
+        "logical_query_rows": [
+          "18",
+          "17"
+        ],
+        "resolved_w": [
+          "6",
+          "5"
+        ]
+      }
+    },
+    "pattern_universe_identical": true,
+    "registry_metadata_recomputed_from_match_registry_v2": true,
+    "scan_counts_preserved_exactly": true
+  }
+}
