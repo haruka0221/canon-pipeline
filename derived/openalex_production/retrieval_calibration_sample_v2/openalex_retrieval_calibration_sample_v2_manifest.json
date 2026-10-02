@@ -1,0 +1,117 @@
+{
+  "cohort_definitions": {
+    "a2_sensitive_random": "Stable sample of resolved W having at least one title-author query whose raw Open Library query-author string is a simple surname-first comma candidate.",
+    "baseline_random": "Stable random baseline from all 32,082 resolved project W.",
+    "high_r4_collision_all": "All resolved W for which at least one R4 execution signature is shared by four or more resolved W.",
+    "multi_alias_all": "All resolved W with more than one current Open Library title alias.",
+    "one_token_title_random": "Stable sample of resolved W having at least one one-token R4 title under the calibration matching tokenizer.",
+    "r2_missing_all": "All resolved W without an R2 title-author logical query.",
+    "two_token_title_random": "Stable sample of resolved W having at least one two-token R4 title under the calibration matching tokenizer.",
+    "unresolved_all": "All 761 unresolved aggregation units; kept in a separate unresolved lane and excluded from W-level visibility."
+  },
+  "counts": {
+    "cohorts_before_union": {
+      "a2_sensitive_random": 150,
+      "baseline_random": 300,
+      "high_r4_collision_all": 329,
+      "multi_alias_all": 550,
+      "one_token_title_random": 100,
+      "r2_missing_all": 352,
+      "two_token_title_random": 100
+    },
+    "resolved_population_w": 32082,
+    "selected_lane_by_route": {
+      "resolved_w": {
+        "R2": 1494,
+        "R3": 2118,
+        "R4": 2470
+      },
+      "unresolved_source": {
+        "R2": 759,
+        "R3": 2074,
+        "R4": 2083
+      }
+    },
+    "selected_logical_queries": 10998,
+    "selected_query_routes": {
+      "R2": 2253,
+      "R3": 4192,
+      "R4": 4553
+    },
+    "selected_resolved_feature_counts": {
+      "a2_sensitive": 218,
+      "multi_alias": 550,
+      "one_token_title": 214,
+      "r2_missing": 352,
+      "r4_collision_ge4": 329,
+      "two_token_title": 451
+    },
+    "selected_resolved_w": 1846,
+    "selected_target_units_total": 2607,
+    "selected_unique_execution_ids": 5783,
+    "selected_unresolved_units": 761,
+    "unresolved_population_units": 761
+  },
+  "created_at": "2026-10-02",
+  "inputs": {
+    "derived/openalex_production/registry_v4/openalex_execution_registry_v4_manifest.json": "a90c6327d30efafac36f440234af4a8550f7419f8c250a3444c67ce9f88c9eae",
+    "derived/openalex_production/registry_v4/openalex_queries_v4.parquet": "a98df3ec8ad31c9f2b63d09cf12a4f57bd95c5afe66353be3f840aeb2042e387",
+    "derived/openalex_production/registry_v4/openalex_query_execution_map_v4.parquet": "9d98b4163a8f00b787be04cac3e2b82dabbaa444951308eb69b6e90d8403178a",
+    "derived/openalex_production/registry_v4/openalex_query_executions_v4.parquet": "9f86daa1f2281bb89cc3147fe89b7522848b425fbd1a46079b45cf081f63724e",
+    "derived/openalex_production/registry_v4/openalex_query_registry_v4_manifest.json": "0f9b7dfd87c669820ed9f9b325bf12479e2b102dda088a8f089c936beaa092ba"
+  },
+  "matching_diagnostic_semantics": {
+    "a2_sensitive": "Indicates availability of a conservative surname-first comma reversal candidate. It does not enable an author-matching production rule.",
+    "match_tokens": "Unicode NFKC + casefold; Unicode letters/numbers/combining marks are retained and other characters become token boundaries. This is a calibration matching representation, not execution normalization."
+  },
+  "next_step": "build_openalex_retrieval_match_registry_v2",
+  "outputs": {
+    "queries_parquet": {
+      "artifact": "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_queries_v2.parquet",
+      "sha256": "23eab3d203716c7b3257421be2c80da42ccb0da3c75b61573f09d5ebdc0a8ac6"
+    },
+    "queries_tsv": {
+      "artifact": "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_queries_v2.tsv",
+      "sha256": "57e1ae409fa9d5af6d01cdef3b57796e7dd1d9cb58ef3e36bba7e0c58544e955"
+    },
+    "targets_parquet": {
+      "artifact": "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_targets_v2.parquet",
+      "sha256": "124f61130a96dc3c7f77b537f370965eaf4ba65b2d322e959f1408104612a6c1"
+    },
+    "targets_tsv": {
+      "artifact": "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_targets_v2.tsv",
+      "sha256": "daa0a73284b8341b1ee5580d537dbd50b610e6923c8cbd38e450c90d6668bdef"
+    }
+  },
+  "purpose": "Freeze a reproducible target and logical-query sample for comparing OpenAlex R2/R3/R4 retrieval and author-text matching strategies.",
+  "release": "openalex-retrieval-calibration-sample-v2",
+  "sampling": {
+    "exhaustive_cohorts": [
+      "multi_alias_all",
+      "r2_missing_all",
+      "high_r4_collision_all",
+      "unresolved_all"
+    ],
+    "method": "stable_sha256_rank",
+    "random_cohort_sizes": {
+      "a2_sensitive_random": 150,
+      "baseline_random": 300,
+      "one_token_title_random": 100,
+      "two_token_title_random": 100
+    },
+    "score_payload": "seed + ASCII Unit Separator + cohort_name + ASCII Unit Separator + project_work_id",
+    "seed": 20260929
+  },
+  "semantics": {
+    "query_policy": "All R2/R3/R4 logical queries belonging to selected resolved W and all unresolved units are retained. R4 remains a calibration candidate route, not a production-enabled route.",
+    "resolved_sampling_unit": "project_work_id",
+    "unresolved_policy": "Unresolved units are included for retrieval diagnostics but must not contribute to W-level visibility.",
+    "unresolved_sampling_unit": "unresolved_unit_anchor_entity_id"
+  },
+  "source_releases": {
+    "execution_registry": "openalex-execution-registry-v4",
+    "query_registry": "openalex-query-registry-v4"
+  },
+  "status": "calibration_sample_built",
+  "version": "v2"
+}
