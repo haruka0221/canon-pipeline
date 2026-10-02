@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-10-02",
+  "diagnostics": {
+    "a1_unique_patterns": 1478,
+    "a2_reverse_available_queries": 503,
+    "a2_reverse_unique_patterns": 204,
+    "a3_available_queries": 6407,
+    "a3_short_le3_queries": 83,
+    "a3_unavailable_queries": 38,
+    "a3_unique_anchors": 1159,
+    "author_comma_structure": {
+      "COMPLEX_COMMA": 36,
+      "EMPTY_SIDE": 2,
+      "NO_COMMA": 5887,
+      "SIMPLE_SURNAME_FIRST_CANDIDATE": 503,
+      "SUFFIX_COMMA": 17
+    },
+    "logical_queries": 10998,
+    "query_forms": {
+      "title_author": 6445,
+      "title_only": 4553
+    },
+    "title_author_queries": 6445,
+    "title_token_count": {
+      "one": 1211,
+      "three_plus": 7331,
+      "two": 2456
+    },
+    "unique_execution_ids": 5783,
+    "unique_title_match_patterns": 2858
+  },
+  "inputs": {
+    "derived/openalex_production/registry_v4/openalex_execution_registry_v4_manifest.json": "a90c6327d30efafac36f440234af4a8550f7419f8c250a3444c67ce9f88c9eae",
+    "derived/openalex_production/registry_v4/openalex_query_execution_map_v4.parquet": "9d98b4163a8f00b787be04cac3e2b82dabbaa444951308eb69b6e90d8403178a",
+    "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_queries_v2.parquet": "23eab3d203716c7b3257421be2c80da42ccb0da3c75b61573f09d5ebdc0a8ac6",
+    "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_sample_v2_manifest.json": "a2b8e06d98a0a1ac85d44803deaa8e532087d388bcd8cd6181bbd52ce8400c42"
+  },
+  "matching_contract": {
+    "author_A1": "Source-order full query-author name under the same token normalization.",
+    "author_A2": "A1 OR one conservative reversed form for SIMPLE_SURNAME_FIRST_CANDIDATE comma names.",
+    "author_A3": "Experimental surname-like anchor. Complex comma structures remain unavailable rather than guessed. No A3 anchor is automatically accepted for production.",
+    "field_policy": "Title and abstract matches will be recorded separately. A query may match either field.",
+    "important_separation": "This textual matching normalization is not openalex_execution_query_norm_v1 and does not alter query_id, execution_id, or literary-work identity.",
+    "searchable_snapshot_fields": [
+      "OpenAlex Work.display_name",
+      "OpenAlex Work.abstract_inverted_index reconstructed to token order"
+    ],
+    "title_condition": {
+      "id": "T1_TOKEN_PHRASE",
+      "matching": "contiguous whole-token phrase",
+      "normalization": [
+        "Unicode NFKC",
+        "Unicode casefold",
+        "retain Unicode letters, numbers, and combining marks",
+        "convert other characters to token boundaries",
+        "collapse whitespace"
+      ]
+    }
+  },
+  "next_step": "smoke_test_snapshot_calibration_scanner_v1",
+  "outputs": {
+    "parquet": {
+      "artifact": "derived/openalex_production/retrieval_match_registry_v2/openalex_retrieval_match_registry_v2.parquet",
+      "sha256": "261d075d77685c9b1ea789e5208a2d7ed02bfa4cfd47b9c447a8d2409c5dd757"
+    },
+    "tsv": {
+      "artifact": "derived/openalex_production/retrieval_match_registry_v2/openalex_retrieval_match_registry_v2.tsv",
+      "sha256": "7f460308ee372a7dc12a9faa721690f3af527588b439578f05f1fca3de574355"
+    }
+  },
+  "purpose": "Freeze deterministic textual matching representations for the fixed OpenAlex retrieval calibration sample. These are calibration conditions and do not by themselves enable a production route.",
+  "release": "openalex-retrieval-match-registry-v2",
+  "source_releases": {
+    "calibration_sample": "openalex-retrieval-calibration-sample-v2",
+    "execution_registry": "openalex-execution-registry-v4"
+  },
+  "status": "calibration_match_registry_built",
+  "version": "v2"
+}

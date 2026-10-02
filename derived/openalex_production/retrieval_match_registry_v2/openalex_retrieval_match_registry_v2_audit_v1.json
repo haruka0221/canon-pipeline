@@ -1,0 +1,207 @@
+{
+  "artifacts": {
+    "openalex_retrieval_match_registry_v2.parquet": {
+      "bytes": 986632,
+      "sha256": "261d075d77685c9b1ea789e5208a2d7ed02bfa4cfd47b9c447a8d2409c5dd757"
+    },
+    "openalex_retrieval_match_registry_v2.tsv": {
+      "bytes": 5168303,
+      "sha256": "7f460308ee372a7dc12a9faa721690f3af527588b439578f05f1fca3de574355"
+    },
+    "openalex_retrieval_match_registry_v2_manifest.json": {
+      "bytes": 3713,
+      "sha256": "630bb251c0e50904ab421d8e3c5120ffbf2315c94e52cb1366947d11ddaa7b7b"
+    }
+  },
+  "audit_release": "openalex-retrieval-match-registry-v2-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-02T11:05:29.329265+00:00",
+  "builder_git_commit": "c6be73ffbdc5e1e64b4b698dca7fa165a343672b",
+  "counts": {
+    "logical_queries": 10998,
+    "title_author": 6445,
+    "title_only": 4553,
+    "unique_execution_ids": 5783,
+    "unique_title_match_patterns": 2858
+  },
+  "identity_semantics": {
+    "changed_project_work_mappings": [
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101690",
+        "old_project_work_id": "W000000621",
+        "old_query_id": "OAQ000006777"
+      },
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101691",
+        "old_project_work_id": "W000000621",
+        "old_query_id": "OAQ000006778"
+      },
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101692",
+        "old_project_work_id": "W000008241",
+        "old_query_id": "OAQ000029532"
+      },
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101693",
+        "old_project_work_id": "W000019373",
+        "old_query_id": "OAQ000062348"
+      },
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101694",
+        "old_project_work_id": "W000000621",
+        "old_query_id": "OAQ000006779"
+      },
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101695",
+        "old_project_work_id": "W000008241",
+        "old_query_id": "OAQ000029533"
+      },
+      {
+        "new_project_work_id": "W000032087",
+        "new_query_id": "OAQ000101696",
+        "old_project_work_id": "W000019373",
+        "old_query_id": "OAQ000062349"
+      },
+      {
+        "new_project_work_id": "W000032088",
+        "new_query_id": "OAQ000101697",
+        "old_project_work_id": "W000007035",
+        "old_query_id": "OAQ000025939"
+      },
+      {
+        "new_project_work_id": "W000032088",
+        "new_query_id": "OAQ000101698",
+        "old_project_work_id": "W000007035",
+        "old_query_id": "OAQ000025940"
+      },
+      {
+        "new_project_work_id": "W000032088",
+        "new_query_id": "OAQ000101699",
+        "old_project_work_id": "W000009181",
+        "old_query_id": "OAQ000032320"
+      },
+      {
+        "new_project_work_id": "W000032088",
+        "new_query_id": "OAQ000101700",
+        "old_project_work_id": "W000007035",
+        "old_query_id": "OAQ000025941"
+      },
+      {
+        "new_project_work_id": "W000032088",
+        "new_query_id": "OAQ000101701",
+        "old_project_work_id": "W000009181",
+        "old_query_id": "OAQ000032321"
+      },
+      {
+        "new_project_work_id": "W000032089",
+        "new_query_id": "OAQ000101702",
+        "old_project_work_id": "W000024476",
+        "old_query_id": "OAQ000077642"
+      },
+      {
+        "new_project_work_id": "W000032089",
+        "new_query_id": "OAQ000101703",
+        "old_project_work_id": "W000024476",
+        "old_query_id": "OAQ000077643"
+      },
+      {
+        "new_project_work_id": "W000032089",
+        "new_query_id": "OAQ000101704",
+        "old_project_work_id": "W000030357",
+        "old_query_id": "OAQ000095284"
+      },
+      {
+        "new_project_work_id": "W000032089",
+        "new_query_id": "OAQ000101705",
+        "old_project_work_id": "W000024476",
+        "old_query_id": "OAQ000077644"
+      },
+      {
+        "new_project_work_id": "W000032089",
+        "new_query_id": "OAQ000101706",
+        "old_project_work_id": "W000030357",
+        "old_query_id": "OAQ000095285"
+      }
+    ],
+    "cross_release_join_key": "Use scanner-facing semantic query identity derived from execution, source-alias, route, query text, and normalized matching conditions.",
+    "query_id_scope": "query_id is release-local and must not be used as a cross-registry-release join key."
+  },
+  "interpretation": "Every retrieval-match-registry-v2 logical query has exactly one scanner-semantic equivalent in v1. Literal query_id values are release-local and are not stable cross-release join keys. No new matching pattern or physical execution is introduced, so frozen full-profile scan evidence can be deterministically reprojected without rescanning the OpenAlex snapshot.",
+  "reuse_contract": {
+    "all_v2_matching_patterns_preexist_in_v1": true,
+    "every_v2_query_has_exactly_one_v1_semantic_equivalent": true,
+    "new_physical_executions": 0,
+    "profile_v2_scan_evidence_reprojection": "DETERMINISTIC_1_TO_1",
+    "semantic_key_unique_within_v1": true,
+    "semantic_key_unique_within_v2": true,
+    "snapshot_rescan_required": false,
+    "title_pattern_universe_identical": true,
+    "v2_execution_set_is_subset_of_v1": true
+  },
+  "source_release": "openalex-retrieval-match-registry-v1",
+  "target_release": "openalex-retrieval-match-registry-v2",
+  "v1_to_v2": {
+    "matching_pattern_universes": {
+      "author_a1_norm": {
+        "added": [],
+        "removed": [
+          "elizabeth jane coatsworth",
+          "stephen bonsal"
+        ],
+        "v1": 1480,
+        "v2": 1478
+      },
+      "author_a2_reverse_norm": {
+        "added": [],
+        "removed": [],
+        "v1": 204,
+        "v2": 204
+      },
+      "author_a3_anchor": {
+        "added": [],
+        "removed": [
+          "coatsworth"
+        ],
+        "v1": 1160,
+        "v2": 1159
+      },
+      "title_match_norm": {
+        "added": [],
+        "removed": [],
+        "v1": 2858,
+        "v2": 2858
+      }
+    },
+    "physical_execution_ids": {
+      "added": [],
+      "removed": [
+        "OAE000022770",
+        "OAE000022771"
+      ],
+      "v1": 5785,
+      "v2": 5783
+    },
+    "query_ids": {
+      "added_literal_ids": 2990,
+      "common_literal_ids": 8008,
+      "removed_literal_ids": 3000,
+      "same_literal_query_id_different_semantics": 3035,
+      "semantic_mappings_retaining_same_query_id": 4973,
+      "semantic_mappings_with_changed_query_id": 6025
+    },
+    "semantic_query_mapping": {
+      "ambiguous": 0,
+      "changed_project_work": 17,
+      "mapping_cardinality": "1:1",
+      "missing": 0,
+      "same_project_work": 10981,
+      "v2_queries": 10998
+    }
+  }
+}
