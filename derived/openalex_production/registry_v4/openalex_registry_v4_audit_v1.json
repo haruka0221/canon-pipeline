@@ -1,0 +1,199 @@
+{
+  "artifacts": {
+    "openalex_alias_registry_v4_manifest.json": {
+      "bytes": 4867,
+      "sha256": "1f6a152bdecf9302580de264713c0f95304737cbd04fdf474c3f5cdb0b664614"
+    },
+    "openalex_aliases_v4.parquet": {
+      "bytes": 2753670,
+      "sha256": "c9146c34bc6f5599ea87551c259607d0bdd5dc6d9aaefa414c92a5e2ad92aaa7"
+    },
+    "openalex_aliases_v4.tsv": {
+      "bytes": 18998059,
+      "sha256": "75299bc55b286d20f13fd0fbae96b6a2a3c7ba28e21b1b94ee4fd48fbcda7169"
+    },
+    "openalex_execution_registry_v4_manifest.json": {
+      "bytes": 3570,
+      "sha256": "a90c6327d30efafac36f440234af4a8550f7419f8c250a3444c67ce9f88c9eae"
+    },
+    "openalex_queries_v4.parquet": {
+      "bytes": 3416720,
+      "sha256": "a98df3ec8ad31c9f2b63d09cf12a4f57bd95c5afe66353be3f840aeb2042e387"
+    },
+    "openalex_queries_v4.tsv": {
+      "bytes": 18504355,
+      "sha256": "136c136301054bde48ada42956c9584eb9271b46117c7a603cab6292b192b91b"
+    },
+    "openalex_query_execution_map_v4.parquet": {
+      "bytes": 8893059,
+      "sha256": "9d98b4163a8f00b787be04cac3e2b82dabbaa444951308eb69b6e90d8403178a"
+    },
+    "openalex_query_execution_map_v4.tsv": {
+      "bytes": 26143917,
+      "sha256": "fdb55229a5133fa3a293cf58af7ee23ff6fd6a3a5b556ef03bfb66b4bf8e1258"
+    },
+    "openalex_query_executions_v4.parquet": {
+      "bytes": 7015413,
+      "sha256": "9f86daa1f2281bb89cc3147fe89b7522848b425fbd1a46079b45cf081f63724e"
+    },
+    "openalex_query_executions_v4.tsv": {
+      "bytes": 15391440,
+      "sha256": "698c0ffe9a8b277a6b7786bc27adaf64728225a1455f3d142189779fb5b9f4ce"
+    },
+    "openalex_query_registry_v4_manifest.json": {
+      "bytes": 3047,
+      "sha256": "0f9b7dfd87c669820ed9f9b325bf12479e2b102dda088a8f089c936beaa092ba"
+    },
+    "openalex_r2_representative_aliases_v2.parquet": {
+      "bytes": 2154636,
+      "sha256": "13f79b2ade5fd248a2306888410e0decadc9a0c1a58d6f62bca1a1334c9a3824"
+    },
+    "openalex_r2_representative_aliases_v2.tsv": {
+      "bytes": 8013136,
+      "sha256": "4d5abeaf1639223c460b215c6cc4b3dc50de8241a6224b01d521efcab6f45a60"
+    },
+    "openalex_r2_representative_aliases_v2_manifest.json": {
+      "bytes": 2789,
+      "sha256": "cd0478f446bfcde787229b8f02d4c7306bd1839e94954d756100b81ce9570fe6"
+    },
+    "openalex_targets_v4.parquet": {
+      "bytes": 449646,
+      "sha256": "cf1cca65d2826b119f7569f0c720c708c49e75d69006099c162e5d7a375e4c75"
+    },
+    "openalex_targets_v4.tsv": {
+      "bytes": 2670406,
+      "sha256": "4c67f83fbfb3fc583895d362e3d6850cc065d729c1730343207fefc5a1b9e060"
+    }
+  },
+  "audit_release": "openalex-registry-v4-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-02T09:12:53.364400+00:00",
+  "builder_git_commit": "256fb66dbaaaa7c35dbef773bb58208874920bff",
+  "changed_execution_aggregates": [
+    {
+      "distinct_resolved_w_count_v3": 3,
+      "distinct_resolved_w_count_v4": 1,
+      "distinct_source_target_count_v3": 3,
+      "distinct_source_target_count_v4": 3,
+      "logical_query_count_v3": 6,
+      "logical_query_count_v4": 4,
+      "normalized_author": "saintsbury, george",
+      "normalized_query_signature": "0ec216dc8abd131d389232676f015db851b08b0b50c6ea3aa1ea641fb4901816",
+      "normalized_title": "the english novel",
+      "query_form": "title_author"
+    },
+    {
+      "distinct_resolved_w_count_v3": 2,
+      "distinct_resolved_w_count_v4": 1,
+      "distinct_source_target_count_v3": 2,
+      "distinct_source_target_count_v4": 2,
+      "logical_query_count_v3": 4,
+      "logical_query_count_v4": 3,
+      "normalized_author": "bonsal, stephen",
+      "normalized_query_signature": "da892f8b8b551ba480698544742feb3d51ca296062a4c453d29a1930fe0ddab8",
+      "normalized_title": "the golden horseshoe",
+      "query_form": "title_author"
+    },
+    {
+      "distinct_resolved_w_count_v3": 2,
+      "distinct_resolved_w_count_v4": 1,
+      "distinct_source_target_count_v3": 2,
+      "distinct_source_target_count_v4": 2,
+      "logical_query_count_v3": 4,
+      "logical_query_count_v4": 3,
+      "normalized_author": "albright, evelyn may",
+      "normalized_query_signature": "59dd73220d58ac6588ddebb2d52e1af2afa439139f2af5db851d37f6ba15dc8f",
+      "normalized_title": "the short-story",
+      "query_form": "title_author"
+    },
+    {
+      "distinct_resolved_w_count_v3": 14,
+      "distinct_resolved_w_count_v4": 12,
+      "distinct_source_target_count_v3": 14,
+      "distinct_source_target_count_v4": 14,
+      "logical_query_count_v3": 14,
+      "logical_query_count_v4": 14,
+      "normalized_author": "",
+      "normalized_query_signature": "14fe4ab111a8c6854ca75eb76d1d45ae0db0390a684d9f633ac3d9f03ed4973a",
+      "normalized_title": "the english novel",
+      "query_form": "title_only"
+    },
+    {
+      "distinct_resolved_w_count_v3": 4,
+      "distinct_resolved_w_count_v4": 3,
+      "distinct_source_target_count_v3": 4,
+      "distinct_source_target_count_v4": 4,
+      "logical_query_count_v3": 4,
+      "logical_query_count_v4": 4,
+      "normalized_author": "",
+      "normalized_query_signature": "96a1a5c710386b7c743e06f047c694033173e99e61454fc62217ba111fa78282",
+      "normalized_title": "the golden horseshoe",
+      "query_form": "title_only"
+    },
+    {
+      "distinct_resolved_w_count_v3": 6,
+      "distinct_resolved_w_count_v4": 5,
+      "distinct_source_target_count_v3": 6,
+      "distinct_source_target_count_v4": 6,
+      "logical_query_count_v3": 6,
+      "logical_query_count_v4": 6,
+      "normalized_author": "",
+      "normalized_query_signature": "1db6ffe38598eede36e2388a844434f39bc45ecdf2d85f8612546ce45cab5395",
+      "normalized_title": "the short-story",
+      "query_form": "title_only"
+    }
+  ],
+  "checks": {
+    "alias_counts_preserved_in_all_changed_signatures": true,
+    "alias_source_evidence_identical_v3_v4": true,
+    "cross_w_signatures_2474_to_2471": true,
+    "exactly_3_execution_rows_reduce_logical_count": true,
+    "exactly_3_title_only_rows_change_only_w_aggregation": true,
+    "exactly_6_execution_aggregate_rows_changed": true,
+    "exactly_7_aliases_rekeyed": true,
+    "execution_id_mapping_identical_v3_v4": true,
+    "execution_map_valid": true,
+    "logical_query_reduction_exactly_4": true,
+    "manifest_output_hashes_match": true,
+    "manifest_versions_correct": true,
+    "ordinary_r2_representatives_preserved": true,
+    "physical_signature_set_identical_v3_v4": true,
+    "physical_stable_fields_identical_v3_v4": true,
+    "preaudit_worktree_only_expected_v4_outputs": true,
+    "r3_retrieval_strings_unchanged": true,
+    "r4_retrieval_strings_unchanged": true,
+    "runtime_commit_exact": true,
+    "source_target_counts_preserved_in_all_changed_signatures": true,
+    "successor_r2_representatives_exact": true,
+    "tsv_parquet_parity": true
+  },
+  "comparison_release": "openalex-registry-v3",
+  "counts": {
+    "active_resolved_w": 32082,
+    "alias_rows": 34789,
+    "changed_alias_w_assignments": 7,
+    "changed_physical_execution_aggregate_rows": 6,
+    "cross_w_execution_signatures_v3": 2474,
+    "cross_w_execution_signatures_v4": 2471,
+    "logical_count_changed_execution_rows": 3,
+    "logical_queries": 101706,
+    "logical_query_reduction_vs_v3": 4,
+    "physical_executions": 63624,
+    "r2_queries": 32489,
+    "r3_queries": 34428,
+    "r4_queries": 34789,
+    "resolved_alias_rows": 32706,
+    "target_rows": 32843,
+    "title_author_executions": 32237,
+    "title_only_executions": 31387,
+    "unresolved_alias_rows": 2083,
+    "w_count_only_changed_execution_rows": 3
+  },
+  "identity_release": "project-works-v5",
+  "interpretation": "Registry v4 rekeys OpenAlex logical provenance to project-work identity v5 without changing the physical retrieval universe. Four redundant R2 logical-query rows disappear across three accepted project-work merges, while all 63,624 normalized physical execution signatures and their execution IDs remain unchanged.",
+  "successor_representatives": {
+    "W000032087": "E000000709",
+    "W000032088": "E000007752",
+    "W000032089": "E000027419"
+  }
+}

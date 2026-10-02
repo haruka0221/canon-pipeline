@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "resolved_w": 32082,
+    "rows": 32843,
+    "unique_representative_aliases": 32843,
+    "unresolved_units": 761
+  },
+  "created_at": "2026-10-02",
+  "inputs": {
+    "derived/identity/aggregation_decisions_v4.parquet": "f66657c80af318bce077f763018328a46bb570bf8cdf1e200f76fc751c6dd236",
+    "derived/identity/project_works_v5.parquet": "607126caa765996f9e65f050e2e364bbac966613fc5e7607566e360302b5ea14",
+    "derived/openalex_production/registry_v4/openalex_alias_registry_v4_manifest.json": "1f6a152bdecf9302580de264713c0f95304737cbd04fdf474c3f5cdb0b664614",
+    "derived/openalex_production/registry_v4/openalex_aliases_v4.parquet": "c9146c34bc6f5599ea87551c259607d0bdd5dc6d9aaefa414c92a5e2ad92aaa7",
+    "derived/openalex_production/registry_v4/openalex_targets_v4.parquet": "cf1cca65d2826b119f7569f0c720c708c49e75d69006099c162e5d7a375e4c75"
+  },
+  "next_step": "build_logical_query_registry_with_stable_query_id",
+  "outputs": {
+    "parquet": {
+      "artifact": "derived/openalex_production/registry_v4/openalex_r2_representative_aliases_v2.parquet",
+      "sha256": "13f79b2ade5fd248a2306888410e0decadc9a0c1a58d6f62bca1a1334c9a3824"
+    },
+    "tsv": {
+      "artifact": "derived/openalex_production/registry_v4/openalex_r2_representative_aliases_v2.tsv",
+      "sha256": "4d5abeaf1639223c460b215c6cc4b3dc50de8241a6224b01d521efcab6f45a60"
+    }
+  },
+  "purpose": "Freeze a deterministic R2 representative retrieval-title selection without treating the selected title as the canonical title of the literary work.",
+  "release": "openalex-r2-representative-aliases-v2",
+  "representative_selection_rule": "deterministic_identity_representative_alias",
+  "representative_selection_version": "v2",
+  "semantics": {
+    "not_canonical_title": true,
+    "resolved_w_rule": "For an ordinary active project_work_id in project_works_v5, select the Open Library alias identified by origin_unit_anchor_entity_id. For a merge-successor W whose origin_unit_anchor_entity_id is intentionally empty, select the lexicographically smallest current Open Library source entity assigned to that successor.",
+    "scope_release": "not_applied",
+    "unresolved_rule": "For each MANUAL_REVIEW_REQUIRED unresolved aggregation unit, select the Open Library title alias whose source entity equals unit_anchor_entity_id. This supports parallel retrieval but does not create or imply a project_work_id.",
+    "why_anchor_based": "R2 is a stable identity-structural baseline, not an optimized best-title heuristic. Retrieval improvement from additional aliases is evaluated separately through R3."
+  },
+  "source_releases": {
+    "aggregation_decision_release": "aggregation-decisions-v4",
+    "alias_registry": "openalex-alias-registry-v4",
+    "identity_release": "project-works-v5"
+  }
+}

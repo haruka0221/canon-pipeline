@@ -1,0 +1,85 @@
+{
+  "counts": {
+    "cross_unresolved_unit_execution_signatures": 3,
+    "cross_w_execution_signatures": 2471,
+    "execution_signatures_by_query_form": {
+      "title_author": 32237,
+      "title_only": 31387
+    },
+    "logical_queries": 101706,
+    "logical_rows_saved_by_execution_dedup": 38082,
+    "max_logical_queries_per_execution": 37,
+    "multi_logical_execution_signatures": 34222,
+    "physical_execution_signatures": 63624,
+    "target_lane_by_query_route": {
+      "resolved_w": {
+        "R2": 31730,
+        "R3": 32354,
+        "R4": 32706
+      },
+      "unresolved_source": {
+        "R2": 759,
+        "R3": 2074,
+        "R4": 2083
+      }
+    }
+  },
+  "created_at": "2026-10-02",
+  "execution_registry_version": "v4",
+  "inputs": {
+    "derived/openalex_production/registry_v4/openalex_queries_v4.parquet": "a98df3ec8ad31c9f2b63d09cf12a4f57bd95c5afe66353be3f840aeb2042e387",
+    "derived/openalex_production/registry_v4/openalex_query_registry_v4_manifest.json": "0f9b7dfd87c669820ed9f9b325bf12479e2b102dda088a8f089c936beaa092ba"
+  },
+  "next_step": "rerun_w_level_retrieval_calibration_and_evaluate_r2_r3_r4",
+  "normalization": {
+    "intentionally_not_applied": [
+      "punctuation deletion",
+      "apostrophe deletion",
+      "hyphen or dash deletion",
+      "dash canonicalization",
+      "leading article deletion",
+      "diacritic stripping",
+      "ASCII transliteration",
+      "non-Latin character deletion"
+    ],
+    "rule": "openalex_execution_query_norm",
+    "steps": [
+      "Unicode NFKC",
+      "Unicode casefold",
+      "collapse consecutive whitespace",
+      "strip leading/trailing whitespace"
+    ],
+    "version": "v1"
+  },
+  "outputs": {
+    "executions_parquet": {
+      "artifact": "derived/openalex_production/registry_v4/openalex_query_executions_v4.parquet",
+      "sha256": "9f86daa1f2281bb89cc3147fe89b7522848b425fbd1a46079b45cf081f63724e"
+    },
+    "executions_tsv": {
+      "artifact": "derived/openalex_production/registry_v4/openalex_query_executions_v4.tsv",
+      "sha256": "698c0ffe9a8b277a6b7786bc27adaf64728225a1455f3d142189779fb5b9f4ce"
+    },
+    "query_execution_map_parquet": {
+      "artifact": "derived/openalex_production/registry_v4/openalex_query_execution_map_v4.parquet",
+      "sha256": "9d98b4163a8f00b787be04cac3e2b82dabbaa444951308eb69b6e90d8403178a"
+    },
+    "query_execution_map_tsv": {
+      "artifact": "derived/openalex_production/registry_v4/openalex_query_execution_map_v4.tsv",
+      "sha256": "fdb55229a5133fa3a293cf58af7ee23ff6fd6a3a5b556ef03bfb66b4bf8e1258"
+    }
+  },
+  "release": "openalex-execution-registry-v4",
+  "semantics": {
+    "cross_target_deduplication": "One physical execution may serve logical queries from multiple project works, unresolved units, aliases, or retrieval routes. All logical provenance remains in openalex_query_execution_map_v4.",
+    "execution_id": "Deterministic sequential identifier for one physical execution row within this v3 execution registry.",
+    "normalized_query_signature": "SHA256 of query_form, normalized title, and normalized author separated by ASCII Unit Separator. Used only for physical execution deduplication; it does not imply literary-work identity.",
+    "query_id": "Logical retrieval-provenance unit.",
+    "r4_policy": "R4 rows remain calibration candidates; their presence in this registry does not freeze title-only production execution.",
+    "scope_release": "not_applied"
+  },
+  "source_releases": {
+    "logical_query_registry": "openalex-query-registry-v4"
+  },
+  "status": "execution_registry_built"
+}
