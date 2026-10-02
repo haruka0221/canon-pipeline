@@ -1314,7 +1314,7 @@ def main() -> None:
 
     print(
         "\nOpenAlex retrieval calibration "
-        "sample v1 checks passed."
+        "sample v2 checks passed."
     )
 
 
