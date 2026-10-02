@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "accepted_external_identities": 12199,
+    "active_project_works": 32082,
+    "current_analysis_targets": 32706,
+    "new_successor_project_works": 3,
+    "project_work_rows": 32089,
+    "successor_current_target_counts": {
+      "W000032087": 3,
+      "W000032088": 2,
+      "W000032089": 2
+    },
+    "superseded_project_works": 7,
+    "unique_source_entities": 44905,
+    "work_identity_map_rows": 44905
+  },
+  "created_at": "2026-10-01",
+  "execution": {
+    "git_commit": "d6b21d61fa3ff9f7ba37fe0046e7221738c0c014",
+    "git_dirty": false,
+    "pandas_version": "3.0.5",
+    "python_version": "3.12.3",
+    "run_finished_at_utc": "2026-10-02T08:31:18.173140+00:00",
+    "run_started_at_utc": "2026-10-02T08:31:17.839131+00:00"
+  },
+  "inputs": {
+    "derived/identity/project_work_lineage_v1_manifest.json": "5bb93b1f893c6c788d53c8f0ff2377a442cc9157b67d7f92230e8358922fca9b",
+    "derived/identity/project_work_merge_review_v1.tsv": "2cab9eb40a47ab1c0d5b29e812473c4b9b3abd63ccfa162d06b5c836785c0987",
+    "derived/identity/project_work_merge_review_v1_manifest.json": "f305747f84a58ab8047cbee59ccc5426d9529afb7444e6f956d42f41a10d7a1b",
+    "derived/identity/project_works_v4.parquet": "ad238bec15510ab62ef7052452658f23375e62e8927cf61cce9ab37ae76384b2",
+    "derived/identity/project_works_v4_manifest.json": "753588a4f02a488ce5318fd17516dff091e1d1d87933af6b3ca55e54e7fd2c0d",
+    "derived/identity/work_identity_map_v4.parquet": "a08fd8e055c3718ebc5ea44bb6cd5297eb128881b46ecca6d842fc610087af6e"
+  },
+  "outputs": {
+    "project_works_v5.parquet": "607126caa765996f9e65f050e2e364bbac966613fc5e7607566e360302b5ea14",
+    "project_works_v5.tsv": "6bfc681b00b702e22db1de7e51d7cf5f61fe26766370719bded4d9ccb19a3a44",
+    "work_identity_map_v5.parquet": "b74324fee8bdf0a3e5b986974045d8f8a26d440f8070b1797879439a83f9b450",
+    "work_identity_map_v5.tsv": "f686c710fa52937e078c40d32b03dd2d558320d0d0287a5235ba439e47fea8ff"
+  },
+  "release": "project-works-v5",
+  "semantics": {
+    "historical_id_policy": "All 32,086 previously released project_work_id values are retained. The seven merge predecessors are marked superseded, not deleted or renumbered.",
+    "previous_release": "project-works-v4",
+    "scope_release": "not_applied",
+    "successor_policy": "Three new successor project works W000032087-W000032089 represent the accepted merge groups.",
+    "work_identity_map_v5": "Current-state membership map. The seven affected source entities are reassigned from predecessor W IDs to their successor W IDs. Historical v4 membership remains preserved in work_identity_map_v4."
+  }
+}

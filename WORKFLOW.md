@@ -1,7 +1,75 @@
 # WORKFLOW.md — canon-pipeline
 **Research Data and Analysis Workflow**
-Last updated: 2026-10-01
+Last updated: 2026-10-02
 Status: LIVING DOCUMENT — update on every major change
+
+Update note: 2026-10-02 — Project-work identity v5 was generated and
+independently audited after the OpenAlex precision-review diagnostic exposed
+three duplicate-project-work groups among earlier v1 singleton assignments.
+
+The frozen manual identity review accepted three high-confidence merges:
+
+```text
+The English novel / George Saintsbury
+    3 predecessor W -> 1 successor W
+
+The golden horseshoe / Stephen Bonsal
+    2 predecessor W -> 1 successor W
+
+The short-story / Evelyn May Albright
+    2 predecessor W -> 1 successor W
+```
+
+The seven historical predecessor W identifiers remain preserved. Project-work
+lineage v1 records seven `MERGE` edges to three new successors:
+
+```text
+W000000621 --\
+W000008241 ----> W000032087
+W000019373 --/
+
+W000007035 --\
+W000009181 ----> W000032088
+
+W000024476 --\
+W000030357 ----> W000032089
+```
+
+`project_works_v5` therefore contains 32,089 historical registry rows:
+32,082 active project works and 7 superseded predecessor works.
+`work_identity_map_v5` is the current-state identity map and retains 44,905
+unique source entities, including 32,706 current Open Library targets and
+12,199 accepted external identities. Exactly seven source entities were
+reassigned from predecessor W identifiers to their merge successors; all
+other membership rows are unchanged from v4.
+
+The v5 builder ran from commit:
+
+```text
+d6b21d61fa3ff9f7ba37fe0046e7221738c0c014
+```
+
+The independent audit passed all lineage, active/superseded-work, membership,
+TSV/Parquet parity, and manifest-hash checks. Audit SHA256:
+
+```text
+458d8191777b924957284d0e9217c45a7bd5ac8bb351abf70d8094d8af2231d4
+```
+
+Authoritative identity artifacts are:
+
+```text
+derived/identity/project_work_lineage_v1.*
+derived/identity/project_works_v5.*
+derived/identity/work_identity_map_v5.*
+derived/identity/project_works_v5_audit_v1.json
+```
+
+This release changes conceptual-work identity only. Corpus scope remains a
+separate unresolved layer. The previously frozen OpenAlex precision-review
+candidate universe v2 (677 candidates / 69 W) remains a historical diagnostic
+release based on project identity v4 and is not rewritten. OpenAlex registries
+will be regenerated in a later version against active project identity v5.
 
 Update note: 2026-10-01 — The complete OpenAlex retrieval-calibration
 profile v2 was executed and audited successfully against the manifest-verified

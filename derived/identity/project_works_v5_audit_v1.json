@@ -1,0 +1,92 @@
+{
+  "artifacts": {
+    "project_work_lineage_v1.parquet": {
+      "bytes": 5052,
+      "sha256": "6783464daead3875aa5a5f470d8143d0256b38c0254f142fd315fe0e4927341d"
+    },
+    "project_work_lineage_v1.tsv": {
+      "bytes": 893,
+      "sha256": "c3935389849ea131f0d99b9bc7e5350979c763dc2c935af6aba7c79230835a22"
+    },
+    "project_work_lineage_v1_manifest.json": {
+      "bytes": 1618,
+      "sha256": "5bb93b1f893c6c788d53c8f0ff2377a442cc9157b67d7f92230e8358922fca9b"
+    },
+    "project_works_v5.parquet": {
+      "bytes": 440852,
+      "sha256": "607126caa765996f9e65f050e2e364bbac966613fc5e7607566e360302b5ea14"
+    },
+    "project_works_v5.tsv": {
+      "bytes": 1668778,
+      "sha256": "6bfc681b00b702e22db1de7e51d7cf5f61fe26766370719bded4d9ccb19a3a44"
+    },
+    "project_works_v5_manifest.json": {
+      "bytes": 2606,
+      "sha256": "7f8a5061e485ce6d9b26f8adeed0a2e3e72b104ecce14bb2c517b831bd257272"
+    },
+    "work_identity_map_v5.parquet": {
+      "bytes": 546442,
+      "sha256": "b74324fee8bdf0a3e5b986974045d8f8a26d440f8070b1797879439a83f9b450"
+    },
+    "work_identity_map_v5.tsv": {
+      "bytes": 4257871,
+      "sha256": "f686c710fa52937e078c40d32b03dd2d558320d0d0287a5235ba439e47fea8ff"
+    }
+  },
+  "audit_release": "project-works-v5-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-02T08:33:42.772847+00:00",
+  "checks": {
+    "active_project_works_32082": true,
+    "current_targets_32706": true,
+    "exactly_7_source_entities_reassigned": true,
+    "external_identities_12199": true,
+    "historical_w_ids_preserved": true,
+    "lineage_exact_7_edges": true,
+    "lineage_tsv_parquet_identical": true,
+    "manifest_input_hashes_match": true,
+    "manifest_output_hashes_match": true,
+    "map_rows_44905": true,
+    "map_source_entities_unique": true,
+    "map_w_equals_active_w": true,
+    "no_map_rows_point_to_superseded_w": true,
+    "only_7_historical_statuses_changed": true,
+    "preaudit_worktree_contains_only_expected_outputs": true,
+    "project_works_v5_tsv_parquet_identical": true,
+    "runtime_commit_exact": true,
+    "successor_project_works_3": true,
+    "successor_target_counts_3_2_2": true,
+    "superseded_project_works_7": true,
+    "unaffected_map_rows_identical_to_v4": true,
+    "work_identity_map_v5_tsv_parquet_identical": true
+  },
+  "counts": {
+    "accepted_external_identities": 12199,
+    "active_project_works": 32082,
+    "current_analysis_targets": 32706,
+    "lineage_rows": 7,
+    "merge_groups": 3,
+    "project_work_rows": 32089,
+    "reassigned_source_entities": 7,
+    "successor_project_works": 3,
+    "superseded_project_works": 7,
+    "work_identity_map_rows": 44905
+  },
+  "execution": {
+    "builder_git_commit": "d6b21d61fa3ff9f7ba37fe0046e7221738c0c014"
+  },
+  "lineage": {
+    "W000000621": "W000032087",
+    "W000007035": "W000032088",
+    "W000008241": "W000032087",
+    "W000009181": "W000032088",
+    "W000019373": "W000032087",
+    "W000024476": "W000032089",
+    "W000030357": "W000032089"
+  },
+  "successor_current_target_counts": {
+    "W000032087": 3,
+    "W000032088": 2,
+    "W000032089": 2
+  }
+}

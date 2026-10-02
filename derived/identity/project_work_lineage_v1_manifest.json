@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "lineage_rows": 7,
+    "merge_groups": 3,
+    "predecessor_works": 7,
+    "successor_works": 3
+  },
+  "created_at": "2026-10-01",
+  "execution": {
+    "git_commit": "d6b21d61fa3ff9f7ba37fe0046e7221738c0c014",
+    "git_dirty": false,
+    "pandas_version": "3.0.5",
+    "python_version": "3.12.3",
+    "run_finished_at_utc": "2026-10-02T08:31:18.173140+00:00",
+    "run_started_at_utc": "2026-10-02T08:31:17.839131+00:00"
+  },
+  "inputs": {
+    "derived/identity/project_work_merge_review_v1.tsv": "2cab9eb40a47ab1c0d5b29e812473c4b9b3abd63ccfa162d06b5c836785c0987",
+    "derived/identity/project_work_merge_review_v1_manifest.json": "f305747f84a58ab8047cbee59ccc5426d9529afb7444e6f956d42f41a10d7a1b",
+    "derived/identity/project_works_v4.parquet": "ad238bec15510ab62ef7052452658f23375e62e8927cf61cce9ab37ae76384b2",
+    "derived/identity/work_identity_map_v4.parquet": "a08fd8e055c3718ebc5ea44bb6cd5297eb128881b46ecca6d842fc610087af6e"
+  },
+  "outputs": {
+    "project_work_lineage_v1.parquet": "6783464daead3875aa5a5f470d8143d0256b38c0254f142fd315fe0e4927341d",
+    "project_work_lineage_v1.tsv": "c3935389849ea131f0d99b9bc7e5350979c763dc2c935af6aba7c79230835a22"
+  },
+  "release": "project-work-lineage-v1",
+  "semantics": {
+    "event_type": "MERGE",
+    "historical_policy": "Historical project-work releases remain unchanged. Each predecessor W is preserved and linked to a new successor W.",
+    "scope": "Conceptual-work identity only; corpus scope is not evaluated.",
+    "successor_policy": "A new successor W is issued for each merge group rather than repurposing a predecessor W."
+  }
+}

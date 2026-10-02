@@ -627,6 +627,53 @@ treated as one conceptual work:
 A merge must therefore be representable historically rather than appearing
 as though the earlier project works never existed.
 
+### 14.1 First implemented project-work merge release
+
+The first released use of this lineage policy is `project_works_v5`
+(2026-10-02), based on the frozen `project_work_merge_review_v1`.
+
+Three reviewed duplicate-project-work groups merge seven historical
+predecessor W identifiers into three newly issued successor W identifiers.
+No predecessor identifier is reused or renumbered.
+
+The lineage release is:
+
+```text
+derived/identity/project_work_lineage_v1.*
+```
+
+It records seven `MERGE` rows linking the historical predecessors to:
+
+```text
+W000032087
+W000032088
+W000032089
+```
+
+`project_works_v5` preserves all 32,086 previously released identifiers,
+marks the seven merge predecessors `superseded`, and appends the three new
+successor identifiers. The registry therefore contains 32,089 historical
+rows, of which 32,082 are active.
+
+`work_identity_map_v5` is explicitly a current-state membership mapping.
+The seven affected source entities are reassigned from their predecessor W
+identifiers to the corresponding successor W identifiers. Historical
+membership remains recoverable from `work_identity_map_v4` together with
+`project_work_lineage_v1`.
+
+Consequently, the v5 current-state map preserves:
+
+```text
+44,905 unique source entities
+32,706 current_analysis_target memberships
+12,199 accepted_external_identity memberships
+```
+
+No current-state v5 membership row points to a superseded project work.
+
+This merge release concerns conceptual-work identity only. It does not make
+period, language, genre, fiction/nonfiction, or other corpus-scope decisions.
+
 ## 15. Later split of a project work
 
 If later evidence shows that one previously released project work contains
