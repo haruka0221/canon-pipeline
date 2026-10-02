@@ -1026,7 +1026,7 @@ def main() -> None:
 
     print(
         "\nOpenAlex retrieval match registry "
-        "v1 checks passed."
+        "v2 checks passed."
     )
 
 
