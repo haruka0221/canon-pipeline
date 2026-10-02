@@ -1,0 +1,34 @@
+{
+  "basis": "complete OpenAlex retrieval-calibration profile v3",
+  "counts": {
+    "a2_increment_pairs": 252,
+    "a2_increment_works": 27,
+    "alias_increment_pairs": 409,
+    "alias_increment_works": 38,
+    "intersection_pairs": 0,
+    "union_pairs": 661,
+    "union_works": 65
+  },
+  "definition": {
+    "a2_increment": "resolved-W W×OpenAlex pairs in R3+A2 but not R3+A1",
+    "alias_increment": "resolved-W W×OpenAlex pairs in R3+A2 but not R2+A2",
+    "review_union": "union of alias_increment and a2_increment"
+  },
+  "inputs": {
+    "openalex_a12_candidate_oa_records_v3.parquet": "1d51f75dc64decbd263d389f144469557f1e6a85c1b8d7e7c40db2800a0c7da8",
+    "openalex_a12_candidate_query_evidence_v3.parquet": "fcef2670975587f863120b94dbd17edac8b05694622349a3471a0c49f02e2ec2",
+    "openalex_query_profile_counts_v3.parquet": "1c2efa174d5e85851cf7943683a7542b337760fa46e80ae7fd3bc5a90046ab71"
+  },
+  "interpretation": "This release freezes the candidate universe for precision review. It contains no human or LLM relevance judgments and does not freeze the production retrieval policy.",
+  "outputs": {
+    "openalex_retrieval_precision_review_candidates_v3.parquet": "3dc7fc179a89e83fea4e6ae20ffb2aea38835411a44f00c13faa1c03deffb79c",
+    "openalex_retrieval_precision_review_candidates_v3.tsv": "38dda4e170ff8f1f90101f0246edc627401666f24dac5d588336f429194483fa"
+  },
+  "release": "openalex-retrieval-precision-review-candidates-v3",
+  "source_profile": {
+    "profile_audit_sha256": "1b6277a85e186e8f6214f687b3310da694310f0148d3ff6e0890c3a2b23eb2ae",
+    "profile_manifest_sha256": "485def4b5b05fd37e5127f59a61902d8bc46acca06e540cae5a36ea1e48d6a2a",
+    "release": "openalex-retrieval-calibration-profile-v3",
+    "snapshot_inventory_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9"
+  }
+}

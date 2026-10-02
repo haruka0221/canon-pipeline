@@ -1,0 +1,236 @@
+{
+  "artifacts": {
+    "openalex_retrieval_precision_review_candidates_v3.parquet": {
+      "bytes": 824579,
+      "sha256": "3dc7fc179a89e83fea4e6ae20ffb2aea38835411a44f00c13faa1c03deffb79c"
+    },
+    "openalex_retrieval_precision_review_candidates_v3.tsv": {
+      "bytes": 1649750,
+      "sha256": "38dda4e170ff8f1f90101f0246edc627401666f24dac5d588336f429194483fa"
+    },
+    "openalex_retrieval_precision_review_candidates_v3_manifest.json": {
+      "bytes": 1827,
+      "sha256": "11c30f603321a674ca34fb34c6d83471a573d4913c897f008aaaaa7c0be77615"
+    }
+  },
+  "audit_release": "openalex-retrieval-precision-review-candidates-v3-audit-v1",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-02T12:36:45.005543+00:00",
+  "builder_git_commit": "ad022aa31b204b86176ae151af05faa1d4467428",
+  "checks": {
+    "builder_commit_exact": true,
+    "candidate_ids_reproduced": true,
+    "exact_nine_collapse_targets": true,
+    "full_candidate_table_independently_reconstructed": true,
+    "manifest_counts_exact": true,
+    "manifest_input_hashes_exact": true,
+    "manifest_output_hashes_exact": true,
+    "simple_lineage_rekey_equivalent": true,
+    "source_profile_v3_audit_exact": true,
+    "tsv_parquet_parity": true,
+    "v2_universe_reconstructed": true,
+    "v3_universe_recomputed": true
+  },
+  "counts": {
+    "a2_increment_pairs": 252,
+    "a2_increment_works": 27,
+    "alias_increment_pairs": 409,
+    "alias_increment_works": 38,
+    "intersection_pairs": 0,
+    "union_pairs": 661,
+    "union_works": 65
+  },
+  "identity_v5_lineage_check": {
+    "collapse_details": [
+      {
+        "openalex_work_id": "W1608724589",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W1608724589",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W1608724589",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W1608724589",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W1973235922",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W1973235922",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W1973235922",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W1973235922",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W2014645538",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W2014645538",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W2014645538",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W2014645538",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W2087670458",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W2087670458",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W2087670458",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W2087670458",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W2496877538",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W2496877538",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W2496877538",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W2496877538",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W4243700757",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W4243700757",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W4243700757",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W4243700757",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W611977949",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W611977949",
+            "project_work_id": "W000000621"
+          },
+          {
+            "openalex_work_id": "W611977949",
+            "project_work_id": "W000008241"
+          },
+          {
+            "openalex_work_id": "W611977949",
+            "project_work_id": "W000019373"
+          }
+        ],
+        "successor_project_work_id": "W000032087"
+      },
+      {
+        "openalex_work_id": "W7000804865",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W7000804865",
+            "project_work_id": "W000007035"
+          },
+          {
+            "openalex_work_id": "W7000804865",
+            "project_work_id": "W000009181"
+          }
+        ],
+        "successor_project_work_id": "W000032088"
+      },
+      {
+        "openalex_work_id": "W2508685170",
+        "predecessor_pairs": [
+          {
+            "openalex_work_id": "W2508685170",
+            "project_work_id": "W000024476"
+          },
+          {
+            "openalex_work_id": "W2508685170",
+            "project_work_id": "W000030357"
+          }
+        ],
+        "successor_project_work_id": "W000032089"
+      }
+    ],
+    "collapsed_target_pairs": 9,
+    "pair_reduction_explained_by_collapses": 16,
+    "recomputed_a2_equals_simple_lineage_rekey": true,
+    "recomputed_alias_equals_simple_lineage_rekey": true,
+    "recomputed_union_equals_simple_lineage_rekey": true
+  },
+  "identity_v5_successor_candidates": {
+    "W000032087": {
+      "a2": 7,
+      "alias": 0,
+      "union": 7
+    },
+    "W000032088": {
+      "a2": 1,
+      "alias": 0,
+      "union": 1
+    },
+    "W000032089": {
+      "a2": 1,
+      "alias": 0,
+      "union": 1
+    }
+  },
+  "interpretation": "The precision-review v3 candidate universe was recomputed directly from the frozen retrieval-calibration profile v3. The resulting 661 W x OpenAlex pairs are exactly equal to the old v2 candidate universe after applying identity-v5 predecessor-to-successor lineage and deduplicating at the successor W x OpenAlex level. The reduction from 677 to 661 pairs is fully explained by nine identity-merge collapse targets, producing sixteen duplicate predecessor pairs after rekeying. Alias expansion remains 409 pairs; the A2-author-reversal set contracts from 268 to 252 pairs. No relevance judgments or production retrieval policy are introduced by this artifact.",
+  "source_profile_release": "openalex-retrieval-calibration-profile-v3",
+  "v2_to_v3_change": {
+    "a2_increment_v2": 268,
+    "a2_increment_v3": 252,
+    "alias_increment_v2": 409,
+    "alias_increment_v3": 409,
+    "pair_reduction": 16,
+    "v2_union_pairs": 677,
+    "v2_union_works": 69,
+    "v3_union_pairs": 661,
+    "v3_union_works": 65
+  }
+}
