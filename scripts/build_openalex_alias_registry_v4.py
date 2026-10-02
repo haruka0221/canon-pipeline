@@ -767,7 +767,7 @@ def main() -> None:
 
     write_atomic_json(manifest, OUT_MANIFEST)
 
-    print("=== OPENALEX ALIAS REGISTRY V3 ===")
+    print("=== OPENALEX ALIAS REGISTRY V4 ===")
     print("targets:", len(targets))
     print("  resolved W:", EXPECTED_PROJECT_WORKS)
     print("  unresolved units:", EXPECTED_UNRESOLVED_UNITS)
@@ -810,7 +810,7 @@ def main() -> None:
     ]:
         print(p.relative_to(ROOT))
     print(
-        "\nOpenAlex alias registry v3 build checks passed."
+        "\nOpenAlex alias registry v4 build checks passed."
     )
 
 

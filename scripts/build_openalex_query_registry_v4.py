@@ -457,7 +457,7 @@ def main() -> None:
 
     write_atomic_json(manifest, OUT_MANIFEST)
 
-    print("=== OPENALEX QUERY REGISTRY V3 ===")
+    print("=== OPENALEX QUERY REGISTRY V4 ===")
     print(out["query_route"].value_counts().to_string())
     print("logical queries:", len(out))
     print("R2/R3 exact logical-string overlap:", r2_r3_exact_overlap)
@@ -465,7 +465,7 @@ def main() -> None:
     print(OUT_TSV.relative_to(ROOT))
     print(OUT_PARQUET.relative_to(ROOT))
     print(OUT_MANIFEST.relative_to(ROOT))
-    print("\nOpenAlex logical query registry v3 checks passed.")
+    print("\nOpenAlex logical query registry v4 checks passed.")
 
 
 if __name__ == "__main__":

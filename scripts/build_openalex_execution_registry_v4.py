@@ -728,7 +728,7 @@ def main() -> None:
     )
 
     print(
-        "=== OPENALEX EXECUTION REGISTRY V3 ==="
+        "=== OPENALEX EXECUTION REGISTRY V4 ==="
     )
     print(
         "logical queries:",
@@ -785,7 +785,7 @@ def main() -> None:
         print(path.relative_to(ROOT))
 
     print(
-        "\nOpenAlex execution registry v3 "
+        "\nOpenAlex execution registry v4 "
         "checks passed."
     )
 

@@ -498,7 +498,7 @@ def main() -> None:
 
     write_atomic_json(manifest, OUT_MANIFEST)
 
-    print("=== OPENALEX R2 REPRESENTATIVE ALIASES V1 ===")
+    print("=== OPENALEX R2 REPRESENTATIVE ALIASES V2 ===")
     print("rows:", len(out))
     print("resolved W:", EXPECTED_RESOLVED_W)
     print("unresolved units:", EXPECTED_UNRESOLVED_UNITS)
@@ -508,7 +508,7 @@ def main() -> None:
     print(OUT_PARQUET.relative_to(ROOT))
     print(OUT_MANIFEST.relative_to(ROOT))
     print(
-        "\nOpenAlex R2 representative-alias selection v1 checks passed."
+        "\nOpenAlex R2 representative-alias selection v2 checks passed."
     )
 
 
