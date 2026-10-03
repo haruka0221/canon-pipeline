@@ -195,7 +195,7 @@ def main():
     # Load logical queries to get target titles and authors
     # sample_id -> list of (title_norm, author_name)
     sample_queries = defaultdict(list)
-    with open(scripts / 'logical_queries.tsv') as f:
+    with open(derived / 'logical_queries.tsv') as f:
         for row in csv.DictReader(f, delimiter='\t'):
             sample_queries[row['sample_id']].append({
                 'title_norm': row['title_norm'],
