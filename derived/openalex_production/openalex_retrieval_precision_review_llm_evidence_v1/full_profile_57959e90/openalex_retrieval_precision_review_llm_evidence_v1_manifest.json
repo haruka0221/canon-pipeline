@@ -1,0 +1,186 @@
+{
+  "artifact_status": "NON_AUTHORITATIVE_LLM_FIRST_PASS",
+  "authoritative": false,
+  "backup_tarball": {
+    "path": "/home/haruka221/openalex_precision_review_llm_first_pass_v1_complete_20261003.tar.gz",
+    "sha256": "438eef0eba1a08b1a74f32fd01ba7397d6aaa0975aac882be8216ec377cdc786"
+  },
+  "builder": {
+    "path": "/tmp/build_openalex_llm_evidence_release.py",
+    "pyarrow_version": "25.0.1",
+    "python_version": "3.12.3",
+    "sha256": "461cd095cca2da5dcd55557a9051ffd895a1885dc1e347e9b99bccee85a1df83"
+  },
+  "columns": [
+    "review_candidate_id",
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_semantic_group_id",
+    "llm_target_attribution_judgment",
+    "llm_adjudication_confidence",
+    "llm_attribution_reason_code",
+    "llm_evidence_used_oa_title",
+    "llm_evidence_used_oa_abstract",
+    "llm_evidence_used_project_provenance",
+    "llm_short_evidence_summary",
+    "llm_rationale",
+    "llm_taxonomy_issue",
+    "llm_taxonomy_issue_note",
+    "llm_needs_human_attention",
+    "llm_human_attention_reason",
+    "chunk_id",
+    "model_identifier",
+    "reasoning_effort",
+    "codex_cli_version",
+    "prompt_template_version",
+    "response_generated_at_utc"
+  ],
+  "completed_runtime_package_provenance": {
+    "complete": true,
+    "package_manifest": {
+      "path": "package_manifest.json",
+      "sha256": "de5266e563a45a432dbbc0b7662bf519079d76377c1c00116f9a5304176dc5a5"
+    },
+    "path": "/tmp/openalex_precision_review_llm_first_pass_v1",
+    "run_manifest": {
+      "path": "run_manifest.json",
+      "sha256": "1152c3418fbf23c71095075cc382fc04c8a741628febd48d955e6352353b0b75"
+    },
+    "runtime_state": {
+      "path": "runtime_state.json",
+      "sha256": "56b8c3ed447ddb1838b0997481d7aaf2c1fc40a3c40d2b745eda7c44ef2526cb"
+    },
+    "source_inventories": {
+      "parsed_model_responses": {
+        "file_count": 126,
+        "inventory_sha256": "9aa759b3261fdcca80d66ce64ec452fbcb62f3c95669ffa9328e1b6c21c95a3b"
+      },
+      "raw_model_responses": {
+        "file_count": 126,
+        "inventory_sha256": "2de0e422b371036fc0ae77ed4b22d3df3338284781f579f13d66c9313394db32"
+      },
+      "status_markers": {
+        "file_count": 126,
+        "inventory_sha256": "96426dcafe730603c47a874e7e4f4c4204c55835d104ed0b213b70462219b8cb"
+      },
+      "validated_evidence": {
+        "file_count": 126,
+        "inventory_sha256": "9a62b0685f55e1dc02efcf0d24609f36ae6bf2e641a23b9f77836ad558f51690"
+      }
+    },
+    "validated_candidates": 661,
+    "validated_chunks": 126
+  },
+  "counts": {
+    "chunks": 126,
+    "columns": 23,
+    "confidence": {
+      "HIGH": 649,
+      "MEDIUM": 12
+    },
+    "increment_type": {
+      "A2_AUTHOR_REVERSAL": 252,
+      "ALIAS_EXPANSION": 409
+    },
+    "judgment": {
+      "INVALID_TARGET_REFERENCE": 33,
+      "UNCERTAIN": 16,
+      "VALID_TARGET_REFERENCE": 612
+    },
+    "llm_needs_human_attention": {
+      "false": 645,
+      "true": 16
+    },
+    "reason_code": {
+      "AMBIGUOUS_TARGET_REFERENCE": 16,
+      "DIRECT_TARGET_REFERENCE": 493,
+      "GENERIC_OR_LEXICAL_TITLE_USE": 15,
+      "METADATA_TEXT_ARTIFACT": 2,
+      "TITLE_COLLISION_DIFFERENT_WORK": 7,
+      "VALID_CONTEXTUAL_REFERENCE": 12,
+      "VALID_TITLE_VARIANT": 107,
+      "WRONG_WORK_SAME_AUTHOR": 9
+    },
+    "rows": 661
+  },
+  "execution_configuration": {
+    "codex_cli_version": "0.160.0",
+    "model_identifier": "gpt-5.6-sol",
+    "prompt_template_version": "openalex-precision-review-llm-first-pass-prompt-v1",
+    "reasoning_effort": "high",
+    "runner_injected_provenance": true
+  },
+  "frozen_inputs": {
+    "judgment_schema": {
+      "path": "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json",
+      "sha256": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a"
+    },
+    "review_protocol": {
+      "path": "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md",
+      "sha256": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5",
+      "version": "v1"
+    },
+    "review_view": {
+      "path": "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.tsv",
+      "sha256": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c"
+    }
+  },
+  "frozen_openalex_baseline_commit": "56081fa270fcf405201f13379547f5d918cf31bc",
+  "generated_at_utc": "2026-10-03T12:49:09Z",
+  "interpretation": "Non-authoritative LLM first-pass target-attribution evidence only. Final human/authoritative adjudication remains a separate artifact and process. These labels are not final truth and are not a precision estimate.",
+  "outputs": {
+    "openalex_retrieval_precision_review_llm_evidence_v1.parquet": {
+      "bytes": 75793,
+      "columns": 23,
+      "rows": 661,
+      "sha256": "0de5c15dd48a61f4889a66713078389117d9b4ce90e24eb8fe541925d6fbe148"
+    },
+    "openalex_retrieval_precision_review_llm_evidence_v1.tsv": {
+      "bytes": 377210,
+      "columns": 23,
+      "rows": 661,
+      "sha256": "9214235b3e5a04edca1e6d367b3f5e491f2900f23a7475942d889d9c5c2b0eac"
+    }
+  },
+  "release": "openalex_retrieval_precision_review_llm_evidence_v1",
+  "release_build_repository_commit": "125b3516635ba5a1e1b8b8209a20c4076f175ff5",
+  "release_build_repository_preflight": {
+    "branch": "kakenc-integration-20260927",
+    "frozen_baseline_is_ancestor": true,
+    "intervening_changes": [
+      "A\tderived/bl_calibration/verification_pilot_v1/q1_failure_examples.tsv",
+      "A\tderived/bl_calibration/verification_pilot_v1/q1_first_edition_matching.tsv",
+      "A\tderived/bl_calibration/verification_pilot_v1/q1_record_structure.tsv",
+      "A\tscripts/bl/analyze_q1_record_structure_v1.py"
+    ],
+    "intervening_changes_scope": "Unrelated British Library calibration work only; no OpenAlex precision-review dependency changed.",
+    "local_head": "125b3516635ba5a1e1b8b8209a20c4076f175ff5",
+    "remote_branch": "origin/kakenc-integration-20260927",
+    "remote_head": "125b3516635ba5a1e1b8b8209a20c4076f175ff5",
+    "working_tree_clean_at_build_start": true
+  },
+  "release_version": "v1",
+  "repository_provenance_explanation": "frozen_openalex_baseline_commit identifies the frozen OpenAlex methodology and input baseline under which review_protocol_v1, review_view_v1, judgment schema v1, and the 661-candidate LLM first-pass run were defined and executed; release_build_repository_commit identifies the repository state at release construction.",
+  "runtime_contracts": {
+    "final_evidence_schema": {
+      "path": "schemas/final_first_pass_evidence_schema_v1.json",
+      "sha256": "356944a175502618ae9567a3b31ddfb32cb19a6f32b2c2ece6cbce5e5192c1b0"
+    },
+    "model_response_schema": {
+      "path": "schemas/model_response_schema_v1.json",
+      "sha256": "f38a285f94324a06744db873293a881ac876dcf4b2872c6cf6c51efe201d83a4"
+    },
+    "prompt": {
+      "path": "prompt/first_pass_prompt_v1.md",
+      "sha256": "2473282bc59381c6b09320d74ea7cce13d79306fdc68c831c16048058ea1e727"
+    }
+  },
+  "sort_order": [
+    "increment_type",
+    "project_work_id",
+    "review_semantic_group_id",
+    "review_candidate_id"
+  ],
+  "status": "PASSED"
+}

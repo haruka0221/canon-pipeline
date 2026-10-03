@@ -1,0 +1,132 @@
+{
+  "artifact_status": "NON_AUTHORITATIVE_LLM_FIRST_PASS",
+  "audit": "openalex-retrieval-precision-review-llm-evidence-v1-audit",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-03T12:49:09Z",
+  "authoritative": false,
+  "candidate_set": {
+    "actual": 661,
+    "duplicates": [],
+    "expected": 661,
+    "extra": [],
+    "missing": []
+  },
+  "checks": {
+    "all_126_status_commit_markers_valid": true,
+    "all_final_evidence_schema_and_python_checks_passed": true,
+    "backup_tarball_hash_valid": true,
+    "candidate_count_661": true,
+    "candidate_ids_unique": true,
+    "candidate_set_exactly_equals_frozen_review_view": true,
+    "controlled_vocabularies_valid": true,
+    "deterministic_sort_order_valid": true,
+    "frozen_artifacts_unchanged": true,
+    "frozen_openalex_baseline_is_ancestor": true,
+    "human_attention_rules_valid": true,
+    "immutable_identity_fields_exactly_equal": true,
+    "increment_split_409_252": true,
+    "intervening_changes_exactly_unrelated_bl_calibration": true,
+    "manifest_dual_commit_provenance_valid": true,
+    "manifest_parquet_hash_valid": true,
+    "manifest_tsv_hash_valid": true,
+    "model_effort_cli_exact": true,
+    "no_human_or_authoritative_judgment_introduced": true,
+    "no_precision_estimate_present": true,
+    "non_authoritative_marking_present": true,
+    "parquet_roundtrip_equal": true,
+    "production_raw_parsed_evidence_status_unchanged": true,
+    "raw_parsed_evidence_status_lineage_valid": true,
+    "raw_parsed_final_model_fields_unchanged": true,
+    "release_build_branch_exact": true,
+    "release_build_local_head_exact": true,
+    "release_build_remote_head_exact": true,
+    "repository_clean_at_build_start": true,
+    "runtime_reconstruction_passed": true,
+    "strict_booleans_valid": true,
+    "tsv_parquet_parity": true,
+    "tsv_roundtrip_equal": true
+  },
+  "counts": {
+    "chunks": 126,
+    "columns": 23,
+    "confidence": {
+      "HIGH": 649,
+      "MEDIUM": 12
+    },
+    "increment_type": {
+      "A2_AUTHOR_REVERSAL": 252,
+      "ALIAS_EXPANSION": 409
+    },
+    "judgment": {
+      "INVALID_TARGET_REFERENCE": 33,
+      "UNCERTAIN": 16,
+      "VALID_TARGET_REFERENCE": 612
+    },
+    "llm_needs_human_attention": {
+      "false": 645,
+      "true": 16
+    },
+    "reason_code": {
+      "AMBIGUOUS_TARGET_REFERENCE": 16,
+      "DIRECT_TARGET_REFERENCE": 493,
+      "GENERIC_OR_LEXICAL_TITLE_USE": 15,
+      "METADATA_TEXT_ARTIFACT": 2,
+      "TITLE_COLLISION_DIFFERENT_WORK": 7,
+      "VALID_CONTEXTUAL_REFERENCE": 12,
+      "VALID_TITLE_VARIANT": 107,
+      "WRONG_WORK_SAME_AUTHOR": 9
+    },
+    "rows": 661
+  },
+  "frozen_input_hashes_after": {
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.parquet": "2b994d1e9952703a0f50cc6a846f5267b998595338e3a8d1c60c76c7de8e88b8",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.tsv": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_audit_v1.json": "6a07f4823b5b6f5d5f1b42d673b6e997d451fd0a74b397863fb770cb8700ebf7",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_manifest.json": "acb2b1da3bcf029fcec99e7c130f791e6f66dc2de75d4a4393ba3f3ea7cfc251",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5"
+  },
+  "frozen_input_hashes_before": {
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.parquet": "2b994d1e9952703a0f50cc6a846f5267b998595338e3a8d1c60c76c7de8e88b8",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.tsv": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_audit_v1.json": "6a07f4823b5b6f5d5f1b42d673b6e997d451fd0a74b397863fb770cb8700ebf7",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_manifest.json": "acb2b1da3bcf029fcec99e7c130f791e6f66dc2de75d4a4393ba3f3ea7cfc251",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5"
+  },
+  "frozen_openalex_baseline_commit": "56081fa270fcf405201f13379547f5d918cf31bc",
+  "output_hashes": {
+    "openalex_retrieval_precision_review_llm_evidence_v1.parquet": "0de5c15dd48a61f4889a66713078389117d9b4ce90e24eb8fe541925d6fbe148",
+    "openalex_retrieval_precision_review_llm_evidence_v1.tsv": "9214235b3e5a04edca1e6d367b3f5e491f2900f23a7475942d889d9c5c2b0eac",
+    "openalex_retrieval_precision_review_llm_evidence_v1_manifest.json": "d0cccfa68e5e51079e7905a03cfd68cb80ecdc1cc0ebf88d64c20eacc213eed6"
+  },
+  "release_build_repository_commit": "125b3516635ba5a1e1b8b8209a20c4076f175ff5",
+  "repository_provenance_explanation": "frozen_openalex_baseline_commit identifies the frozen OpenAlex methodology and input baseline under which review_protocol_v1, review_view_v1, judgment schema v1, and the 661-candidate LLM first-pass run were defined and executed; release_build_repository_commit identifies the repository state at release construction.",
+  "runtime_lineage": {
+    "evidence_files": 126,
+    "parsed_response_files": 126,
+    "raw_response_files": 126,
+    "source_inventories": {
+      "parsed_model_responses": {
+        "file_count": 126,
+        "inventory_sha256": "9aa759b3261fdcca80d66ce64ec452fbcb62f3c95669ffa9328e1b6c21c95a3b"
+      },
+      "raw_model_responses": {
+        "file_count": 126,
+        "inventory_sha256": "2de0e422b371036fc0ae77ed4b22d3df3338284781f579f13d66c9313394db32"
+      },
+      "status_markers": {
+        "file_count": 126,
+        "inventory_sha256": "96426dcafe730603c47a874e7e4f4c4204c55835d104ed0b213b70462219b8cb"
+      },
+      "validated_evidence": {
+        "file_count": 126,
+        "inventory_sha256": "9a62b0685f55e1dc02efcf0d24609f36ae6bf2e641a23b9f77836ad558f51690"
+      }
+    },
+    "status_files": 126,
+    "validated_candidates": 661,
+    "validated_chunks": 126
+  },
+  "statement": "NON_AUTHORITATIVE_LLM_FIRST_PASS; final human/authoritative adjudication remains separate; no precision estimate is made."
+}
