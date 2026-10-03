@@ -1,0 +1,377 @@
+sample_id	marc_001	in_review_scope	ai_relation	human_relation	human_note	final_relation	final_source	reviewer	review_date
+BLV017	990000221330109251	FALSE	unrelated			unrelated	ai		
+BLV017	990009307150109251	FALSE	unrelated			unrelated	ai		
+BLV017	990020683770109251	FALSE	unrelated			unrelated	ai		
+BLV017	990020685220109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV017	990020685230109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV017	990020685860109251	FALSE	unrelated			unrelated	ai		
+BLV017	990029785810109251	FALSE	unrelated			unrelated	ai		
+BLV017	990069873780109251	FALSE	unrelated			unrelated	ai		
+BLV017	990126720230109251	FALSE	unrelated			unrelated	ai		
+BLV017	990128035340109251	FALSE	unrelated			unrelated	ai		
+BLV017	990128035350109251	FALSE	unrelated			unrelated	ai		
+BLV017	990136808440109251	TRUE	target_in_collection	target_in_collection		target_in_collection	human	Haruka TSUTSUI	2026-10-03
+BLV017	990148154870109251	FALSE	unrelated			unrelated	ai		
+BLV017	990186210140109251	FALSE	unrelated			unrelated	ai		
+BLV017	990202357050109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV017	990205109640109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV017	990209458270109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV017	990215039090109251	FALSE	unrelated			unrelated	ai		
+BLV017	990215039100109251	FALSE	unrelated			unrelated	ai		
+BLV017	990215039130109251	FALSE	unrelated			unrelated	ai		
+BLV017	990215039140109251	FALSE	unrelated			unrelated	ai		
+BLV017	990215039150109251	FALSE	unrelated			unrelated	ai		
+BLV017	990215039160109251	FALSE	unrelated			unrelated	ai		
+BLV017	990215039240109251	FALSE	unrelated			unrelated	ai		
+BLV017	99216991942009251	FALSE	unrelated			unrelated	ai		
+BLV018	990000082030109251	FALSE	unrelated			unrelated	ai		
+BLV018	990000309630109251	FALSE	unrelated			unrelated	ai		
+BLV018	990000927630109251	FALSE	unrelated			unrelated	ai		
+BLV018	990001889930109251	FALSE	unrelated			unrelated	ai		
+BLV018	990001910650109251	FALSE	unrelated			unrelated	ai		
+BLV018	990002244700109251	FALSE	unrelated			unrelated	ai		
+BLV018	990002504530109251	FALSE	unrelated			unrelated	ai		
+BLV018	990003367320109251	FALSE	unrelated			unrelated	ai		
+BLV018	990003388200109251	FALSE	unrelated			unrelated	ai		
+BLV018	990003468060109251	FALSE	unrelated			unrelated	ai		
+BLV018	990003468070109251	FALSE	unrelated			unrelated	ai		
+BLV018	990003468080109251	FALSE	unrelated			unrelated	ai		
+BLV018	990003650240109251	FALSE	unrelated			unrelated	ai		
+BLV018	990005224440109251	FALSE	unrelated			unrelated	ai		
+BLV018	990005224450109251	FALSE	unrelated			unrelated	ai		
+BLV018	990005474450109251	FALSE	unrelated			unrelated	ai		
+BLV018	990006791060109251	FALSE	unrelated			unrelated	ai		
+BLV018	990006855030109251	FALSE	unrelated			unrelated	ai		
+BLV018	990007432020109251	FALSE	unrelated			unrelated	ai		
+BLV018	990009344110109251	TRUE	unrelated	unrelated		unrelated	human	Haruka TSUTSUI	2026-10-03
+BLV018	990012006390109251	FALSE	unrelated			unrelated	ai		
+BLV018	990013411610109251	FALSE	unrelated			unrelated	ai		
+BLV018	990014754500109251	FALSE	unrelated			unrelated	ai		
+BLV018	990014983690109251	FALSE	unrelated			unrelated	ai		
+BLV018	990015092450109251	FALSE	unrelated			unrelated	ai		
+BLV018	990017104650109251	FALSE	unrelated			unrelated	ai		
+BLV018	990017596390109251	FALSE	unrelated			unrelated	ai		
+BLV018	990018003490109251	FALSE	unrelated			unrelated	ai		
+BLV018	990019033700109251	FALSE	unrelated			unrelated	ai		
+BLV018	990019679090109251	FALSE	unrelated			unrelated	ai		
+BLV018	990020410380109251	FALSE	unrelated			unrelated	ai		
+BLV018	990020568580109251	FALSE	unrelated			unrelated	ai		
+BLV018	990020795660109251	FALSE	unrelated			unrelated	ai		
+BLV018	990023111930109251	TRUE	unrelated	unrelated		unrelated	human	Haruka TSUTSUI	2026-10-03
+BLV018	990024709210109251	FALSE	unrelated			unrelated	ai		
+BLV018	990025382830109251	TRUE	unrelated	unrelated		unrelated	human	Haruka TSUTSUI	2026-10-03
+BLV018	990025447640109251	FALSE	unrelated			unrelated	ai		
+BLV018	990025494990109251	FALSE	unrelated			unrelated	ai		
+BLV018	990025785190109251	FALSE	unrelated			unrelated	ai		
+BLV018	990027105210109251	FALSE	unrelated			unrelated	ai		
+BLV018	990027773420109251	FALSE	unrelated			unrelated	ai		
+BLV018	990029387840109251	TRUE	unrelated	unrelated		unrelated	human	Haruka TSUTSUI	2026-10-03
+BLV018	990030716340109251	FALSE	unrelated			unrelated	ai		
+BLV018	990030997780109251	FALSE	unrelated			unrelated	ai		
+BLV018	990031424220109251	FALSE	unrelated			unrelated	ai		
+BLV018	990033569270109251	FALSE	unrelated			unrelated	ai		
+BLV018	990034047270109251	FALSE	unrelated			unrelated	ai		
+BLV018	990035670500109251	FALSE	unrelated			unrelated	ai		
+BLV018	990035810470109251	FALSE	unrelated			unrelated	ai		
+BLV018	990037558360109251	FALSE	unrelated			unrelated	ai		
+BLV018	990039215400109251	FALSE	unrelated			unrelated	ai		
+BLV018	990039232410109251	FALSE	unrelated			unrelated	ai		
+BLV018	990039502630109251	FALSE	unrelated			unrelated	ai		
+BLV018	990039502640109251	FALSE	unrelated			unrelated	ai		
+BLV018	990040750600109251	FALSE	unrelated			unrelated	ai		
+BLV018	990068469560109251	FALSE	ambiguous			ambiguous	ai		
+BLV018	990068610060109251	FALSE	ambiguous			ambiguous	ai		
+BLV018	990068649740109251	FALSE	ambiguous			ambiguous	ai		
+BLV018	990068875050109251	FALSE	unrelated			unrelated	ai		
+BLV018	990068965530109251	FALSE	unrelated			unrelated	ai		
+BLV018	990070829210109251	FALSE	unrelated			unrelated	ai		
+BLV018	990072625610109251	FALSE	unrelated			unrelated	ai		
+BLV018	990075753970109251	TRUE	unrelated	unrelated		unrelated	human	Haruka TSUTSUI	2026-10-03
+BLV018	990079436380109251	FALSE	unrelated			unrelated	ai		
+BLV018	990079522440109251	FALSE	unrelated			unrelated	ai		
+BLV018	990080529880109251	FALSE	unrelated			unrelated	ai		
+BLV018	990084661170109251	FALSE	unrelated			unrelated	ai		
+BLV018	990086089510109251	FALSE	unrelated			unrelated	ai		
+BLV018	990086188190109251	FALSE	unrelated			unrelated	ai		
+BLV018	990087577520109251	FALSE	unrelated			unrelated	ai		
+BLV018	990093133470109251	FALSE	unrelated			unrelated	ai		
+BLV018	990100754500109251	FALSE	unrelated			unrelated	ai		
+BLV018	990105985830109251	FALSE	unrelated			unrelated	ai		
+BLV018	990114944850109251	FALSE	unrelated			unrelated	ai		
+BLV018	990115115800109251	FALSE	unrelated			unrelated	ai		
+BLV018	990123668450109251	FALSE	unrelated			unrelated	ai		
+BLV018	990124968890109251	FALSE	unrelated			unrelated	ai		
+BLV018	990126864690109251	FALSE	unrelated			unrelated	ai		
+BLV018	990132424060109251	FALSE	unrelated			unrelated	ai		
+BLV018	990132648640109251	FALSE	unrelated			unrelated	ai		
+BLV018	990132982340109251	FALSE	unrelated			unrelated	ai		
+BLV018	990138700080109251	FALSE	unrelated			unrelated	ai		
+BLV018	990141721170109251	FALSE	unrelated			unrelated	ai		
+BLV018	990144111980109251	FALSE	ambiguous			ambiguous	ai		
+BLV018	990145390550109251	FALSE	unrelated			unrelated	ai		
+BLV018	990146099830109251	FALSE	unrelated			unrelated	ai		
+BLV018	990146287580109251	FALSE	unrelated			unrelated	ai		
+BLV018	990148190820109251	FALSE	unrelated			unrelated	ai		
+BLV018	990150441540109251	FALSE	unrelated			unrelated	ai		
+BLV018	990154607480109251	FALSE	unrelated			unrelated	ai		
+BLV018	990155178330109251	FALSE	unrelated			unrelated	ai		
+BLV018	990158410380109251	FALSE	unrelated			unrelated	ai		
+BLV018	990160257780109251	TRUE	target_in_collection	target_in_collection		target_in_collection	human	Haruka TSUTSUI	2026-10-03
+BLV018	990161698900109251	FALSE	unrelated			unrelated	ai		
+BLV018	990162830460109251	FALSE	unrelated			unrelated	ai		
+BLV018	990165706420109251	FALSE	unrelated			unrelated	ai		
+BLV018	990166296010109251	FALSE	unrelated			unrelated	ai		
+BLV018	990168361920109251	FALSE	unrelated			unrelated	ai		
+BLV018	990169425830109251	FALSE	unrelated			unrelated	ai		
+BLV018	990169425840109251	FALSE	unrelated			unrelated	ai		
+BLV018	990171356540109251	FALSE	unrelated			unrelated	ai		
+BLV018	990171356610109251	FALSE	unrelated			unrelated	ai		
+BLV018	990175916400109251	FALSE	unrelated			unrelated	ai		
+BLV018	990176423500109251	FALSE	unrelated			unrelated	ai		
+BLV018	990176589900109251	FALSE	unrelated			unrelated	ai		
+BLV018	990176966190109251	FALSE	unrelated			unrelated	ai		
+BLV018	990181034420109251	FALSE	unrelated			unrelated	ai		
+BLV018	990183177360109251	FALSE	unrelated			unrelated	ai		
+BLV018	990184652890109251	TRUE	unrelated	unrelated		unrelated	human	Haruka TSUTSUI	2026-10-03
+BLV018	990187076240109251	FALSE	unrelated			unrelated	ai		
+BLV018	990197038560109251	FALSE	unrelated			unrelated	ai		
+BLV018	990197629710109251	FALSE	unrelated			unrelated	ai		
+BLV018	990198373250109251	FALSE	unrelated			unrelated	ai		
+BLV018	990200866670109251	FALSE	ambiguous			ambiguous	ai		
+BLV018	990202557740109251	FALSE	unrelated			unrelated	ai		
+BLV018	990205849450109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV018	99216864746909251	FALSE	unrelated			unrelated	ai		
+BLV018	99216869072709251	FALSE	unrelated			unrelated	ai		
+BLV018	99216869976309251	FALSE	unrelated			unrelated	ai		
+BLV018	99216877161009251	FALSE	unrelated			unrelated	ai		
+BLV018	99216879532909251	FALSE	unrelated			unrelated	ai		
+BLV018	99216885662509251	FALSE	unrelated			unrelated	ai		
+BLV018	99216902386309251	FALSE	unrelated			unrelated	ai		
+BLV018	99216904045309251	FALSE	unrelated			unrelated	ai		
+BLV018	99216912966909251	FALSE	unrelated			unrelated	ai		
+BLV018	99216931595109251	FALSE	unrelated			unrelated	ai		
+BLV018	99216989832509251	FALSE	unrelated			unrelated	ai		
+BLV019	990008253780109251	FALSE	unrelated			unrelated	ai		
+BLV019	990008253790109251	FALSE	unrelated			unrelated	ai		
+BLV019	990022979580109251	FALSE	unrelated			unrelated	ai		
+BLV019	990022979590109251	FALSE	unrelated			unrelated	ai		
+BLV019	990022979610109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV019	990148083460109251	FALSE	unrelated			unrelated	ai		
+BLV019	990148177270109251	FALSE	unrelated			unrelated	ai		
+BLV019	99216888786909251	FALSE	unrelated			unrelated	ai		
+BLV020	990003342510109251	FALSE	unrelated			unrelated	ai		
+BLV020	990003342520109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455190109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455200109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455210109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455220109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455230109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455240109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455250109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455260109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV020	990010455270109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV020	990010455280109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455290109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455300109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455310109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455320109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455330109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455340109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455350109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455360109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455370109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455380109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455390109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455400109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455410109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455420109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455430109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455440109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455450109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455460109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455470109251	FALSE	unrelated			unrelated	ai		
+BLV020	990010455610109251	FALSE	unrelated			unrelated	ai		
+BLV020	990014950550109251	FALSE	unrelated			unrelated	ai		
+BLV020	990014950560109251	FALSE	unrelated			unrelated	ai		
+BLV020	990030383380109251	FALSE	unrelated			unrelated	ai		
+BLV020	990033272670109251	FALSE	unrelated			unrelated	ai		
+BLV020	990033272680109251	FALSE	unrelated			unrelated	ai		
+BLV020	990033272690109251	FALSE	unrelated			unrelated	ai		
+BLV020	990033272700109251	FALSE	unrelated			unrelated	ai		
+BLV020	990035392700109251	FALSE	unrelated			unrelated	ai		
+BLV020	990067897060109251	FALSE	unrelated			unrelated	ai		
+BLV020	990079331930109251	FALSE	unrelated			unrelated	ai		
+BLV020	990086051030109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223700109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223710109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223720109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223730109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV020	990102223750109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223790109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223840109251	FALSE	unrelated			unrelated	ai		
+BLV020	990102223880109251	FALSE	unrelated			unrelated	ai		
+BLV020	990109338420109251	FALSE	unrelated			unrelated	ai		
+BLV020	990112743100109251	FALSE	unrelated			unrelated	ai		
+BLV020	990119568470109251	FALSE	unrelated			unrelated	ai		
+BLV020	990121615390109251	FALSE	unrelated			unrelated	ai		
+BLV020	990138385490109251	FALSE	unrelated			unrelated	ai		
+BLV020	990140116570109251	FALSE	unrelated			unrelated	ai		
+BLV020	990140888670109251	FALSE	unrelated			unrelated	ai		
+BLV020	990142431780109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523680109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523690109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523720109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523750109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523760109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523780109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523790109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV020	990144523800109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523810109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523820109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523840109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523850109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523870109251	FALSE	unrelated			unrelated	ai		
+BLV020	990144523890109251	FALSE	unrelated			unrelated	ai		
+BLV020	990148098460109251	FALSE	unrelated			unrelated	ai		
+BLV020	990151740080109251	FALSE	unrelated			unrelated	ai		
+BLV020	990151740090109251	FALSE	unrelated			unrelated	ai		
+BLV020	990167956070109251	FALSE	unrelated			unrelated	ai		
+BLV020	990168310770109251	FALSE	unrelated			unrelated	ai		
+BLV020	990175943390109251	FALSE	unrelated			unrelated	ai		
+BLV020	990176004770109251	FALSE	unrelated			unrelated	ai		
+BLV020	990197846790109251	FALSE	unrelated			unrelated	ai		
+BLV020	990212177020109251	FALSE	unrelated			unrelated	ai		
+BLV020	990212178880109251	FALSE	unrelated			unrelated	ai		
+BLV020	99216864973109251	FALSE	unrelated			unrelated	ai		
+BLV020	99216884777409251	FALSE	unrelated			unrelated	ai		
+BLV020	99216884784209251	FALSE	unrelated			unrelated	ai		
+BLV020	99216888670209251	FALSE	unrelated			unrelated	ai		
+BLV020	99216916399309251	FALSE	unrelated			unrelated	ai		
+BLV020	99216924008209251	FALSE	unrelated			unrelated	ai		
+BLV020	99216941852009251	FALSE	unrelated			unrelated	ai		
+BLV020	99216943518909251	FALSE	unrelated			unrelated	ai		
+BLV020	99216944468109251	FALSE	unrelated			unrelated	ai		
+BLV020	99216991702909251	FALSE	unrelated			unrelated	ai		
+BLV021	990004182270109251	FALSE	unrelated			unrelated	ai		
+BLV021	990004182350109251	FALSE	unrelated			unrelated	ai		
+BLV021	990012172280109251	FALSE	unrelated			unrelated	ai		
+BLV021	990015745300109251	FALSE	unrelated			unrelated	ai		
+BLV021	990021205790109251	FALSE	unrelated			unrelated	ai		
+BLV021	990021447220109251	FALSE	unrelated			unrelated	ai		
+BLV021	990023748830109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990023748840109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990023748850109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990023748860109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990025825990109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826000109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826010109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826020109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826030109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826130109251	TRUE	target_with_other_works	target_with_other_works		target_with_other_works	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826140109251	TRUE	target_with_other_works	target_with_other_works		target_with_other_works	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826150109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826160109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826210109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826250109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826260109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826300109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826370109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826380109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826400109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826410109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826540109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990025826650109251	TRUE	target_alone	target_alone	Chapbook; abridgement not stated in the record. Kept target_alone per prompt rule 1; may be abridged.	target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826660109251	TRUE	target_alone	target_alone	Chapbook; abridgement not stated in the record. Kept target_alone per prompt rule 1; may be abridged.	target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826670109251	TRUE	target_alone	target_alone	Chapbook; abridgement not stated in the record. Kept target_alone per prompt rule 1; may be abridged.	target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826680109251	TRUE	target_alone	target_alone	Chapbook; abridgement not stated in the record. Kept target_alone per prompt rule 1; may be abridged.	target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990025826780109251	FALSE	related_derivative			related_derivative	ai		
+BLV021	990025826790109251	FALSE	related_derivative			related_derivative	ai		
+BLV021	990025826800109251	FALSE	related_derivative			related_derivative	ai		
+BLV021	990025826810109251	FALSE	related_derivative			related_derivative	ai		
+BLV021	990030430070109251	FALSE	unrelated			unrelated	ai		
+BLV021	990030430080109251	FALSE	unrelated			unrelated	ai		
+BLV021	990030430090109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430100109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430110109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430120109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430130109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430140109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430150109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430160109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430170109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430180109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990030430190109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990030430200109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990030430210109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990030430220109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990030430230109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430240109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430250109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430260109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430270109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990030430280109251	FALSE	unrelated			unrelated	ai		
+BLV021	990030430290109251	FALSE	unrelated			unrelated	ai		
+BLV021	990030430300109251	FALSE	unrelated			unrelated	ai		
+BLV021	990030430310109251	FALSE	unrelated			unrelated	ai		
+BLV021	990033077740109251	FALSE	related_criticism			related_criticism	ai		
+BLV021	990036428100109251	FALSE	related_criticism			related_criticism	ai		
+BLV021	990038249100109251	FALSE	related_criticism			related_criticism	ai		
+BLV021	990038799990109251	FALSE	related_criticism			related_criticism	ai		
+BLV021	990040073470109251	FALSE	unrelated			unrelated	ai		
+BLV021	990040868790109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990069787010109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990069791670109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990073709910109251	FALSE	target_excerpt			target_excerpt	ai		
+BLV021	990080466690109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990081339910109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597620109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597650109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597660109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597670109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597680109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597690109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990082597700109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990085833910109251	TRUE	adaptation	adaptation		adaptation	human	Haruka TSUTSUI	2026-10-03
+BLV021	990088275510109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990090351070109251	TRUE	target_with_other_works	target_with_other_works	Translated from German (041 $h ger); relation to Raspe's English text uncertain. Kept target_with_other_works.	target_with_other_works	human	Haruka TSUTSUI	2026-10-03
+BLV021	990094404540109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990094404550109251	FALSE	related_derivative			related_derivative	ai		
+BLV021	990094407170109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990100950080109251	TRUE	adaptation	adaptation		adaptation	human	Haruka TSUTSUI	2026-10-03
+BLV021	990101346200109251	TRUE	adaptation	adaptation		adaptation	human	Haruka TSUTSUI	2026-10-03
+BLV021	990105562620109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990106930080109251	TRUE	target_abridged_or_retold	target_abridged_or_retold		target_abridged_or_retold	human	Haruka TSUTSUI	2026-10-03
+BLV021	990106934700109251	TRUE	target_abridged_or_retold	target_abridged_or_retold		target_abridged_or_retold	human	Haruka TSUTSUI	2026-10-03
+BLV021	990107015580109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990119622110109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990119801560109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990129534060109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990133405540109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990133646070109251	FALSE	adaptation			adaptation	ai		
+BLV021	990143541990109251	FALSE	unrelated			unrelated	ai		
+BLV021	990143542010109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990148348130109251	FALSE	adaptation			adaptation	ai		
+BLV021	990160269870109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990163185740109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990169599840109251	TRUE	ambiguous	ambiguous		ambiguous	human	Haruka TSUTSUI	2026-10-03
+BLV021	990173621900109251	FALSE	unrelated			unrelated	ai		
+BLV021	990173625160109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990174785740109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990176800850109251	FALSE	unrelated			unrelated	ai		
+BLV021	990176823870109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990177123300109251	FALSE	unrelated			unrelated	ai		
+BLV021	990184178380109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990186314560109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990187198000109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990188783230109251	FALSE	other_language_version			other_language_version	ai		
+BLV021	990207060290109251	FALSE	target_abridged_or_retold			target_abridged_or_retold	ai		
+BLV021	990207117710109251	TRUE	target_alone	target_alone	Chapbook; abridgement not stated in the record. Kept target_alone per prompt rule 1; may be abridged.	target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	990208725530109251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	99216861500609251	FALSE	ambiguous			ambiguous	ai		
+BLV021	99216900400009251	FALSE	unrelated			unrelated	ai		
+BLV021	99216900401609251	FALSE	unrelated			unrelated	ai		
+BLV021	99216904581009251	FALSE	unrelated			unrelated	ai		
+BLV021	99216941854709251	FALSE	unrelated			unrelated	ai		
+BLV021	99216947324909251	FALSE	unrelated			unrelated	ai		
+BLV021	99216952866809251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
+BLV021	99217129306809251	TRUE	target_alone	target_alone		target_alone	human	Haruka TSUTSUI	2026-10-03
