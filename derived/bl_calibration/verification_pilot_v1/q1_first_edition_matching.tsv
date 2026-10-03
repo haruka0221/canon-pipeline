@@ -1,0 +1,14 @@
+q2_row_id	work_label	marc_001	r1	r2	r3	has_100	surname_match	f245_a	cf008_date1	f100_entries
+Q2R01	Dorian Gray	990039236380109251	TRUE	TRUE	TRUE	TRUE	TRUE	The picture of Dorian Gray /	1891	$a Wilde, Oscar, $d 1854-1900, $e author.
+Q2R02	Tess	990015941950109251	TRUE	TRUE	TRUE	TRUE	TRUE	Tess of the D'Urbervilles :	1891	$a Hardy, Thomas, $d 1840-1928, $e author.
+Q2R02	Tess	99216938395909251	TRUE	TRUE	TRUE	TRUE	TRUE	Tess Of the D'urbervilles :	1891	$a Hardy, Thomas
+Q2R03	Mrs Dalloway	990039742500109251	TRUE	TRUE	TRUE	TRUE	TRUE	Mrs. Dalloway.	1925	$a Woolf, Virginia, $d 1882-1941, $e author.
+Q2R04	Kim	990019729670109251	FALSE	FALSE	TRUE	TRUE	TRUE	[Kim. [With plates.]]	1901	$a Kipling, Rudyard, $d 1865-1936.
+Q2R05	She	990015617460109251	FALSE	TRUE	TRUE	TRUE	TRUE	She: a history of adventure.	1887	$a Haggard, H. Rider $q (Henry Rider), $d 1856-1925.
+Q2R05	She	99216888402709251	FALSE	TRUE	TRUE	TRUE	TRUE	She: a History Of Adventure :	1887	$a Haggard,H. Rider $q (Henry Rider)
+Q2R05	She	99216972445509251	TRUE	TRUE	TRUE	TRUE	TRUE	She :	1887	$a Haggard, H. Rider $q (Henry Rider), $d 1856-1925, $e author.
+Q2R06	Burmese Days	990027226710109251	FALSE	TRUE	TRUE	TRUE	TRUE	Burmese Days. A novel.	1935	$a Orwell, George, $d 1903-1950.
+Q2R07	House of Mirth	990039009050109251	TRUE	TRUE	TRUE	TRUE	TRUE	The House of Mirth.	1905	$a Wharton, Edith, $d 1862-1937.
+Q2R09	Four Just Men	990038393490109251	FALSE	TRUE	TRUE	TRUE	TRUE	The Four Just Men. [A novel.]	1905	$a Wallace, Edgar, $d 1875-1932.
+Q2R11	Howards End	990012721870109251	TRUE	TRUE	TRUE	TRUE	TRUE	Howards End.	1910	$a Forster, E. M. $q (Edward Morgan), $d 1879-1970.
+Q2R12	Orange Fairy Book	990020685220109251	FALSE	TRUE	TRUE	TRUE	TRUE	The Orange Fairy Book. Edited by Andrew Lang ... With eight coloured plates and numerous illustrations by H. J. Ford.	1906	$a Lang, Andrew, $d 1844-1912.
