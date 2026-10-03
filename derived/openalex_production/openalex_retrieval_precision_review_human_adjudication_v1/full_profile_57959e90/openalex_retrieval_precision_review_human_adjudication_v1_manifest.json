@@ -1,0 +1,259 @@
+{
+  "artifact_status": "UNADJUDICATED_HUMAN_REVIEW_PACKAGE",
+  "authoritative": false,
+  "builder": {
+    "path": "/tmp/build_openalex_human_adjudication_review_v1.py",
+    "pyarrow_version": "25.0.1",
+    "python_version": "3.12.3",
+    "sha256": "b7c86aee7400fa6b82e3bc43bfa7161232a0af0a028bd32cabb592de9d0297ce"
+  },
+  "columns": [
+    "review_priority",
+    "review_order",
+    "review_candidate_id",
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_semantic_group_id",
+    "review_protocol_version",
+    "r3_evidence_rows",
+    "r3_query_ids",
+    "r3_execution_ids",
+    "r3_alias_ids",
+    "r3_query_titles",
+    "r3_query_authors",
+    "title_match_norms",
+    "author_a1_norms",
+    "author_a2_reverse_norms",
+    "any_title_match_in_title",
+    "any_title_match_in_abstract",
+    "any_author_a1_hit",
+    "any_author_a2_reverse_hit",
+    "r2_baseline_titles",
+    "r2_baseline_authors",
+    "openalex_id_url",
+    "snapshot_source_file",
+    "display_name",
+    "abstract",
+    "publication_year",
+    "publication_date",
+    "type",
+    "language",
+    "doi",
+    "is_retracted",
+    "is_paratext",
+    "has_fulltext",
+    "primary_topic_id",
+    "primary_topic_name",
+    "title_token_count",
+    "title_token_bucket",
+    "hit_location",
+    "abstract_available",
+    "provenance_multiplicity",
+    "semantic_group_candidate_count",
+    "semantic_group_volume_bucket",
+    "llm_target_attribution_judgment",
+    "llm_adjudication_confidence",
+    "llm_attribution_reason_code",
+    "llm_reviewer_note",
+    "llm_human_attention_required",
+    "llm_evidence_used_oa_title",
+    "llm_evidence_used_oa_abstract",
+    "llm_evidence_used_project_provenance",
+    "llm_short_evidence_summary",
+    "llm_taxonomy_issue",
+    "llm_taxonomy_issue_note",
+    "llm_human_attention_reason",
+    "llm_source_chunk_id",
+    "llm_model_identifier",
+    "llm_reasoning_effort",
+    "llm_codex_cli_version",
+    "llm_prompt_template_version",
+    "llm_response_generated_at_utc",
+    "human_target_attribution_judgment",
+    "human_adjudication_confidence",
+    "human_attribution_reason_code",
+    "human_reviewer_note",
+    "human_reviewer_id",
+    "human_adjudicated_at_utc",
+    "human_evidence_used_oa_title",
+    "human_evidence_used_oa_abstract",
+    "human_evidence_used_project_provenance",
+    "human_evidence_used_external_check",
+    "human_external_check_reference",
+    "human_external_check_note"
+  ],
+  "counts": {
+    "columns": 74,
+    "human_fields_populated": 0,
+    "increment_type": {
+      "A2_AUTHOR_REVERSAL": 252,
+      "ALIAS_EXPANSION": 409
+    },
+    "llm_reference_judgment": {
+      "INVALID_TARGET_REFERENCE": 33,
+      "UNCERTAIN": 16,
+      "VALID_TARGET_REFERENCE": 612
+    },
+    "review_priority": {
+      "P1": 49,
+      "P2": 119,
+      "P3": 493
+    },
+    "rows": 661
+  },
+  "frozen_openalex_baseline_commit": "56081fa270fcf405201f13379547f5d918cf31bc",
+  "frozen_sources": {
+    "judgment_schema": {
+      "path": "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json",
+      "sha256": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a"
+    },
+    "llm_evidence_release": {
+      "artifact_status": "NON_AUTHORITATIVE_LLM_FIRST_PASS",
+      "files": {
+        "openalex_retrieval_precision_review_llm_evidence_v1.parquet": {
+          "sha256": "0de5c15dd48a61f4889a66713078389117d9b4ce90e24eb8fe541925d6fbe148"
+        },
+        "openalex_retrieval_precision_review_llm_evidence_v1.tsv": {
+          "sha256": "9214235b3e5a04edca1e6d367b3f5e491f2900f23a7475942d889d9c5c2b0eac"
+        },
+        "openalex_retrieval_precision_review_llm_evidence_v1_audit_v1.json": {
+          "sha256": "0b6c9a611033b94334b71d6eee6c7e4e9c5da5f5bab5116fe82c018642293c3c"
+        },
+        "openalex_retrieval_precision_review_llm_evidence_v1_manifest.json": {
+          "sha256": "d0cccfa68e5e51079e7905a03cfd68cb80ecdc1cc0ebf88d64c20eacc213eed6"
+        }
+      },
+      "path": "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90"
+    },
+    "review_protocol": {
+      "path": "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md",
+      "sha256": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5",
+      "version": "v1"
+    },
+    "review_view": {
+      "path": "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.tsv",
+      "sha256": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c"
+    }
+  },
+  "generated_at_utc": "2026-10-03T13:25:37Z",
+  "human_fields": {
+    "controlled_vocabularies": {
+      "adjudication_confidence": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ],
+      "attribution_reason_code": [
+        "DIRECT_TARGET_REFERENCE",
+        "VALID_TITLE_VARIANT",
+        "VALID_CONTEXTUAL_REFERENCE",
+        "TITLE_COLLISION_DIFFERENT_WORK",
+        "GENERIC_OR_LEXICAL_TITLE_USE",
+        "AUTHOR_COLLISION_DIFFERENT_PERSON",
+        "TITLE_AUTHOR_UNLINKED_COOCCURRENCE",
+        "WRONG_WORK_SAME_AUTHOR",
+        "ALIAS_NOT_TARGET_EQUIVALENT",
+        "METADATA_TEXT_ARTIFACT",
+        "OTHER",
+        "INSUFFICIENT_CONTEXT",
+        "AMBIGUOUS_TARGET_REFERENCE"
+      ],
+      "boolean_tsv_lexemes": [
+        "True",
+        "False"
+      ],
+      "target_attribution_judgment": [
+        "VALID_TARGET_REFERENCE",
+        "INVALID_TARGET_REFERENCE",
+        "UNCERTAIN"
+      ]
+    },
+    "fields": [
+      "human_target_attribution_judgment",
+      "human_adjudication_confidence",
+      "human_attribution_reason_code",
+      "human_reviewer_note",
+      "human_reviewer_id",
+      "human_adjudicated_at_utc",
+      "human_evidence_used_oa_title",
+      "human_evidence_used_oa_abstract",
+      "human_evidence_used_project_provenance",
+      "human_evidence_used_external_check",
+      "human_external_check_reference",
+      "human_external_check_note"
+    ],
+    "initial_state": "ALL_EMPTY",
+    "review_protocol_version": "v1"
+  },
+  "llm_reference_fields": {
+    "artifact_status": "NON_AUTHORITATIVE_LLM_FIRST_PASS",
+    "authoritative": false,
+    "field_mapping_from_source": {
+      "llm_adjudication_confidence": "llm_adjudication_confidence",
+      "llm_attribution_reason_code": "llm_attribution_reason_code",
+      "llm_codex_cli_version": "codex_cli_version",
+      "llm_evidence_used_oa_abstract": "llm_evidence_used_oa_abstract",
+      "llm_evidence_used_oa_title": "llm_evidence_used_oa_title",
+      "llm_evidence_used_project_provenance": "llm_evidence_used_project_provenance",
+      "llm_human_attention_reason": "llm_human_attention_reason",
+      "llm_human_attention_required": "llm_needs_human_attention",
+      "llm_model_identifier": "model_identifier",
+      "llm_prompt_template_version": "prompt_template_version",
+      "llm_reasoning_effort": "reasoning_effort",
+      "llm_response_generated_at_utc": "response_generated_at_utc",
+      "llm_reviewer_note": "llm_rationale",
+      "llm_short_evidence_summary": "llm_short_evidence_summary",
+      "llm_source_chunk_id": "chunk_id",
+      "llm_target_attribution_judgment": "llm_target_attribution_judgment",
+      "llm_taxonomy_issue": "llm_taxonomy_issue",
+      "llm_taxonomy_issue_note": "llm_taxonomy_issue_note"
+    },
+    "statement": "Reference suggestions only; final human judgments must not be copied automatically from LLM output."
+  },
+  "ordering": {
+    "priority_definitions": {
+      "P1": "LLM UNCERTAIN and INVALID_TARGET_REFERENCE; within each semantic group UNCERTAIN precedes INVALID_TARGET_REFERENCE",
+      "P2": "LLM VALID_TARGET_REFERENCE with VALID_CONTEXTUAL_REFERENCE or VALID_TITLE_VARIANT",
+      "P3": "remaining LLM VALID_TARGET_REFERENCE with DIRECT_TARGET_REFERENCE"
+    },
+    "review_priority_order": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "semantic_group_statement": "review_semantic_group_id is an analysis aid, not a project work or judgment unit; judgments must not be propagated within a group.",
+    "within_priority": [
+      "review_semantic_group_id",
+      "LLM subtype rank",
+      "project_work_id",
+      "openalex_work_id",
+      "review_candidate_id"
+    ]
+  },
+  "outputs": {
+    "README.md": {
+      "bytes": 3104,
+      "sha256": "6bef956ab54f0a684c3e7c73c75e9395cae8689aeace1d97c4decb6806b7de89"
+    },
+    "openalex_retrieval_precision_review_human_adjudication_v1.parquet": {
+      "bytes": 647293,
+      "columns": 74,
+      "rows": 661,
+      "sha256": "ae2086b796d0e0720244a9f03e81e701ec38db525762cedf78cf6b0318c5e583"
+    },
+    "openalex_retrieval_precision_review_human_adjudication_v1.tsv": {
+      "bytes": 2026420,
+      "columns": 74,
+      "rows": 661,
+      "sha256": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba"
+    }
+  },
+  "profile": "full_profile_57959e90",
+  "purpose": "Manual interface for eventual authoritative human target-attribution adjudication; contains no human judgments and no precision estimate.",
+  "release": "openalex_retrieval_precision_review_human_adjudication_v1",
+  "release_build_repository_commit": "14ee7b77bd7cb29c19f84033f846290b37264d94",
+  "release_version": "v1",
+  "source_llm_release_build_repository_commit": "125b3516635ba5a1e1b8b8209a20c4076f175ff5",
+  "status": "PASSED"
+}

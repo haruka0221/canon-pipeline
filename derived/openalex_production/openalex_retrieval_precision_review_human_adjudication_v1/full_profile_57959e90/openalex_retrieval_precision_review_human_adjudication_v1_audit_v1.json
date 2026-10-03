@@ -1,0 +1,92 @@
+{
+  "artifact_status": "UNADJUDICATED_HUMAN_REVIEW_PACKAGE",
+  "audit": "openalex-retrieval-precision-review-human-adjudication-v1-audit",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-03T13:25:37Z",
+  "authoritative": false,
+  "candidate_set": {
+    "actual": 661,
+    "duplicates": [],
+    "expected": 661,
+    "extra": [],
+    "missing": []
+  },
+  "checks": {
+    "all_human_fields_empty": true,
+    "candidate_count_661": true,
+    "candidate_ids_unique": true,
+    "candidate_set_exactly_equals_frozen_review_view": true,
+    "deterministic_order_valid": true,
+    "immutable_identity_exactly_equals_frozen_review_view": true,
+    "llm_reference_fields_exactly_equal_frozen_release": true,
+    "llm_source_explicitly_non_authoritative": true,
+    "manifest_parquet_hash_valid": true,
+    "manifest_readme_hash_valid": true,
+    "manifest_tsv_hash_valid": true,
+    "no_bl_path_modified": true,
+    "no_candidate_adjudicated": true,
+    "no_missing_extra_duplicate_candidates": true,
+    "no_precision_calculated": true,
+    "parquet_roundtrip_equal": true,
+    "priority_counts_49_119_493": true,
+    "readme_required_warnings_present": true,
+    "repository_build_commit_exact": true,
+    "repository_remote_commit_exact": true,
+    "review_order_sequential": true,
+    "semantic_groups_contiguous_within_priority": true,
+    "source_artifacts_unmodified": true,
+    "tsv_columns_exact": true,
+    "tsv_parquet_cell_parity": true,
+    "tsv_roundtrip_equal": true
+  },
+  "counts": {
+    "columns": 74,
+    "human_fields_populated": 0,
+    "increment_type": {
+      "A2_AUTHOR_REVERSAL": 252,
+      "ALIAS_EXPANSION": 409
+    },
+    "llm_reference_judgment": {
+      "INVALID_TARGET_REFERENCE": 33,
+      "UNCERTAIN": 16,
+      "VALID_TARGET_REFERENCE": 612
+    },
+    "review_priority": {
+      "P1": 49,
+      "P2": 119,
+      "P3": 493
+    },
+    "rows": 661
+  },
+  "output_hashes": {
+    "README.md": "6bef956ab54f0a684c3e7c73c75e9395cae8689aeace1d97c4decb6806b7de89",
+    "openalex_retrieval_precision_review_human_adjudication_v1.parquet": "ae2086b796d0e0720244a9f03e81e701ec38db525762cedf78cf6b0318c5e583",
+    "openalex_retrieval_precision_review_human_adjudication_v1.tsv": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+    "openalex_retrieval_precision_review_human_adjudication_v1_manifest.json": "e1da13f22e957c4d999544342757b8fb7c6832d2be151d022d950c1764e2f5c6"
+  },
+  "source_hashes_after": {
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1.parquet": "0de5c15dd48a61f4889a66713078389117d9b4ce90e24eb8fe541925d6fbe148",
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1.tsv": "9214235b3e5a04edca1e6d367b3f5e491f2900f23a7475942d889d9c5c2b0eac",
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1_audit_v1.json": "0b6c9a611033b94334b71d6eee6c7e4e9c5da5f5bab5116fe82c018642293c3c",
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1_manifest.json": "d0cccfa68e5e51079e7905a03cfd68cb80ecdc1cc0ebf88d64c20eacc213eed6",
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.parquet": "2b994d1e9952703a0f50cc6a846f5267b998595338e3a8d1c60c76c7de8e88b8",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.tsv": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_audit_v1.json": "6a07f4823b5b6f5d5f1b42d673b6e997d451fd0a74b397863fb770cb8700ebf7",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_manifest.json": "acb2b1da3bcf029fcec99e7c130f791e6f66dc2de75d4a4393ba3f3ea7cfc251",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5"
+  },
+  "source_hashes_before": {
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1.parquet": "0de5c15dd48a61f4889a66713078389117d9b4ce90e24eb8fe541925d6fbe148",
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1.tsv": "9214235b3e5a04edca1e6d367b3f5e491f2900f23a7475942d889d9c5c2b0eac",
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1_audit_v1.json": "0b6c9a611033b94334b71d6eee6c7e4e9c5da5f5bab5116fe82c018642293c3c",
+    "derived/openalex_production/openalex_retrieval_precision_review_llm_evidence_v1/full_profile_57959e90/openalex_retrieval_precision_review_llm_evidence_v1_manifest.json": "d0cccfa68e5e51079e7905a03cfd68cb80ecdc1cc0ebf88d64c20eacc213eed6",
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.parquet": "2b994d1e9952703a0f50cc6a846f5267b998595338e3a8d1c60c76c7de8e88b8",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1.tsv": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_audit_v1.json": "6a07f4823b5b6f5d5f1b42d673b6e997d451fd0a74b397863fb770cb8700ebf7",
+    "derived/openalex_production/precision_review_view_v1/full_profile_57959e90/openalex_precision_review_view_v1_manifest.json": "acb2b1da3bcf029fcec99e7c130f791e6f66dc2de75d4a4393ba3f3ea7cfc251",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5"
+  },
+  "statement": "Empty human adjudication interface only; no human judgment and no precision estimate are present. LLM fields remain non-authoritative reference suggestions."
+}
