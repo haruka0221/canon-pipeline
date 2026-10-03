@@ -1,0 +1,85 @@
+{
+  "artifact_status": "AUTHORITATIVE_HUMAN_ADJUDICATION_BATCH",
+  "audit": "openalex-human-adjudication-P1-batch01-v1-audit",
+  "audit_status": "PASSED",
+  "audited_at_utc": "2026-10-03T14:09:14Z",
+  "authoritative": true,
+  "candidate_ids_in_review_order": [
+    "OAPRV3_2d4ac2e8a2500a6f",
+    "OAPRV3_820bd8bac1703983",
+    "OAPRV3_46e3cf65efe75ad1",
+    "OAPRV3_e69032734db1e197",
+    "OAPRV3_2e3ee80fd3a5f061",
+    "OAPRV3_1ac319211a838118",
+    "OAPRV3_b6ee0908d307e905",
+    "OAPRV3_b778e1dd7835208b",
+    "OAPRV3_eedb5f8908efb87e",
+    "OAPRV3_a9701c20cc67e603"
+  ],
+  "checks": {
+    "all_candidates_are_P1": true,
+    "candidate_ids_exact_in_review_order": true,
+    "candidate_ids_unique": true,
+    "controlled_vocabularies_valid": true,
+    "exactly_10_rows": true,
+    "frozen_source_package_unchanged": true,
+    "human_labels_reasons_notes_exactly_equal_user_payload": true,
+    "immutable_identity_equal_frozen_package": true,
+    "manifest_parquet_hash_valid": true,
+    "manifest_tsv_hash_valid": true,
+    "no_bl_path_changed": true,
+    "no_precision_calculated": true,
+    "parquet_roundtrip_equal": true,
+    "review_order_exactly_1_through_10": true,
+    "review_protocol_version_v1": true,
+    "reviewer_id_populated_exact": true,
+    "single_batch_utc_timestamp": true,
+    "tsv_parquet_parity": true,
+    "tsv_roundtrip_equal": true,
+    "valid_utc_timestamp": true
+  },
+  "counts": {
+    "columns": 14,
+    "human_adjudication_confidence": {
+      "HIGH": 10
+    },
+    "human_attribution_reason_code": {
+      "AMBIGUOUS_TARGET_REFERENCE": 7,
+      "GENERIC_OR_LEXICAL_TITLE_USE": 1,
+      "TITLE_COLLISION_DIFFERENT_WORK": 2
+    },
+    "human_target_attribution_judgment": {
+      "INVALID_TARGET_REFERENCE": 3,
+      "UNCERTAIN": 7
+    },
+    "review_priority": {
+      "P1": 10
+    },
+    "rows": 10
+  },
+  "human_decision_payload_sha256": "d3ef2a5fe1e8dc3560ff5172be8e170b89aa58d5b8ca42347747b3b503ef5bf6",
+  "output_hashes": {
+    "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1.parquet": "ab5e1ddbc4d3040b007c4d16f695e3cdbc0e6ad271df29aacb8cc5f55489de38",
+    "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1.tsv": "febbc2ce7505d2e46b916e4eff9383eae6ae98b6cc7aac5076220af43e48f7e2",
+    "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1_manifest.json": "fac0760aa965c84c5d7cc49ce91f4062db62648ed29e60c88f829bfaa08de158"
+  },
+  "source_hashes_after": {
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/README.md": "6bef956ab54f0a684c3e7c73c75e9395cae8689aeace1d97c4decb6806b7de89",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.parquet": "ae2086b796d0e0720244a9f03e81e701ec38db525762cedf78cf6b0318c5e583",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.tsv": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1_audit_v1.json": "502654ec26a73bc1c223b9bd1df7981bb83f677e9a7cfda3a59aa8af3437e80e",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1_manifest.json": "e1da13f22e957c4d999544342757b8fb7c6832d2be151d022d950c1764e2f5c6",
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5"
+  },
+  "source_hashes_before": {
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/README.md": "6bef956ab54f0a684c3e7c73c75e9395cae8689aeace1d97c4decb6806b7de89",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.parquet": "ae2086b796d0e0720244a9f03e81e701ec38db525762cedf78cf6b0318c5e583",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.tsv": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1_audit_v1.json": "502654ec26a73bc1c223b9bd1df7981bb83f677e9a7cfda3a59aa8af3437e80e",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1_manifest.json": "e1da13f22e957c4d999544342757b8fb7c6832d2be151d022d950c1764e2f5c6",
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5"
+  },
+  "statement": "Authoritative human-provided adjudications for exactly P1 batch 01; no precision estimate is calculated."
+}
