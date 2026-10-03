@@ -1,0 +1,160 @@
+{
+  "artifact_status": "AUTHORITATIVE_HUMAN_ADJUDICATION_BATCH",
+  "authoritative": true,
+  "batch": "P1_batch02",
+  "builder": {
+    "path": "/tmp/build_openalex_human_adjudication_p1_batch02_v1.py",
+    "pyarrow_version": "25.0.1",
+    "python_version": "3.12.3",
+    "sha256": "b818366d65e8ebd67169296a028e9eb4f453af59e176017e4ac265218bbb056c"
+  },
+  "candidate_ids_in_review_order": [
+    "OAPRV3_092a466e566d3751",
+    "OAPRV3_2a370f7404a91de1",
+    "OAPRV3_886c8b065f7ebaac",
+    "OAPRV3_f01f22f9295a85d6",
+    "OAPRV3_c1c54fea14121061",
+    "OAPRV3_095b5d5b536b5740",
+    "OAPRV3_5e0dec48cbf1d402",
+    "OAPRV3_a94a32046751f592",
+    "OAPRV3_26ce8b0c8a7eee2c",
+    "OAPRV3_984fc2cfd391ce72"
+  ],
+  "columns": [
+    "review_order",
+    "review_priority",
+    "review_candidate_id",
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_semantic_group_id",
+    "review_protocol_version",
+    "human_target_attribution_judgment",
+    "human_adjudication_confidence",
+    "human_attribution_reason_code",
+    "human_reviewer_note",
+    "human_reviewer_id",
+    "human_adjudicated_at_utc"
+  ],
+  "controlled_vocabularies": {
+    "adjudication_confidence": [
+      "HIGH",
+      "MEDIUM",
+      "LOW"
+    ],
+    "attribution_reason_code": [
+      "DIRECT_TARGET_REFERENCE",
+      "VALID_TITLE_VARIANT",
+      "VALID_CONTEXTUAL_REFERENCE",
+      "TITLE_COLLISION_DIFFERENT_WORK",
+      "GENERIC_OR_LEXICAL_TITLE_USE",
+      "AUTHOR_COLLISION_DIFFERENT_PERSON",
+      "TITLE_AUTHOR_UNLINKED_COOCCURRENCE",
+      "WRONG_WORK_SAME_AUTHOR",
+      "ALIAS_NOT_TARGET_EQUIVALENT",
+      "METADATA_TEXT_ARTIFACT",
+      "OTHER",
+      "INSUFFICIENT_CONTEXT",
+      "AMBIGUOUS_TARGET_REFERENCE"
+    ],
+    "target_attribution_judgment": [
+      "VALID_TARGET_REFERENCE",
+      "INVALID_TARGET_REFERENCE",
+      "UNCERTAIN"
+    ]
+  },
+  "counts": {
+    "columns": 14,
+    "human_adjudication_confidence": {
+      "HIGH": 10
+    },
+    "human_attribution_reason_code": {
+      "AMBIGUOUS_TARGET_REFERENCE": 5,
+      "GENERIC_OR_LEXICAL_TITLE_USE": 1,
+      "WRONG_WORK_SAME_AUTHOR": 4
+    },
+    "human_target_attribution_judgment": {
+      "INVALID_TARGET_REFERENCE": 5,
+      "UNCERTAIN": 5
+    },
+    "review_priority": {
+      "P1": 10
+    },
+    "rows": 10
+  },
+  "frozen_source_package_commit": "577790057b88e4c18a93e206d2b3fb967eac2c12",
+  "frozen_sources": {
+    "P1_batch01": {
+      "files": {
+        "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1.parquet": {
+          "sha256": "ab5e1ddbc4d3040b007c4d16f695e3cdbc0e6ad271df29aacb8cc5f55489de38"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1.tsv": {
+          "sha256": "febbc2ce7505d2e46b916e4eff9383eae6ae98b6cc7aac5076220af43e48f7e2"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1_audit_v1.json": {
+          "sha256": "488e6b425bd037f00b8b807b9dabf281d153696f83932c23f7ac745090dac775"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1_manifest.json": {
+          "sha256": "fac0760aa965c84c5d7cc49ce91f4062db62648ed29e60c88f829bfaa08de158"
+        }
+      },
+      "path": "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch01"
+    },
+    "human_review_package": {
+      "commit": "577790057b88e4c18a93e206d2b3fb967eac2c12",
+      "files": {
+        "README.md": {
+          "sha256": "6bef956ab54f0a684c3e7c73c75e9395cae8689aeace1d97c4decb6806b7de89"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_v1.parquet": {
+          "sha256": "ae2086b796d0e0720244a9f03e81e701ec38db525762cedf78cf6b0318c5e583"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_v1.tsv": {
+          "sha256": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_v1_audit_v1.json": {
+          "sha256": "502654ec26a73bc1c223b9bd1df7981bb83f677e9a7cfda3a59aa8af3437e80e"
+        },
+        "openalex_retrieval_precision_review_human_adjudication_v1_manifest.json": {
+          "sha256": "e1da13f22e957c4d999544342757b8fb7c6832d2be151d022d950c1764e2f5c6"
+        }
+      },
+      "path": "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90"
+    },
+    "judgment_schema": {
+      "path": "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json",
+      "sha256": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a"
+    },
+    "review_protocol": {
+      "path": "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md",
+      "sha256": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5",
+      "version": "v1"
+    }
+  },
+  "generated_at_utc": "2026-10-03T14:26:22Z",
+  "human_adjudicated_at_utc": "2026-10-03T14:26:22Z",
+  "human_decision_payload_sha256": "e7a4c4458b0df608cb28f19a2b5c22080a862f20f6272461edf27a7cb5a2664f",
+  "human_reviewer_id": "haruka_tsutsui",
+  "outputs": {
+    "openalex_retrieval_precision_review_human_adjudication_P1_batch02_v1.parquet": {
+      "bytes": 7411,
+      "columns": 14,
+      "rows": 10,
+      "sha256": "44ad4862686e759ab123da566c70b5eecce54c9dbec6aede98499a71e4f0ee05"
+    },
+    "openalex_retrieval_precision_review_human_adjudication_P1_batch02_v1.tsv": {
+      "bytes": 5448,
+      "columns": 14,
+      "rows": 10,
+      "sha256": "b5b57880db6b621af54573c2a372f0d00a81c235780aae9d7e5c3523fa65a766"
+    }
+  },
+  "profile": "full_profile_57959e90",
+  "release": "openalex_retrieval_precision_review_human_adjudication_batches_v1",
+  "release_build_repository_commit": "5ecd026e64347e9b613da76bcdeee88c72cfbd09",
+  "release_version": "v1",
+  "review_protocol_version": "v1",
+  "scope": "Exactly 10 human-provided P1 batch-02 target-attribution adjudications; not a complete 661-candidate final release and not a precision estimate.",
+  "status": "PASSED"
+}
