@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Eventual final release only; no populated authoritative table exists in this implementation. LLM suggestions require a separate future artifact.",
+  "items": {
+    "additionalProperties": false,
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "target_attribution_judgment": {
+              "const": "VALID_TARGET_REFERENCE"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "attribution_reason_code": {
+              "enum": [
+                "DIRECT_TARGET_REFERENCE",
+                "VALID_TITLE_VARIANT",
+                "VALID_CONTEXTUAL_REFERENCE"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "target_attribution_judgment": {
+              "const": "INVALID_TARGET_REFERENCE"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "attribution_reason_code": {
+              "enum": [
+                "TITLE_COLLISION_DIFFERENT_WORK",
+                "GENERIC_OR_LEXICAL_TITLE_USE",
+                "AUTHOR_COLLISION_DIFFERENT_PERSON",
+                "TITLE_AUTHOR_UNLINKED_COOCCURRENCE",
+                "WRONG_WORK_SAME_AUTHOR",
+                "ALIAS_NOT_TARGET_EQUIVALENT",
+                "METADATA_TEXT_ARTIFACT",
+                "OTHER"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "target_attribution_judgment": {
+              "const": "UNCERTAIN"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "attribution_reason_code": {
+              "enum": [
+                "INSUFFICIENT_CONTEXT",
+                "AMBIGUOUS_TARGET_REFERENCE"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "else": {
+          "properties": {
+            "external_check_note": {
+              "const": ""
+            },
+            "external_check_reference": {
+              "const": ""
+            }
+          }
+        },
+        "if": {
+          "properties": {
+            "evidence_used_external_check": {
+              "const": true
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "external_check_note": {
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "external_check_reference": {
+              "pattern": "\\S",
+              "type": "string"
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "attribution_reason_code": {
+              "const": "OTHER"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "reviewer_note": {
+              "pattern": "\\S",
+              "type": "string"
+            }
+          }
+        }
+      }
+    ],
+    "properties": {
+      "adjudicated_at_utc": {
+        "description": "UTC ISO-8601 transport YYYY-MM-DDTHH:MM:SS[.fraction]Z. Pattern checks lexical shape and component ranges only; Gregorian month-day/leap-year validity is enforced by scripts/validate_openalex_precision_review_judgments_v1.py. Schema-only validation is insufficient for final release acceptance.",
+        "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?Z(?![\\s\\S])",
+        "type": "string"
+      },
+      "adjudication_confidence": {
+        "enum": [
+          "HIGH",
+          "MEDIUM",
+          "LOW"
+        ]
+      },
+      "attribution_reason_code": {
+        "enum": [
+          "DIRECT_TARGET_REFERENCE",
+          "VALID_TITLE_VARIANT",
+          "VALID_CONTEXTUAL_REFERENCE",
+          "TITLE_COLLISION_DIFFERENT_WORK",
+          "GENERIC_OR_LEXICAL_TITLE_USE",
+          "AUTHOR_COLLISION_DIFFERENT_PERSON",
+          "TITLE_AUTHOR_UNLINKED_COOCCURRENCE",
+          "WRONG_WORK_SAME_AUTHOR",
+          "ALIAS_NOT_TARGET_EQUIVALENT",
+          "METADATA_TEXT_ARTIFACT",
+          "OTHER",
+          "INSUFFICIENT_CONTEXT",
+          "AMBIGUOUS_TARGET_REFERENCE"
+        ]
+      },
+      "evidence_used_external_check": {
+        "type": "boolean"
+      },
+      "evidence_used_oa_abstract": {
+        "type": "boolean"
+      },
+      "evidence_used_oa_title": {
+        "type": "boolean"
+      },
+      "evidence_used_project_provenance": {
+        "type": "boolean"
+      },
+      "external_check_note": {
+        "type": "string"
+      },
+      "external_check_reference": {
+        "type": "string"
+      },
+      "increment_type": {
+        "enum": [
+          "ALIAS_EXPANSION",
+          "A2_AUTHOR_REVERSAL"
+        ]
+      },
+      "openalex_work_id": {
+        "pattern": "^W[0-9]+$",
+        "type": "string"
+      },
+      "project_work_id": {
+        "pattern": "^W[0-9]{9}$",
+        "type": "string"
+      },
+      "review_candidate_id": {
+        "pattern": "^OAPRV3_[0-9a-f]{16}$",
+        "type": "string"
+      },
+      "review_protocol_version": {
+        "const": "v1"
+      },
+      "review_semantic_group_id": {
+        "pattern": "^OAPRSG1_[0-9a-f]{16}$",
+        "type": "string"
+      },
+      "reviewer_id": {
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "reviewer_note": {
+        "type": "string"
+      },
+      "target_attribution_judgment": {
+        "enum": [
+          "VALID_TARGET_REFERENCE",
+          "INVALID_TARGET_REFERENCE",
+          "UNCERTAIN"
+        ]
+      }
+    },
+    "required": [
+      "review_candidate_id",
+      "project_work_id",
+      "openalex_work_id",
+      "increment_type",
+      "review_semantic_group_id",
+      "target_attribution_judgment",
+      "adjudication_confidence",
+      "attribution_reason_code",
+      "evidence_used_oa_title",
+      "evidence_used_oa_abstract",
+      "evidence_used_project_provenance",
+      "evidence_used_external_check",
+      "external_check_reference",
+      "external_check_note",
+      "reviewer_id",
+      "review_protocol_version",
+      "reviewer_note",
+      "adjudicated_at_utc"
+    ],
+    "type": "object"
+  },
+  "maxItems": 661,
+  "minItems": 661,
+  "title": "OpenAlex authoritative target-attribution judgment table v1",
+  "type": "array",
+  "x-authoritative-release-validator": "scripts/validate_openalex_precision_review_judgments_v1.py",
+  "x-final-release-invariants": {
+    "per_id_mapping": "project_work_id, openalex_work_id, increment_type must equal source; semantic group ID must equal recomputed ID",
+    "review_protocol_version": "v1",
+    "source_candidate_id_set": "exact equality with frozen candidate v3",
+    "source_pair_set": "exact project_work_id/openalex_work_id pair set equality",
+    "source_sha256": "38dda4e170ff8f1f90101f0246edc627401666f24dac5d588336f429194483fa",
+    "unique_review_candidate_ids": 661,
+    "validator": "scripts/validate_openalex_precision_review_judgments_v1.py"
+  },
+  "x-schema-validation-scope": "Structural contract only: properties, required values, controlled vocabularies, cross-field conditionals and timestamp lexical shape/ranges. Final/frozen v1 judgment releases MUST additionally pass the authoritative Python validator; schema-only success MUST NOT be reported as final-release validation.",
+  "x-table-column-order": [
+    "review_candidate_id",
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_semantic_group_id",
+    "target_attribution_judgment",
+    "adjudication_confidence",
+    "attribution_reason_code",
+    "evidence_used_oa_title",
+    "evidence_used_oa_abstract",
+    "evidence_used_project_provenance",
+    "evidence_used_external_check",
+    "external_check_reference",
+    "external_check_note",
+    "reviewer_id",
+    "review_protocol_version",
+    "reviewer_note",
+    "adjudicated_at_utc"
+  ],
+  "x-tsv-boolean-lexemes": [
+    "True",
+    "False"
+  ]
+}

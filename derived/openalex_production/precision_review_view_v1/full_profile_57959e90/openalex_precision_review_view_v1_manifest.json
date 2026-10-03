@@ -1,0 +1,145 @@
+{
+  "builder": {
+    "git_head": "f839adc2f24a67b8dfb9cacc741c0a19ca870825",
+    "git_status_porcelain": [
+      " M WORKFLOW.md",
+      "?? derived/openalex_production/precision_review_development_inputs_v1/",
+      "?? derived/openalex_production/precision_review_protocol_v1/",
+      "?? docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md",
+      "?? scripts/build_openalex_precision_review_view_v1.py",
+      "?? scripts/validate_openalex_precision_review_judgments_v1.py"
+    ],
+    "path": "scripts/build_openalex_precision_review_view_v1.py",
+    "pyarrow_version": "25.0.1",
+    "python_version": "3.12.3",
+    "sha256": "36c337e4c06797218f2e0069fed7f2d81774da0bf584b014d9daa1619b040790"
+  },
+  "columns": [
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_candidate_id",
+    "r3_evidence_rows",
+    "r3_query_ids",
+    "r3_execution_ids",
+    "r3_alias_ids",
+    "r3_query_titles",
+    "r3_query_authors",
+    "title_match_norms",
+    "author_a1_norms",
+    "author_a2_reverse_norms",
+    "any_title_match_in_title",
+    "any_title_match_in_abstract",
+    "any_author_a1_hit",
+    "any_author_a2_reverse_hit",
+    "r2_baseline_titles",
+    "r2_baseline_authors",
+    "openalex_id_url",
+    "snapshot_source_file",
+    "display_name",
+    "abstract",
+    "publication_year",
+    "publication_date",
+    "type",
+    "language",
+    "doi",
+    "is_retracted",
+    "is_paratext",
+    "has_fulltext",
+    "primary_topic_id",
+    "primary_topic_name",
+    "review_semantic_group_id",
+    "title_token_count",
+    "title_token_bucket",
+    "hit_location",
+    "abstract_available",
+    "provenance_multiplicity",
+    "semantic_group_candidate_count",
+    "semantic_group_volume_bucket"
+  ],
+  "counts": {
+    "columns": 41,
+    "increment_type": {
+      "A2_AUTHOR_REVERSAL": 252,
+      "ALIAS_EXPANSION": 409
+    },
+    "original_columns": 33,
+    "rows": 661,
+    "semantic_group_size_distribution": {
+      "1": 26,
+      "12": 1,
+      "13": 1,
+      "194": 1,
+      "2": 8,
+      "21": 1,
+      "23": 1,
+      "3": 7,
+      "31": 1,
+      "4": 4,
+      "41": 1,
+      "43": 1,
+      "46": 1,
+      "5": 3,
+      "50": 1,
+      "54": 1,
+      "6": 4,
+      "7": 1,
+      "8": 1
+    },
+    "semantic_groups": 65
+  },
+  "dependency_refresh": {
+    "changed_dependencies": {
+      "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": {
+        "current_sha256": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+        "previous_sha256": "e5413a2f67ebf2c1e554f6db60369df343738bbbeb6db656ffe847156ee48551"
+      },
+      "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": {
+        "current_sha256": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5",
+        "previous_sha256": "6b544795cdc11b97e6e5531aba88cf566d397b78e95b9db2911bc60e88067a7a"
+      }
+    },
+    "data_outputs_regenerated": false,
+    "existing_data_outputs_independently_revalidated": true,
+    "original_build_provenance_retained": true,
+    "reason": "Clarify structural JSON Schema versus authoritative Python release gate and timestamp lexical ranges; no target-attribution or review-view derivation changes."
+  },
+  "development_input_counts": {
+    "by_increment_type": {
+      "A2_AUTHOR_REVERSAL": 12,
+      "ALIAS_EXPANSION": 12
+    },
+    "distinct_W_by_increment_type": {
+      "A2_AUTHOR_REVERSAL": 9,
+      "ALIAS_EXPANSION": 8
+    },
+    "rows": 24
+  },
+  "inputs": {
+    "derived/openalex_production/precision_review_protocol_v1/openalex_precision_review_judgment_schema_v1.json": "eacfd500b498061c3fbbf5b94fe72c3e33e545ab0955c5ae2314822baa637d1a",
+    "derived/openalex_production/retrieval_precision_review_candidates_v3/full_profile_57959e90/openalex_retrieval_precision_review_candidates_v3.tsv": "38dda4e170ff8f1f90101f0246edc627401666f24dac5d588336f429194483fa",
+    "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md": "c9d3f4b9dd8ce66aa05b5f9bea8c1e40bfca8b4d2171ed4aebd9b5ab672d19a5",
+    "openalex_precision_review_development_inputs_v1.tsv": "0040da4263e8e5fcc26e44bab0471f0cf2575e34ded628d5ee2736fba2888b30"
+  },
+  "interpretation": "Review inputs only; no judgments. Evaluates R3 alias and A2 reversal marginal target-attribution precision only. No R2 absolute precision or R4 precision inference.",
+  "outputs": {
+    "openalex_precision_review_view_v1.parquet": "2b994d1e9952703a0f50cc6a846f5267b998595338e3a8d1c60c76c7de8e88b8",
+    "openalex_precision_review_view_v1.tsv": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c"
+  },
+  "parquet_cell_types": "all UTF-8 strings; no null coercion",
+  "release": "openalex-precision-review-view-v1",
+  "review_protocol_version": "v1",
+  "semantic_group": {
+    "group_is_not_W": true,
+    "id": "OAPRSG1_ + first 16 lowercase hex characters of SHA256(serialized key)",
+    "key_fields": [
+      "increment_type",
+      "project_work_id",
+      "title_match_norms",
+      "author_a1_norms",
+      "author_a2_reverse_norms"
+    ],
+    "serialization": "UTF-8 JSON object; exact source strings; ensure_ascii=False, sort_keys=True, separators=(comma,colon), allow_nan=False"
+  },
+  "status": "implemented_uncommitted_not_adjudicated"
+}

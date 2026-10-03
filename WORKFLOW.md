@@ -6367,4 +6367,38 @@ Current validated classifier:
 - Files under `derived/` contain reproducible derived datasets used for subsequent analysis.
 - Earlier versions should be retained when they document a materially different methodological decision.
 - The file listed here as the current version should be used for downstream analysis unless otherwise noted.
+
+## OpenAlex precision-review protocol v1 implementation — 2026-10-03
+
+The OpenAlex target-attribution precision-review v1 layer is represented by the
+following versioned files/artifacts. This implementation does not populate
+authoritative judgments. See [OpenAlex precision review protocol v1](docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md)
+for work-identity boundaries, reason precedence, confidence and evidence provenance.
+This specifies the new precision-review contract without rewriting the historical
+OpenAlex matching-method vocabulary or any frozen candidate/profile/registry release.
+
+New review-input artifacts are under:
+
+```text
+derived/openalex_production/precision_review_protocol_v1/
+derived/openalex_production/precision_review_view_v1/full_profile_57959e90/
+derived/openalex_production/precision_review_development_inputs_v1/
+```
+
+The review view preserves candidate v3's 661 rows and 33 columns and appends eight
+reproducible aids. Semantic groups use mechanism, W and normalized title/author
+predicates; they are not defined as W. The preserved 24-case development input set
+contains no judgments and is not a statistical sample, gold/holdout data or precision
+estimation data. Earlier provisional LLM judgments remain outside authoritative data.
+
+Builders and validators:
+
+```text
+scripts/build_openalex_precision_review_view_v1.py
+scripts/validate_openalex_precision_review_judgments_v1.py
+```
+
+This release supports preparation for R3 alias-expansion and A2-author-reversal
+marginal target-attribution review only. It does not decide document scope, mention
+strength, final visibility, R2 absolute precision or R4 precision.
   

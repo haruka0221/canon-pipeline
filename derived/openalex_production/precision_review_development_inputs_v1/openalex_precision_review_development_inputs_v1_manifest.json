@@ -1,0 +1,52 @@
+{
+  "basis": "Existing deterministic development set v0, preserved byte-for-byte as versioned input record",
+  "contains_judgments": false,
+  "distinct_W_counts": {
+    "A2_AUTHOR_REVERSAL": 9,
+    "ALIAS_EXPANSION": 8
+  },
+  "increment_type_counts": {
+    "A2_AUTHOR_REVERSAL": 12,
+    "ALIAS_EXPANSION": 12
+  },
+  "not_a_statistical_sample": true,
+  "not_gold_or_holdout": true,
+  "not_used_for_precision_estimation": true,
+  "outputs": {
+    "openalex_precision_review_development_inputs_v1.tsv": "0040da4263e8e5fcc26e44bab0471f0cf2575e34ded628d5ee2736fba2888b30"
+  },
+  "protocol_document": "docs/OPENALEX_PRECISION_REVIEW_PROTOCOL_V1.md",
+  "purpose": "protocol-development use only",
+  "release": "openalex-precision-review-development-inputs-v1",
+  "rows": 24,
+  "selected_review_candidate_ids": [
+    "OAPRV3_882d02a7e8ae86d8",
+    "OAPRV3_a502bd7b44591215",
+    "OAPRV3_4325d0ecee23e2e5",
+    "OAPRV3_0f078f00bce796de",
+    "OAPRV3_98f54efe7e2921f4",
+    "OAPRV3_d55193ab33a9c09d",
+    "OAPRV3_38538566339e83a2",
+    "OAPRV3_43aa9879fb2e36b6",
+    "OAPRV3_095b5d5b536b5740",
+    "OAPRV3_286b45dcf1224fee",
+    "OAPRV3_67c624922fe0edc6",
+    "OAPRV3_b6ee0908d307e905",
+    "OAPRV3_5a69f6e5a75e3973",
+    "OAPRV3_a0e72f168b841806",
+    "OAPRV3_d237467627711c8b",
+    "OAPRV3_35a4852035e502b8",
+    "OAPRV3_11072cf31bb06ddf",
+    "OAPRV3_07769303c68d7f1d",
+    "OAPRV3_ffa612477515032a",
+    "OAPRV3_5ab3cfea18a674b8",
+    "OAPRV3_c1babff408d2d81e",
+    "OAPRV3_23c9fd032eca4cdf",
+    "OAPRV3_fd5950bd4610100e",
+    "OAPRV3_1e4311100aab7715"
+  ],
+  "selection_procedure": "Mechanism-separated greedy uncovered-feature plus new-W coverage, then new-W preference, then hash; after all categories and >=8 W, fill by hash subject to max 2/W. No semantic correctness inspection.",
+  "selection_tie_break": "SHA256(openalex_precision_review_development_v0| + review_candidate_id) ascending",
+  "source_candidate_sha256": "38dda4e170ff8f1f90101f0246edc627401666f24dac5d588336f429194483fa",
+  "source_temporary_input_sha256": "0040da4263e8e5fcc26e44bab0471f0cf2575e34ded628d5ee2736fba2888b30"
+}
