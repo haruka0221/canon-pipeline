@@ -1,0 +1,6 @@
+sample_id	q3_class	n_present_title_r3	n_present_title_r3_miss	n_present_a1k1_only	any_route_incomplete	incomplete_routes	note
+BLV017	title_route_hit	5	0	1	TRUE	A1:SKIPPED_POLICY_CAP	Not blind: first edition examined in Q2 (Q2R12).
+BLV018	title_route_hit	1	1	0	TRUE	A1:SKIPPED_POLICY_CAP	title_route_r3_miss: 1 (990160257780109251).
+BLV019	title_route_hit	1	0	0	FALSE		
+BLV020	title_route_hit	4	0	0	FALSE		
+BLV021	title_route_hit	13	1	39	FALSE		title_route_r3_miss: 1 (990025826410109251).

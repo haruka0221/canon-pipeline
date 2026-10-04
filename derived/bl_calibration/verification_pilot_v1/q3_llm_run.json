@@ -1,0 +1,15 @@
+{
+  "task": "BL verification pilot v1 Q3 AI first pass (addendum 3 §3.1)",
+  "model_identifier": "claude-opus-5-5",
+  "model_note": "Claude Opus 5.5 running in Claude Code; judgments made directly by the model reading q3_candidates.tsv, no API call",
+  "prompt_version": "q3_llm_prompt_v1",
+  "prompt_file": "q3_llm_prompt.md",
+  "prompt_sha256": "81b02ba877643c2faa6b2de10ad879aa8cc1223d9174464f351540bd9961fd04",
+  "prompt_commit": "e89ef40",
+  "input_files": {
+    "q3_candidates.tsv": "aee831992ea69fc9c4c00c41b5a67eb59d18bb88745fcbde3dbe212ec1e33805"
+  },
+  "output_file": "q3_llm_output.tsv",
+  "rows_written": 376,
+  "run_date_utc": "2026-10-03T13:26:56Z"
+}

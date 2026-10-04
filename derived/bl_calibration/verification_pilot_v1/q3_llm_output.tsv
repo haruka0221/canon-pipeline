@@ -1,0 +1,377 @@
+sample_id	marc_001	llm_relation	llm_reason	llm_uncertainty
+BLV017	990000221330109251	unrelated	245a is Ady Endre's collected prose (Hungarian, 100 Ady); only a 700 name 'Láng' collides with Lang.	none
+BLV017	990009307150109251	unrelated	245a/240 Oliver Twist by Dickens (100); Lang appears in 700 only as editor of a different work.	none
+BLV017	990020683770109251	unrelated	245a 'Adventures among books' is a different work by Lang (100).	none
+BLV017	990020685220109251	target_alone	245a 'The Orange Fairy Book. Edited by Andrew Lang', Longmans 1906, 100 Lang; no other works named.	none
+BLV017	990020685230109251	target_alone	245a 'The orange fairy book. Edited by Andrew Lang', Dover 1968 reprint, 100 Lang.	none
+BLV017	990020685860109251	unrelated	245a 'The adventures of Odysseus' (from Tales of Troy and Greece) is a different work by Lang (100).	none
+BLV017	990029785810109251	unrelated	245a 'The Abductors' by Joseph Prague, pseud. of Andrew Lang Nisbet (100): name collision.	none
+BLV017	990069873780109251	unrelated	245a 'The adventures of Odysseus' (from Tales of Troy and Greece) is a different work by Lang (100).	none
+BLV017	990126720230109251	unrelated	245a 'About Edwin Drood' by Lang and M.R. James (100/700) is a different work.	none
+BLV017	990128035340109251	unrelated	245a 'Adventures among books' is a different work by Lang (100).	none
+BLV017	990128035350109251	unrelated	245a 'Adventures among books' is a different work by Lang (100).	none
+BLV017	990136808440109251	target_in_collection	245a '12 books in 1' (Lang's complete Fairy book series, omnibus ed.) with 700$t 'Orange fairy book' and 505 present.	low
+BLV017	990148154870109251	unrelated	245a 'A Monk of Fife' is a different work by Lang (100).	none
+BLV017	990186210140109251	unrelated	245a 'Adventures among books' is a different work by Lang (100).	none
+BLV017	990202357050109251	target_alone	245a 'The orange fairy book' edited by Andrew Lang (245c, 700 editor), Mint Editions 2021.	none
+BLV017	990205109640109251	target_alone	245a 'The orange fairy book' edited by Andrew Lang (245c, 700 editor), Mint Editions 2021.	none
+BLV017	990209458270109251	target_alone	245a 'The orange fairy book' edited by Andrew Lang (245c, 700), Folio Society 2013, with introduction and illustrations only.	none
+BLV017	990215039090109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	990215039100109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	990215039130109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	990215039140109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	990215039150109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	990215039160109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	990215039240109251	unrelated	245a 'Aladdin and the Wonderful Lamp' by Galland (100) in a bilingual Tranzlaty edition; Lang is editor (700) of a different single tale, not the Orange Fairy Book.	low
+BLV017	99216991942009251	unrelated	245a is a 2016 TMEA band sound recording; 700 'Lang, Phillip J.' is a name collision.	none
+BLV018	990000082030109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990000309630109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990000927630109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990001889930109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990001910650109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990002244700109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990002504530109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990003367320109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990003388200109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990003468060109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990003468070109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990003468080109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990003650240109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990005224440109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990005224450109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990005474450109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990006791060109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990006855030109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990007432020109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990009344110109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990012006390109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990013411610109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990014754500109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990014983690109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990015092450109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990017104650109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990017596390109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990018003490109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990019033700109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990019679090109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990020410380109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990020568580109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990020795660109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990023111930109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990024709210109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990025382830109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990025447640109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990025494990109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990025785190109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990027105210109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990027773420109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990029387840109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990030716340109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990030997780109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990031424220109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990033569270109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990034047270109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990035670500109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990035810470109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990037558360109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990039215400109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990039232410109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990039502630109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990039502640109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990040750600109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990068469560109251	ambiguous	Tagore (100) record in Sindhi (008 snd) titled 'Akh sur'/'Akh Soor' with no 240; which Tagore work it is cannot be decided from the record (if the target, it would be other_language_version).	medium
+BLV018	990068610060109251	ambiguous	Tagore (100) record in Urdu (008 urd) titled 'Andhere men' with no 240; which Tagore work it is cannot be decided from the record (if the target, it would be other_language_version).	medium
+BLV018	990068649740109251	ambiguous	Tagore (100) record in Sindhi (008 snd) titled 'Akh sur'/'Akh Soor' with no 240; which Tagore work it is cannot be decided from the record (if the target, it would be other_language_version).	medium
+BLV018	990068875050109251	unrelated	245a 'Amadāvādamāṃ Ravīndranātha' (Gujarati, ed. Bhagata) is a compilation about Tagore in Ahmedabad, not the novel.	low
+BLV018	990068965530109251	unrelated	245a 'Hormones, Brain and Behavior. Volume Four. Chapters 60-82': title collision.	none
+BLV018	990070829210109251	unrelated	245a/b Schmitt 'Political theology: four chapters on the concept of sovereignty' (100 Schmitt): title collision.	none
+BLV018	990072625610109251	unrelated	245a/b 'Āśishaḥ santu', unpublished letters of Tagore (Bengali): a different Tagore work.	low
+BLV018	990075753970109251	unrelated	245a 'Four Chapters of North's Plutarch' ed. F. A. Leo: title collision.	none
+BLV018	990079436380109251	unrelated	240 'Cokhera bāli' (Hindi translation, 041h ben): a different Tagore novel.	none
+BLV018	990079522440109251	unrelated	240 'Our universe' (Hindi translation of Tagore): a different Tagore work.	none
+BLV018	990080529880109251	unrelated	245a/b Schmitt 'Political theology: four chapters on the concept of sovereignty' (100 Schmitt): title collision.	none
+BLV018	990084661170109251	unrelated	245a/b Bodin 'On sovereignty: four chapters from The Six Books of the Commonwealth': title collision.	none
+BLV018	990086089510109251	unrelated	245b uses 'four chapters' in a different work (provincial ordinance abstract / Chronicle of the short reign of honesty): title collision.	none
+BLV018	990086188190109251	unrelated	245b uses 'four chapters' in a different work (provincial ordinance abstract / Chronicle of the short reign of honesty): title collision.	none
+BLV018	990087577520109251	unrelated	245a/b Bodin 'On sovereignty: four chapters from The Six Books of the Commonwealth': title collision.	none
+BLV018	990093133470109251	unrelated	240 'Acalāẏatana' (Telugu translation of Tagore): a different Tagore work (a play).	none
+BLV018	990100754500109251	unrelated	245a/b Del Shores 'Sordid lives: a comedy in four chapters': title collision.	none
+BLV018	990105985830109251	unrelated	245a 'Arūpa ratana' by Tagore (Bengali, 1935): a different Tagore work.	low
+BLV018	990114944850109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990115115800109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990123668450109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990124968890109251	unrelated	245a/b 'Angel of surplus: some essays and addresses on aesthetics' by Tagore: a different Tagore work.	none
+BLV018	990126864690109251	unrelated	245a/240 Nicholas Nickleby reading 'in four chapters' (100 Dickens): title collision.	none
+BLV018	990132424060109251	unrelated	245a 'The art of Tagore' (100 Tagore): a different work, not the novel.	low
+BLV018	990132648640109251	unrelated	245a/b Schmitt 'Political theology: four chapters on the concept of sovereignty' (100 Schmitt): title collision.	none
+BLV018	990132982340109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990138700080109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990141721170109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990144111980109251	ambiguous	245a 'Eine Anthologie' of Tagore (German, ed. Chakravarty) shows no contents (505 absent, no 700$t); rule 4: contents undecidable (and in German).	medium
+BLV018	990145390550109251	unrelated	240 'Acalāẏatana' (Hindi translation of Tagore's play): a different Tagore work.	none
+BLV018	990146099830109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990146287580109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990148190820109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990150441540109251	unrelated	245a 'Anthology of 100 Songs, in staff notation' (240 Songs) by Tagore: a different work.	none
+BLV018	990154607480109251	unrelated	245a/b Hebrew 'arbaʿah pirḳe ḥayim shel ʿAmos Ḳenan' (Gertz): title collision.	none
+BLV018	990155178330109251	unrelated	240 'Cokhera bāli' (Hindi translation, 041h ben): a different Tagore novel.	none
+BLV018	990158410380109251	unrelated	245a/b Meier 'The lesson of Carl Schmitt: four chapters…': title collision.	none
+BLV018	990160257780109251	target_in_collection	245a 'Classic Rabindranath Tagore' (240 Novels, omnibus, English, 041h ben) with 700$t 'Cāra adhyāya. English' and 505 present.	low
+BLV018	990161698900109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990162830460109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990165706420109251	unrelated	240 'Ghare-bāire' (Arabic translation of Tagore): a different Tagore novel.	none
+BLV018	990166296010109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990168361920109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990169425830109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990169425840109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990171356540109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990171356610109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990175916400109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990176423500109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990176589900109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990176966190109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990181034420109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990183177360109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990184652890109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990187076240109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990197038560109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990197629710109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990198373250109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990200866670109251	ambiguous	245a/b 'Adorno and the architects of late style in India: aesthetic form after the twentieth-century novel' (Roy); the record does not name the target, so whether it is criticism of it cannot be decided.	medium
+BLV018	990202557740109251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	990205849450109251	target_alone	245a 'Four chapters' by Rabindranath Tagore (100), English (041a eng, 041h ben), translator Radha Chakraverty (700), Penguin Random House India 2022.	none
+BLV018	99216864746909251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	99216869072709251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	99216869976309251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	99216877161009251	unrelated	Naxos sound recording of music; Tagore appears in 700 only as one lyricist among many: not the novel.	none
+BLV018	99216879532909251	unrelated	Naxos sound recording of music; Tagore appears in 700 only as one lyricist among many: not the novel.	none
+BLV018	99216885662509251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	99216902386309251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	99216904045309251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV018	99216912966909251	unrelated	Naxos sound recording of music; Tagore appears in 700 only as one lyricist among many: not the novel.	none
+BLV018	99216931595109251	unrelated	Naxos sound recording of music; Tagore appears in 700 only as one lyricist among many: not the novel.	none
+BLV018	99216989832509251	unrelated	245a/b uses 'four chapters' as a phrase in a different work by another author (100/700); title collision.	none
+BLV019	990008253780109251	unrelated	245a 'Max.' is a different work by Croskey (100).	none
+BLV019	990008253790109251	unrelated	"245a '""The S. G."" A romance of Peking' is a different work by Croskey (100)."	none
+BLV019	990022979580109251	unrelated	245a 'The Chest of Opium' by Mr. M- [Croskey] (700) is a different work.	none
+BLV019	990022979590109251	unrelated	245a 'Merlin: a piratical love story' by Mr. M- [Croskey] (700) is a different work.	none
+BLV019	990022979610109251	target_alone	245a 'The Shen's Pigtail, and other Cues of Anglo-China Life. [Stories…]' 1894, 700 Croskey: the story volume under the target title (prompt: target_alone).	low
+BLV019	990148083460109251	unrelated	245a 'Max.' is a different work by Croskey (100).	none
+BLV019	990148177270109251	unrelated	245a 'Merlin: a piratical love story' by Mr. M- [Croskey] (700) is a different work.	none
+BLV019	99216888786909251	unrelated	245a 'Rape of the gamp: a novel' by C. Welsh Mason (100 Croskey) is a different work.	none
+BLV020	990003342510109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990003342520109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455190109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455200109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455210109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455220109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455230109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455240109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455250109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455260109251	target_alone	245a 'The Graysons, a story of Illinois' 1888, 100 Eggleston.	none
+BLV020	990010455270109251	target_alone	245a 'The Graysons, a story of Illinois' 1888, 100 Eggleston.	none
+BLV020	990010455280109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455290109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455300109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455310109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455320109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455330109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455340109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455350109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455360109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455370109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455380109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455390109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455400109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455410109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455420109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455430109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455440109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455450109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455460109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455470109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990010455610109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990014950550109251	unrelated	245a 'The Valley of Shenandoah: or, memoirs of the Graysons' (1824/25, no Eggleston): title collision.	none
+BLV020	990014950560109251	unrelated	245a 'The Valley of Shenandoah: or, memoirs of the Graysons' (1824/25, no Eggleston): title collision.	none
+BLV020	990030383380109251	unrelated	245a 'Edward Eggleston' (Randel, Twayne 1963) is a study of the author; the record does not show it is about the target.	low
+BLV020	990033272670109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990033272680109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990033272690109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990033272700109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990035392700109251	unrelated	245a 'George Swinburne: a biography' (Sugden and F. W. Eggleston): name collision.	none
+BLV020	990067897060109251	unrelated	245a 'Duffels' (short stories) by Eggleston; 505 present but nothing in the record shows the target.	low
+BLV020	990079331930109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990086051030109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223700109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223710109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223720109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223730109251	target_alone	245a 'The Graysons' / 245b-c 'a story of Illinois' by Edward Eggleston (100), 1888 or microform reproduction.	none
+BLV020	990102223750109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223790109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223840109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990102223880109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990109338420109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990112743100109251	unrelated	245a 'The schoolmaster in literature' with introduction by Eggleston (700): a different work.	none
+BLV020	990119568470109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990121615390109251	unrelated	245a/b 'The valley of Shenandoah: or, Memoirs of the Graysons' by George Tucker (100): title collision.	none
+BLV020	990138385490109251	unrelated	245a 'The ultimate solution of the American Negro problem' by Edward Eggleston (b. 1871, 100): a different work and person.	none
+BLV020	990140116570109251	unrelated	245a/b 'The valley of Shenandoah: or, Memoirs of the Graysons' by George Tucker (100): title collision.	none
+BLV020	990140888670109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990142431780109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523680109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523690109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523720109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523750109251	unrelated	245a 'Duffels' (short stories) by Eggleston; 505 present but nothing in the record shows the target.	low
+BLV020	990144523760109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523780109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523790109251	target_alone	245a 'The Graysons' / 245b-c 'a story of Illinois' by Edward Eggleston (100), 1888 or microform reproduction.	none
+BLV020	990144523800109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523810109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523820109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523840109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523850109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523870109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990144523890109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990148098460109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990151740080109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990151740090109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	990167956070109251	unrelated	245a/c a novel by Tracy Anne Warren (100); no link to the target or Eggleston.	none
+BLV020	990168310770109251	unrelated	245a/c a novel by Tracy Anne Warren (100); no link to the target or Eggleston.	none
+BLV020	990175943390109251	unrelated	245a/c a novel by Tracy Anne Warren (100); no link to the target or Eggleston.	none
+BLV020	990176004770109251	unrelated	245a 'Coals of the state of Washington' by E. Eggleston Smith (100): name collision.	none
+BLV020	990197846790109251	unrelated	245a 'The Valley of Shenandoah: or, memoirs of the Graysons' (1824/25, no Eggleston): title collision.	none
+BLV020	990212177020109251	unrelated	245a/c a novel by Tracy Anne Warren (100); no link to the target or Eggleston.	none
+BLV020	990212178880109251	unrelated	245a/c a novel by Tracy Anne Warren (100); no link to the target or Eggleston.	none
+BLV020	99216864973109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	99216884777409251	unrelated	Civil War document/collection; 'Eggleston' occurs only in the name Joseph Eggleston Johnston (100/700): name collision.	none
+BLV020	99216884784209251	unrelated	Civil War document/collection; 'Eggleston' occurs only in the name Joseph Eggleston Johnston (100/700): name collision.	none
+BLV020	99216888670209251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	99216916399309251	unrelated	Civil War document/collection; 'Eggleston' occurs only in the name Joseph Eggleston Johnston (100/700): name collision.	none
+BLV020	99216924008209251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	99216941852009251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	99216943518909251	unrelated	Civil War document/collection; 'Eggleston' occurs only in the name Joseph Eggleston Johnston (100/700): name collision.	none
+BLV020	99216944468109251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV020	99216991702909251	unrelated	245a names a different work by Edward Eggleston (100/700).	none
+BLV021	990004182270109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990004182350109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990012172280109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990015745300109251	unrelated	245a 'Rudolf Erich Raspe. Ein Wegbereiter…' (Hallo, German) is a study of Raspe; the record does not show it is about the Munchausen narratives.	low
+BLV021	990021205790109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990021447220109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990023748830109251	other_language_version	245a 'Historia de el Conde de las Maravillas' is an abridged Spanish translation of Raspe's Baron Munchausen (008 spa); rule 5.	low
+BLV021	990023748840109251	other_language_version	245a 'Historia de el Conde de las Maravillas' is an abridged Spanish translation of Raspe's Baron Munchausen (008 spa); rule 5.	low
+BLV021	990023748850109251	other_language_version	245a 'Historia de el Conde de las Maravillas' is an abridged Spanish translation of Raspe's Baron Munchausen (008 spa); rule 5.	low
+BLV021	990023748860109251	other_language_version	245a 'Historia de el Conde de las Maravillas' is an abridged Spanish translation of Raspe's Baron Munchausen (008 spa); rule 5.	low
+BLV021	990025825990109251	target_alone	245a 'Baron Munchausen's narrative of his marvellous travels and campaigns in Russia' (130 same), English 1786, 700 Raspe.	none
+BLV021	990025826000109251	target_alone	245a 'Gulliver Revived… By Baron Munchausen [i.e. R. E. Raspe]', 240 'Baron Munchausen's narrative', fifth edition 1787.	none
+BLV021	990025826010109251	target_alone	245a 'Gulliver revived… By Baron Munchausen' with 130 'Baron Munchausen's narrative of his marvellous travels', 700 Raspe; enlarged edition (250).	none
+BLV021	990025826020109251	target_alone	245a 'Gulliver revived… By Baron Munchausen' with 130 'Baron Munchausen's narrative of his marvellous travels', 700 Raspe; enlarged edition (250).	none
+BLV021	990025826030109251	target_alone	245a 'Gulliver revived… By Baron Munchausen' with 130 'Baron Munchausen's narrative of his marvellous travels', 700 Raspe; enlarged edition (250).	none
+BLV021	990025826130109251	target_with_other_works	245a 'The Surprising Travels and Adventures of Baron Munchausen… A sequel, containing his expedition into Africa… Two vols. in one': target with the sequel in one volume.	low
+BLV021	990025826140109251	target_with_other_works	245a 'The Surprising Travels and Adventures of Baron Munchausen… A sequel, containing his expedition into Africa… Two vols. in one': target with the sequel in one volume.	low
+BLV021	990025826150109251	target_alone	245a 'The surprising travels & adventures, of Baron Munchausen, also An account of a voyage into the moon & dog star [By R. E. Raspe]', English.	low
+BLV021	990025826160109251	target_alone	245a 'The surprising travels & adventures, of Baron Munchausen, also An account of a voyage into the moon & dog star [By R. E. Raspe]', English.	low
+BLV021	990025826210109251	target_alone	245a 'The Adventures of Baron Munchausen. A new and revised edition' with additions by T. Gautier, introduction and Doré illustrations (700), English.	low
+BLV021	990025826250109251	target_alone	245a 'The Adventures of Baron Munchausen from the best English and German editions', illustrated by Bichard (700), English.	low
+BLV021	990025826260109251	target_alone	245a 'The Adventures of Baron Munchausen from the best English and German editions', illustrated by Bichard (700), English.	low
+BLV021	990025826300109251	target_alone	245a 'The Surprising Adventures of Baron Munchausen', illustrated, with introduction by Seccombe, English.	none
+BLV021	990025826370109251	target_alone	245a 'The Surprising Adventures of Baron Munchausen', illustrated, with introduction by Seccombe, English.	none
+BLV021	990025826380109251	target_alone	245a 'The surprising adventures of Baron Munchausen: reprinted from the earliest complete edition', 100 Raspe, ed. Darton, 1930.	none
+BLV021	990025826400109251	target_alone	245a 'The Adventures of Baron Munchausen' with Doré illustrations (700), English 1944.	none
+BLV021	990025826410109251	target_alone	245a 'Travels and Adventures of Baron Munchausen, etc.' English [1950]; no abridgment or adaptation indicated.	low
+BLV021	990025826540109251	other_language_version	245a 'Die wahre Kunst… Reisegeschichten des Freyherrn von Münchhausen', 008 ger, 130 Baron Munchausen's narrative, 700 Raspe and Bürger.	none
+BLV021	990025826650109251	target_alone	245a 'The surprising adventures of the renowned Baron Munchausen [By R. E. Raspe. A chapbook.]', English; the record does not say abridged, though chapbook form may be.	medium
+BLV021	990025826660109251	target_alone	245a 'The surprising adventures of the renowned Baron Munchausen [By R. E. Raspe. A chapbook.]', English; the record does not say abridged, though chapbook form may be.	medium
+BLV021	990025826670109251	target_alone	245a 'The surprising adventures of the renowned Baron Munchausen [By R. E. Raspe. A chapbook.]', English; the record does not say abridged, though chapbook form may be.	medium
+BLV021	990025826680109251	target_alone	245a 'The surprising adventures of the renowned Baron Munchausen [By R. E. Raspe. A chapbook.]', English; the record does not say abridged, though chapbook form may be.	medium
+BLV021	990025826780109251	related_derivative	245a 'A sequel to the adventures of Baron Munchausen' (expedition into Africa): a sequel, not Raspe's narratives (prompt: related_derivative).	none
+BLV021	990025826790109251	related_derivative	245a 'A sequel to the adventures of Baron Munchausen' (expedition into Africa): a sequel, not Raspe's narratives (prompt: related_derivative).	none
+BLV021	990025826800109251	related_derivative	245a 'A sequel to the adventures of Baron Munchausen' (expedition into Africa): a sequel, not Raspe's narratives (prompt: related_derivative).	none
+BLV021	990025826810109251	related_derivative	245a 'A sequel to the adventures of Baron Munchausen' (expedition into Africa): a sequel, not Raspe's narratives (prompt: related_derivative).	none
+BLV021	990030430070109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990030430080109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990030430090109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430100109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430110109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430120109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430130109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430140109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430150109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430160109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430170109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990030430180109251	target_alone	245a 'Original travels and surprising adventures of Baron Munchausen [By R. E. Raspe]', 100 Raspe, English 1889.	low
+BLV021	990030430190109251	target_alone	245a 'The Travels and Surprising Adventures of Baron Munchausen' with preface by Blanchamp, 100 Raspe, English 1907.	none
+BLV021	990030430200109251	target_abridged_or_retold	245a 'The Adventures of Baron Münchhausen, adapted for schools… by W. H. Anstie. Ger.': a school adaptation; 'Ger.' suggests a German text though 008 is eng.	medium
+BLV021	990030430210109251	target_alone	245a 'Singular Travels/Adventures of Baron Munchausen. By R. E. Raspe and others', 100 Raspe, English, illustrated.	low
+BLV021	990030430220109251	target_alone	245a 'Singular Travels/Adventures of Baron Munchausen. By R. E. Raspe and others', 100 Raspe, English, illustrated.	low
+BLV021	990030430230109251	other_language_version	245a 'Die wonderbaarlike avonture van Baron von Münchhausen' is an Afrikaans translation (from Bürger's German), 100 Raspe; rule 5.	low
+BLV021	990030430240109251	other_language_version	245a 'Voyages et aventures du Baron de Munchhausen' French translation from Bürger, 008 fre, 100 Raspe.	none
+BLV021	990030430250109251	other_language_version	245a 'Avventure del Barone di Munchhausen. Riduzione dall'Inglese di O. Roux', 008 ita, 100 Raspe.	none
+BLV021	990030430260109251	other_language_version	245a 'Avventure del Barone di Munchhausen. Riduzione dall'Inglese di O. Roux', 008 ita, 100 Raspe.	none
+BLV021	990030430270109251	other_language_version	245a Russian 'Приключения Мюнхаузена… пересказ К. Чуковский' (retold for children), 008 rus, 100 Raspe; rule 5.	low
+BLV021	990030430280109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990030430290109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990030430300109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990030430310109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990033077740109251	related_criticism	245a 'Münchhausen und Münchhausiaden. Werden und Schicksale einer deutsch-englischen Burleske' (Schweizer): scholarship on the work, 700 Raspe.	low
+BLV021	990036428100109251	related_criticism	245a 'M. de Crac… rapports entre M. de Crac et le baron de Münchhausen' (Tissier, French): study touching the work, 700 Raspe.	medium
+BLV021	990038249100109251	related_criticism	245a 'Münchhausiana. Bibliographie der Münchhausen-Ausgaben und Münchhausiaden' (Wackermann): bibliographical scholarship on the work.	low
+BLV021	990038799990109251	related_criticism	245a 'Antiphanes und Münchhausen. Das antike Lügenmärlein…' (Weinreich): scholarship on a Munchausen tale, 700 Raspe.	low
+BLV021	990040073470109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990040868790109251	target_alone	245a 'Gulliver revived… by Baron Münchausen [i.e. R.E. Raspe]. A new edition, considerably enlarged', 240 'Baron Munchausen's narrative', English 1790.	none
+BLV021	990069787010109251	target_alone	245a 'The singular adventures / Travels and adventures of Baron Munchausen', 100 Raspe, English 1950, illustrated.	none
+BLV021	990069791670109251	target_alone	245a 'The singular adventures / Travels and adventures of Baron Munchausen', 100 Raspe, English 1950, illustrated.	none
+BLV021	990073709910109251	target_excerpt	245a '12 adventures of the celebrated Baron Munchausen', 'selected and illustrated by Brian Robb' (245c), 240 Baron Munchausen's narrative.	low
+BLV021	990080466690109251	target_alone	245a 'The adventures of Baron Munchausen' by R.E. Raspe and others, illustrated by Searle, 240 Baron Munchausen's narrative, English.	low
+BLV021	990081339910109251	target_alone	245a Travels/Surprising/Singular adventures of Baron Munchausen, 100 Raspe (240 Baron Munchausen's narrative where present), English.	none
+BLV021	990082597620109251	target_alone	245a Travels/Surprising/Singular adventures of Baron Munchausen, 100 Raspe (240 Baron Munchausen's narrative where present), English.	none
+BLV021	990082597650109251	target_alone	245a Travels/Surprising/Singular adventures of Baron Munchausen, 100 Raspe (240 Baron Munchausen's narrative where present), English.	none
+BLV021	990082597660109251	target_alone	245a Travels/Surprising/Singular adventures of Baron Munchausen, 100 Raspe (240 Baron Munchausen's narrative where present), English.	none
+BLV021	990082597670109251	target_alone	245a/b 'The travels of Baron Münchausen: Gulliver revived…' ed. W. Rose, 100 Raspe, English 1923.	none
+BLV021	990082597680109251	target_alone	245a Travels/Surprising/Singular adventures of Baron Munchausen, 100 Raspe (240 Baron Munchausen's narrative where present), English.	none
+BLV021	990082597690109251	target_alone	245a/b 'The adventures…: from the best English and German editions', 100 Raspe, Warne, English.	low
+BLV021	990082597700109251	target_alone	245a 'Baron Munchausen's narrative of his marvellous travels and campaigns in Russia', 100 Raspe, English.	none
+BLV021	990085833910109251	adaptation	245a/b 'The adventures of Baron Munchausen: the novel' by Gilliam & McKeown, 'based on the screenplay': a film novelization.	none
+BLV021	990088275510109251	target_alone	245a Travels/Surprising/Singular adventures of Baron Munchausen, 100 Raspe (240 Baron Munchausen's narrative where present), English.	none
+BLV021	990090351070109251	target_with_other_works	245a 'Baron Munchausen and other comic tales from Germany' by R.E. Raspe and others, ed. Stella Humphries (100), English (041h ger): target as lead title with further tales.	medium
+BLV021	990094404540109251	target_abridged_or_retold	245a/b 'The Baron rides out: the adventures of Baron Munchausen as he told them to Adrian Mitchell' (100 Mitchell): a children's retelling.	low
+BLV021	990094404550109251	related_derivative	245a/b 'The Baron on the Island of Cheese: more adventures of Baron Munchausen' by Adrian Mitchell (100): new adventures by another writer.	medium
+BLV021	990094407170109251	target_abridged_or_retold	245a/b 'The Baron rides out: the adventures of Baron Munchausen as he told them to Adrian Mitchell' (100 Mitchell): a children's retelling.	low
+BLV021	990100950080109251	adaptation	245a 'The adventures of Baron Munchausen' by Charles McKeown & Terry Gilliam (100 McKeown), 1989: film-related adaptation, not Raspe's text.	low
+BLV021	990101346200109251	adaptation	245a/b 'The adventures of Baron Munchausen: the screenplay' by McKeown & Gilliam: a screenplay.	none
+BLV021	990105562620109251	target_abridged_or_retold	245a 'Baron Munchausen's marvellous travels & adventures', 'adapted and introduced by Janet Barber' (245c), 240 Baron Munchausen's narrative.	low
+BLV021	990106930080109251	target_abridged_or_retold	245a 'The surprising adventures of Baron Munchausen' with 100 Terence Blacker (700 Rushton): authored by another writer, so a retelling.	medium
+BLV021	990106934700109251	target_abridged_or_retold	245a 'The surprising adventures of Baron Munchausen' with 100 Terence Blacker (700 Rushton): authored by another writer, so a retelling.	medium
+BLV021	990107015580109251	target_abridged_or_retold	245a 'Travellers' tales from the Odyssey and Baron Munchausen', 'simplified by Michael West' (245c), 700$t Raspe 'Baron Munchausen'.	low
+BLV021	990119622110109251	target_alone	245a 'Singular travels, campaigns and adventures of Baron Munchausen', 100 Raspe, intro. Carswell, illus. Searle, English 1987.	none
+BLV021	990119801560109251	target_abridged_or_retold	245a/b 'The wonderful travels… of Baron Münchhausen: the adventures on land', 'text by Peter Nickl', translated from German: a picture-book retelling.	medium
+BLV021	990129534060109251	target_alone	245a 'Surprising (travels and) adventures of the renowned Baron Munchausen… also a voyage to the moon and dog star', 100 Raspe, English.	none
+BLV021	990133405540109251	target_alone	245a 'Surprising (travels and) adventures of the renowned Baron Munchausen… also a voyage to the moon and dog star', 100 Raspe, English.	none
+BLV021	990133646070109251	adaptation	245a/b 'The extraordinary adventures of Baron Munchausen: a … role-playing game' (100 Wallis): a game.	low
+BLV021	990143541990109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990143542010109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990148348130109251	adaptation	245a/b 'The extraordinary adventures of Baron Munchausen: a … role-playing game' (100 Wallis): a game.	low
+BLV021	990160269870109251	target_alone	245a 'The travels and surprising / surprising adventures of Baron Munchausen' by Rudolf Erich Raspe (100), English 2012.	none
+BLV021	990163185740109251	target_alone	245a 'The travels and surprising / surprising adventures of Baron Munchausen' by Rudolf Erich Raspe (100), English 2012.	none
+BLV021	990169599840109251	ambiguous	245a 'The adventures of Baron Munchausen', 100 Raspe, 2013, but publisher 'Classic Comic Store Ltd' may indicate a comic adaptation; undecidable from the record.	medium
+BLV021	990173621900109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990173625160109251	target_alone	245a 'Gulliver Revived… By Baron Munchausen [i.e. R. E. Raspe]', 240 'Baron Munchausen's narrative', fifth edition 1787.	none
+BLV021	990174785740109251	target_alone	245a 'Gulliver revived… By Baron Munchausen' with 130 'Baron Munchausen's narrative of his marvellous travels', 700 Raspe; enlarged edition (250).	none
+BLV021	990176800850109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990176823870109251	target_alone	245a 'Gulliver revived… by Baron Münchausen [i.e. R.E. Raspe]. A new edition, considerably enlarged', 240 'Baron Munchausen's narrative', English 1790.	none
+BLV021	990177123300109251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	990184178380109251	other_language_version	German-language Münchhausen edition (008 ger; Bürger's German version or a German translation), 100 Raspe; rule 5.	low
+BLV021	990186314560109251	target_alone	245a 'The travels and surprising / surprising adventures of Baron Munchausen' by Rudolf Erich Raspe (100), English 2012.	none
+BLV021	990187198000109251	target_alone	245a 'Surprising (travels and) adventures of the renowned Baron Munchausen… also a voyage to the moon and dog star', 100 Raspe, English.	none
+BLV021	990188783230109251	other_language_version	245a 'Sgeulachdan Mhic-an-Teòsain' Scottish Gaelic translation (008 gla), 240 Baron Munchausen's narrative, 100 Raspe.	none
+BLV021	990207060290109251	target_abridged_or_retold	245a 'The surprising adventures of the renowned Baron Munchausen, abridged', 100 Raspe, 1812.	none
+BLV021	990207117710109251	target_alone	245a 'The surprising adventures, miraculous escapes, and wonderful travels, of the renowned Baron Munchausen…', 100 Raspe, English; possibly a chapbook but abridgment not stated.	medium
+BLV021	990208725530109251	target_alone	245a 'Gulliver revived… By Baron Munchausen' with 130 'Baron Munchausen's narrative of his marvellous travels', 700 Raspe; enlarged edition (250).	none
+BLV021	99216861500609251	ambiguous	245a/b 'Telling tales: the impact of Germany on English children's books 1780-1918' (Blamires); 505 present but the record does not show whether the target is treated.	medium
+BLV021	99216900400009251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	99216900401609251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	99216904581009251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	99216941854709251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	99216947324909251	unrelated	245a is a different work by or translated by Raspe (100/700), not the Munchausen narratives.	none
+BLV021	99216952866809251	target_alone	245a 'Baron Munchausen's narrative of his marvellous travels and campaigns in Russia' (130 same), English 1786, 700 Raspe.	none
+BLV021	99217129306809251	target_alone	245a 'The travels and adventures, by sea and land, of Baron Munchausen', 'Twentieth American edition, enlarged' (250), 700 Raspe.	low
