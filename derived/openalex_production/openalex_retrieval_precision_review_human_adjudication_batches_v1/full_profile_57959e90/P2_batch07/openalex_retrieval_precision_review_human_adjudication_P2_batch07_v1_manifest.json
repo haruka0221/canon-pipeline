@@ -1,0 +1,139 @@
+{
+  "artifact_status": "AUTHORITATIVE_HUMAN_ADJUDICATION_BATCH",
+  "authoritative": true,
+  "batch": "P2_batch07",
+  "builder": {
+    "path": "/tmp/build_openalex_p2_batch07.py",
+    "pyarrow_version": "25.0.1"
+  },
+  "columns": [
+    "review_order",
+    "review_priority",
+    "review_candidate_id",
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_semantic_group_id",
+    "review_protocol_version",
+    "human_target_attribution_judgment",
+    "human_adjudication_confidence",
+    "human_attribution_reason_code",
+    "human_reviewer_note",
+    "human_reviewer_id",
+    "human_adjudicated_at_utc"
+  ],
+  "counts": {
+    "rows": 13,
+    "columns": 14,
+    "review_priority": {
+      "P2": 13
+    },
+    "human_target_attribution_judgment": {
+      "VALID_TARGET_REFERENCE": 13
+    },
+    "human_adjudication_confidence": {
+      "HIGH": 13
+    },
+    "human_attribution_reason_code": {
+      "VALID_TITLE_VARIANT": 13
+    }
+  },
+  "frozen_baseline_commit": "f3e0ec4bdeaf7df56b99257670326d44b67321a1",
+  "frozen_human_review_package_sha256": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+  "frozen_grouping_artifact_sha256": {
+    "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1.tsv": "fb3efd22d35a4f1909464034782fb8cbb2ffa6d6a2a959f3080814ecad671402",
+    "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1_audit_v1.json": "adf656c74c186e83d35d08afdc9fa873cf9d51b6fbb6319d25af22d4c9fc0be7",
+    "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1_manifest.json": "e30de065faa3cf3122332d92cb6cb0bb97884008c101f23d045f9f946de07974"
+  },
+  "prior_P2_batch_sha256": {
+    "P2_batch01": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1.parquet": "f0c6eb9f2cb0f74c2b32dbd62d1af73993a289484815bc623593757c07c0457f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1.tsv": "4631b1bd0139ff202a5704a993e4fca068a7b38c4bb365bc947f6c43af4a9141",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1_audit_v1.json": "028c1f632502e07debbca03a4500072400e93dbc173fb2f16c3413c75c3a8e8e",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1_manifest.json": "627134d0ed091def41e58a3e6292364b33a86fde598c4807ab28212a85456467"
+    },
+    "P2_batch02": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1.parquet": "63b77d406e505505bfba80a5dce81e9a4402453c51f8344d4f5bde6b91bd215c",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1.tsv": "d5dfb302508c864445022bd53fabb5b5f338349d41272fc6806555efc4aadc77",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1_audit_v1.json": "478c82236c1f80e80276d48ee8b89717b96605762264f415fd8f18ebd0a763b1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1_manifest.json": "1b9bfed9a80cffbbddb6c67c22f235673265f5e3cdea9d1e34f38f9e639260f7"
+    },
+    "P2_batch03": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1.parquet": "d47e3dade637d9926dfc85173da99584da1d8bd0d25a02a1156073d876801b57",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1.tsv": "f99d0852f18adafef4bd251ebd17c129817a2d86ac90b6ee20401e32cf1d2f53",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1_audit_v1.json": "bdcfe3c34c37d5f2f356a73c9287b281e593ec87f051449ed2d433c472e95098",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1_manifest.json": "bcef2596139897b6f6735242496df31cb53054bef8e010aa4b0a7718b3ff2ae1"
+    },
+    "P2_batch04": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1.parquet": "74ef1659857fc444297dcc5f658da37319395893e2b528ccc0c8cce4fd4b0c13",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1.tsv": "d97492fadadc0b96ee39461596016f0c99730fd0218be88fba21ebfe23d666e6",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1_audit_v1.json": "a880199b6d19141be79846bee2f9bf1768fbf9b81112a8a7809ef88c39d35c50",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1_manifest.json": "5a8fbf032c262fc64c89de6a0e67304765690a75d89596aaff0011452149efc1"
+    },
+    "P2_batch05": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1.parquet": "008c948ce80efa1d34d42cf483ecec06013b4c52a2d3b453956b8538ef137351",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1.tsv": "4d61deaff45ca9e05a60a9504e1b6d92fe69f0e403ce3a54a49beea765a237f1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1_audit_v1.json": "bc501c1ef2f55a17a13e0c272b393c1e027619d45e9c83c0ec25b3ebd145cbe7",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1_manifest.json": "0a621018ad711a687cec970c0fb999dad57c94219d06844a3a05f94c807ce289"
+    },
+    "P2_batch06": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1.parquet": "bf2e2c06e0e2e888f1d21a57d68676519433cda6b8c123adde8be8783f414bed",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1.tsv": "2ba2630f82ae42760d3807d6f0d75cf0205cde54beddb3cece533876cb0fa19f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1_audit_v1.json": "2bf49441aed0a8c64a208e4c2d896645419438479cabd160520b3c9b582b88b4",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1_manifest.json": "4027f3cc3209e93c50290149227629ae7d13d05b18c9f74c501b96dbafedcf34"
+    }
+  },
+  "generated_at_utc": "2026-10-04T05:03:39Z",
+  "human_reviewer_id": "haruka_tsutsui",
+  "human_adjudicated_at_utc": "2026-10-04T05:03:39Z",
+  "review_orders": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "candidate_ids_in_review_order": [
+    "OAPRV3_3939415ad148dbd2",
+    "OAPRV3_e675dacd25c661a0",
+    "OAPRV3_bd1c24d9545f4beb",
+    "OAPRV3_d8d19ad64f57a24f",
+    "OAPRV3_2496c4af3cba4675",
+    "OAPRV3_3210d73700ae036e",
+    "OAPRV3_ee1733289e72d00e",
+    "OAPRV3_53a4696d1da36819",
+    "OAPRV3_b001e6de7b6113ca",
+    "OAPRV3_98f54efe7e2921f4",
+    "OAPRV3_286b45dcf1224fee",
+    "OAPRV3_484917715e19a45c",
+    "OAPRV3_ccfd88fea4626e7f"
+  ],
+  "outputs": {
+    "openalex_retrieval_precision_review_human_adjudication_P2_batch07_v1.tsv": {
+      "bytes": 6030,
+      "columns": 14,
+      "rows": 13,
+      "sha256": "bf8274963809c0f62582ddeb8e3e340e01cafdd1928b0618eaf19e6fc74005bc"
+    },
+    "openalex_retrieval_precision_review_human_adjudication_P2_batch07_v1.parquet": {
+      "bytes": 7145,
+      "columns": 14,
+      "rows": 13,
+      "sha256": "165e6068fbde77f0f64e6998595645159682c13071317901db66cf49733926e0"
+    }
+  },
+  "profile": "full_profile_57959e90",
+  "release": "openalex_retrieval_precision_review_human_adjudication_batches_v1",
+  "release_version": "v1",
+  "review_protocol_version": "v1",
+  "scope": "Exactly thirteen human-provided P2 batch-07 target-attribution adjudications; not a complete 661-candidate final release and not a precision estimate.",
+  "status": "PASSED"
+}
