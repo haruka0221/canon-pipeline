@@ -1,0 +1,159 @@
+{
+  "audit": "openalex-p2-deterministic-grouping-v1",
+  "audit_status": "PASSED",
+  "checks": {
+    "exactly_119_P2_rows": true,
+    "exactly_16_semantic_groups": true,
+    "exactly_29_evidence_subgroups": true,
+    "largest_subgroup_32": true,
+    "every_candidate_once": true,
+    "P1_P3_excluded": true,
+    "source_identity_exact": true,
+    "membership_exact_tuple_equality": true,
+    "complexity_thresholds_exact": true,
+    "no_human_fields_populated": true,
+    "no_P1_P3_rows": true,
+    "existing_tmp_sheet_membership_exact": true
+  },
+  "counts": {
+    "rows": 119,
+    "semantic_groups": 16,
+    "evidence_subgroups": 29,
+    "largest_subgroup": 32,
+    "complexity": {
+      "HETEROGENEOUS": 4,
+      "SIMPLE_HOMOGENEOUS": 8,
+      "MODERATE": 4
+    }
+  },
+  "semantic_groups": [
+    {
+      "review_semantic_group_id": "OAPRSG1_040557b09f1e3481",
+      "candidate_count": 49,
+      "evidence_subgroup_count": 4,
+      "complexity_class": "HETEROGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_0eca586c5af78ce4",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_10d59593faae8fea",
+      "candidate_count": 13,
+      "evidence_subgroup_count": 3,
+      "complexity_class": "HETEROGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_19a1e34503f1c89c",
+      "candidate_count": 18,
+      "evidence_subgroup_count": 4,
+      "complexity_class": "HETEROGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_2033c458b7042e68",
+      "candidate_count": 3,
+      "evidence_subgroup_count": 2,
+      "complexity_class": "MODERATE"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_326f7c8244c10845",
+      "candidate_count": 6,
+      "evidence_subgroup_count": 2,
+      "complexity_class": "MODERATE"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_3f64b70ebe5e38f0",
+      "candidate_count": 2,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_4b563d1234d55996",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_5a8b9f2014eed65e",
+      "candidate_count": 8,
+      "evidence_subgroup_count": 2,
+      "complexity_class": "MODERATE"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_704a7215baf66166",
+      "candidate_count": 8,
+      "evidence_subgroup_count": 2,
+      "complexity_class": "MODERATE"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_96e36a6a421be179",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_995e9e4749f733fc",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_a8b99e09d81b8f67",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_a91612bc1886e7da",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_f29b71da741b1e39",
+      "candidate_count": 1,
+      "evidence_subgroup_count": 1,
+      "complexity_class": "SIMPLE_HOMOGENEOUS"
+    },
+    {
+      "review_semantic_group_id": "OAPRSG1_f2e2f035cec9aec3",
+      "candidate_count": 5,
+      "evidence_subgroup_count": 2,
+      "complexity_class": "HETEROGENEOUS"
+    }
+  ],
+  "signature_fields": [
+    "title_match_norms",
+    "author_a1_norms",
+    "author_a2_reverse_norms",
+    "any_title_match_in_title",
+    "any_title_match_in_abstract",
+    "any_author_a1_hit",
+    "any_author_a2_reverse_hit",
+    "hit_location",
+    "abstract_available",
+    "provenance_multiplicity"
+  ],
+  "hash_procedure": {
+    "algorithm": "SHA-256",
+    "canonicalization": "UTF-8 JSON array; ensure_ascii=False; separators=(',', ':'); no Unicode normalization; field order exactly signature_fields",
+    "input": "JSON array [review_semantic_group_id, ...10 raw TSV string values...]",
+    "output": "OAPESG1_ followed by first 16 lowercase hexadecimal SHA-256 characters"
+  },
+  "source": {
+    "path": "/home/haruka221/canon-pipeline-population-provenance/derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.tsv",
+    "sha256": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba"
+  },
+  "frozen_openalex_inputs": {
+    "review_package": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+    "review_view_tsv": "b0439a2c9a4287155c335b523816b725e2f8676005f18fb751087ffc154df19c",
+    "llm_evidence_tsv": "9214235b3e5a04edca1e6d367b3f5e491f2900f23a7475942d889d9c5c2b0eac"
+  },
+  "existing_sheet_comparison": {
+    "path": "/tmp/openalex_human_review_P2_groups",
+    "sheet_count": 16,
+    "membership_equal": true
+  }
+}

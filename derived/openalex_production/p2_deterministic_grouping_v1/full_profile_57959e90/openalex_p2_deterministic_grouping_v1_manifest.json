@@ -1,0 +1,34 @@
+{
+  "release": "openalex_p2_deterministic_grouping_v1",
+  "version": "v1",
+  "status": "PASSED",
+  "artifact_status": "DETERMINISTIC_GROUPING_REVIEW_SUPPORT_ONLY",
+  "authoritative": false,
+  "human_adjudication_performed": false,
+  "precision_calculated": false,
+  "frozen_baseline_commit": "60b22bd55726d02c4c20aaa11763b1ddad784788",
+  "builder": {
+    "path": "scripts/build_openalex_p2_deterministic_grouping_v1.py",
+    "sha256": "0f38ab9448174645c4c9e0e71fdd78cf315a0ae14e2fb47821dc06ed7c9cc3ee"
+  },
+  "specification": "docs/OPENALEX_P2_DETERMINISTIC_GROUPING_V1.md",
+  "source": {
+    "path": "/home/haruka221/canon-pipeline-population-provenance/derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.tsv",
+    "sha256": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba"
+  },
+  "rows": 119,
+  "columns": 20,
+  "semantic_groups": 16,
+  "evidence_subgroups": 29,
+  "outputs": {
+    "openalex_p2_deterministic_grouping_v1.tsv": {
+      "sha256": "fb3efd22d35a4f1909464034782fb8cbb2ffa6d6a2a959f3080814ecad671402",
+      "rows": 119,
+      "columns": 20
+    },
+    "openalex_p2_deterministic_grouping_v1_audit_v1.json": {
+      "sha256": "adf656c74c186e83d35d08afdc9fa873cf9d51b6fbb6319d25af22d4c9fc0be7"
+    }
+  },
+  "audit_sha256": "adf656c74c186e83d35d08afdc9fa873cf9d51b6fbb6319d25af22d4c9fc0be7"
+}
