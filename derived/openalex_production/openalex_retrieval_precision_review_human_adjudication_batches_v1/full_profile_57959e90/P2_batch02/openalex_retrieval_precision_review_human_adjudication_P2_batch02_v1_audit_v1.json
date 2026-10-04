@@ -1,0 +1,73 @@
+{
+  "audit": "openalex-human-adjudication-P2-batch02-v1-audit",
+  "audit_status": "PASSED",
+  "authoritative": true,
+  "artifact_status": "AUTHORITATIVE_HUMAN_ADJUDICATION_BATCH",
+  "audited_at_utc": "2026-10-04T04:23:40Z",
+  "checks": {
+    "exactly_3_rows": true,
+    "exact_review_orders": true,
+    "exact_candidate_ids": true,
+    "all_candidates_are_P2": true,
+    "candidate_identities_match_frozen_661_package": true,
+    "exact_human_fields": true,
+    "controlled_vocabulary_compatibility": true,
+    "reviewer_id_exact": true,
+    "one_valid_shared_utc_timestamp": true,
+    "tsv_parquet_cell_parity": true,
+    "P2_batch01_unchanged": true,
+    "deterministic_grouping_unchanged": true,
+    "frozen_review_package_unchanged": true,
+    "no_BL_changes": true,
+    "no_precision_calculation": true
+  },
+  "counts": {
+    "rows": 3,
+    "columns": 14,
+    "review_priority": {
+      "P2": 3
+    },
+    "human_target_attribution_judgment": {
+      "VALID_TARGET_REFERENCE": 3
+    },
+    "human_adjudication_confidence": {
+      "HIGH": 3
+    },
+    "human_attribution_reason_code": {
+      "VALID_TITLE_VARIANT": 3
+    }
+  },
+  "review_orders": [
+    131,
+    132,
+    133
+  ],
+  "candidate_ids_in_review_order": [
+    "OAPRV3_29750eed5aea9710",
+    "OAPRV3_0a4811ad29a86ed9",
+    "OAPRV3_be29d1a6d65ffa49"
+  ],
+  "human_reviewer_id": "haruka_tsutsui",
+  "human_adjudicated_at_utc": "2026-10-04T04:23:40Z",
+  "human_decision_payload_sha256": "73068ced564f412c8283331b3a0014b2f0d094d98647196ff08a2b229e48a277",
+  "frozen_source_hashes": {
+    "human_review_package_tsv": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+    "deterministic_grouping_artifacts": {
+      "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1.tsv": "fb3efd22d35a4f1909464034782fb8cbb2ffa6d6a2a959f3080814ecad671402",
+      "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1_audit_v1.json": "adf656c74c186e83d35d08afdc9fa873cf9d51b6fbb6319d25af22d4c9fc0be7",
+      "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1_manifest.json": "e30de065faa3cf3122332d92cb6cb0bb97884008c101f23d045f9f946de07974"
+    },
+    "P2_batch01_artifacts": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1.parquet": "f0c6eb9f2cb0f74c2b32dbd62d1af73993a289484815bc623593757c07c0457f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1.tsv": "4631b1bd0139ff202a5704a993e4fca068a7b38c4bb365bc947f6c43af4a9141",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1_audit_v1.json": "028c1f632502e07debbca03a4500072400e93dbc173fb2f16c3413c75c3a8e8e",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1_manifest.json": "627134d0ed091def41e58a3e6292364b33a86fde598c4807ab28212a85456467"
+    }
+  },
+  "output_hashes": {
+    "openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1.tsv": "d5dfb302508c864445022bd53fabb5b5f338349d41272fc6806555efc4aadc77",
+    "openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1.parquet": "63b77d406e505505bfba80a5dce81e9a4402453c51f8344d4f5bde6b91bd215c"
+  },
+  "parquet_schema": "review_order: int64 not null\nreview_priority: string not null\nreview_candidate_id: string not null\nproject_work_id: string not null\nopenalex_work_id: string not null\nincrement_type: string not null\nreview_semantic_group_id: string not null\nreview_protocol_version: string not null\nhuman_target_attribution_judgment: string not null\nhuman_adjudication_confidence: string not null\nhuman_attribution_reason_code: string not null\nhuman_reviewer_note: string not null\nhuman_reviewer_id: string not null\nhuman_adjudicated_at_utc: string not null",
+  "statement": "Exactly three human-provided P2 target-attribution adjudications; no precision estimate is calculated."
+}
