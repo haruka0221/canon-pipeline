@@ -1,0 +1,3611 @@
+{
+  "release": "openalex_p3_deterministic_review_inventory_v1",
+  "release_version": "v1",
+  "artifact_status": "DETERMINISTIC_DESCRIPTIVE_REVIEW_INVENTORY_ONLY",
+  "authoritative": false,
+  "status": "PASSED",
+  "source_branch": "kakenc-integration-20260927",
+  "source_HEAD": "be76b92197a46711b49a4220614b35318c0b9c60",
+  "frozen_baseline_commit": "76d5524c042bbc7ac55f376f142125f632d579d1",
+  "builder": {
+    "path": "scripts/build_openalex_p3_deterministic_review_inventory_v1.py",
+    "sha256": "b25bd85f1e682d26cf762541df5919190f482d82dfce4e1ce8e7c4f61c80ad96"
+  },
+  "method_specification": "docs/OPENALEX_P3_DETERMINISTIC_REVIEW_INVENTORY_V1.md",
+  "source_package": {
+    "path": "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90",
+    "rows": 661,
+    "file_hashes": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/README.md": "6bef956ab54f0a684c3e7c73c75e9395cae8689aeace1d97c4decb6806b7de89",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.parquet": "ae2086b796d0e0720244a9f03e81e701ec38db525762cedf78cf6b0318c5e583",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.tsv": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1_audit_v1.json": "502654ec26a73bc1c223b9bd1df7981bb83f677e9a7cfda3a59aa8af3437e80e",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1_manifest.json": "e1da13f22e957c4d999544342757b8fb7c6832d2be151d022d950c1764e2f5c6"
+    },
+    "candidate_tsv_sha256": "27c33e74585ee2e2930dfd6720583241c71cc3b8936d71a224ebb55a506115ba"
+  },
+  "source_deterministic_grouping": {
+    "path": "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90",
+    "file_hashes": {
+      "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1.tsv": "fb3efd22d35a4f1909464034782fb8cbb2ffa6d6a2a959f3080814ecad671402",
+      "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1_audit_v1.json": "adf656c74c186e83d35d08afdc9fa873cf9d51b6fbb6319d25af22d4c9fc0be7",
+      "derived/openalex_production/p2_deterministic_grouping_v1/full_profile_57959e90/openalex_p2_deterministic_grouping_v1_manifest.json": "e30de065faa3cf3122332d92cb6cb0bb97884008c101f23d045f9f946de07974"
+    }
+  },
+  "frozen_prior_artifact_hashes": {
+    "p1_p2_batches": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch01/openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1.parquet": "ab5e1ddbc4d3040b007c4d16f695e3cdbc0e6ad271df29aacb8cc5f55489de38",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch01/openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1.tsv": "febbc2ce7505d2e46b916e4eff9383eae6ae98b6cc7aac5076220af43e48f7e2",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch01/openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1_audit_v1.json": "488e6b425bd037f00b8b807b9dabf281d153696f83932c23f7ac745090dac775",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch01/openalex_retrieval_precision_review_human_adjudication_P1_batch01_v1_manifest.json": "fac0760aa965c84c5d7cc49ce91f4062db62648ed29e60c88f829bfaa08de158",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch02/openalex_retrieval_precision_review_human_adjudication_P1_batch02_v1.parquet": "44ad4862686e759ab123da566c70b5eecce54c9dbec6aede98499a71e4f0ee05",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch02/openalex_retrieval_precision_review_human_adjudication_P1_batch02_v1.tsv": "b5b57880db6b621af54573c2a372f0d00a81c235780aae9d7e5c3523fa65a766",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch02/openalex_retrieval_precision_review_human_adjudication_P1_batch02_v1_audit_v1.json": "6b95d326af5451a1a663656ad187e2a25d1c3e28f64d86ade87a7c09f1199328",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch02/openalex_retrieval_precision_review_human_adjudication_P1_batch02_v1_manifest.json": "a2e5d04436651223590fe05a00228444c80239d7b298b0074d9c7796376b7e9b",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch03/openalex_retrieval_precision_review_human_adjudication_P1_batch03_v1.parquet": "9e62fbbeb75b99d397c88c319b9894f506e9c22c6759416cf9f596b6dd16eec1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch03/openalex_retrieval_precision_review_human_adjudication_P1_batch03_v1.tsv": "06b25cc7b01e32255ac0e3061bf9acd950717a72354e80deb4b1f3aec95fed09",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch03/openalex_retrieval_precision_review_human_adjudication_P1_batch03_v1_audit_v1.json": "e7b9b4b7dd7855caf1feb1b124db49599689ac588569faefed73fffdc9699c15",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch03/openalex_retrieval_precision_review_human_adjudication_P1_batch03_v1_manifest.json": "466ff6fb04b47e8f55f4d036cc642a7cde61cec15fe9efa09f815c6cd4eb9bf4",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch04/openalex_retrieval_precision_review_human_adjudication_P1_batch04_v1.parquet": "83f19e1664cbca2d9bdefe9bd4fdfcc104b4bdae0e0779324905d0473ab53788",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch04/openalex_retrieval_precision_review_human_adjudication_P1_batch04_v1.tsv": "8b31ae38bb2f43eba0978e00641afef266caad078a3e604316b95288b9392ccc",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch04/openalex_retrieval_precision_review_human_adjudication_P1_batch04_v1_audit_v1.json": "99fd870e194fb1fdd5f83270c703712b972f3639aef74ce04c8caf96ce85d252",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch04/openalex_retrieval_precision_review_human_adjudication_P1_batch04_v1_manifest.json": "f38636f201fd1d28fc2c780fc6ad783f16162c7e39f55ee091b5e1981045f97a",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch05/openalex_retrieval_precision_review_human_adjudication_P1_batch05_v1.parquet": "2727d33217c349b5c685c19347bcf87976676f1f3ca80afea67c606db27395b7",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch05/openalex_retrieval_precision_review_human_adjudication_P1_batch05_v1.tsv": "213aaa372dbaaf7b497c6979f7a6bd16191f421dded92be39679b5ae51a2558b",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch05/openalex_retrieval_precision_review_human_adjudication_P1_batch05_v1_audit_v1.json": "ef57165cd2257308b7692913537736f173e195a0c8705cfd5309d869fd88df0f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P1_batch05/openalex_retrieval_precision_review_human_adjudication_P1_batch05_v1_manifest.json": "8a3ebb43ef2f451348797606dfea35c8485b3edb2c16b4926cb8dea512ab011e",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1.parquet": "f0c6eb9f2cb0f74c2b32dbd62d1af73993a289484815bc623593757c07c0457f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1.tsv": "4631b1bd0139ff202a5704a993e4fca068a7b38c4bb365bc947f6c43af4a9141",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1_audit_v1.json": "028c1f632502e07debbca03a4500072400e93dbc173fb2f16c3413c75c3a8e8e",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch01/openalex_retrieval_precision_review_human_adjudication_P2_batch01_v1_manifest.json": "627134d0ed091def41e58a3e6292364b33a86fde598c4807ab28212a85456467",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1.parquet": "63b77d406e505505bfba80a5dce81e9a4402453c51f8344d4f5bde6b91bd215c",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1.tsv": "d5dfb302508c864445022bd53fabb5b5f338349d41272fc6806555efc4aadc77",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1_audit_v1.json": "478c82236c1f80e80276d48ee8b89717b96605762264f415fd8f18ebd0a763b1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch02/openalex_retrieval_precision_review_human_adjudication_P2_batch02_v1_manifest.json": "1b9bfed9a80cffbbddb6c67c22f235673265f5e3cdea9d1e34f38f9e639260f7",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1.parquet": "d47e3dade637d9926dfc85173da99584da1d8bd0d25a02a1156073d876801b57",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1.tsv": "f99d0852f18adafef4bd251ebd17c129817a2d86ac90b6ee20401e32cf1d2f53",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1_audit_v1.json": "bdcfe3c34c37d5f2f356a73c9287b281e593ec87f051449ed2d433c472e95098",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch03/openalex_retrieval_precision_review_human_adjudication_P2_batch03_v1_manifest.json": "bcef2596139897b6f6735242496df31cb53054bef8e010aa4b0a7718b3ff2ae1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1.parquet": "74ef1659857fc444297dcc5f658da37319395893e2b528ccc0c8cce4fd4b0c13",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1.tsv": "d97492fadadc0b96ee39461596016f0c99730fd0218be88fba21ebfe23d666e6",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1_audit_v1.json": "a880199b6d19141be79846bee2f9bf1768fbf9b81112a8a7809ef88c39d35c50",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch04/openalex_retrieval_precision_review_human_adjudication_P2_batch04_v1_manifest.json": "5a8fbf032c262fc64c89de6a0e67304765690a75d89596aaff0011452149efc1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1.parquet": "008c948ce80efa1d34d42cf483ecec06013b4c52a2d3b453956b8538ef137351",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1.tsv": "4d61deaff45ca9e05a60a9504e1b6d92fe69f0e403ce3a54a49beea765a237f1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1_audit_v1.json": "bc501c1ef2f55a17a13e0c272b393c1e027619d45e9c83c0ec25b3ebd145cbe7",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch05/openalex_retrieval_precision_review_human_adjudication_P2_batch05_v1_manifest.json": "0a621018ad711a687cec970c0fb999dad57c94219d06844a3a05f94c807ce289",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1.parquet": "bf2e2c06e0e2e888f1d21a57d68676519433cda6b8c123adde8be8783f414bed",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1.tsv": "2ba2630f82ae42760d3807d6f0d75cf0205cde54beddb3cece533876cb0fa19f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1_audit_v1.json": "2bf49441aed0a8c64a208e4c2d896645419438479cabd160520b3c9b582b88b4",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch06/openalex_retrieval_precision_review_human_adjudication_P2_batch06_v1_manifest.json": "4027f3cc3209e93c50290149227629ae7d13d05b18c9f74c501b96dbafedcf34",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch07/openalex_retrieval_precision_review_human_adjudication_P2_batch07_v1.parquet": "165e6068fbde77f0f64e6998595645159682c13071317901db66cf49733926e0",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch07/openalex_retrieval_precision_review_human_adjudication_P2_batch07_v1.tsv": "bf8274963809c0f62582ddeb8e3e340e01cafdd1928b0618eaf19e6fc74005bc",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch07/openalex_retrieval_precision_review_human_adjudication_P2_batch07_v1_audit_v1.json": "0ea21e4a6a03f542426d4635b1f808b36b155ec43cfd9fc953899343b1a266c5",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch07/openalex_retrieval_precision_review_human_adjudication_P2_batch07_v1_manifest.json": "1f9804e8bbbe0e288b2fb0b741f4b60fde8e0a7fed4925f8f528fa1f5e14391e",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch08/openalex_retrieval_precision_review_human_adjudication_P2_batch08_v1.parquet": "516770ddb29cb1f95831069b7ef950f34ea728a94c65bdf29cce3ab991d60999",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch08/openalex_retrieval_precision_review_human_adjudication_P2_batch08_v1.tsv": "e31c54c521d45a33dabdbb0007bdb0b44032ca9670760de989ad2347899e1022",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch08/openalex_retrieval_precision_review_human_adjudication_P2_batch08_v1_audit_v1.json": "267da56d5ae1912c0f3369a24cda16375db4925da8593aced10e9df88d4054d7",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch08/openalex_retrieval_precision_review_human_adjudication_P2_batch08_v1_manifest.json": "4452fec8ec50e73572d7320e2e156fed0a6ea49010fc3f3cb538cae959f4a684",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch09/openalex_retrieval_precision_review_human_adjudication_P2_batch09_v1.parquet": "afe2305e04bc54595ae7ce75976317a23a1a92e48fe125077de5b1bedb9d7aad",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch09/openalex_retrieval_precision_review_human_adjudication_P2_batch09_v1.tsv": "10460227eef6cebf948004822dfdea5df11fc892ed1050802f4cf12b8601a38f",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch09/openalex_retrieval_precision_review_human_adjudication_P2_batch09_v1_audit_v1.json": "03b06c79787890df62b40b1df62e639f0aa26641259df3cd1ac4de8a40cc3f1d",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_batches_v1/full_profile_57959e90/P2_batch09/openalex_retrieval_precision_review_human_adjudication_P2_batch09_v1_manifest.json": "0a7caec428821d82c672b17f8d078de512376422b90e83eb2a68f09b11422ffe"
+    },
+    "p2_complete_aggregate": {
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1.parquet": "b4b1329bba569a559aaeb29a475db8d86505c70b0fe7cccbf1978d002e3113e1",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1.tsv": "b4518419885e8d821e37d9e1c2f796be67b058bf267ba80330115e24011849b3",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1_audit_v1.json": "23036629857f87d3c8dcae213606467e3446cd823a6329cbc5dad12041fdb6e2",
+      "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_P2_complete_v1_manifest.json": "c6c103cec8a86d72d9b97dc01a3ff82401e21047d2796f723334b9813bbd3db9"
+    }
+  },
+  "dimensions": {
+    "candidate_rows": 493,
+    "candidate_columns": 84,
+    "project_work_rows": 51,
+    "project_work_columns": 9,
+    "evidence_signature_rows": 95,
+    "evidence_signature_columns": 18
+  },
+  "summary": {
+    "candidate_count": 493,
+    "project_work_count": 51,
+    "candidates_per_project_work_distribution": {
+      "1": 22,
+      "2": 6,
+      "3": 4,
+      "4": 5,
+      "5": 2,
+      "6": 3,
+      "12": 2,
+      "15": 1,
+      "19": 1,
+      "27": 1,
+      "31": 1,
+      "42": 1,
+      "47": 1,
+      "194": 1
+    },
+    "singleton_project_works": 22,
+    "multi_candidate_project_works": 29,
+    "work_candidate_count_max": 194,
+    "project_work_evidence_pattern_count_distribution": {
+      "1": 30,
+      "2": 6,
+      "3": 7,
+      "4": 8
+    },
+    "project_works_spanning_multiple_evidence_patterns": 21,
+    "distinct_raw_evidence_pattern_signatures": 95,
+    "project_work_evidence_subgroups": 95,
+    "review_batch_count": 25,
+    "review_batch_capacity": 25,
+    "complexity_classes": {
+      "HIGH_REVIEW_LOAD": 10,
+      "LOW_REVIEW_LOAD": 26,
+      "MODERATE_REVIEW_LOAD": 15
+    },
+    "distributions": {
+      "llm_target_attribution_judgment": {
+        "VALID_TARGET_REFERENCE": 493
+      },
+      "llm_adjudication_confidence": {
+        "HIGH": 488,
+        "MEDIUM": 5
+      },
+      "llm_attribution_reason_code": {
+        "DIRECT_TARGET_REFERENCE": 493
+      },
+      "increment_type": {
+        "A2_AUTHOR_REVERSAL": 242,
+        "ALIAS_EXPANSION": 251
+      },
+      "hit_location": {
+        "ABSTRACT_ONLY": 300,
+        "TITLE_AND_ABSTRACT": 105,
+        "TITLE_ONLY": 88
+      },
+      "abstract_available": {
+        "False": 61,
+        "True": 432
+      },
+      "any_title_match_in_title": {
+        "False": 300,
+        "True": 193
+      },
+      "any_title_match_in_abstract": {
+        "False": 88,
+        "True": 405
+      },
+      "any_author_a1_hit": {
+        "False": 242,
+        "True": 251
+      },
+      "any_author_a2_reverse_hit": {
+        "False": 251,
+        "True": 242
+      },
+      "provenance_multiplicity": {
+        "MULTIPLE": 83,
+        "SINGLE": 410
+      },
+      "title_token_count": {
+        "1": 45,
+        "2": 298,
+        "3": 61,
+        "4": 43,
+        "5": 34,
+        "6": 6,
+        "9": 6
+      },
+      "title_token_bucket": {
+        "1": 45,
+        "2": 298,
+        "3+": 150
+      },
+      "type": {
+        "article": 264,
+        "book": 26,
+        "book-chapter": 71,
+        "book-review": 8,
+        "conference-paper": 5,
+        "dataset": 2,
+        "dissertation": 49,
+        "other": 63,
+        "paratext": 3,
+        "reference-entry": 2
+      },
+      "language": {
+        "": 6,
+        "de": 15,
+        "en": 401,
+        "es": 12,
+        "fr": 15,
+        "hr": 1,
+        "it": 18,
+        "ja": 4,
+        "ko": 1,
+        "nl": 1,
+        "pl": 3,
+        "pt": 7,
+        "sl": 1,
+        "sv": 3,
+        "th": 4,
+        "ur": 1
+      },
+      "is_retracted": {
+        "False": 493
+      },
+      "is_paratext": {
+        "False": 490,
+        "True": 3
+      },
+      "llm_human_attention_required": {
+        "False": 493
+      },
+      "llm_taxonomy_issue": {
+        "False": 493
+      }
+    }
+  },
+  "expected_review_notice": "Grouping is a review aid only and does not authorize shared human judgments.",
+  "review_batches": [
+    {
+      "review_batch_id": "P3B01",
+      "candidate_count": 20,
+      "p3_review_order_start": 1,
+      "p3_review_order_end": 20,
+      "project_work_ids": [
+        "W000001334",
+        "W000001998",
+        "W000004216",
+        "W000006250",
+        "W000011243",
+        "W000012082",
+        "W000012083",
+        "W000012521",
+        "W000012633"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B02",
+      "candidate_count": 25,
+      "p3_review_order_start": 21,
+      "p3_review_order_end": 45,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B03",
+      "candidate_count": 25,
+      "p3_review_order_start": 46,
+      "p3_review_order_end": 70,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B04",
+      "candidate_count": 25,
+      "p3_review_order_start": 71,
+      "p3_review_order_end": 95,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B05",
+      "candidate_count": 25,
+      "p3_review_order_start": 96,
+      "p3_review_order_end": 120,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B06",
+      "candidate_count": 25,
+      "p3_review_order_start": 121,
+      "p3_review_order_end": 145,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B07",
+      "candidate_count": 25,
+      "p3_review_order_start": 146,
+      "p3_review_order_end": 170,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B08",
+      "candidate_count": 25,
+      "p3_review_order_start": 171,
+      "p3_review_order_end": 195,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B09",
+      "candidate_count": 19,
+      "p3_review_order_start": 196,
+      "p3_review_order_end": 214,
+      "project_work_ids": [
+        "W000012843"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B10",
+      "candidate_count": 24,
+      "p3_review_order_start": 215,
+      "p3_review_order_end": 238,
+      "project_work_ids": [
+        "W000013001",
+        "W000013782",
+        "W000022646",
+        "W000023580",
+        "W000024260",
+        "W000025627",
+        "W000027859",
+        "W000029053",
+        "W000030303",
+        "W000031720",
+        "W000031727"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B11",
+      "candidate_count": 25,
+      "p3_review_order_start": 239,
+      "p3_review_order_end": 263,
+      "project_work_ids": [
+        "W000031733"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B12",
+      "candidate_count": 17,
+      "p3_review_order_start": 264,
+      "p3_review_order_end": 280,
+      "project_work_ids": [
+        "W000031733"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B13",
+      "candidate_count": 25,
+      "p3_review_order_start": 281,
+      "p3_review_order_end": 305,
+      "project_work_ids": [
+        "W000031746",
+        "W000031752",
+        "W000031771",
+        "W000031775",
+        "W000031792"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B14",
+      "candidate_count": 25,
+      "p3_review_order_start": 306,
+      "p3_review_order_end": 330,
+      "project_work_ids": [
+        "W000031804"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B15",
+      "candidate_count": 22,
+      "p3_review_order_start": 331,
+      "p3_review_order_end": 352,
+      "project_work_ids": [
+        "W000031804"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B16",
+      "candidate_count": 20,
+      "p3_review_order_start": 353,
+      "p3_review_order_end": 372,
+      "project_work_ids": [
+        "W000031833",
+        "W000031927",
+        "W000031931",
+        "W000031939",
+        "W000031941"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B17",
+      "candidate_count": 25,
+      "p3_review_order_start": 373,
+      "p3_review_order_end": 397,
+      "project_work_ids": [
+        "W000031942"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B18",
+      "candidate_count": 6,
+      "p3_review_order_start": 398,
+      "p3_review_order_end": 403,
+      "project_work_ids": [
+        "W000031942"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B19",
+      "candidate_count": 1,
+      "p3_review_order_start": 404,
+      "p3_review_order_end": 404,
+      "project_work_ids": [
+        "W000031946"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B20",
+      "candidate_count": 25,
+      "p3_review_order_start": 405,
+      "p3_review_order_end": 429,
+      "project_work_ids": [
+        "W000031949"
+      ],
+      "oversized_project_work_split": true
+    },
+    {
+      "review_batch_id": "P3B21",
+      "candidate_count": 2,
+      "p3_review_order_start": 430,
+      "p3_review_order_end": 431,
+      "project_work_ids": [
+        "W000031949"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B22",
+      "candidate_count": 25,
+      "p3_review_order_start": 432,
+      "p3_review_order_end": 456,
+      "project_work_ids": [
+        "W000031954",
+        "W000031962",
+        "W000031967",
+        "W000031997"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B23",
+      "candidate_count": 9,
+      "p3_review_order_start": 457,
+      "p3_review_order_end": 465,
+      "project_work_ids": [
+        "W000032001",
+        "W000032009",
+        "W000032024",
+        "W000032026",
+        "W000032060"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B24",
+      "candidate_count": 22,
+      "p3_review_order_start": 466,
+      "p3_review_order_end": 487,
+      "project_work_ids": [
+        "W000032069",
+        "W000032070",
+        "W000032072"
+      ],
+      "oversized_project_work_split": false
+    },
+    {
+      "review_batch_id": "P3B25",
+      "candidate_count": 6,
+      "p3_review_order_start": 488,
+      "p3_review_order_end": 493,
+      "project_work_ids": [
+        "W000032087",
+        "W000032088",
+        "W000032089"
+      ],
+      "oversized_project_work_split": false
+    }
+  ],
+  "risk_flag_counts": {
+    "ABSTRACT_UNAVAILABLE": 61,
+    "EMPTY_OPENALEX_DISPLAY_NAME": 2,
+    "MISSING_LANGUAGE_METADATA": 6,
+    "MISSING_PUBLICATION_YEAR_METADATA": 15,
+    "MULTIPLE_CANDIDATES_FOR_PROJECT_WORK": 471,
+    "MULTIPLE_EVIDENCE_PATTERNS_FOR_PROJECT_WORK": 444,
+    "MULTIPLE_PROVENANCE_ROUTES": 83,
+    "OPENALEX_PARATEXT_FLAG": 3,
+    "OPENALEX_WORK_ID_REUSED_IN_P3": 8,
+    "RAW_ABSTRACT_REUSED_IN_P3": 92,
+    "RAW_DISPLAY_NAME_REUSED_IN_P3": 119,
+    "RAW_TITLE_ABSTRACT_PAIR_REUSED_IN_P3": 86,
+    "SHORT_TITLE_MATCH_1_TOKENS": 45,
+    "SHORT_TITLE_MATCH_2_TOKENS": 298,
+    "TITLE_ONLY_EVIDENCE": 88
+  },
+  "duplicate_and_near_duplicate_cues": {
+    "same_openalex_work_id": {
+      "duplicate_groups": 4,
+      "excess_candidate_rows": 4,
+      "groups": [
+        {
+          "matched_raw_fields_sha256": "bdcca4f02c1cb49c8e62c4fc85f2e216eac0ce6c40b8ec63138bc78f2d01fe9b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fd3632433b804ffe",
+            "OAPRV3_bbe3d5ad7e5d6374"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1562395565"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "147665a77c3760b303c51f6816c1d2fb5dcc470b89e788d39ab0f7797a72079e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6f3a3b43795b1b73",
+            "OAPRV3_2f73f0f7a59ad1f1"
+          ],
+          "project_work_ids": [
+            "W000012082",
+            "W000012083"
+          ],
+          "openalex_work_ids": [
+            "W2327377418"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1fde2ef40d43de15f54eda852a86a8eba2aeb2ab3213203fe87939c2970b955d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f4a2c8b113eed832",
+            "OAPRV3_a026264b75c545cb"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6911266404"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "2a3543156e2e24ec6f2917a01b118c2370d4524c0324492396c51dff1560c30a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6fe67fae5a7d8f1d",
+            "OAPRV3_f5bfd8ce5437b2ac"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W7025437774"
+          ]
+        }
+      ]
+    },
+    "same_raw_display_name": {
+      "duplicate_groups": 56,
+      "excess_candidate_rows": 63,
+      "groups": [
+        {
+          "matched_raw_fields_sha256": "8ae5569344c40fdab679f9c7f791f1136fab9f40dc398005803a1b6bf9af29de",
+          "candidate_count": 3,
+          "review_candidate_ids": [
+            "OAPRV3_381de394969fad1d",
+            "OAPRV3_b7da917cb6a94147",
+            "OAPRV3_e747fdf838c186e5"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W1543511762",
+            "W4234914977",
+            "W6989557717"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1f1b76ffe4b8b1ebd883010dc063f6f020f6c0e5e7f3b99fdc525f50480764f2",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c117d931c78589d8",
+            "OAPRV3_47ba550ced13e619"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W1597949804",
+            "W7060654313"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "7a609873bae6038965e33e14f8a5428c0736b6686559d4a16d573f5e4e05dd96",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bc011007f9fcbace",
+            "OAPRV3_c2e7351b66afd0f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908295162",
+            "W6964300943"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "bb344020a0cd87c054d2b4e7d6c427ba1c62320ebdcbe40d4ef2d47b5f7505ee",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_582451dbf2bd929a",
+            "OAPRV3_329d4651ffdf1c15"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907877212",
+            "W6945506143"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3b5d9e2a3c5d20ff9cc88722e476a9b52f6e5043a82b9b1376f636f4b0694496",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e577f47c06139523",
+            "OAPRV3_eded6607c97c7316"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889104806",
+            "W6964181424"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "84b810940671a0ac8462d5d1936a5e775b5f7d5ddb4c3a97400802c8ffaa4e3c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_21d4438c7e29f04a",
+            "OAPRV3_d6aee0aafe5e6ffe"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908111930",
+            "W6945592150"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c4ef494280b72b060437522752b17b85ef169d1504ba206e9eb80c146322683f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_229dfbefa7c764df",
+            "OAPRV3_8b3cde2c4e4ef21e"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907882489",
+            "W6907993650"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "6178f14294c9a326246c2830a7c0d953a35c29e548b78bc7c273c38a4c797970",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bb9cc95f440c5816",
+            "OAPRV3_9243af873e0ef0e8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889196012",
+            "W6889254183"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "4855dc8a019358a18eb304343c3b6a4b1343c9474befb9cc9fa7939f86aa16e3",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_d6febf0305ca0bd8",
+            "OAPRV3_aa5ae2c8f7e82141"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945215118",
+            "W6945630519"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "deed1b38ed0bd8de6aa06c97ac4e6370713c63062d2984ab08254033e53f785c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2a57d043acf4b808",
+            "OAPRV3_28134dd8cd2e089d"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889229793",
+            "W6964376592"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a0938d622f2d86f55337dc4bef01d7217c90b8e782d0edadedd2a9b76e3033d7",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_84226853f097da6b",
+            "OAPRV3_ee350a1b406263f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907887457",
+            "W6964260646"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f30c9573f241ab2e0c139cbb48a2938f66bbd50625aa20e8767f0293241fa341",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_0eade024deae23b4",
+            "OAPRV3_135be0aae5603ddb"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889142191",
+            "W6964087938"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "727ec855807e8efa167cb9b8c2912619186c9802967d0e9ed5776987733e2636",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8ef61052e563d3f6",
+            "OAPRV3_3c9fbad6310d6312"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907997126",
+            "W6964187013"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a016e034e12add1cd4805cb8226017d77768a6ee015e5a9571f25c8c0bf9c279",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8a514eaca45b9481",
+            "OAPRV3_4285f0fccfeed07a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889159721",
+            "W6964398347"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "5803d7557d9d8fb036329aec3adcd3e8cc6737cc818eb1eb7a3e2e9a4678963e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_370040ba35a6de4e",
+            "OAPRV3_5a69f6e5a75e3973"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889255478",
+            "W6945394665"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "64338506ad473d130f0704b3fb389085327519538249148a3d6c44abb80aa80b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_18916e472df8916a",
+            "OAPRV3_26988be6fd601186"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908125915",
+            "W6963880777"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a1a16433b91be9fe743b490780d8e8b51621a2d3362ba20f2a70403475b8de5a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fbcccb7f475fb066",
+            "OAPRV3_064c90899e003054"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944983295",
+            "W6964504682"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1a19e5a44b6208c3671267363c91b1c8e8bc42bf6a5cd3b6512f18558358c5f9",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_7b2cee3bb1269aa7",
+            "OAPRV3_edbd2752c373a621"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945573734",
+            "W6945587181"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "443588d87641e3c611018db5999d59e1c1ef8790d285ff378f407fa2a97b4e03",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_58c8a96aaf8e4b1a",
+            "OAPRV3_cd4ffbf31604dcd8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907924895",
+            "W6926898598"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "969be57863ea7d3e96fd0ac6677871099b2e1d630d23c2083cc0007e91f6bc5a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e64a473f89229c7c",
+            "OAPRV3_2410e9cb1ce0abd9"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889185096",
+            "W6945307612"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "0646a3ea802e08afffbf49d290bae460953924b836da43f7fee8bdb690e09354",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_a95796b191dae3ed",
+            "OAPRV3_f161d582efcd6eea"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964070957",
+            "W6964275712"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8db7453363bfa51ef783214ca8d18819c2816f2624816e243915c79a4ce9532b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_08ba671af46d5d2f",
+            "OAPRV3_f1660aebae5d5ff6"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964079590",
+            "W6964314826"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3cc34c386c51e760e12480b6720326401a8023ed56b9697291cc7204f43034de",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_76e973b2d31f9d5c",
+            "OAPRV3_7e4bd53ff5d6c433"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889088020",
+            "W6907814390"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "bb9acbe53cbbba8f5fcace807c87571d54c0c18b3c61ad5b73803b2034e21778",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_402d576ca113a68b",
+            "OAPRV3_853e653dd30b8eb2"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889224921",
+            "W6945552407"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "610a7015c9faa6b010fb4c2776b624549c53167cc5e383b797910fc7afbec664",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c68797254b436515",
+            "OAPRV3_808816185f07a09a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907828753",
+            "W6926659272"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "753e58a34d7802327bce73079eb839b4dcce6b1c37ef808dab7da421a3c7c93a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1c9570528a53b793",
+            "OAPRV3_156c265bc1f49bb8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889227255",
+            "W6964142637"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b9fc9d3825881fc18da5e52cc49162fe4c2aa5ac0c3bb76e0c4cbaccbff4c51a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2d7bbe9ef108c843",
+            "OAPRV3_ecbc9ec93ab11cbd"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945490753",
+            "W6964062061"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "713a9a5809fdab5940055450a3cffd693080bb00a77f06d4d341cd64de813b23",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8083de58b165f611",
+            "OAPRV3_b5d72eae7ea97cce"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6926914080",
+            "W6945587885"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c7fc3a90c47b7f014fd49c0c1d19db5d72ca9b87185ffb60d5ef0f899c2eb1a2",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_5d70f8c2507d4a46",
+            "OAPRV3_1cb591eaca512e8c"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907817927",
+            "W6908042824"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "307ed0c2ae9b5c45689783feef59aff9cc49b6c6331dce594ec6393b89306af0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_82443ae9cf7b1e22",
+            "OAPRV3_447899fd034ab037"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908103011",
+            "W6926580408"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "0ed4038c1756f3b5728a64f9ada8c9e76519cd867553d5be26e7c42993aa3728",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8343e33c2fed6555",
+            "OAPRV3_3aecf0482ccca4ae"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907786910",
+            "W6908054632"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "e90f572f9eb561b48c8686ac594a509837a3e4e7232acb47478efe44c055858d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_22786d4f643fa13e",
+            "OAPRV3_5d7daf276fd178b2"
+          ],
+          "project_work_ids": [
+            "W000031720"
+          ],
+          "openalex_work_ids": [
+            "W7017419682",
+            "W7104488721"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "cb3a6269c9d99176f63db6eb6d51b1ffa5f938ed1a54e5ef9a8b99ab60722ebe",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fb2fbdfd63737003",
+            "OAPRV3_539fecf4eea5832c"
+          ],
+          "project_work_ids": [
+            "W000031997"
+          ],
+          "openalex_work_ids": [
+            "W2762860773",
+            "W7036810283"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f4c17e9bf23a365ea6e97cbba3a73bcde432e81411c8b62f2fd8b76c7f9749a0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_14865c77b1223970",
+            "OAPRV3_b1b8ca95d08d0032"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W6920825802",
+            "W7163045828"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "937919f7f8d7dd3a593762ebbd14469edcc8a3b77cb182e8915b30ea447dfbd3",
+          "candidate_count": 4,
+          "review_candidate_ids": [
+            "OAPRV3_f9393633b546f578",
+            "OAPRV3_5a72793b70cdf8dc",
+            "OAPRV3_5009d0444bbcef73",
+            "OAPRV3_a5b98c6e1680bbf2"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W4245157565",
+            "W4246211997",
+            "W4248812553",
+            "W4251618022"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "27d3df5c92ce83aed847ac7a9a55d42f4384f00bd0af6e4134d3f12a664d5c6c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_be027fb862966bc3",
+            "OAPRV3_a77843f5d137d27a"
+          ],
+          "project_work_ids": [
+            "W000031733"
+          ],
+          "openalex_work_ids": [
+            "W6948966142",
+            "W6967896970"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "89ef5950d2ea54898a13b8936d7374333f117ae9361cfa3e61db27211a27101f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_34b96e2da644a42c",
+            "OAPRV3_e85a4f25523f8125"
+          ],
+          "project_work_ids": [
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1912208073",
+            "W7073934190"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "eff3caff463c112e5cb66e5060262ea05a9c8e6fb7949b72adaa16156325648c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_0f9c9728c3d1d777",
+            "OAPRV3_7550bba634054ec9"
+          ],
+          "project_work_ids": [
+            "W000031733"
+          ],
+          "openalex_work_ids": [
+            "W2992663898",
+            "W6991546765"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "225de2e3f8ab16d4a7dc4ef0af78038c3ee14af90cb112b76c865edcc3d56826",
+          "candidate_count": 4,
+          "review_candidate_ids": [
+            "OAPRV3_60ca5566b85b9699",
+            "OAPRV3_2614125a0c6de226",
+            "OAPRV3_1e4311100aab7715",
+            "OAPRV3_4c636bd05bb5db32"
+          ],
+          "project_work_ids": [
+            "W000025627",
+            "W000031727",
+            "W000031733",
+            "W000031833"
+          ],
+          "openalex_work_ids": [
+            "W4241542520",
+            "W4248855513",
+            "W4399085658",
+            "W4404928190"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "075461921d131dad6031ca94ea2fcd73abe35706900f9f018771bda578a3696f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_b30d263fd5078770",
+            "OAPRV3_26190d211049b2bf"
+          ],
+          "project_work_ids": [
+            "W000031771"
+          ],
+          "openalex_work_ids": [
+            "W6911664993",
+            "W6930399928"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "7829e714b5599466a2eb7caa5ade33ab52a88e38d674765472f59bcb6f0496fb",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2bad108b83308e7a",
+            "OAPRV3_45303543a0cc4543"
+          ],
+          "project_work_ids": [
+            "W000031771"
+          ],
+          "openalex_work_ids": [
+            "W6948769848",
+            "W6967547026"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "94e2b192aa730e7554c13b7a3e5c5e81a47a1fe4435b8cbee27e3d4e787b0e13",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1886ea3fc362881a",
+            "OAPRV3_39685af364a57f96"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W2269718299",
+            "W7207328701"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ad1eaf64d53876ab6d695fa4c3ae52bf92bd0a8e8f9ed1a6e4cad18325e2da3a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1f800ff31b50a1b8",
+            "OAPRV3_3d758d628c82a0c0"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944441238",
+            "W6962805597"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f4c52bf9a937f632d93f19cd10b12dd3154a0174911b86aa333a2c74b88e15c3",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_860012d92e6c5ac9",
+            "OAPRV3_f111f83bc2b11347"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W7015165243",
+            "W7024566474"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "03497eeceef37216b1a16bb9e5e79c930a1ac1b87f9c572d1ff4cbc374a59ce0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_ac1b4f45683ae7ee",
+            "OAPRV3_6335383b1d32b23e"
+          ],
+          "project_work_ids": [
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6892682262",
+            "W6930423302"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8d4f68e35a1ab05a82f7a3778980a1cd1e7ad7be24067a700b8aacee18f1f937",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6f3a3b43795b1b73",
+            "OAPRV3_2f73f0f7a59ad1f1"
+          ],
+          "project_work_ids": [
+            "W000012082",
+            "W000012083"
+          ],
+          "openalex_work_ids": [
+            "W2327377418"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f4f0efa31f678266718198295f20f2d8addf8478ff8f2e86da53bc24d717d2d4",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_5c9e4f1d72f95aaa",
+            "OAPRV3_b1c51168babe3053"
+          ],
+          "project_work_ids": [
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1490594063",
+            "W7057926930"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ba702f598320a0bd70eb174d9d3f27739edef9d22e73427d6d1864abca4424c8",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e0ca87f7c4a129be",
+            "OAPRV3_75a8b4c92fe81f27"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W2949031493",
+            "W7062522749"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8ccf476cebaa0bc904f7f7cd211216f03c0ab7fed328844063c7ad9bdad345c9",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f712c77ef7e66725",
+            "OAPRV3_0007a0d71ce75581"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907896685",
+            "W6945420221"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8909b50cfc07a25917f158c8102cac70e6016a2aabf499887adbb3a28e084559",
+          "candidate_count": 4,
+          "review_candidate_ids": [
+            "OAPRV3_fd3632433b804ffe",
+            "OAPRV3_6fe67fae5a7d8f1d",
+            "OAPRV3_bbe3d5ad7e5d6374",
+            "OAPRV3_f5bfd8ce5437b2ac"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1562395565",
+            "W7025437774"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "69e6ce925be428e20a143bd3123741eab43e3636cdd51a1833affe53898efe83",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f4a2c8b113eed832",
+            "OAPRV3_a026264b75c545cb"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6911266404"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3c0cccc1cd1474b7a3e5f2be55303323a1060189f1b7be46afc269d94aec684b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_139da912ad4f7c0b",
+            "OAPRV3_52a23b2516e41b7f"
+          ],
+          "project_work_ids": [
+            "W000031954"
+          ],
+          "openalex_work_ids": [
+            "W4408665078",
+            "W6886078409"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8e252ba1d958bba15722d9c2d7da3bd2c3bdc5a0c1ea2b5468508941fc7ffa70",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_cca4fa27d46f267c",
+            "OAPRV3_e4278a327f84d52e"
+          ],
+          "project_work_ids": [
+            "W000031954"
+          ],
+          "openalex_work_ids": [
+            "W4408692172",
+            "W6961126813"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "48106025be390e24743ed83a4e7771a1854d4cfebfc5deffa4d817ae60ae6a80",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c50d03a2242d65ad",
+            "OAPRV3_339ee39a44f35e85"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W2282716863",
+            "W7036035776"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "67f672db1bf75c988ac1338211a71f419fb0339652c27dc4f6d19a9c4ca5c6f0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_b8c5b3bcf636e949",
+            "OAPRV3_77614db0fa7137ec"
+          ],
+          "project_work_ids": [
+            "W000032069"
+          ],
+          "openalex_work_ids": [
+            "W2021306699",
+            "W7029686359"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "26f81a479d2b0718888c46ad90fe41645621d9abc6efc276b2e142b19f457d3f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6b15a7f22f679b51",
+            "OAPRV3_7396819b2e37a92a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W2935468084",
+            "W7042219122"
+          ]
+        }
+      ]
+    },
+    "same_raw_abstract": {
+      "duplicate_groups": 44,
+      "excess_candidate_rows": 48,
+      "groups": [
+        {
+          "matched_raw_fields_sha256": "70a9d245e34f4036a0aa9e8aecb8a1f3f2fd76583f2a5d0da0f91ddcc742d3bd",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bb9cc95f440c5816",
+            "OAPRV3_9243af873e0ef0e8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889196012",
+            "W6889254183"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "07d54276706aeb62fc5ff482f35117bb10518e4002087ef2a40ee02261618a6c",
+          "candidate_count": 6,
+          "review_candidate_ids": [
+            "OAPRV3_e577f47c06139523",
+            "OAPRV3_229dfbefa7c764df",
+            "OAPRV3_8b3cde2c4e4ef21e",
+            "OAPRV3_21d4438c7e29f04a",
+            "OAPRV3_d6aee0aafe5e6ffe",
+            "OAPRV3_eded6607c97c7316"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889104806",
+            "W6907882489",
+            "W6907993650",
+            "W6908111930",
+            "W6945592150",
+            "W6964181424"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "6fa8e385b51f49f8767efcf5fd0a46c0c3131ad5feef31095693cfeb5494f4b0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f712c77ef7e66725",
+            "OAPRV3_0007a0d71ce75581"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907896685",
+            "W6945420221"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "457e3acd7b9248260e2de393d891c5deab3479642eed51ed5179061eee418c93",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_22786d4f643fa13e",
+            "OAPRV3_5d7daf276fd178b2"
+          ],
+          "project_work_ids": [
+            "W000031720"
+          ],
+          "openalex_work_ids": [
+            "W7017419682",
+            "W7104488721"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f1af118f5aed97f11d3c17b4f8704cb44f096bcefc441fcf558a47777e0d26d8",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6f3a3b43795b1b73",
+            "OAPRV3_2f73f0f7a59ad1f1"
+          ],
+          "project_work_ids": [
+            "W000012082",
+            "W000012083"
+          ],
+          "openalex_work_ids": [
+            "W2327377418"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c3efcb7700c321e3141fb347270a3c129b4970b0819fc0ab1bf6a3d31212214c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fbcccb7f475fb066",
+            "OAPRV3_064c90899e003054"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944983295",
+            "W6964504682"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "6471882695e3c61e9709e7a2a608be6381a54a25a809e030a1047f754eb38544",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_a95796b191dae3ed",
+            "OAPRV3_f161d582efcd6eea"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964070957",
+            "W6964275712"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b0243a63e97e6ec54dfd4ca6f202f2ef300d74aa99495b0a4e68df1f8a91844c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_08ba671af46d5d2f",
+            "OAPRV3_f1660aebae5d5ff6"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964079590",
+            "W6964314826"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "af0aa1f0f7008f7a9ebcfebf6025e5d1d28243e3bc41d97e1b3145edc3d13e1b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_7b2cee3bb1269aa7",
+            "OAPRV3_edbd2752c373a621"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945573734",
+            "W6945587181"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "bae24f9301917c96f7a7e4ab300cbfd026360049f14a153db37c90d22631530d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_58c8a96aaf8e4b1a",
+            "OAPRV3_cd4ffbf31604dcd8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907924895",
+            "W6926898598"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b7aaccb4cadacc002ffd584fef06e23f8d22ebca1bef6126d89c8c0e576443f0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_18916e472df8916a",
+            "OAPRV3_26988be6fd601186"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908125915",
+            "W6963880777"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "4af3a5d58d96a2659f107a9023c6ceab9a3c3b9aad07da0db3047a2e36804133",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8ef61052e563d3f6",
+            "OAPRV3_3c9fbad6310d6312"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907997126",
+            "W6964187013"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f20c79d2904ceb53f1cbeeae7b365e729288a64291afc522bbe301c376427759",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8a514eaca45b9481",
+            "OAPRV3_4285f0fccfeed07a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889159721",
+            "W6964398347"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f87975f97fc0a5d8df49eb4aa1ac0344ecdd4f55eb7c6d7c67808b6ed363557a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_860012d92e6c5ac9",
+            "OAPRV3_f111f83bc2b11347"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W7015165243",
+            "W7024566474"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "00e4459d017cc622a14a50ae18ddfabae7571cd1c2382112d6c7fd2e390381e1",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bc011007f9fcbace",
+            "OAPRV3_c2e7351b66afd0f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908295162",
+            "W6964300943"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "9c0108fcd0d0e878b7127e307f538a0c000078b63dc8cdd33fa93fb5d2b26207",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_84226853f097da6b",
+            "OAPRV3_ee350a1b406263f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907887457",
+            "W6964260646"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "9ff12c6b7fd1ce334c935eecea7edbf0b1269a637dfea7062c0eb4134a635374",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_b607538bdcc8f466",
+            "OAPRV3_1448eaece5348006"
+          ],
+          "project_work_ids": [
+            "W000031733"
+          ],
+          "openalex_work_ids": [
+            "W2282368843",
+            "W7119244204"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3154094235e1ac8f0fc641d64edc6ade60778acde00886fb5f8da37af587ec8f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fd3632433b804ffe",
+            "OAPRV3_bbe3d5ad7e5d6374"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1562395565"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "557e462a98d941aeec6a32bffdeeade32396407b80f2be1141ed7e5ef4a4d2d4",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6fe67fae5a7d8f1d",
+            "OAPRV3_f5bfd8ce5437b2ac"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W7025437774"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "261ca65e8a947867f418658912ce54172fd761434a9a89eae0827ae3ddcc4f88",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_d6febf0305ca0bd8",
+            "OAPRV3_aa5ae2c8f7e82141"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945215118",
+            "W6945630519"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "17cc681aedbe3fc15e3b9dcf74ef7e3eab1e7ce0db7c7e9e2d4f54701b9ae225",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_76e973b2d31f9d5c",
+            "OAPRV3_7e4bd53ff5d6c433"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889088020",
+            "W6907814390"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c3b8d25bfc3c57fe8a42a1d71e514e93d7654b90b170fc3474f8d72e52c2525b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_4760400dd106c011",
+            "OAPRV3_aec59d042680bacc"
+          ],
+          "project_work_ids": [
+            "W000031949"
+          ],
+          "openalex_work_ids": [
+            "W7031975452",
+            "W7205240952"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8bedfdc9e9d3af00975f92d5b3094a60faafcde0e2a9cda98e4b27a9b702ebd9",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_370040ba35a6de4e",
+            "OAPRV3_5a69f6e5a75e3973"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889255478",
+            "W6945394665"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b25a41e18abc4b9b8975d199ac8316e8cc38112e4c87ca2c9de40dc11df686b6",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_14865c77b1223970",
+            "OAPRV3_b1b8ca95d08d0032"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W6920825802",
+            "W7163045828"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8fa9dae0d0726e81e976d20a9710c7081e8d02b8c790426c66de4eb17d922715",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8083de58b165f611",
+            "OAPRV3_b5d72eae7ea97cce"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6926914080",
+            "W6945587885"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1bddd989b90bed7b54ce8fd646708bcfa3a59f677a23f48b11db54f697c24db5",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_582451dbf2bd929a",
+            "OAPRV3_329d4651ffdf1c15"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907877212",
+            "W6945506143"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "4818e26dea04b2cc5e09e3533296e53bba48f1eabcd43e702f2db03f2491c12c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8343e33c2fed6555",
+            "OAPRV3_3aecf0482ccca4ae"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907786910",
+            "W6908054632"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "533b1ea38901cc1686b6bfe104cfbbcf05a5b07f1cb39792351cc8e2b379db92",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1c9570528a53b793",
+            "OAPRV3_156c265bc1f49bb8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889227255",
+            "W6964142637"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f3c95185f67ac96d3434182080713a6f53b1d158a77406ed1b48484483bde4c8",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2d7bbe9ef108c843",
+            "OAPRV3_ecbc9ec93ab11cbd"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945490753",
+            "W6964062061"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a60a0a79fb345e6d220bc5331e867ddf8c25cdc223adce3ad138c9d2b5fe9889",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_5d70f8c2507d4a46",
+            "OAPRV3_1cb591eaca512e8c"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907817927",
+            "W6908042824"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "34c5585555c920d242065d9ae00864361c1f30271e726058cf328ce2560f22f0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_82443ae9cf7b1e22",
+            "OAPRV3_447899fd034ab037"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908103011",
+            "W6926580408"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "e176eb86897404e7e21a8d8aac9ff09e89b28fbb05e539827951dcaa21f4d93d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c68797254b436515",
+            "OAPRV3_808816185f07a09a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907828753",
+            "W6926659272"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ad098b61b983764c9500a36ee7558416ff337de5178456c5ea969d2abe0d15aa",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e64a473f89229c7c",
+            "OAPRV3_2410e9cb1ce0abd9"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889185096",
+            "W6945307612"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1d833b4cfd7bd7b433bcfa3a4dfa45eb5f3c71bc689c2f46f4a1dd944b34ddd3",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_02ab3cab513f40da",
+            "OAPRV3_aa8b3ab084b6c370"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W2890692483",
+            "W4252438337"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a259c0e45e04d0f034efdbfddb7567b731fab3c62394bba5ade84f62dc6b3aa7",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_381de394969fad1d",
+            "OAPRV3_b7da917cb6a94147"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W1543511762",
+            "W4234914977"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "dd8a0143eb4945184092aaa1eb3a0da0163e653a2a181f5571e96983e8b516f3",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_0eade024deae23b4",
+            "OAPRV3_135be0aae5603ddb"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889142191",
+            "W6964087938"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ff0b0c79f0d16f05dd9dab51bcf1c77b138d4328c7940ed70ad94eb480179606",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1f800ff31b50a1b8",
+            "OAPRV3_3d758d628c82a0c0"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944441238",
+            "W6962805597"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a653de82374b95791825b18e03ae4abc4c19f322e3f5fa17b27c18845804b869",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bdb66c000dc92327",
+            "OAPRV3_50107d0d27e6c171"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1546271476",
+            "W587299858"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "2b51d5415e887bd14e3b8a55b42ab98f50e28d8dbc8de6ca03f4ad015968dde6",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2c3431dcce198366",
+            "OAPRV3_9a3294b5ed3babac"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W7000368954",
+            "W799198058"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ea7b8cd0851a28daca1dffe6314bf6c78782a81c222e1a1877d5c277b80d25d8",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_402d576ca113a68b",
+            "OAPRV3_853e653dd30b8eb2"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889224921",
+            "W6945552407"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "402aaf7f0a7ec479271ed3577a8f0628da2cb8d1b2b124858b60cc04adf4c5f5",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2a57d043acf4b808",
+            "OAPRV3_28134dd8cd2e089d"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889229793",
+            "W6964376592"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "94a01dd7ef16b1637bdbb7c690845e38aecfd47d938229318be79fe84ade8e17",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f4a2c8b113eed832",
+            "OAPRV3_a026264b75c545cb"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6911266404"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "249bca6bf1feadc80349b80ff1d49eeb71bc0bd5cf46468e147bcfedb0f52314",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_cca4fa27d46f267c",
+            "OAPRV3_e4278a327f84d52e"
+          ],
+          "project_work_ids": [
+            "W000031954"
+          ],
+          "openalex_work_ids": [
+            "W4408692172",
+            "W6961126813"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c7a880b6ac3f8bd8e4cf301be0bfb0845fa61a0999afdd0f0de5a8057cb4329a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_139da912ad4f7c0b",
+            "OAPRV3_52a23b2516e41b7f"
+          ],
+          "project_work_ids": [
+            "W000031954"
+          ],
+          "openalex_work_ids": [
+            "W4408665078",
+            "W6886078409"
+          ]
+        }
+      ]
+    },
+    "same_raw_display_name_and_publication_year": {
+      "duplicate_groups": 47,
+      "excess_candidate_rows": 50,
+      "groups": [
+        {
+          "matched_raw_fields_sha256": "3901701f574cca5bfc8127fce10711fe00d8b8964b6420ae15b5dafa2adf1e56",
+          "candidate_count": 3,
+          "review_candidate_ids": [
+            "OAPRV3_381de394969fad1d",
+            "OAPRV3_b7da917cb6a94147",
+            "OAPRV3_e747fdf838c186e5"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W1543511762",
+            "W4234914977",
+            "W6989557717"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "d4b40f7a6c89ea2b140050ca26083535a3519535be099de02c291c023e49bf64",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c117d931c78589d8",
+            "OAPRV3_47ba550ced13e619"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W1597949804",
+            "W7060654313"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b329aa7c0fa011adf94c7f5c98e049cafbfad0ab0a361053e0c950542c2d9a7d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bc011007f9fcbace",
+            "OAPRV3_c2e7351b66afd0f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908295162",
+            "W6964300943"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "080e59fafca4476cb78cbe64631dd86793a95cc229c9604e49ff2d8b7de319a7",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_582451dbf2bd929a",
+            "OAPRV3_329d4651ffdf1c15"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907877212",
+            "W6945506143"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "7745050f00ca2c7458cea850aa1c11ffe76c80991e947714e06586bf438cf4ae",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e577f47c06139523",
+            "OAPRV3_eded6607c97c7316"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889104806",
+            "W6964181424"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "feea8312536d45d1a6b18232cb8ae3b0a0acb1284b96daf9e886b313da4dec9f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_21d4438c7e29f04a",
+            "OAPRV3_d6aee0aafe5e6ffe"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908111930",
+            "W6945592150"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b1eecc4fe200b97a93d2fff064f9fec5f336eb28687627431d178741c14751dd",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_229dfbefa7c764df",
+            "OAPRV3_8b3cde2c4e4ef21e"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907882489",
+            "W6907993650"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f20634f339e1ef532e735741360e056add8ffb96299451dbe1efb20256c49319",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bb9cc95f440c5816",
+            "OAPRV3_9243af873e0ef0e8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889196012",
+            "W6889254183"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "709b4be73a10a00163f7860149acb8ebaeeb1edb6fda5248c783aed6f5d1f127",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_d6febf0305ca0bd8",
+            "OAPRV3_aa5ae2c8f7e82141"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945215118",
+            "W6945630519"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "eed6388cfae15940ef8f099bad4e254e89bfa96f672fa8ce713d54fbfde39050",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2a57d043acf4b808",
+            "OAPRV3_28134dd8cd2e089d"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889229793",
+            "W6964376592"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1f6fc84d4cd0753cf2afd56ffe663b08f2840f53d3ede546200819c170d0bd68",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_84226853f097da6b",
+            "OAPRV3_ee350a1b406263f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907887457",
+            "W6964260646"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "e58bfa0ee1f324b2faeef24a3c14edbf850766fc37b12e6da169693766470bf4",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_0eade024deae23b4",
+            "OAPRV3_135be0aae5603ddb"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889142191",
+            "W6964087938"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "4fa61237c8bdd2d8f9b3f90047faa9149da049c0e07690e8134e5af7deee826e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8ef61052e563d3f6",
+            "OAPRV3_3c9fbad6310d6312"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907997126",
+            "W6964187013"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "17f2b4d40ef32744c8c8fba92d2f7faccd5b912f4de8725dc6a1822c9a46bb2d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8a514eaca45b9481",
+            "OAPRV3_4285f0fccfeed07a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889159721",
+            "W6964398347"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8351232e349204df3521cc4810ddc6882bfdd7dad23dc00d2dab60afa8070619",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_370040ba35a6de4e",
+            "OAPRV3_5a69f6e5a75e3973"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889255478",
+            "W6945394665"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ee58924927d8bc92a5678e58f9b689f317b83ab5d1e3f1375c1e4ee61bf17b7a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_18916e472df8916a",
+            "OAPRV3_26988be6fd601186"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908125915",
+            "W6963880777"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "9966964dc7e2b7cef27ea8c1313c07e657b1129cf7760478886f0c0bfc6c913b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fbcccb7f475fb066",
+            "OAPRV3_064c90899e003054"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944983295",
+            "W6964504682"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "df3ea776bbbc896bf7e4355a2abdf67619b5222ed2bb3082eca0c1aaade11789",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_7b2cee3bb1269aa7",
+            "OAPRV3_edbd2752c373a621"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945573734",
+            "W6945587181"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "107917c6ce34ae72b0ac92710f380f7d700c731e374001b0e85496ad840eba70",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_58c8a96aaf8e4b1a",
+            "OAPRV3_cd4ffbf31604dcd8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907924895",
+            "W6926898598"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "95ba54dc1113b3f84df99d5786ece36d7f6b7f80cb5661931cf0e2ae41bbb872",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e64a473f89229c7c",
+            "OAPRV3_2410e9cb1ce0abd9"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889185096",
+            "W6945307612"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a75a3931cdba276778555bd4a9bbbc80db8d2c8842683c063dcba6f31ce893fc",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_a95796b191dae3ed",
+            "OAPRV3_f161d582efcd6eea"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964070957",
+            "W6964275712"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1965174cb9e3d2c08b54fcf198f9895978c6f9a57035b98fa2a1fe798a5b31a6",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_08ba671af46d5d2f",
+            "OAPRV3_f1660aebae5d5ff6"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964079590",
+            "W6964314826"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c00d0f4bc331d5db6c9f7f70c742f36eea3fcc61fa2346d267dcc1abdcfd525b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_76e973b2d31f9d5c",
+            "OAPRV3_7e4bd53ff5d6c433"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889088020",
+            "W6907814390"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "d0df805f6eca9be3f3b1f5be49f5379d057ea0bbadc0bf590c45e10af0c7691f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_402d576ca113a68b",
+            "OAPRV3_853e653dd30b8eb2"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889224921",
+            "W6945552407"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "83190d9ac54304e70245a8acae46943a92ed50e7c0be5b609a603dd28e504e96",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c68797254b436515",
+            "OAPRV3_808816185f07a09a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907828753",
+            "W6926659272"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b8b6e4df4aca08efaebfbfd342bff060bad077aa66a475fba7b9588e192380a3",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1c9570528a53b793",
+            "OAPRV3_156c265bc1f49bb8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889227255",
+            "W6964142637"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "cf53f3cc2c7985a0b707e4c29e6c32c36e60ea1b286888d4000d79c78470d2f6",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2d7bbe9ef108c843",
+            "OAPRV3_ecbc9ec93ab11cbd"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945490753",
+            "W6964062061"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "035c2fbbe5511c17e1c45e6892c6166c45d17e4b57c59ced6382c9aa92a1fc43",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8083de58b165f611",
+            "OAPRV3_b5d72eae7ea97cce"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6926914080",
+            "W6945587885"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "2bf848bac13afaf3afce27e2de57ac899e928288b01e1c16cafd113844a5676c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_5d70f8c2507d4a46",
+            "OAPRV3_1cb591eaca512e8c"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907817927",
+            "W6908042824"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "433a5e971b63c2f172ca9edabe02f015fa85aeee958288b8ed45d64b4e9bfa60",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_82443ae9cf7b1e22",
+            "OAPRV3_447899fd034ab037"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908103011",
+            "W6926580408"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "53bbd6ca1b4bd1f48af540d84759fed5a7f11b8d5b367693999a80cf0575a579",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8343e33c2fed6555",
+            "OAPRV3_3aecf0482ccca4ae"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907786910",
+            "W6908054632"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8ab780efd6504f286b7ebcedc1af51d11d66852f9fb9fdd73a530b3cdf2895de",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_22786d4f643fa13e",
+            "OAPRV3_5d7daf276fd178b2"
+          ],
+          "project_work_ids": [
+            "W000031720"
+          ],
+          "openalex_work_ids": [
+            "W7017419682",
+            "W7104488721"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "5b52559f0bd406e48d0300c3867de2dc862dc1a2343b5e9f603100afe6984f3a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_14865c77b1223970",
+            "OAPRV3_b1b8ca95d08d0032"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W6920825802",
+            "W7163045828"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ccb260f908f37e92738104d127832b75f80654b534cfbc531f0cd2c713aedfb7",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_be027fb862966bc3",
+            "OAPRV3_a77843f5d137d27a"
+          ],
+          "project_work_ids": [
+            "W000031733"
+          ],
+          "openalex_work_ids": [
+            "W6948966142",
+            "W6967896970"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a21abb9f4ec5047bb7cdef3425ca4ad291d970f346e3c5fa4359d2ecdfd57515",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_34b96e2da644a42c",
+            "OAPRV3_e85a4f25523f8125"
+          ],
+          "project_work_ids": [
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1912208073",
+            "W7073934190"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8119e359f89177aa9c84ff277ab4176e7767afae1a8ac4258662ddc27d50fcdf",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_b30d263fd5078770",
+            "OAPRV3_26190d211049b2bf"
+          ],
+          "project_work_ids": [
+            "W000031771"
+          ],
+          "openalex_work_ids": [
+            "W6911664993",
+            "W6930399928"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "221a87317656cb4722882aa9375a885290ad0f591cdd89dd95b86f698fab855a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2bad108b83308e7a",
+            "OAPRV3_45303543a0cc4543"
+          ],
+          "project_work_ids": [
+            "W000031771"
+          ],
+          "openalex_work_ids": [
+            "W6948769848",
+            "W6967547026"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "83c0dcddbc7c806feca419e0bf8d2fef8604303879b215cb7745878a8511bdb9",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1886ea3fc362881a",
+            "OAPRV3_39685af364a57f96"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W2269718299",
+            "W7207328701"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "4110724f8d349d3ed0c12a2b37fa14821ab03919e48adaa70fd398cc49c6d928",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1f800ff31b50a1b8",
+            "OAPRV3_3d758d628c82a0c0"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944441238",
+            "W6962805597"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "927014c49184f7490eeb3d3e9a6e228ab8fc8fdc0603c797b153ddd57bef5215",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_860012d92e6c5ac9",
+            "OAPRV3_f111f83bc2b11347"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W7015165243",
+            "W7024566474"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "cbf1bd9b860acc43d8d034048eed0265623ad15189a8065b9a71584521d1ffa0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_ac1b4f45683ae7ee",
+            "OAPRV3_6335383b1d32b23e"
+          ],
+          "project_work_ids": [
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6892682262",
+            "W6930423302"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "67e7d2ab9b5ec871d03b60808590a4375bc540a25a8a212a08fddb4d40c3a6b0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6f3a3b43795b1b73",
+            "OAPRV3_2f73f0f7a59ad1f1"
+          ],
+          "project_work_ids": [
+            "W000012082",
+            "W000012083"
+          ],
+          "openalex_work_ids": [
+            "W2327377418"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1acab75d7da2f230804d1410885352dcb56b20744b4617ae8a11779675b50dd9",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f712c77ef7e66725",
+            "OAPRV3_0007a0d71ce75581"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907896685",
+            "W6945420221"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a903ec694e8a4987b9625336e3947b4ad9aff8c246ec02f4bdd0997e2a8d6ec3",
+          "candidate_count": 4,
+          "review_candidate_ids": [
+            "OAPRV3_fd3632433b804ffe",
+            "OAPRV3_6fe67fae5a7d8f1d",
+            "OAPRV3_bbe3d5ad7e5d6374",
+            "OAPRV3_f5bfd8ce5437b2ac"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1562395565",
+            "W7025437774"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c33be221ae6bb75dd1412b520d1b261eaa3c0be69ff38aff9f35d62c51b790d9",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f4a2c8b113eed832",
+            "OAPRV3_a026264b75c545cb"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6911266404"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "181ace3fce275516450585d97accdc2dc149ea4f4126ed8048cdd44c43cf151c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c50d03a2242d65ad",
+            "OAPRV3_339ee39a44f35e85"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W2282716863",
+            "W7036035776"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "402bda018e0619b8139f5054dd7eb488ea6d9aa3ca07cff58e0d08767547bea6",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_b8c5b3bcf636e949",
+            "OAPRV3_77614db0fa7137ec"
+          ],
+          "project_work_ids": [
+            "W000032069"
+          ],
+          "openalex_work_ids": [
+            "W2021306699",
+            "W7029686359"
+          ]
+        }
+      ]
+    },
+    "same_raw_display_name_and_abstract": {
+      "duplicate_groups": 43,
+      "excess_candidate_rows": 43,
+      "groups": [
+        {
+          "matched_raw_fields_sha256": "a8f086a55507b3f387aa6259c9d758b4b5a307a4a938d1fd2cb43aae82dde5b3",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_381de394969fad1d",
+            "OAPRV3_b7da917cb6a94147"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W1543511762",
+            "W4234914977"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "5ac229ad484daf3ee0777dfe30c034ebbcd70096b9d4a2bc0ffc086c898cb191",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bc011007f9fcbace",
+            "OAPRV3_c2e7351b66afd0f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908295162",
+            "W6964300943"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a99bf4f84041f32f0a8045b76284892beab682c31eebc98378c9b2e287fb5688",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_582451dbf2bd929a",
+            "OAPRV3_329d4651ffdf1c15"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907877212",
+            "W6945506143"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "80baf1a5013838fc82002b4b6e3a32054861565dd32b46aa5022212529696d61",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e577f47c06139523",
+            "OAPRV3_eded6607c97c7316"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889104806",
+            "W6964181424"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3970f928b9e944472fc228ea0812600265e0d39d83dc87b6b1b352f3c20ffdf2",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_21d4438c7e29f04a",
+            "OAPRV3_d6aee0aafe5e6ffe"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908111930",
+            "W6945592150"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "46c0d3dcedd7bf37620283226c7dba2ec3a863ef84ca4dd0fc9e787f66a30758",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_229dfbefa7c764df",
+            "OAPRV3_8b3cde2c4e4ef21e"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907882489",
+            "W6907993650"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "654adf9a1dbd66c4133431b6e50ffb3fd0a3d938b0a9055216be88923be1f43e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_bb9cc95f440c5816",
+            "OAPRV3_9243af873e0ef0e8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889196012",
+            "W6889254183"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "118c4f4466993e3cbd0d4f9a3ce70d633525c6dd164854293ced2582056d5407",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_d6febf0305ca0bd8",
+            "OAPRV3_aa5ae2c8f7e82141"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945215118",
+            "W6945630519"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "2402d816481677a7bab54e1fc8afeab70d480dc104d054bffcc51c563b8e5ba8",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2a57d043acf4b808",
+            "OAPRV3_28134dd8cd2e089d"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889229793",
+            "W6964376592"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "5ea46b5acecc7267895b5e69410e995c688b91813c4252999c6e19c8e85615ea",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_84226853f097da6b",
+            "OAPRV3_ee350a1b406263f4"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907887457",
+            "W6964260646"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "54988199712d42ef9f27c75a8fd8ed7c01e676d4a34cf0eb636624ab941aa297",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_0eade024deae23b4",
+            "OAPRV3_135be0aae5603ddb"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889142191",
+            "W6964087938"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "22a02f92ac1d6d585af9aaa351262bed421400f39c0200d8b3fcbb0181ff615d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8ef61052e563d3f6",
+            "OAPRV3_3c9fbad6310d6312"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907997126",
+            "W6964187013"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "0ac0462d0200d9eb68da23f88119c2fbc3b7f63c09adfc8117279931d5d4e208",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8a514eaca45b9481",
+            "OAPRV3_4285f0fccfeed07a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889159721",
+            "W6964398347"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "286893d21533e0b1d0864f6b572897ce061ba1995462d93982fd8911340c212e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_370040ba35a6de4e",
+            "OAPRV3_5a69f6e5a75e3973"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889255478",
+            "W6945394665"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8235c91cc67d03eb0f4d122667219d224d33e71e8f066a0008c3d1a93c13f2f0",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_18916e472df8916a",
+            "OAPRV3_26988be6fd601186"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908125915",
+            "W6963880777"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a09454c3d5fefbf398b8c97b185701a79165eeeced6535c3a5557e0d6b8fb57b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fbcccb7f475fb066",
+            "OAPRV3_064c90899e003054"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944983295",
+            "W6964504682"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "1153bc373442c07d26fb8f84b8010b302ea388adb283a3b432fd914ba2f17b64",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_7b2cee3bb1269aa7",
+            "OAPRV3_edbd2752c373a621"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945573734",
+            "W6945587181"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "dfc376f02d8b0c647e6c970e2ecc3d59dfeb0505a77c930e087e7572f8576730",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_58c8a96aaf8e4b1a",
+            "OAPRV3_cd4ffbf31604dcd8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907924895",
+            "W6926898598"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ce68ab272b144c4d1daf05d74d71d70e17fa84960b4b4b3939fc95c531148067",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e64a473f89229c7c",
+            "OAPRV3_2410e9cb1ce0abd9"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889185096",
+            "W6945307612"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "be29c6088f1e903371f1f3c85953ec22b992dc3f16e6d026ff3a192c1812c431",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_a95796b191dae3ed",
+            "OAPRV3_f161d582efcd6eea"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964070957",
+            "W6964275712"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c07ce77040a8bb2b2777ec8725dbbb6f58250c7265bd1dcb467c469c9d656dc1",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_08ba671af46d5d2f",
+            "OAPRV3_f1660aebae5d5ff6"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6964079590",
+            "W6964314826"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "8a795164f986f90fdc8c76a18c2171bcf1f95233b7ec41908a3154e6747ae025",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_76e973b2d31f9d5c",
+            "OAPRV3_7e4bd53ff5d6c433"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889088020",
+            "W6907814390"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "d98e5d35e1c974c0ba928f816c21c1defa1707f7c2b6fd548f5f21100262fc73",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_402d576ca113a68b",
+            "OAPRV3_853e653dd30b8eb2"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889224921",
+            "W6945552407"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "ceb955beacd6bf24fb87d011581a2228e4418730123b2efa0bc1f26a38c3157d",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_c68797254b436515",
+            "OAPRV3_808816185f07a09a"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907828753",
+            "W6926659272"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "82ac6bc306358c5301ad6fd34a447c1e6305cc41ab5a40e902e6a378f8831111",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1c9570528a53b793",
+            "OAPRV3_156c265bc1f49bb8"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6889227255",
+            "W6964142637"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "18e10feb6259901535c7a48e9af6d74991eb95c8330e75da06291b41e2374d44",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_2d7bbe9ef108c843",
+            "OAPRV3_ecbc9ec93ab11cbd"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6945490753",
+            "W6964062061"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "aef0f9281d3aee222f321bef986e450d1844107369649e5da2b7015d71622e23",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8083de58b165f611",
+            "OAPRV3_b5d72eae7ea97cce"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6926914080",
+            "W6945587885"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a0368fa716f1d3727727703f925e9b7ad1c6365e3df4e898f7985da9c6a2cf95",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_5d70f8c2507d4a46",
+            "OAPRV3_1cb591eaca512e8c"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907817927",
+            "W6908042824"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "af72a8d8a7dc28ac7b7e7a10621be80bf20ef71990a3d6e1c77ce2d965d20668",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_82443ae9cf7b1e22",
+            "OAPRV3_447899fd034ab037"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6908103011",
+            "W6926580408"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "c8d8fd17919c54dfd9ba635f0e47b776dfbfec2bea3bf75121f837ede997d17c",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_8343e33c2fed6555",
+            "OAPRV3_3aecf0482ccca4ae"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907786910",
+            "W6908054632"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "a2f14aecfe34056328d6c189695712816f0572f1fcd1ddc5f0b58880743380ec",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_22786d4f643fa13e",
+            "OAPRV3_5d7daf276fd178b2"
+          ],
+          "project_work_ids": [
+            "W000031720"
+          ],
+          "openalex_work_ids": [
+            "W7017419682",
+            "W7104488721"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "f479890681d4ceb1e8904050451b40f9599572b8516268a9e2806ae6ad381308",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_14865c77b1223970",
+            "OAPRV3_b1b8ca95d08d0032"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W6920825802",
+            "W7163045828"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b13526b35d907070c1c3ec4ded3e6c738223f9f87bb792f39281f64c81427027",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1886ea3fc362881a",
+            "OAPRV3_39685af364a57f96"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W2269718299",
+            "W7207328701"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3464b6ae064c8e86b8a235ef9bce09f3121c9b2142c911b36e27436a919794e5",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_1f800ff31b50a1b8",
+            "OAPRV3_3d758d628c82a0c0"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6944441238",
+            "W6962805597"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "7e94147396121dfde99bc8691f01da03478a88900200388aa07a68b5a021442e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_860012d92e6c5ac9",
+            "OAPRV3_f111f83bc2b11347"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W7015165243",
+            "W7024566474"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "bf1f4fa82ba3135d6e60889a3783ca001b14a9d9143f1dad0689b707ada5414b",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6f3a3b43795b1b73",
+            "OAPRV3_2f73f0f7a59ad1f1"
+          ],
+          "project_work_ids": [
+            "W000012082",
+            "W000012083"
+          ],
+          "openalex_work_ids": [
+            "W2327377418"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b979b90426613d5b477ec5c53911a730046ab30e231e2ac40993ca8769682d59",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_e0ca87f7c4a129be",
+            "OAPRV3_75a8b4c92fe81f27"
+          ],
+          "project_work_ids": [
+            "W000031804"
+          ],
+          "openalex_work_ids": [
+            "W2949031493",
+            "W7062522749"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "3e63c3b591000bceee0718327f8a06a03b9d7f6a5ce610de6e4202e478a24e10",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f712c77ef7e66725",
+            "OAPRV3_0007a0d71ce75581"
+          ],
+          "project_work_ids": [
+            "W000012843"
+          ],
+          "openalex_work_ids": [
+            "W6907896685",
+            "W6945420221"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "de96881994c6a80fe552b6d00cc5bd31b81211a4d9ad404388f7a1e572d491a8",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_fd3632433b804ffe",
+            "OAPRV3_bbe3d5ad7e5d6374"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W1562395565"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "d32f758184f1acd7d9559799bd30322a02d09483cf3ddca0cb06f248a8129136",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6fe67fae5a7d8f1d",
+            "OAPRV3_f5bfd8ce5437b2ac"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W7025437774"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "52dfda97cc474b19af2e3ce051fce1614b0fd086d68738cfe12b620ce1bac31e",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f4a2c8b113eed832",
+            "OAPRV3_a026264b75c545cb"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6911266404"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b7b97946194c742d45019c5a62b3af82b3cc6b38fa455efce3c8a544249754c2",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_139da912ad4f7c0b",
+            "OAPRV3_52a23b2516e41b7f"
+          ],
+          "project_work_ids": [
+            "W000031954"
+          ],
+          "openalex_work_ids": [
+            "W4408665078",
+            "W6886078409"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "b621e6682f42267dc4da0179717884b318c870ca4b7a040a9bbaa94127974f1f",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_cca4fa27d46f267c",
+            "OAPRV3_e4278a327f84d52e"
+          ],
+          "project_work_ids": [
+            "W000031954"
+          ],
+          "openalex_work_ids": [
+            "W4408692172",
+            "W6961126813"
+          ]
+        }
+      ]
+    },
+    "same_nonempty_doi": {
+      "duplicate_groups": 3,
+      "excess_candidate_rows": 3,
+      "groups": [
+        {
+          "matched_raw_fields_sha256": "f6e4d245ab6209afb6b03fb1d9eca1d19c660cf27cf6a56a0b4de2dcc2b16d6a",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_6f3a3b43795b1b73",
+            "OAPRV3_2f73f0f7a59ad1f1"
+          ],
+          "project_work_ids": [
+            "W000012082",
+            "W000012083"
+          ],
+          "openalex_work_ids": [
+            "W2327377418"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "4b1c15efab104b2441cabb180de80c7e2ff3c19a3374e560999fb4b76ba2e076",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_f4a2c8b113eed832",
+            "OAPRV3_a026264b75c545cb"
+          ],
+          "project_work_ids": [
+            "W000031941",
+            "W000031942"
+          ],
+          "openalex_work_ids": [
+            "W6911266404"
+          ]
+        },
+        {
+          "matched_raw_fields_sha256": "e7eeb2bfd1a350b5d77277e71a231b8ad4bcc28484acda3f210dfc375a824fef",
+          "candidate_count": 2,
+          "review_candidate_ids": [
+            "OAPRV3_22786d4f643fa13e",
+            "OAPRV3_5d7daf276fd178b2"
+          ],
+          "project_work_ids": [
+            "W000031720"
+          ],
+          "openalex_work_ids": [
+            "W7017419682",
+            "W7104488721"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Exact repeated frozen-field values are retrieval/review cues only. Different candidate identities remain distinct; repeated title or abstract alone does not establish duplicate works. No fuzzy or semantic near-duplicate inference is performed."
+  },
+  "outputs": {
+    "openalex_p3_deterministic_review_inventory_v1_candidates.tsv": {
+      "sha256": "f97959e284c847df561114b344aa32eca0a04f7c3698dba58edd542ead14c5ba",
+      "bytes": 1589228
+    },
+    "openalex_p3_deterministic_review_inventory_v1_project_work_summary.tsv": {
+      "sha256": "de0ac76bc4fd433c84fb32a6eb0bd55aa42a69b5194a2192f7efa44594b4f391",
+      "bytes": 9320
+    },
+    "openalex_p3_deterministic_review_inventory_v1_evidence_signature_summary.tsv": {
+      "sha256": "3cfbe329b6be58256c1d4ac47c059326771816b7ace5a9c61ae7c26ef2c96ce2",
+      "bytes": 34450
+    },
+    "openalex_p3_deterministic_review_inventory_v1_audit_v1.json": {
+      "sha256": "3c3dba0896aed693ba3a06653708b468c89771677e481449d4043743efb75519",
+      "bytes": 143176
+    },
+    "openalex_p3_deterministic_review_inventory_v1_review_plan.md": {
+      "sha256": "a00adc405062a265bda8c161b6db3ffa34f832bb3728a7597967718d8bb570c7",
+      "bytes": 5228
+    },
+    "openalex_p3_deterministic_review_inventory_v1_manifest.json": {
+      "path": "openalex_p3_deterministic_review_inventory_v1_manifest.json"
+    }
+  },
+  "audit": {
+    "path": "openalex_p3_deterministic_review_inventory_v1_audit_v1.json",
+    "sha256": "3c3dba0896aed693ba3a06653708b468c89771677e481449d4043743efb75519"
+  },
+  "explicit_statement": "No human judgments were created. No precision, accuracy, rates, percentages, confidence intervals, or any other performance metric was calculated."
+}
