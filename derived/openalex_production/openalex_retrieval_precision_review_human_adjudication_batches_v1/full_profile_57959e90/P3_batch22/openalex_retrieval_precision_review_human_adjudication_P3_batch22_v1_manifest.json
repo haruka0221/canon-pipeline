@@ -1,0 +1,63 @@
+{
+  "artifact_status": "AUTHORITATIVE_HUMAN_ADJUDICATION_BATCH",
+  "audit_file": "openalex_retrieval_precision_review_human_adjudication_P3_batch22_v1_audit_v1.json",
+  "batch": "P3_batch22",
+  "counts": {
+    "columns": 14,
+    "human_adjudication_confidence": {
+      "HIGH": 25
+    },
+    "human_attribution_reason_code": {
+      "DIRECT_TARGET_REFERENCE": 25
+    },
+    "human_target_attribution_judgment": {
+      "VALID_TARGET_REFERENCE": 25
+    },
+    "review_priority": {
+      "P3": 25
+    },
+    "rows": 25
+  },
+  "human_adjudicated_at_utc": "2026-10-04T10:28:36Z",
+  "human_reviewer_id": "haruka_tsutsui",
+  "no_precision_calculated": true,
+  "outputs": {
+    "openalex_retrieval_precision_review_human_adjudication_P3_batch22_v1.parquet": {
+      "bytes": 8173,
+      "columns": 14,
+      "rows": 25,
+      "sha256": "e96e53f662bd6a3f2811e279275023cfb59977f3f48990bf10d25f6ad83f1cb6"
+    },
+    "openalex_retrieval_precision_review_human_adjudication_P3_batch22_v1.tsv": {
+      "bytes": 10109,
+      "columns": 14,
+      "rows": 25,
+      "sha256": "67ba20f5be4adec1d220cabda0008f85cc7c2a68c480b675b5e0ebbfec7d5a4e"
+    }
+  },
+  "review_order_end": 456,
+  "review_order_start": 432,
+  "review_orders_complete": true,
+  "row_count": 25,
+  "schema_columns": [
+    "review_order",
+    "review_priority",
+    "review_candidate_id",
+    "project_work_id",
+    "openalex_work_id",
+    "increment_type",
+    "review_semantic_group_id",
+    "review_protocol_version",
+    "human_target_attribution_judgment",
+    "human_adjudication_confidence",
+    "human_attribution_reason_code",
+    "human_reviewer_note",
+    "human_reviewer_id",
+    "human_adjudicated_at_utc"
+  ],
+  "source_branch": "kakenc-integration-20260927",
+  "source_frozen_P3B22_sheet": "derived/openalex_production/openalex_retrieval_precision_review_P3_human_review_sheets_v1/full_profile_57959e90/P3B22.md",
+  "source_frozen_inventory": "derived/openalex_production/p3_deterministic_review_inventory_v1/full_profile_57959e90/openalex_p3_deterministic_review_inventory_v1_candidates.tsv",
+  "source_frozen_review_package": "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_v1.tsv",
+  "source_head": "924f867a6801e130ada5848af560314a6da20747"
+}
