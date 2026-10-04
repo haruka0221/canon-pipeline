@@ -1,6 +1,6 @@
 # British Library SRU Verification Pilot v1 — Summary
 
-Status: interim summary. Q4 and the §7 classification are not yet done. Nothing here is a BL visibility value (protocol §1, §10).
+Status: interim summary. Q4 is answered descriptively and the §7 classification moves to v2 (addendum 4). Nothing here is a BL visibility value (protocol §1, §10).
 
 Frozen protocol: `docs/BL_VERIFICATION_PILOT_V1_PROTOCOL.md` (commit `b7ad972`)
 Addenda: 1 (`5486bd0`), 2 (`bde9d02`), 3 (`0325107`). None of them is changed by this summary.
@@ -117,7 +117,7 @@ Notes:
 
 ### 3.4 Q4 Hard cases
 
-Not analysed. The scope of Q4 and of the §7 classification will be decided in a separate short note (addendum 1 §6) before any classification. Related observations recorded elsewhere in this summary (Kim/She found only by K1, Heart of Darkness combined volume, Tagore translations, Munchausen title variation) are not a Q4 conclusion.
+Answered descriptively in v1 under addendum 4 (`docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_4.md`, §4). The answer lists the hard cases already reported in this summary, each with its source: short titles, pseudonyms, editor as creator, translation, combined volumes and early-edition titles. The protocol §7 classification is not carried out in v1 and moves to v2 (addendum 4 §2).
 
 ### 3.5 Q5 Cross-W duplication
 
@@ -163,9 +163,9 @@ From `field_presence.tsv` (2,605 distinct records, by 008 Date 1 era):
 
 ## 6. Not yet done
 
-- Q4 and the §7 two-axis classification (`review.tsv`). The scope note comes first (addendum 1 §6).
+- The §7 two-axis classification (`review.tsv`) and the Q4 questions that need it: carried forward to v2 (addendum 4).
 - `manifest.json` (protocol §9). It will be produced in a separate commit, with its generating script committed first.
 - The decision on committing raw XML.
-- The Q5 per-W OL edition check (standalone vs combined).
-- Validation of R3 and measurement of its precision on a separate sample.
+- The Q5 per-W OL edition check (standalone vs combined) (v2, addendum 4).
+- Validation of R3 and measurement of its precision on a separate sample (v2, addendum 4).
 - `WORKFLOW.md` entry, and the merge of `bl-pilot-v1` into `kakenc-integration-20260927`.
