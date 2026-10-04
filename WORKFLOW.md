@@ -6401,4 +6401,43 @@ scripts/validate_openalex_precision_review_judgments_v1.py
 This release supports preparation for R3 alias-expansion and A2-author-reversal
 marginal target-attribution review only. It does not decide document scope, mention
 strength, final visibility, R2 absolute precision or R4 precision.
-  
+
+## British Library SRU verification pilot v1 — 2026-09-30 to 2026-10-04
+
+The pilot tested, at small scale (21 targets: 19 W, 2 unresolved units), whether
+British Library SRU catalogue evidence is interpretable across the population
+before any decision about large-scale retrieval. It is a verification pilot, not a
+calibration release or production, and it produces no BL visibility values.
+`project_works_v4` and other frozen releases were not changed.
+
+Documents and outputs:
+
+```text
+docs/BRITISH_LIBRARY_SRU_RETRIEVAL_PLAN.md                  plan                 0aed6c4
+docs/BL_VERIFICATION_PILOT_V1_PROTOCOL.md                   protocol and sample  b7ad972
+docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM.md          addendum 1           5486bd0
+docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_2.md        addendum 2           bde9d02
+docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_3.md        addendum 3 (Q3)      0325107
+docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_4.md        addendum 4 (scope)   93e547e
+derived/bl_calibration/verification_pilot_v1/summary.md     summary              32ac296
+derived/bl_calibration/verification_pilot_v1/manifest.json  manifest             fa061b1
+```
+
+Retrieval was run on 2026-10-01 (296 requests). Raw XML is kept outside Git; the
+manifest records the archive hash and location.
+
+Main readings (details in `summary.md`):
+
+- coverage: G1 (independently documented first UK editions found for 10 of 11
+  determinable works);
+- old-record matching: G3 under the protocol-time `245$a` equality rule (6 of 13
+  confirmed first-edition records fail). A prefix rule (R3) passes all 13, but it
+  was defined after seeing these failures and its precision is unmeasured, so it
+  is an unvalidated remedy.
+
+The §7 two-axis classification was not carried out in v1; Q4 was answered
+descriptively. Open measurement and design questions are carried forward to a v2
+calibration with a fresh sample (addendum 4 §5).
+
+The pilot was developed on branch `bl-pilot-v1` and merged into
+`kakenc-integration-20260927` in `23e0672`.
