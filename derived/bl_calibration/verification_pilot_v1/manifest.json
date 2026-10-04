@@ -1,0 +1,294 @@
+{
+  "files": [
+    {
+      "bytes": 1739,
+      "last_commit": "b7ad972",
+      "path": "derived/bl_calibration/verification_pilot_v1/bl_verification_pilot_v1_sample.tsv",
+      "sha256": "debd0af6dc02ffe3aa7fcfd52a748064725f51482b705b321ad3bda554f51bf1",
+      "tsv_data_rows": 21
+    },
+    {
+      "bytes": 4216,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/expanded_aliases.tsv",
+      "sha256": "c3a6da33954b4c9ca981e28c2954fbcf1fc4be22aee8443275c6ee67a8853879",
+      "tsv_data_rows": 29
+    },
+    {
+      "bytes": 1482,
+      "last_commit": "e524326",
+      "path": "derived/bl_calibration/verification_pilot_v1/field_presence.tsv",
+      "sha256": "6e638b0584af5fa8cb29ceec78d3517c76a30a8bcb04281b7a521c467efe15d7",
+      "tsv_data_rows": 54
+    },
+    {
+      "bytes": 27645,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/logical_queries.tsv",
+      "sha256": "2a88c51ed45452185db67e1aae73fd2fd92859e2fbe0eb6671ee035e0cbe52a0",
+      "tsv_data_rows": 113
+    },
+    {
+      "bytes": 13242,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/physical_queries.tsv",
+      "sha256": "06487a88e9830b6cc5acc7aa5ff664b08696f4b862c58ccdf3bd340dce0489d5",
+      "tsv_data_rows": 96
+    },
+    {
+      "bytes": 3179,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/physical_query_status.tsv",
+      "sha256": "e104d3b5d9a1884fe05761889136bdfc00d7b21545b3d22ab2093bc51a564184",
+      "tsv_data_rows": 96
+    },
+    {
+      "bytes": 121931,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/physical_requests.tsv",
+      "sha256": "54d70e8a918d70d2d42a590ded031d43dab6822c0d46997902c70e4574e6e0a0",
+      "tsv_data_rows": 296
+    },
+    {
+      "bytes": 2011,
+      "last_commit": "125b351",
+      "path": "derived/bl_calibration/verification_pilot_v1/q1_failure_examples.tsv",
+      "sha256": "0cfc3b486192afabadc7d76aafba491f7e9a4a9107caabe1d3a02edffeb4de72",
+      "tsv_data_rows": 21
+    },
+    {
+      "bytes": 1844,
+      "last_commit": "125b351",
+      "path": "derived/bl_calibration/verification_pilot_v1/q1_first_edition_matching.tsv",
+      "sha256": "1fb22dc6c3e04eded4a8b47bb3ff88df5fc3d534e84cfa5e4be1e647f75f18d9",
+      "tsv_data_rows": 13
+    },
+    {
+      "bytes": 711,
+      "last_commit": "125b351",
+      "path": "derived/bl_calibration/verification_pilot_v1/q1_record_structure.tsv",
+      "sha256": "49525588b1fd5d6763b85192a0a4d1eff8dd2098e78d7bc1dcd5c7d63996beee",
+      "tsv_data_rows": 11
+    },
+    {
+      "bytes": 12662,
+      "last_commit": "82c92b7",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_candidates.tsv",
+      "sha256": "1c3cc7ffc3d4b66581d3421562c790870b23129a731f902d5769168b04df07fc",
+      "tsv_data_rows": 68
+    },
+    {
+      "bytes": 214,
+      "last_commit": "82c92b7",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_candidates_diagnostics.tsv",
+      "sha256": "093d855c5659de477e481649beddb8ed6508a3072cb7646157db39c3577c7c57",
+      "tsv_data_rows": 12
+    },
+    {
+      "bytes": 2267,
+      "last_commit": "82c92b7",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_first_edition_review.tsv",
+      "sha256": "ed88da6c39f63d3f8df8a404ee716647fc6ce72878470d0378073edb5a81b55c",
+      "tsv_data_rows": 12
+    },
+    {
+      "bytes": 1183,
+      "last_commit": "657863f",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_ground_truth.tsv",
+      "sha256": "5ef37eb2337242c144e398036984c6cf485aeb215e82147b4162b33011ab628e",
+      "tsv_data_rows": 12
+    },
+    {
+      "bytes": 3032,
+      "last_commit": "82c92b7",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_llm_output.tsv",
+      "sha256": "0954d0c19e39241055c516ee01519468b049dc3ed92927b2cd085da2d706c537",
+      "tsv_data_rows": 12
+    },
+    {
+      "bytes": 3229,
+      "last_commit": "67c2005",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_llm_prompt.md",
+      "sha256": "3559f82ea98092ba095669ad135a2df803dfbf2c054bb86dc9f1e1778141c25c"
+    },
+    {
+      "bytes": 596,
+      "last_commit": "82c92b7",
+      "path": "derived/bl_calibration/verification_pilot_v1/q2_llm_run.json",
+      "sha256": "2cd082b04feed8384adbd3c51f1ecd2977ebed1311b6cecca8e714390b6763c4"
+    },
+    {
+      "bytes": 144695,
+      "last_commit": "d7cb27f",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_candidates.tsv",
+      "sha256": "aee831992ea69fc9c4c00c41b5a67eb59d18bb88745fcbde3dbe212ec1e33805",
+      "tsv_data_rows": 376
+    },
+    {
+      "bytes": 55051,
+      "last_commit": "2202bdb",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_llm_output.tsv",
+      "sha256": "ed1afb3cc5ce2027a82072f6da317931d9dc0a3a6f9669fb31c3b853597b84a6",
+      "tsv_data_rows": 376
+    },
+    {
+      "bytes": 4810,
+      "last_commit": "e89ef40",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_llm_prompt.md",
+      "sha256": "81b02ba877643c2faa6b2de10ad879aa8cc1223d9174464f351540bd9961fd04"
+    },
+    {
+      "bytes": 666,
+      "last_commit": "2202bdb",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_llm_run.json",
+      "sha256": "0a97f0c8903cbe1596193f9ecbd355fc805886bb04d53d64d162f293ea0de460"
+    },
+    {
+      "bytes": 27430,
+      "last_commit": "2202bdb",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_review.tsv",
+      "sha256": "31ac459c04f0de461460fda7bf7833bb92b5b5fbec1de892bf4dfe0c20fa30fd",
+      "tsv_data_rows": 376
+    },
+    {
+      "bytes": 489,
+      "last_commit": "225d099",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_target_classification.tsv",
+      "sha256": "a9eb4c71de28516ff22ddfe249356c75c9c5a6996c12629f8e944602d9d5401c",
+      "tsv_data_rows": 5
+    },
+    {
+      "bytes": 1716,
+      "last_commit": "d7cb27f",
+      "path": "derived/bl_calibration/verification_pilot_v1/q3_target_summary.tsv",
+      "sha256": "2bca18ab789409e0acf5cb5479388244b51f08a6acc28f3f64265b7bcf06d396",
+      "tsv_data_rows": 5
+    },
+    {
+      "bytes": 1142283,
+      "last_commit": "e524326",
+      "path": "derived/bl_calibration/verification_pilot_v1/records_parsed.tsv",
+      "sha256": "7ea6a940e191baa3d86d874280b868aaddcf627fdaf50c909eab7c1c16d58efb",
+      "tsv_data_rows": 2605
+    },
+    {
+      "bytes": 972,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/run_manifest_20261001T073644Z.json",
+      "sha256": "91c97c35f24c7f488e41893d21cc3da3323b8bc7bc60934e5def44411f5c3dad"
+    },
+    {
+      "bytes": 974,
+      "last_commit": "dcfb93d",
+      "path": "derived/bl_calibration/verification_pilot_v1/run_manifest_20261001T114714Z.json",
+      "sha256": "d2c562cc81f620d2b014e35930aedf338ce5e06af7d0567fb7cb7cb4ee7012e6"
+    },
+    {
+      "bytes": 14525,
+      "last_commit": "32ac296",
+      "path": "derived/bl_calibration/verification_pilot_v1/summary.md",
+      "sha256": "5b379ead6e2092acdba1cca5fc7e1217936b971029528d78f9b450babea272af"
+    },
+    {
+      "bytes": 110941,
+      "last_commit": "e524326",
+      "path": "derived/bl_calibration/verification_pilot_v1/target_record_links.tsv",
+      "sha256": "a40c17fa8579f1775a670d1b80399b1dcd09ba86f1f8ad5fbdb08a3e1230316f",
+      "tsv_data_rows": 3492
+    },
+    {
+      "bytes": 6693,
+      "last_commit": "5486bd0",
+      "path": "docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM.md",
+      "sha256": "8db2da75c7813bd9a51a7b2a419ad7a259df0c699a28aeae9509b27cf2761801"
+    },
+    {
+      "bytes": 3346,
+      "last_commit": "bde9d02",
+      "path": "docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_2.md",
+      "sha256": "e66e3bd8fbaebc1f2f685a6a89c44742f43471cfcf4de9173b40c3a19e7cf474"
+    },
+    {
+      "bytes": 9490,
+      "last_commit": "0325107",
+      "path": "docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_3.md",
+      "sha256": "40863c81dc3cdafac302ed2b4890fb53df7833a4219eb1dcf614bacac8439d24"
+    },
+    {
+      "bytes": 5725,
+      "last_commit": "93e547e",
+      "path": "docs/BL_VERIFICATION_PILOT_V1_ANALYSIS_ADDENDUM_4.md",
+      "sha256": "e418eda9018d7afdfb3bb93c0f6f074341271cbccd6d6d92fd91745c5a88940e"
+    },
+    {
+      "bytes": 15805,
+      "last_commit": "b7ad972",
+      "path": "docs/BL_VERIFICATION_PILOT_V1_PROTOCOL.md",
+      "sha256": "a54d86ac25d7b66aaac6909cc6f7988a8616e24ade9f88807177df424aff85eb"
+    },
+    {
+      "bytes": 34302,
+      "last_commit": "0aed6c4",
+      "path": "docs/BRITISH_LIBRARY_SRU_RETRIEVAL_PLAN.md",
+      "sha256": "fc32691c79898c32059533cbc0a4ed7ce2f16bfbc7e1b9f320b64508b187c8a5"
+    },
+    {
+      "bytes": 15494,
+      "last_commit": "d323b4f",
+      "path": "scripts/bl/analyze_q1_record_structure_v1.py",
+      "sha256": "399ee0a6d057e426347950c4e5993f04f2577bd4c9b827dbbd31e710559a90b6"
+    },
+    {
+      "bytes": 5904,
+      "last_commit": "32ac296",
+      "path": "scripts/bl/build_bl_pilot_v1_manifest.py",
+      "sha256": "d423692ee08d72822e5418ad578d11972172d4c2b93ced8b597d84c7fa59712d"
+    },
+    {
+      "bytes": 5534,
+      "last_commit": "951a763",
+      "path": "scripts/bl/classify_q3_targets_v1.py",
+      "sha256": "1953ddd21588b707bf8ea46467e666b0b4cdfe80847cefeda46967a35002df0c"
+    },
+    {
+      "bytes": 7417,
+      "last_commit": "657863f",
+      "path": "scripts/bl/extract_q2_candidates_v1.py",
+      "sha256": "38d148824a47aad18fa7b970b3a9631f4d390348058f51c1816b975cc4393c57"
+    },
+    {
+      "bytes": 14358,
+      "last_commit": "69305f6",
+      "path": "scripts/bl/extract_q3_candidates_v1.py",
+      "sha256": "cf0e123292d18f30a49ba5bae6012f1263078a3e24222c477b3d1927aa557b55"
+    },
+    {
+      "bytes": 14376,
+      "last_commit": "e524326",
+      "path": "scripts/bl/parse_bl_verification_pilot_v1.py",
+      "sha256": "087c78e045291f9f4676e595264ef226863b9e0a3aa87a75f334702eb17edb98"
+    },
+    {
+      "bytes": 19365,
+      "last_commit": "efc79e1",
+      "path": "scripts/bl/run_bl_verification_pilot_v1.py",
+      "sha256": "960da345412b1805d7971edf0aa185e245c2aa15f03ed5f7c5fa7f68b6e6c34b"
+    }
+  ],
+  "generated_at_head": "32ac2960e628136b20566e9d08cc7f93f5f2ceb2",
+  "manifest_version": "bl_verification_pilot_v1_manifest_1",
+  "protocol": "docs/BL_VERIFICATION_PILOT_V1_PROTOCOL.md",
+  "raw": {
+    "archive_bytes": 2294640,
+    "archive_name": "bl_verification_pilot_v1_raw_20261001.tar.gz",
+    "archive_sha256": "e613ae28bbaa9f5d5336bbb744cc2f6c552c1afbc4d075f764d08aab534739d3",
+    "in_repository": false,
+    "notes": [
+      "Raw XML responses are kept outside Git; a local copy of the archive is kept outside the repository.",
+      "Per-file sha256 of each XML response is recorded in physical_requests.tsv (column raw_sha256).",
+      "Whether raw XML is committed to the repository is not yet decided."
+    ],
+    "server_location": "tsutsui@133.91.20.74:/media/hdd1/user/tsutsui/bl/",
+    "xml_files": 296
+  }
+}
