@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-06",
+  "inputs": {
+    "derived/openalex_production/openalex_retrieval_precision_results_v1/full_profile_57959e90/openalex_retrieval_precision_results_v1_by_work.tsv": "07bbb069fd2bb3752710d307ec23af7f5a755c6bde45c8593325b460b6db1a61",
+    "derived/openalex_production/openalex_retrieval_precision_results_v1/full_profile_57959e90/openalex_retrieval_precision_results_v1_summary.tsv": "3c8da319036be6b1523c5d5f8321142ed3bf32a409116f5b19895d6981a9865a",
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_complete_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_complete_v1.tsv": "a6d7dfe0e59407210c3fbb06f03ed4719b1a00f2aae1a516acb27b81c570c667",
+    "derived/openalex_production/registry_v4/openalex_aliases_v4.parquet": "c9146c34bc6f5599ea87551c259607d0bdd5dc6d9aaefa414c92a5e2ad92aaa7",
+    "derived/openalex_production/retrieval_precision_review_candidates_v3/full_profile_57959e90/openalex_retrieval_precision_review_candidates_v3.parquet": "3dc7fc179a89e83fea4e6ae20ffb2aea38835411a44f00c13faa1c03deffb79c"
+  },
+  "next_step": "Use the frozen diagnostic release to formulate production retrieval policy without using post-hoc human reason codes as production inputs.",
+  "outputs": {
+    "derived/openalex_production/openalex_retrieval_by_work_error_analysis_v1/full_profile_57959e90/openalex_retrieval_by_work_error_analysis_v1_audit_v1.json": "0895672e20cf5b6f0a71c358ffdc1bed79727e758c70fd3f3ca334791adeda39",
+    "derived/openalex_production/openalex_retrieval_by_work_error_analysis_v1/full_profile_57959e90/openalex_retrieval_by_work_error_analysis_v1_by_work.parquet": "34a321b17607e6c31010f22fab5a1faa9b8b96ae007f29ce993f762c30eb4912",
+    "derived/openalex_production/openalex_retrieval_by_work_error_analysis_v1/full_profile_57959e90/openalex_retrieval_by_work_error_analysis_v1_by_work.tsv": "221dcad5233773b9c71e477d80000073afc19b4ebd88cc12b3403a35431bb049",
+    "derived/openalex_production/openalex_retrieval_by_work_error_analysis_v1/full_profile_57959e90/openalex_retrieval_by_work_error_analysis_v1_candidate_diagnostics.parquet": "45d8d3b122f20fef46c143d41c104e545aa5bf4467f184aeb76b9d7da4975cbc",
+    "derived/openalex_production/openalex_retrieval_by_work_error_analysis_v1/full_profile_57959e90/openalex_retrieval_by_work_error_analysis_v1_candidate_diagnostics.tsv": "081673b44ff05e0f80c282c071d489f39f7235274882589b2f60925125b4f707"
+  },
+  "profile": "full_profile_57959e90",
+  "purpose": "Freeze reproducible candidate-level diagnostics and by-work descriptive error/ambiguity analysis for the audited OpenAlex marginal retrieval universe.",
+  "release": "openalex-retrieval-by-work-error-analysis-v1",
+  "row_counts": {
+    "by_work": 65,
+    "candidate_diagnostics": 661
+  },
+  "semantics": {
+    "alias_expansion_mechanism": "Exploratory/deployable comparison feature derived with NFKC + casefold + whitespace collapse. This does not redefine frozen retrieval normalization.",
+    "candidate_primary_provenance": "Frozen retrieval_precision_review_candidates_v3",
+    "multi_evidence_aggregation": "No arbitrary representative query/alias/evidence row is selected. Counts, sorted unique sets, min/max and any-style aggregations are deterministic.",
+    "not_confirmed_valid": "Convenience aggregate equal to INVALID + UNCERTAIN; not an error or false-positive label.",
+    "scope": "Descriptive of the frozen audited 65-work / 661-candidate universe; no inferential or significance claim about the wider literary work population.",
+    "supplementary_registry_use": "Alias registry v4 is used only for features absent from the candidate artifact, principally cross-project-work normalized title collision.",
+    "uncertain": "UNCERTAIN remains distinct from INVALID throughout."
+  },
+  "version": "v1"
+}

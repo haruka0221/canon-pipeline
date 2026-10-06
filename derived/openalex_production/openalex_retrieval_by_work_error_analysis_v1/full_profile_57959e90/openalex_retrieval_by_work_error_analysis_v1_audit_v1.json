@@ -1,0 +1,48 @@
+{
+  "aggregate_checks": {
+    "A2_AUTHOR_REVERSAL": {
+      "candidate_count": 252,
+      "confirmed_valid_gap_contribution_sum": 0.18209876543209874,
+      "invalid_count": 10,
+      "macro_w_confirmed_valid": 0.7742504409171076,
+      "micro_confirmed_valid": 0.9563492063492064,
+      "micro_minus_macro_confirmed_valid": 0.1820987654320988,
+      "uncertain_count": 1,
+      "valid_count": 241
+    },
+    "ALIAS_EXPANSION": {
+      "candidate_count": 409,
+      "confirmed_valid_gap_contribution_sum": -0.039184778530181694,
+      "invalid_count": 24,
+      "macro_w_confirmed_valid": 0.9291603286524311,
+      "micro_confirmed_valid": 0.8899755501222494,
+      "micro_minus_macro_confirmed_valid": -0.03918477853018176,
+      "uncertain_count": 21,
+      "valid_count": 364
+    }
+  },
+  "by_work_rows": 65,
+  "candidate_rows": 661,
+  "created_at": "2026-10-06",
+  "invariants": {
+    "candidate_row_multiplication": false,
+    "frozen_precision_results_v1_comparison": "PASSED",
+    "gap_contribution_metric": "confirmed-valid metric only",
+    "human_reason_codes": "post-hoc explanatory outcomes; not production-policy inputs",
+    "loo_sign": "full_micro_confirmed_valid - leave_one_out_micro_confirmed_valid; positive means the work raises the full micro estimate.",
+    "not_confirmed_valid_definition": "INVALID + UNCERTAIN",
+    "query_id_semantics": "Release-local provenance only; query IDs are not emitted as persistent cross-release identity.",
+    "rank_method": "competition ranking, pandas method=min; ties share rank and subsequent ranks are skipped.",
+    "uncertain_is_not_invalid": true
+  },
+  "judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 34,
+    "UNCERTAIN": 22,
+    "VALID_TARGET_REFERENCE": 605
+  },
+  "profile": "full_profile_57959e90",
+  "release": "openalex-retrieval-by-work-error-analysis-v1",
+  "scope": "Descriptive analysis of the frozen 661-candidate audited marginal retrieval universe only.",
+  "unique_review_candidate_ids": 661,
+  "version": "v1"
+}
