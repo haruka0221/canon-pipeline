@@ -1,0 +1,71 @@
+{
+  "counts": {
+    "a2_sensitive_in_calibration_w": 218,
+    "a2_sensitive_w": 1692,
+    "calibration_resolved_w": 1846,
+    "eligible_validation_population_w": 1474,
+    "primary_validation_selected_w": 500,
+    "reserved_unselected_w": 974,
+    "resolved_population_w": 32082,
+    "selected_logical_queries": 1000,
+    "selected_queries_by_route": {
+      "R2": 500,
+      "R3": 500
+    },
+    "selected_unique_alias_ids": 500,
+    "selected_unique_execution_ids": 496
+  },
+  "created_at": "2026-10-06",
+  "inputs": {
+    "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_sample_v2_manifest.json": "a2b8e06d98a0a1ac85d44803deaa8e532087d388bcd8cd6181bbd52ce8400c42",
+    "derived/openalex_production/retrieval_calibration_sample_v2/openalex_retrieval_calibration_targets_v2.parquet": "124f61130a96dc3c7f77b537f370965eaf4ba65b2d322e959f1408104612a6c1",
+    "derived/openalex_production/retrieval_match_registry_full_v1/openalex_retrieval_match_registry_full_v1.parquet": "ce19cdfc0929139a04f8ee36ec27bd34b8898c0b969b75fd2f0017fce8147878",
+    "derived/openalex_production/retrieval_match_registry_full_v1/openalex_retrieval_match_registry_full_v1_manifest.json": "b2ab11a491ec7e788483d75601cbce18d2f46927ad9a80dc73b5331fb508a886"
+  },
+  "interpretation": {
+    "not_claimed": [
+      "population-wide statistical inference",
+      "validation of R4 title-only retrieval",
+      "independent validation of Alias expansion",
+      "recall estimation"
+    ],
+    "policy_lock": "The frozen A2 ACCEPT/REVIEW rule must not be tuned using validation judgments.",
+    "primary": "This is a held-out descriptive validation sample of frozen current-release A2-sensitive works.",
+    "uncertain_policy": "UNCERTAIN must remain distinct from INVALID."
+  },
+  "next_step": "Build a validation-specific R2/R3 matching registry/scanner input from this frozen sample and scan the complete frozen OpenAlex snapshot without changing the locked A2 policy.",
+  "outputs": {
+    "derived/openalex_production/retrieval_a2_validation_sample_v1/openalex_a2_validation_population_v1.parquet": "fa04686c90a13909a8e8e7cb6febbcb4ece8e72fed19fe36525bff840a589de1",
+    "derived/openalex_production/retrieval_a2_validation_sample_v1/openalex_a2_validation_population_v1.tsv": "39521119a68a6443768b851d37f639864ddbce80597e11897d63ac284427e548",
+    "derived/openalex_production/retrieval_a2_validation_sample_v1/openalex_a2_validation_queries_v1.parquet": "82bf538c11d2368a1c3b150d283b3093f9f5e6a6535d229c3eda56a4d9874262",
+    "derived/openalex_production/retrieval_a2_validation_sample_v1/openalex_a2_validation_queries_v1.tsv": "ffa9831d5d7ba65966608a0d68186a658b06e5ef542ed5b12642ecf9539b0490"
+  },
+  "purpose": "Freeze an independent work-level validation sample for the calibration-selected A2 author-reversal marginal retrieval policy.",
+  "release": "openalex-a2-validation-sample-v1",
+  "route_scope": {
+    "R4_status": "excluded",
+    "alias_policy_status": "Not independently validated by this sample. Current-release Alias-risk works were exhausted by calibration.",
+    "included": [
+      "R2",
+      "R3"
+    ],
+    "validation_target": "A2_AUTHOR_REVERSAL"
+  },
+  "sampling": {
+    "cohort_name": "a2_primary_validation_v1",
+    "human_adjudication_used_for_sampling": false,
+    "method": "stable_sha256_rank",
+    "policy_blind_sampling": true,
+    "primary_validation_n": 500,
+    "sampling_frame": "Resolved project works with an available R3 conservative A2 reverse variant, excluding every resolved work in retrieval calibration sample v2.",
+    "sampling_unit": "project_work_id",
+    "score_payload": "seed + ASCII Unit Separator + cohort_name + ASCII Unit Separator + project_work_id",
+    "seed": 20261006
+  },
+  "source_releases": {
+    "calibration_sample": "openalex-retrieval-calibration-sample-v2",
+    "full_match_registry": "openalex-retrieval-match-registry-full-v1"
+  },
+  "status": "a2_validation_sample_frozen",
+  "version": "v1"
+}
