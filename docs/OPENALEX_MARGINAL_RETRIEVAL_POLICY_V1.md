@@ -225,16 +225,53 @@ full-production review rates.
 Operational burden must be measured after the same deterministic features
 are generated over the full production retrieval population.
 
-## Next production step
+## Next step: independent validation
 
-Apply this frozen marginal policy to the full production retrieval candidate
-population and report, separately by route:
+This frozen policy is a calibration-selected policy candidate. It must not be
+treated as an independently validated production policy on the basis of the
+same adjudicated calibration candidates used to select its thresholds.
 
-- ACCEPT candidate count
-- REVIEW candidate count
-- ACCEPT / REVIEW work count
-- candidate-share distributions by work
-- title-token-count distributions
-- hit-location distributions
+### A2 author reversal
 
-No human-label-based feature may enter that production application.
+Independent validation is feasible for the A2 route. In the frozen registry,
+1,474 A2-sensitive resolved project works lie outside the complete retrieval
+calibration sample.
+
+The primary validation sample will therefore be drawn at the
+`project_work_id` level from those calibration-external A2-sensitive works.
+The locked policy must be applied without threshold tuning or work-specific
+exceptions.
+
+All A2 marginal candidates generated for sampled works must be adjudicated,
+with `UNCERTAIN` kept separate from `INVALID`.
+
+Validation reporting must retain the existing hierarchy:
+
+- pair-level micro performance as the primary precision summary;
+- work-level macro performance as a secondary summary;
+- ACCEPT and REVIEW performance reported separately;
+- candidate and work counts reported explicitly;
+- `UNCERTAIN` never silently recoded as an error.
+
+### Alias expansion
+
+Independent same-release held-out validation is not available for the Alias
+route under the current frozen registry. All 138 resolved works whose R2 and
+R3 matching-signature sets differ were included in the retrieval calibration
+sample; all 550 multi-alias resolved works were likewise included.
+
+The current Alias evidence should therefore be described as a finite-population
+audit of the current release, not as an independent validation of the selected
+threshold for future releases.
+
+A future registry or corpus release can provide genuinely new Alias-expansion
+works for out-of-sample validation.
+
+### Production application
+
+Only after the independent A2 validation has been frozen and evaluated should
+the policy candidate be applied to the complete production marginal-candidate
+population.
+
+No human-label-based feature may enter either validation sampling features or
+production policy application.
