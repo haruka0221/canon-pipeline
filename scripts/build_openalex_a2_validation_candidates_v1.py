@@ -408,13 +408,46 @@ def main() -> None:
 
     oa = pd.read_parquet(
         oa_path
-    ).fillna("")
+    )
 
     oa = oa.loc[
         oa["openalex_work_id"].isin(
             candidate_oa_ids
         )
     ].copy()
+
+    # Preserve typed OpenAlex fields. In particular,
+    # publication_year must remain numeric for Parquet;
+    # replacing its missing values with "" would create a
+    # mixed object column that PyArrow cannot serialize.
+    oa["publication_year"] = (
+        pd.to_numeric(
+            oa["publication_year"],
+            errors="coerce",
+        )
+        .astype("Int64")
+    )
+
+    text_columns = [
+        "openalex_work_id",
+        "openalex_id_url",
+        "snapshot_source_file",
+        "display_name",
+        "abstract",
+        "publication_date",
+        "type",
+        "language",
+        "doi",
+        "primary_topic_id",
+        "primary_topic_name",
+    ]
+
+    for col in text_columns:
+        oa[col] = (
+            oa[col]
+            .fillna("")
+            .astype(str)
+        )
 
     if set(
         oa["openalex_work_id"]
