@@ -1,0 +1,70 @@
+{
+  "blind_adjudication": {
+    "allowed_human_judgments": [
+      "VALID_TARGET_REFERENCE",
+      "INVALID_TARGET_REFERENCE",
+      "UNCERTAIN"
+    ],
+    "policy_action_included": false,
+    "policy_condition_included": false,
+    "policy_driving_features_hidden": [
+      "hit_location",
+      "title_match_token_count",
+      "any_cross_w_title_collision",
+      "author matching fields"
+    ]
+  },
+  "candidate_definition": "Resolved-W R3+A2 pairs minus resolved-W R3+A1 pairs in the frozen 500-work held-out validation sample.",
+  "candidate_id_semantics": "validation_candidate_id is release-local provenance only and is not a persistent cross-release identity.",
+  "candidate_unit": "project_work_id × openalex_work_id",
+  "counts": {
+    "candidate_pairs": 248,
+    "candidate_project_works": 64,
+    "cross_w_collision_true": 25,
+    "hit_location": {
+      "ABSTRACT_ONLY": 131,
+      "TITLE_AND_ABSTRACT": 75,
+      "TITLE_ONLY": 42
+    },
+    "openalex_ids_shared_across_project_works": 5,
+    "unique_openalex_works": 243
+  },
+  "created_at": "2026-10-07",
+  "inputs": {
+    "full_match_registry": {
+      "artifact": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/retrieval_match_registry_full_v1/openalex_retrieval_match_registry_full_v1.parquet",
+      "sha256": "ce19cdfc0929139a04f8ee36ec27bd34b8898c0b969b75fd2f0017fce8147878"
+    },
+    "validation_queries": {
+      "artifact": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/retrieval_a2_validation_sample_v1/openalex_a2_validation_queries_v1.parquet",
+      "sha256": "82bf538c11d2368a1c3b150d283b3093f9f5e6a6535d229c3eda56a4d9874262"
+    },
+    "validation_scan_manifest": {
+      "artifact": "/media/hdd1/user/tsutsui/openalex/scans/a2_validation_v1/full_2040files_626ad05/openalex_retrieval_a2_validation_scan_v1_manifest.json",
+      "sha256": "9494b999e47c5db9a0a7b5e4bcb420ece4e4cb9245e0684b14bd6c0b1375a94a"
+    }
+  },
+  "next_step": "Blindly adjudicate all 248 candidate pairs before materializing the locked A2 ACCEPT/REVIEW policy action.",
+  "outputs": {
+    "blind_adjudication_tsv": {
+      "artifact": "openalex_a2_validation_blind_adjudication_v1.tsv",
+      "sha256": "a44fd1c5b942d9e3b5b9e81d3930d15679babd1c01d11d941216aba905eaeb6b"
+    },
+    "candidates_parquet": {
+      "artifact": "openalex_a2_validation_candidates_v1.parquet",
+      "sha256": "2af047409ed267a84b6a10408c66b1c2215e42e2c9198525f7857efc3210b6b9"
+    },
+    "candidates_tsv": {
+      "artifact": "openalex_a2_validation_candidates_v1.tsv",
+      "sha256": "c18084914709a0306b348be970ab9e65a6d4a9804adc5121a4328e5085f03f0e"
+    }
+  },
+  "policy_status": "Frozen calibration-selected A2 policy exists but is not materialized per candidate before blind adjudication.",
+  "release": "openalex-a2-validation-candidates-v1",
+  "source_releases": {
+    "validation_sample": "openalex-a2-validation-sample-v1",
+    "validation_scan": "openalex-retrieval-a2-validation-scan-v1"
+  },
+  "status": "pre_adjudication_candidates_frozen",
+  "version": "v1"
+}
