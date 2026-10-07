@@ -1,0 +1,84 @@
+{
+  "batch_count": 10,
+  "batch_size": 25,
+  "batches": [
+    {
+      "artifact": "openalex_a2_validation_llm_batch_01.tsv",
+      "batch": 1,
+      "rows": 25,
+      "sha256": "9768fe23d48cf17a2240bbec9cb9195fb484d623aa0c7a924288a57c1b1bc70a"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_02.tsv",
+      "batch": 2,
+      "rows": 25,
+      "sha256": "bbdc47e3be1706ac54b88fd1378081da5d04af54cecff53b0b68b9b3c86bd180"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_03.tsv",
+      "batch": 3,
+      "rows": 25,
+      "sha256": "5e410591957961526934e711c5055df22b51e28b6a85913e52bb221623de92bd"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_04.tsv",
+      "batch": 4,
+      "rows": 25,
+      "sha256": "9da143971fc8bfd282b4a1bb47e754ac37c1a9357a4b4ee17d258c539a3af217"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_05.tsv",
+      "batch": 5,
+      "rows": 25,
+      "sha256": "74d805b2bee3380070b9ccc0ca718e2255a7a5ed5bbf2e4e345a3cc49c9a7bb2"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_06.tsv",
+      "batch": 6,
+      "rows": 25,
+      "sha256": "2fcb56452f8185ad6762568b697960898542a9759f74c9c646440ae540893e03"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_07.tsv",
+      "batch": 7,
+      "rows": 25,
+      "sha256": "89e24e736f7f2073c88fe9a74df6f012cd7a77fbc2c992c5a208cb707fdb1ef4"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_08.tsv",
+      "batch": 8,
+      "rows": 25,
+      "sha256": "a07296b61893019c0890ba3da6140e577aa34b4b75e05fe7b7f01ec83103d3a7"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_09.tsv",
+      "batch": 9,
+      "rows": 25,
+      "sha256": "89c01ed11ed65dc32ec865cfa0fddca5527df516aa9c90d116f9981bd3f2213b"
+    },
+    {
+      "artifact": "openalex_a2_validation_llm_batch_10.tsv",
+      "batch": 10,
+      "rows": 23,
+      "sha256": "79e9db05302c18bf0fb145444e42b3c9416f20fa3a68901006306781d00bb0af"
+    }
+  ],
+  "candidate_rows": 248,
+  "human_labels_included": false,
+  "ordering": {
+    "method": "SHA256(salt + NUL + validation_candidate_id)",
+    "purpose": "Deterministically mix project works rather than adjudicating candidates in project-work blocks.",
+    "salt": "openalex-a2-validation-llm-first-pass-v1"
+  },
+  "policy_information_included": false,
+  "prompt": {
+    "artifact": "docs/OPENALEX_A2_VALIDATION_LLM_FIRST_PASS_PROMPT_V1.md",
+    "sha256": "322e32ea389699e77fd3aefebf7a8741c6af893aa655763f6e2c1b8dff044c86"
+  },
+  "release": "openalex-a2-validation-llm-batches-v1",
+  "source": {
+    "artifact": "derived/openalex_production/retrieval_a2_validation_candidates_v1/openalex_a2_validation_blind_adjudication_v1.tsv",
+    "sha256": "a44fd1c5b942d9e3b5b9e81d3930d15679babd1c01d11d941216aba905eaeb6b"
+  },
+  "status": "frozen_blind_llm_first_pass_inputs"
+}
