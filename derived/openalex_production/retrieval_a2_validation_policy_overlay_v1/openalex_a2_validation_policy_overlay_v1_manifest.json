@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "derived/openalex_production/retrieval_a2_validation_candidates_v1/openalex_a2_validation_candidates_v1.tsv": "c18084914709a0306b348be970ab9e65a6d4a9804adc5121a4328e5085f03f0e",
+    "derived/openalex_production/retrieval_a2_validation_candidates_v1/openalex_a2_validation_candidates_v1_manifest.json": "68f681de13275ebd623af2a7f89b9d5f809a6783d6a5028105eaecad65ccf4b7",
+    "derived/openalex_production/retrieval_a2_validation_final_labels_v1/openalex_a2_validation_final_labels_v1.tsv": "8402fd5ffac8ac7355591294d137c61c58b0b0e593ae66b8158d6f8d5c8b9a42",
+    "derived/openalex_production/retrieval_a2_validation_final_labels_v1/openalex_a2_validation_final_labels_v1_manifest.json": "b8fee1b4832d5340b3e1f929b3fb17b242b245e9ecb07586cc0d109a445d7f9b"
+  },
+  "outputs": {
+    "openalex_a2_validation_policy_overlay_by_work_v1.tsv": "d38c06a728f68d1fcd79c709e2543852d8bee00259c7909188c80b08e9dc5e98",
+    "openalex_a2_validation_policy_overlay_summary_v1.json": "a5ad36b766b12ac9f61883ddf6a609da14fc278941e750d54a28b802a18260f3",
+    "openalex_a2_validation_policy_overlay_v1.tsv": "16cfa15653e1b00be67b93dbfbeac301cfe128de68711e03003a917d4aed141d"
+  },
+  "release": "openalex-a2-validation-policy-overlay-v1"
+}

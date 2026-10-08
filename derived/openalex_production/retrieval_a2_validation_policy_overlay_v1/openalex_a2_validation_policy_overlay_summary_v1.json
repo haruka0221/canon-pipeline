@@ -1,0 +1,66 @@
+{
+  "accepted_invalid": {
+    "any_cross_w_title_collision": false,
+    "hit_location": "ABSTRACT_ONLY",
+    "openalex_work_id": "W639618852",
+    "project_work_id": "W000013158",
+    "target_author": "Clews, Henry",
+    "target_title": "Mumbo jumbo",
+    "title_match_token_count_min": 2,
+    "validation_candidate_id": "A2V1_0081"
+  },
+  "constraints": [
+    "Pair-level micro is primary; work-level macro is secondary.",
+    "UNCERTAIN remains separate from INVALID.",
+    "No ordinary confidence interval is attached.",
+    "Review share is for held-out A2 marginal candidates, not whole production burden.",
+    "The locked policy was not tuned after validation labels were seen."
+  ],
+  "created_at": "2026-10-08",
+  "metrics": {
+    "accept": {
+      "candidate_pairs": 213,
+      "invalid": 1,
+      "macro_work_confirmed_valid": 0.9818181818181818,
+      "micro_confirmed_valid": 0.9953051643192489,
+      "micro_resolved_only": 0.9953051643192489,
+      "micro_upper_bound": 0.9953051643192489,
+      "project_works": 55,
+      "uncertain": 0,
+      "valid": 212
+    },
+    "invalid_capture_pairs": 0.8,
+    "invalid_capture_project_works": 0.75,
+    "overall": {
+      "candidate_pairs": 248,
+      "invalid": 5,
+      "macro_work_confirmed_valid": 0.965625,
+      "micro_confirmed_valid": 0.9798387096774194,
+      "micro_resolved_only": 0.9798387096774194,
+      "micro_upper_bound": 0.9798387096774194,
+      "project_works": 64,
+      "uncertain": 0,
+      "valid": 243
+    },
+    "review": {
+      "candidate_pairs": 35,
+      "invalid": 4,
+      "macro_work_confirmed_valid": 0.8461538461538461,
+      "micro_confirmed_valid": 0.8857142857142857,
+      "micro_resolved_only": 0.8857142857142857,
+      "micro_upper_bound": 0.8857142857142857,
+      "project_works": 13,
+      "uncertain": 0,
+      "valid": 31
+    },
+    "review_share_pairs": 0.14112903225806453,
+    "review_share_project_works": 0.203125
+  },
+  "policy": {
+    "rule": "REVIEW iff hit_location == ABSTRACT_ONLY AND (title_match_token_count_min == 1 OR any_cross_w_title_collision == True); otherwise ACCEPT",
+    "threshold_tuned_on_validation": false
+  },
+  "release": "openalex-a2-validation-policy-overlay-v1",
+  "scope": "A2_AUTHOR_REVERSAL held-out marginal candidates only",
+  "status": "locked_policy_overlaid_on_frozen_heldout_labels"
+}
