@@ -1,0 +1,38 @@
+{
+  "release": "openalex-a2-validation-final-labels-v1",
+  "status": "final_labels_pre_policy_overlay",
+  "candidate_pairs": 248,
+  "final_label_counts": {
+    "VALID_TARGET_REFERENCE": 243,
+    "INVALID_TARGET_REFERENCE": 5,
+    "UNCERTAIN": 0
+  },
+  "label_source_counts": {
+    "HUMAN_AUDITED_AGREE": 3,
+    "HUMAN_AUDITED_OVERRIDE": 2,
+    "LLM_BLIND_FIRST_PASS_CONSISTENT_UNAUDITED": 243
+  },
+  "llm_first_pass_counts": {
+    "INVALID_TARGET_REFERENCE": 3,
+    "UNCERTAIN": 2,
+    "VALID_TARGET_REFERENCE": 243
+  },
+  "same_model_consistency_disagreements": 0,
+  "supplementary_cross_model_audit": {
+    "candidate_count": 25,
+    "agreed_with_llm_count": 25,
+    "formal_role": "supplementary QA only; not part of blind label generation and not human adjudication",
+    "caveat": "Workbook notes indicate Claude-assisted verification against the live OpenAlex API on 2026-10-07."
+  },
+  "human_adjudication": {
+    "candidate_count": 5,
+    "agree_with_llm_first_pass": 3,
+    "override_llm_first_pass": 2,
+    "override_ids": [
+      "A2V1_0005",
+      "A2V1_0006"
+    ],
+    "override_transition": "UNCERTAIN -> INVALID_TARGET_REFERENCE"
+  },
+  "policy_status": "Locked A2 policy not overlaid or tuned in this final-label release."
+}

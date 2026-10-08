@@ -1,0 +1,6 @@
+validation_candidate_id	human_judgment	human_reason_code	human_note	relationship_to_llm_first_pass
+A2V1_0005	INVALID_TARGET_REFERENCE	GENERIC_OR_LEXICAL_MATCH	Human reviewer judged that the record does not refer to Peter Cowan's work Drift; 'drift' is ordinary lexical usage and the work title is not established.	OVERRIDE
+A2V1_0006	INVALID_TARGET_REFERENCE	GENERIC_OR_LEXICAL_MATCH	Human reviewer judged that the record does not refer to Peter Cowan's work Drift; 'drift' is ordinary lexical usage and the work title is not established.	OVERRIDE
+A2V1_0066	INVALID_TARGET_REFERENCE	AUTHOR_COLLISION	Human reviewer judged that the Plant Cell acknowledgement does not refer to David Stern's literary work Francis.	AGREE
+A2V1_0074	INVALID_TARGET_REFERENCE	AUTHOR_COLLISION	Human reviewer judged that the Robert Herrick reference is to the seventeenth-century poet and 'chimes' is lexical, not the target work.	AGREE
+A2V1_0081	INVALID_TARGET_REFERENCE	GENERIC_OR_LEXICAL_MATCH	Human reviewer judged that Henry Clews and the phrase 'Mumbo-Jumbo' occur in separate unrelated contents entries.	AGREE

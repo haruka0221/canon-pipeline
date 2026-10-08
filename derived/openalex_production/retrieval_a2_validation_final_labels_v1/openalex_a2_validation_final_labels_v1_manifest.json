@@ -1,0 +1,30 @@
+{
+  "release": "openalex-a2-validation-final-labels-v1",
+  "status": "final_labels_pre_policy_overlay",
+  "inputs": {
+    "openalex_a2_validation_llm_first_pass_all248_v1.tsv": "c261e3dd86c844ee186715475cd43862efbe7c8a0dc75c2b56e4fcefbcd544ef",
+    "openalex_a2_validation_llm_consistency_pass_all248_v1.tsv": "93aa70bbec83b017cf4b1567bfb82fe6bbac30be3eb8017009c5e51e592d1b27",
+    "openalex_a2_validation_human_audit_v1_reviewed.xlsx": "97a7ddc8ec8203366a562e453e0329e805a7ddb095528bcb9424153852cbe551",
+    "openalex_a2_validation_human_review_queue_ids_v1.tsv": "97ea3883beec289e40972b975b704df1581343e39ad616762a8633a87c0622cd"
+  },
+  "outputs": {
+    "openalex_a2_validation_human_adjudication_5_v1.tsv": "c05b4df2d5861477ea0d3b4c8d583798af122119c80698a3015f083441a762ef",
+    "openalex_a2_validation_final_labels_v1.tsv": "8402fd5ffac8ac7355591294d137c61c58b0b0e593ae66b8158d6f8d5c8b9a42",
+    "openalex_a2_validation_final_summary_v1.json": "33ff3a7d35b19ee6e6aeeb78f812c5f7f989511fe7c37ee26015cc7bfaf62c73",
+    "OPENALEX_A2_VALIDATION_FINAL_ADJUDICATION_PROTOCOL_V1.md": "8b04c420269415571976a9c87f8555263da2f220d7e102b9a86cddc410b9dad1"
+  },
+  "counts": {
+    "candidate_pairs": 248,
+    "human_adjudicated": 5,
+    "supplementary_cross_model_qa": 25,
+    "final_valid": 243,
+    "final_invalid": 5,
+    "final_uncertain": 0
+  },
+  "notes": [
+    "The 25-row uploaded review workbook is Claude-assisted, not human.",
+    "Its notes state live OpenAlex API verification on 2026-10-07, so it is supplementary QA only.",
+    "The human reviewer directly adjudicated the five first-pass non-VALID cases in chat.",
+    "No A2 policy action was overlaid or tuned when generating these final labels."
+  ]
+}
