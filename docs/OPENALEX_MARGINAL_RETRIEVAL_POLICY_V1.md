@@ -2,10 +2,18 @@
 
 ## Status
 
-Calibration-selected policy candidate for the audited marginal OpenAlex retrieval routes.
+Calibration-selected policy for the audited marginal OpenAlex retrieval routes.
 
 This document freezes the routing rule selected from the calibration audit.
-It does not by itself establish operational performance on the full
+As of 2026-10-08, the `A2_AUTHOR_REVERSAL` rule has additionally been
+evaluated on a calibration-external held-out validation sample without
+threshold tuning or work-specific exceptions.
+
+The `ALIAS_EXPANSION` rule remains supported by the finite-population audit
+of the current release; same-release held-out validation is not available
+for that route.
+
+Neither route by itself establishes operational performance on the full
 production retrieval population.
 
 This policy applies only to:
@@ -225,53 +233,146 @@ full-production review rates.
 Operational burden must be measured after the same deterministic features
 are generated over the full production retrieval population.
 
-## Next step: independent validation
+## Independent validation status
 
-This frozen policy is a calibration-selected policy candidate. It must not be
-treated as an independently validated production policy on the basis of the
-same adjudicated calibration candidates used to select its thresholds.
+### A2 author reversal: held-out validation completed
 
-### A2 author reversal
+Independent held-out evaluation was completed for the frozen
+`A2_AUTHOR_REVERSAL` policy using calibration-external project works.
 
-Independent validation is feasible for the A2 route. In the frozen registry,
-1,474 A2-sensitive resolved project works lie outside the complete retrieval
-calibration sample.
+Validation design:
 
-The primary validation sample will therefore be drawn at the
-`project_work_id` level from those calibration-external A2-sensitive works.
-The locked policy must be applied without threshold tuning or work-specific
-exceptions.
+- eligible calibration-external A2-sensitive resolved works: 1,474
+- held-out sample: 500 project works
+- sampling unit: `project_work_id`
+- A2 marginal candidate pairs generated in the frozen OpenAlex snapshot: 248
+- candidate-bearing project works: 64
+- unique OpenAlex works among candidates: 243
+- policy thresholds were frozen before validation
+- no work-specific exception was introduced after validation
 
-All A2 marginal candidates generated for sampled works must be adjudicated,
-with `UNCERTAIN` kept separate from `INVALID`.
+Frozen validation releases:
 
-Validation reporting must retain the existing hierarchy:
+- final-label freeze:
+  `0a8e35697270e90ad5fc021f0ea0d863cdd5ad8c`
+- locked-policy overlay freeze:
+  `c15f0229b259fc3f3794671b8fafb4cf69393dcf`
 
-- pair-level micro performance as the primary precision summary;
-- work-level macro performance as a secondary summary;
-- ACCEPT and REVIEW performance reported separately;
-- candidate and work counts reported explicitly;
-- `UNCERTAIN` never silently recoded as an error.
+The final validation labels were produced using blind LLM-assisted
+adjudication followed by targeted human adjudication of every first-pass
+non-VALID case.
+
+Final labels:
+
+- `VALID_TARGET_REFERENCE`: 243
+- `INVALID_TARGET_REFERENCE`: 5
+- `UNCERTAIN`: 0
+
+The 243 VALID candidates must not be described as 243 independently
+human-adjudicated cases. The validation release retains per-candidate label
+provenance.
+
+The locked A2 rule was then overlaid without modification.
+
+Overall held-out outcomes:
+
+- candidates: 248
+- project works: 64
+- VALID: 243
+- INVALID: 5
+- UNCERTAIN: 0
+- pair-level confirmed-valid proportion: 243 / 248 = 0.979839
+- work-level macro confirmed-valid proportion: 0.965625
+
+`ACCEPT` outcomes:
+
+- candidates: 213
+- project works represented: 55
+- VALID: 212
+- INVALID: 1
+- UNCERTAIN: 0
+- pair-level confirmed-valid precision: 212 / 213 = 0.995305
+- work-level macro confirmed-valid precision: 0.981818
+
+`REVIEW` outcomes:
+
+- candidates: 35
+- project works represented: 13
+- VALID: 31
+- INVALID: 4
+- UNCERTAIN: 0
+- pair-level confirmed-valid proportion: 31 / 35 = 0.885714
+- work-level macro confirmed-valid proportion: 0.846154
+
+The frozen REVIEW rule captured:
+
+- 4 / 5 INVALID candidate pairs = 0.800000
+- INVALID candidates from 3 / 4 INVALID-bearing project works = 0.750000
+
+The observed held-out REVIEW share was:
+
+- 35 / 248 candidate pairs = 0.141129
+
+This is a review share within the held-out A2 marginal-candidate universe.
+It is **not** an estimate of whole-production review burden.
+
+One INVALID candidate remained automatically accepted:
+
+- validation candidate: `A2V1_0081`
+- target: `Mumbo jumbo`
+- target author: `Clews, Henry`
+- OpenAlex work: `W639618852`
+- `hit_location`: `ABSTRACT_ONLY`
+- `title_match_token_count_min`: 2
+- `any_cross_w_title_collision`: `False`
+
+This residual error is retained as validation evidence. The frozen policy is
+not modified to create a work-specific exception or a post-validation
+threshold adjustment.
+
+Because the final held-out release contains no `UNCERTAIN` cases, confirmed,
+upper-bound, and resolved-only pair-level proportions coincide for this
+specific release. This does not change the general requirement that
+`UNCERTAIN` remain separate from `INVALID`.
 
 ### Alias expansion
 
 Independent same-release held-out validation is not available for the Alias
-route under the current frozen registry. All 138 resolved works whose R2 and
-R3 matching-signature sets differ were included in the retrieval calibration
-sample; all 550 multi-alias resolved works were likewise included.
+route under the current frozen registry.
 
-The current Alias evidence should therefore be described as a finite-population
-audit of the current release, not as an independent validation of the selected
-threshold for future releases.
+All 138 resolved works whose R2 and R3 matching-signature sets differ were
+included in the retrieval calibration sample; all 550 multi-alias resolved
+works were likewise included.
 
-A future registry or corpus release can provide genuinely new Alias-expansion
-works for out-of-sample validation.
+The current Alias evidence must therefore continue to be described as a
+finite-population audit of the current release, not as an independent
+held-out validation of the selected threshold for future releases.
+
+A future registry or corpus release can provide genuinely new
+Alias-expansion works for out-of-sample validation.
+
+### Reporting hierarchy
+
+For the A2 validation, retain the existing reporting hierarchy:
+
+- pair-level micro performance as the primary precision summary;
+- work-level macro performance as a secondary summary;
+- ACCEPT and REVIEW outcomes separately;
+- candidate and work counts explicitly;
+- `UNCERTAIN` separately from `INVALID`;
+- no ordinary confidence interval for the finite held-out candidate universe;
+- no claim about R2 baseline precision, R4 precision, recall, coverage, or
+  complete-pipeline precision.
 
 ### Production application
 
-Only after the independent A2 validation has been frozen and evaluated should
-the policy candidate be applied to the complete production marginal-candidate
-population.
+The A2 held-out validation is now complete.
 
-No human-label-based feature may enter either validation sampling features or
-production policy application.
+The next operational step is to apply the already frozen A2 rule to the
+complete production A2 marginal-candidate population and measure the actual
+production routing burden.
+
+The Alias route remains governed by the current finite-population audit until
+genuinely new out-of-sample evidence becomes available.
+
+No human-label-based feature may enter production policy application.
