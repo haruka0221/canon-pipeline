@@ -1,0 +1,30 @@
+{
+  "candidate_rows": 48,
+  "created_at": "2026-10-10",
+  "direct_human_review": {
+    "candidate_rows": 25,
+    "invalid": 24,
+    "llm_human_category_agreement": "25/25",
+    "project_works": 10,
+    "uncertain": 1,
+    "valid": 0
+  },
+  "final_judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 24,
+    "UNCERTAIN": 1,
+    "VALID_TARGET_REFERENCE": 23
+  },
+  "interpretation": [
+    "The 23 VALID labels retained from the blind LLM first pass were not directly human reviewed.",
+    "All 25 first-pass non-VALID cases received direct human review.",
+    "UNCERTAIN remains distinct from INVALID.",
+    "These production-review outcomes must not be used to retune the frozen A2 routing policy."
+  ],
+  "not_directly_human_reviewed": {
+    "candidate_rows": 23,
+    "judgment": "VALID_TARGET_REFERENCE",
+    "label_source": "BLIND_LLM_FIRST_PASS_VALID_NO_DIRECT_HUMAN_REVIEW"
+  },
+  "project_works": 20,
+  "release": "openalex-a2-production-new-review-final-labels-v1"
+}

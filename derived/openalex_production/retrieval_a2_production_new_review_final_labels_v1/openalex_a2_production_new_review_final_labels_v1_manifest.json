@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-10",
+  "outputs": {
+    "derived/openalex_production/retrieval_a2_production_new_review_final_labels_v1/openalex_a2_production_new_review_final_labels_summary_v1.json": "4dc69bcd12f23382b03cd3513bec8664d45b7d4970266da276a2cef7afb4ab93",
+    "derived/openalex_production/retrieval_a2_production_new_review_final_labels_v1/openalex_a2_production_new_review_final_labels_v1.parquet": "ca24a3e489f1179ef2eed5e4297991c95b05544bb4b08eadce6aec9204ab7de5",
+    "derived/openalex_production/retrieval_a2_production_new_review_final_labels_v1/openalex_a2_production_new_review_final_labels_v1.tsv": "3656773ad646ad85c8551811c07e16f02e3cbebe62187e62e8f653b3453cdd43"
+  },
+  "release": "openalex-a2-production-new-review-final-labels-v1",
+  "sources": {
+    "derived/openalex_production/retrieval_a2_production_human_review_final_v1/openalex_a2_production_human_review_final_v1.tsv": "4b8ce3b5e75c9d0adfdc1d49d9c38f13f73fa48d35148aa5df692f2749c37db4",
+    "derived/openalex_production/retrieval_a2_production_review_llm_first_pass_v1/openalex_a2_production_review_llm_first_pass_v1.tsv": "8d729fd5948ae249a0bfae577e9ec154e70488733a033a581044d538286e9b0b"
+  }
+}
