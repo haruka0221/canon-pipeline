@@ -1,0 +1,16 @@
+{
+  "candidate_rows": 25,
+  "created_at": "2026-10-10",
+  "invalid_count": 24,
+  "judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 24,
+    "UNCERTAIN": 1
+  },
+  "note": "Targeted direct review of candidates selected after a blind LLM first pass; not an independent random human validation sample.",
+  "project_works": 10,
+  "release": "openalex-a2-production-human-review-final-v1",
+  "status": "final_direct_review",
+  "uncertain_count": 1,
+  "uncertain_is_not_invalid": true,
+  "valid_count": 0
+}

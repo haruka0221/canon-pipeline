@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-10",
+  "outputs": {
+    "derived/openalex_production/retrieval_a2_production_human_review_final_v1/openalex_a2_production_human_review_final_summary_v1.json": "cc048c1f9058beae924c113a16146f2903e09f4d9e24a47daad30c88e55619b4",
+    "derived/openalex_production/retrieval_a2_production_human_review_final_v1/openalex_a2_production_human_review_final_v1.tsv": "4b8ce3b5e75c9d0adfdc1d49d9c38f13f73fa48d35148aa5df692f2749c37db4"
+  },
+  "release": "openalex-a2-production-human-review-final-v1",
+  "source": {
+    "derived/openalex_production/retrieval_a2_production_human_review_queue_v1/openalex_a2_production_human_review_queue_v1.tsv": "6ef4472d8ee133e7ad83fd58d1f4b2f062f48893dd93fec9f4672cb53a404ede"
+  }
+}
