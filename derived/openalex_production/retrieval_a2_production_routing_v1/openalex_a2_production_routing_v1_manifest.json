@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "accept_pairs": 863,
+    "calibration_pairs": 252,
+    "candidate_pairs": 963,
+    "candidate_project_works": 231,
+    "heldout_pairs": 248,
+    "new_production_accept_pairs": 415,
+    "new_production_pairs": 463,
+    "new_production_review_pairs": 48,
+    "new_production_review_project_works": 20,
+    "review_pairs": 100,
+    "review_project_works": 41,
+    "review_share_pairs": 0.10384215991692627,
+    "unique_openalex_works": 916
+  },
+  "created_at": "2026-10-10",
+  "frozen_registry_inputs": {
+    "derived/openalex_production/registry_v4/openalex_aliases_v4.parquet": "c9146c34bc6f5599ea87551c259607d0bdd5dc6d9aaefa414c92a5e2ad92aaa7",
+    "derived/openalex_production/retrieval_a2_validation_candidates_v1/openalex_a2_validation_candidates_v1.parquet": "2af047409ed267a84b6a10408c66b1c2215e42e2c9198525f7857efc3210b6b9",
+    "derived/openalex_production/retrieval_match_registry_full_v1/openalex_retrieval_match_registry_full_v1.parquet": "ce19cdfc0929139a04f8ee36ec27bd34b8898c0b969b75fd2f0017fce8147878",
+    "derived/openalex_production/retrieval_precision_review_candidates_v3/full_profile_57959e90/openalex_retrieval_precision_review_candidates_v3.parquet": "3dc7fc179a89e83fea4e6ae20ffb2aea38835411a44f00c13faa1c03deffb79c"
+  },
+  "outputs": {
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_candidates_v1.parquet": "92935223955f1ec5e3aa22d7c4161beb7d544acc936022d1b366cdc4c643e3be",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_candidates_v1.tsv": "24730d3ad4beb81276ccc84173f503aabd9155ef1dfef82dcd2b6bf2eff87aa1",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_new_review_queue_v1.parquet": "0f986e9e5a6aca7cfd0a051ad0c8c97e81452a606a151b5fcdc3b9255cfe3f5a",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_new_review_queue_v1.tsv": "2ccb75ccba723034e3acf478538a29ce8bf9a4fe3a9d7ffc3d8f09f74b5e3896",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_policy_review_queue_v1.parquet": "edfd06307b22b0848eb2ebde6a8ae2f126ae4b47dd6633dc10d49474781d1bc7",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_policy_review_queue_v1.tsv": "98e56bbd1ee2480baafe159996b8c40d84fca60b094969159acb220fca46f23c",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_routing_by_work_v1.parquet": "6f6e2956c0d3718f9042235cdc0b2716016e9a1b321c33707e2b7819455c2c02",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_routing_by_work_v1.tsv": "052c034b3bb0ecf1ee6b7af166ef4c237a06339d461fdfcd840a6a49b076d1f1",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_routing_summary_v1.json": "2f7c2b771007c9bc10b772cae7e52e3c667d7e296e87ab08494075a3fc8877bd"
+  },
+  "parity": {
+    "calibration_a2_pairs": 252,
+    "calibration_missing_from_full": 0,
+    "heldout_a2_pairs": 248,
+    "heldout_missing_from_full": 0,
+    "status": "PASSED"
+  },
+  "policy_feature_semantics": {
+    "candidate_identity": "project_work_id × openalex_work_id",
+    "cross_w_collision": "any supporting frozen alias whose alias_value_norm occurs against more than one resolved project work",
+    "hit_location": "deterministic any-title / any-abstract aggregation across supporting evidence",
+    "query_id": "release-local provenance only; not persistent cross-release identity",
+    "title_match_token_count": "minimum and maximum across supporting R3+A2 query evidence"
+  },
+  "release": "openalex-a2-production-routing-v1",
+  "source_scan": {
+    "hit_evidence_rows": 966265050,
+    "hit_evidence_sha256": "dd106b715fba9889aeac97e331b53c382195f3a22efdcc087a65e6b11f3bb292",
+    "processed_file_count": 2040,
+    "release": "openalex-retrieval-full-r23-scan-v1",
+    "scan_manifest_sha256": "b84cc5f28ed1f7bcacaf241fb944a33d7c8570eaca557f9d4364ae7e131d4224",
+    "snapshot_inventory_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9",
+    "snapshot_rows_read": 476196327
+  },
+  "version": "v1"
+}

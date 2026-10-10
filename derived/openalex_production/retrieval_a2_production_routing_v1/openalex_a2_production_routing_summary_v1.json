@@ -1,0 +1,55 @@
+{
+  "candidate_definition": "W×OpenAlex pairs in resolved-W R3+A2 minus W×OpenAlex pairs in resolved-W R3+A1.",
+  "counts": {
+    "accept_pairs": 863,
+    "calibration_pairs": 252,
+    "candidate_pairs": 963,
+    "candidate_project_works": 231,
+    "heldout_pairs": 248,
+    "new_production_accept_pairs": 415,
+    "new_production_pairs": 463,
+    "new_production_review_pairs": 48,
+    "new_production_review_project_works": 20,
+    "review_pairs": 100,
+    "review_project_works": 41,
+    "review_share_pairs": 0.10384215991692627,
+    "unique_openalex_works": 916
+  },
+  "created_at": "2026-10-10",
+  "frozen_policy": {
+    "action_review_if": "hit_location == ABSTRACT_ONLY AND (title_match_token_count_min == 1 OR any_cross_w_title_collision == True)",
+    "otherwise": "ACCEPT",
+    "reject_action": false
+  },
+  "interpretation": [
+    "The 100 REVIEW candidates are policy routing outcomes, not invalid labels.",
+    "Only 48 REVIEW candidates across 20 project works are new production cases without prior calibration/held-out evaluation.",
+    "The 415 NEW_PRODUCTION ACCEPT candidates are automatically accepted by the frozen rule but are not individually adjudicated by this release.",
+    "Held-out validation performance remains separate from these production routing counts.",
+    "This release does not establish R2 baseline precision, R4 precision, recall, coverage, Alias-expansion performance, or whole-pipeline precision."
+  ],
+  "parity": {
+    "calibration_a2_pairs": 252,
+    "calibration_missing_from_full": 0,
+    "heldout_a2_pairs": 248,
+    "heldout_missing_from_full": 0,
+    "status": "PASSED"
+  },
+  "release": "openalex-a2-production-routing-v1",
+  "routing_by_evaluation_source": {
+    "CALIBRATION": {
+      "ACCEPT": 235,
+      "REVIEW": 17
+    },
+    "HELDOUT": {
+      "ACCEPT": 213,
+      "REVIEW": 35
+    },
+    "NEW_PRODUCTION": {
+      "ACCEPT": 415,
+      "REVIEW": 48
+    }
+  },
+  "scope": "Complete resolved-W A2 marginal candidate universe under the frozen 2026-09-23 OpenAlex snapshot.",
+  "version": "v1"
+}
