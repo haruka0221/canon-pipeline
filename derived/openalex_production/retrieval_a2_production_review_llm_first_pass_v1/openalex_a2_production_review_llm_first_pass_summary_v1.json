@@ -1,0 +1,18 @@
+{
+  "candidate_rows": 48,
+  "created_at": "2026-10-10",
+  "interpretation": [
+    "These are provisional LLM first-pass labels, not human gold-standard judgments.",
+    "The frozen production routing policy was not used as adjudication evidence.",
+    "All first-pass INVALID and UNCERTAIN cases should receive direct human review.",
+    "Production routing policy must not be retuned from these outcomes."
+  ],
+  "judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 24,
+    "UNCERTAIN": 1,
+    "VALID_TARGET_REFERENCE": 23
+  },
+  "nonvalid_rows_requiring_direct_human_review": 25,
+  "release": "openalex-a2-production-review-llm-first-pass-v1",
+  "status": "provisional_blind_llm_first_pass"
+}
