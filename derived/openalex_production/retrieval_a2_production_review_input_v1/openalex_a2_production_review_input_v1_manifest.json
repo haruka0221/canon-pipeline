@@ -1,0 +1,28 @@
+{
+  "adjudication_scope": {
+    "candidate_frequency_hidden": true,
+    "external_web_required": false,
+    "judgments": [
+      "VALID_TARGET_REFERENCE",
+      "INVALID_TARGET_REFERENCE",
+      "UNCERTAIN"
+    ],
+    "policy_features_hidden": true
+  },
+  "counts": {
+    "candidate_rows": 48,
+    "project_works": 20
+  },
+  "created_at": "2026-10-10",
+  "interpretation": "This release contains no adjudication outcomes. Routing was frozen before this blind review input was generated.",
+  "output": {
+    "derived/openalex_production/retrieval_a2_production_review_input_v1/openalex_a2_production_review_blind_v1.tsv": "f1946db2dd4498d3b9aeb5269877cce92eee59601fbb5c7482d07bc2b8e21727"
+  },
+  "purpose": "Freeze the blind adjudication input for the 48 NEW_PRODUCTION candidates routed to REVIEW by the already-frozen A2 production policy.",
+  "release": "openalex-a2-production-review-input-v1",
+  "source": {
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_new_review_queue_v1.parquet": "0f986e9e5a6aca7cfd0a051ad0c8c97e81452a606a151b5fcdc3b9255cfe3f5a",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_routing_v1_manifest.json": "b2911613467a4da8c3b6964103f531ca990150246c8c183b42bf962f121ceabe"
+  },
+  "version": "v1"
+}
