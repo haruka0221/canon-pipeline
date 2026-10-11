@@ -1,0 +1,14 @@
+{
+  "all_queue_projects_have_source_evidence": true,
+  "all_source_records_have_edition_evidence": true,
+  "edition_rows": 545,
+  "human_reviewed_ol_records": 11,
+  "multi_ol_projects": {
+    "W000031690": 2
+  },
+  "project_works": 24,
+  "qc_status": "PASSED",
+  "queue_pair_mass": 72914,
+  "release": "openlibrary-r2a1-target-identity-remediation-evidence-v1",
+  "source_ol_records": 25
+}

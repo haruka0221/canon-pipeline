@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_editions_v1.tsv": "14d42c0b3de7c36f99c2fa45f6f5822c8de9f7d576964c688760c32e814b20b6",
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_summary_v1.tsv": "8889f35601c4244539206f6b90a4bbd5296ac279f60004087eb30510fe2fb10e",
+    "derived/identity/openlibrary_r2a1_target_identity_pair_impact_v1/openlibrary_r2a1_target_identity_pair_impact_source_record_v1.tsv": "c51e69a4a239d7bc72e0bdc9e6a38f4ccba342dafd29717600b175b1638e12b8",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_queue_v1/openlibrary_r2a1_target_identity_remediation_queue_v1.tsv": "0cc37cc64fbc53c4cbbae10bdfd81c5c0060bcee1fbaedb0b9def326e9983a3a"
+  },
+  "outputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_evidence_v1/openlibrary_r2a1_target_identity_remediation_edition_evidence_v1.tsv": "bdf9a0151df75b66b3eb800ecaff5fc1ba2673bafd4389aa2ccfe4769f3f0e2d",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_evidence_v1/openlibrary_r2a1_target_identity_remediation_evidence_v1_audit.json": "e22b5afad19bdc0ba87c97c7328697f42b7805edffe5799c5f2a3a783214b037",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_evidence_v1/openlibrary_r2a1_target_identity_remediation_project_evidence_v1.tsv": "0cc37cc64fbc53c4cbbae10bdfd81c5c0060bcee1fbaedb0b9def326e9983a3a",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_evidence_v1/openlibrary_r2a1_target_identity_remediation_source_evidence_v1.tsv": "52caed090e341fb06c2de9fee951fcfae70786a11328b05ed1c6f795ac9c1ab9"
+  },
+  "purpose": "Freeze the evidence packet for project-level remediation decisions on the 24-work target-identity queue.",
+  "release": "openlibrary-r2a1-target-identity-remediation-evidence-v1",
+  "semantics": [
+    "This artifact freezes evidence only; it does not encode remediation decisions.",
+    "Pair counts and priority ranks describe retrieval impact and prioritization. They are not identity evidence.",
+    "Current Open Library API metadata is diagnostic evidence retrieved on 2026-10-11 and does not replace the frozen 2026-02-28 source population.",
+    "LLM and prior human judgments are included as provenance/evidence, but the final remediation decision remains a separate project-level assertion.",
+    "Temporal, language, and fiction-scope eligibility remain outside this identity-remediation evidence packet."
+  ],
+  "status": "frozen_evidence_packet_candidate"
+}
