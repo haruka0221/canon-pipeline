@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-11",
+  "final_operational_disposition_counts": {
+    "EXCLUDE_FINAL_INVALID": 24,
+    "HOLD_UNCERTAIN": 21,
+    "INCLUDE_FINAL_VALID": 364
+  },
+  "frozen_policy_routing": {
+    "ACCEPT": 192,
+    "REVIEW": 217
+  },
+  "human_adjudication": {
+    "INVALID_TARGET_REFERENCE": 24,
+    "UNCERTAIN": 21,
+    "VALID_TARGET_REFERENCE": 364,
+    "candidate_pairs": 409,
+    "direct_human_reviewed_rows": 409,
+    "missing_labels": 0
+  },
+  "interpretation": [
+    "The 409 Alias marginal candidate pairs constitute the complete current-release Alias marginal universe.",
+    "All 409 candidates have direct human adjudication.",
+    "No additional LLM adjudication is required for the current release.",
+    "Final current-release disposition uses the authoritative human judgment.",
+    "The frozen ACCEPT/REVIEW rule is retained as a routing policy for methodological evaluation and possible future releases; policy ACCEPT is not itself a truth label.",
+    "UNCERTAIN remains separate from INVALID and is held rather than excluded.",
+    "Because the current release exhausts the available Alias-expansion universe, these results are a finite-population audit, not an independent held-out validation.",
+    "The frozen Alias policy must not be retuned from these same adjudicated data."
+  ],
+  "operational_exclude_count": 24,
+  "operational_hold_uncertain_count": 21,
+  "operational_include_count": 364,
+  "policy_action_label_crosscheck": {
+    "ACCEPT": {
+      "INVALID_TARGET_REFERENCE": 2,
+      "UNCERTAIN": 8,
+      "VALID_TARGET_REFERENCE": 182,
+      "candidate_pairs": 192
+    },
+    "REVIEW": {
+      "INVALID_TARGET_REFERENCE": 22,
+      "UNCERTAIN": 13,
+      "VALID_TARGET_REFERENCE": 182,
+      "candidate_pairs": 217
+    }
+  },
+  "release": "openalex-alias-production-final-disposition-v1",
+  "scope": {
+    "candidate_pairs": 409,
+    "increment_type": "ALIAS_EXPANSION",
+    "project_works": 38,
+    "universe_status": "Complete current-release Alias marginal universe"
+  },
+  "status": "final_current_release_alias_marginal_disposition"
+}
