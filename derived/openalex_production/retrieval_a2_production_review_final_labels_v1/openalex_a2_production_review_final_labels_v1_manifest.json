@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-10",
+  "outputs": {
+    "derived/openalex_production/retrieval_a2_production_review_final_labels_v1/openalex_a2_production_review_final_labels_v1.parquet": "6f59ea7d197fb0da0c7d7e45e284a132aa94e586843b195f15ebc0a4063334e1",
+    "derived/openalex_production/retrieval_a2_production_review_final_labels_v1/openalex_a2_production_review_final_labels_v1.tsv": "991de64da7fb2b32636f78a746965d62023d7d5a2fc19c7ffb1ea314dee6c388",
+    "derived/openalex_production/retrieval_a2_production_review_final_labels_v1/openalex_a2_production_review_final_summary_v1.json": "124ba30844aa741ee6336f3d3fbdee54f2d64bf90e957215b31c4818417e373b"
+  },
+  "release": "openalex-a2-production-review-final-labels-v1",
+  "sources": {
+    "derived/openalex_production/openalex_retrieval_precision_review_human_adjudication_complete_v1/full_profile_57959e90/openalex_retrieval_precision_review_human_adjudication_complete_v1.parquet": "d9d0be10a81c843eeaa4252fd253e823f095be67914c4214dc07cca47ef08009",
+    "derived/openalex_production/retrieval_a2_production_new_review_final_labels_v1/openalex_a2_production_new_review_final_labels_v1.parquet": "ca24a3e489f1179ef2eed5e4297991c95b05544bb4b08eadce6aec9204ab7de5",
+    "derived/openalex_production/retrieval_a2_production_routing_v1/openalex_a2_production_policy_review_queue_v1.parquet": "edfd06307b22b0848eb2ebde6a8ae2f126ae4b47dd6633dc10d49474781d1bc7",
+    "derived/openalex_production/retrieval_a2_validation_candidates_v1/openalex_a2_validation_candidates_v1.parquet": "2af047409ed267a84b6a10408c66b1c2215e42e2c9198525f7857efc3210b6b9",
+    "derived/openalex_production/retrieval_a2_validation_final_labels_v1/openalex_a2_validation_final_labels_v1.tsv": "8402fd5ffac8ac7355591294d137c61c58b0b0e593ae66b8158d6f8d5c8b9a42",
+    "derived/openalex_production/retrieval_precision_review_candidates_v3/full_profile_57959e90/openalex_retrieval_precision_review_candidates_v3.parquet": "3dc7fc179a89e83fea4e6ae20ffb2aea38835411a44f00c13faa1c03deffb79c"
+  }
+}

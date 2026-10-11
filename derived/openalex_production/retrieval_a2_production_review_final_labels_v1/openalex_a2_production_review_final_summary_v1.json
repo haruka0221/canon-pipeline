@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-10",
+  "descriptive_review_queue_rates": {
+    "confirmed_valid_share": 0.61,
+    "resolved_valid_share_excluding_uncertain": 0.6161616161616161,
+    "upper_valid_share_if_uncertain_valid": 0.62
+  },
+  "direct_human_reviewed_rows": 46,
+  "evaluation_source_counts": {
+    "CALIBRATION": 17,
+    "HELDOUT": 35,
+    "NEW_PRODUCTION": 48
+  },
+  "final_judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 38,
+    "UNCERTAIN": 1,
+    "VALID_TARGET_REFERENCE": 61
+  },
+  "final_judgment_counts_by_evaluation_source": {
+    "CALIBRATION": {
+      "INVALID_TARGET_REFERENCE": 10,
+      "UNCERTAIN": 0,
+      "VALID_TARGET_REFERENCE": 7
+    },
+    "HELDOUT": {
+      "INVALID_TARGET_REFERENCE": 4,
+      "UNCERTAIN": 0,
+      "VALID_TARGET_REFERENCE": 31
+    },
+    "NEW_PRODUCTION": {
+      "INVALID_TARGET_REFERENCE": 24,
+      "UNCERTAIN": 1,
+      "VALID_TARGET_REFERENCE": 23
+    }
+  },
+  "interpretation": [
+    "This artifact resolves the frozen 100-candidate A2 policy REVIEW queue only.",
+    "UNCERTAIN remains separate from INVALID and is not treated as a false positive.",
+    "Label provenance differs across CALIBRATION, HELDOUT, and NEW_PRODUCTION and is preserved row by row.",
+    "Not every final VALID label in this artifact received direct human review.",
+    "These outcomes must not be used to retune the already frozen A2 routing policy.",
+    "This artifact does not validate the 863 production ACCEPT candidates or the global A1 baseline."
+  ],
+  "release": "openalex-a2-production-review-final-labels-v1",
+  "scope": {
+    "candidate_rows": 100,
+    "increment_type": "A2_AUTHOR_REVERSAL",
+    "policy_action": "REVIEW",
+    "project_works": 41
+  },
+  "status": "final_production_review_queue_labels"
+}
