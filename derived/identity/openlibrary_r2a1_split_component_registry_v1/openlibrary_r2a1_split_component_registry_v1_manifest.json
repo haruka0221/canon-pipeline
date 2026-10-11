@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "components": 82,
+    "components_by_project_work": {
+      "W000002404": 4,
+      "W000003023": 3,
+      "W000003030": 2,
+      "W000004772": 4,
+      "W000004821": 8,
+      "W000004923": 6,
+      "W000005351": 4,
+      "W000005423": 6,
+      "W000005682": 4,
+      "W000013400": 4,
+      "W000014024": 8,
+      "W000014515": 6,
+      "W000021761": 6,
+      "W000023649": 5,
+      "W000030489": 3,
+      "W000030498": 6,
+      "W000031472": 3
+    },
+    "components_by_role_hint": {
+      "DETACH": 12,
+      "EXCLUDE_APPARATUS": 3,
+      "PRIMARY_SUCCESSOR_HINT": 3,
+      "SUCCESSOR": 64
+    },
+    "split_project_works": 17
+  },
+  "created_at": "2026-10-11",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1.tsv": "0254177d7537a9e5c6e3b7b9e2f822a583a717bd5e88f05973a3e0e0cf88b146"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_component_registry_v1.tsv": "a32ffb87fa7771065eaaadcf47fb058772e6abd43d7a2a6b9b471cc047093c24"
+  },
+  "release": "openlibrary-r2a1-split-component-registry-v1",
+  "semantics": [
+    "Component boundaries are fixed from the frozen human remediation adjudication.",
+    "A component_id is an edition-routing label, not a project_work_id and not a new source entity.",
+    "PRIMARY_SUCCESSOR_HINT records the human reviewer's wording only. It does not authorize reuse of the predecessor W identifier.",
+    "DETACH means detach from the erroneous predecessor target; it is not a temporal, language, genre, or fiction-scope exclusion.",
+    "EXCLUDE_APPARATUS is limited to material explicitly identified as catalogue/study/apparatus in the frozen human plan.",
+    "An LLM may route editions only to these fixed components or HOLD_UNRESOLVED; it may not invent new successor boundaries."
+  ],
+  "status": "human_defined_routing_component_registry"
+}
