@@ -1,0 +1,267 @@
+{
+  "axes": {
+    "content_type": {
+      "agreement_by_sampling_stratum": {
+        "COHERENT_COLLECTION": {
+          "exact_matches": 6,
+          "population_n": 20,
+          "sample_exact_agreement": 1.0,
+          "sample_n": 6
+        },
+        "COHERENT_SINGLE_WORK": {
+          "exact_matches": 4,
+          "population_n": 5,
+          "sample_exact_agreement": 0.8,
+          "sample_n": 5
+        },
+        "HETEROGENEOUS_CLUSTER": {
+          "exact_matches": 4,
+          "population_n": 20,
+          "sample_exact_agreement": 0.6666666666666666,
+          "sample_n": 6
+        },
+        "UNCERTAIN": {
+          "exact_matches": 3,
+          "population_n": 3,
+          "sample_exact_agreement": 1.0,
+          "sample_n": 3
+        }
+      },
+      "contingency_human_rows_llm_columns": {
+        "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 4,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0,
+          "MIXED_OR_UNCLEAR": 1,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 1,
+          "SPECIFIC_FICTION_WORK": 0
+        },
+        "FICTION_COLLECTION_OR_ANTHOLOGY": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 5,
+          "MIXED_OR_UNCLEAR": 0,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 0,
+          "SPECIFIC_FICTION_WORK": 0
+        },
+        "MIXED_OR_UNCLEAR": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0,
+          "MIXED_OR_UNCLEAR": 3,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 1,
+          "SPECIFIC_FICTION_WORK": 0
+        },
+        "NONFICTION_OR_OTHER_LITERARY_FORM": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0,
+          "MIXED_OR_UNCLEAR": 0,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 2,
+          "SPECIFIC_FICTION_WORK": 0
+        },
+        "SPECIFIC_FICTION_WORK": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0,
+          "MIXED_OR_UNCLEAR": 0,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 0,
+          "SPECIFIC_FICTION_WORK": 3
+        }
+      },
+      "design_weighted_exact_agreement": 0.8402777777777779,
+      "raw_exact_agreement": 0.85,
+      "raw_exact_matches": 17,
+      "raw_sample_n": 20,
+      "weighted_contingency_human_rows_llm_columns": {
+        "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 13.333333333333334,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0.0,
+          "MIXED_OR_UNCLEAR": 3.3333333333333335,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 3.3333333333333335,
+          "SPECIFIC_FICTION_WORK": 0.0
+        },
+        "FICTION_COLLECTION_OR_ANTHOLOGY": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0.0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 14.333333333333334,
+          "MIXED_OR_UNCLEAR": 0.0,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 0.0,
+          "SPECIFIC_FICTION_WORK": 0.0
+        },
+        "MIXED_OR_UNCLEAR": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0.0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0.0,
+          "MIXED_OR_UNCLEAR": 5.333333333333334,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 1.0,
+          "SPECIFIC_FICTION_WORK": 0.0
+        },
+        "NONFICTION_OR_OTHER_LITERARY_FORM": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0.0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0.0,
+          "MIXED_OR_UNCLEAR": 0.0,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 4.333333333333334,
+          "SPECIFIC_FICTION_WORK": 0.0
+        },
+        "SPECIFIC_FICTION_WORK": {
+          "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 0.0,
+          "FICTION_COLLECTION_OR_ANTHOLOGY": 0.0,
+          "MIXED_OR_UNCLEAR": 0.0,
+          "NONFICTION_OR_OTHER_LITERARY_FORM": 0.0,
+          "SPECIFIC_FICTION_WORK": 3.0
+        }
+      }
+    },
+    "date_window_assessment": {
+      "agreement_by_sampling_stratum": {
+        "COHERENT_COLLECTION": {
+          "exact_matches": 5,
+          "population_n": 20,
+          "sample_exact_agreement": 0.8333333333333334,
+          "sample_n": 6
+        },
+        "COHERENT_SINGLE_WORK": {
+          "exact_matches": 4,
+          "population_n": 5,
+          "sample_exact_agreement": 0.8,
+          "sample_n": 5
+        },
+        "HETEROGENEOUS_CLUSTER": {
+          "exact_matches": 4,
+          "population_n": 20,
+          "sample_exact_agreement": 0.6666666666666666,
+          "sample_n": 6
+        },
+        "UNCERTAIN": {
+          "exact_matches": 3,
+          "population_n": 3,
+          "sample_exact_agreement": 1.0,
+          "sample_n": 3
+        }
+      },
+      "contingency_human_rows_llm_columns": {
+        "INSUFFICIENT_DATE_EVIDENCE": {
+          "INSUFFICIENT_DATE_EVIDENCE": 9,
+          "LIKELY_ORIGINAL_1880_1950": 1,
+          "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 0
+        },
+        "LIKELY_ORIGINAL_1880_1950": {
+          "INSUFFICIENT_DATE_EVIDENCE": 2,
+          "LIKELY_ORIGINAL_1880_1950": 4,
+          "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 0
+        },
+        "LIKELY_ORIGINAL_OUTSIDE_1880_1950": {
+          "INSUFFICIENT_DATE_EVIDENCE": 1,
+          "LIKELY_ORIGINAL_1880_1950": 0,
+          "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 3
+        }
+      },
+      "design_weighted_exact_agreement": 0.7708333333333333,
+      "raw_exact_agreement": 0.8,
+      "raw_exact_matches": 16,
+      "raw_sample_n": 20,
+      "weighted_contingency_human_rows_llm_columns": {
+        "INSUFFICIENT_DATE_EVIDENCE": {
+          "INSUFFICIENT_DATE_EVIDENCE": 25.333333333333336,
+          "LIKELY_ORIGINAL_1880_1950": 3.3333333333333335,
+          "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 0.0
+        },
+        "LIKELY_ORIGINAL_1880_1950": {
+          "INSUFFICIENT_DATE_EVIDENCE": 4.333333333333334,
+          "LIKELY_ORIGINAL_1880_1950": 6.333333333333334,
+          "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 0.0
+        },
+        "LIKELY_ORIGINAL_OUTSIDE_1880_1950": {
+          "INSUFFICIENT_DATE_EVIDENCE": 3.3333333333333335,
+          "LIKELY_ORIGINAL_1880_1950": 0.0,
+          "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 5.333333333333334
+        }
+      }
+    },
+    "entity_status": {
+      "agreement_by_sampling_stratum": {
+        "COHERENT_COLLECTION": {
+          "exact_matches": 5,
+          "population_n": 20,
+          "sample_exact_agreement": 0.8333333333333334,
+          "sample_n": 6
+        },
+        "COHERENT_SINGLE_WORK": {
+          "exact_matches": 5,
+          "population_n": 5,
+          "sample_exact_agreement": 1.0,
+          "sample_n": 5
+        },
+        "HETEROGENEOUS_CLUSTER": {
+          "exact_matches": 6,
+          "population_n": 20,
+          "sample_exact_agreement": 1.0,
+          "sample_n": 6
+        },
+        "UNCERTAIN": {
+          "exact_matches": 2,
+          "population_n": 3,
+          "sample_exact_agreement": 0.6666666666666666,
+          "sample_n": 3
+        }
+      },
+      "contingency_human_rows_llm_columns": {
+        "COHERENT_COLLECTION": {
+          "COHERENT_COLLECTION": 5,
+          "COHERENT_SINGLE_WORK": 0,
+          "HETEROGENEOUS_CLUSTER": 0,
+          "UNCERTAIN": 0
+        },
+        "COHERENT_SINGLE_WORK": {
+          "COHERENT_COLLECTION": 0,
+          "COHERENT_SINGLE_WORK": 5,
+          "HETEROGENEOUS_CLUSTER": 0,
+          "UNCERTAIN": 0
+        },
+        "HETEROGENEOUS_CLUSTER": {
+          "COHERENT_COLLECTION": 1,
+          "COHERENT_SINGLE_WORK": 0,
+          "HETEROGENEOUS_CLUSTER": 6,
+          "UNCERTAIN": 1
+        },
+        "UNCERTAIN": {
+          "COHERENT_COLLECTION": 0,
+          "COHERENT_SINGLE_WORK": 0,
+          "HETEROGENEOUS_CLUSTER": 0,
+          "UNCERTAIN": 2
+        }
+      },
+      "design_weighted_exact_agreement": 0.9097222222222222,
+      "raw_exact_agreement": 0.9,
+      "raw_exact_matches": 18,
+      "raw_sample_n": 20,
+      "weighted_contingency_human_rows_llm_columns": {
+        "COHERENT_COLLECTION": {
+          "COHERENT_COLLECTION": 16.666666666666668,
+          "COHERENT_SINGLE_WORK": 0.0,
+          "HETEROGENEOUS_CLUSTER": 0.0,
+          "UNCERTAIN": 0.0
+        },
+        "COHERENT_SINGLE_WORK": {
+          "COHERENT_COLLECTION": 0.0,
+          "COHERENT_SINGLE_WORK": 5.0,
+          "HETEROGENEOUS_CLUSTER": 0.0,
+          "UNCERTAIN": 0.0
+        },
+        "HETEROGENEOUS_CLUSTER": {
+          "COHERENT_COLLECTION": 3.3333333333333335,
+          "COHERENT_SINGLE_WORK": 0.0,
+          "HETEROGENEOUS_CLUSTER": 20.0,
+          "UNCERTAIN": 1.0
+        },
+        "UNCERTAIN": {
+          "COHERENT_COLLECTION": 0.0,
+          "COHERENT_SINGLE_WORK": 0.0,
+          "HETEROGENEOUS_CLUSTER": 0.0,
+          "UNCERTAIN": 2.0
+        }
+      }
+    }
+  },
+  "date_axis_caveat": "Date-window agreement is diagnostic only. It must not be operationalized as a corpus inclusion/exclusion rule without separately establishing the intended corpus date semantics for collections and underlying intellectual works.",
+  "design_weight_sum": 48.00000000000001,
+  "interpretation": "Agreement diagnostic between frozen LLM and frozen human judgments on the 20-record stratified audit sample. The review workbook withheld LLM labels and retrieval-impact fields, but the human reviewer had previously been exposed to row-level LLM results. Therefore these statistics are not an independent blinded accuracy validation.",
+  "release": "openlibrary-r2a1-target-identity-human-vs-llm-v1",
+  "risk_set_population_rows": 48,
+  "sample_rows": 20,
+  "status": "human_llm_agreement_diagnostic"
+}
