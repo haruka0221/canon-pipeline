@@ -1,0 +1,11 @@
+{
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_analysis_v1/openalex_r2a1_baseline_primary_human_audit_analysis_summary_v1.json": "b5fe90e1a5f70881796bb8753e957b60bb20fdf068339ce87faf30de9c9d797a",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_analysis_v1/openalex_r2a1_baseline_primary_human_audit_analysis_v1_audit.json": "9433fcb2f6dfdafc92604fdc6acbf4506940702514d8c152207ea072282f06a9",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_analysis_v1/openalex_r2a1_baseline_primary_human_audit_join_v1.tsv": "ba8e0b2f6c2cf859a74c6d0a14c6bb64218a1f8319e81c5b970e6ec665930d15"
+  },
+  "sources": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/openalex_r2a1_baseline_primary_human_adjudication_v1.tsv": "6247d1a84ccb4550512d938ead844cb7dcbd826515d5a1f7a3204900797f4458",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_sample_v1/openalex_r2a1_baseline_primary_human_audit_sample_v1.tsv": "ca5fb8d6540fb995b57e8ce9ba083b2eea806037570a5766d5d7c7730c754b97"
+  }
+}

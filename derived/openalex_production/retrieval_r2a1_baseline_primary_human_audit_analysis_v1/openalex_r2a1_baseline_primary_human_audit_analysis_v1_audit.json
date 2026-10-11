@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "audit_rows_150": true,
+    "candidate_membership_exact": true,
+    "human_rows_150": true,
+    "llm_invalid_stratum_60": true,
+    "llm_uncertain_stratum_30": true,
+    "llm_valid_stratum_60": true,
+    "openalex_work_ids_match": true,
+    "project_work_ids_match": true,
+    "stratum_primary_sizes_match_474_265_61": true
+  },
+  "status": "PASSED"
+}

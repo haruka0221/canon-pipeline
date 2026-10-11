@@ -1,0 +1,72 @@
+{
+  "ci_note": "Approximate design-based normal 95% intervals with finite-population correction under stratified SRSWOR. A stratum with zero observed within-stratum variance contributes zero estimated variance; use a more conservative interval method for final publication reporting.",
+  "estimand": "Primary-800 pair-level target-attribution distribution",
+  "phase2_audit_n": 150,
+  "primary_population_n": 800,
+  "raw_exact_agreement_fraction": 0.48,
+  "raw_exact_agreement_n": 72,
+  "raw_human_counts_150": {
+    "INVALID_TARGET_REFERENCE": 13,
+    "UNCERTAIN": 4,
+    "VALID_TARGET_REFERENCE": 133
+  },
+  "release": "openalex-r2a1-baseline-primary-human-audit-analysis-v1",
+  "strata": {
+    "INVALID_TARGET_REFERENCE": {
+      "audit_n": 60,
+      "human_counts": {
+        "INVALID_TARGET_REFERENCE": 12,
+        "UNCERTAIN": 4,
+        "VALID_TARGET_REFERENCE": 44
+      },
+      "primary_n": 265
+    },
+    "UNCERTAIN": {
+      "audit_n": 30,
+      "human_counts": {
+        "INVALID_TARGET_REFERENCE": 1,
+        "UNCERTAIN": 0,
+        "VALID_TARGET_REFERENCE": 29
+      },
+      "primary_n": 61
+    },
+    "VALID_TARGET_REFERENCE": {
+      "audit_n": 60,
+      "human_counts": {
+        "INVALID_TARGET_REFERENCE": 0,
+        "UNCERTAIN": 0,
+        "VALID_TARGET_REFERENCE": 60
+      },
+      "primary_n": 474
+    }
+  },
+  "weighted_exact_agreement": {
+    "ci95_lower_approx": 0.6290133557657486,
+    "ci95_upper_approx": 0.6884866442342515,
+    "estimate": 0.6587500000000001,
+    "standard_error_design_based": 0.01517203605209603
+  },
+  "weighted_primary_estimates": {
+    "INVALID_TARGET_REFERENCE": {
+      "ci95_lower_approx": 0.03884372072259254,
+      "ci95_upper_approx": 0.0987396126107408,
+      "estimate": 0.06879166666666667,
+      "estimated_primary_count": 55.03333333333333,
+      "standard_error_design_based": 0.015279845027918732
+    },
+    "UNCERTAIN": {
+      "ci95_lower_approx": 0.0035392775738406976,
+      "ci95_upper_approx": 0.04062738909282597,
+      "estimate": 0.022083333333333333,
+      "estimated_primary_count": 17.666666666666668,
+      "standard_error_design_based": 0.009461426794454277
+    },
+    "VALID_TARGET_REFERENCE": {
+      "ci95_lower_approx": 0.8760586505105072,
+      "ci95_upper_approx": 0.9421913494894929,
+      "estimate": 0.9091250000000001,
+      "estimated_primary_count": 727.3000000000001,
+      "standard_error_design_based": 0.01687089648091292
+    }
+  }
+}
