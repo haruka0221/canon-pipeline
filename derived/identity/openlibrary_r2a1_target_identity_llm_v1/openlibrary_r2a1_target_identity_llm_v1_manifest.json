@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-11",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_editions_v1.tsv": "14d42c0b3de7c36f99c2fa45f6f5822c8de9f7d576964c688760c32e814b20b6",
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_summary_v1.tsv": "8889f35601c4244539206f6b90a4bbd5296ac279f60004087eb30510fe2fb10e",
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_diagnostic_v1_manifest.json": "6d75a153c05c35c4abf6b9f808fcad72d271e6f5fa1123228e1642e12a4e3e89",
+    "docs/OPENLIBRARY_R2A1_TARGET_IDENTITY_LLM_PROMPT_V1.md": "03b409df8fe8ca8e08f95c9d34dbaa38262ff5918fef69227b235a18c67c6617"
+  },
+  "outputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1.tsv": "2cdfb0bfaddb891a491aa066fa395ee89f2715a687fac683315a01f80dda6aee",
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1_audit.json": "42f2e941cada16bfa058869291fae2381397c3b09e45ece72ffc620f6ba2a085",
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1_run_config.json": "a2e0eb2fba36abdfa999a76c9e9fa807319acea1ea56d56366aed5afadcadb38",
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1_summary.json": "34ff0ab07b5ebee6f70ec393f4afadb7ebc4fe60bef8faf920743d3f93ac4beb"
+  },
+  "release": "openlibrary-r2a1-target-identity-llm-v1"
+}

@@ -1,0 +1,41 @@
+{
+  "confidence_counts": {
+    "HIGH": 27,
+    "LOW": 1,
+    "MEDIUM": 20
+  },
+  "content_type_counts": {
+    "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 18,
+    "FICTION_COLLECTION_OR_ANTHOLOGY": 11,
+    "MIXED_OR_UNCLEAR": 11,
+    "NONFICTION_OR_OTHER_LITERARY_FORM": 5,
+    "SPECIFIC_FICTION_WORK": 3
+  },
+  "created_at": "2026-10-11",
+  "date_window_counts": {
+    "INSUFFICIENT_DATE_EVIDENCE": 31,
+    "LIKELY_ORIGINAL_1880_1950": 9,
+    "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 8
+  },
+  "entity_status_counts": {
+    "COHERENT_COLLECTION": 20,
+    "COHERENT_SINGLE_WORK": 5,
+    "HETEROGENEOUS_CLUSTER": 20,
+    "UNCERTAIN": 3
+  },
+  "interpretation": [
+    "These are provisional LLM judgments over a selected high-impact identity/scope risk set, not a population-wide estimate.",
+    "Risk and OpenAlex impact fields were withheld from the LLM.",
+    "Identity coherence, corpus content type, and original-date assessment are separate judgment axes.",
+    "No production inclusion/exclusion policy is established by this release."
+  ],
+  "model_requested": "gpt-6.1-sol",
+  "project_works": 47,
+  "release": "openlibrary-r2a1-target-identity-llm-v1",
+  "rows": 48,
+  "status": "provisional_llm_identity_scope_adjudication",
+  "usage": {
+    "input_tokens": 95875,
+    "output_tokens": 13058
+  }
+}

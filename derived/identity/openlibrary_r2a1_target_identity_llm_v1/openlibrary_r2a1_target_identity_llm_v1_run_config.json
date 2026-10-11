@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-11",
+  "expected_edition_rows": 650,
+  "expected_openlibrary_works": 48,
+  "max_workers": 6,
+  "model": "gpt-6.1-sol",
+  "prompt_sha256": "03b409df8fe8ca8e08f95c9d34dbaa38262ff5918fef69227b235a18c67c6617",
+  "prompt_version": "openlibrary-r2a1-target-identity-llm-prompt-v1",
+  "release": "openlibrary-r2a1-target-identity-llm-v1",
+  "risk_fields_withheld_from_llm": [
+    "diagnostic_type",
+    "exact_pairset_duplicate_group",
+    "has_exact_pairset_duplicate",
+    "pair_count",
+    "pairset_sha256"
+  ],
+  "source_editions_sha256": "14d42c0b3de7c36f99c2fa45f6f5822c8de9f7d576964c688760c32e814b20b6",
+  "source_manifest_sha256": "6d75a153c05c35c4abf6b9f808fcad72d271e6f5fa1123228e1642e12a4e3e89",
+  "source_summary_sha256": "8889f35601c4244539206f6b90a4bbd5296ac279f60004087eb30510fe2fb10e"
+}

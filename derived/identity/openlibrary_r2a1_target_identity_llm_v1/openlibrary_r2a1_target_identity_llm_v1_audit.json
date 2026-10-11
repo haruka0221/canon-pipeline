@@ -1,0 +1,12 @@
+{
+  "audit_status": "PASSED",
+  "checks": {
+    "all_notes_nonblank": true,
+    "expected_rows": 48,
+    "risk_fields_not_in_output": true,
+    "rows": 48,
+    "source_membership_exact": true,
+    "unique_openlibrary_work_ids": 48
+  },
+  "release": "openlibrary-r2a1-target-identity-llm-v1"
+}
