@@ -1,0 +1,27 @@
+{
+  "important_semantics": [
+    "Queue membership indicates need for identity-resolution/remediation review; it is not an exclusion decision.",
+    "Pair count is used only to prioritize remediation impact after identity diagnostics were frozen.",
+    "The queue does not alter the frozen 34,789-record source population.",
+    "The queue does not decide temporal, language, or fiction-scope eligibility."
+  ],
+  "queue_pair_mass": 72914,
+  "queue_project_works": 24,
+  "queue_reason_counts": {
+    "HUMAN_REVIEW_HETEROGENEOUS": 2,
+    "LLM_HETEROGENEOUS_CLUSTER": 19,
+    "LLM_UNCERTAIN": 3,
+    "MULTI_RECORD_CONFLICT": 1
+  },
+  "queue_share_of_baseline_r2a1_pair_mass": 0.25101211787386396,
+  "queue_share_of_risk_pair_mass": 0.7139472035093216,
+  "release": "openlibrary-r2a1-target-identity-remediation-queue-v1",
+  "selection_rule": [
+    "LLM project status HETEROGENEOUS_CLUSTER",
+    "LLM project status UNCERTAIN",
+    "MULTI_RECORD_CONFLICT",
+    "Human-reviewed project flagged as HETEROGENEOUS_CLUSTER, UNCERTAIN, or NONWORK_OR_HEADING_ARTIFACT when that flag is not already represented by the LLM project status."
+  ],
+  "source_project_works": 47,
+  "status": "remediation_queue_selection"
+}
