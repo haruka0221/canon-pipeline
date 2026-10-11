@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-11",
+  "human_freeze_commit": "655d2e521487d4cf8e34c435ac419a86a9a353be",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_adjudication_v1/openlibrary_r2a1_split_edition_human_audit_adjudication_v1.tsv": "669f6c54fb0b318bd8c6068c78cd963ad3702d6c64e45e4f518e5cab0a1c1377",
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_adjudication_v1/openlibrary_r2a1_split_edition_human_audit_adjudication_v1_manifest.json": "f85bdb3d946de1956f827fe51a7aeed6ab78d825ead305c2d9b8223c8af2f15a",
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_v1/openlibrary_r2a1_split_edition_human_audit_v1_manifest.json": "6115383f605c3cf69b52525b37a20017fac4bee0826736dfd04274259e83561f",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_llm_v1/openlibrary_r2a1_split_edition_routing_llm_v1.tsv": "1cd525a5f0a38dcd0aeb691419abcabeaaeab7bef187939e9b59b62a0bbdff69",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_llm_v1/openlibrary_r2a1_split_edition_routing_llm_v1_manifest.json": "273ffdffaf4d701f37adcde6c1e8adfb68752c6bc9b70ba394432cab88175829",
+    "scripts/compare_openlibrary_r2a1_split_edition_human_llm_v1.py": "e3b4aec5393f8f111a4f2da5cd5b0e4733c7c3752c69ec12c9742a3c3449f438"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_human_llm_comparison_v1.tsv": "818918711ea84170f177b579bf76de4d6b8d4293ec1bc3d334044c29c7177987",
+    "openlibrary_r2a1_split_edition_human_llm_comparison_v1_audit.json": "610d6d4a0d72ff56632717b00e58f7bddeacdfcf48509483f43af71f07472fc3",
+    "openlibrary_r2a1_split_edition_human_llm_comparison_v1_summary.json": "2e01b12a3d36ae888d0aaa411114e55606fe7d0a4ae4f1b6f6751b21be4417d8",
+    "openlibrary_r2a1_split_edition_human_llm_disagreements_v1.tsv": "b0883fe80e8004312ec3493d1677bbe8a4bd2a822dc83ef5593b9a46d6ef8b21"
+  },
+  "raw_llm_freeze_commit": "9d4a2d0ce50cc5335e06672732aa060d3a3be124",
+  "release": "openlibrary-r2a1-split-edition-human-llm-comparison-v1",
+  "review_selection_freeze_commit": "32d95c3de27eabee635cb54e930f7c791a6822b3",
+  "semantics": [
+    "Human decisions were frozen before this row-level unblinding comparison.",
+    "REGISTRY_ISSUE rows are not counted as route agreements or disagreements because the human reviewer judged the fixed component ontology itself inadequate.",
+    "For ASSIGN_COMPONENT rows, exact route agreement requires the same component_id.",
+    "Two HOLD_UNRESOLVED decisions count as exact route agreement.",
+    "The audit set deliberately oversamples non-HIGH LLM decisions and sensitive component assignments.",
+    "Reported agreement is descriptive of selected audit strata and is not an estimate of accuracy across all 508 Edition rows.",
+    "This comparison does not mutate either the frozen LLM routing or the frozen human adjudication."
+  ],
+  "status": "descriptive_unblinded_comparison"
+}

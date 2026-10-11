@@ -1,0 +1,29 @@
+{
+  "audit_status": "PASSED",
+  "comparison_rows": 118,
+  "comparison_status_counts": {
+    "DECISION_DISAGREEMENT": 17,
+    "EXACT_AGREEMENT": 95,
+    "REGISTRY_ISSUE": 6
+  },
+  "disagreement_rows_including_registry_issues": 23,
+  "exact_human_llm_join": true,
+  "human_frozen_before_unblinding": true,
+  "human_rows": 118,
+  "llm_rows": 508,
+  "population_accuracy_claim_permitted": false,
+  "project_work_ids_match": true,
+  "project_works": 17,
+  "release": "openlibrary-r2a1-split-edition-human-llm-comparison-v1",
+  "selection_set_exactly_reconstructed": true,
+  "selection_stage_counts": {
+    "high_assign_sample": 17,
+    "high_hold_sample": 13,
+    "high_primary_successor_sample": 3,
+    "mandatory_non_high": 57,
+    "mandatory_sensitive_assignment": 28
+  },
+  "selection_stage_counts_match_frozen_manifest": true,
+  "unique_audit_case_ids": 118,
+  "unique_edition_keys": 118
+}

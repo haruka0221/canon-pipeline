@@ -1,0 +1,702 @@
+{
+  "by_llm_confidence": {
+    "HIGH": {
+      "both_assign_component_exact": 48,
+      "both_assign_rows": 48,
+      "comparable_rows": 58,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 3,
+        "EXACT_AGREEMENT": 55,
+        "REGISTRY_ISSUE": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 3,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.9482758620689655,
+      "exact_route_agreements": 55,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 51,
+        "HOLD_UNRESOLVED": 7,
+        "REGISTRY_ISSUE": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 48,
+        "HOLD_UNRESOLVED": 13
+      },
+      "registry_issues": 3,
+      "rows": 61
+    },
+    "LOW": {
+      "both_assign_component_exact": 0,
+      "both_assign_rows": 0,
+      "comparable_rows": 25,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 3,
+        "EXACT_AGREEMENT": 22,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 3,
+      "descriptive_component_exact_rate_among_both_assign": null,
+      "descriptive_exact_route_agreement_rate": 0.88,
+      "exact_route_agreements": 22,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 3,
+        "HOLD_UNRESOLVED": 22,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "HOLD_UNRESOLVED": 26
+      },
+      "registry_issues": 1,
+      "rows": 26
+    },
+    "MEDIUM": {
+      "both_assign_component_exact": 15,
+      "both_assign_rows": 15,
+      "comparable_rows": 29,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 11,
+        "EXACT_AGREEMENT": 18,
+        "REGISTRY_ISSUE": 2
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 11,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.6206896551724138,
+      "exact_route_agreements": 18,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 23,
+        "HOLD_UNRESOLVED": 6,
+        "REGISTRY_ISSUE": 2
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 19,
+        "HOLD_UNRESOLVED": 12
+      },
+      "registry_issues": 2,
+      "rows": 31
+    }
+  },
+  "by_project": {
+    "W000002404": {
+      "both_assign_component_exact": 2,
+      "both_assign_rows": 2,
+      "comparable_rows": 3,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 3,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 3
+    },
+    "W000003023": {
+      "both_assign_component_exact": 1,
+      "both_assign_rows": 1,
+      "comparable_rows": 1,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 1,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 1,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 1,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2
+      },
+      "registry_issues": 1,
+      "rows": 2
+    },
+    "W000003030": {
+      "both_assign_component_exact": 2,
+      "both_assign_rows": 2,
+      "comparable_rows": 3,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 3,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 3
+    },
+    "W000004772": {
+      "both_assign_component_exact": 3,
+      "both_assign_rows": 3,
+      "comparable_rows": 26,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 3,
+        "EXACT_AGREEMENT": 23
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 3,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.8846153846153846,
+      "exact_route_agreements": 23,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 6,
+        "HOLD_UNRESOLVED": 20
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 3,
+        "HOLD_UNRESOLVED": 23
+      },
+      "registry_issues": 0,
+      "rows": 26
+    },
+    "W000004821": {
+      "both_assign_component_exact": 8,
+      "both_assign_rows": 8,
+      "comparable_rows": 11,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 2,
+        "EXACT_AGREEMENT": 9
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 2,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.8181818181818182,
+      "exact_route_agreements": 9,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 9,
+        "HOLD_UNRESOLVED": 2
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 9,
+        "HOLD_UNRESOLVED": 2
+      },
+      "registry_issues": 0,
+      "rows": 11
+    },
+    "W000004923": {
+      "both_assign_component_exact": 2,
+      "both_assign_rows": 2,
+      "comparable_rows": 3,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 1,
+        "EXACT_AGREEMENT": 2
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 1,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.6666666666666666,
+      "exact_route_agreements": 2,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 3
+    },
+    "W000005351": {
+      "both_assign_component_exact": 3,
+      "both_assign_rows": 3,
+      "comparable_rows": 7,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 2,
+        "EXACT_AGREEMENT": 5
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 2,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.7142857142857143,
+      "exact_route_agreements": 5,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 4,
+        "HOLD_UNRESOLVED": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 4,
+        "HOLD_UNRESOLVED": 3
+      },
+      "registry_issues": 0,
+      "rows": 7
+    },
+    "W000005423": {
+      "both_assign_component_exact": 10,
+      "both_assign_rows": 10,
+      "comparable_rows": 11,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 1,
+        "EXACT_AGREEMENT": 10,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 1,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.9090909090909091,
+      "exact_route_agreements": 10,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 11,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 10,
+        "HOLD_UNRESOLVED": 2
+      },
+      "registry_issues": 1,
+      "rows": 12
+    },
+    "W000005682": {
+      "both_assign_component_exact": 5,
+      "both_assign_rows": 5,
+      "comparable_rows": 8,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 3,
+        "EXACT_AGREEMENT": 5,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 3,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.625,
+      "exact_route_agreements": 5,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 8,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 5,
+        "HOLD_UNRESOLVED": 4
+      },
+      "registry_issues": 1,
+      "rows": 9
+    },
+    "W000013400": {
+      "both_assign_component_exact": 1,
+      "both_assign_rows": 1,
+      "comparable_rows": 2,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 2
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 2,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 1,
+        "HOLD_UNRESOLVED": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 1,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 2
+    },
+    "W000014024": {
+      "both_assign_component_exact": 2,
+      "both_assign_rows": 2,
+      "comparable_rows": 4,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 4,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 4,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 2,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 3
+      },
+      "registry_issues": 1,
+      "rows": 5
+    },
+    "W000014515": {
+      "both_assign_component_exact": 9,
+      "both_assign_rows": 9,
+      "comparable_rows": 11,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 11
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 11,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 9,
+        "HOLD_UNRESOLVED": 2
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 9,
+        "HOLD_UNRESOLVED": 2
+      },
+      "registry_issues": 0,
+      "rows": 11
+    },
+    "W000021761": {
+      "both_assign_component_exact": 6,
+      "both_assign_rows": 6,
+      "comparable_rows": 8,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 2,
+        "EXACT_AGREEMENT": 6,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 2,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.75,
+      "exact_route_agreements": 6,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 8,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 6,
+        "HOLD_UNRESOLVED": 3
+      },
+      "registry_issues": 1,
+      "rows": 9
+    },
+    "W000023649": {
+      "both_assign_component_exact": 2,
+      "both_assign_rows": 2,
+      "comparable_rows": 3,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 3,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 3
+    },
+    "W000030489": {
+      "both_assign_component_exact": 1,
+      "both_assign_rows": 1,
+      "comparable_rows": 3,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 2,
+        "EXACT_AGREEMENT": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 2,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.3333333333333333,
+      "exact_route_agreements": 1,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 2,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 3
+    },
+    "W000030498": {
+      "both_assign_component_exact": 5,
+      "both_assign_rows": 5,
+      "comparable_rows": 6,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 1,
+        "EXACT_AGREEMENT": 5,
+        "REGISTRY_ISSUE": 1
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 1,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.8333333333333334,
+      "exact_route_agreements": 5,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 6,
+        "REGISTRY_ISSUE": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 5,
+        "HOLD_UNRESOLVED": 2
+      },
+      "registry_issues": 1,
+      "rows": 7
+    },
+    "W000031472": {
+      "both_assign_component_exact": 1,
+      "both_assign_rows": 1,
+      "comparable_rows": 2,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 2
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 2,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 1,
+        "HOLD_UNRESOLVED": 1
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 1,
+        "HOLD_UNRESOLVED": 1
+      },
+      "registry_issues": 0,
+      "rows": 2
+    }
+  },
+  "by_selection_group": {
+    "high_confidence_validation_sample": {
+      "both_assign_component_exact": 20,
+      "both_assign_rows": 20,
+      "comparable_rows": 30,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 3,
+        "EXACT_AGREEMENT": 27,
+        "REGISTRY_ISSUE": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 3,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.9,
+      "exact_route_agreements": 27,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 23,
+        "HOLD_UNRESOLVED": 7,
+        "REGISTRY_ISSUE": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 20,
+        "HOLD_UNRESOLVED": 13
+      },
+      "registry_issues": 3,
+      "rows": 33
+    },
+    "targeted_operational_review": {
+      "both_assign_component_exact": 43,
+      "both_assign_rows": 43,
+      "comparable_rows": 82,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 14,
+        "EXACT_AGREEMENT": 68,
+        "REGISTRY_ISSUE": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 14,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.8292682926829268,
+      "exact_route_agreements": 68,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 54,
+        "HOLD_UNRESOLVED": 28,
+        "REGISTRY_ISSUE": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 47,
+        "HOLD_UNRESOLVED": 38
+      },
+      "registry_issues": 3,
+      "rows": 85
+    }
+  },
+  "by_selection_stage": {
+    "high_assign_sample": {
+      "both_assign_component_exact": 17,
+      "both_assign_rows": 17,
+      "comparable_rows": 17,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 17
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 17,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 17
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 17
+      },
+      "registry_issues": 0,
+      "rows": 17
+    },
+    "high_hold_sample": {
+      "both_assign_component_exact": 0,
+      "both_assign_rows": 0,
+      "comparable_rows": 10,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 3,
+        "EXACT_AGREEMENT": 7,
+        "REGISTRY_ISSUE": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 3,
+      "descriptive_component_exact_rate_among_both_assign": null,
+      "descriptive_exact_route_agreement_rate": 0.7,
+      "exact_route_agreements": 7,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 3,
+        "HOLD_UNRESOLVED": 7,
+        "REGISTRY_ISSUE": 3
+      },
+      "llm_decision_counts": {
+        "HOLD_UNRESOLVED": 13
+      },
+      "registry_issues": 3,
+      "rows": 13
+    },
+    "high_primary_successor_sample": {
+      "both_assign_component_exact": 3,
+      "both_assign_rows": 3,
+      "comparable_rows": 3,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 3,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 3
+      },
+      "registry_issues": 0,
+      "rows": 3
+    },
+    "mandatory_non_high": {
+      "both_assign_component_exact": 15,
+      "both_assign_rows": 15,
+      "comparable_rows": 54,
+      "comparison_status_counts": {
+        "DECISION_DISAGREEMENT": 14,
+        "EXACT_AGREEMENT": 40,
+        "REGISTRY_ISSUE": 3
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 14,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 0.7407407407407407,
+      "exact_route_agreements": 40,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 26,
+        "HOLD_UNRESOLVED": 28,
+        "REGISTRY_ISSUE": 3
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 19,
+        "HOLD_UNRESOLVED": 38
+      },
+      "registry_issues": 3,
+      "rows": 57
+    },
+    "mandatory_sensitive_assignment": {
+      "both_assign_component_exact": 28,
+      "both_assign_rows": 28,
+      "comparable_rows": 28,
+      "comparison_status_counts": {
+        "EXACT_AGREEMENT": 28
+      },
+      "component_disagreements": 0,
+      "decision_disagreements": 0,
+      "descriptive_component_exact_rate_among_both_assign": 1.0,
+      "descriptive_exact_route_agreement_rate": 1.0,
+      "exact_route_agreements": 28,
+      "human_decision_counts": {
+        "ASSIGN_COMPONENT": 28
+      },
+      "llm_decision_counts": {
+        "ASSIGN_COMPONENT": 28
+      },
+      "registry_issues": 0,
+      "rows": 28
+    }
+  },
+  "created_at": "2026-10-11",
+  "decision_crosstab_human_by_llm": {
+    "ASSIGN_COMPONENT": {
+      "ASSIGN_COMPONENT": 63,
+      "HOLD_UNRESOLVED": 14
+    },
+    "HOLD_UNRESOLVED": {
+      "ASSIGN_COMPONENT": 3,
+      "HOLD_UNRESOLVED": 32
+    },
+    "REGISTRY_ISSUE": {
+      "ASSIGN_COMPONENT": 1,
+      "HOLD_UNRESOLVED": 5
+    }
+  },
+  "interpretation_warning": "The 118-row human audit set is not a simple random sample of all 508 Editions. It deliberately oversamples LOW/MEDIUM LLM confidence and policy-sensitive assignments. Agreement rates below are descriptive for the selected audit strata and must not be reported as population accuracy.",
+  "overall": {
+    "both_assign_component_exact": 63,
+    "both_assign_rows": 63,
+    "comparable_rows": 112,
+    "comparison_status_counts": {
+      "DECISION_DISAGREEMENT": 17,
+      "EXACT_AGREEMENT": 95,
+      "REGISTRY_ISSUE": 6
+    },
+    "component_disagreements": 0,
+    "decision_disagreements": 17,
+    "descriptive_component_exact_rate_among_both_assign": 1.0,
+    "descriptive_exact_route_agreement_rate": 0.8482142857142857,
+    "exact_route_agreements": 95,
+    "human_decision_counts": {
+      "ASSIGN_COMPONENT": 77,
+      "HOLD_UNRESOLVED": 35,
+      "REGISTRY_ISSUE": 6
+    },
+    "llm_decision_counts": {
+      "ASSIGN_COMPONENT": 67,
+      "HOLD_UNRESOLVED": 51
+    },
+    "registry_issues": 6,
+    "rows": 118
+  },
+  "release": "openlibrary-r2a1-split-edition-human-llm-comparison-v1",
+  "status": "descriptive_unblinded_comparison"
+}
