@@ -1,0 +1,73 @@
+{
+  "baseline_r2a1_pairs": 290480,
+  "human_review_overlay": {
+    "important_caveat": "The human audit was stratified by LLM entity-status class, not by pair mass. The observed disagreement pair mass among reviewed records is descriptive only and must not be extrapolated as a pair-level error rate.",
+    "reviewed_entity_disagreement_pair_mass": 731,
+    "reviewed_entity_disagreement_source_records": 2,
+    "reviewed_project_pair_mass": 29528,
+    "reviewed_project_pair_mass_share_of_risk": 0.2891273695754347,
+    "reviewed_project_works": 20
+  },
+  "interpretation_caveat": "Pair mass measures the number of project_work_id × OpenAlex Work candidate pairs associated with each upstream target entity. HETEROGENEOUS_CLUSTER does not mean that every associated OpenAlex pair is an invalid retrieval. This analysis quantifies concentration of retrieval mass in target entities with different identity/coherence properties; it is not a corrected retrieval-precision estimate.",
+  "llm_project_entity_status_impact": {
+    "COHERENT_COLLECTION": {
+      "pair_mass": 28984,
+      "project_works": 19,
+      "share_of_47_project_works": 0.40425531914893614,
+      "share_of_baseline_r2a1_pair_mass": 0.09977967502065546,
+      "share_of_risk_pair_mass": 0.2838007206642644
+    },
+    "COHERENT_SINGLE_WORK": {
+      "pair_mass": 605,
+      "project_works": 5,
+      "share_of_47_project_works": 0.10638297872340426,
+      "share_of_baseline_r2a1_pair_mass": 0.0020827595703662902,
+      "share_of_risk_pair_mass": 0.005923938586871377
+    },
+    "HETEROGENEOUS_CLUSTER": {
+      "pair_mass": 67244,
+      "project_works": 19,
+      "share_of_47_project_works": 0.40425531914893614,
+      "share_of_baseline_r2a1_pair_mass": 0.2314927017350592,
+      "share_of_risk_pair_mass": 0.6584286385712048
+    },
+    "MULTI_RECORD_CONFLICT": {
+      "pair_mass": 1885,
+      "project_works": 1,
+      "share_of_47_project_works": 0.02127659574468085,
+      "share_of_baseline_r2a1_pair_mass": 0.006489259157256954,
+      "share_of_risk_pair_mass": 0.018457230142566193
+    },
+    "NONWORK_OR_HEADING_ARTIFACT": {
+      "pair_mass": 0,
+      "project_works": 0,
+      "share_of_47_project_works": 0.0,
+      "share_of_baseline_r2a1_pair_mass": 0.0,
+      "share_of_risk_pair_mass": 0.0
+    },
+    "UNCERTAIN": {
+      "pair_mass": 3410,
+      "project_works": 3,
+      "share_of_47_project_works": 0.06382978723404255,
+      "share_of_baseline_r2a1_pair_mass": 0.011739190305700909,
+      "share_of_risk_pair_mass": 0.033389472035093216
+    }
+  },
+  "multi_record_conflicts": [
+    {
+      "current_ol_work_ids": "OL1124016W || OL15822869W",
+      "human_entity_statuses_reviewed": "COHERENT_COLLECTION",
+      "human_review_coverage": "1/2",
+      "llm_source_entity_statuses": "COHERENT_COLLECTION || HETEROGENEOUS_CLUSTER",
+      "pair_count": 1885,
+      "project_work_id": "W000031690",
+      "r2_target_title": "Maria Edgeworth"
+    }
+  ],
+  "release": "openlibrary-r2a1-target-identity-pair-impact-v1",
+  "risk_pair_mass": 102128,
+  "risk_project_works": 47,
+  "risk_share_of_baseline_r2a1_pair_mass": 0.3515835857890388,
+  "risk_source_ol_records": 48,
+  "status": "pair_impact_diagnostic"
+}

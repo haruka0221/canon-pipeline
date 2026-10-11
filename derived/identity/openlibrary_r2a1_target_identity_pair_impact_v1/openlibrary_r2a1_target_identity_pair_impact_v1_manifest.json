@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_risk_packet_v1.tsv": "5ff1046e0d07ab501afc398ab07958aadd14aca683993db249bfe01a83bfb6ed",
+    "derived/identity/openlibrary_r2a1_target_identity_human_adjudication_v1/openlibrary_r2a1_target_identity_human_adjudication_v1.tsv": "b9f85af31d8386f6ca083061960da8435d187021fc2ba61430df3c83e0be6ebf",
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1.tsv": "2cdfb0bfaddb891a491aa066fa395ee89f2715a687fac683315a01f80dda6aee"
+  },
+  "outputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_pair_impact_v1/openlibrary_r2a1_target_identity_pair_impact_project_v1.tsv": "b58599b1775ad215f73d55b2d08cf3e3873b02a821e70812fc6904a71d0d4a68",
+    "derived/identity/openlibrary_r2a1_target_identity_pair_impact_v1/openlibrary_r2a1_target_identity_pair_impact_reviewed_entity_disagreements_v1.tsv": "3fabf7efce2279c6485a4dbb4f7482c862ab89e68646085f490229bde9dd4586",
+    "derived/identity/openlibrary_r2a1_target_identity_pair_impact_v1/openlibrary_r2a1_target_identity_pair_impact_source_record_v1.tsv": "c51e69a4a239d7bc72e0bdc9e6a38f4ccba342dafd29717600b175b1638e12b8",
+    "derived/identity/openlibrary_r2a1_target_identity_pair_impact_v1/openlibrary_r2a1_target_identity_pair_impact_v1_summary.json": "cf1bc00d9c9ce198739117a519dcebe91dca698bc0d56543f028ac03d29892e2"
+  },
+  "release": "openlibrary-r2a1-target-identity-pair-impact-v1",
+  "semantics": [
+    "The 48 source OL records are collapsed to 47 project works before pair mass is summed.",
+    "If multiple source OL records under one project work receive different LLM entity statuses, the project-level status is MULTI_RECORD_CONFLICT rather than choosing one source-record judgment.",
+    "Maria Edgeworth therefore contributes 1,885 pairs once, not twice.",
+    "Exact candidate-set duplication among different project works, including the Charles Lamb group, does not collapse those project works into one conceptual work.",
+    "Human judgments are retained only as a review overlay. They do not partially replace the 48-record frozen LLM classification.",
+    "No status category in this artifact is itself an OpenAlex retrieval-validity label."
+  ],
+  "status": "frozen_analysis_candidate"
+}
