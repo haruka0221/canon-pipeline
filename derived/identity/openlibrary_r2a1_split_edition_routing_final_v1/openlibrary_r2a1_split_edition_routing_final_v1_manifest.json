@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-11",
+  "human_freeze_commit": "655d2e521487d4cf8e34c435ac419a86a9a353be",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2.tsv": "c810e7ffb17a345196e9911c6c66426935fe6addae5d1130c7d5c21bbe2c4383",
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2_changes.tsv": "673ca69e9088ab9db560d99005d99adb1d4df6b2cc13f1e3375d02bb3f00db49",
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_adjudication_v1/openlibrary_r2a1_split_edition_human_audit_adjudication_v1.tsv": "669f6c54fb0b318bd8c6068c78cd963ad3702d6c64e45e4f518e5cab0a1c1377",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_llm_v1/openlibrary_r2a1_split_edition_routing_llm_v1.tsv": "1cd525a5f0a38dcd0aeb691419abcabeaaeab7bef187939e9b59b62a0bbdff69",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_llm_v2/openlibrary_r2a1_split_edition_routing_llm_v2.tsv": "d56fc332b2e01d727983b4825799ae5869a9c8c301a7960534fde0837468c98d",
+    "scripts/finalize_openlibrary_r2a1_split_edition_routing_final_v1.py": "73ecaf1cf8a2358e406fac6c974dda17e091f462b20b632d00f3fbcb800215d0"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_routing_final_v1.tsv": "366b00ff602a46865df9dcb286520d6006adc35d1f391a8651bda3274d2bc3d3",
+    "openlibrary_r2a1_split_edition_routing_final_v1_audit.json": "c95276f2d7c49932cdb5634d21f4a6bfc833e949fa305a685991c36e85da4e69",
+    "openlibrary_r2a1_split_edition_routing_final_v1_human_authority.tsv": "3148faf42e080aaf665d75085b607169e53448eaa4b5979cdc2c04cc7f1c3c4a",
+    "openlibrary_r2a1_split_edition_routing_final_v1_summary.json": "7eafa00da0b6c314449b206e1dc7a15e8938dc6fd5106675b990ded4e94c9985"
+  },
+  "registry_v2_freeze_commit": "bbb190bd6f47eda96981a4434da00935bf2a818f",
+  "release": "openlibrary-r2a1-split-edition-routing-final-v1",
+  "semantics": [
+    "This is the final operational Edition-routing release for the 508 Editions inside the 17 human-SPLIT predecessor project works.",
+    "The six registry-remediated predecessor projects use frozen LLM routing v2 as their base; the other eleven projects retain frozen LLM routing v1 as base.",
+    "All 118 human-reviewed Edition rows are human-authoritative in the final release.",
+    "For 112 rows with direct human ASSIGN or HOLD decisions, the human decision overrides or confirms the LLM base.",
+    "For the six former REGISTRY_ISSUE rows, the final component is the human-added registry-v2 component; the fresh v2 LLM routing independently agreed with all six.",
+    "The remaining 390 unreviewed rows retain their frozen operational LLM routing.",
+    "HOLD_UNRESOLVED is preserved as explicit uncertainty and is not treated as failure.",
+    "A routing component is an Edition-routing ontology label, not a project_work_id or source_entity_id.",
+    "DETACH and EXCLUDE_APPARATUS are component role hints and do not themselves constitute corpus-scope decisions.",
+    "This release does not create successor project works, source entities, lineage edges, or scope decisions."
+  ],
+  "status": "operational_final_edition_routing",
+  "v1_llm_freeze_commit": "9d4a2d0ce50cc5335e06672732aa060d3a3be124",
+  "v1_v2_comparison_freeze_commit": "497bb5bbc80c7ba0063b9e3eda3fdc1d2dd4c62a",
+  "v2_llm_freeze_commit": "de464605eaf4281ab60a1f51706ab5c7245090ac"
+}

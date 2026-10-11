@@ -1,0 +1,28 @@
+{
+  "all_final_components_belong_to_same_project": true,
+  "all_final_components_valid_in_registry_v2": true,
+  "all_holds_have_blank_component": true,
+  "audit_status": "PASSED",
+  "base_v1_rows": 317,
+  "base_v2_rows": 191,
+  "final_provenance_counts": {
+    "human_direct_adjudication": 112,
+    "human_registry_remediation_v2": 6,
+    "llm_v1_unreviewed": 243,
+    "llm_v2_unreviewed": 147
+  },
+  "final_routing_decision_counts": {
+    "ASSIGN_COMPONENT": 404,
+    "HOLD_UNRESOLVED": 104
+  },
+  "human_authority_applied_to_all_118_reviewed_rows": true,
+  "human_direct_rows": 112,
+  "human_registry_remediation_rows": 6,
+  "llm_only_rows": 390,
+  "original_edition_metadata_unchanged": true,
+  "project_works": 17,
+  "registry_issues_resolved_through_registry_v2": true,
+  "release": "openlibrary-r2a1-split-edition-routing-final-v1",
+  "rows": 508,
+  "unique_edition_keys": 508
+}
