@@ -1,0 +1,39 @@
+{
+  "edition_rows": 508,
+  "edition_rows_by_project": {
+    "W000002404": 7,
+    "W000003023": 6,
+    "W000003030": 5,
+    "W000004772": 50,
+    "W000004821": 55,
+    "W000004923": 63,
+    "W000005351": 20,
+    "W000005423": 43,
+    "W000005682": 22,
+    "W000013400": 11,
+    "W000014024": 31,
+    "W000014515": 79,
+    "W000021761": 47,
+    "W000023649": 16,
+    "W000030489": 5,
+    "W000030498": 42,
+    "W000031472": 6
+  },
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1.tsv": "0254177d7537a9e5c6e3b7b9e2f822a583a717bd5e88f05973a3e0e0cf88b146",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_evidence_v1/openlibrary_r2a1_target_identity_remediation_edition_evidence_v1.tsv": "bdf9a0151df75b66b3eb800ecaff5fc1ba2673bafd4389aa2ccfe4769f3f0e2d"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_routing_input_v1.tsv": "1775ef5c0f938113d47a7e303664844d6f016412b4182503b25d58d4f9ee27e3",
+    "openlibrary_r2a1_split_edition_routing_projects_v1.tsv": "3b061c8e729e479fc2649d64992a17b674d349659a03bf3d1912c8afa677e550"
+  },
+  "semantics": [
+    "This artifact is an LLM-routing input only; it does not assign successor project works.",
+    "Human remediation resolution_plan is copied unchanged and will constrain edition routing.",
+    "Edition publication dates are manifestation metadata and are not original-work scope decisions.",
+    "Existing project-work candidate hits are deliberately absent from this routing input to avoid biasing the edition-level grouping."
+  ],
+  "split_project_works": 17,
+  "status": "PASSED",
+  "unique_edition_keys": 508
+}
