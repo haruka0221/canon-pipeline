@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-11",
+  "input": {
+    "path": "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_blind_v1.tsv",
+    "sha256": "b62d6c362e1cdf113baf2792cb78f3107b9791471c11fc073bd1a25a527260ac"
+  },
+  "input_manifest": {
+    "path": "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_review_input_v1_manifest.json",
+    "sha256": "a5022fc124edfd359452d22966df1c4d15c295b15529fa96cbcd52612c95b18d"
+  },
+  "max_attempts_per_candidate": 5,
+  "max_workers": 6,
+  "model": "gpt-6.1-sol",
+  "ordering": {
+    "method": "SHA256(salt + NUL + baseline_candidate_id)",
+    "salt": "openalex-r2a1-baseline-llm-first-pass-v1"
+  },
+  "prompt": {
+    "path": "docs/OPENALEX_R2A1_BASELINE_LLM_FIRST_PASS_PROMPT_V1.md",
+    "sha256": "320c3fc075955c046f301ad599bc5a1ba121209c1a8ddcfd60da470457dbeaac"
+  },
+  "prompt_version": "openalex-r2a1-baseline-llm-first-pass-prompt-v1",
+  "release": "openalex-r2a1-baseline-validation-llm-first-pass-v1"
+}

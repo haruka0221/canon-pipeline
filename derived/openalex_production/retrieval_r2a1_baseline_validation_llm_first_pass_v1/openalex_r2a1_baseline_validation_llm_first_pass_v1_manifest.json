@@ -1,0 +1,22 @@
+{
+  "blinding": {
+    "candidate_volume_used": false,
+    "external_web_used": false,
+    "query_provenance_used": false,
+    "retrieval_risk_features_used": false,
+    "sample_membership_used": false
+  },
+  "created_at": "2026-10-11",
+  "model_requested": "gpt-6.1-sol",
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_llm_first_pass_v1/openalex_r2a1_baseline_validation_llm_first_pass_summary_v1.json": "e9e5e1dc18dd00842932ae35dbd80f393b1349e74bd35bda5323a338c1aec2da",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_llm_first_pass_v1/openalex_r2a1_baseline_validation_llm_first_pass_v1.tsv": "8f77d5c37056cc2cfdef80d20d59f9d5e701ce7a2266c66cd8c23cd6ec7ca527"
+  },
+  "prompt_version": "openalex-r2a1-baseline-llm-first-pass-prompt-v1",
+  "release": "openalex-r2a1-baseline-validation-llm-first-pass-v1",
+  "sources": {
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_blind_v1.tsv": "b62d6c362e1cdf113baf2792cb78f3107b9791471c11fc073bd1a25a527260ac",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_review_input_v1_manifest.json": "a5022fc124edfd359452d22966df1c4d15c295b15529fa96cbcd52612c95b18d",
+    "docs/OPENALEX_R2A1_BASELINE_LLM_FIRST_PASS_PROMPT_V1.md": "320c3fc075955c046f301ad599bc5a1ba121209c1a8ddcfd60da470457dbeaac"
+  }
+}

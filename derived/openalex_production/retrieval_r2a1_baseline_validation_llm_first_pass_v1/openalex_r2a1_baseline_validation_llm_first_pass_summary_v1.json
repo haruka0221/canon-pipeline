@@ -1,0 +1,41 @@
+{
+  "candidate_rows": 1147,
+  "confidence_counts": {
+    "HIGH": 1134,
+    "MEDIUM": 13
+  },
+  "created_at": "2026-10-11",
+  "interpretation": [
+    "These are provisional LLM first-pass judgments, not authoritative human judgments.",
+    "The LLM received no primary/secondary sample membership, retrieval-risk features, work candidate volume, or query provenance.",
+    "The adjudication target is target attribution only; document scope and mention strength remain separate.",
+    "The primary 800-pair sample must use human adjudication, not these LLM labels, for the final baseline precision result."
+  ],
+  "judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 306,
+    "UNCERTAIN": 78,
+    "VALID_TARGET_REFERENCE": 763
+  },
+  "model_requested": "gpt-6.1-sol",
+  "prompt_version": "openalex-r2a1-baseline-llm-first-pass-prompt-v1",
+  "reason_code_counts": {
+    "AMBIGUOUS_TARGET_REFERENCE": 10,
+    "AUTHOR_COLLISION_DIFFERENT_PERSON": 11,
+    "DIRECT_TARGET_REFERENCE": 730,
+    "GENERIC_OR_LEXICAL_TITLE_USE": 165,
+    "INSUFFICIENT_CONTEXT": 68,
+    "METADATA_TEXT_ARTIFACT": 3,
+    "OTHER": 15,
+    "TITLE_AUTHOR_UNLINKED_COOCCURRENCE": 22,
+    "TITLE_COLLISION_DIFFERENT_WORK": 8,
+    "VALID_CONTEXTUAL_REFERENCE": 4,
+    "VALID_TITLE_VARIANT": 29,
+    "WRONG_WORK_SAME_AUTHOR": 82
+  },
+  "release": "openalex-r2a1-baseline-validation-llm-first-pass-v1",
+  "status": "provisional_blind_llm_first_pass",
+  "usage": {
+    "input_tokens": 2336670,
+    "output_tokens": 166177
+  }
+}
