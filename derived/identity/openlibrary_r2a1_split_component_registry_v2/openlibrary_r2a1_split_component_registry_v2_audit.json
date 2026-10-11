@@ -1,0 +1,13 @@
+{
+  "added_components": 6,
+  "affected_edition_rows_to_reroute": 191,
+  "affected_project_works": 6,
+  "all_v1_component_ids_preserved": true,
+  "audit_status": "PASSED",
+  "component_ids_unique": true,
+  "modified_definitions": 1,
+  "registry_issue_cases": 6,
+  "release": "openlibrary-r2a1-split-component-registry-v2",
+  "v1_components": 82,
+  "v2_components": 88
+}
