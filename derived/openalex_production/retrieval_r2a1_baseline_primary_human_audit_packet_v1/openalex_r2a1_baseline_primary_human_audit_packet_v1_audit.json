@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "all_human_fields_blank": true,
+    "all_llm_fields_absent": true,
+    "all_risk_fields_absent": true,
+    "all_selection_stratum_fields_absent": true,
+    "candidate_set_exactly_frozen_audit_sample": true,
+    "exactly_150_candidates": true,
+    "exactly_25_candidates_per_batch": true,
+    "exactly_6_batches": true,
+    "unique_candidate_ids": true
+  },
+  "dimensions": {
+    "batches": 6,
+    "candidates": 150,
+    "project_works": 90
+  },
+  "release": "openalex-r2a1-baseline-primary-human-audit-packet-v1",
+  "statement": "This is a blank blind human-audit packet. Candidate-level LLM results, LLM sampling strata, analysis weights, and retrieval-risk features are absent.",
+  "status": "PASSED"
+}

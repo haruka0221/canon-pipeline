@@ -1,0 +1,50 @@
+{
+  "adjudication": {
+    "allowed_judgments": [
+      "VALID_TARGET_REFERENCE",
+      "INVALID_TARGET_REFERENCE",
+      "UNCERTAIN"
+    ],
+    "external_web_allowed": false,
+    "review_protocol_version": "v1"
+  },
+  "blinding": {
+    "analysis_weight_visible": false,
+    "candidate_level_llm_judgment_visible": false,
+    "llm_confidence_visible": false,
+    "llm_note_visible": false,
+    "llm_reason_visible": false,
+    "llm_sampling_stratum_visible": false,
+    "retrieval_risk_features_visible": false
+  },
+  "created_at": "2026-10-11",
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/batches/openalex_r2a1_baseline_primary_human_audit_R2A1A01.tsv": "a2239083ac8f326061d578752a8209e9fea02ec5fc308183523367c1a551211d",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/batches/openalex_r2a1_baseline_primary_human_audit_R2A1A02.tsv": "2fb2d90433c116148f1149d37a3cac277ab59afaf21994d0c53edb545b1481c6",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/batches/openalex_r2a1_baseline_primary_human_audit_R2A1A03.tsv": "fe16099ed1dd65fdfd8406992a3ba50f64ed3bf84a0457b87ff4ccba9b58d7a6",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/batches/openalex_r2a1_baseline_primary_human_audit_R2A1A04.tsv": "278d6c016bf2d07aaa3bd7e40b0a5740d65ea2974b8650cff83544724800c8ef",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/batches/openalex_r2a1_baseline_primary_human_audit_R2A1A05.tsv": "35c7add46bdcea3cdcbb0501d30ed670a41a52dc1ec541dad099bc1d75311f6f",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/batches/openalex_r2a1_baseline_primary_human_audit_R2A1A06.tsv": "59e48931a03312bc62e0345458768cb31816378b33480724ec3d57a1ddeb7e0c",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/openalex_r2a1_baseline_primary_human_audit_batch_index_v1.tsv": "506565208e187b28321c492bc5fdcdf872bbb5a62a7da453ace8ab5086b13cf9",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/openalex_r2a1_baseline_primary_human_audit_master_v1.tsv": "6a5ec414828ae8073148ee37cc313f9f23d6f98ab15a48904befe0e9793f5965"
+  },
+  "release": "openalex-r2a1-baseline-primary-human-audit-packet-v1",
+  "review_order": {
+    "method": "SHA256(salt + NUL + baseline_candidate_id)",
+    "salt": "openalex-r2a1-baseline-primary-human-audit-review-order-v1",
+    "uses_llm_stratum": false
+  },
+  "review_population": {
+    "batch_count": 6,
+    "batch_size": 25,
+    "candidate_pairs": 150,
+    "source": "frozen stratified human-audit sample from PRIMARY 800"
+  },
+  "sources": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_sample_v1/openalex_r2a1_baseline_primary_human_audit_sample_v1.parquet": "cd5d9557eb73b712826d84d494c66acacf56979f076848ce9190152bdf64d6ec",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_sample_v1/openalex_r2a1_baseline_primary_human_audit_sample_v1_manifest.json": "90f9410ea1940d3ca328e9bdd5a15877f045c95a64d9871e53124a25935a364c",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_blind_v1.tsv": "b62d6c362e1cdf113baf2792cb78f3107b9791471c11fc073bd1a25a527260ac",
+    "docs/OPENALEX_R2A1_BASELINE_HUMAN_AUDIT_DESIGN_V1.md": "a5127b9dd528da1bc445a6eff02b9ca2698ab4b0ee8c5d265bf22bd6f3ff9afc",
+    "docs/OPENALEX_R2A1_BASELINE_VALIDATION_STRATEGY_V2.md": "1aa31f4dd7f44a7b277b40c350f7a65b1e7db4fb308ec6859536e975e02f6d4b"
+  }
+}
