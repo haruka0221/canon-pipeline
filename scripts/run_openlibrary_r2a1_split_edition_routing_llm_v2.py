@@ -1211,7 +1211,7 @@ def main():
 
     assert (
         input_audit[
-            "status"
+            "audit_status"
         ]
         == "PASSED"
     )
