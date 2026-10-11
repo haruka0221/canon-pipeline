@@ -1,0 +1,22 @@
+{
+  "evidence_freeze_commit": "62278b690b289f9f087c7b6fce2ac3a6ad3c2f96",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/source/openlibrary_r2a1_target_identity_remediation_review_completed_v1.xlsx": "ec242725f437d9d364b76b859121beeb894e6420e5b2b9fd57b278535049dc36",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_queue_v1/openlibrary_r2a1_target_identity_remediation_queue_v1.tsv": "0cc37cc64fbc53c4cbbae10bdfd81c5c0060bcee1fbaedb0b9def326e9983a3a"
+  },
+  "outputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1.tsv": "0254177d7537a9e5c6e3b7b9e2f822a583a717bd5e88f05973a3e0e0cf88b146",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1_audit.json": "b5396db2c4eb8ff04724826b9a63be4c53c7949da6ee2ae02aace851e0831d66"
+  },
+  "purpose": "Freeze human project-level remediation decisions for the 24-work Open Library R2+A1 target-identity queue before any identity-registry mutation.",
+  "release": "openlibrary-r2a1-target-identity-remediation-adjudication-v1",
+  "semantics": [
+    "These are operational human remediation decisions, not a blinded validation sample.",
+    "RETAIN, REMAP, SPLIT, and HOLD apply to project/source identity handling only.",
+    "The decisions do not encode temporal, language, or fiction-scope eligibility.",
+    "Pair counts are preserved as impact metadata and were visible during review; they are not identity evidence.",
+    "No identity registry is modified by this artifact.",
+    "REMAP and SPLIT require an explicit resolution plan before this release can pass QC."
+  ],
+  "status": "frozen_human_operational_adjudication_candidate"
+}

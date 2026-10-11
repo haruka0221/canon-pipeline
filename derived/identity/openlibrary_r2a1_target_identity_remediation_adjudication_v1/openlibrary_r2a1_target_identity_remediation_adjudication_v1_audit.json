@@ -1,0 +1,29 @@
+{
+  "audit_status": "PASSED",
+  "blank_resolution_notes": 0,
+  "blank_resolution_plans": 6,
+  "critical_immutable_fields_match_frozen_queue": true,
+  "pair_mass": 72914,
+  "pair_mass_by_resolution_decision": {
+    "HOLD": 3117,
+    "REMAP": 1885,
+    "RETAIN": 2366,
+    "SPLIT": 65546
+  },
+  "release": "openlibrary-r2a1-target-identity-remediation-adjudication-v1",
+  "remap_or_split_without_plan": 0,
+  "resolution_confidence_counts": {
+    "HIGH": 13,
+    "MEDIUM": 11
+  },
+  "resolution_decision_counts": {
+    "HOLD": 3,
+    "REMAP": 1,
+    "RETAIN": 3,
+    "SPLIT": 17
+  },
+  "rows": 24,
+  "source_xlsx_sha256": "ec242725f437d9d364b76b859121beeb894e6420e5b2b9fd57b278535049dc36",
+  "source_xlsx_sha256_matches_expected": true,
+  "unique_project_works": 24
+}
