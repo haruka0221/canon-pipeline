@@ -1,0 +1,27 @@
+{
+  "affected_project_set_exact": true,
+  "audit_status": "PASSED",
+  "component_rows": 39,
+  "component_rows_by_project": {
+    "W000003023": 4,
+    "W000005423": 7,
+    "W000005682": 5,
+    "W000014024": 9,
+    "W000021761": 7,
+    "W000030498": 7
+  },
+  "contains_prior_llm_answers": false,
+  "contains_row_level_human_adjudication": false,
+  "edition_rows": 191,
+  "edition_rows_by_project": {
+    "W000003023": 6,
+    "W000005423": 43,
+    "W000005682": 22,
+    "W000014024": 31,
+    "W000021761": 47,
+    "W000030498": 42
+  },
+  "project_works": 6,
+  "release": "openlibrary-r2a1-split-edition-routing-input-v2",
+  "unique_edition_keys": 191
+}

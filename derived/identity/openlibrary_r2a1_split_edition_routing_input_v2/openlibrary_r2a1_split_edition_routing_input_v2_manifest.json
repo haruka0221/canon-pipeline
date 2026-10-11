@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-11",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2.tsv": "c810e7ffb17a345196e9911c6c66426935fe6addae5d1130c7d5c21bbe2c4383",
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2_affected_projects.tsv": "7088b11ac15ab960886727f48d4053f4132a549b4557006d30c8e2b59baecc99",
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2_manifest.json": "07ee4724c764ca6e2cda27f67b7ff0359b7fbbd5f5ead4134c20de4c2557fc38",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v1/openlibrary_r2a1_split_edition_routing_input_v1.tsv": "1775ef5c0f938113d47a7e303664844d6f016412b4182503b25d58d4f9ee27e3",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v1/openlibrary_r2a1_split_edition_routing_projects_v1.tsv": "3b061c8e729e479fc2649d64992a17b674d349659a03bf3d1912c8afa677e550",
+    "scripts/build_openlibrary_r2a1_split_edition_routing_input_v2.py": "155129b0d498bc523fd5c2a94aa58fe99f79d5cca10587585196c193fd2c17e5"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_routing_components_v2.tsv": "6dac4199bc8ebe6ffbe35e2a01da5d7395cc3ae22653a1bfe0917a274b5fff7c",
+    "openlibrary_r2a1_split_edition_routing_input_v2.tsv": "3e6aaea60b50f1da37cc96285897632dad8e718f990315569bcd32d240a78ed3",
+    "openlibrary_r2a1_split_edition_routing_input_v2_audit.json": "a36582387ad2859f1f6afa1801fbd3ca56d8493499199f26210c7eb68cd2af46",
+    "openlibrary_r2a1_split_edition_routing_projects_v2.tsv": "61fb26464d45a31e5041cde579504b55b24f89b4b2b7fa30683bb86b7c3d1408"
+  },
+  "registry_v2_freeze_commit": "bbb190bd6f47eda96981a4434da00935bf2a818f",
+  "release": "openlibrary-r2a1-split-edition-routing-input-v2",
+  "semantics": [
+    "This artifact contains only the six project works whose fixed component registry changed in registry v2.",
+    "All 191 Editions belonging to those six predecessor project works are rerouted in full; individual issue rows are not patched in isolation.",
+    "The 317 Editions belonging to the other eleven split project works are absent because their component ontology did not change.",
+    "The original frozen human resolution plan and note are retained as historical project context. The fixed registry v2 will be authoritative where that older plan omits a newly added or revised component.",
+    "No frozen v1 LLM routing answer is included in the rerouting input.",
+    "No row-level human audit decision is included in the rerouting input.",
+    "Registry v2 itself is human-remediated and therefore this rerun is remediation, not an independent validation experiment.",
+    "No project-work IDs, source-entity IDs, lineage, or scope decisions are created by this input artifact."
+  ],
+  "status": "llm_rerouting_input"
+}
