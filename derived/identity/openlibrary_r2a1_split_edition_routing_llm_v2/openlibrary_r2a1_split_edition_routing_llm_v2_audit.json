@@ -1,0 +1,72 @@
+{
+  "all_assigned_components_valid_for_project": true,
+  "all_holds_have_blank_component": true,
+  "all_notes_nonblank": true,
+  "assigned_component_role_hint_counts": {
+    "DETACH": 12,
+    "EXCLUDE_APPARATUS": 2,
+    "SUCCESSOR": 136
+  },
+  "audit_status": "PASSED",
+  "confidence_counts": {
+    "HIGH": 162,
+    "LOW": 13,
+    "MEDIUM": 16
+  },
+  "exact_edition_key_set_match": true,
+  "no_duplicate_edition_keys": true,
+  "original_edition_metadata_unchanged": true,
+  "project_response_rows": 6,
+  "project_summaries": [
+    {
+      "assigned": 29,
+      "edition_rows": 31,
+      "hold_unresolved": 2,
+      "low_confidence": 0,
+      "project_work_id": "W000014024"
+    },
+    {
+      "assigned": 27,
+      "edition_rows": 42,
+      "hold_unresolved": 15,
+      "low_confidence": 0,
+      "project_work_id": "W000030498"
+    },
+    {
+      "assigned": 6,
+      "edition_rows": 6,
+      "hold_unresolved": 0,
+      "low_confidence": 0,
+      "project_work_id": "W000003023"
+    },
+    {
+      "assigned": 17,
+      "edition_rows": 22,
+      "hold_unresolved": 5,
+      "low_confidence": 0,
+      "project_work_id": "W000005682"
+    },
+    {
+      "assigned": 41,
+      "edition_rows": 47,
+      "hold_unresolved": 6,
+      "low_confidence": 0,
+      "project_work_id": "W000021761"
+    },
+    {
+      "assigned": 30,
+      "edition_rows": 43,
+      "hold_unresolved": 13,
+      "low_confidence": 13,
+      "project_work_id": "W000005423"
+    }
+  ],
+  "project_works": 6,
+  "release": "openlibrary-r2a1-split-edition-routing-llm-v2",
+  "routing_decision_counts": {
+    "ASSIGN_COMPONENT": 150,
+    "HOLD_UNRESOLVED": 41
+  },
+  "rows": 191,
+  "unique_edition_keys": 191
+}

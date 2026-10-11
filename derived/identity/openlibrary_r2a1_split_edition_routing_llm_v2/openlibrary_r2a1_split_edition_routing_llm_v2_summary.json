@@ -1,0 +1,71 @@
+{
+  "assigned_component_role_hint_counts": {
+    "DETACH": 12,
+    "EXCLUDE_APPARATUS": 2,
+    "SUCCESSOR": 136
+  },
+  "component_registry_rows": 39,
+  "confidence_counts": {
+    "HIGH": 162,
+    "LOW": 13,
+    "MEDIUM": 16
+  },
+  "created_at": "2026-10-11",
+  "edition_rows": 191,
+  "model_requested": "gpt-6.1-sol",
+  "project_summaries": [
+    {
+      "assigned": 29,
+      "edition_rows": 31,
+      "hold_unresolved": 2,
+      "low_confidence": 0,
+      "project_work_id": "W000014024"
+    },
+    {
+      "assigned": 27,
+      "edition_rows": 42,
+      "hold_unresolved": 15,
+      "low_confidence": 0,
+      "project_work_id": "W000030498"
+    },
+    {
+      "assigned": 6,
+      "edition_rows": 6,
+      "hold_unresolved": 0,
+      "low_confidence": 0,
+      "project_work_id": "W000003023"
+    },
+    {
+      "assigned": 17,
+      "edition_rows": 22,
+      "hold_unresolved": 5,
+      "low_confidence": 0,
+      "project_work_id": "W000005682"
+    },
+    {
+      "assigned": 41,
+      "edition_rows": 47,
+      "hold_unresolved": 6,
+      "low_confidence": 0,
+      "project_work_id": "W000021761"
+    },
+    {
+      "assigned": 30,
+      "edition_rows": 43,
+      "hold_unresolved": 13,
+      "low_confidence": 13,
+      "project_work_id": "W000005423"
+    }
+  ],
+  "project_works": 6,
+  "release": "openlibrary-r2a1-split-edition-routing-llm-v2",
+  "routing_decision_counts": {
+    "ASSIGN_COMPONENT": 150,
+    "HOLD_UNRESOLVED": 41
+  },
+  "status": "provisional_llm_edition_routing",
+  "usage": {
+    "input_tokens": 28644,
+    "output_tokens": 14656
+  }
+}

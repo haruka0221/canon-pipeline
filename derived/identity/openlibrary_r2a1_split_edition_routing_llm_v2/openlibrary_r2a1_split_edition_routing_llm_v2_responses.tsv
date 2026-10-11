@@ -1,0 +1,7 @@
+remediation_priority_rank	project_work_id	current_ol_work_id	edition_rows	component_count	llm_model_requested	llm_model_returned	llm_response_id	llm_input_tokens	llm_output_tokens	llm_prompt_version
+1	W000014024	OL276471W	31	9	gpt-6.1-sol	gpt-6.1-sol	resp_0d64d8f4e99ea06c006acb902fb6b887d0ab666d3876851c2f	4943	2265	openlibrary-r2a1-split-edition-routing-llm-prompt-v2
+3	W000030498	OL7965965W	42	7	gpt-6.1-sol	gpt-6.1-sol	resp_01a9d53db6f01179006acb902fbbf087d0943053182f295fb8	5744	3313	openlibrary-r2a1-split-edition-routing-llm-prompt-v2
+5	W000003023	OL1336767W	6	4	gpt-6.1-sol	gpt-6.1-sol	resp_09cc2e44ccbc604b006acb902fbd0487d0a0200d4bc41df00c	2231	505	openlibrary-r2a1-split-edition-routing-llm-prompt-v2
+9	W000005682	OL156816W	22	5	gpt-6.1-sol	gpt-6.1-sol	resp_0b516173930a3f2f006acb9038d9d087d08d9f8cacb7450c4d	3838	1716	openlibrary-r2a1-split-edition-routing-llm-prompt-v2
+20	W000021761	OL5036953W	47	7	gpt-6.1-sol	gpt-6.1-sol	resp_0203b8f7d3d81c12006acb904b714c87d0bd5eaace1a102285	6077	3523	openlibrary-r2a1-split-edition-routing-llm-prompt-v2
+22	W000005423	OL15403167W	43	7	gpt-6.1-sol	gpt-6.1-sol	resp_04697c41498aa6ca006acb902fbc4487d09fc42c460567e152	5811	3334	openlibrary-r2a1-split-edition-routing-llm-prompt-v2

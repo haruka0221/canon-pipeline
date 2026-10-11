@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-11",
+  "input_freeze_commit": "107b65881276075b2e8f5ef4467d547f9ac07265",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v2/openlibrary_r2a1_split_edition_routing_components_v2.tsv": "6dac4199bc8ebe6ffbe35e2a01da5d7395cc3ae22653a1bfe0917a274b5fff7c",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v2/openlibrary_r2a1_split_edition_routing_input_v2.tsv": "3e6aaea60b50f1da37cc96285897632dad8e718f990315569bcd32d240a78ed3",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v2/openlibrary_r2a1_split_edition_routing_input_v2_audit.json": "a36582387ad2859f1f6afa1801fbd3ca56d8493499199f26210c7eb68cd2af46",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v2/openlibrary_r2a1_split_edition_routing_input_v2_manifest.json": "c76d487c9259109dd2aedae37777747cf971b2a18098b539f630ad1349622523",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v2/openlibrary_r2a1_split_edition_routing_projects_v2.tsv": "61fb26464d45a31e5041cde579504b55b24f89b4b2b7fa30683bb86b7c3d1408",
+    "docs/OPENLIBRARY_R2A1_SPLIT_EDITION_ROUTING_LLM_PROMPT_V2.md": "4e639979ecc303f051f40cf1e894b74fe74df7414e132d4f61efd0441af81106",
+    "scripts/run_openlibrary_r2a1_split_edition_routing_llm_v2.py": "cbfc22e3b2ab6d15cf9d9d4936a7e45d62bc16d7de7fbf6b0f4484c2d851af8b"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_routing_llm_v2.tsv": "d56fc332b2e01d727983b4825799ae5869a9c8c301a7960534fde0837468c98d",
+    "openlibrary_r2a1_split_edition_routing_llm_v2_audit.json": "6b0ed61438fb8fb3c0fe302077fae1cdc9811a01176907fc1e00d4ed66178bc7",
+    "openlibrary_r2a1_split_edition_routing_llm_v2_responses.tsv": "fb0f4560ce7850bb0c6dd359bd357093e0306d1e448705f27cee7d74b8690ac6",
+    "openlibrary_r2a1_split_edition_routing_llm_v2_run_config.json": "6f3523f70013550cd8965ea52780725607bccc3e4b2363f417c1c5afa992358d",
+    "openlibrary_r2a1_split_edition_routing_llm_v2_summary.json": "083648bffaa6734ee3ea7d1bc9f3ccf304c94dd35d087fd43a69c3300e822476"
+  },
+  "registry_v2_freeze_commit": "bbb190bd6f47eda96981a4434da00935bf2a818f",
+  "release": "openlibrary-r2a1-split-edition-routing-llm-v2",
+  "semantics": [
+    "This v2 run reroutes all 191 Editions belonging to the six predecessor project works whose component registry changed after human audit.",
+    "The frozen project-level human resolution_plan and resolution_note predate registry v2 and are historical context. Where they omit or conflict with a registry-v2 component, the fixed registry v2 is authoritative.",
+    "No previous row-level LLM routing answer or human audit decision is supplied to the model.",
+    "One LLM call is made per predecessor project work, with all of that Work's Edition records visible together.",
+    "The LLM may assign an Edition only to a human-defined fixed component for the same predecessor project work, or return HOLD_UNRESOLVED.",
+    "The LLM may not create, merge, or split component boundaries.",
+    "An omnibus or anthology is routed as one Edition-level publication and is not decomposed into constituent literary works.",
+    "DETACH, EXCLUDE_APPARATUS, and PRIMARY_SUCCESSOR_HINT are human component metadata, not LLM routing decisions.",
+    "This release does not create source entities, project works, lineage edges, or corpus-scope decisions."
+  ],
+  "status": "provisional_llm_edition_routing"
+}

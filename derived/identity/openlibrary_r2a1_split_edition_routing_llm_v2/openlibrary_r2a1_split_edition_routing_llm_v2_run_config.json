@@ -1,0 +1,19 @@
+{
+  "call_unit": "one API call per predecessor project work",
+  "component_registry_sha256": "6dac4199bc8ebe6ffbe35e2a01da5d7395cc3ae22653a1bfe0917a274b5fff7c",
+  "created_at": "2026-10-11",
+  "expected_components": 39,
+  "expected_edition_rows": 191,
+  "expected_project_works": 6,
+  "input_freeze_commit": "107b65881276075b2e8f5ef4467d547f9ac07265",
+  "max_attempts": 5,
+  "max_workers": 4,
+  "model_requested": "gpt-6.1-sol",
+  "project_input_sha256": "61fb26464d45a31e5041cde579504b55b24f89b4b2b7fa30683bb86b7c3d1408",
+  "prompt_sha256": "4e639979ecc303f051f40cf1e894b74fe74df7414e132d4f61efd0441af81106",
+  "prompt_version": "openlibrary-r2a1-split-edition-routing-llm-prompt-v2",
+  "registry_v2_freeze_commit": "bbb190bd6f47eda96981a4434da00935bf2a818f",
+  "release": "openlibrary-r2a1-split-edition-routing-llm-v2",
+  "routing_input_sha256": "3e6aaea60b50f1da37cc96285897632dad8e718f990315569bcd32d240a78ed3",
+  "runner_sha256": "cbfc22e3b2ab6d15cf9d9d4936a7e45d62bc16d7de7fbf6b0f4484c2d851af8b"
+}
