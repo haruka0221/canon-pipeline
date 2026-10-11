@@ -1,0 +1,63 @@
+{
+  "baseline_universe": {
+    "candidate_bearing_project_works": 6873,
+    "candidate_pairs": 290480,
+    "definition": "resolved_w R2 + A1"
+  },
+  "combined": {
+    "overlap_pairs": 1,
+    "primary_n": 800,
+    "secondary_n": 348,
+    "unique_pairs": 1147
+  },
+  "created_at": "2026-10-11",
+  "interpretation": [
+    "The primary 800-pair sample is the validation sample for pair-level R2+A1 baseline target-attribution precision.",
+    "The secondary 348-work sample is a work-balanced diagnostic and is not pooled unweighted with the primary sample for overall pair-level precision.",
+    "Sampling membership was fixed without using target-attribution judgments.",
+    "Risk features are retained for later diagnostic analysis but must be hidden from blind adjudication where they could bias the reviewer."
+  ],
+  "primary_pair_sample": {
+    "design": "simple random sample without replacement",
+    "hit_location_counts": {
+      "ABSTRACT_ONLY": 464,
+      "TITLE_AND_ABSTRACT": 145,
+      "TITLE_ONLY": 191
+    },
+    "n": 800,
+    "population_n": 290480,
+    "project_works_represented": 372,
+    "sampling_fraction": 0.002754062241806665,
+    "seed": 20261011,
+    "title_token_bucket_counts": {
+      "1": 228,
+      "2": 229,
+      "3-4": 269,
+      "5+": 74
+    },
+    "work_volume_bucket_pair_counts": {
+      "01_1-3": 21,
+      "02_4-10": 26,
+      "03_11-50": 76,
+      "04_51-200": 137,
+      "05_201-1000": 149,
+      "06_1001+": 391
+    }
+  },
+  "release": "openalex-r2a1-baseline-validation-sample-v1",
+  "secondary_work_diagnostic_sample": {
+    "all_1001_plus_works_included": true,
+    "design": "stratified work sample by baseline candidate volume; one pair per work",
+    "n_pairs": 348,
+    "n_works": 348,
+    "work_counts_by_stratum": {
+      "01_1-3": 60,
+      "02_4-10": 60,
+      "03_11-50": 60,
+      "04_51-200": 60,
+      "05_201-1000": 60,
+      "06_1001+": 48
+    },
+    "work_seed": 20261012
+  }
+}

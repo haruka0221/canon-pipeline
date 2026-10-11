@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-11",
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_primary_pair_sample_v1.parquet": "62ab36ab3e6ea1e46a4d474dcb8febf42d944f026900697066b4b8ba9290be96",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_primary_pair_sample_v1.tsv": "8ab88b38afe4af112287fa3b53afadf24dc2d1f0ea0150513bdb5032720f7eb8",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_secondary_work_diagnostic_sample_v1.parquet": "9f88706fc497a3425ca62aa7f90fd781732453ed67547660b30eb6a07df6dff7",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_secondary_work_diagnostic_sample_v1.tsv": "ec2423f1f1d653ed9be5a93f66b60713fbcef36d86c85de0100a3501451975ca",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_combined_v1.parquet": "79cec96b7fbb8bec43dd316cb14860c50dc9ff2bb530f3c6ae45ebddcb9f59ca",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_combined_v1.tsv": "79579493fcf3b31e96e8d9ccc354066f77cb929256ae4a2395bd0bd59451ba92",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_summary_v1.json": "5e87ce543c931d1b17244d1d7d758d260c7004916e445bc7e567a84124e54c9c"
+  },
+  "release": "openalex-r2a1-baseline-validation-sample-v1",
+  "sampling": {
+    "primary_n": 800,
+    "primary_seed": 20261011,
+    "secondary_extreme_stratum": "06_1001+",
+    "secondary_extreme_stratum_rule": "complete enumeration of 48 works",
+    "secondary_nonextreme_works_per_stratum": 60,
+    "secondary_work_seed": 20261012
+  },
+  "source_provenance": {
+    "match_registry_path": "derived/openalex_production/retrieval_match_registry_full_v1/openalex_retrieval_match_registry_full_v1.parquet",
+    "match_registry_sha256": "ce19cdfc0929139a04f8ee36ec27bd34b8898c0b969b75fd2f0017fce8147878",
+    "scan_manifest_path": "/media/hdd1/user/tsutsui/openalex/scans/full_r23_v1/full_2040files_4a275210/openalex_retrieval_full_r23_scan_v1_manifest.json",
+    "scan_manifest_sha256": "b84cc5f28ed1f7bcacaf241fb944a33d7c8570eaca557f9d4364ae7e131d4224",
+    "snapshot_inventory_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9"
+  }
+}
