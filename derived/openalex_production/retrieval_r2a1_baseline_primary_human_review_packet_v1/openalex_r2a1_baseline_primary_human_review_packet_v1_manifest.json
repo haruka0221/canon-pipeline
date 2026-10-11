@@ -1,0 +1,65 @@
+{
+  "adjudication": {
+    "allowed_judgments": [
+      "VALID_TARGET_REFERENCE",
+      "INVALID_TARGET_REFERENCE",
+      "UNCERTAIN"
+    ],
+    "authoritative_precision_source": "human judgments of PRIMARY 800",
+    "external_web_allowed": false,
+    "review_protocol_version": "v1"
+  },
+  "blinding": {
+    "hit_location_in_packet": false,
+    "llm_first_pass_read_by_builder": false,
+    "llm_output_in_packet": false,
+    "retrieval_risk_features_in_packet": false,
+    "title_token_features_in_packet": false,
+    "work_candidate_volume_in_packet": false
+  },
+  "created_at": "2026-10-11",
+  "ordering": {
+    "method": "SHA256(salt + NUL + baseline_candidate_id)",
+    "salt": "openalex-r2a1-baseline-primary-human-review-v1"
+  },
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H01.tsv": "f26322800eca34f433062816cf9b981a0b86782aa0a8efa74cbee0c7cae2313d",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H02.tsv": "195b3f06b160f21419d510a788818d103ff893f187a133dc47e2b5cd519d15ea",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H03.tsv": "4ce97aeca0f120758ace9988f89fd932aee46f919a496773122b5efd1ed52b8b",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H04.tsv": "67a17b00929e8be60b18152d61ea59db69d7d5044966932e8cd66bb3c236a58b",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H05.tsv": "8ce7b6387d0b034d407a294ca031aa85ed403106f709a880cc13ad62656ffe4b",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H06.tsv": "20a1887a6f9516329fe6e64b7b8fd61f623f25d926ffb7f76b736f2e9dda3ba8",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H07.tsv": "c2256de8f9e1e3d919ceae1ddaa576cdfe49be7a0b9443249ae436f4b9c143c7",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H08.tsv": "55785fdf2c488d396c6ff8ca7d59433ac2189fbbb356a15ef8f13f80d5ee9e15",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H09.tsv": "ce5aab922844105c9661fea63044f1cee00c0701af88ebbd7e9678b289cacd64",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H10.tsv": "9b6a77c6f37053322de412577882077c60721135153c30ba205a4d6a580f89b8",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H11.tsv": "e02853410b61d2dcf6072f60cc09abdfac349bd626f52ba935a4355fb7a28d01",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H12.tsv": "8284db24dd8edf12be444faabc94cc113689454d5a8a6aa25225d1622d1c618d",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H13.tsv": "b1c9c40f04cd65488ad830a8d5b583832c83ab13b1f078ed17640d8e11d79618",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H14.tsv": "e752f105119d67b14a50c628286b9cb2229691f11504aed22b49f1a684af8bb2",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H15.tsv": "87f1c79e4fe9adc80404b2788ee50799a3bd0d5da942bc3ec6206d25e1db55e4",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H16.tsv": "6a13ab216bc43a9f53954556b1a6baabe104391bdbf3eed07abad32994a3f6cb",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H17.tsv": "005ba808b6e943492171934013de30ded4b050943fa2d389bb4f9b1052168bec",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H18.tsv": "83ece3cd5be218442678aa95929839549fef49423e49679a1c5277c38e66f630",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H19.tsv": "d77f3eb34f0aa497c1f503cdbd32e1dbda994fd5210b694c3eb304cfc636f96f",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/batches/openalex_r2a1_baseline_primary_human_review_R2A1H20.tsv": "e128e19e2fa25c5b3ed984037d854cebd3832729832bd64a06b7754fc7113f53",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/openalex_r2a1_baseline_primary_human_review_batch_index_v1.tsv": "3f73c2a891c797860264f5d3ddb47ded6a89f8bc3a16a99d9e4ad9786e939e52",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_review_packet_v1/openalex_r2a1_baseline_primary_human_review_master_v1.tsv": "87be9fdd8737423f4ea8423765fe8cfccc3f25353b26d47af5b752b00c203b4b"
+  },
+  "purpose": "Freeze a human-adjudication packet for the 800-pair PRIMARY random validation sample of the R2+A1 OpenAlex baseline.",
+  "release": "openalex-r2a1-baseline-primary-human-review-packet-v1",
+  "review_population": {
+    "batch_count": 20,
+    "batch_size": 40,
+    "primary_candidate_pairs": 800,
+    "secondary_diagnostic_included": false
+  },
+  "source_head": "1098006a3d5e0bab4770bd8133de220cc7934154",
+  "sources": {
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_blind_v1.tsv": "b62d6c362e1cdf113baf2792cb78f3107b9791471c11fc073bd1a25a527260ac",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_review_input_v1_manifest.json": "a5022fc124edfd359452d22966df1c4d15c295b15529fa96cbcd52612c95b18d",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_combined_v1.parquet": "79cec96b7fbb8bec43dd316cb14860c50dc9ff2bb530f3c6ae45ebddcb9f59ca",
+    "docs/OPENALEX_R2A1_BASELINE_HUMAN_ADJUDICATION_GUIDE_V1.md": "5c6cef310de6a95f7f3e03bb8ecbe5132f638fa1cb3c693294a37f3b57b714b0"
+  },
+  "version": "v1"
+}

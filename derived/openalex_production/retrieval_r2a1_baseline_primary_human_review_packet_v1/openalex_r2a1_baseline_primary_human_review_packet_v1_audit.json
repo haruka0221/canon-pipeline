@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "all_human_fields_blank": true,
+    "candidate_set_exactly_primary": true,
+    "exactly_20_batches": true,
+    "exactly_40_candidates_per_batch": true,
+    "exactly_800_primary_candidates": true,
+    "llm_fields_absent": true,
+    "risk_fields_absent": true,
+    "secondary_only_candidates_absent": true,
+    "unique_candidate_ids": true
+  },
+  "dimensions": {
+    "batches": 20,
+    "candidates": 800,
+    "project_works": 372
+  },
+  "release": "openalex-r2a1-baseline-primary-human-review-packet-v1",
+  "statement": "This packet contains no human judgments and no LLM first-pass information. It is a frozen blank input for independent human review.",
+  "status": "PASSED"
+}
