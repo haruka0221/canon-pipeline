@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-11",
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_sample_v1/openalex_r2a1_baseline_primary_human_audit_sample_summary_v1.json": "0d1031d48b069a778576de470e7381dae550851edcf2c588d1cd1e438f6901b5",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_sample_v1/openalex_r2a1_baseline_primary_human_audit_sample_v1.parquet": "cd5d9557eb73b712826d84d494c66acacf56979f076848ce9190152bdf64d6ec",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_sample_v1/openalex_r2a1_baseline_primary_human_audit_sample_v1.tsv": "ca5fb8d6540fb995b57e8ce9ba083b2eea806037570a5766d5d7c7730c754b97"
+  },
+  "release": "openalex-r2a1-baseline-primary-human-audit-sample-v1",
+  "sources": {
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_llm_first_pass_v1/openalex_r2a1_baseline_validation_llm_first_pass_v1.tsv": "8f77d5c37056cc2cfdef80d20d59f9d5e701ce7a2266c66cd8c23cd6ec7ca527",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_llm_first_pass_v1/openalex_r2a1_baseline_validation_llm_first_pass_v1_manifest.json": "003577718375622fe78639cbb03d436add4ae3efd755933c830088b6ee9a8248",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_combined_v1.parquet": "79cec96b7fbb8bec43dd316cb14860c50dc9ff2bb530f3c6ae45ebddcb9f59ca",
+    "docs/OPENALEX_R2A1_BASELINE_HUMAN_AUDIT_DESIGN_V1.md": "a5127b9dd528da1bc445a6eff02b9ca2698ab4b0ee8c5d265bf22bd6f3ff9afc"
+  }
+}
