@@ -1,0 +1,2 @@
+baseline_candidate_id	human_target_attribution_judgment	human_adjudication_confidence	human_attribution_reason_code	human_reviewer_note	correction_basis
+OABASEV1_2c9d8b89650a9b04	VALID_TARGET_REFERENCE	HIGH	DIRECT_TARGET_REFERENCE	Frozen abstract reviewed after XLSX context mismatch; The House of Mirth is explicitly named as one of Edith Wharton's novels.	FROZEN_MASTER_REVIEW_AFTER_XLSX_CONTEXT_MISMATCH

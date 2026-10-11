@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "all_substantive_context_mismatches_resolved_by_blind_correction": true,
+    "candidate_ids_unique": true,
+    "candidate_membership_matches_frozen_packet": true,
+    "candidate_rows_150": true,
+    "human_confidences_complete": true,
+    "human_judgments_complete": true,
+    "reason_codes_valid_for_judgment": true,
+    "representation_only_context_differences_normalized": true,
+    "required_notes_complete": true,
+    "substantive_context_mismatch_count": 1
+  },
+  "correction_file": "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/corrections/openalex_r2a1_baseline_primary_human_correction_v1.tsv",
+  "status": "PASSED",
+  "substantive_context_mismatches": [
+    {
+      "baseline_candidate_id": "OABASEV1_2c9d8b89650a9b04",
+      "field": "openalex_abstract"
+    }
+  ]
+}

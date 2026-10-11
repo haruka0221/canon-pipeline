@@ -1,0 +1,12 @@
+{
+  "outputs": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/openalex_r2a1_baseline_primary_human_adjudication_summary_v1.json": "a5b2506017900e6d6f4332b18e15dcea0de731e8dcb5b1f69b8f95a211126662",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/openalex_r2a1_baseline_primary_human_adjudication_v1.tsv": "6247d1a84ccb4550512d938ead844cb7dcbd826515d5a1f7a3204900797f4458",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/openalex_r2a1_baseline_primary_human_adjudication_v1_audit.json": "d313c37fa36e6039ebf07bc596dfb982075422992b85a42e2872d4e1b4ed6fc3"
+  },
+  "sources": {
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/corrections/openalex_r2a1_baseline_primary_human_correction_v1.tsv": "c6eca03e3f861b7867d337dd430937ce7ac9cfe63b8c3d4f75b51c8a86961cdc",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_adjudication_v1/source/openalex_r2a1_baseline_primary_human_audit_review_completed_v1.xlsx": "17f9f57762457acec9464c9f8d907e1c120751929e730a3420e36c6407d7d684",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_packet_v1/openalex_r2a1_baseline_primary_human_audit_master_v1.tsv": "6a5ec414828ae8073148ee37cc313f9f23d6f98ab15a48904befe0e9793f5965"
+  }
+}

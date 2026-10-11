@@ -1,0 +1,34 @@
+{
+  "blind_review": true,
+  "candidate_pairs": 150,
+  "confidence_counts": {
+    "HIGH": 126,
+    "LOW": 4,
+    "MEDIUM": 20
+  },
+  "correction_candidate_id": "OABASEV1_2c9d8b89650a9b04",
+  "correction_count": 1,
+  "correction_reason": "Substantive OpenAlex abstract mismatch detected between completed XLSX and frozen blind packet; candidate was re-adjudicated from frozen source before LLM comparison.",
+  "human_adjudication_source_counts": {
+    "COMPLETED_BLIND_XLSX": 149,
+    "FROZEN_MASTER_CORRECTION": 1
+  },
+  "judgment_counts": {
+    "INVALID_TARGET_REFERENCE": 13,
+    "UNCERTAIN": 4,
+    "VALID_TARGET_REFERENCE": 133
+  },
+  "project_works": 90,
+  "reason_counts": {
+    "AMBIGUOUS_TARGET_REFERENCE": 1,
+    "AUTHOR_COLLISION_DIFFERENT_PERSON": 1,
+    "DIRECT_TARGET_REFERENCE": 105,
+    "GENERIC_OR_LEXICAL_TITLE_USE": 8,
+    "INSUFFICIENT_CONTEXT": 3,
+    "TITLE_AUTHOR_UNLINKED_COOCCURRENCE": 1,
+    "VALID_CONTEXTUAL_REFERENCE": 21,
+    "VALID_TITLE_VARIANT": 7,
+    "WRONG_WORK_SAME_AUTHOR": 3
+  },
+  "release": "openalex-r2a1-baseline-primary-human-adjudication-v1"
+}
