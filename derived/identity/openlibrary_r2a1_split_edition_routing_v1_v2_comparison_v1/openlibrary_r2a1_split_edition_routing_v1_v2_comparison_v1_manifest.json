@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-11",
+  "human_freeze_commit": "655d2e521487d4cf8e34c435ac419a86a9a353be",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2_changes.tsv": "673ca69e9088ab9db560d99005d99adb1d4df6b2cc13f1e3375d02bb3f00db49",
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_adjudication_v1/openlibrary_r2a1_split_edition_human_audit_adjudication_v1.tsv": "669f6c54fb0b318bd8c6068c78cd963ad3702d6c64e45e4f518e5cab0a1c1377",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_llm_v1/openlibrary_r2a1_split_edition_routing_llm_v1.tsv": "1cd525a5f0a38dcd0aeb691419abcabeaaeab7bef187939e9b59b62a0bbdff69",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_llm_v2/openlibrary_r2a1_split_edition_routing_llm_v2.tsv": "d56fc332b2e01d727983b4825799ae5869a9c8c301a7960534fde0837468c98d",
+    "scripts/compare_openlibrary_r2a1_split_edition_routing_v1_v2.py": "2089422cd94a616f12d4cd783a2f62e64b736a06cd98d7d87aad899c0f241fc2"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_human_v2_comparison_v1.tsv": "3f9191929bb19eddb5ac7a035776129a9c06072bc65b74458235f384493778f5",
+    "openlibrary_r2a1_split_edition_registry_issue_resolution_v1.tsv": "bcb0203464c05a248464447228ac4c932184759b14befddd6ebb902147db6a58",
+    "openlibrary_r2a1_split_edition_routing_v1_v2_changed_v1.tsv": "719c562ee85dd720d88214c48c948552d2078e7e240d6e0350b7e8001a2d8954",
+    "openlibrary_r2a1_split_edition_routing_v1_v2_comparison_v1.tsv": "eea2879e933426ccfbad4ea433dd3715e34f6682538b67e1f7c60cfde1240699",
+    "openlibrary_r2a1_split_edition_routing_v1_v2_comparison_v1_audit.json": "f64f692fb374defe58dce2881fb09aa5a628643a0481993f18633f3d3409589c",
+    "openlibrary_r2a1_split_edition_routing_v1_v2_comparison_v1_summary.json": "990dcbb4997992c44b5a6251244662196c9134edb389c5277c5fa99d5e9e21a8"
+  },
+  "registry_v2_freeze_commit": "bbb190bd6f47eda96981a4434da00935bf2a818f",
+  "release": "openlibrary-r2a1-split-edition-routing-v1-v2-comparison-v1",
+  "semantics": [
+    "This artifact compares the frozen v1 and v2 LLM routing only for the six registry-remediated predecessor projects.",
+    "The other eleven split projects and their 317 Editions are outside this comparison because their registry did not change and they were not rerun.",
+    "No routing, human adjudication, component registry, project-work identity, lineage, or scope decision is mutated by this comparison."
+  ],
+  "status": "descriptive_v1_v2_rerouting_comparison",
+  "v1_freeze_commit": "9d4a2d0ce50cc5335e06672732aa060d3a3be124",
+  "v2_input_freeze_commit": "107b65881276075b2e8f5ef4467d547f9ac07265",
+  "v2_methodology_fix_commit": "df1cba79811d89d618c603fcceeebcbdbebabc03",
+  "v2_routing_freeze_commit": "de464605eaf4281ab60a1f51706ab5c7245090ac"
+}

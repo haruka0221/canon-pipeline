@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-10-11",
+  "edition_rows": 191,
+  "human_reviewed_rows_in_affected_projects": 44,
+  "human_v2_comparison_counts": {
+    "DECISION_DISAGREEMENT": 7,
+    "EXACT_AGREEMENT": 31,
+    "REGISTRY_ISSUE": 6
+  },
+  "interpretation": [
+    "v1-v2 differences describe the effect of human-remediated component-registry v2 plus a fresh LLM rerun; they are not an independent estimate of model accuracy.",
+    "The six registry-issue cases are checked against the newly added component whose basis_case_id is that human review case.",
+    "Human audit decisions remain frozen and are not overwritten by v2 LLM routing."
+  ],
+  "new_component_assignment_counts": {
+    "W000003023_C04": 1,
+    "W000005423_C07": 1,
+    "W000005682_C05": 1,
+    "W000014024_C09": 1,
+    "W000021761_C07": 1,
+    "W000030498_C07": 4
+  },
+  "project_summaries": [
+    {
+      "assign_component_changed": 0,
+      "assign_to_hold": 0,
+      "edition_rows": 31,
+      "hold_to_assign": 1,
+      "new_component_assignments": 1,
+      "project_work_id": "W000014024",
+      "unchanged": 30
+    },
+    {
+      "assign_component_changed": 0,
+      "assign_to_hold": 0,
+      "edition_rows": 42,
+      "hold_to_assign": 4,
+      "new_component_assignments": 4,
+      "project_work_id": "W000030498",
+      "unchanged": 38
+    },
+    {
+      "assign_component_changed": 1,
+      "assign_to_hold": 0,
+      "edition_rows": 6,
+      "hold_to_assign": 0,
+      "new_component_assignments": 1,
+      "project_work_id": "W000003023",
+      "unchanged": 5
+    },
+    {
+      "assign_component_changed": 0,
+      "assign_to_hold": 0,
+      "edition_rows": 22,
+      "hold_to_assign": 1,
+      "new_component_assignments": 1,
+      "project_work_id": "W000005682",
+      "unchanged": 21
+    },
+    {
+      "assign_component_changed": 0,
+      "assign_to_hold": 0,
+      "edition_rows": 47,
+      "hold_to_assign": 1,
+      "new_component_assignments": 1,
+      "project_work_id": "W000021761",
+      "unchanged": 46
+    },
+    {
+      "assign_component_changed": 0,
+      "assign_to_hold": 0,
+      "edition_rows": 43,
+      "hold_to_assign": 1,
+      "new_component_assignments": 1,
+      "project_work_id": "W000005423",
+      "unchanged": 42
+    }
+  ],
+  "project_works": 6,
+  "registry_issue_resolution_counts": {
+    "RESOLVED_AS_EXPECTED": 6
+  },
+  "release": "openlibrary-r2a1-split-edition-routing-v1-v2-comparison-v1",
+  "status": "descriptive_v1_v2_rerouting_comparison",
+  "v1_v2_change_counts": {
+    "ASSIGN_COMPONENT_CHANGED": 1,
+    "HOLD_TO_ASSIGN": 8,
+    "UNCHANGED": 182
+  }
+}

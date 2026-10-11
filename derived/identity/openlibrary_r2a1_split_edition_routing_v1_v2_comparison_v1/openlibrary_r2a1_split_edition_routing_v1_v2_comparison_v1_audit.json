@@ -1,0 +1,22 @@
+{
+  "affected_project_works": 6,
+  "affected_v1_rows": 191,
+  "audit_status": "PASSED",
+  "change_status_counts": {
+    "ASSIGN_COMPONENT_CHANGED": 1,
+    "HOLD_TO_ASSIGN": 8,
+    "UNCHANGED": 182
+  },
+  "comparison_rows": 191,
+  "exact_edition_set_match": true,
+  "human_reviewed_rows": 44,
+  "original_metadata_unchanged": true,
+  "registry_issue_cases_all_have_added_component": true,
+  "registry_issue_resolution_status_counts": {
+    "RESOLVED_AS_EXPECTED": 6
+  },
+  "registry_issue_rows": 6,
+  "release": "openlibrary-r2a1-split-edition-routing-v1-v2-comparison-v1",
+  "v1_rows": 508,
+  "v2_rows": 191
+}
