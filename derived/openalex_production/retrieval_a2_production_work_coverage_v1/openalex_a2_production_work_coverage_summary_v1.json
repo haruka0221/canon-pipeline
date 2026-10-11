@@ -1,0 +1,38 @@
+{
+  "candidate_stage_work_coverage": {
+    "a2_candidate_stage_work_gain": 207,
+    "r3_a1_project_works": 6899,
+    "r3_a2_project_works": 7106
+  },
+  "created_at": "2026-10-11",
+  "evidence_strength": {
+    "a2_new_works_retained_only_via_unadjudicated_policy_accept": 107,
+    "a2_new_works_with_at_least_one_final_valid_candidate": 88,
+    "note": "The 88-work figure is a stronger-evidence subset, not an estimate of total A2 precision."
+  },
+  "final_operational_work_coverage": {
+    "a2_new_works_losing_all_candidates": 12,
+    "a2_operational_work_gain": 195,
+    "r3_a1_plus_operational_a2_project_works": 7094,
+    "r3_a1_project_works": 6899,
+    "retention_rate_of_candidate_stage_a2_gain": 0.9420289855072463
+  },
+  "interpretation": [
+    "A2 initially adds candidate-level coverage for 207 project works beyond R3+A1.",
+    "After applying known final labels and the frozen operational policy, 195 of those works retain at least one included A2 candidate.",
+    "Twelve A2-new works lose all A2 candidates after final disposition.",
+    "The 107 policy-accept-only works are operationally retained but do not have an individually adjudicated VALID candidate.",
+    "Work-level operational coverage must not be described as human-validated coverage."
+  ],
+  "release": "openalex-a2-production-work-coverage-v1",
+  "scope": {
+    "a2_marginal_candidate_pairs": 963,
+    "a2_marginal_project_works": 231
+  },
+  "work_level_status_counts": {
+    "A2_NEW_LOST_AFTER_FINAL_DISPOSITION": 12,
+    "A2_NEW_RETAINED_POLICY_ACCEPT_ONLY": 107,
+    "A2_NEW_RETAINED_WITH_FINAL_VALID": 88,
+    "ALREADY_A1_COVERED_A2_MARGINAL": 24
+  }
+}

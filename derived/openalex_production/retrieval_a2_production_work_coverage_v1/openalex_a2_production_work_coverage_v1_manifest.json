@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-11",
+  "outputs": {
+    "derived/openalex_production/retrieval_a2_production_work_coverage_v1/openalex_a2_production_work_coverage_summary_v1.json": "57b6260d0775b688d0022184a38072f3a48f9dbc12b92106a606d58e1b1d9a89",
+    "derived/openalex_production/retrieval_a2_production_work_coverage_v1/openalex_a2_production_work_coverage_v1.parquet": "8b294788d84defd492eec3b5a6f80a525f46afa369b216546e7bc9ac5e7cdd1a",
+    "derived/openalex_production/retrieval_a2_production_work_coverage_v1/openalex_a2_production_work_coverage_v1.tsv": "5ef6b2001e42fe7d81973c089b591f154532c6c7a978bc3de96c6f968a60c237"
+  },
+  "release": "openalex-a2-production-work-coverage-v1",
+  "sources": {
+    "/media/hdd1/user/tsutsui/openalex/scans/full_r23_v1/full_2040files_4a275210/openalex_retrieval_full_r23_hit_evidence_v1.parquet": "dd106b715fba9889aeac97e331b53c382195f3a22efdcc087a65e6b11f3bb292",
+    "derived/openalex_production/retrieval_a2_production_final_disposition_v1/openalex_a2_production_final_disposition_v1.parquet": "e582c6c747ed2bcbd66444c235835cb3902246f5513bbf841d6caa3e0496bc81"
+  }
+}
