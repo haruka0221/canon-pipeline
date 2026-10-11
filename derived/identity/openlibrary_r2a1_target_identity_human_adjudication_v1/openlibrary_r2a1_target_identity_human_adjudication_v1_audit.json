@@ -1,0 +1,35 @@
+{
+  "all_required_categorical_judgments_present": true,
+  "audit_status": "PASSED",
+  "blank_human_notes": 0,
+  "human_confidence_counts": {
+    "HIGH": 2,
+    "LOW": 2,
+    "MEDIUM": 16
+  },
+  "human_content_type_counts": {
+    "BROAD_AUTHOR_OEUVRE_OR_MIXED_COLLECTION": 6,
+    "FICTION_COLLECTION_OR_ANTHOLOGY": 5,
+    "MIXED_OR_UNCLEAR": 4,
+    "NONFICTION_OR_OTHER_LITERARY_FORM": 2,
+    "SPECIFIC_FICTION_WORK": 3
+  },
+  "human_date_window_assessment_counts": {
+    "INSUFFICIENT_DATE_EVIDENCE": 10,
+    "LIKELY_ORIGINAL_1880_1950": 6,
+    "LIKELY_ORIGINAL_OUTSIDE_1880_1950": 4
+  },
+  "human_entity_status_counts": {
+    "COHERENT_COLLECTION": 5,
+    "COHERENT_SINGLE_WORK": 5,
+    "HETEROGENEOUS_CLUSTER": 8,
+    "UNCERTAIN": 2
+  },
+  "immutable_review_fields_match_frozen_input": true,
+  "release": "openlibrary-r2a1-target-identity-human-adjudication-v1",
+  "rows": 20,
+  "source_xlsx_sha256": "7a6cf2db46b925cbec014402f8551dbd1db659d75827d292c724faf7fb4a44a1",
+  "source_xlsx_sha256_matches_expected": true,
+  "unique_openlibrary_works": 20,
+  "unique_project_works": 20
+}

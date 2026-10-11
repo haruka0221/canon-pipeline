@@ -1,0 +1,21 @@
+{
+  "important_semantics": [
+    "This artifact contains human judgments only; it does not load or join the LLM adjudication.",
+    "The completed XLSX SHA256 is fixed and verified against the local pre-transfer hash.",
+    "All immutable evidence fields visible in the review workbook were checked against the frozen review-input TSV.",
+    "Human-versus-LLM comparison must occur only after this human-only release has been committed."
+  ],
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_human_adjudication_v1/source/openlibrary_r2a1_target_identity_human_audit_review_completed_v1.xlsx": "7a6cf2db46b925cbec014402f8551dbd1db659d75827d292c724faf7fb4a44a1",
+    "derived/identity/openlibrary_r2a1_target_identity_human_audit_sample_v1/openlibrary_r2a1_target_identity_human_audit_review_input_v1.tsv": "06c02b21bc871b8986c9ac87a3ed1a47dbf2860b2b27647403063d8fd54577a5",
+    "derived/identity/openlibrary_r2a1_target_identity_human_audit_sample_v1/openlibrary_r2a1_target_identity_human_audit_sample_v1_manifest.json": "e17309586bb061a9b785376de0f93209de71721ec7cb301d42fef315bb9c6266"
+  },
+  "outputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_human_adjudication_v1/openlibrary_r2a1_target_identity_human_adjudication_v1.tsv": "b9f85af31d8386f6ca083061960da8435d187021fc2ba61430df3c83e0be6ebf",
+    "derived/identity/openlibrary_r2a1_target_identity_human_adjudication_v1/openlibrary_r2a1_target_identity_human_adjudication_v1_audit.json": "b8a252d1c45d43fbdac4eb3178acae776ae4f6d077ef1dd0786a4de7a456ac59"
+  },
+  "purpose": "Freeze the completed human judgments for the 20-record Open Library target-identity audit before joining them to the frozen LLM judgments.",
+  "release": "openlibrary-r2a1-target-identity-human-adjudication-v1",
+  "review_blinding_note": "The review workbook itself withheld LLM labels, LLM confidence, pair counts, retrieval-risk classes, and retrieval impact fields. However, the reviewer had previously been exposed to row-level LLM results during the analysis discussion. Therefore this adjudication must not be described as a fully independent blinded human audit.",
+  "status": "frozen_human_only_adjudication"
+}
