@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-11",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_adjudication_v1/source/openlibrary_r2a1_split_edition_human_audit_review_completed_v1.xlsx": "871612fdc8d6abb59978595fb30273b3e0d2527d90073aa73541499c0855c7ff",
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_v1/openlibrary_r2a1_split_edition_human_audit_cases_v1.tsv": "a46338a184cacb9526d3cdb6cec9d7e94bf95f74cbd18c054e4e0afa31c14094",
+    "derived/identity/openlibrary_r2a1_split_edition_human_audit_v1/openlibrary_r2a1_split_edition_human_audit_components_v1.tsv": "639b60f8296344e3afa90ccb3b9c07b14c25c9f58e93a6305fc7df42b45bcf40",
+    "scripts/finalize_openlibrary_r2a1_split_edition_human_audit_adjudication_v1.py": "e3c5c7472523281bb66d4d90ea633a16813b5c03b834c5d5c1ad1a61db6c290b"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_human_audit_adjudication_v1.tsv": "669f6c54fb0b318bd8c6068c78cd963ad3702d6c64e45e4f518e5cab0a1c1377",
+    "openlibrary_r2a1_split_edition_human_audit_adjudication_v1_audit.json": "b27c9c0a7f9f7f21d8882c027a7926e9f78a71b498c5378c556de79b28bd0219"
+  },
+  "raw_llm_freeze_commit": "9d4a2d0ce50cc5335e06672732aa060d3a3be124",
+  "release": "openlibrary-r2a1-split-edition-human-audit-adjudication-v1",
+  "review_selection_freeze_commit": "32d95c3de27eabee635cb54e930f7c791a6822b3",
+  "semantics": [
+    "This release freezes human review before row-level unblinding against the frozen LLM routing output.",
+    "The finalizer does not read the LLM routing artifact.",
+    "ASSIGN_COMPONENT selects one fixed human-defined routing component.",
+    "HOLD_UNRESOLVED preserves insufficient evidence without forcing an assignment.",
+    "REGISTRY_ISSUE flags cases where the fixed component registry is inadequate for the observed Edition.",
+    "This review is not a fully independent blinded validation because the reviewer had prior project knowledge and had seen aggregate LLM results, but row-level LLM answers were withheld during review."
+  ],
+  "status": "frozen_human_only_adjudication"
+}

@@ -1,0 +1,37 @@
+{
+  "all_assigned_components_valid_for_project": true,
+  "all_confidences_valid": true,
+  "all_decisions_valid": true,
+  "all_nonassign_components_blank": true,
+  "all_registry_issues_have_notes": true,
+  "assigned_component_role_hint_counts": {
+    "DETACH": 27,
+    "EXCLUDE_APPARATUS": 5,
+    "PRIMARY_SUCCESSOR_HINT": 5,
+    "SUCCESSOR": 40
+  },
+  "audit_status": "PASSED",
+  "confidence_counts": {
+    "HIGH": 53,
+    "LOW": 1,
+    "MEDIUM": 64
+  },
+  "decision_counts": {
+    "ASSIGN_COMPONENT": 77,
+    "HOLD_UNRESOLVED": 35,
+    "REGISTRY_ISSUE": 6
+  },
+  "frozen_evidence_fields_unchanged": true,
+  "project_works": 17,
+  "registry_issue_counts_by_project": {
+    "W000003023": 1,
+    "W000005423": 1,
+    "W000005682": 1,
+    "W000014024": 1,
+    "W000021761": 1,
+    "W000030498": 1
+  },
+  "release": "openlibrary-r2a1-split-edition-human-audit-adjudication-v1",
+  "rows": 118,
+  "unique_case_ids": 118
+}
