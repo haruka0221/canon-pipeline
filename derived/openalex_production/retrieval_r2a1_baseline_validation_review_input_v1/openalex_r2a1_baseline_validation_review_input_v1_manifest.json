@@ -1,0 +1,43 @@
+{
+  "adjudication_target": "Whether the supplied OpenAlex scholarly record genuinely refers to the target literary work.",
+  "allowed_judgments": [
+    "VALID_TARGET_REFERENCE",
+    "INVALID_TARGET_REFERENCE",
+    "UNCERTAIN"
+  ],
+  "blindness": {
+    "document_scope_classification_not_requested_here": true,
+    "hit_location_hidden": true,
+    "mention_strength_classification_not_requested_here": true,
+    "query_provenance_hidden": true,
+    "retrieval_risk_features_hidden": true,
+    "sample_membership_hidden": true,
+    "title_token_features_hidden": true,
+    "work_candidate_volume_hidden": true
+  },
+  "counts": {
+    "primary_pair_sample_members": 800,
+    "primary_secondary_overlap": 1,
+    "secondary_work_diagnostic_members": 348,
+    "unique_candidate_pairs": 1147
+  },
+  "created_at": "2026-10-11",
+  "interpretation": [
+    "This release contains no adjudication outcomes.",
+    "Primary versus secondary sample membership is deliberately absent from the blind view.",
+    "The same blind candidate view may support a separate LLM first pass and later human adjudication, but their outputs must be stored in separate versioned artifacts.",
+    "Sampling membership remains recoverable only by joining baseline_candidate_id back to the frozen validation-sample release."
+  ],
+  "output": {
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_review_input_v1/openalex_r2a1_baseline_validation_blind_v1.tsv": "b62d6c362e1cdf113baf2792cb78f3107b9791471c11fc073bd1a25a527260ac"
+  },
+  "purpose": "Freeze a judgment-free blind target-attribution view for the already-frozen R2+A1 baseline validation samples.",
+  "release": "openalex-r2a1-baseline-validation-review-input-v1",
+  "sources": {
+    "/media/hdd1/user/tsutsui/openalex/scans/full_r23_v1/full_2040files_4a275210/openalex_retrieval_full_r23_scan_v1_manifest.json": "b84cc5f28ed1f7bcacaf241fb944a33d7c8570eaca557f9d4364ae7e131d4224",
+    "derived/openalex_production/retrieval_match_registry_full_v1/openalex_retrieval_match_registry_full_v1.parquet": "ce19cdfc0929139a04f8ee36ec27bd34b8898c0b969b75fd2f0017fce8147878",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_combined_v1.parquet": "79cec96b7fbb8bec43dd316cb14860c50dc9ff2bb530f3c6ae45ebddcb9f59ca",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_validation_sample_v1_manifest.json": "2003962ee1d408b8221e218b37eda8276132f9d0710a3da381e0fae388396b1c"
+  },
+  "version": "v1"
+}
