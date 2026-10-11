@@ -1,0 +1,150 @@
+{
+  "all_assigned_components_valid_for_project": true,
+  "all_holds_have_blank_component": true,
+  "all_notes_nonblank": true,
+  "assigned_component_role_hint_counts": {
+    "DETACH": 24,
+    "EXCLUDE_APPARATUS": 4,
+    "PRIMARY_SUCCESSOR_HINT": 74,
+    "SUCCESSOR": 283
+  },
+  "audit_status": "PASSED",
+  "confidence_counts": {
+    "HIGH": 451,
+    "LOW": 26,
+    "MEDIUM": 31
+  },
+  "exact_edition_key_set_match": true,
+  "no_duplicate_edition_keys": true,
+  "original_edition_metadata_unchanged": true,
+  "project_response_rows": 17,
+  "project_summaries": [
+    {
+      "assigned": 28,
+      "edition_rows": 31,
+      "hold_unresolved": 3,
+      "low_confidence": 3,
+      "project_work_id": "W000014024"
+    },
+    {
+      "assigned": 4,
+      "edition_rows": 6,
+      "hold_unresolved": 2,
+      "low_confidence": 0,
+      "project_work_id": "W000031472"
+    },
+    {
+      "assigned": 23,
+      "edition_rows": 42,
+      "hold_unresolved": 19,
+      "low_confidence": 0,
+      "project_work_id": "W000030498"
+    },
+    {
+      "assigned": 11,
+      "edition_rows": 16,
+      "hold_unresolved": 5,
+      "low_confidence": 0,
+      "project_work_id": "W000023649"
+    },
+    {
+      "assigned": 6,
+      "edition_rows": 6,
+      "hold_unresolved": 0,
+      "low_confidence": 0,
+      "project_work_id": "W000003023"
+    },
+    {
+      "assigned": 14,
+      "edition_rows": 20,
+      "hold_unresolved": 6,
+      "low_confidence": 0,
+      "project_work_id": "W000005351"
+    },
+    {
+      "assigned": 6,
+      "edition_rows": 11,
+      "hold_unresolved": 5,
+      "low_confidence": 0,
+      "project_work_id": "W000013400"
+    },
+    {
+      "assigned": 77,
+      "edition_rows": 79,
+      "hold_unresolved": 2,
+      "low_confidence": 0,
+      "project_work_id": "W000014515"
+    },
+    {
+      "assigned": 16,
+      "edition_rows": 22,
+      "hold_unresolved": 6,
+      "low_confidence": 0,
+      "project_work_id": "W000005682"
+    },
+    {
+      "assigned": 27,
+      "edition_rows": 50,
+      "hold_unresolved": 23,
+      "low_confidence": 23,
+      "project_work_id": "W000004772"
+    },
+    {
+      "assigned": 4,
+      "edition_rows": 5,
+      "hold_unresolved": 1,
+      "low_confidence": 0,
+      "project_work_id": "W000030489"
+    },
+    {
+      "assigned": 4,
+      "edition_rows": 5,
+      "hold_unresolved": 1,
+      "low_confidence": 0,
+      "project_work_id": "W000003030"
+    },
+    {
+      "assigned": 6,
+      "edition_rows": 7,
+      "hold_unresolved": 1,
+      "low_confidence": 0,
+      "project_work_id": "W000002404"
+    },
+    {
+      "assigned": 40,
+      "edition_rows": 47,
+      "hold_unresolved": 7,
+      "low_confidence": 0,
+      "project_work_id": "W000021761"
+    },
+    {
+      "assigned": 44,
+      "edition_rows": 55,
+      "hold_unresolved": 11,
+      "low_confidence": 0,
+      "project_work_id": "W000004821"
+    },
+    {
+      "assigned": 29,
+      "edition_rows": 43,
+      "hold_unresolved": 14,
+      "low_confidence": 0,
+      "project_work_id": "W000005423"
+    },
+    {
+      "assigned": 46,
+      "edition_rows": 63,
+      "hold_unresolved": 17,
+      "low_confidence": 0,
+      "project_work_id": "W000004923"
+    }
+  ],
+  "project_works": 17,
+  "release": "openlibrary-r2a1-split-edition-routing-llm-v1",
+  "routing_decision_counts": {
+    "ASSIGN_COMPONENT": 385,
+    "HOLD_UNRESOLVED": 123
+  },
+  "rows": 508,
+  "unique_edition_keys": 508
+}

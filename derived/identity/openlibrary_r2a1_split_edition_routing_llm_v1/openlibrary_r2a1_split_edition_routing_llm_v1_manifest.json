@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-11",
+  "input_freeze_commit": "83cfef1121a61de39b52cf5c91e7c0dd4ad4e7f0",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_component_registry_v1/openlibrary_r2a1_split_component_registry_v1.tsv": "a32ffb87fa7771065eaaadcf47fb058772e6abd43d7a2a6b9b471cc047093c24",
+    "derived/identity/openlibrary_r2a1_split_component_registry_v1/openlibrary_r2a1_split_component_registry_v1_manifest.json": "9f6e44ab1e71af9efc9463b940061981301a522e8e314ba463d725677fa972e2",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v1/openlibrary_r2a1_split_edition_routing_input_v1.tsv": "1775ef5c0f938113d47a7e303664844d6f016412b4182503b25d58d4f9ee27e3",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v1/openlibrary_r2a1_split_edition_routing_input_v1_audit.json": "9f64d706edff50f348cbf25185d50ad0f2991bc7b2bae1fdfa9de31ff70cdc7d",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_input_v1/openlibrary_r2a1_split_edition_routing_projects_v1.tsv": "3b061c8e729e479fc2649d64992a17b674d349659a03bf3d1912c8afa677e550",
+    "docs/OPENLIBRARY_R2A1_SPLIT_EDITION_ROUTING_LLM_PROMPT_V1.md": "628d559cce51b06952f331dae8f9c69519640322ae47d13a67202f2816052f70",
+    "scripts/run_openlibrary_r2a1_split_edition_routing_llm_v1.py": "be39944cdfb8dc7876b53c1d22c1ccb08e5b54b521be3f09ab2e65a54213f3da"
+  },
+  "outputs": {
+    "openlibrary_r2a1_split_edition_routing_llm_v1.tsv": "1cd525a5f0a38dcd0aeb691419abcabeaaeab7bef187939e9b59b62a0bbdff69",
+    "openlibrary_r2a1_split_edition_routing_llm_v1_audit.json": "4cd463bed0d34ff14dbb2925d03f28176f554fdc8f4bd90ee1266b2138df4698",
+    "openlibrary_r2a1_split_edition_routing_llm_v1_responses.tsv": "8a38efea04117e97f9e1dff970fd53a5b5f7c168c5611b9a7b88bb36b067ca3d",
+    "openlibrary_r2a1_split_edition_routing_llm_v1_run_config.json": "cca8d6a87f4513e8f8bb1c51b641228f238f68990f4091eb7f1dbc2bedcdd0d9",
+    "openlibrary_r2a1_split_edition_routing_llm_v1_summary.json": "a9cb9e78703ff6bbaa554e2a7515edb13af8cb1d23c303c88dfb76524f754008"
+  },
+  "release": "openlibrary-r2a1-split-edition-routing-llm-v1",
+  "semantics": [
+    "One LLM call is made per predecessor project work, with all of that Work's Edition records visible together.",
+    "The LLM may assign an Edition only to a human-defined fixed component for the same predecessor project work, or return HOLD_UNRESOLVED.",
+    "The LLM may not create, merge, or split component boundaries.",
+    "An omnibus or anthology is routed as one Edition-level publication and is not decomposed into constituent literary works.",
+    "DETACH, EXCLUDE_APPARATUS, and PRIMARY_SUCCESSOR_HINT are human component metadata, not LLM routing decisions.",
+    "This release does not create source entities, project works, lineage edges, or corpus-scope decisions."
+  ],
+  "status": "provisional_llm_edition_routing"
+}
