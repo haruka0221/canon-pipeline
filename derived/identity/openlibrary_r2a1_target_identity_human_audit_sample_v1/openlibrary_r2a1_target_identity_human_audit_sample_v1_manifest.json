@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-11",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_editions_v1.tsv": "14d42c0b3de7c36f99c2fa45f6f5822c8de9f7d576964c688760c32e814b20b6",
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_summary_v1.tsv": "8889f35601c4244539206f6b90a4bbd5296ac279f60004087eb30510fe2fb10e",
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1.tsv": "2cdfb0bfaddb891a491aa066fa395ee89f2715a687fac683315a01f80dda6aee",
+    "derived/identity/openlibrary_r2a1_target_identity_llm_v1/openlibrary_r2a1_target_identity_llm_v1_manifest.json": "496a6662acb454e088285388e19f7598cd7a09de4e89d4b63125b83623f2a811"
+  },
+  "outputs": {
+    "derived/identity/openlibrary_r2a1_target_identity_human_audit_sample_v1/openlibrary_r2a1_target_identity_human_audit_editions_v1.tsv": "b9d2706120254350d446a09ff682778e9bffd25a4dd08bcba66255f66b08275c",
+    "derived/identity/openlibrary_r2a1_target_identity_human_audit_sample_v1/openlibrary_r2a1_target_identity_human_audit_review_input_v1.tsv": "06c02b21bc871b8986c9ac87a3ed1a47dbf2860b2b27647403063d8fd54577a5",
+    "derived/identity/openlibrary_r2a1_target_identity_human_audit_sample_v1/openlibrary_r2a1_target_identity_human_audit_sample_v1_audit.json": "5fbd3982bd0fef9c7fda7aee6e2722a5ec0fd1e734604cb352e3ef65ceab5ecf",
+    "derived/identity/openlibrary_r2a1_target_identity_human_audit_sample_v1/openlibrary_r2a1_target_identity_human_audit_selection_v1.tsv": "4441ad80f5fa4777382a921416b854f6a60a56e7d3ec7c31485f380650af0922"
+  },
+  "purpose": "Freeze a 20-record blind human audit sample of the 48-record Open Library target-identity LLM risk-set adjudication.",
+  "release": "openlibrary-r2a1-target-identity-human-audit-sample-v1",
+  "sampling_design": {
+    "allocation": {
+      "COHERENT_COLLECTION": 6,
+      "COHERENT_SINGLE_WORK": 5,
+      "HETEROGENEOUS_CLUSTER": 6,
+      "UNCERTAIN": 3
+    },
+    "analysis_note": "Do not use the unweighted 20-row sample as the 48-row risk-set agreement estimate. Any aggregate agreement estimate must post-stratify using the frozen stratum population sizes.",
+    "human_blinding": "LLM judgments, pair counts, retrieval risk diagnostics, and duplicate-set information are withheld.",
+    "population": "48 Open Library Works in openlibrary-r2a1-target-identity-llm-v1",
+    "selection": "deterministic SHA256 ordering within each stratum",
+    "stratification": "frozen LLM entity-status class"
+  },
+  "status": "blind_human_audit_sample_frozen"
+}

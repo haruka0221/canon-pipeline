@@ -1,0 +1,22 @@
+{
+  "audit_status": "PASSED",
+  "blind_review_llm_fields_visible": false,
+  "blind_review_risk_fields_visible": false,
+  "edition_rows_in_packet": 315,
+  "population_rows": 48,
+  "population_strata": {
+    "COHERENT_COLLECTION": 20,
+    "COHERENT_SINGLE_WORK": 5,
+    "HETEROGENEOUS_CLUSTER": 20,
+    "UNCERTAIN": 3
+  },
+  "release": "openlibrary-r2a1-target-identity-human-audit-sample-v1",
+  "sample_rows": 20,
+  "sampling_allocation": {
+    "COHERENT_COLLECTION": 6,
+    "COHERENT_SINGLE_WORK": 5,
+    "HETEROGENEOUS_CLUSTER": 6,
+    "UNCERTAIN": 3
+  },
+  "unique_sample_ol_works": 20
+}
