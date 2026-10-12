@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "active_works": 32066,
+    "human_routed_edition_evidence": 2,
+    "identity_suspended_works": 16,
+    "llm_only_edition_evidence": 68,
+    "new_same_assertions": 0,
+    "new_scope_decisions": 0,
+    "new_w_ids": 0,
+    "provisional_edition_relations": 70,
+    "source_light_active_works": 1,
+    "superseded_works": 7,
+    "total_works": 32089,
+    "work_identity_map_rows": 44888
+  },
+  "decision_version": "openlibrary_r2a1_primary_successor_inheritance_v1",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_edition_source_bridge_v1/edition_source_bridge_v1.tsv": "632b8ef8ccd0bed58ca0c54437e5eeb03764d786db093520e2aa83f24a85d0f8",
+    "derived/identity/openlibrary_r2a1_identity_v6_adjudication_input_v1/publication_unit_adjudication_input_v1.tsv": "18c5e70a367b064cde26c62aefe97ba7b043be5335e27b176da10725301bc94c",
+    "derived/identity/openlibrary_r2a1_identity_v6_migration_coverage_v1/edition_migration_coverage_v1.tsv": "ebf483ce812572704cb38e887004113f7ff2515e7747f1a2872fd88fa9942426",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1.tsv": "0254177d7537a9e5c6e3b7b9e2f822a583a717bd5e88f05973a3e0e0cf88b146",
+    "derived/identity/project_work_identity_suspensions_v1.tsv": "48ab05054b4a94712340692d1d2938a58e2faac6f5721d6e1ad1202c06e74674",
+    "derived/identity/project_works_v6.tsv": "63cf4c1a1dcf833e253fe99e611561827dc7d27d610872c88ed038e59006738a",
+    "derived/identity/source_entities_v3.tsv": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0",
+    "derived/identity/work_identity_map_v6.parquet": "0c72676d1fb9d520adae6d8dc4e3d5627fedeaa4f3cf689f5de1bd922839354a",
+    "derived/identity/work_identity_map_v6.tsv": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3",
+    "docs/PROJECT_WORKS_SOURCE_LIGHT_POLICY_V1.md": "33d6324bcca8bb69834939dbda25c6f53bcf1263ef72cf986ab29b4e764f4282"
+  },
+  "outputs": {
+    "project_work_edition_evidence_v1.tsv": "f147707fce3d4aba40b41e405237949821896c0e1d143a60372e5147911d03d5",
+    "project_work_primary_restorations_v1.tsv": "c43a96e74483cb2a6e36672270b07c34f84bd5f1d7a1b2452cf29ed2807fcd90",
+    "project_works_v7.parquet": "f1c599bd082d93418d0f9b4f3c5ff6d4b6745cb1955ed79b31cfb6bcbb14b5d7",
+    "project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "work_identity_map_v7.parquet": "0c72676d1fb9d520adae6d8dc4e3d5627fedeaa4f3cf689f5de1bd922839354a",
+    "work_identity_map_v7.tsv": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3"
+  },
+  "release": "project-works-v7",
+  "release_type": "primary_successor_identity_restoration",
+  "semantics": {
+    "conceptual_work_basis": "Previously frozen human primary-successor inheritance decision",
+    "downstream": "Do not automatically switch analysis views. Source-light active Ws require explicit support.",
+    "edition_relations": "Provenance-qualified provisional EDITION_OF evidence, not automatic SAME identity",
+    "original_ol_work": "Retained as overaggregated source record; no SAME membership restored"
+  },
+  "source_light_exceptions": [
+    "W000014515"
+  ]
+}
