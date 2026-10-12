@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "component_cases": 71,
+    "edition_rows": 371,
+    "unused_successor_components": [
+      "W000004923_C02"
+    ]
+  },
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_split_component_registry_v2/openlibrary_r2a1_split_component_registry_v2.tsv": "c810e7ffb17a345196e9911c6c66426935fe6addae5d1130c7d5c21bbe2c4383",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_final_v1/openlibrary_r2a1_split_edition_routing_final_v1.tsv": "366b00ff602a46865df9dcb286520d6006adc35d1f391a8651bda3274d2bc3d3"
+  },
+  "outputs": {
+    "component_coherence_review_index_v1.tsv": "3681e820f971e142785ca06741b44ae86f1cd848ede74251d1a0131d1510a9c5",
+    "component_coherence_review_input_v1.jsonl": "58c317673f8072928a77fc72d7c7c9f9ac8f5764a8c7ff33df3b1c268cc0e502"
+  },
+  "release": "openlibrary-r2a1-component-coherence-review-input-v1",
+  "semantics": {
+    "independence": "LLM/human routing notes, labels, prior review hypotheses and judgments withheld from model input",
+    "limitation": "The component grouping derives from operational routing; this is not independent sampling or proof of component correctness",
+    "no_identity_decisions": true,
+    "no_scope_decisions": true,
+    "scope": "SUCCESSOR_and_PRIMARY_SUCCESSOR_HINT",
+    "status": "review_input_only"
+  },
+  "upstream_commit": "c2a18cec290532ae529d87b2c3e28d0b4b61e201"
+}
