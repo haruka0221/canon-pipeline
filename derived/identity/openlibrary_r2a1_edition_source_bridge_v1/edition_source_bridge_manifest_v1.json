@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "edition_rows": 508,
+    "migration_buckets": {
+      "APPARATUS_PENDING_SCOPE": 5,
+      "COHERENCE_UNRESOLVED": 91,
+      "DETACH_PENDING_IDENTITY": 28,
+      "PROVISIONAL_PUBLICATION_GROUP": 280,
+      "ROUTING_UNRESOLVED": 104
+    },
+    "predecessor_ol_works": 17
+  },
+  "identity_decisions_created": 0,
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_identity_v6_migration_coverage_v1/edition_migration_coverage_v1.tsv": "ebf483ce812572704cb38e887004113f7ff2515e7747f1a2872fd88fa9942426",
+    "derived/identity/source_entities_v3.tsv": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0",
+    "derived/identity/work_identity_map_v5.tsv": "f686c710fa52937e078c40d32b03dd2d558320d0d0287a5235ba439e47fea8ff"
+  },
+  "outputs": {
+    "edition_source_bridge_v1.tsv": "632b8ef8ccd0bed58ca0c54437e5eeb03764d786db093520e2aa83f24a85d0f8"
+  },
+  "project_works_created": 0,
+  "release": "openlibrary-r2a1-edition-source-bridge-v1",
+  "semantics": "Source-native OL Edition-to-Work relation and provisional migration evidence only; not a project-work identity membership map."
+}

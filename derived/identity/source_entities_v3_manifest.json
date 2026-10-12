@@ -1,0 +1,25 @@
+{
+  "appended_entity_id_range": [
+    "E000048656",
+    "E000049163"
+  ],
+  "counts": {
+    "new_edition_entities": 508,
+    "previous_entities": 48655,
+    "total_entities": 49163
+  },
+  "created_at": "2026-10-12",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_identity_v6_migration_coverage_v1/edition_migration_coverage_v1.tsv": "ebf483ce812572704cb38e887004113f7ff2515e7747f1a2872fd88fa9942426",
+    "derived/identity/openlibrary_r2a1_target_identity_diagnostic_v1/openlibrary_r2a1_target_identity_current_api_editions_v1.tsv": "14d42c0b3de7c36f99c2fa45f6f5822c8de9f7d576964c688760c32e814b20b6",
+    "derived/identity/source_entities_v2.tsv": "1769f25935a0bed58a64ba6f2ea2f0dfa9e02926ff7512770e9c9d41f42454bc"
+  },
+  "outputs": {
+    "source_entities_v3.parquet": "2c156e1113651d0e991ae52007adaa86cbce4aa9eca48c6305904edcd2086f0b",
+    "source_entities_v3.tsv": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0"
+  },
+  "previous_release": "source-entities-v2",
+  "release": "source-entities-v3",
+  "semantics": "Open Library Edition source records only. No SAME identity assertion or conceptual work membership is implied.",
+  "source_snapshot": "2026-10-11T09:13:44.963134+00:00"
+}
