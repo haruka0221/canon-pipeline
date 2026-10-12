@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "active_project_works": 32065,
+    "current_membership_rows": 44888,
+    "identity_suspended_works": 17,
+    "new_identity_assertions": 0,
+    "new_project_works": 0,
+    "scope_decisions": 0,
+    "superseded_project_works": 7,
+    "suspended_memberships": 17,
+    "total_project_works": 32089
+  },
+  "created_at": "2026-10-12",
+  "decision_version": "openlibrary_r2a1_split_identity_suspension_v1",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_edition_source_bridge_v1/edition_source_bridge_manifest_v1.json": "3ba042387e7048bcbff0345accb335a0388995a1870dc6d0ad211f87167a37b7",
+    "derived/identity/openlibrary_r2a1_edition_source_bridge_v1/edition_source_bridge_v1.tsv": "632b8ef8ccd0bed58ca0c54437e5eeb03764d786db093520e2aa83f24a85d0f8",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1.tsv": "0254177d7537a9e5c6e3b7b9e2f822a583a717bd5e88f05973a3e0e0cf88b146",
+    "derived/identity/openlibrary_r2a1_target_identity_remediation_adjudication_v1/openlibrary_r2a1_target_identity_remediation_adjudication_v1_manifest.json": "83e7d5615132f32ee9a5bce43da482f575bc35ce8dca836f7919bab284a06cdc",
+    "derived/identity/project_works_v5.tsv": "6bfc681b00b702e22db1de7e51d7cf5f61fe26766370719bded4d9ccb19a3a44",
+    "derived/identity/project_works_v5_manifest.json": "7f8a5061e485ce6d9b26f8adeed0a2e3e72b104ecce14bb2c517b831bd257272",
+    "derived/identity/work_identity_map_v5.tsv": "f686c710fa52937e078c40d32b03dd2d558320d0d0287a5235ba439e47fea8ff"
+  },
+  "outputs": {
+    "project_work_identity_suspensions_v1.tsv": "48ab05054b4a94712340692d1d2938a58e2faac6f5721d6e1ad1202c06e74674",
+    "project_works_v6.parquet": "d00ade189c2405810aaefb28d203f21b20f319211338c3548b300c6311a3a93f",
+    "project_works_v6.tsv": "63cf4c1a1dcf833e253fe99e611561827dc7d27d610872c88ed038e59006738a",
+    "work_identity_map_v6.parquet": "0c72676d1fb9d520adae6d8dc4e3d5627fedeaa4f3cf689f5de1bd922839354a",
+    "work_identity_map_v6.tsv": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3"
+  },
+  "release": "project-works-v6",
+  "release_type": "identity_suspension_phase",
+  "semantics": {
+    "analysis_warning": "This is an interim identity release. The 17 suspended historical targets require explicit handling in downstream views.",
+    "identity_suspended": "Known overaggregated source identity; successor conceptual identity pending.",
+    "primary_successor_hints": "Preserved in frozen review evidence; no automatic W inheritance.",
+    "source_history": "All v5 records and source entities are retained."
+  }
+}
