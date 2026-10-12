@@ -1,0 +1,20 @@
+{
+  "release": "openlibrary-r2a1-identity-v6-planning-input-v1",
+  "purpose": "Provisional planning input, not identity v6",
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_component_coherence_review_input_v1/component_coherence_review_input_v1.jsonl": "58c317673f8072928a77fc72d7c7c9f9ac8f5764a8c7ff33df3b1c268cc0e502",
+    "derived/identity/openlibrary_r2a1_component_coherence_llm_full_v1/full_results_v1.jsonl": "b29fe9ec1036db5a37bf0e8ed459736bfe61073aeb513b2f3ca95c3c162f0088"
+  },
+  "outputs": {
+    "publication_unit_candidates_v1.tsv": "b49e4165a2d522bb3d599c0ff442056419ee10651541fdcf7054484c961aec6b",
+    "edition_dispositions_v1.tsv": "a9ebd08fba6774d9e06d1e20715f8bcb123e041acb2fe8fcb393df120ae7ddc2"
+  },
+  "counts": {
+    "publication_unit_candidates": 76,
+    "grouped_editions": 280,
+    "coherence_unresolved_editions": 91,
+    "total_editions": 371
+  },
+  "identity_decisions_created": 0,
+  "project_works_created": 0
+}

@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "candidate_publication_units": 76,
+    "editions": 508,
+    "migration_buckets": {
+      "APPARATUS_PENDING_SCOPE": 5,
+      "COHERENCE_UNRESOLVED": 91,
+      "DETACH_PENDING_IDENTITY": 28,
+      "PROVISIONAL_PUBLICATION_GROUP": 280,
+      "ROUTING_UNRESOLVED": 104
+    }
+  },
+  "identity_decisions_created": 0,
+  "inputs": {
+    "derived/identity/openlibrary_r2a1_identity_v6_planning_input_v1/edition_dispositions_v1.tsv": "a9ebd08fba6774d9e06d1e20715f8bcb123e041acb2fe8fcb393df120ae7ddc2",
+    "derived/identity/openlibrary_r2a1_identity_v6_planning_input_v1/publication_unit_candidates_v1.tsv": "b49e4165a2d522bb3d599c0ff442056419ee10651541fdcf7054484c961aec6b",
+    "derived/identity/openlibrary_r2a1_split_edition_routing_final_v1/openlibrary_r2a1_split_edition_routing_final_v1.tsv": "366b00ff602a46865df9dcb286520d6006adc35d1f391a8651bda3274d2bc3d3"
+  },
+  "outputs": {
+    "edition_migration_coverage_v1.tsv": "ebf483ce812572704cb38e887004113f7ff2515e7747f1a2872fd88fa9942426"
+  },
+  "project_works_created": 0,
+  "release": "openlibrary-r2a1-identity-v6-migration-coverage-v1",
+  "scope_decisions_created": 0,
+  "status": "planning_only"
+}
