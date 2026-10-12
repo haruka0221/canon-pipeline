@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "derived/identity/project_work_identity_suspensions_v1.tsv": "48ab05054b4a94712340692d1d2938a58e2faac6f5721d6e1ad1202c06e74674",
+    "derived/identity/project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "derived/openalex_production/retrieval_r2a1_baseline_validation_sample_v1/openalex_r2a1_baseline_primary_pair_sample_v1.tsv": "8ab88b38afe4af112287fa3b53afadf24dc2d1f0ea0150513bdb5032720f7eb8",
+    "scan_manifest_sha256": "b84cc5f28ed1f7bcacaf241fb944a33d7c8570eaca557f9d4364ae7e131d4224"
+  },
+  "outputs": {
+    "openalex_r2a1_post_identity_candidates_v1.parquet": "07494d14d56fe2fc9261a6e79c5b1d97ea1fc5bf38a7fa2b9002d17d10e5096e",
+    "openalex_r2a1_post_identity_summary_v1.json": "b9e86e9479cd5e96c0ab299d8edc29152ddb3fe8a9932eeb16249e272d5e5b1d"
+  },
+  "release": "openalex-r2a1-post-identity-candidates-v1",
+  "snapshot_inventory_sha256": "57959e90573d6ef2adb953fd747ba71854819880f762077f680083476d490fc9"
+}

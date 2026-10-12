@@ -1,0 +1,17 @@
+{
+  "affected_predecessor_w_count": 17,
+  "frozen_baseline_candidate_pairs": 290480,
+  "identity_gate_counts": {
+    "ELIGIBLE_FOR_R2A1_ADJUDICATION": 224934,
+    "HOLD_LEGACY_OVERAGGREGATED_TARGET": 65546
+  },
+  "primary_sample_membership_preserved": 800,
+  "release": "openalex-r2a1-post-identity-candidates-v1",
+  "semantics": {
+    "eligible": "Identity eligibility only. Not an accepted target-reference judgment.",
+    "frozen_primary_and_human_audit": "UNCHANGED",
+    "legacy_holds": "Includes original Alcott target despite restoration of its conceptual W ID in v7.",
+    "new_identity_decisions": 0,
+    "new_target_attribution_decisions": 0
+  }
+}

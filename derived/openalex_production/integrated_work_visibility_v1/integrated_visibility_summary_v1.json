@@ -1,0 +1,24 @@
+{
+  "active_project_works": 32066,
+  "identity_held_legacy_pairs": 65546,
+  "included_by_route": {
+    "A2_AUTHOR_REVERSAL": 922,
+    "ALIAS_EXPANSION": 364,
+    "R2_A1_BASELINE": 224928
+  },
+  "operationally_included_pairs": 226214,
+  "project_works_with_operational_candidates": 7077,
+  "release": "openalex-integrated-work-visibility-v1",
+  "semantics": {
+    "baseline": "Identity-eligible R2+A1 candidates operationally included unless a frozen human judgment is INVALID or UNCERTAIN.",
+    "baseline_unadjudicated": "Not individual VALID adjudications.",
+    "identity": "All 17 original overaggregated retrieval targets are held.",
+    "limits": "R2+A1 and marginal operational inclusion are not complete human verification. R4 title-only retrieval is not included. Counts are not corrected for estimated false-positive rates.",
+    "marginal_routes": "Reuse frozen A2 and Alias final dispositions.",
+    "scope": "No corpus-scope adjudication.",
+    "unit": "Unique Project W x OpenAlex Work pair."
+  },
+  "source_light_unremeasured_works": 1,
+  "status": "PROVISIONAL_OPERATIONAL",
+  "total_candidate_pairs": 291852
+}

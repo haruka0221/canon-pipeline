@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "derived/identity/project_work_identity_suspensions_v1.tsv": "48ab05054b4a94712340692d1d2938a58e2faac6f5721d6e1ad1202c06e74674",
+    "derived/identity/project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "derived/openalex_production/retrieval_a2_production_final_disposition_v1/openalex_a2_production_final_disposition_v1.tsv": "c3e37f7f5fa89dad519176bb23c41baf0d8183ae66b6e63ecacfeaf7ca8e2dac",
+    "derived/openalex_production/retrieval_alias_production_final_disposition_v1/openalex_alias_production_final_disposition_v1.tsv": "3de70c362b8d60259760c85bef748891ccc3c6f0584cd707630ca51b6447b23b",
+    "derived/openalex_production/retrieval_r2a1_baseline_primary_human_audit_analysis_v1/openalex_r2a1_baseline_primary_human_audit_join_v1.tsv": "ba8e0b2f6c2cf859a74c6d0a14c6bb64218a1f8319e81c5b970e6ec665930d15",
+    "derived/openalex_production/retrieval_r2a1_post_identity_candidates_v1/openalex_r2a1_post_identity_candidates_v1.parquet": "07494d14d56fe2fc9261a6e79c5b1d97ea1fc5bf38a7fa2b9002d17d10e5096e",
+    "derived/openalex_production/retrieval_r2a1_post_identity_candidates_v1/openalex_r2a1_post_identity_manifest_v1.json": "c8ba7793d4ed9a88bc0933348970f4c2ba7e9e3638707513c85cb693ab14c8b6"
+  },
+  "outputs": {
+    "integrated_candidate_dispositions_v1.parquet": "bea6d71439f3fe42e34fe6ef11518623e3ea1aa17706b3912f9975eb9fc9ec17",
+    "integrated_visibility_summary_v1.json": "5b1e9250c2877feef18d4b9adb63d6eccd5fa78705d522b505b78f4b4c57e9ff",
+    "openalex_visibility_by_project_work_v1.parquet": "beaeb0c5c6272aea2ee6ffbf3a9418dd6fb8a5a29b9bcc798d5c0ebc6fb7180a",
+    "openalex_visibility_by_project_work_v1.tsv": "8c3e2e1f55dcff2723dfe2ba60d6ff1d768f4d56456ce009ab65c78e5b740826"
+  },
+  "release": "openalex-integrated-work-visibility-v1"
+}
