@@ -1,0 +1,246 @@
+{
+  "case_id": "CCV1_0040",
+  "component_id": "W000014024_C02",
+  "edition_rows": 4,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774403.0,
+    "conversation": null,
+    "created_at": 1791774399.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_050f7a6807e9f609006acc4ebefc0887d082aee1c7ca8b4061",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0040\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL11178702M\",\n        \"OL11527835M\",\n        \"OL23762041M\",\n        \"OL4549187M\"\n      ],\n      \"provisional_label\": \"Henry James: Letters to A. C. Benson and Auguste Monod\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All four records pair Henry James with the same specific subtitle identifying letters to A. C. Benson and Auguste Monod. Three report 118 pages; the fourth lacks a page count. Subtitle differences are limited to spacing, capitalization, and the parenthetical 'The Henry James correspondence'.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"The matching recipient-specific subtitles and consistent available page counts support one bounded correspondence publication. Differences in publication dates and publishers do not indicate separate editorial units.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_050f7a6807e9f609006acc4ec0382887d0bb50560cdf022aa0",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0040"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL11178702M",
+                        "OL11527835M",
+                        "OL23762041M",
+                        "OL4549187M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL11178702M",
+                  "OL11527835M",
+                  "OL23762041M",
+                  "OL4549187M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1625,
+      "input_tokens_details": {
+        "cache_write_tokens": 1622,
+        "cached_tokens": 0
+      },
+      "output_tokens": 262,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1887
+    },
+    "user": null
+  },
+  "response_id": "resp_050f7a6807e9f609006acc4ebefc0887d082aee1c7ca8b4061",
+  "result": {
+    "case_id": "CCV1_0040",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "The matching recipient-specific subtitles and consistent available page counts support one bounded correspondence publication. Differences in publication dates and publishers do not indicate separate editorial units.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL11178702M",
+          "OL11527835M",
+          "OL23762041M",
+          "OL4549187M"
+        ],
+        "evidence_note": "All four records pair Henry James with the same specific subtitle identifying letters to A. C. Benson and Auguste Monod. Three report 118 pages; the fourth lacks a page count. Subtitle differences are limited to spacing, capitalization, and the parenthetical 'The Henry James correspondence'.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry James: Letters to A. C. Benson and Auguste Monod"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

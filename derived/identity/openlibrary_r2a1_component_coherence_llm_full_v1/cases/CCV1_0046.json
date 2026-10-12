@@ -1,0 +1,244 @@
+{
+  "case_id": "CCV1_0046",
+  "component_id": "W000014024_C08",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774420.0,
+    "conversation": null,
+    "created_at": 1791774414.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_017af716459b87ee006acc4ece349c87d0a47a4462a65d1ee2",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7UKukpkTYrDECpoQeb40HGOjV764BIV31gt94fKmqdR7PK27e-IwDd-tkWqzOvWmE8oV8mfmF9DLOfd5p-VoxgVYpdGGdsYKJqYeUnjZkI8FChHZ-KWZttfOh2PaS7vPv04i2ygjs3ZOick8Ri23i0BDOTsczWbfc6V8xIRC7Lf1XfX3cpxsNnugDWDQIRwm3gvVBA_kx_QURNpSLGVIMEAs9VbpLv0p2N9H7xl9xWqPZa4qIUNyifRflWY96VjiTKh5rFxt6H3XkRss-pcCzEPpNNJAz50RRHeMT21froNce3zqvsfwljI-8KVIAplPVX2LEi6paqYiybI0sT2Ggxl76TiKyoQq04bJStu_Kir0i2OJrofXKR301FEvYrzszpzAi9ReXvMSoLke4hIVXhVVqMZLZoLllMcbm7XyriDOmcyt8WkQBAZLp0412YMGUF7-fm3AKbXX9tfZr7GDJ1N3O7VqYuOtJCGmKwC8Mz-P5enqN9wmGkxYDcNh7HNBhSQB8lL_DAFJfc9DA8Tk9SrGr2JkVDfw41WivT8larBPCWiqVaVtC0gkGzXqPA6geSO0ndwciHHHpQGlsZvfaWE8RwtH5leN0FRbjpGcyI3x76ePIPhN05Dv65-9Gt3gu09msljoO2NS_pbODRzN56KezNU1Hr3dRBF9iCwqdJ_w8ncjcTYn0BqGPNLck39Es9zgsCMK-j2fgFip03B0WU82lgBAX-LecgQT2pcDE8tW_otHdysNwOjwSWv-4MCfg0e6F33sBbmwYnXHEXFUhTN5564I1hWX68WWayMQVUKRL-fDc2fmzG4Lv1BAd8rHAN1csoPtSEFxa2CHkEteJl66I482V6WYlFauJqM09_VRoxjQc-FZdP_Al9FP5kAYOqMIghds9bEevcpdkpnGTTnIxeE1E1788S9yh99gG4EDYtsA988Y3Il41WGeuEFBWaYlKmAt0SFoAh09ZdGEYptX7xsBVk4kPicINXnlRbovU2ThRE7RDepE0I0t4jbBNilwyjq9CMGKJh_b0uZ93tfjg-XDBbcsrLa-N-EgH1LSVcXZ0zH73uTy4Og-PRLKCjJ4WWUT2ODXayvX2DphYKKoalaPCYFdzv1gj3m6fik3UyYW4oGnGRaw3XEh_ebPu7D1B05aXtMqmozl8zufmz3e7oqyy-6MxU4Fmv8_gDeU5jhaWxTAgtG_kGsUKFBxlI8xHF3S80f7SmY0Y4MsR0lUI2XlfVL98oBJEPQ4qqKDdLXXF8Vh1wyBt23JVMbfMJU61SCNLM96a1UbG5GSfSQsmEfuonHioGbR4byjzRnewqVHfG5TRxsGmBm7oxePYUHEKJ61QZx9d4iTiGYFu1dvRBUbScHzjwG8OdEeE5RvdyrCeJmceHghaK3zeKFmk5_qwr62F7xGtruQt8lpAqF4exdfaGNdolnRQYIlb4zH_skGg3D_MlypJqEwm93kTSKzH5DGgFP5zBx-pDQwbeddGAc4yu_wB8KkEth9LkkC94Jcwp5-2lD2UuEhcspQyP7WFbFeB5qpmIydmvWt15682SGCc_CUU7BUEDYnPnSuwzrKQQTjFPMSxp96kkqAm7tlM8FOIBOk0sdiuT3yJySNzRaYLKQN22eylEbRBNDiynCeT4r5TjxFi4GcwtbRvgduuKjCKFUPcbbg8sQlXZ3eDXbNjS7G9Hjax2-a6Hd-HWXcGLa5-xx_JmnfR7ZCtRba6FYlM2dy1Q2WwNE9_xtq-OI7H8SkwJ-8_g5b6fXasIlc_SC3CXg0SjLmzM5nYD2bfJ3CvMKI7vQIviDxgp6eJjeSkQEI8i3P3jWt3L5h2gux3up3FLLOl-xduVzESZTn7xyAmKFl2GTiA3QCSmAi0N4iQxFMiN6WiTADqCH-D0pf1YmKtCtrVU_sSZR1_242eLc14LqqMKYO1ajD1_1BRSEfk1fWEHpyydy4aa_Pbi42nEhu7loU-SzUj26p7mhvO8N_HtIDhqsFu0Au_pusmIlEBbpyDDzTlqVrjkgEWOOgCklP4hTXLMQMcLKokW2eVDFi7lUCvP3ZL486vEhym6YbWf3XUPtMY_ptU-9eytakve81nXa2AVvOsI3P9250Sq842HdwWd79UjeFT3ZWXQzr_bl6q-BZsgUQxGTBF1j8WisDNSwGZvzmV9D2ZUGwlFwTbx5EjakUdrIW7yb2Bvq_HKOi9zwfK9ssLNI4tQzowBCP5MKGDWPwCI_rBoCDWJma40IpaQ8lDuhWQZHxcVpn2qLMEu2SGmiRQTraXV0PmmJAVLsjHYWTo10_ySUeCE010ZkP3UJXuzeMcHR4q4kB3YYdMtcV9au60XXllIOYfRjRk5mz14JqhaT7kpn7mVYhq6GX7VFGBh6eqxbevLJ3NEHdXRjM-_axNB5u3D7gPvnN1lpz1aQT7PkfAR-NXlh0Wtj7sCcicbTj0xjj1QVB9C2NtCGVI2G9hlImMHanaBcc-0UaMBjxqNkGgLPnXiCV7S2Xl6rGnEe-MWSsS6CfDs4iMFYCyAR2C4mclqoc0Zqy66SLBA01LnNYcIlu50ERbJgKDRMQVsQM191v2cIFfULMhNjOzOmt8cDxhWCsjODcnrT2nK6bHRPG80tkqiRcJH9iRugAWrgV_9ml25X-nyMxMXx6XdeUXdtqZDPxy0HKXu6r1h6fmLjR9eflSQ7SAEYMV9xkK9MXhtGxnb9oWyvV9U9UmtwXQgfwczBEGpgo4mFbjuaBLA99VhCR7P86EVwGkVh37XoHQk10pDxIQ5vm7ocye_nSSU9aZIpH--yQuttwH-Hj-6NiIkd_ETnYbIBKIBVfl612KWc0wQUtu-aOzyyIwpunrRL5-G_u3vrgRAy-wUBPJr_atdKakDnj-E8MQebdSkSX94gcvwTd7RlxlpiPS0NhHFG8bpYJYqJVQHQ0qu-ywf-aYR_5ddPTIyKRHFsPPanvh9ElBSJaZ3Q_kQ9WKIMFGSd-kkDGrmjnUAdR-X32nA5RyBRVfZC2A7i7FgqBxFtnphJn24uyqUcSAzifL0UkJCS3d3asGoCxLgyWp7P6zjhmel",
+        "id": "rs_017af716459b87ee006acc4ecf20cc87d0b6dcd4355f00384e",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0046\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL19015796M\",\n    \"OL19324269M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both records are titled Henry James with the subtitle representative selections. The 1941 American Book Co. edition has 490 pages; the 1966 University of Illinois Press edition has no supplied page count. The matching title and subtitle are compatible with one publication family, but no editorial or contents information establishes whether they contain the same selection. The differing dates and publishers do not independently establish distinct families.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_017af716459b87ee006acc4ed19f7487d0afc61a63eb26258d",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0046"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL19015796M",
+                        "OL19324269M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL19015796M",
+                  "OL19324269M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1426,
+      "input_tokens_details": {
+        "cache_write_tokens": 1423,
+        "cached_tokens": 0
+      },
+      "output_tokens": 318,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 1744
+    },
+    "user": null
+  },
+  "response_id": "resp_017af716459b87ee006acc4ece349c87d0a47a4462a65d1ee2",
+  "result": {
+    "case_id": "CCV1_0046",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both records are titled Henry James with the subtitle representative selections. The 1941 American Book Co. edition has 490 pages; the 1966 University of Illinois Press edition has no supplied page count. The matching title and subtitle are compatible with one publication family, but no editorial or contents information establishes whether they contain the same selection. The differing dates and publishers do not independently establish distinct families.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL19015796M",
+      "OL19324269M"
+    ]
+  }
+}

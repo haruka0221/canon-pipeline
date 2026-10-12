@@ -1,0 +1,268 @@
+{
+  "case_id": "CCV1_0013",
+  "component_id": "W000004772_C03",
+  "edition_rows": 10,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774335.0,
+    "conversation": null,
+    "created_at": 1791774321.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0125e532ab223e2a006acc4e71daac87d0ada5f501c05e93f9",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5_C7k2JSya8gKJCtzPWXGbgtSaUGfUERRzrA5PsY5SaCHe-mo1B_KhSDUW0rObpA6ohVTSkTR5gnJ1AoDBTS3cUS8LxR1nepKN7MDZP-LWXK2tWssA7somS1c4xnjglcxQpUnaY4L5dOkVobuJSmdREqqw8EdCSf3TBRFOQxBth2Arwkuq6rjCEHQeVbw00QVn0lguInJNEBf2V0kCKa1bcK3MSjYw_DGLsOApmq2SAYikpzIEXec_Mpf6zbKtYx1ZD9MlAND-AbHW56lw55qoV7ZyclSwAIgAIAIHT_vy2oxQ68qc70rBSeC8xXSN-F5xuE0Dbqxscr1Ti7k8I8ACoWjx__o7mkzfy9wDAm90-wB6PDlZE3XeTE7u5R5W3-fUgh0XHB7q2Hiwu46NBUrBciUZIzRXF7AJUU-57pRFpy9BaLf85Fualeozbc5Ee7jVWp3Ox8BeMQEJbIwf3IO0bja0xCYu62x2CrRqoSYIdIHw2XEoD5fNbWsai7wwc-CQY5kaPCBbnGteAXDPjtsl5LXPt49AI24rru1cqiUFZZAhdW1bgu36Se2hZaiwsXYr6qX97wNzHaeWYV5W1nElGWQ9-5hqNfhAwb938KIxjaE8XFufokauAu2fox3FdNGZBBTCEeH9GngNjQmAmvfdhWPbNHCRAQEU4ga9sE2IRppb41-uRnK_YtoU6QQx-9Zj4LV1WcQeVm5FtGsMB-7rTVbzDyUxcG_K86ezgTTdkEviBzOAI4wPKdUofYvqpoq75HUH-KKSv7elYtF-mZQOv2ZJaYOOrdcTEU1gGcwSREHTxMrhzA9oWHO8qns-BN9CjytbEDTDNW_xX9c-seeC_Fl3xlDVSSd0uQ7cP6kRDDG4zaJ6060kwTyMEHMxS4at8AGJXy96-A6AyhiT4nDa6uFMmG4uxEqP1ZF484A3u-s_4zBTDNu6bNQpdWa1QYSeHhKz8vPfB6Mfc3Wm0BaVJwVgshA7fkfJM9tPsLq5Cxw6wuPFbE_VJi3Qf666dyWSmZpUHy0F4GsGn_dH5lK1uJDtmtu8AI1SF0NEMtkm5LwWt_cVLkPlG98G4D2LZlfSeQSajrny-9-tuwnJ5ZBmqhk0ea8P7hIficil0IrMNqO3X2n2c9703rzquzd-dqdZiWWM5X4laI_7JKshzMyI2sDqKuVsoels6nWvtoiaiEl4z_A8bAmXr5FKCH2Rxw_KrrgRbBbTk5x95h9mu_Bbqxg0ZdecI5f0JRQO3gU87qzZwP0Wwy9RpRRlZBqJoqbHRzvw0DqTcOsWYwgvHCc0sWgx3YXTMco0GUnYiL2GKQDr5O82Sfh_GZqJl08Dv3Q1AYpy37oLZOfn0D_JWRIG_JRu7T3vdkIzR8ngiFtJh8VATlZM0YIOPG8xMR38102lGkbJumxZ9db_ZImMgmQ_NJtG9MnmSRyzFt0Wk19oVA-7hM-d1SyWIXhhHkGrnOwl2nm7vf75WHMdgnkAjbOHnlfrdvNDAEqklZGiWE07rd_E_ciNFE4m2EyomfGqEbRRr1OBClJRzlTnXLHNBOS5LPWCpZvaRehwEPPp7E5UYTwKPPGLaxga9K1aubDINJIdtscPS_YfU6rjjcc4qWPKxn2iOY8GFzvWn7bKZAybSCoFAo_EnwXRWzamkfF2IQcoLk9HVW8af61APqYbSnNYR5K2zOIY_QHkzZSugXm-Dmn4KhKIbkV7O7mScIKBznejXukISdnXV95fCKHOIdbyiy-mgLk_feAzgBenjwrFE5HQCl3IDPMwPC1yUWKnqCVf-KmJ8pImioyddaDyEf9_vRl0Xr-ldHcidxUBuO_lOnMNdmdYAbqe7U2CyGR5STuRM5oeVBae3vc5WimphtlAfh5zMyq6RLQLK4W-G7UyMYLkMTx--TWdmJuGZ0NErFz4NmT4jw17XzFO5bDEGIBTGXAgtRGWVzJI0qPn22z4_qZVea1r1rTs4nwgjTkfTq0hkcs7_2pEV-UHuE3Bco39lUxpAZuIQQ9ONCJ2FsO-Y4sKSUiad9bdD9IOTYdZ4w1f4Pab_fz8qnHLGilWh5sjiyBA3wvI-5hjhsfFWSyONC8WF6FmSIdo_VEg75ILevDKdhLaETW5KtNQ5Q8lWLt16ERA0U3estFNT2T6QbhGDK5aQd9qsnnPK7UJ6ieXrQTRU-fQjvp6zAq-tHmNQN3OBwxaHLe_S3BNkQNBHKxCO7wC70qNqVRyFqV2IIf7VVWtvTQq_XxyukQXrFlQePsOCmsYZxrozLJrrdQJ9RX47cPUgbhU0FraDazeCvm7aE8nWTcVUmW1wZJbdGU9ITszmbVHIwQlEdBzwHxUdsepbzMKS7huoNjNuXGO-p6I7uR915-xFciHhyJvua-9yrCsIKtCXHOxHqLtDUVrEauqP5_R8RXwbuGhWqCGl4ZME0DuMi6OUb4xuprgyR0SWETnbg9oh1d-blMA9vQa-lGs_2_yKxAx99ivp41sxt3DCzEyZHX0-YR2XNjkfIUe_FKxOklk36Y31SuT-zgKFIyHJ5v8chV03OvWaDebqurowg8ESm3PAXT1lfIzP1m-2doxt_bXFRPhNWJxOVV8f98P4RwF08eOSpXKrMCpMjE7694f_W4zGfPIiLiHk4Q7y2cFh5Xndfm1rcxde-C64sfYN5jQw06wcSe2qfyayL8y2dDYkU3_SuMGY9y73stUnzHtUPHBlsqw7sNaJ-OMW0QmyBscstw0r9mHqpFcTJv7eobzh3_RECnDyY0hoesAmVBEXtzXIjeshq63GiViiTDf3CIb4C4LXcT1Xc8_V9spN7_pOdSx7TznJyhp8OCnwbRnItnvJKeXb1y2I1wwYQJ4iL2f0pOaQ7s1hbtAAcJFaSFM339qg2RnXAaQ91x3VjP1EgMN_QK2Gl09pBJY27L0L1S3UpL-Ac0fgv2Z8hmBgOZFxIz8NNkbC8WgVyg4ZdiPC8-b47LgU7jqfKKdTUM_JsAXNwx_HDdp7VWgrms7TRgXMj7dA87ipWt4ryAfh5kIOitZXhLKAqFbjMOy1eoBnDPAvwobiVkVSbfdh3k8sozJfq2qpieqXyioTJeI2aehi96kan_kz7xwvq_N3r2BvfgwohVow4K66JrDmDSgMfKMMd2VLnNZplAp7EzDZSl2O7OLcSKo7AbAWpnOGbYK5PAQjPnxFmenOVg5KSswFoKBfERwi41WTQM4Zk69DR_0xC60Rk_EYTPEjqRk-ClvYPZRG0tU3vCGGBOoxo-vkZhFSJvM2bOI_fbeLb5abozBL-gnPEnZJdUDOOW-kwPhGSz8B555a3OK4_pmB8qTI29vWVNzNFGsTCIH_KlZ6NWwwsricO8vSmlsLGIvDmbutZIFB-usoSUFYMhHPK5HpT9dsWAl1Z2ASXmtuREc0WtT76M5xPcEbqtqsQ3tzEOSeTKpUWgBJ1D2srXvus3vGmSefG5xUC06fbCkSDK1PGLVGVCYdi31i4ISBTzeHuR4r6D2k5gEbJ02K1qDiETd1L7Q1o6fCbXEWvIsYMqVrgkax09VeIu_GGKkToe8heki2L0QwKIBgmg6XVJlG5NEMJjP19FEteUGdEdpl__VMYx6ELMwjf6WbDd3fr5KC0QmLwrt4xp4_f6LcvhL5WB83aZGI9svGprxEKUBTs4Mz3lcbLggOZyrhJoFgztNaTicGeV9jvx2ZjYtqU38KPiHmlQzOAEOwolnjjyKQzKtMPzqXjdBDX_Nte7IKf9pHvXeLZqLb53abpV64TZjbGcOzzb-6u4nnmR_AnR6n9eIhFL_4XmNLX4T2X_E5Zh6SErnbal1cTQFYldWiRdg9koEXfE_29xJey-PtvOMvyTIZ3hmc7jO5kSzDGGcvmstxgmM3siW83BeCFM2SZ1jNYbjJIC8ymYc4XcwrH2SlhCmVu5EAdj9h5UZ5POKLrEfD7md-kMqBWWch14sYCy74ltJl8tl2e-K-w8VtUwWW6gNKertHTjPuX4TKvYQhzaN5M4Qxron-1WBEsr4VfPZ1UW9rtD86GNwR1V2A-rWneULEUd7ZqhOy-hB4ftAn3rDtZVfR9Wt4dS7IVNNpndGFkeCqLtOZ9YXTQJCKXx2_XJR5LdwKSuvhIx-DyVpbwAfJNxOAlZtJ_Gk1CcAvqoBzujwlWIhb_5c1zG7j48ey-7glAOvo1PT7ZuQ2obJKHv5T6SUROlH8hNBTSmfc_W6alMksiNAkswIDxm_tipcnxpp3jDCIOymOQWWBgzY78JitX_FPpJ7fM7bO9gCCjerHlskif9vALD74AVS_Vdvv6O81hU-Nm3lwfsXnccqltB-8WITIjfuBNWbtwtZWDaew6QCuiamygMELOdZVJEhln-uf8468fcgn8l3qADIHNiZFPoKOcQD2frYz83FMsrrS-W1rfTW0idXAKuwVz1VjoYKhEc-MnMbFBkdIFxBlaEdlmKfxgMbqj2iG6kGZDzECRxrgIVpz1KWS70Wdxs5iy12o3ELgdOADF9mjpcTFqrDydgFIMas4XwSbqH0uBCqj-huKb9YTbr58TnMPBBJZ3Ka774VDWDhEC9hcFfasypRPGqpcLCJV6zDjNmkrpgjbVALp-JSWzRDbFBvYDtUxZi89sBwmIfYAstcfT3i46sZKgS75ikEap8xXDnSi8i6ncwjkk6zfGEHWhPH3iEOJeQRpil5c2PsIRdjVC2I2P0dcyLBq-walDk-Yd5TwkQrVGytCXKLnXcS5TzFacBha9oSLalcp7ujQHgJ6Q_Ld6AcPZoA_OFHT3FGbGxzl6GZz-ycxX6qFfkG21NiqATy7EICydTrbEJ8_io32G1WUs4njwHd8zjBvbc-o3ak6KX7zmiyTv7qnN-LhPlQqcwX9xAAfq77kLPunt9AwiWTHyfDik0BXm0qLg2M1Df0RncBFRFCZ05kvBYnlObD1brH-1cNgw84iBx9JAh_qSh6m3y-5qkOu9QZEC5GPo_jQH0GM61CcirUro5RBVCbikpNe7g_ypNhVdgj07IdN1DYG2GAINKdoOxJUfvpWrAyF0qDnw4QoLMNA3P0KM9uAiCR5IoqKMoLN-sZiXivzL_FD85s0rt_GQhhdLX-biTwr6BHk2fJCtxpEvqvbE11AIB0RWN6m6c8VIs0THE0Z1KJA02t615aLQHzPcCdxIPdCyx-yQSSYlrDL5QgtuX1WFkij-ZNGMc0ruzSycJCnLQ6grR7HCsRIncLl94oh1PlYC8TkaZxf9Cf7IFOCSAVQDWkbLj2RxPptVs-wyXo3aQPpELv9_PrwtgifHck8SRxpzUsV7-u3ZkSDqV2fomzaXhkCMaGGwF2mNQaKJfXyLU-TW8NzbRgEWJaCURHQjGvL_FzGzeKZ-BlwrJBitt3hHaHKjUchQFNRAqSd8ZU7vGgkqYJVMtde5DSfrqY61a27xI-iojC03BqmbzEHh8iacZgwDH45Cgd--5W4iT__Xg08HGdvAEcAFPbSCAlGOTTiO_EV358H3ioh22POdm16L2M8REH8ZdyojG-KKxAN-5TyMPH7DkYLOzZKqkX0YFdRCSP7mAq8BXct_cd0_7nCOe6UFbRAdfu7CkK5tXOvczqZgQiWkpdKiMRuzyz8H19DjedgfVMAHutZrc8uCSoX_8MHG0WB5sOKKb4hjE0SyThC3joyTxOBXdmO_NnuExvP2p_MSkU7wFFGb0-zFntnNiJTRmTSNMrKTEafK_dZhSLbGKiOYFRr_oIpqrkdr0Mj0oX4l7V7usiFLoH0HqwboPNCWJNMBHV5jB3I8MGLfT--RgFJ8rvfY2qoZ25IS0LxJd30dhZLzdB7bY_P7yzIVe2GD9L-CThp07G23JwsD972v7d3v0V1WBIlv3WPOalKit_kOTq409_g_A1uqgCKOugfujb97OSuG08OLNkACfJIREJ1rLseZ5hy5QhgDuuCozMAGp20U6h5nKjUvSXaXp20ngV35ixCo9yyR0lNnGIZYkjTDHoJKZFDSJA62FwtiiVnE4iQo-UzZaIg2qgXSWqWkBfOVqNrw==",
+        "id": "rs_0125e532ab223e2a006acc4e72d1cc87d0a8fd3ad8803a3053",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0013\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL15495064M\",\n    \"OL15495069M\",\n    \"OL15495071M\",\n    \"OL15495127M\",\n    \"OL15495327M\",\n    \"OL16492322M\",\n    \"OL18338797M\",\n    \"OL18338825M\",\n    \"OL19367126M\",\n    \"OL19624130M\"\n  ],\n  \"diagnostic_flags\": [\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\"\n  ],\n  \"evidence_note\": \"Repeated nine-volume subtitles, overlapping publishers, and two subtitles naming H. St. J. Thackeray suggest a related multivolume publication. However, no volume numbers or contents are supplied, pagination varies substantially, one record specifies ten volumes, and three omit the volume count. The metadata does not establish whether these are manifestations of one bounded compilation, individual volumes with different contents, or distinct editorial units. Neither a single-family conclusion nor a reliable subdivision is supported.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0125e532ab223e2a006acc4e7a74f087d09398cf2d6a98553b",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0013"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL15495064M",
+                        "OL15495069M",
+                        "OL15495071M",
+                        "OL15495127M",
+                        "OL15495327M",
+                        "OL16492322M",
+                        "OL18338797M",
+                        "OL18338825M",
+                        "OL19367126M",
+                        "OL19624130M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL15495064M",
+                  "OL15495069M",
+                  "OL15495071M",
+                  "OL15495127M",
+                  "OL15495327M",
+                  "OL16492322M",
+                  "OL18338797M",
+                  "OL18338825M",
+                  "OL19367126M",
+                  "OL19624130M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2094,
+      "input_tokens_details": {
+        "cache_write_tokens": 2091,
+        "cached_tokens": 0
+      },
+      "output_tokens": 613,
+      "output_tokens_details": {
+        "reasoning_tokens": 321
+      },
+      "total_tokens": 2707
+    },
+    "user": null
+  },
+  "response_id": "resp_0125e532ab223e2a006acc4e71daac87d0ada5f501c05e93f9",
+  "result": {
+    "case_id": "CCV1_0013",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "MIXED_COLLECTION_OR_OMNIBUS"
+    ],
+    "evidence_note": "Repeated nine-volume subtitles, overlapping publishers, and two subtitles naming H. St. J. Thackeray suggest a related multivolume publication. However, no volume numbers or contents are supplied, pagination varies substantially, one record specifies ten volumes, and three omit the volume count. The metadata does not establish whether these are manifestations of one bounded compilation, individual volumes with different contents, or distinct editorial units. Neither a single-family conclusion nor a reliable subdivision is supported.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL15495064M",
+      "OL15495069M",
+      "OL15495071M",
+      "OL15495127M",
+      "OL15495327M",
+      "OL16492322M",
+      "OL18338797M",
+      "OL18338825M",
+      "OL19367126M",
+      "OL19624130M"
+    ]
+  }
+}

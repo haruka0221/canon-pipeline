@@ -1,0 +1,279 @@
+{
+  "case_id": "CCV1_0031",
+  "component_id": "W000005682_C01",
+  "edition_rows": 8,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774388.0,
+    "conversation": null,
+    "created_at": 1791774374.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0fe48a452ea54c84006acc4ea6e6e887d09350d3e8627c6dac",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE60N11Ehr8d3HFGNMA2s8baUAdqH99c3_TYFlHkh0KhpAfQerr7PRMx_32OSBVsTQjOjcNRdj1WiNMFmx0KaPd9lL-m1Fa21TbROQGl18IhweJMDfVB6VsuW1MsUqiI2gRQyd3VuLC6JR_Sr8CQFuINmaXE4_px9wNfOIZ-dWgBqF2mW7VGz6xfjSAf6r__SPRmduH2LhkA6bkDjTHBWAB_D4k4ZiqRgSrLApGRRsBu0K3V6RwnISomno23KZ5OKX-El7Np3jnmR7JZdAyxPrP9MfrF7XEtQljZzlYU8onKAbzQomUfXufuyjxVIUo7UoSKXN-TYlp2uacV-v_YG-0-1_ytzxMI8W1gRMMNJexfooAPAXGd-1EBnwx8ubHmNoD-_2vJKN5ZIqSG9CF7FfCGu7e38Vzul1Hn_4hAPCz2rDBfAA22mErV-GtSYtMh3eXCoJ5xdOIRqTykEarrOhmHYYK6pgV2D48DiOIH5rAJ1wAN0SUE5aK0PjETZn3vaTqZ1lQTHlEdwy4isbXcwjXOkCj_SNNt5cZucQlVesr8CSVJJ3DUN6lkxyH2GNd852N9Od5Nbddc74AHkBay8qhJLKJQ44zYHJWzXEynyIEQerLF4JHr__xMeBD9q78bOMng0bCOKv961Ok9fi5bWkgvPhHSXz8aWAGTvAIXui0erJLbf1D5P2LBvMRFkN82Umvw6puZnYd3ISL4oo61FD3eUtmGQn_OUa3BmTjyLadx_z3AADzyxkOoSNOht8Vp-A1onWUj7Xk1NBYP3iZDtpj_pTOz_ESlDm6NK0eSIidV-gzo0Vs2Fp3QU98AMQUGZZqnursB-jDFbIHXa2BiYelnjEdoppVhSm2f3e5H8N-RLG3YeNHjHcCPvtErrZo3MWg9AxqxhS5YN81tB5MrjfHCAYKwOUahw7VMKjOwRJCw11ABEVjal4j2usSwj_dej0_WvPK_uWvSflq6hzuCaqq5ZKKxttmQqDXb94DycKfXxfw4p4kVp5arQr0vpP89u5iHoPVtFfoMLNm3LcKwZ_HfWEvrfsdZ13Bw4EKvDZcCp3DYEv81Qpvt9DOeN-i174eSUqIhj8MVainpCYVI6ndkySio7lVy31_FmEWfRMQ8SI1C63cSUQ11wlQZPNXD49_j3H8HpWC45JBD6RR2SiB_oeZiT2g3LxHrHZj5trcH7-txJf7yoIPouZXUz6IovDJshS5xHUvkLpbDaqdOl7M1QvS_Sx9b8TIYDEMRrYJZLJhffpoJ1OAPRVQu2KgcrXtG3tNbuxBzTbBgvVS1Un019xUmlIHW5zrRVC9iKBhNdOy08UF5opykaYuAsOvxAMrN9U4Q-QVhdwYQeEFgYmaXMM6r0SX_yhL0N4nAT_YHcwpoqJnRxfGVPLqHtCKY-bbG5DeoPJR-GmL1O31c2Rfj78mq8SSE3bsWSGNytb48jeYu4MCy7BFUirKRMj4AMWMlhZYgU8A5mJTxr51CrCz1KMTAJ44Ku5R-ZV_vJOnaQQaQZ30eaRYbzSnBCYnpKbUByj5xSZnqS1ALSz3ZH57DxKP2Q0Eq3DQ_AZpTwL0-qbjp9APPAZFYCwJR_7B2Pd-aXphqZ8bi6M3e7l0x0bWnm_i2LNPucfnAu-EOfTUsn44rUAmTW-7Xo65ttfmxgpryy8UcZluW58TXUkTfM2vpynKLc0zlo53k1NTLEoTFgigrRUN4XpfTLDkNCELdh5BkZG1Nn_2MtRE_D1WvOFAhnxR-TKSaXort2zispRwbjctuN2EiIw-xl8rYTbwpzZ1A4iEoj0R24-GYOGlAtuCelUC1LbnkEaFkb81dMfoh0OB8509STHy13r33dRig1I_S0z4SiVQj3vS291ukxRZK08wzTkcu7J3qC6ZlETz2sFqaCarAnMgXRZYQeliGhSbtMDWh4IZEw_FmODereujbHhNxGagQehfCzaDAqW8QHkutNCwHtI3PEpGrcSCpyiep_z78GDyxiSzPxarco_9M2fY_udQv4xX3pJWRLPfT4d55WBvxa3R8bAZDzb2ASiZ3tEraNvgYLrH_dYpeZcxMgLY3AO7S_t5M7UR93s-SdZ_Ym6Uzd5QBdm2H0jm5Pciy2v8j5AjweoNUt28CBqPjmdZHIsAG1WYwPbDuYE8HsBn0mJFLMHyEnSphBYt_I9y-g6LhWO4pkj6R3RMq5iClIyPJxEr4ueBjcje65ZaBaQq3mp3bXQHzzO7zpVMGLaDjw7GtAFUQGWQPDetfK2eqCTBe1wwzvLtBgA59jHYUWBIyB1e2tsgTHeveQWMdLlFFXU1I6ZAqXGZVFr36HOPiLv2Yp0uR2ep3p4pEQyYaE_8AN74WDVIQLFgzTIlFUgT9-Uktxrl6awhhREVD81N_fGgZOd2fJ3CalM8O29HmHLKpyzjjTIDtst2hdzsLpJgb-uylLiTMpSECtZTv3zqRxCtdIuhPnSCYxwW3a8n3_D3nR2LOZ8c3tCKHm1iIbeZBnhw6k5ewY90GKHgErRFDCEZfVmm8plZbeQJ7_feNTn_fKRc8O_hRtxxa2aLNnD4zESCgtVw8Qxi9qiEnRqG8kXf0X4ZX7vKml_wlKTEDCUMI3frYF5P8_Jv79y970ELbGNLpm6f9zrBGMJdDJktWgxwwxwGI5Kk960GZ4R2ugPBxK2QFe9LcgoU-lQOK19PiGaeQTiSU6P1yP1DDqFEZUrMHJ6owFCxgnfAPK63aCr-B0KgSZ0pq8SqL5bczLzZFtOk2rqsKjzQqRKq3Bl7BkzWTAXMop4MGJv2kHxCsB-ur_cFsjU72Ap6q1gMkE0c1X9oXs4-ML2rOe0vlo4nGMRksK1BMlpK4hcCtcJopsdAiiUo-gxVsdakC7oPVKNvT8riW0qX8ghRFattIJZuP0dKrKlPSIJfp-AR2JqNdQGjkcp7PCmjc3gepeakEiDiBfuDyK7IlULt_HFcjM6_D_sXNX305Q8zeoXClOnSRYridFRgq8j5E9M6-AGWsezaLyA1TXfuIq67XrXmacBclLsW4YmFcBXsFOASyQLNmAHdEzOK42zwbm4lUT4Re1SsjoHcewcTx7_iEVE9y4W-kjSewLQHIuAG_OzcdqDg9I7Cy6fNc-_3_y2JkWPNHdYtVsIsS2SYTLgKnnpA8YxK8ZsKkV-NpA_zpF5rhc5A4RwJAm_THFSejMVjKa4aWTimTWPb196-c5BoLhwsHGodfyiPbiRhy9QuUYi-M0g1VTdx-NxXrO4eANwq4vqyTv756K0q2qDAroIz-lglswrxWR96fGJxwTSe72t6NQVXl-M_0-feXraTNHY9nQPx_9FKNbEtqHPwxEx6tQFhvQfVbAqk5t4-QvZX61tbHqvAn5CQnR49sarl9MReN_La5gEPhom48BpqwlIqOMHPO1WsKT5Chwl0jV7SmUAvxn4teZDv2YwNCQmOzsH5vFYeo8JLTYGVtbTTQ7HzZG5qAFTXqFNPIH6o_kh030GLtG51lpH2Ocq506Nvedk9aEUuAZ9vd03zd1XYUSM1z8CzPlvCgCW4PqdmfaRg_G1g42WgkRgNFjd9pr49-wQbwjSScqYYHT9s9v-yDLlRBlKc43SQYKosXmkpgXWOFyVwyADpcr6GJUeHnZJmrVZrj84Ir86hW6YZTafUWt1aLoPjSws-1Nypn1ox1B1UHC6E5oip78Custcp2R3tyQz31feYQurhq8CYyxRHwizgfYvX5UYu3ry2E2DTSSC7GxBCflJBLUxK23U6R5ARTtWCK8xkgiPXTpyibIiCjvTmvVtKehLQZa0ojzh5WNXMJaXsdd7dlP_tUm28Vp3IhrQzJ7b3qzHkgFFWBg-cv1S7aFZcq4v3Gt6a5qUyQEcWIJFP9-znmtd-zxsYu1zBXZlIh90HmK4i-tGgpSWBBhd6WDeJMOnYdv1eX1QHif8-B_vEroFFEICNho6PB69hQyo54vTRaEZCVOarIUY5Cumfx42cV76jU1ddGZCSoacONTYmXXmcP8XInbDmJkJGcmhJNrPDp1Q3dDGxJ5aI-lmtaG01UOD_4010jxAHZnggMPpGv4FBEL-_zGilupxkDFOdtph3fz0vdh7x6P3gc4FraRNaTBj2XOu6gVeQ27PAngoquuYC9x1x4DmUBHeNKQwi-VBgtQWNqfVCFNakBnIQIgkZEnmpS-xd4pRFNUhvvo4P6YBGYN9OGNa8uRPMcg7YOA7Bas-6hjN5KFNPbgPOTr2tiTUzpMMFaMuXZzDLXFpf8ppgkWy69zxFI8skE2ILR6WC98a69y2jQ6e8n8oYAghPWq3HFX2gPXCWDcLcq9Hz4NSev_bPYxLdURncEwh5tzn6GFgpe9eJShLEoFJZvx4ooweDPPCmDHEg_17w82vLHu7ttvzWDnttfPU9PX1RUzkzPHDXf0u-0H-Q6ynjIQmF6rWiM9HhTRu9v1-hVHyEMqQqWX4sp1Rnh1pre0mkAmvt-aXRLRF2UDaJnqdVpgYzNuU4ZFPwdTs7y1A3A7NX8YKdqgDvEO6SFR_HhBV6y7vBJBfyPB3BWs4k-PY9-Xa8PVR2HiukIJV7jS3MjPgkSKBrR_YidXwzI4wMm4EeTg4DPi68t0mXGbmpOEWAxV8o7KD9Pd_r-xVVWdUJfKxpHXtBUAI-l_0N5Vm2EaK18FGiMvOABorrlaFCAZdMIInPrIpOS5Jd1yY_kjFw8MhVBwtnObJvqxh-UAGfxbh61mcMzWFr3MwJcguLzRCnFpVOwo_-cGFqvoG2cEqnlUFjTymwEUMs8_hu4ylB_cPw6wYQez1I1A2QjbIo_ovK_PLTl8rvgbhZw610Qv7iBUxWHWbhcenF3DmYOnNGV8OLjK6HICCqi",
+        "id": "rs_0fe48a452ea54c84006acc4ea7e2a087d0bfdc42e146ea8f59",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0031\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL16699480M\",\n        \"OL20944429M\",\n        \"OL20945184M\",\n        \"OL5042466M\"\n      ],\n      \"provisional_label\": \"Arthur Rimbaud: complete works — Harper & Row, 309 pages\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Matching title, subtitle, publisher, and pagination support a provisional publication family across the 1975 and 1976 records. The title and 'complete works' subtitle support writings by Rimbaud.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL7285526M\",\n        \"OL9240233M\"\n      ],\n      \"provisional_label\": \"Arthur Rimbaud: Complete Works (Perennial Classics) — 2000\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Both records have identical supplied title, subtitle, publication date, publisher, and 384-page extent. The title and subtitle support writings by Rimbaud; their editorial relationship to G01 is not established.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL8887997M\",\n    \"OL9953072M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The matching metadata supports two provisional subsets, but does not establish whether they belong to one editorial family or distinct compilations. The 400-page P.S. record could be related to the other Harper records, but that relationship is unverified. The LGF record has the subtitle 'Oeuvres complètes', 1040 pages, and an additional author key of unspecified role. These differences warrant review but do not independently prove a different editorial unit. No supplied editorial or contents information resolves the family boundaries.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0fe48a452ea54c84006acc4ead6fe487d09babb43d109df17d",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0031"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL16699480M",
+                        "OL20944429M",
+                        "OL20945184M",
+                        "OL5042466M",
+                        "OL7285526M",
+                        "OL8887997M",
+                        "OL9240233M",
+                        "OL9953072M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL16699480M",
+                  "OL20944429M",
+                  "OL20945184M",
+                  "OL5042466M",
+                  "OL7285526M",
+                  "OL8887997M",
+                  "OL9240233M",
+                  "OL9953072M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1967,
+      "input_tokens_details": {
+        "cache_write_tokens": 1964,
+        "cached_tokens": 0
+      },
+      "output_tokens": 729,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 2696
+    },
+    "user": null
+  },
+  "response_id": "resp_0fe48a452ea54c84006acc4ea6e6e887d09350d3e8627c6dac",
+  "result": {
+    "case_id": "CCV1_0031",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The matching metadata supports two provisional subsets, but does not establish whether they belong to one editorial family or distinct compilations. The 400-page P.S. record could be related to the other Harper records, but that relationship is unverified. The LGF record has the subtitle 'Oeuvres complètes', 1040 pages, and an additional author key of unspecified role. These differences warrant review but do not independently prove a different editorial unit. No supplied editorial or contents information resolves the family boundaries.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL16699480M",
+          "OL20944429M",
+          "OL20945184M",
+          "OL5042466M"
+        ],
+        "evidence_note": "Matching title, subtitle, publisher, and pagination support a provisional publication family across the 1975 and 1976 records. The title and 'complete works' subtitle support writings by Rimbaud.",
+        "local_group_id": "G01",
+        "provisional_label": "Arthur Rimbaud: complete works — Harper & Row, 309 pages"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7285526M",
+          "OL9240233M"
+        ],
+        "evidence_note": "Both records have identical supplied title, subtitle, publication date, publisher, and 384-page extent. The title and subtitle support writings by Rimbaud; their editorial relationship to G01 is not established.",
+        "local_group_id": "G02",
+        "provisional_label": "Arthur Rimbaud: Complete Works (Perennial Classics) — 2000"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL8887997M",
+      "OL9953072M"
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "case_id": "CCV1_0069",
+  "component_id": "W000031472_C01",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774469.0,
+    "conversation": null,
+    "created_at": 1791774462.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_05606376862d86b5006acc4efe6ee887d0af8c3bdc9ba58187",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE8FS4FTeggXZFmxxT13DLkdi_XDeNWHYjq5OOmsbsUtZyecyV_VDytGBuj1lfOf4_HQh8rWiI_FLliwEhB_ZIBCCTQ-2btCxW1DWLpC3oygtGXMlZLhzIaYsfkH2vC04UVbqMGrd44KbFZhggi_FUk9VCZi_IESGJe59DHRSPUL2CZocJbZJOh3f8CBFNmUC_gGrENivqLFKQK4Z4SroT1pMhJgFPt4x839rVVhpkMsmMr_ifSaWsJWmGhYk_BRaYETdC0YH8eMuftdPEsHUXYYq5Qnu3jPlV0aQ7cRxBQcGQ-adqTXQEllJr587ZzecgpGr2vjShN5b-18hTUkhv5uwF8ZdQOfe7wK7W1knqC3DU6xCtyKYtLBe4WWadMe_LKwIrnolu_D-XQNYOvSogGnQzI1TXOFyu6E27LKoo59J4yZ7F2mSJ2gcpZ6l7Y0ZN7gMrIhosoy_NcDls6o8fYXOOTucJilaPLqD02P5Eq5a9FuDmfe_3ymZejYQon4FCnj4aSHovOBtj0bPEmJJdPLZuBzKk8vbn7Y3q83LrIRQxUa3B7SPYMVYo-v4s71ZcQcp3-OL9NwQAN8T8V1guV7iRq_QyYRKb8En4Zbp0Lk2ltNeeiTzSROgcOkTxv2ina8VzqC0zngfzZFUEQXyHLnuYra5b1pg7v0oXRzVGthaBmnPyBACbqJ9x421Y5HMZxybm9qDJcJVDmYXPwsrLLXZYL0vYUZsp7ksjTXkvQrXodBNBPt44Ld-91BV7Daec8avj7eLg2roXFCmwM_lPP4oeS-FodA9otkz7Q_pEKj_oKNrdgvuSUa04mYTgBbAUzLUj4mmsrKGRrpZ8XF9_TcaMYp5nBfMtnMhxfoD9x0Xv1vijkbzD3a_m8MCSnp9S8payx_Z1ysI276TTVna0Kkg5C1D_-DeaGvp4cswLZRez9xdXyI0Vre3IohSh8gcx5NbJWHiqByR7tHM40BJ1w1P88Mao_xR8ulguWTixcjyGchswHtf5qiS0Wl0C3K_nG86Ns17lFVFGVygMbzekALDDW9HrB937zyD2_vPSZN1bUgJaoMaLynkR3l4BgXXNKQXqXyxC_0--I1Z4H5Q0CpiuACnGZ1e_QTlA1NBzvVOi1N7lf8cOmEOQSRFed3eMv5sry4b0JiZIn2jRYu6r7Lk8haCAXWa0cF05xNoUKZBmfXDGJRUZVhOWNXLpjn5rRpNn5XhbI02UJpqIASbSRtRdqEnf86eZMZ4yFhk1e94j9E9rMj55NRJVv1NkZIYMlPtX8FIB7ME_ecnwQqb-gOsT7IZhqxXOH17w9n16zRV8wvPkGXgciF7ILHra_vt2BUKq9TzwoRNGeyISPJOm2mlfrrStHQ-ClGrDNgr8a2fh9f9boSyPixh-L7G-zrkwzYYlIr7mKtSrjFVGx4ADdFn2GF5CPLLuf07CouxtSuajRMpRja6UFFb0_otrTCfBnv1RPLW6lrLdBTsbE0frq1BIumAd1Y_Rw8fyFKJNaLldRKwaz6IxkCmiqsV7VGMfak7p403yXVlh5ZfX-xQtghOAhXE3wrdJKEv6z_Q7--VRF8NAsL1z5WB5TM4Haj5ZK_DlQzcPdRrt8WRo6pwoVRmii0gpQ-OZesZSu04jW7h4UmBxuCsNoD3LZILL9UcdVdFF21UKEccA8JJvJNRtXTaZuH-1oFjjHcqk3vQiuwpqFiHlD3-yFkLw98sFmZCZuPWdhnYuKX0byBowgACEmm9Cbxq1-9cHmDhnPFBsiBuwzER1DdRN5ycwYnIh7dhBpTHJ18bMfP4WSC80_pZKxTpAOg8DPnoSZnCZ6umczuKzOV1hMLTudDdFLQ23HpbZIDoj9kuktQIB9OQM8N2o_f1ooGDtlnoo14-X3l3IrdPYNWvGJjPKrZanwsIGuSjes_U5x-h5mwESRj81W5m97R4jwFqh3P9MrKJsE6p3YCj0KBPF6zoZKu--HA-2MWZcD3AK0nqNw6bZqVwIES182UrWD27Qt2GcfKdWlgz_NIF-1BGSq2KSp51vondnGpJV3Dj8xqayRX5pPEL-LTRdZ3sYfky2rpom7vzouPrcKZ887he9WWY1fmFE08nvD8UYYhk2oqRfsvk3tM_uKPPI9HpW7PHi8Drv6__3NvKyfn9Mum6S_G0qt76TPcYc3ejqQX8FvgN_BNEW_dUQNbLiSPCzXKMfwkRFlMm4dNcGjivgcWGdr-f63ZWKMNzaStar8HgSSwVYNGMUYqHncouPSuNV3wZ0ehhXKuBXdoH4sLgqVWsJyZ8z-ztL99pFPLxmCyzOpnpbfXJOlM1fgoBD0xckJh9PsuraoZQuhQkmxLYwh9jzWYeYbSDlxE9GOoHE7xmmacQGQqzz_8L1rcNEDE9_IxuC-c8OBC3w9ucrBFDlrWpEs4UFYgsXokUkL5LmU5D9fbR0vVh31_Ar4rBNKGxcxY6dhAUWJ1bTXA7CEEDFumoUsxJ7wB-gNFhStbfyqV3FtqJkvFiDSbwOhPznbma8_i_eXda39w_440j0fZteLLqwcPH4z2_-VJwNi9Xwsx1MawUHFTgyGWAE9oNKUVcqBFJ01ouKlyqis42NmhrrCZpSWdYGFJ8LF5p86btS_3",
+        "id": "rs_05606376862d86b5006acc4eff547887d0b928dd8b73988132",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0069\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL7715234M\",\n        \"OL7755383M\"\n      ],\n      \"provisional_label\": \"Galen: On the Properties of Foodstuffs\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Both editions have the same title, specific subtitle, publisher, and 232-page extent. The title/subtitle pairing supports presentation of a named text by Galen, rather than a publication primarily about him.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Matching title, subtitle, Cambridge University Press publisher, and page count reasonably support one bounded publication family. The 2003 and 2007 publication dates do not independently indicate different editorial units.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_05606376862d86b5006acc4f01c12087d0941f7d6acd39cb61",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0069"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL7715234M",
+                        "OL7755383M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL7715234M",
+                  "OL7755383M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1464,
+      "input_tokens_details": {
+        "cache_write_tokens": 1461,
+        "cached_tokens": 0
+      },
+      "output_tokens": 321,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1785
+    },
+    "user": null
+  },
+  "response_id": "resp_05606376862d86b5006acc4efe6ee887d0af8c3bdc9ba58187",
+  "result": {
+    "case_id": "CCV1_0069",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Matching title, subtitle, Cambridge University Press publisher, and page count reasonably support one bounded publication family. The 2003 and 2007 publication dates do not independently indicate different editorial units.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7715234M",
+          "OL7755383M"
+        ],
+        "evidence_note": "Both editions have the same title, specific subtitle, publisher, and 232-page extent. The title/subtitle pairing supports presentation of a named text by Galen, rather than a publication primarily about him.",
+        "local_group_id": "G01",
+        "provisional_label": "Galen: On the Properties of Foodstuffs"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

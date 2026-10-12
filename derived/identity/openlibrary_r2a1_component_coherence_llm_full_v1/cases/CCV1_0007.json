@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0007",
+  "component_id": "W000003023_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774314.0,
+    "conversation": null,
+    "created_at": 1791774308.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_074d2181ddb84466006acc4e64e68887d090732d215ea38bfd",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5qtV3tI_rwFgzEJXbhG2GY-ETQAzLNdOTt8ycre_qqHzQ6_eKKN-kbLOLnOg4b6Z3CLyfKkhtRl_BzvTq1v7j7WoaV0TVdSIxS_sxIP8CGDCJWOI_DRc9GcfwYZe1HUwiU3qePlCxChKsDHL-cHzc5aad4Qktevj0Ii6yAo2havw_JfgDYP680MsXXISdITFHxDH2tw9oM3dRzScURwhvTWlolgvXvSaI8vn-8owkhn1EXBAv_Z8Nnk1dMbO5BQXqSoNBONz7rPHN6MJnEEDslEv74jpg5M_m5m2WCU6CPrz0E9DS_2tYS3JrvzpERDqX3XfwRHKrgrtEEBvmsgk8SW6X5XPVvOOYQiOESRaEqyDRcu8eECeY4_x4YpMksqPlRVCZx_G7XXmjGxR3Ms9K7MWcRiDJwHa6N3OOm_oAz6AaVVy2LqhD6WCTLjYubdH2xeB_1FwFS19vOOLTsbVAoK9YrQ2-m6WW19voAzjTu97q-QRknJaSSFIVygBP9G5NJ7TaYFq5cLS0GdfKTsSzz8QeUDmlY4ZxwtqOaogl47l1sVfr--_cMyJ8pxc6avth4vsCzIF2_DvAJqSrBRG8ulijqQHhkLyR0U9M66Ih_yznaVn0z3gsS5sdjxYxwigt36l83I2IXCeerF98watnkKzsAI5qaroEVHogvKBzNvIiLhtp7ra0SuuUWD9B9thxMbgAn-NLZJnHLoLy-mqx7jwEGsUugCvs64AwZmqu9kcICy1BMCdD9vn1tun7SVyVIBXRboRGdZ3e-lsmrbqH8_sdjECxf_0k3wXvELXPWJX96QVzUYECeRNzYSLCaQO-GqnUFfj6iqd3lAPfL_vFVEU-GQiS0csDJHCL1TNSmolyqI_9N6nVh891eF6lYsLK05rEmZ8HKXVafu2kptOiDAh2tF5t6wr6faA48pqvyq-3-UgoAITB1Nc4vDHBeqBXrn4-5ZoQPFx77YLO7nCwY4PiUEV0M_NT0G-LsO8yZ3tTeEe72FtEtS13sZni-zN7k7TriEb703YPoXstOwSjilCzH-rZWsbuEq1tIcwpjA14IS5kxvLBqwH2jfbWqb7niPmR6oiVGqcxnLT5ouLPUtRJP0eE_H7YzrRgpGFBtzNc3zdSx-lT0U7XRGV4CEr3Q9nPUv-UXgqLPW5ggYo3GLP6z0s3dd4C448yGMlei2LuNW5n8ArqizBNh7zxs0zJl_g56J3I3ARwGZhChoTNmnFzH8ocXxPJbMXPwfC3i5KM_Q7GthyRNTMTiLWzb5WMqaShM7_nMRO9-IMPdOQF6CbPL6GuEPmmunHecNorztAjHRtODaVKKre7Nye77RlmPC9r7CvGe38TyX3J9zTJkyZKsH-N7I4KJNfLoCmrM58BTL-N5FqO4EJy5ir4kSox1--S9iJ0Bs4jWvgwWQ0udTmM8RRLQTdjEnUmmArLLMWmB3Mmpwu1xXv2pl4MvrylEeMH7APPUy7lggr_2ZTMb3nbPHs_JYqepOd6Z4bS31HKfm-vSdzVo7ztsW8xzuByroU9NaEE3oqtSxgzBVdqTtkHoWb1cYSqNwet6j4RBiHuTNsuf6kVO4S1rgGAaqyKwRUAexYOhI_QTwbpwjOAY-zQTI4GMGqv6_lyuhU8sF0D8rK1RMSQrj2ZsBE39G_SbrlICvdqEJSf3OMYWp3zqySF7RyqfSen_aP1htpvFHX8FG91krOauobvejCdQkwinJG7eGy5RnC0lH0w0zNqVd4ShIeL0ho7OCBRAqTPW-W2u3KxBRD1_P90TIPqWJdmo--fUcILZUNDWVBhSmHMi0HN5KzI-hSIdF2Ge6mFfJjWtbD7HypnXiha5Ioy5IzugevC9uptG06Zn_o5uFZ3w5ME5ah-u3aizzw8aQFPm_iai5-drRyVAB678bCSZ4nduO9qCveT1eRQY6hBZ9VB2tAGjtGAOdSn6j87bEr6XSf3GV5z1pe6mWqCzPhWimkw6yycJQRD1TYKFTq2lG_5wTt3fRgyV3Y61uqnncV_SugCKpc6yK1I-zJu7uaYgx2VGUXl3sj_TqidnsBoMe7A8Hxo0-FHZlE-f-a-m_OkrauTDNXBlvFk6aeGoKwgE2fohi15SfHNla3YVgHQmd13MNqb8Clghql0OPcoc-kIQVk1HTQfLPJhh68mJfFX9xurlFWRT9S6UeQKLjYeWNbbrkTMUOPPIbcaZjIp-2l3tt9JLA8HVXgSkeQeoZJJLY46NKx76qlr6t_l4A5EHfoT1chjxmnBKkNvPipqdC0QhXuAi4O6wB93woKV13B9K7NX9rN7C_Fa5qoBjs9XFgRS4lmyweDwgwSr3HyneZmnNosGEs9NrxoS7VTPoPWg0DUqzw4RZaOkcZSjh_q0NSyFBO0GYJTronJtf32oYTBAmAouLCN6T3m1cNEEElfOVhK1vaFRbj_Qyd9OJt-QdoGACZ61ItrU7pnhpNTEYjLs44xgpckVZAavVJUG5CvvZN8mJV3viRTNtILg1Y6nPJ1e0AOmZHc-53Zfm-W1liUa5WtJ0tvdrB06-LBDhd4MgtjFsRlSfmxNVM5SnvuOVTbiPfysIA4Dha6yBZkoNJ8JBC_MolWyNsSvUvcIVUh0rJEL8z-YZgF_HfALWhtdaFBq_JTWl7KDQJ7vAFR1jPmzEwNHp17iScfUpX1mBL6lsRW9vc7h7pfxuvuBmbpSPSPcT6DSDq5YUOHlPuYEYhAmKQ3e3taWDKmAQ5Xpf55OEmJjWNNIryYkNQ9O7hLzrGyWPpw==",
+        "id": "rs_074d2181ddb84466006acc4e66274487d084a3ae3a2a3d16ff",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0007\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL16409472M\"\n  ],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only OL16409472M is supplied: Arnold, subtitle 'poetical works.', published by Oxford University Press in 1966, 509 pages. No cross-Edition coherence assessment or subdivision is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_074d2181ddb84466006acc4e68b92487d0a73d5da880960464",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0007"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL16409472M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL16409472M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1349,
+      "input_tokens_details": {
+        "cache_write_tokens": 1346,
+        "cached_tokens": 0
+      },
+      "output_tokens": 230,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 1579
+    },
+    "user": null
+  },
+  "response_id": "resp_074d2181ddb84466006acc4e64e68887d090732d215ea38bfd",
+  "result": {
+    "case_id": "CCV1_0007",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only OL16409472M is supplied: Arnold, subtitle 'poetical works.', published by Oxford University Press in 1966, 509 pages. No cross-Edition coherence assessment or subdivision is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL16409472M"
+    ]
+  }
+}

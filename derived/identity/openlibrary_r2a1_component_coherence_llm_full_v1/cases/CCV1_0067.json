@@ -1,0 +1,272 @@
+{
+  "case_id": "CCV1_0067",
+  "component_id": "W000030498_C05",
+  "edition_rows": 6,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774472.0,
+    "conversation": null,
+    "created_at": 1791774460.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_07b8037cf06c36a1006acc4efcb9f887d0bfd4b85b839bf733",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE8IIq32122qO0TmNsMYIKZUHl3YlDFZznxoqXR4P46iYrkVzOmUONYRv_JcrTZgHz2ob5aUoqgl3Bh3hX-0NR7hfiFZ8rXzBZ81TziLv5e_5xNKD86QH0Qv9fca2DpcK1Pq7foZyMb0_njyfb2xXN7fAH30M9wMo2ZWu0FL0Thi6xmtVKrlzlQpyUha4UYZsNlf7JLYwzplAmtQ1kcatQuKZxYnR-ZI76z4o7NWm66H5ej7dcspfMtOwU2T4jqSTAReITBPcypO8Hugg0Wbizl43smXdaV0nRIwbJptJqptb26O7hG1kGGqPnRkn8TudH4FxzJpF0vS7hEtx-1DuSMTj1XSXs2eApl9BoARznilhePRttqIKYFbq4ZhdQZw208BOtc1-zzkbxb1UoHg6Aj6f5oWs_iBPFcG-9v_K9vCEd6Wbno57IRzxhcqJgbfJGRo98yZ2Nx3P2JI7LYOzq3rM3l31abcZYI9soZRg-eAYOVL-OlE50f9qW4QmEBRtsdM0U86KSYOD3yQwfLPTQQmLJjXTRoxzeP0FbkPIvfuDdXKeAjcdiS5AOcYZ7nxgrmy7rKShj9kLV9tsAKkLePBNPOOh2LOsRlGi7njBf2dAiS1tuj5GEn4Wu27Oqn9nWHZ1e0CcNR7ARthtAmKCgQbkmJ4_OP7N64isPFKDJmNjMfFVqjS7M7Dl2xT28COh70wtUHe8hkboXsrkjM26afkP9sQSLoSdiYUFvo5A34PnisYz40Vc9y6vX8uNAu6dVQwAFCS0QqRZOR_xCDYB_hdk9kxzus276Iqxm85hNi93TlpHho-x23H5RswTgUd78YuR51e70Mx3Cm8SUqSuihPce0qM4lhP0gxDkRyanNwDWgTJk8QJFO2LRtRxDGz_Oh0CxBfhdI1byEAs_8lftGnpRMrb5UMkUbxtW4ZW8pWjLWSFmBloyTKHGrGgxoyFaZRqNJAKDI4HmhYpkkev-Fx6E3fE4VeqO7xRmAUdsca2-FU5RxLcwSEW6oqoln0HpAk99bxiQaVEb5KxCQdokSb87L_H34S_syyUi_u1jnztchVWzTRnPbioBoH_RfAm-1E_mbnZHGiise-kBLK6xdTh88EszaEfgAp7oANNMuvrdKrZ0Ue-fOubwU1HyHOPCbN_i1AmJtghZBiThOHoqGLOnatLtYujrT8nW4kRx8AxFzBBSTk8VbiAcGgBgrypsUuVTno4OQiqyHcLBIgUgciISngTHjAakzNHPdynQYDl_t3tgWaw7b5yCQzr0CDWGsC4Y81tF_ojhf-3J8E9kk_ewwoAdyDjZtzjM0zsP9wQCe5klhhk0_uzmEewbHRYeuzz4uP5z3l-fJmin-sbG5neJizLQQX9t31h1G2BMumvqK7AktAZbtfae9M8BgFAbcLY5ROURCOEjrUvdCsF_P5RFrXPvwVf7e5jzUqfkyu03EiTzpGp0T0_WhwCiP7RQEm1GnQb5zXTTQsRAlnIfOdNMCdgJH89bdVMVFL6A3bty8GA2pliiuj2FPB1CXddRUE-0pngTQSH18jzYnMO_3glN0dleDc7pfzpUqiUSS62F7LIgh8sY70dxtfcsLLoW_7lgWkfDWFon3eJEbkKWl-UcSMrTemt9yUvNq6B8vH0Sb7V7uVPb2SRh2JWFRSJlT1X66XJzxJCcqfwQXMSEu1_IpjmCSb3NLdvVsC3Fo4CGOFUJQC6hg9nb9-w8cNd5gieeRbvam54BfJL8l5TVkquzO51NWcE1hnFC0iNQ-c73QgpiNRLN3pUmBua-Q-YvvvWnfknX-xr3peolqrpfqvYmXiPEDxx7Er6VGl0UilFlGMK9_F8WSfH4TSSxpk9yDviljU25ZfcwZDUxPlMey0536gzTORHL6M2PB7f-Sr7x-61Z20x-OgCkYFvZkGkoyZSUjb4ctKeGznyXwd7aW1uPsIT4MzCFpmvA0QU6pA9PyfiTWsHoDoO-7N82favdsSbRxFkPrRI2xFAI73rqJ3druTzz8Rwjj1xfGNMUwI7Ph1YbaaYp1IRFH_-hkk9wrVf2vBj2-etQR-7idimTpA20l8bT7DQzzxIGMfwCqGwyiPkxbVgHSgt4lIOsyfu_c1IHn3IQTsTxpLCVm0u6Ukg2beb_T_-mxWr1zSgF80kIYEDIqvEFUOTi6G8S5MgLvxAcCJZKSoGJoUtqNGPESkfYkMaWq6-O47wR5WOlCO1Ti6uea-Bacc2196PV01oVYUvvM6yiTd_CwYS_XZ1hs3vxw7qzjrb-0dnMKFAQMNowakSg69B_BLGq6TUj6v4dRFO_ChPeNnSjYuRr3ckB1R4bTL3SgcoZogOzuLeqX-7qZAnamafBgWKtNQyUOts3OK7Qr0IxODTAkz5zWvOtz7vBZTyiNEoJDLuWTFKnIRVD5AddscbB8KpcU2u-gh6zRMDgtYq7iFdJeM5GVwGcBgFUzM-PTcTOXQQVsGVDV8rV2w0W-N6m1NMy42USQvmHgVCAy7gKdDAl0C8RZV2GYQ9eCjt7NuAuzeU5VgZphKnvuzuck-jayqIk6UKgzaZJ3MnSP76JIhUmba2dd2lC6DRxevAAtLlpWmfR-7T8AkKpHiK_TLReoxh0p1qasqUvfZCdN5qp5VzjIrZg2xI0RsaLJ0KBeGhyHg9jD1qQ_HUpB63fnsR8MqzrnnVyWuZCWIMGaitmyP8BXDRaR5SRyeR_zzkEgjzTbi2FH1klDNhaARk1cAG9aeu7pfkWxJFxT0gbKb67caVsuJx3_amDIRF9ECFHrxrxWpGQtUaZsyiczgCqsKQ09fxmwe0od8wpgkNPZiJBdXFXV5fLSokE-SvZfZImgp5yZjyorsfEvPZ7DkTRdz3kNwKKYix3wCZ6yviw_gCuPP5_ynCqN3gYxnKea69j6l5KMTGfFb2UbgNrgoYST1v_mMKBNkZ5X796edTZSZeSVTJ629496nYdiyglfFUwvn3-AtWJuXT9U1OTyRKcXIE3V9Z8RMlNYnbYNeICJHtL0f01btGxg0PQGb2TUIivXcRz_FLJC8i7lFAsewN_4wytIIxUp4s-Np_ONewC2sOMqA_zB_SRw72PeP7r1SRlRkBtbAmKXJZ3M-br0CrxIO4oJ_nR8jK_UdrnHvaJ7Dyb_e_g-E2HO8VWk6Cem12Aq-M2jndWFfXx7f2jp48uUI-jJaUOIb5OR8efrnsZhGHuVNeSwPomir4BFLKCJ-ge-Wo483ixpRzRKKbb_9MuvFLvLcRZm2-lBN8xfFS8pOwI0QMkMQrGNzWAKy-gQirjgnH0i7ZfRgQMdRz1CEdyYDRb_fnQTYNODYxiEieEjwOGura3ERAFDckpOiZk3KOXpzNBdQt8zkc6g4ZrSsuSHJaVP71Tm3G1JQjnBk-GocM0z0_J6_k6XMcBWfrAGXnp5n9e1fvy6LodiBoDNMODqIAbJ4zRN0YILtW7nRkS7VqTVKxLm_MnCimIfsbxBYHr2r6CMQo4Km2GshXzOqF9wk6XyZ3hXFwLUVus6KxXy8sMK5q8eE6LsOttjxg3K5prRydqSVLm5IUUIc2MPYQqX8sIL3_fsUbJUZIkLaK924-Gnl4fKYJqpMBRpgEI2rnxMAFrQkAQgymduiphhNbLRnIKxQ8-L_3s4Zixbr1zHcdNBu1RrPgtbP7WJei7vhwweMMFohkhm9rwtx7ZxVjlAfKRVHnMk6pnENYX2KRxfvqLq8aumVxU2XJ7x1YBnc4M_bhV8dJ1Q1oSw613YeirsbFAnPFhfONYm9_LV7nJvCzkQWNA7NvsDssZvsoGDTksy16uRPk1XL0EqsOn1OcnZJJ9GulBZSDz0bU16f3xbHLcYKph52zpU-K-0go8wqWl8D31ttVVOivH75VsneLhffDOhcj0RkK4Jj28nYycHmY2pKOaEpdwg1n78engZ1MrIkx_dHwKgxqmpcKM9njkdfjf9239EcKFB1CDFVp_8y-_ln3NLSHitwo_vQUqdbrFr1iyucN79JFffkGewhq-our3zgjNBxMNtTeSVS",
+        "id": "rs_07b8037cf06c36a1006acc4efdb30c87d0b03cd265ecdf07d5",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0067\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL14086733M\",\n        \"OL19834755M\",\n        \"OL6304268M\"\n      ],\n      \"provisional_label\": \"D.H. Lawrence: reminiscences and correspondence\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"Matching title and subtitle apart from punctuation, with the same 1934 date, M. Secker publisher, and 319 pages, support one publication family. The metadata does not identify whose reminiscences or correspondence are included.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL20390523M\",\n        \"OL20390526M\",\n        \"OL20390529M\"\n      ],\n      \"provisional_label\": \"D.H. Lawrence: a composite biography\",\n      \"authorship_relation\": \"ABOUT_AUTHOR\",\n      \"evidence_note\": \"The shared subtitle 'a composite biography' and University of Wisconsin Press publisher support a provisional family about Lawrence. The 1957–1959 dates and differing page counts do not establish whether these are revisions, volumes, or other manifestations.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The distinct subtitles support separating the reminiscences-and-correspondence publication from the composite biography rather than merging them under the shared author-name title. Shared author keys do not establish Lawrence's authorship. Editorial details and the relationship among the three biography records remain unverified.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_07b8037cf06c36a1006acc4f023c9887d0bb0c59c6e7672efd",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0067"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL14086733M",
+                        "OL19834755M",
+                        "OL20390523M",
+                        "OL20390526M",
+                        "OL20390529M",
+                        "OL6304268M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL14086733M",
+                  "OL19834755M",
+                  "OL20390523M",
+                  "OL20390526M",
+                  "OL20390529M",
+                  "OL6304268M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1775,
+      "input_tokens_details": {
+        "cache_write_tokens": 1772,
+        "cached_tokens": 0
+      },
+      "output_tokens": 596,
+      "output_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "total_tokens": 2371
+    },
+    "user": null
+  },
+  "response_id": "resp_07b8037cf06c36a1006acc4efcb9f887d0bfd4b85b839bf733",
+  "result": {
+    "case_id": "CCV1_0067",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The distinct subtitles support separating the reminiscences-and-correspondence publication from the composite biography rather than merging them under the shared author-name title. Shared author keys do not establish Lawrence's authorship. Editorial details and the relationship among the three biography records remain unverified.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL14086733M",
+          "OL19834755M",
+          "OL6304268M"
+        ],
+        "evidence_note": "Matching title and subtitle apart from punctuation, with the same 1934 date, M. Secker publisher, and 319 pages, support one publication family. The metadata does not identify whose reminiscences or correspondence are included.",
+        "local_group_id": "G01",
+        "provisional_label": "D.H. Lawrence: reminiscences and correspondence"
+      },
+      {
+        "authorship_relation": "ABOUT_AUTHOR",
+        "edition_keys": [
+          "OL20390523M",
+          "OL20390526M",
+          "OL20390529M"
+        ],
+        "evidence_note": "The shared subtitle 'a composite biography' and University of Wisconsin Press publisher support a provisional family about Lawrence. The 1957–1959 dates and differing page counts do not establish whether these are revisions, volumes, or other manifestations.",
+        "local_group_id": "G02",
+        "provisional_label": "D.H. Lawrence: a composite biography"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

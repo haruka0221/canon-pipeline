@@ -1,0 +1,244 @@
+{
+  "case_id": "CCV1_0053",
+  "component_id": "W000021761_C05",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774433.0,
+    "conversation": null,
+    "created_at": 1791774427.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_021b524786cb5d06006acc4edbe77c87d0b1ee97045a8dbb45",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7hsVyOVsGoLUjjq63f7h2CPaF5E2vbGUth0DK4EYKCIj1GsnOStPoSTcujidQRy2DOF5Zh4VjUNNeh1_E3eSVBO4qICS2SUTYJn__WSlkW1Jopc7BcXqr4AHFXbKLQsNI_S9BampRkPC8KeLkGuXLXgFH1QC9MQfPzrKZns5HGIMtGqu-Qxq2YJvS1K8ACRFAgs5AOg8W31Y8nwm5eJxHFcD_cZa6nqmhPRsQlaYHc5q0ksUFrdNubW0S3D5CedRAhYcBpCbZWMpeAapqvvKghYYib8QlQAaKoSE2VvUySkkF7HinGNPfFw9VWXVR9HlqPIMDTFgRLQSOKM_8VcNNysnk2cdKfM2C2Dm7lcdKmJSpNdPMbGpZeONwOnYX25VpPrKGM1Nz36MCG-s4KycP1DYY4CqmWYoIuL6lj-e23h_D6oDM-LKGswtsPjPAaKgUxDokrgDZO1fbq24Tfg42g0_19YA_yGcOYQgH_E6fgH0NC9Bk9_Frf64f-JsQeU6HK2ZQPCw67mqUimeH2uHVZR1e8_jLP5g_S_2Pzk0i1CChm_JgTBTMjMYiZ8zlTT3gRxUPXrBd3VrTAIrfYUCakJLqjP9OJACn7JrLfFUycQHx7rPq-Yxnc-vU8dm_HaVkbMT-fRXURzE4yVnC3ak2zAYCkEOZows1Phi1uFVbAHeMlT2JbSzgN_NmB4ARfILD4AilPIwdLZrilCkViKqf0TYqugBjRiV354pDUps_XaCiiP9Iu2UT-3L-Z51QAqe35XOsEr58iAKH06YnnyIfulhx7T1KQ7RM1niH3-mckHhj2qkx_t5ASqwu8wz5wCI2zBWEOWMzddDR7UE5lPzBX8cYpvoXEmRvW1ApAu0GoHHiNhVe7o-RosxkJvy_LhyXbI-0PKsLCr-sJQ0Esv3Mrrq87eeWEh9cfZAHTzh2_obcig7fMz9y7Zt4_yC3DYHOJ6bqMXo7ywXJ6gAlmUzsm6nF_p9dNTOxpRgWQG2oLgWpEGU1tx0IHcQ9nKMNREqpJAtWlq_surOSqvtiZjdDJNOPkf3TTVn9iUY70bLB-p_BP7v7xqGy65n7kUStSgeDUAcCLOojVfnjBwQ0D36L3WOiPkNfmE-uMY04jhUdL_U0nRbNFziezxoK74NvBdDXSI0hH9kN3mOul9k8Yqpo815u7QDYu5wng9aAq5XPJniev5Yulh_HL7-eik8ySqTl1R-NnbLuvhuMAhk-dPyplm9VE7vITDfsYI-1aKIfygLRoqTZ_LHSzdYsqSXLmvXSf_q4j9hxlX9MtxM_lKRAFNb3U1uDzh8UguF3G8Ie2_VygKegqWV1F763q2JOJH07RR-Fj6tAm25vXn_yaa4HVFq0HpIk0T8g-FE8zjM2_2sGHyT74V1YRqJxDkdXQkQF9xnkZX1Oe5mtIf1601SxwBh-aTrKH7ms_iM8o_Fwzpjr04t-69_mBdYBRpressdXaMMdx9dcaqvPIzVgFHQxYG1fYqnBa74TJDsyhwCiClayHbnyLkcfofYvxRWdNHaLjEyNksNpWKBZrdrlXkPVE2v0apALFZpu37AtGToUZupZiyBC0paCNBD2iy_1EcG4h0f57y7vFJq4kszJwFervPNuRfJ5QZKLaNmsHUg86P1GZnRPPGxPeFLY3mwc0MWtwVC5V_EjHMI8wnXLLk9NQ2L8Rg0-gcYaZcBSZf1OzInr5OclEnGc_MvHgROWkrKDOXbwo5Ktb1o_u76rqJ4OxdoquF5CmrGilK1DTq9f9teJf4BfQ6rNqUg-miYQ5rTpq30rBfv4v_pxlBXZpolawKwVihZQEnCm2xLj4OcLzG3Z42_23hxDL_bOPsLhXsQkqjueG13hmCKV608ZxKo250LcIz-jowJ82d6dDHgE2jjTtBg0pfiom29OmsvfZSR9SQxu6igl1Dvt6vhZxkOwOpumzm4d8el4q-vA7SrJHy0I2WhWVYah8Pcm4FIF_U9F5CQmhZSdOXnr-apoadtyzjl-8j9n1-P7iPhFvB682YLEpNmPcL10hooap_hVyXPc9TsXQwHqlGk_pWFHveoDZxsqqizFTg3cB8DAXwX_GvjApRSiZYGmN9eSuM7bSt_NPI8o1xByB4BzoLMR_1ZTTklnLj6GpIduAqvXEsqKEVZGTAEyjnS6tUMkjaNH8frWD70u1oi4QU4hAUsJQQ4g6gHTvZvQTSSXKq31WFnBLJ7ELlEKEoh8NufajhLiyWIORIvm34qII9NXZfqPO319WRKDhyofHOhIVN_OlIu5zOjIUKhQD-eWA8zRf1-yj5CD0PUgXppqJXwsz7bJF5lfPbyZzX1G_Xt0Pd-O19vKvxwsWMsWdlGZH5uwy7wjIRRoUGQqbvAs8Xa7DN-XTVSMp-wWT5AmLPpGzMYOMC8u9TljPs4bgwmn4A2oIXxHqdxjYtRSe5rbOIIFumED8-PYiKVq1kBVOL3R9VWfm7rn5yyblB4Ssn_7SmsKT8dTCKtONGVaPrI2g31Csv7MdflLn_zKhsSlsvmR6mL0FZ4-yxWwrwOTpBO8qWK80bEdTn0gwa9qf78ODCUyIRmi0bmjS-R7hmNUSNqvc9F02uBvXdbmzI1h4rudRcJmoZCxFC_HzHCnWwC785UUnJFwHc2yGmYoCo7dM9PHVkDygSQxwWNXGBWOmAfvOasVTC_AyxALFBLohusDnOM1aM2am4p67gXDEVKf08PFI3jTaI088CLQ=",
+        "id": "rs_021b524786cb5d06006acc4edcc4c887d094e8eeba9d1a5fb0",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0053\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL18193677M\",\n    \"OL21373269M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both Penguin editions are titled Robert Graves, but the 1961 subtitle specifies poems selected by himself, while the 1986 subtitle states only selected poems. The metadata does not establish whether they contain the same selection or distinct editorial compilations. Shared titles and publisher, and differing publication years, do not resolve that uncertainty.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_021b524786cb5d06006acc4edef37887d0ac808f9e30065e4d",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0053"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL18193677M",
+                        "OL21373269M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL18193677M",
+                  "OL21373269M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1427,
+      "input_tokens_details": {
+        "cache_write_tokens": 1424,
+        "cached_tokens": 0
+      },
+      "output_tokens": 282,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1709
+    },
+    "user": null
+  },
+  "response_id": "resp_021b524786cb5d06006acc4edbe77c87d0b1ee97045a8dbb45",
+  "result": {
+    "case_id": "CCV1_0053",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both Penguin editions are titled Robert Graves, but the 1961 subtitle specifies poems selected by himself, while the 1986 subtitle states only selected poems. The metadata does not establish whether they contain the same selection or distinct editorial compilations. Shared titles and publisher, and differing publication years, do not resolve that uncertainty.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL18193677M",
+      "OL21373269M"
+    ]
+  }
+}

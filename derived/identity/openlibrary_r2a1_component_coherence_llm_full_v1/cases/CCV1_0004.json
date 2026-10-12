@@ -1,0 +1,245 @@
+{
+  "case_id": "CCV1_0004",
+  "component_id": "W000002404_C04",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774307.0,
+    "conversation": null,
+    "created_at": 1791774300.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0359d05401be70b8006acc4e5ca5a887d09caae704551e9d09",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5j_RkBoWMG4SVVrK4J92FvkOh3kiBEvdTEb31Q4ubiEOMWWsfzqUzcXfhORL1cZuiKYyb6a8fzsIVjlzeFIt7ZQlRvnwLpIPKYehsZyvOnUDF_79VT2GNxtT4PUgjN9HXuCOqfDY6jlGNwSvwSjPTA64Wl8vb3WCV7F8hTbjXftCYN7q9iTZC4P4j02JGuXqeQHZKVXwTyul5K7pHZzcYstybwKzZQMYcAPmXC4vvP3-x7oy6huqqnF_Wc7Mc3bLWxgvMcUNV8yDc-DLVrFwfJWgYkf0yM8bRd1VuzRwb2wDpRD5iPmniyqR0VbfGYFPXStMxMvlv0sLrZFswYmQK8jH8MCNHaJ03hRWZSRpmKyTWK5hHDBdH5QOiSQW843DrrTt6Wt3WGdC7rQzItHJ7llmkt6VyW1owP2QwAZLvUXnwJZR6vhrweoSPHTCvHZg2c2KKeoHRq5ZcWDAuv5Vffd56i6mAD-AgKqkwOMcbwJwZ3bB-V7xGLO1g1VhZgbBW00LHhZ0pekegTazs-Mt8FcplTXqcuc5vyfqFMWG4PMzj4mcMq8P0q4eTwAMoJTxrUgB3BSXkIY7Sbj0NKOKxfWiFsaRkj0ZawESTAKLHysZUqlShGY4wawHJso4WHI1sczXrEd-hIDsgsr63eWV_fauE2YwFx-2oBgOaKCTbJcMw3OBoGPk-fj6MDBBoiW0ry_1t5WNI3kYOzN8j-01NEAbQYdw0Rg4OduO-alyk5GqXWQcjNvZayUTxI-vZukDPRYbgUY6R8i_lrgWZZytTAh_X82QSzUqphp4-fnEbm6fqrvWuh6zFRUnNAudpolBenDR8-Oj2szysijkh8BJka0vtKwdhJ4NmeBtKPOp1L32Y8OxNWnzdPZ-43j96jpDMqHE_WdJe6zBMNAsdldOsRwP5kAPQw6z0iP9XhtcI5eTFh0EgUOurRFagYweZFa-xteF6_okFSzdf1p71eOEsPZPM5XEpcICjnICmMks1dXDZjuRHu1uXGuBJSqvWpnozu8p16ECWCy-lrRqN0QX5cPXs3TUTsABIvQjGutS7J2EZEp4PZzsTmOMJ0Dcdw8LMzhcasi9RhcidTSkEPHJj6V8qxexSZxjNpkXRZLsteqbRGGhXRoMfmyZth5YaWolrF_bWp8aKXvejgVpIjn7bycSJC2LQjyHzYM5Kj7ymmGOdaznsTuUSN-6iTA74yPEi2GDGMQWGF1rHUG8wTkOqMwedMR_yVWMF_SZOWhOxC0YXfS5Y_a481ChuKSQvbkJxzIGhvCFkxvnawap24qp3kqBtNIpVFHUWFktjtERzGqlIRW0nx-At7mGMTfeNZesHQ5a_Ff5-W3Tq3g_bLBPqmX9MLMv9wcepad7NbG3i9WpQqc6J9am20uozyt_BHRYJ-2t3oB9EKpzyDCpUqafoay0bEerC_cMjVERmYMloScp8SNymn8ifTpO3A1uf_8fCB1y_eKMR_SU4vf_mWm9GtuR7qeqLTp3GzWLg7aR3rqVva6qsy3tAd3BE7e0GSU2e55Mr7DJ68eI6SASr2jdFArhFsVVJFskhy1vM6ad9yThrp5gYC4LsHGZG4FjJepLNL9IEeISHi-zUFMKgjBHvzr2Uz3ZHArACrySnJzyj1mHS1J3a69hiF4iWAHaOhf9mxFkFbVQ1BA0b72zG_agF6edraxiUVu42MRX7JchUccnzH8BHyOQnBF7YZarKDiBYgkXiXz0NQINJwej-s_rx7H_5OaY0yECl6CYKf5lWYfJY8BK4akKyQN1F-OzmVAqEt4tl_AXECkx8cJE_AV0O00GJVK_D1MTTO7Kkm5B_MM3fb204lSAQfGKwaB9VOmkl-dFsBgho2Cu111Ve1xXTv4NsXZIG737e9sMbvt7coJ9MmREjzqhKAA-cuMTZHACyhY6USlaRjZ2HSHEYe9zDMArgkK3RFKSL8-tLLyR6473u8LosoD5Zbcs1cty_ehCHoloSSRxoC9dTNE3KO385P8zwUgxWGE8W_raPrnmoAdgg-ykbaS2MGBXmExJztCxW5swg8cIc-cC-RKTzz-ky2YDlOzH6IUMc1crHEH9TZEExRSpifbIhIfIfBOuu4kIZqM2d-Wx04M04vmStLVcIQJrO4y2DPewk2nXS6p-O5tfG3GKZb7zt4n-OSmaSEPZk0hEGCxi3E6QhMK2hnndXW181ctb6YBG4voR0EJZYI6ElQl8z11ZTvCiFfPTgGt-mCivgISP_uJGo3xtf_oiRLkEPcFjpgSnXcj1-IBaU5LcuI-GiRi-PpGchQGl9-eyTslWILTfQZSd5ih77HsAvjqIC3EUAxoYUcrg_Z9GACMOYqwuXKXeuGqwYP_jPlKSqZgVvbVoa9swiIlZXT9mSmTImJEGvfmlokbWYx14oC1Ac7qlByfK2_EkNWJWhjJsUW0oaKvKSUl6gCaPNt0L_pAo1N4NVl7g3TpdVAK7S7JuT0lGC3SCUKaAEHnrFCkrqV_1GOvIVsHQ6gE9l2pbag2gBDsZx7VqXRMtvB1EGRcgZBGRzkhCeiHq_s-McL59FBI9hBRRWl_aP9wIuSh1sOoQ0g1CYRYM5LwZyJjDwLZN5KN43a9nQZFWOdQyjcbsNq48-b2poy_S7PZmMLhPoTNVO1INACandlmW2D4MuYlzgCAaKxQrRHDg5MmMGn-W5nqB8H6DvYl-HXMKUUAx85iXiVN8LO3I9aFCqyCDdM-olguNvlrwJRvpiIi8Vsa8EkY1K7w_p83OrYiGqZdlTsZoceDSfcHeAIiPK8qq13rl27rLaOrX2xm1WWCxYjBvsc",
+        "id": "rs_0359d05401be70b8006acc4e5dc83887d0a1fe41d4087aaa20",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0004\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL1794866M\",\n    \"OL21185048M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both editions are titled Henry Lawson, but their subtitles differ: a literary heritage (304 pages, Octopus, 1988) and the master story-teller (961 pages, Angus & Robertson, 1984). These differences raise the possibility of distinct editorial selections without establishing it. No contents or editorial information identifies a shared publication family or confirms separate publications. The titles and shared author key also do not establish whether these are Lawson's writings or publications about him.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0359d05401be70b8006acc4e5fbf3887d0bed517a4372ccda5",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0004"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL1794866M",
+                        "OL21185048M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL1794866M",
+                  "OL21185048M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1429,
+      "input_tokens_details": {
+        "cache_write_tokens": 1426,
+        "cached_tokens": 0
+      },
+      "output_tokens": 327,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 1756
+    },
+    "user": null
+  },
+  "response_id": "resp_0359d05401be70b8006acc4e5ca5a887d09caae704551e9d09",
+  "result": {
+    "case_id": "CCV1_0004",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both editions are titled Henry Lawson, but their subtitles differ: a literary heritage (304 pages, Octopus, 1988) and the master story-teller (961 pages, Angus & Robertson, 1984). These differences raise the possibility of distinct editorial selections without establishing it. No contents or editorial information identifies a shared publication family or confirms separate publications. The titles and shared author key also do not establish whether these are Lawson's writings or publications about him.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL1794866M",
+      "OL21185048M"
+    ]
+  }
+}

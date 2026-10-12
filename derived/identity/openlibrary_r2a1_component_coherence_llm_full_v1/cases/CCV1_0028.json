@@ -1,0 +1,314 @@
+{
+  "case_id": "CCV1_0028",
+  "component_id": "W000005423_C01",
+  "edition_rows": 14,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774386.0,
+    "conversation": null,
+    "created_at": 1791774367.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_047517536a36ed31006acc4e9febf487d092caf83d002ee1b1",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6yaq8HsIFweSieJLUt4T5S8k8vxgJMEHRs9bJgLwiYF49b_4_I9V_AZQan8uPKSLtRzBkfd6ScbWi4gn4EvLA2uwAYcXMKe2vh5acP-U_z5P30WMAYXBQbfOTLbmtIgUtQ90QFfcmmYjew-cZN0UUoW2EdyibyI10UEVhQAct5pgv-rxC12yPoOE5FYZNLNjdhHqzQyN2qX-kG4rTlUt_RtUgKtwcTtjlgSkUV1PGKv0ZQg6vFKZozDLMTzjL116z1H4vwlUisZwTyUy-TU8NtdqbPXsxq1BkfAj4O2iq7u7vGZNgSHtktMQe1mcAGk-5lb_TGunU9S48XVFFAyzuik5DT-No6q8AXkIKUrsNRazDBZ_mnUG_W1cvCb4qFrvLMh8fOkYCV6StIpmxtb4THlYl7u3igKQDvMeKg9Z_JPT7TtzcxPA5NvuEMM2EvNy_TMSZ5pWKzD_LOg_kfi2vCMKwWvN4181tEfXzkERvTRFFrXuVg8NvCcq19umxn7mMJ5gF9NDk5dnh9WXTzWJBF0o1DDXl1G3JqPuJUe1Ow_YfIof2oflJ94JpQRXKn4IINEDIWEdLhX55D-Bbm6CsCLrzX0XPNz7HH1DvJl305GNmOI8uBBXoX8yQsG6ebFn8sSHb9vCIhT0oFc-PPetjfCejTCAaOT0j67qn3IFO_-zti0A6jWKazJVMWOHlX51TkVtVrruduSEzXC8YcsBSZFuf_3GW4mPYXOff2Yi7SPP1jKxYSmZImQV1oJIeVSpCJoJj74KX2au9Fgbher4XKE3lskBqLohf_hZhu6O2W5KAQRFZBgv6OF_1J48BwQQI9kSWJKScpBYR5BbQy8YgE7nIwv772Me9bIToYyuJ9RalZAUDr2nnEvkbXAJs38dnoyTk7h4hdFlDJOgdZJ_nJbqpZz24Qs5htcjMJ76EzrCTtTvZsaz6kiloHzgAI1kXZAEIptc5ozxlGlDGmOaecK-Soo_xyi9rFc93J5hfe6B6rukCbMtNoNsHVj57IczctRX0D52avHxLE7lUEHmqX7fNYWeIHjRFyHjI9TtCABfP4bcW4XltmbgaSHd1i7rBBQRvN5MMsvXEAxdZoEyZ4DnRZ2u_rmnwt_wYUZHcTeMSg6pLk6jRWaixmvYxfGASPti1t2gbXVGJKp_sFWxalpBiYTqW3Vl5ZxD1PgWjUsQrTg1Nq2IuBfX3fun4KwOurxb2lUc0TrrfLxbE-o3Ac2R6ytEX8mWlTMZuja3_DeR8enSlstQUMKbO0xdUw4AgcFFpG5W78LwOM-Q0_bRpUKVJlbCWyG6znLZywhCu8aF8UeyCKM5cGKiZwfpEmvmY3qwP4LiocJ9cKza8S595KSKtLqCVzzRRKXWkBfnh_UfVr7ZjYnZuuDmYf8j4oSTmh18Md2t-HxIWHpDe1FmigGjKMt5ACdXIxR7wTbo_dbfPSysg_DAU2Jc7hfvwA8GVXUoYOaMTOwkM1INx_5LbULkAMm3JYK6Ck5-TrdjCvn5GysqpwBxFIA_uhrUCVVqd2k1ER3jrNUqrCxncB6E0U8JgPdioqy4zZd_u0O0HUxPTodPzw7Ihy86OOIM3HZ_wFkReBqu5ShiJbMb1boRWiVxnnbD1QXHg4pZl2RV8bhmChubkj7N5KFSnepaBLLMqKc92_U7c3FSGGzq03sF7ET5eRj1uvSCofGlHsRJurrKI-UPxckmEZ_VAjMqn21fnqtHA3p4Sx_5UTVwuzDGa-hAlUzP4Xp97eUhtmZt_-j8Q_MagWM8TYi3PpCd0jqmWkudPI-97M_VXIfXh8fsML2jxZE026JdSfQJjnywC-kG9ie1bO_QykO6oF6y7bkCd0IhS7ylZdX3A9HI_6-_nSBYckCofcip2gr0ZCWx1vDYYDdlb6nG_cGCjIArInn6HU1_9OjhRtz02ZsfkIg52lAFlOlf_M7_H1Qv38yeAblvaIBydy9F5FOvfCWMSQ4p6UJuVRfwf1wHXVcoONfRkAigUyBau52rYpze7kMFVPWsEkFSJlqFUU3Fiubj0657-t1ULLil0xe7bUW20JgdXQc0vbBC95iYY_6Rd1Fg7dT6UHUVr8hsvFiJq842Qra8N3ohK70dQi2Hjhg0vXKaFoXUEQ7akMCmtJEQA1JMKbfuK3eOjlYLlejymyiX7zzzUEf9oqXN9DPQck2NvkDKoOCidteP7r-cKjhb5LZaJW77loM5ZvWQov-rEE5Q6Xwu39zVW7XccPFUpvOVUHBQE74inzXi12wt2P6WCbhugCvG6ZhWuLjr5OqpoQiAqU0Hj0tydMf0uyrkYzjB1QnX6fUH5GK91q7GkQVdlquUxHr8FWGeER3O6I8BSEpZsoabsnRh3jgOvjZ-pq5EHGj_If0qP0hZDGaX55FYxqcpFRA8qH79wxCofML_ETXuAKjpnKx0dY8JcPVUGLWwVpgHoCys0Sk3BtEx9KUhnkcTnZtF1YoLIXBH5TZGCgQR3Aewsd3RqJRLwGvERFjD3m1lfLc88QDllXoB_wJ4RUbnLhCUdJUqqHwfoScFM78oa1DCR6frVzTX3mKjlBHWKL1PAWfjt4wPObMb3F11fRJFywcby2ZNgsnXtqGG59U-RMewZdoeq-02t0nm6R62BePPy8kHKkACCMxMJcGUBWLbwzHXtKCjT6UZylx7Gn9VJgb7A4skW3AUHuxbJPIzh6v7NkbpyukeBX-OWSwE1EVwOy47d5420hmeI8IEMoOtKgNLzXbx-CQXjJ86PXOzmABSRypqKNVRYFazcdoX5xZQgF03tp_bqHt_6tZPY40ZKmg8S2PNEbCU22Xp6A12r1WivdtEdNkX0qlhn15Fm8BfGhEWSSSxShpuB06qLdWUz0Ld31TzJLyuHkGqfYG9bKyAq3MbMszK13zTaal83LLhAlhfFG-Ck3cYephEcFCkfKMszFWqbLNu1vOCt-XH0bl1TLkwqm1WDkm1Vec_cZO4aWIR9k9MuhdNOw_mDO7R7QyUiHsVaKok8rsvqcyDTDviG4e_TERNC8K-O80piZdcM16dg75-QrSDsgaPRqt5B7V5QMtTbvYGX-dcRUhK_1jvUwIpKuRnCMLIAxqSRIjedswmepMJa80ze9E08wNdPMOhHGSbIQ9sipixK82kvYC7DbmMcQ5Bcp-kTxWYJ83LdFimZJ_D_K6R0lGWZSaFli_XZkfkspQnD4S2VQ2HLbFrfi05zXqvZv2upCEARECZpF93e4jjxQ-BVS3fobP8kwOimD315vcbfZgdpE8ce_c2IvDSjeqPoiRHNN-urY0oD_TlwIyKvN-DFiLa5kSTY7AS-IcHQaB_NeUpjooxN5x2J78xMAIB5goNFLq4o9qEGAVMBS-6QiWMeJ_UeB_i-tF6-IpAXm1rEJ5vKZwDVKiAyhgersp9S8s9hOBD9sMcPOkjFLMLWkFLyMQc4ezHH46iTm3YDEIh3ye2y2v6COtveXjzqSEnxXTn4qV6qhGkKe1vEXE3CFE5IPuFxbQcFXEpXXw0mbbyJrb2O4acZi8S7aUx-_xg5INwEpxZJa_uCO75ia7NYpNwiJBRAOvMIVlYHEaOmHKei579DMV74XwJWEkZ_YfrkUXMel_Viem42SYhjXiUiBVA1iNVI-xZ5wg5H986uN2zkW9Z0AqW7jpEVYnJz-rRMd5lpa1dL_izBmSqOltfj9CNvKkunCrLCSyQCOtvqPPrRgUqBazkCF7YDnRXMt0fAxQYK3R_MHnU_Imx7pWKV4UoK-TWhoPPG-z5llsLGQljylAO_S2RHAzz0ORcelZ3W6HLA_sMPuFPgkbPzGRnmT7YskBXqHoebycZO5dp9V1CNyLbtpSvC2FOn2B3_lg8SKDjrzsZ2DCFhmZcPL3-Qql8u06HUMZ_wBalP4xivkyoCGNNtKBRC-qvUf0ouVKTCDKiVrTuid5mLVvZfZgDk3wetW6iD_jwTpYajZVc9kVOs3LIcr8qZTBp2wluZdXazLV3oq5F93gDOUB1nBg4bIJXSlHw6E-zXqncy_azHSTPrMMKv6n_3aq3DrLUk95H-xp_5soUNNh-05lnQObgPpaVpohNR6vgSDnnX9XguzUkQP5LEOX4n1t8iNg4UIP8h9fAlSbjBKs3MVezj07lq9_sUvyHcAZv0dqBpHWlcucOC0MWEZeihKP5z4hSoTTj6d33A4KY9ax4xm_EpiiubTDIMey68F6yAlnnViTqrlS4OZsRDIxTs-8Lrvi6x0IhuIBN_kpyCNtAjejUJYSVs45HP3Ho5qKkixloGRAoqimF6iXx_FjDnqyKrnDVqDgLjVs0v89PWwIith2n8T1xD4G_QDf6mV5dL7x6Fz-x_QY_wxdcUlPdNu_Hv9dt_9USDOXU6tLf4ItQjpUyEVUqbZwT0uBIBDXaBg0tcWwqqnX5f4fc-MCmTVoP2APxEX_6edxUuA4ZOM3x41eGxEhm-2QiMByYZ43bO5Lj2A",
+        "id": "rs_047517536a36ed31006acc4ea0c3c087d09bfef3519a004c1e",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0028\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL13726134M\",\n        \"OL16008013M\",\n        \"OL17546171M\",\n        \"OL20092812M\",\n        \"OL7253997M\"\n      ],\n      \"provisional_label\": \"Poems: Underwoods, Ballads, Songs of travel — 205-page compilation\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Matching compilation subtitles and 205-page counts support one publication family despite publisher and date differences. The titles describe a collection of literary texts associated with the stated predecessor author.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL19398727M\",\n        \"OL19398744M\"\n      ],\n      \"provisional_label\": \"Poems: four-collection compilation — 399 pages\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Both records have identical titles, subtitles, pagination, dates, and publishers. Their subtitles additionally name A child's garden of verses, positively distinguishing this compilation from G01.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\n        \"OL18003116M\",\n        \"OL23265569M\",\n        \"OL4467013M\",\n        \"OL5692368M\"\n      ],\n      \"provisional_label\": \"Collected poems — 572-page edition family\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Matching titles and 572-page counts, with overlapping publisher and date metadata, support a provisional family. OL18003116M explicitly describes editing, an introduction, and notes; the editor's identity is not supplied.\"\n    },\n    {\n      \"local_group_id\": \"G04\",\n      \"edition_keys\": [\n        \"OL20392219M\"\n      ],\n      \"provisional_label\": \"Poems, volume 2: ballads, new poems\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The explicit volume designation and 'ballads, new poems' subtitle identify a distinct publication-level unit rather than the compilations described in G01–G03.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL178814M\",\n    \"OL21026472M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The metadata positively distinguishes compilations with different stated contents and a separately designated volume. The 572-page Collected poems records form another plausible editorial family. OL178814M supplies only the generic title Poems and 259 pages; OL21026472M names the same four collections as G02 but lacks pagination and a publication date, leaving its editorial relationship unresolved. Named multi-collection publications are retained as whole units.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_047517536a36ed31006acc4ea6eb2487d0827ba76117ff1aac",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0028"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13726134M",
+                        "OL16008013M",
+                        "OL17546171M",
+                        "OL178814M",
+                        "OL18003116M",
+                        "OL19398727M",
+                        "OL19398744M",
+                        "OL20092812M",
+                        "OL20392219M",
+                        "OL21026472M",
+                        "OL23265569M",
+                        "OL4467013M",
+                        "OL5692368M",
+                        "OL7253997M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13726134M",
+                  "OL16008013M",
+                  "OL17546171M",
+                  "OL178814M",
+                  "OL18003116M",
+                  "OL19398727M",
+                  "OL19398744M",
+                  "OL20092812M",
+                  "OL20392219M",
+                  "OL21026472M",
+                  "OL23265569M",
+                  "OL4467013M",
+                  "OL5692368M",
+                  "OL7253997M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2486,
+      "input_tokens_details": {
+        "cache_write_tokens": 2483,
+        "cached_tokens": 0
+      },
+      "output_tokens": 923,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 3409
+    },
+    "user": null
+  },
+  "response_id": "resp_047517536a36ed31006acc4e9febf487d092caf83d002ee1b1",
+  "result": {
+    "case_id": "CCV1_0028",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The metadata positively distinguishes compilations with different stated contents and a separately designated volume. The 572-page Collected poems records form another plausible editorial family. OL178814M supplies only the generic title Poems and 259 pages; OL21026472M names the same four collections as G02 but lacks pagination and a publication date, leaving its editorial relationship unresolved. Named multi-collection publications are retained as whole units.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL13726134M",
+          "OL16008013M",
+          "OL17546171M",
+          "OL20092812M",
+          "OL7253997M"
+        ],
+        "evidence_note": "Matching compilation subtitles and 205-page counts support one publication family despite publisher and date differences. The titles describe a collection of literary texts associated with the stated predecessor author.",
+        "local_group_id": "G01",
+        "provisional_label": "Poems: Underwoods, Ballads, Songs of travel — 205-page compilation"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL19398727M",
+          "OL19398744M"
+        ],
+        "evidence_note": "Both records have identical titles, subtitles, pagination, dates, and publishers. Their subtitles additionally name A child's garden of verses, positively distinguishing this compilation from G01.",
+        "local_group_id": "G02",
+        "provisional_label": "Poems: four-collection compilation — 399 pages"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL18003116M",
+          "OL23265569M",
+          "OL4467013M",
+          "OL5692368M"
+        ],
+        "evidence_note": "Matching titles and 572-page counts, with overlapping publisher and date metadata, support a provisional family. OL18003116M explicitly describes editing, an introduction, and notes; the editor's identity is not supplied.",
+        "local_group_id": "G03",
+        "provisional_label": "Collected poems — 572-page edition family"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL20392219M"
+        ],
+        "evidence_note": "The explicit volume designation and 'ballads, new poems' subtitle identify a distinct publication-level unit rather than the compilations described in G01–G03.",
+        "local_group_id": "G04",
+        "provisional_label": "Poems, volume 2: ballads, new poems"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL178814M",
+      "OL21026472M"
+    ]
+  }
+}

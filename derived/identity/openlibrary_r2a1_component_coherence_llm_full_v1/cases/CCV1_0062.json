@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0062",
+  "component_id": "W000030489_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774452.0,
+    "conversation": null,
+    "created_at": 1791774447.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_03c561b3b1485681006acc4eefe47487d0a07bdc4ccbcbff23",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE70DorNLF4VREDday4Z80ZK-2CYeSINKfIIiu5xegywqVVUcZgV23aNj-Fck6xxW4mw6MMehQPpoa2V57Yuh_eK24UrBjFPk-wyMzVL8iOigNXZhyNMnMoYKRyxUwCC5Gs7zZTq9wrUqRlDe_68f-pMnGwmP86oEz4fdN1aYP_lPvvmRJflQV1Yx4RxHa5An1sAYgzYLn94ydaJjDViqxHKXFEws0LbyTAv9ISVtrxcvpCb2umrDFhjzCIul-hb2ifgVEauvXWaVu2Jjla1sM0ZcNRB5q8PU5n57WF6DLoiErd8DR4r68JsViudZ20sSD-Aumt3RRrhHSiey_4duXq7LmfzZAjh08XlFeTLBPzMg1hCYYwJmQ1d1hzfHPu7PIHPMfWm0_WMdZQRUYznCI18Ax0MAlvud-lkSM4B_pht2U5U96uCAYEKRekhn5fnbi-ce9ni1lHCehqUuF5GFStIHjcdJCYonut71dYECnhgpEfpbNkD-OoANyYOwn45zY0mXWx9fv72w0CxICqUYsKc6AsNIp1OLsZOXq-kg9acxttxXQ9AWNREzQ4Udak_gj29f_V4O7OvrtgG4AaROsYe2ACu_5aK-jjGBbt7l4JPHck_tvA3OZfeW1CzPQuxYlcgZ9vhvjJ7WPRtOgJGf7mvdq0TnJ23jGWC6AJakgZOpvdSj4Q7oCf0E3pIiWkZVceFtVnwkjr8M0jOehRPUOzg5YRtej5tuLc-vtJ5mIvNE8mhFB-Jr6AYN5p-OtTHOoK6uucLVkV0beznIb7n1b51_YDgSugcXbxi8mo8GE9G1fnybZkGeTdO54C2WvfY_uiWbfk9ffbcRqdkZHIZE9DFd506ES36Vk09_wyy7hnHTKdXfG_ptMUDMIyMDnzreskyQEnKTwS4mqnZrtdEmiZCVLx_RM0_WPTsVYXP40G-vH-4JbWIAPRq_Dd7gwNeCmAOcSjYVcITRR5seYarKHiZREGxIjn__pRfypHwF03PkdUkyVd-zZPdOKiNoZy6S8y8-FggTHSa2ORUI_AWYvrO0kWo2b11VyOrGKMzIDbck6Q-QIeN1T3Gdm_SR7K1e_rCleoqtYhku14v67JThnO9MdEPTHGq0G3zpiZ2EwUUQ2EMqVhUr-CPCRUxKwaTRO5TTyaCMZ_D2JUlo26gQQL_zo_WKRbEtQka9j7LixwMLw6UsLxStW_bJ2rNfllPk_ZlmFX3iJGNmfb7aS-m-6b_M-nxy_bc1VJaSJ1WrRQnoVAGLEMJE7uFPG34FUf6ZNu2nvxYQGMDVqpvW4a6i8NOHcxNBfCCapTAN0v-ki0BxF6CxI6gB4dHu-z6lAKbtPM4Np08iLZlXne2jwYLb-M6Zda4zbcaO5zsO2fYijOEoqh0SX0NAS7AXjnnkopXJEox79UMh7G9QO7v7aYAu5Uc0GM4e4o9d-ThQusK9V4WXJMCSUju3RVy1AuPCXvnPdNvgcU0JYPdlKF6-V-FCtCBUxUtCUMHXz4qJWAgjmrAR4S9-7x83K6nfuRjzuqIIT5bQG5d7daabR4ox_minPSVw9fLBtylQHDBHFIe-b0WM30QizGrS7nRhoukDWuLAsOwrTX2iIo8-FL8_0Kgcj5Ih6WLFk4lMXFY5WFjlFoIPu6JIjPuBXIzC46-YVHaL4YpuS1pZa2xShsS6aN0FcuKnZkw6IDnk8YLDxJEXHpmM7mjyoxwYnH6EJT9uaQhS43jhk4GHYeajpLYp2UXVGEjcfRZnvLh4P_poPw3ev8lu_kJTviMptooVncO8Tem8nbkDrDG-55hQ1RncNcKaUmULzIoooUNUzwpCl3pQYIbw_k3V0XNbrLqBRNrlRPFy8LGBj_ncNlPm5ju_PY2n_rvWt9HDQ8xe0jZr2A-QvvLRxm0wzDn_rQnS5KYgODSPUR1mb8dDLSwexBgbrlHIAD1Ml6qsZAYymHxr1liA8650APKU9n_4YKKNRkTQhRfI1KWRJKB_7Ow2vvz19Cmrn8G6y9rRDgSrTLVLVnxm6hO8aqqNetiwt2XB2_m_sGh0cwTPrbcNhuYH41LQULcs1hY1Y0ntViNZryROblK0Rz_YyfnNoC-VVmLj8e1sn6nuEuHswrQDpjOi6XjrTjP6hQTqN98k6gCqi95XcAV_pAsQCFpUjLywTG1HsTqFbE9zJbXUnH87SmuOeUfSo9iiTx5cw==",
+        "id": "rs_03c561b3b1485681006acc4ef0cce087d09a4eebb1f8193224",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0062\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL19885754M\"\n  ],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Cervantes' and subtitle 'prologues and epilogue' (Cambridge University Press, 1923) do not establish whether the publication contains Cervantes's writings or material about him. The supplied author key does not independently resolve that relationship.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_03c561b3b1485681006acc4ef2078c87d083aaec55c3dd316a",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0062"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL19885754M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL19885754M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1357,
+      "input_tokens_details": {
+        "cache_write_tokens": 1354,
+        "cached_tokens": 0
+      },
+      "output_tokens": 236,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 1593
+    },
+    "user": null
+  },
+  "response_id": "resp_03c561b3b1485681006acc4eefe47487d0a07bdc4ccbcbff23",
+  "result": {
+    "case_id": "CCV1_0062",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Cervantes' and subtitle 'prologues and epilogue' (Cambridge University Press, 1923) do not establish whether the publication contains Cervantes's writings or material about him. The supplied author key does not independently resolve that relationship.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL19885754M"
+    ]
+  }
+}

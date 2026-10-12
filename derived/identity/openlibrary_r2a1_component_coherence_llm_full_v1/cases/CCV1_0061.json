@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0061",
+  "component_id": "W000030489_C02",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774453.0,
+    "conversation": null,
+    "created_at": 1791774447.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_02ce8c614b310368006acc4eef98d087d09d45760d8f9e0aab",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE71Lty14Uxd2fEYgatTc9nAUxSJEMTVSyNjI0jHDFvB2FKvPmV0hVSOkb-VOsU9IN8gG67gVUIiX1NjYf8GxjAF118vkkpQEciTFaJToiGgtIZmf1q5oiCV7JBRcu47wgCuAAe3rSo2xvTb3xmyrzYAPsLX9RSzfo9LTN5o-mKC-JwbfRN3yYuPJjPDMzj1r8CaPE_0kNzeqNsFNRYs-HgDWXvvpKXkeI4TbCn2jjhB6EJSqLzY26wgI8ydPJPUmqslDTR0I6QaavLmRK-X6p5KuYKJ9SO_QKlWbeNj4QmGibX8XtajgeEgdGP90jRCA4-eKZ5bS-pFFgKfSuefhHukVb3jEET_uW8T__HB9CsjO-NwzQVRfJpDI-eP7a3wr9aLPWvUHdhzQzRpKGNBfDVb1LIUU4aNBA9utcguCo6797b1sswsEOVsUUmEVRum4F8qcWFV8fjyUg-vIxChQiswehlLg4fQpx_Bxk7eO1Ou3KM199ZtLuBflKSYcggs7aCKWWPmF0R-sPG8UGZn8zMcEgudoCKDJ_g4clqFly9K-_bkRyfWMMXaLHD74oOXppMhxeo9VdiRg9AbRfpvlLDtF3MxscqplKeJ3BMf-Ip2qOd5DV6pyyMzQfuFJsGxOiiceov-ApMn7KUc_VUo96wLM4Oziq8daHqdxai6fUVQ6sT-JU3QCP0_WNDF14Zaws8FIYCewqAB1lpWXjDd01UuQV5i22fys-1329VaZCZ6q0SL-HvwMA9MgJiMPtuTN5l9tdTKJHs_27Xoi007aCl-R04Gxly9S29eCyN1MIU8-YZBuBnUry5uu8dFy_Ig3lM1W-fFAd5ZZnFLE9QwsU3F00bv_tRmAzcQ-Bj8HpBYRrCIL1V1ESyqzTfTf90TpzlGWRy1F2FuhulWJ0aoK-wrB6L_oSHW0YtfmSP7n4MKdK3VMIy7iSMyUak50JseztoJdieFeqYk0LVJqZSqtwTgoMaYsBZA3RpwRSiBo-iFK7yBNg3zq1TK9JBNj8HDoAZUKMWiVddW5brLo9JWn0CZK0b11Y0me4B4J9vv0Xzh26hclxMSBAvkaxzkUOsrETYAjSr_pEx4bciGE8Ksm-nKkPWZo7u7tW8AmSo_Wsn11npWnFKCyw6V5w6gdP2_TtEV5RtDcUJz15W_LQym-52jjPverirtQeF99TfRdULarvXk91Y5fHA3mB3veRGErIyVmE-NdMZiO-8rSouEYHs2-EmHoa51a_yNuEGJ09HGca6b54KMh_KQZiOm9Dr9vMCUISqSn5OzGk9hUVm96HWDkC00bCCvToEcSzhO0zaYa_9akzQhWJFqwQ57j4Ai2n82Vl_bKfJQ5I6XCYaEhTW8nOGn7i5oC__ZMPcbytS49JW-6td2ytaDMy3HNSG5uBRlCsFPLf0HocBLeYv0NZ0x2RT_SEKVQBFBqXVbUkWeEeA5P1Yk2JqYo4XZp1GU-0je1MW11e48VdPqYCbawHza6vw42e-9KU1s4MZwOyvPKWt0UphyLzwpko-dLa18Ozf_Gmc23jgAuf3O9PDtz6ybrnuGDL_6YsHyz6jxsSfXQvwyslcHHDelV4Las9gWOXEPUS4_zEUQVBOpyLBk4NON11pHp0mOek1cwM6RtTBBlE5TFXbAxujnaeSsCUPhnHZw-23i2WbxjzdNlHGIXTnmnMeEmnUhfojvDnbnCkJxlLyuFqHA4ioM-VGj-3TpkyUAMGHAgkJ0z93S_8mI8zWUD9aPx1DDscSnDX6uhC6twDz2MO9r-HxadeuH8e5BYgrDsS5zHUgc68cCrGlRGBETulCEib53XOJYtLG-k3H6pac-Qob4J38jgRikYlI1cSNH6J9NP_FvNlkfz1I1dGSkRWPnD_aWTgVIJEA6G6XMxswWTpcbmQZMcuIPCHme_OF3udJ1JGWLagEVqz78Xdm5GODZN2i0dUvBcY3aRepbARLfG8SOaS7UvZcAXG_0z8XEIo9b65ame0PvXW3nD569aR7AdDnOfzaxPojuwK9zlxraBzs01y9s1Ck69c13LFGvie5lyHDgYLJFcCZAecjoCt1vDo6Y7p4eGNt7976BYhpjgMzdmHYZ8O9ElMiQ5HvwppMheBZqyy8hnUbIA8jH1fnpAxRjOCjw9MUiP4bEMV7OGUFqmhy4RUUi6t-OYTLNdmh3LlQPHm2o9mcV1wTBEXvqFIXzmUCU0lMqkamc6j2WKAry8XdcgjywKkY07TuqG5ViNHli_qcjmIK4Ujzhp0pTQd6NgPFj88uKc2JMT_PBkTKZ2Zn7W3wIgBqaT4aqPpVN0blplwkVutzyQ-LBoz82FYrGD4VRkTf52lqE_Y3CAvuh2CfJXjOfcFbPH8j34ULGBPRDhgC_juwz_qlnYsWy4zdKiA_wAMB8q7UPOu4Wk6UnaaN-2L5MoFjLdKwXBaxYViUsvMWjXB8Hkm9KlH-FtjL_EUMP8ZsuV-Otd3DuCPaf7R-EyGwjNtq6JUT9aFNF7fSKwgLhw2Uy44AxIXmrQ60Z7nuk_5eULWsz6KODX6HYk4MOOn4pplMtNPTQ7HWtLlEpP4nJ2wd8PdsuN5xvX3TNwykekR6-2_brm66OrrqJI9eKo1V1FY3r6Ypa",
+        "id": "rs_02ce8c614b310368006acc4ef0639487d0a7832dc0493e6e9a",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0061\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL13364575M\"\n  ],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Cervantes' and subtitle 'Un Abecedario De El Quijote / An Alphabet of Quijote' do not establish whether this 56-page publication contains Cervantes's writings or material about him or his work. The supplied author keys do not resolve that relationship or establish its editorial identity.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_02ce8c614b310368006acc4ef2716087d0b4180bcf74b6194f",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0061"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13364575M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13364575M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1390,
+      "input_tokens_details": {
+        "cache_write_tokens": 1387,
+        "cached_tokens": 0
+      },
+      "output_tokens": 273,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 1663
+    },
+    "user": null
+  },
+  "response_id": "resp_02ce8c614b310368006acc4eef98d087d09d45760d8f9e0aab",
+  "result": {
+    "case_id": "CCV1_0061",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Cervantes' and subtitle 'Un Abecedario De El Quijote / An Alphabet of Quijote' do not establish whether this 56-page publication contains Cervantes's writings or material about him or his work. The supplied author keys do not resolve that relationship or establish its editorial identity.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL13364575M"
+    ]
+  }
+}

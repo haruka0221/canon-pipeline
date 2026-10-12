@@ -1,0 +1,351 @@
+{
+  "case_id": "CCV1_0021",
+  "component_id": "W000004923_C01",
+  "edition_rows": 35,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774366.0,
+    "conversation": null,
+    "created_at": 1791774346.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_01fdc55e60e75ef4006acc4e8ab97887d08f47afd0cf0cb5e0",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6e9kSyx1nopv_8T-nB6LXjNF6Renb8yK8406FL3OynBxy1Xo0wWsv-qCuOIHtrmICozMA_yD_zCmqFIwABQKOm3cGjyLdu0ra6I3p-xJV_ZmxM7i2i2DF0onwW8Bm-f25MDhjx3oDIVMd0ldZVtgO3TJTEuqTMZAO9AOMWW7GKEwIanbaLapbxew-iC9_OnlHYQTEt4xivPuksUu0ENhJOjX4CLookKcXKnrZmCknBsSgG_VZIiEgcfXUQ675pXE2tc8fI_EwIBST3WUJ6qRl00-2NhhDaBHzpm14676z4P9p0s9xyT_m-HsHcTQPDAFzsZ3MJVyUeTc6OsJkTWJt49Wx5uHDHhBZ0R_VGe3sSU7MnJn8jNXYLcZZgvTNQ4BPiC7hdZmMVpI29Q7_4k3pb-sN3AlwS4pasp-egUseM8W1Cs5YLpzX9eCd9GklHbA4vR4V7BF-VELc7eC3n2owvqjlqkPTTpgOdSJrqByxUXBdhIvmoW-BQzfYUkamVa8ZJ6gJSEJG0XypXZDs7zrcrpZ_U_JCteGUXpNxkG-rNBd-U8W7d7xSIJoYbnu9UAkhYn8ZT6gKG517FGUbvuzZSPfAi5IvGlWqpGITQYVi91jPqs55HTjSi_9hKoURDJ7lEa8RrTisoRlgjPKERZM3w7Dxfhbbl7Jy1QVOxHeziCxe7b3VEWo_KFHOBFtvRo8jMoQskrfa0_J2fUvRyxCRS6_h3epeIec5J0ShkvkfMQvcT6Tz1w8MQfmNXUeTBWWgj9aWHSaM23sxrb502cJRG2ZkolOT9YaEL6vAtVlMVAHVTMUh6ZAbfNU9ZCH-LdBh405bPX1lIJqh22XEpZVbBlCK_mGjbPfsaqG4RZgVPp2W7W0zvn0L92hizWelwm0dyJ9aNUZ0kol9ZfzbCdYzLGt0jGrQPTSlkpf_k2Vx5ijwtyRFg8yY86G20DHeqeXq7Sm-dADziflh1fy0l04QIXgFZ9egYPUAeEXpBp1I1jqVrul4VKtv2a3zBx6RBS-0ltJm_7CRLkciTfpwdSwUN5Gl7F3sQLVrEGtJqbv5BzbrgYoLjCUzA6_zyHkwYY5RIZ4MKQz0nJj2QbaDPC2Db478LnNN8_w-jvz3oHSnR9vrn-Wygtr065YGaEgJTqZH1fpznPB2OeMKTSRkQW5nynDwWx1haAvqPX76QVVNWnp6sjO3XDUNF3cIPXah0CcCp4It0n6FpYwp7-X_GOAMPacdIgjRgiIUB1FJoEKFXdyxp0xprzy5jDm_I0S0zXyRtwO3xMlgxEnP5Ssa5Hap6YJleFC51lubImdsJ75RIJLyd-LgqgjWt5Tvu9FUhv1dseualz9FhhZ2XqGRzmT_zA6hbrCSmW5enK3w91JU_XxTND90J-eKZe8kiQ7UwftIQohTiRMtnA4Cv-nZe-vUkRZpGZrF5-g0K64yBo06dU_AQLOaK6CAGzMQaWJ0B4yZpp3ln096nY-ekCvH2R61kl3a9t8ZYMoyNqQtSD5G_MTam_6WOufpuRh5rIpAeyzMWPLStQgZuHF9gmews-_XBpgQqUfdh1CoTKNN2hyTVraM1Q1XRV6AhMYAjmY8v5XA-Y6YyD6X8wcZcNvNn6QSTKapr_eW9RG9Abk3yTvlXkdPWfWVOlupingDYxREoHhQywRnEb0rECIkqi8wKgcHCKorfh3iFjwbbFwa6VY5hAueWz1yJ_mYyv6JedfN9Nu_brMVzQZBR0V6QkeDILnPbCrCE3uLOtdc_dOPeWf9dBq7rZNsKxDeDsBkFUXJJSrNJWCThi3bVJKDY5lvV3zNBjqY7cPeul1Y9wfbVZ713Sbil5rfbzzpSvMGI7NKedNSHa06niTsSqictEQXJgH5-IyPK_LBnMLAZPBaIQHz8tuoGLW_6y-SfTBYTSX1T0btY9ILC3ejlN1qHTHZ8E7hcDIT3e-CsxT8vDfFnSB44OcRz6bEGDSw1HIpMnCkpgh3htz31FuWqOK9vV1MXTIIa_G0H1TtRAw4JlaaK5mLsK-sZABzX1g3JlVaYYYh1X91ug8EYHZNvBCZbpoVaEErqK0qH5dhsMHeeTV60dX1kiPkaeirC7ElJcMgeaEsSpXACQOIJ1oLWtazQFb3Yso8bU5dqHFDrg1XVXSIy7nzW3n28ucXb3tBf0KqMCaPimxCgbAtiLjIb4vn-FkhR_Sdu6u15-LJOUpx10kMhN1HzOzTXSVCbOaKLUuYvfPGew6BvdEzPf5E64kuMEARPScaw2YFSlA9BJtnT1tInk2iWRhNeC_J2QqrSTv-Xz6n3iyAe_ptBxGy1Uq-duxncwurKSUr-se6LLBuWerb2aGaYqJSeZAVBTki69Z_QWSwTJ5dpdh3m58UyahSr4ymz0dbvA0I2nC3A3GKvJsLusxTtxXBzd-GOvHfLZ95nu4X2EkKLWNKQTiL-WzzlCSZEdTJ4E7wgzbnHsvVM3TcFp2iGlX6ob0pFprwDEcctj0-ukIUnctb2QMQcq5jiYI9MXI6kOfWoSo8dQAHwt-JvE0Lg2GI6K7U_xBE2BK2fxPH5IM31RWgKZhAKdyArLo124hysrZ0fE--uSoeroGQbSxE-XkvxhoUGQjrOWypZo-BVwyONext5Y6pKOijj5CnRTDDqCky3CqeLGph9VMHIjCrc4B67YLJLkLcBOdambMpAIqPTatcdK0HPZiTIEIYd1kQkO6OS0Q3Rmz8VAeJz_XumCZZgd2RXtcC743FMmQPdQoMDhwogetRsmGYDHC4VTENZYbE9_Pw5Pkp87ZP8Th3M2bofFuvh1eLwUHGFyPC-JO68fynylTW4zV7nd3968eGsMd5oRRFIYciLh4UjU06RePHwc36lyX7H9wfYBAZf9skjv69ljMr7PkUWTulEQkjn6bhpyS9thnfNISkbhmJOv0DjlwmHCfnjfxgoSXlYxsN90mUqCAW8jn_ozOhpFgKWHHWR9RS57mVRbrE7Bpy5BZ3_uvznfh5L7O1F4Vr67sdDJiU_RvhwGUb2sft8BuHtUJGmnzeY3Gch38AyB64hrFIi2rVUbKGI4RWkexjFSkKjigFRa0Bkf62CMNOO6qZIosPNp6VKqP9cxTVOQ9Z8GrFqdRPNofQYgW5d-8uouS11_-v2MnsJqcECFc0tFQzZx4IT-0lbVodwQrNUC_bC-sXnH-mDrMTUKj1XvT_ZWUtJQuJZqzBRXgWhIa7Ve6uBI3x_m7cmxp2xY7OHiNxyQ8Lg7d_rsFjBrVVNvJJsf6uELafBccWgREFOG6o7cbbfxhV6oeYMNHxEbo0IzA5uW12hw9G9RTkBix964yM-xkywsaTwsWtpREUZOEgevo428-nNfzPeL64vKX8rDY2Z77l4WgcNb6-hNR0ggnAJOmhxPHP5ML8I71-ZNDPB9HgjE5TwFeNKF1XYz_IEOreBWXlJ2qP0F4qw9z7hZrX6py3pAqi35rNarrNBvatBpN-GmdQL36-2ydkO7i3FuHGoBu-_ei4jSQpSl-RxZWQtmiIzMC7CwM6soWscGTrzy40p8gKDA36iBpIu8ubGhEqUSknR14-b1b6CrDOjcD-yRMmbN8YsCCZkKhs5Vk-RusGAsx98mR2cbHndcM2e3ID0XApgW3wfRHWDdM4GLKAXWmO2fv1EwvCYevb__mQ_qhJ1EtEdwIZBTzaZyHdC0O7OpOEar7udYHRACE-wnE-xJs2fzvHvYgr6S8Tk-DqLdnxaKXz3TCYJ-nVd4azCq4aRrei3NvjR75obw3LrHi4-l55LZRuNKrKhcaUoGP-XEbJkRqy6SpXYIWYm1wlm2C8m-vstD1xeS02koBU6hucLIPp1GYMaAXustGsJHsMYU-Sce6KTbI64yN2FFdlmWVOVX0Po-_NPh4uYW6r77JhKEY3bSktgEhx-zzuzWHeCnSy1FpPGaieFnPA80un4jAYdQl4g9ChlAjVw8Mp7_nS2RwXwgQOe3_s73Jl1Vqc6isLYNli0fRw0esRvMw3OYZHBcLifP2XC61HKYIgu_fTMaIX2mljLxC4VDLda1FpldlJN9iVMiGjYaMqXrgXXMFF6AoMEOY3yD46cpdRH0rSIv4TQ4wfEvhcx_PW-LCHW21RrbafosVqIDQSJuSPmnq6X2poRuU6b1ScHjcg9Hpb6HoR_fy9VbCPE7h3TvWe5T4__WlUg4-SnFAYL7IOnEMRkHabM2EfuWXPxlQr4mwk0DG0Zl-C22GlsighuNZV2FjNu8eOUA_o53YJFM4b3IznaW1N6-GPCw6tZ19-GiBMCwhykaM53rN1j52bL0yGt2jjEZZ57r7l695gj40IwB4HFm4XlGK_bowWKklXGDdqhP8lOnNF1SOBRgMr1X3YRRoBsDNAzBGfX4VTXeqytbRbi7Yg95NEMaCXXKujKBUukXA1C_7gpm9lnTsYQuG02WDG1wBAHgD34L4WxGD0T-PcBipQC8UYtcFfIVsJd_xnLvY6J_l_-FvwbqN5q0Ew_2jSxxtmIbQGBocc0ZrmrpvKEADWe1vkzj2Sbno2LDVYBJb3pRd3NLimW7OMXpiZ1cs_jdqeb1CE71rnFAI3awAr0dhYA2LdpDMQdxekVHod8lpWE0kvismuQuV9hXp3KXUWJPoxrGAvtwx_11gfgZwKonZa9gqktk6tv-pOsQdZ7j4y7hJKondwfZJBDlNon9AJnVgWbogPAZGXlVnEPKrrcT68jS7MMgB13ZCYVmBMWKnqLt40V2FW-ZN3IpppD12ni83ccHzQA5TxeEXCf0tpQOMkXxGfzJL5_paCZ1EUt0JvWAm9wTCf53oUTEAKP-xc_FuUBI75yMXIwtw1bZDzVhBLEpHc1I-q3vuo9hm5C750tZ7GCX1aEKPaqDlZa2jJ2EJIoJl_a6jCji0sY5fc4lJPVjc1QuL_d0hYOBaLRL7eIlVK16JOk9gseXNy9DPOs73mrQqT1LXZ-M6UhL5GRVmS9pZ9gWvyFGYznXn-3Tb342wFl6Sc0RxVr-rdGB2plR3-1sJ5Ru5hXyAKNkXHlwJ5KXj7WVysx-MH5rLjiitjLci63lFwLXEGuRBanKwbvQ6AhN1rQFrYqa6JPmzKZPcOefw7u9ndgX_dS1kqIMZlRGFnfYAxa5MPI-9A2AGvofiRLTMdCeyUlnED6UO7EDdRW0Ue7FMGApOvmRVQ7rmvnSsAcEO7CfaGkBeblTbNiJOuOP_lcFB_kpp0nMDSHJ9k-079jH8rBxdsSQRms4QbYneu33lYF5vHPps1V7Xx_ERl2AT_ZBry6VRzJOzHIDZ4ABYSQoyJrW0QeevVYM9eou-auIE2Tgx310F0_iPE239R0lK-BmQwsMHpPOQdy09DTqq6K-EPvQkuSvBTVxpbodcFa0UA6fiX7xEzQlBhYUNkXWQ_2YWM7Rl7lZAI1pqTNYNQGjObUkxlvsPLoLFbtamjK5BR63eKgHCoqNQPPo3ADgL13KHeC9ufi-NK6Epy5-Vs8CFtpD23lpyPbLoTi9ckIbeJ9C1gfnd9HMiC6DwNU2NSZkcoFCmn_RMaCvqzk2eGCHhU0qX_grcPsSl4wHwfqUFLTZmj0HlhewpszUiV6CxkmK1ddZV2bLAyxRkDKViimNNOlwkzkzY36hlddlW4QTsLHn87h7rs78HF2KzG2uzscJM_Qkwef3fThJQHzh_oFNWzq3b0-A3c6iHZkhBlfzLlFU4DXDeW9RcOjl5MSVhQSGtRQSYfEr7EdvhdGBbPJA6bL48sfxYpJBIO_YPXkAHX97D1q_rZS5Uy_L5sgXRs4Aak5pqrFbixIzpigZD7RcdaSCMvIm4WjsXuMXATvL5I5D_KviV90DZYdbWhze3ALMyM5txNKBFVe2mrQab1hXA_bpsI06HHGLZOfhny0ntajQDfPTk_W42BMVTrJ1INdHdafRB3IeM8-gxSRj-1HKgniXpGy0UDaSGmZ03OmQQxtGQZ--dvsbL6NLdAj1wSOKKhueXgJH8qj43_m-ZrQwCSHORn86uidtA_3bmpBOQWJVeob0Af_zioqNgNEEW-LOEk04TZOuMCSg6et8J5ar4Onvo9QtUbu5yv8hAZAhOagG9klDVWSQDGFfe6r9PSARMLhfGB76GKdDfGbvJweo40QL9JARiT1x9GAkrnK4K6ShjVd0aHK32nx3zoRkznSZoi-Nk8acOHYQUMRPD74LSvPJA4RUL3-lFjC0mwFgTgHHMmI6CKCIoeIWMrnPHZquOAjsudV3_kmErTMpRbqjSslt4KqA59wT2iszqWuPvgK_-JC8RpfHbjV7g4ry5FcPV-FSC0w6rJKQKe943L7M7A3Glr6iY14oroE_B_0XEb8aEMpAHARSLBksSaCMgzpgQm_a3gS9gaAUgXF_GN5ZKsBxVGGGJdKJG4hhkZl-A8efon0HEsx9zK5J45sPxtpT73MSdxanOX89ygB4cTQhsq3wkMcu9i7_EMewcWIaLSKTfAjnLJ3kNpOkkuMxM4LNd_8KqlLTXB5AlX-43d9e7DSNQUryBE-fjLuVtslWRjg2sPjfMEhvYDbzxM9_se5MDuVB_VMhh_3aABPsd1rc5LBdqzQLc05de5JKgpqhYd78NfvIrWby5bhNPVTk1pT80bPFq6S38c3g9JelhJ2sJL1NpxMYdiV3MNkcjdD7EHlAXr-zrRAjA1jUxxxS2mWE9nWCFNfk72OCyV7U35aQjgn7Wy8nw1GbGVHoZWonqxDShko9OFIcEPzJLQG4QPTceSMjxf5xp8fOvAQkCHQL5WTsC5SQL3ji3Uk1TjBjUiBU6ELFiuPUH87sq60-xZkU3QIaMMRGIMXA7zBUMdpILRuOb_yMQEPS5gkQx1_KXe_wkTWsZgT7Y7eM9atk_mjmjWH5K5vJ5J-TFSd6CXahn5IDlqKSytvPgXVOnucJCKfyMho2mlczCFcgW2Cn6eoXIcU69v0e2ftH4JYd-nk1QryXro3QZq7-FbNLPc9H2rlibYznKMTss1VXu1GCeEIo7Epv4CjC5JsF103XHc2xrzrj_6T0mepEhajHYUFZB5NzevNNpLc3g76UJpcT1qEvIcNC_JA7BGdINRXgpK-Sbl2teeGY3LuSis_TiWXqo2oD-w3gSbkbUF6SDh7-Fmb20NCyLkvCEe7z-nAKNflaOZr-gd1M3JGuJZUAoETcyDgT7gL1qD07G1ufQ==",
+        "id": "rs_01fdc55e60e75ef4006acc4e8b6e7887d0b199d7d15a0d91d3",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0021\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL1332385M\",\n        \"OL13534341M\",\n        \"OL139546M\",\n        \"OL1648486M\",\n        \"OL16564585M\",\n        \"OL16924648M\",\n        \"OL17361037M\",\n        \"OL17728790M\",\n        \"OL17778167M\",\n        \"OL17780910M\",\n        \"OL18330483M\",\n        \"OL20132705M\",\n        \"OL21299206M\",\n        \"OL21401518M\",\n        \"OL21458902M\",\n        \"OL21641615M\",\n        \"OL21641623M\",\n        \"OL22244972M\",\n        \"OL22244991M\",\n        \"OL22245289M\",\n        \"OL22245298M\",\n        \"OL22248975M\",\n        \"OL22250373M\",\n        \"OL22250386M\",\n        \"OL22250393M\",\n        \"OL23038378M\",\n        \"OL23377231M\",\n        \"OL4149848M\",\n        \"OL5126923M\",\n        \"OL5344291M\",\n        \"OL5590462M\",\n        \"OL5807883M\",\n        \"OL5871978M\",\n        \"OL6058806M\",\n        \"OL6401639M\"\n      ],\n      \"provisional_label\": \"Azul — literary publication with varying editorial apparatus\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All titles differ only in punctuation. Content subtitles describe stories, prose poems, and a lyrical section; several editions identify a study or prologue by Juan Valera, with two also naming introduction and notes by Juan Loveluck. Matching publisher/year/page records reinforce continuity within the family. The literary content descriptions and separately identified introductory apparatus support an author-text interpretation, rather than relying solely on author keys.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The shared title, compatible literary-content descriptions, and recurring named introductory apparatus reasonably support one publication family. No subtitle positively identifies a separate compilation or a publication primarily about Darío. Confidence is limited by sparse editorial metadata, the stories-only subtitle on OL139546M, and pagination ranging from 96 to 526 pages; these warrant checking for selections or expanded editions but do not independently establish distinct families.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_01fdc55e60e75ef4006acc4e95e4dc87d0a3e09e5ebd4db049",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0021"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL1332385M",
+                        "OL13534341M",
+                        "OL139546M",
+                        "OL1648486M",
+                        "OL16564585M",
+                        "OL16924648M",
+                        "OL17361037M",
+                        "OL17728790M",
+                        "OL17778167M",
+                        "OL17780910M",
+                        "OL18330483M",
+                        "OL20132705M",
+                        "OL21299206M",
+                        "OL21401518M",
+                        "OL21458902M",
+                        "OL21641615M",
+                        "OL21641623M",
+                        "OL22244972M",
+                        "OL22244991M",
+                        "OL22245289M",
+                        "OL22245298M",
+                        "OL22248975M",
+                        "OL22250373M",
+                        "OL22250386M",
+                        "OL22250393M",
+                        "OL23038378M",
+                        "OL23377231M",
+                        "OL4149848M",
+                        "OL5126923M",
+                        "OL5344291M",
+                        "OL5590462M",
+                        "OL5807883M",
+                        "OL5871978M",
+                        "OL6058806M",
+                        "OL6401639M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL1332385M",
+                  "OL13534341M",
+                  "OL139546M",
+                  "OL1648486M",
+                  "OL16564585M",
+                  "OL16924648M",
+                  "OL17361037M",
+                  "OL17728790M",
+                  "OL17778167M",
+                  "OL17780910M",
+                  "OL18330483M",
+                  "OL20132705M",
+                  "OL21299206M",
+                  "OL21401518M",
+                  "OL21458902M",
+                  "OL21641615M",
+                  "OL21641623M",
+                  "OL22244972M",
+                  "OL22244991M",
+                  "OL22245289M",
+                  "OL22245298M",
+                  "OL22248975M",
+                  "OL22250373M",
+                  "OL22250386M",
+                  "OL22250393M",
+                  "OL23038378M",
+                  "OL23377231M",
+                  "OL4149848M",
+                  "OL5126923M",
+                  "OL5344291M",
+                  "OL5590462M",
+                  "OL5807883M",
+                  "OL5871978M",
+                  "OL6058806M",
+                  "OL6401639M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 4078,
+      "input_tokens_details": {
+        "cache_write_tokens": 4075,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1013,
+      "output_tokens_details": {
+        "reasoning_tokens": 404
+      },
+      "total_tokens": 5091
+    },
+    "user": null
+  },
+  "response_id": "resp_01fdc55e60e75ef4006acc4e8ab97887d08f47afd0cf0cb5e0",
+  "result": {
+    "case_id": "CCV1_0021",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The shared title, compatible literary-content descriptions, and recurring named introductory apparatus reasonably support one publication family. No subtitle positively identifies a separate compilation or a publication primarily about Darío. Confidence is limited by sparse editorial metadata, the stories-only subtitle on OL139546M, and pagination ranging from 96 to 526 pages; these warrant checking for selections or expanded editions but do not independently establish distinct families.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL1332385M",
+          "OL13534341M",
+          "OL139546M",
+          "OL1648486M",
+          "OL16564585M",
+          "OL16924648M",
+          "OL17361037M",
+          "OL17728790M",
+          "OL17778167M",
+          "OL17780910M",
+          "OL18330483M",
+          "OL20132705M",
+          "OL21299206M",
+          "OL21401518M",
+          "OL21458902M",
+          "OL21641615M",
+          "OL21641623M",
+          "OL22244972M",
+          "OL22244991M",
+          "OL22245289M",
+          "OL22245298M",
+          "OL22248975M",
+          "OL22250373M",
+          "OL22250386M",
+          "OL22250393M",
+          "OL23038378M",
+          "OL23377231M",
+          "OL4149848M",
+          "OL5126923M",
+          "OL5344291M",
+          "OL5590462M",
+          "OL5807883M",
+          "OL5871978M",
+          "OL6058806M",
+          "OL6401639M"
+        ],
+        "evidence_note": "All titles differ only in punctuation. Content subtitles describe stories, prose poems, and a lyrical section; several editions identify a study or prologue by Juan Valera, with two also naming introduction and notes by Juan Loveluck. Matching publisher/year/page records reinforce continuity within the family. The literary content descriptions and separately identified introductory apparatus support an author-text interpretation, rather than relying solely on author keys.",
+        "local_group_id": "G01",
+        "provisional_label": "Azul — literary publication with varying editorial apparatus"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

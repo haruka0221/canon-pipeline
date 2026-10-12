@@ -1,0 +1,245 @@
+{
+  "case_id": "CCV1_0009",
+  "component_id": "W000003030_C01",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774323.0,
+    "conversation": null,
+    "created_at": 1791774314.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_03b4b76e6bbec968006acc4e6af02487d097a1ce81033c752f",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5z-9MGfuSQEsZI1ti9Kt2JpmaKicFe_ZpNdW0h7MeVffprRd3l7hHwvmuLEvC2p-nlYxwFJ0fksIRfbHd09elkRK5-Du6DDISRFV5Bbhp_PSpvCP6fu5rGePiLuDioNE3v3PVwpUVz15Gb5w_iFpZfL97GUddgXIaEMJARGERvsnBY04LfIkqsj7EOon0-5oVAdbun2buWebefAow-C8HCqTkepk6rPh8XPoKApnF8ofymlOmXIO5M76ahRwijfDBRejqraT0rIr8W2E_ZnmAahKG9YBbwwYHZI-tY2y06n2cbnjjBbI1FbGBJsTVoo0n6JKUPFh7yVZUlR9OGD_mGXZuRY0I5yDoL-AABHJYbo3_K5OsJYBpUWMQlTMQa0n2T6Jtei-A7ry1hcXyNtqu7Zi_oTKAx0P8qni3_EBwenb5nEwqaZP8_i6It59AXljvPzpr_TAQhmuQwkX-L6FyTScuMNehcO7ZVHS-ZGGfpcaJSDU711ZpkvjWkciz2CawAUS1H7iXmNGodRAGNS0MqKKBOPXTsQF6AZwPNCf7hFH4q_ifN6_1bDdo-bggsRsTKMjKb5Z3YUh_fGlRQlB53I12wOXc3Qdya5IEJU9eXzq-Ry7hb_WOvaVnkiau_deR3UN45HWRJqqdiWMNgQfhSfqajkvtkDaXhTryPf9eD_2V2aoEerguIIMpDJzysmj74JS6xDFXX3ohVVu6-8-kNbwP2QxNRMHu2Sg1UvqbXUE30jxl0YmijLZMZyKPburVRKppNkKMQYOG1WD75BEkYZe8in8owdIz98JuqJsnBuFZeyU6tPNt-TmefOOmXpNKdpEYEbNZAl_WbOdVlLEMjlONAYzXpKdksdOuYJI0CuFufiumaERmYDySVmv3hhPCFtPDrQ6PCu0_5H74YtUk66pGCF-BpNZ0EGrey86ruNszjbB2huVYXlR9re3CCJtMgwff5T4c6QKs8WGxY1pDzDJ5sT4bN6qrXOX-71wMjHAIdrmS5yIuYpc1Vo6c4F4GPGC2-9BXAbZUiNvqnb8pZfjzlvN9qoP-jfXht146D4Rfxr0W5oIuPD46zYLuPSIj6SPeK5tn5-FmlLOG4DgPb0jtjEGFKQJu-2SgsiFr08zGbXSA4m4stOOXcdXKygzRJMMSi0APWgXzHcS--tVh4Yhjqk6M5w8mjk4fFcahIieucOcTLBvAXyugSeEMR96TwlYnX3qR8dMkxnE3EoCfhtsNCPA-Z-gKG-2ViyodVxkxLFHKOGJMd9W41AmRztSKULKOJgal43_18sk06GR3THvYJY9J1bZ7Raw_Lfz8E2ComjaAHUr9FoTnSApkrwv1-sudOR0cryBZ2qp-jZ_5EY_v504aSdYq7RZS7YMsnkptBool6RhoMOS8ZyhGsgVRqeLfY7euoF-3wFozx3L4yoYWTn_zNzQtZEeRHAqIt6wYXgX-tUHlqbxITMzaFX7LJdZ6mYFCy-uPkB0shFUc2XEdl_4lUpBw_ItWu50qxN7GiHK2lUrzg6IFvAz7e8DhG98RhlWrvMkWBNBqBLpFRw190-_xG0l0eM4EIEXTOT7X6GFBMjUKq0kRM-ZxxynkZuIrXvRXGOPDIyCMQDU_XE6L0yMmP3Nfm1V7mS7oKiXcecK_5p0t5Lfex9GyY3M0dXKxgGYP0XX6lXU_IqW41UbkEbHw9AStr3DwI0D_Xq6Js3Y9f673kM3SCUk-SFfhAj4IhY02U-KXwHJfUwUzOJGRduB41yYlNvfOggFLaTBA6sstenapGxH3CDBrwMlZgSUD469gM3qgP8dGswV7UFeCtjaNxnVz19Up5A05bVXiD6ln1eSHwe4cM-mL2TIckehGngzIWMCiGR6xkJCCN26ts3_3MLeE1CuOS5tylrZ9qvAhdz0kiTLOCMeVzYd8_tmkTNwMmkN4UZPKAtXeRAkYkxZUztDQf98kzjTCDL3DM7iQRrKwy9NDng_nvvAq_1nEs9Ybf1_WE4xGKcE9_6V15TFA6adnbxZzz3fOwwHrD76R0dPogoo85gIJKsrQErOd1PX1Mr0-xA8KS85qaEUJeAsKWBggXLreqLkQ_rhN0zgsefHFaDNEMeeKljeD9Hys9nG6pDPsxzUZd9y3Hn1u90_Se3YK4Iiqn74C52z_xW6DSejw6srlOjXXRxbwghHRAm8-8iPo4gJZ-enbcSEyXFi4JLZEIemGksw9PWnIXgklQyYKbgzuvHZim_RwfAJkzTuDIivoEDET5KBGgxsyVuWxJaBLKjgycG9DP5kC9ZRsdXax8D__i8bTLlBF51veljueHzOSkxcR8T2ftC2QS5pnSsZrdyAWb-fmfBaUjxsAMID5f-c_5UMM5eQpuSbKd6pkjrA2vq2fIS5kwcIB8A6-Nq_3VUy2bEDtrPqdE7po_gEZHqw-8BbF1vH_D3M-JwEpuP_KRs3MG2tJbc4vr_UkCHHUnBF1WNAqdJiLS-smlBqA_WPz6K-YRkdX-Y77RgZaMzk4uu_8wVSLsFqHTMoORCwf-qDAwVwqs3v34ag7WiIpIqqIO6EQKt7waEs8WzQDydwk2Ca7Lv6Im9-CEw4szV1IQDFn8PowJ8bPx8GST9Gjbsnj9OVt2SxaLzYHiFB1B0Y_mWix_7cySuavsreG1jIY6u2hu45XrtkbzKyYr23zY1a6qwzDrV3Zp5eCnoRTpFMu_OaW4wqLQtrNvZ1rmVrcKv9uOBIEsLZAC7-q7yUPsfAWLHLbyZuKB80ISangRBSqfmUFq5FbwDK9FlYhKAmpIWqTUYOnfbUWHV2DPlKzPE-aacpTzZ2lClvMbvMFiG56nhZKa5D7FaXgQg5s8IAU28nRMMV31rIGBchaHvckuuZHqow2pOSIt_t8ItKvUBD6wsUFeO8hvD9oizc4tmpKs15qM4xmlnznVgYx4nHONbVIcXuY8vFDMDuc52IHdJPQOYR3aZAGEFEPj7XzxLF3PsPwvd95WvDUyXj6lAgmNv62S7avzeE8V6GfY3vlfdmmpam71oXQRZSvAqAUcm6FoUGHMr22QxWmclGgLB9lioXjIMWQEBp6f2fMQ_kEyuFVsQ10U-d1S4fa1CVBb97Zs_mQi0NSsY09cpbPWhav9mNbeptS-nhnW8NSzGwZL3B5JgikM0k3O02saMdqT7SLdd85zsDuYaCCGDZJjIaKflSvhx-UGfnxEg1GwQGyoKry3ZLuXLXtrqG3fHVm7CM_CKP9GDF6IvdmoHRuPlZyo8QqOyzmc4gXRGvYXQ5LmfUj0-XKzIYbV92W_VUwyiu30LJoOo3VCMmNojG9ZLedy4PWh5XWaO88gnX0sVYY_7lQk66J_e5qYqOqrKR0BrwEQuwAYcLKsXcm00c9wJYoRJObdb0zx4bNLCzanYYYS4677hhEM_RyacDhDlw9Lm6-B2uIENSwrnVJnQqjhAFLQcjakQ-nJ8XFiqzaa24MFyyjUUAOslwRM7tM5599ZSaxm_Ew6b6j5B1Qw3HcEFoAsPBVTd8OMWnz5pkoWhKvLazSs6-gNN0FQLBceEjk1h0BmVAIgja8eu0lXH7lic0JeaHMuA5zh1oYakLjPGlSQsGo6SEy0nApWDE7hCT96MeRRW6fyVxl48P34KpIJyIq-p18hkcH1FXe79ukqfLlk4Ko5dzkQEZI7YF0WYl4uQiomMOqHntoQgaul61JiRop7MdUXmkBPZYD4Vx-DR04geqdwakSNL0vKrc_TdacfgoP7Zm1Hfo2wQtL7U0So4LDMVZMXK43pSkZ_oNufKkUus2dyqnGqw16H5yQUA0CSnCbZMNxxHUWACrJL4_kbFPwlMc9cFvUj-_sxNsr6ThlKXBvgZgxtfa1mHyN1ZxUAqZ4rkVf8-gYCw0OolGx9a3tq6vq-MZpwTpcoLuTwRWuu38xqgm_znroBeU9icrdvATOKy_5unAKCHWwvP61AVvK1_LVay3K_MSzN_XMIBtFPYfw9HvZDAIBnspmfGBDioXI7gvGLaDIZCVs4pqUI-xCE8bw3iP7E-BbmvmevFT_ORXfkrr5bcjSGFstQhHu8CAf_er60kGlUBfyCrsGHu_SpTyYhR57wqr5nEMXvh5YQmlrqk4Ednu18iS7esHdP9G-0wfOO5Yw2pES9eGeOBFjnnkIYVpPJqZIpX9XA03zkH2whs1ZsMDwpCORCTRJ2bKlWkD1jsWqoTYHv8jEZspcd4KGQhbH3M__ZlxRsOFcB6cj8QogtxiQ_Srxq57NC1_ZVPvmKkav1aLqJrAqvZVi54zxzVaMil4Qta02GfJiMhaKKjDqk3hJrVBoiOY9OSVln67eQ8RgnXEonWZfkjiTrJPnDHN7klipg6CC4Ez7WnGFctEoBDA_pLw==",
+        "id": "rs_03b4b76e6bbec968006acc4e6bd0e887d09d4acaa7476ad0fc",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0009\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL3502316M\",\n    \"OL7685888M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both records describe five-novel omnibuses titled with P. G. Wodehouse's name and have similar page counts (682 and 688). However, only OL7685888M names the five novels; OL3502316M supplies no selection details. The metadata therefore cannot establish whether these are editions of the same compilation or different five-novel selections. The different dates and publishers do not independently establish a split.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_03b4b76e6bbec968006acc4e6fcb0087d09d1063dd93918a66",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0009"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL3502316M",
+                        "OL7685888M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL3502316M",
+                  "OL7685888M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1486,
+      "input_tokens_details": {
+        "cache_write_tokens": 1483,
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "total_tokens": 1931
+    },
+    "user": null
+  },
+  "response_id": "resp_03b4b76e6bbec968006acc4e6af02487d097a1ce81033c752f",
+  "result": {
+    "case_id": "CCV1_0009",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both records describe five-novel omnibuses titled with P. G. Wodehouse's name and have similar page counts (682 and 688). However, only OL7685888M names the five novels; OL3502316M supplies no selection details. The metadata therefore cannot establish whether these are editions of the same compilation or different five-novel selections. The different dates and publishers do not independently establish a split.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL3502316M",
+      "OL7685888M"
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "case_id": "CCV1_0011",
+  "component_id": "W000004772_C01",
+  "edition_rows": 5,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774331.0,
+    "conversation": null,
+    "created_at": 1791774315.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0eab69204655f791006acc4e6b655c87d0b7c83486c519db8a",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE57gyLp8oL6kBGSoO1QAfaS4C6CulVoWx1xZaW2GfRkdzv3iH1SOW7YBwkeR7zfcbltdLVrw1-G1gk_zfxxGZTW_bSIFBKloaiUjYbNhYVWcNg96gbnr0Zrm3fCkeBNLrG3BtlEUyA8WwH_sFo6cy1kooOq0f5OjsNrd4jlP0XpoQoPO1BIvrd063P7kJF7VJSIThPb39GIcfRFyMgLbSIU5l5B6tpM_msKiikqGQxo7O29CNhzw1mx2L7iaD7nJ2LmrAg7yUQn_Bn7BgjDiFYzbXCruJRSy4KSmJvPt2JILcY1dOQ8DBnzSShXGYWqEhOW5fjz7HwQSj1XoUtMroH-24LdCWDf-eYYqcKASkc6U55PNxwKUQYXR1_jxlQXpb36-GNb6-0XY2E1AEAhGZ4kkZBi--xVGOFudHnMASGhqakudJRry5vcxYAIpfhM-ptRnDxINT_3OQVOwMZf3HLV0Qy4-ne2AqkfIfUSwZFhLadp44bkpQ6nmyi3VsLr-nHg9UvpXbLdnuqKM64WRWGciXgwDpU3pnb8AE-0bfZwEgXJ3onZcnOzLSU1tdzbGgrISm_TqBM6XazmJtW5bEvo_zCG6kM0avdTv3nuziUXL_PsxdFTji6ItfFXOxanqGVM_Fq79O5fM2Y2riB5mVASeQwhn0JaiPy-CgiahR58V0W9IkIz4JXFg2VU98xuhA-Ssg-K5Z4m-5Bvr-Y5IYU2j9xZzDWPFevI6zXMmP8mtulzuWXbdMfWOK0giNL-3Sz_03J8L0uheb1dlqpqURGM4yr_AqkO7kOP000p4Rom08VVK2dExpgEQ6z8vk6sQI7OVUBjLM3N1UMHtqawF6b4S7mKMo0dpGG13slufUyIPKD1OxogexnZzreSupC1pIFKfdmtOfkJq7OUweL-GWS84x2Ue5bSKzv1NO82IWtNcSRBjWN3HqtD-SbUe80jGSH2mpXkIc3dD9UsXM8u_GC3qnFq1EKD40bGz2CGJPemZy-X9uYHmUMrKiYPca0yTb1KyiSGjZB3VXej6jBhaFnIBRzPRE3Zoi5oHvSaevI_xtMsQiabDJF7FGNfY7sUGiItwTJjeoqhmmaOMZiuL6rjHz7uuCMc-fReQRMrfz4vsP-KIahMSVGSv4VT4DYZl_ckQP3qw6FZzaG7aEpjD4WPi-4e2aYW-Nvr8NGw18VmO6DO6pF0BjeRl-grz76DTSkw2egVQfIfpwkoQhZ0xy65RbTpTv1o18Gb1eeItCZmDWlVunMR6n0ltH5Z91Jx-Pbs8eZSzNzoKzo_ICqSU_aw2oMbqBA9u75-RBKzDc2h7KdltGPkMhJxbvtU54VoZVIcKxxAHVB8RFB2dBfNzcPh6HFv6frXH6MA-FRNoG6si9cb69yNL6-fvkaFTyHz8fvZbCdJOWDIYcEXNpKTj4rYJVSLB1ERlwlwDSeggHrTcQ4ELYNRmK9r6l9JVkj5yp3FS7XfHO5paIHn6szdOJfcHRv_JdurMVXzlOvVo9dUI6aadxb1c6ycp42EOZh3aqkN3Mn5tY4Jh_4JF4CiF7-32yhh_bXrGg9xAowmQB7qb9xwdhUZ2vCvc8XNXm1Jh0Y_So34X-EQA9_OERDhf4c7i__p94GDb43x6ZIFspk1SFPBwqNloy9v-q-hzl9PfAAUVRiR8Il3erqW_Wv_1EQJSdozQARp2uJSs_XAxCQXcySW8r9zuUef5KtaB-jjQMNtfXs3hilW_42MUaFL15xKsmjwbCq14pVr1xiMwGN6RZCgFZX7L6ipc3ROPtViI-xUUuLAW3t6Of_a2WLhnBnEfcaXj0hqimmycTVcZaov5bzJ-DJZigJncEOfholuZKq5hHhXCovQGHhGOi0EY1P41Qq31akXHXbmx0h7Eh9lyTSQSDHlHIMUHGaQ-ZgAo1OD3gLok2kcInuZYR2kWFdftLMHi-h0l3INY_Gy4Iik1DXW3RRZyLiKU9AbiGMvElcyvYXG5-1nzfo6IpJKc81YQBvm3cF4vi9ZuCrx8zlxLO4tYkYR8GxIPqq-MSzkNW80QPxjwKoNpgiwSFV7z-aiANm9I1geGaT8Qtn5REiz3vA0vysfSmWzKFesHKKF6fFOEj5mwaDgxPRKuI63HQDhzqjhMys7EWpcsSVdF_Lna0MG95oORAhW_0R5tilIl2prUxUdR66qpi-7q6UrxGzZn1_gewUPjWconcwLGT-QTQSIWdX5jNbfsGQn7eWltBBPsGVEVCbvENBR9OREHtJ4sWlpT5aN2D0FJYGbpHzRKbPOVWjKI47udg4zZ3N9muaVpo0MBELxGUW0-GoaZTxmDIifzx2YkTAJMjc90Y9EiBedEM_Vw7QmqyMFyrSOLAxVg7fZJwU4UKkwyFeLokzRf0qY2REK30IUbEj6B1ZeOnoeFsEeCEl_f_ZS4LFgbceIbyA-hoURQm-fU5sp3Qn6ZIkQwQou3F6TP9s7XIp3e2NXc_AQgEL8xKL5BSs-qYISh4F2X30B0lD5AYvs5l84c57exn4_WV5P2GR_BO5z8bSZMwA6Zy_TU91AO8KscU0XtNvbj8V1FIYtz662qxBmkizZZZzX7At06NQqtiEZNQRIZgNgw9X6f_hAlouxOKmHU-mzoOz_bMBCuNq95byEYKqXo1Bm-HfO7kzlGPmBtoNLGJYAQ_mDjL-MRSUDVOTGp2cAJZj5dWxguUDe_uAOVOPe1ltSf9JkgW5qXyxak1SgviQ6Zb3zOkZhQWssrq3hxHipK0ZK4TfI3vfi2cqYJA_goTDD8FshN6mTJrF_2DSSp7RJwQnhLTS96VZCwQxiBDNv4LmBRs6mbA3tEuuIMSU1SfvxtkTx7YQVswnni6zqYL1uadJvZMrQ-UnBFKTjtWtgNL3DvVc8RflhDpl710J5phPWORWUFZNebQqzavzVaQ0_Z-rXq6tdtgoGG67_b17ts2S2VrnpArEU4y5cXS5LjefNXJOOyiR27cchAQUMK8-KRwrBxg1CvGOh_kQ_noWuvwfyin0eh9tdgNaO_vusFAUfZybDaodRtrDBnt5zbrX6hfjIoYhVng8iPJFpguQu3A9myweuG2Xh4wSDv_W7NLIF7MpPruVvOZVOCt2lG0akkLBy3iJRlEGVncT1m3S2SexCtkgRxYv-9EkvZyow3ddv5vqmGq8IZGF9tUKzBLLwx46utfXPDBewcw_qAAezTuS597mTTF8aB_BBkBYNDU6rUpVsf0-W8y06rxajc9Wva806YO9MlL-if1MmqCoYhwAFVKGNZPB7zGUAj4z2KL6TLLRAc8qPU4W7N_UC2leEwhYKShUKY8leM0h3oO_8BjeXfaeTUf5K6zQMM14T93phsY0o9sw322rjZjCh6vbWzkwGW3V-QvXyJIPNbhh6g0_HFDH-nP5qYW4DwVY6qtiC1XNPNqbyBUv1yN0e1h_l74ZuUaasGwOGqY4Q9Cw0UP_Fa0pw8sryk-3jlTp0NnJOGdS_hqgsp_VFERQFQQzC-ePPJulhNi_JOHc4rspd25cr1461oeiZYOcu5EmXHKVPf4tCBGNPSENqLOQYQMjaACk2OcyTl3tOLbCAZ2vRMa3IiHljUXGWNH6Iu_-bQLapZ9HG4q-wDO79ecLTXBD7RLLgg-k3nrnkWdMJc7zEOEdopYpkpWCfKYfKV2DkOHosPrRQ2fkLcHlhYJl4E9Oh0_BuzjNglq7SK7BFmJW_JWxQTjsmzw6qxzpFEA6bj6mHeWKNXRnqlsEoopcOAw8D256GLMDfcgKU164K-iHKTdSiNpnr8ZJf15Hf62CB6XVDVrVGKsF86zOic78DwVEy66EfSCA5YJHm5bnoKcOvl6S9XmGrluECpiKFTOJ2rOpSTm7vuGGfzm6Jmfm-rurF-NptC_KVvBla0RC6UWh7hxZ3az1-nF1XRmPc_PbgG7IXHIgJydp5B-ZCiCg5EY7couKxZhaPKMULuL-So1t76vHBWM9k1uK5req96N0mKJrsQ6c08mGUtGkQOLShVOywffzmBKZLcZvTECblEZvvNwUXbmpcFT4UqO0ki-ZPnhBcTLuNeaJicnDD6oEA8FX5Ho5CBF-8nj0LMfdFsOrzKItqqq3XXyzBCKTmja7QpTH-yv7no_KFVThDkeIzHj4hNXNO0jBDm4u0Q4rzWtYoK45EvGLYVJ0IhEbjaJXiCGNkHcoJlX276YTkBBl6kuWEd67CFNjodzdAnFBeKG0VpjYNjYP9XHKd6xHW5dSwKA_FxWGm1pTD8iX4x-Eg08zUyEw1hTV3x18Rj8rdfeZPnQAZX5yx9fxzPSFQQIrMkguqX8uh6PW3hzoN0-hXJEzhfNo9rDJB9wWrjyRo4W-hBzeaA8d5zMNbdSCIFlwsH5uKOY3CxW88o_Ljp-LUerk3oY0wn_08BJUTepBGKPD4dn_kda_psDp0NwGKnBJdBILY85Krdr8bdZA_JO5g_4U8yKkmoumaMIIMxW5MHGcCt1wKdhG-stKqHCqVoahAHoTbymK5FWuVYNxij_Q=",
+        "id": "rs_0eab69204655f791006acc4e6c976887d09585bea47fe3eab9",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0011\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL7694000M\"],\n      \"provisional_label\": \"Josephus: The Jewish War, Books I–III\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly identifies Books I–III. This provisional boundary differs from the other supplied volumes, although its series number 203 also appears on the Books I–II edition.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL7694281M\"],\n      \"provisional_label\": \"Josephus: The Jewish War, Books I–II\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies Books I–II and Loeb Classical Library number 203. Its stated coverage differs from the Books I–III record bearing the same series number.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\"OL7694269M\"],\n      \"provisional_label\": \"Josephus: The Jewish War, Books III–IV\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies a bounded volume containing Books III–IV, with Loeb Classical Library number 487.\"\n    },\n    {\n      \"local_group_id\": \"G04\",\n      \"edition_keys\": [\"OL7694282M\"],\n      \"provisional_label\": \"Josephus: The Jewish War, Books V–VII\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies a bounded volume containing Books V–VII, with Loeb Classical Library number 210.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\"OL8133193M\"],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"OTHER_EVIDENCE_CONFLICT\"\n  ],\n  \"evidence_note\": \"Explicitly different book ranges support multiple publication-level units despite the shared title Josephus. Groups follow the supplied coverage statements, not inferred contents. The conflicting coverage attached to series number 203 requires review. The Dorset Press edition gives only The Jewish War, so its coverage and relationship to these volumes cannot be established from its date, pagination, or author keys.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0eab69204655f791006acc4e72eb3087d0a73eb9f78ae54b1a",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0011"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL7694000M",
+                        "OL7694269M",
+                        "OL7694281M",
+                        "OL7694282M",
+                        "OL8133193M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL7694000M",
+                  "OL7694269M",
+                  "OL7694281M",
+                  "OL7694282M",
+                  "OL8133193M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1748,
+      "input_tokens_details": {
+        "cache_write_tokens": 1745,
+        "cached_tokens": 0
+      },
+      "output_tokens": 790,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 2538
+    },
+    "user": null
+  },
+  "response_id": "resp_0eab69204655f791006acc4e6b655c87d0b7c83486c519db8a",
+  "result": {
+    "case_id": "CCV1_0011",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "OTHER_EVIDENCE_CONFLICT"
+    ],
+    "evidence_note": "Explicitly different book ranges support multiple publication-level units despite the shared title Josephus. Groups follow the supplied coverage statements, not inferred contents. The conflicting coverage attached to series number 203 requires review. The Dorset Press edition gives only The Jewish War, so its coverage and relationship to these volumes cannot be established from its date, pagination, or author keys.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694000M"
+        ],
+        "evidence_note": "The subtitle explicitly identifies Books I–III. This provisional boundary differs from the other supplied volumes, although its series number 203 also appears on the Books I–II edition.",
+        "local_group_id": "G01",
+        "provisional_label": "Josephus: The Jewish War, Books I–III"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694281M"
+        ],
+        "evidence_note": "The subtitle identifies Books I–II and Loeb Classical Library number 203. Its stated coverage differs from the Books I–III record bearing the same series number.",
+        "local_group_id": "G02",
+        "provisional_label": "Josephus: The Jewish War, Books I–II"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694269M"
+        ],
+        "evidence_note": "The subtitle identifies a bounded volume containing Books III–IV, with Loeb Classical Library number 487.",
+        "local_group_id": "G03",
+        "provisional_label": "Josephus: The Jewish War, Books III–IV"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694282M"
+        ],
+        "evidence_note": "The subtitle identifies a bounded volume containing Books V–VII, with Loeb Classical Library number 210.",
+        "local_group_id": "G04",
+        "provisional_label": "Josephus: The Jewish War, Books V–VII"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL8133193M"
+    ]
+  }
+}

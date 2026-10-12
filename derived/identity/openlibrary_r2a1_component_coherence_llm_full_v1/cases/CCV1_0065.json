@@ -1,0 +1,260 @@
+{
+  "case_id": "CCV1_0065",
+  "component_id": "W000030498_C03",
+  "edition_rows": 4,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774462.0,
+    "conversation": null,
+    "created_at": 1791774452.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_029a73ed72e2f069006acc4ef4ae2c87d0bc890de663cd04e6",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7-XZfNuevg136zjryehzV4qvCptpEaoPv3Bjo2SNElu4hIoDOXW3nbONDK7_1MoSAatE7Z7m-AB5D6j6NLpZBKj_GZ_ZmQGEPGzt4DbZAt_JTNqVz2cQ36KE2WcNAJhPXFIIBknj8plsF2hej1vnENmiYPbqspUtDeezjnAEvdq4b8k0cPnXgrA7xDCLblFJkPHvbOx2jRjJDbn8qEiN7FMuwRlaB8gk7KEfzByT38tj0DOPbi17z1CUbOjo0p-q2p-Fh118ra33mDZ7dwt4185JmyGssPFkMS1gXqoXLyugyXbPL9gq9cyGkuSGzafQgoMYuVQVTo-0cnW1DdxEmNS_ze242fKSZ70WKYF0JLt30Pycck9FFdrgh4CaG2q4A5dGrk7ZcGMAu1kHo5XOZHCYKXXCBVQn6z5StpnhjW52ymu6BZ3f-5ztwoV1vBPRA5_sOj1IFPujGakqPeCcw9iH0VSFaUfGCm8GSfRGrpXZ7-cQzDg56Nz22PJ8SuuiW98eCgikjdCMNnJBFA8D2UboTUtcIY6his33SzWnM-UJLm36liEuE-v6cOCo4IK0Gc7zrkAjPdbda54uymLmnzxdPLw0wQMd1c77Fb4frHxysLW2ZZAZoGqMk5n1bdPU6U3GDtJL6RTRewJhNGNN8xnKTZlIQOuP7pZirSfVxoha6Jt1YVyc_2HKU8o1O_O5zdiIuwEF29RaeBdrkqGWInE5q61Jw59xzRHItkOhb0fVcVqNZoFeWCOKoEH0FQZEYIZ28PSlqWeFWAVnOtUP_-ynevZ3NiendWJr_jUoKi-V6Y3TQt6odj4IO15AASzCLSsQried2rmhyB5ts-qYQ9hkNO71kcwekjKi1C_mJUy6J7L708NLXCfryhWQQ7aOw2ETCJKwSdkyY7UFOox7I8Bq96Aj4hoPsu-4TkNJ3Q0IbllVM2OMC2x49wYT2KtYh0nIVY1-U5skGakQaMW8qg3Jx05ZkJ02sPASSosaStxvlPUgq8MzH1sidtLq0Sn_6Z30cC7Ypv5QFjxWqh-4rfx4lKRgAH1RQvgBM3h-ZrrOkcNBBlvmwr_sLa6ZRmlvIrlk3wKGU4po8ZrYzZ24kekVQZzgsOuKsjI2Zrlw8z-u2eyGTfgpezkHsvlaxL5CKOD6dDSfnNtSqWyO_uq-x_A14svR5wHRQ-S_Mrhg4PZQseEYiizpD-jWZSyBwBO3KOZH23Dew7BEZDlg5jqRG8v8t9WCU_GNRS5ytUCHACyDLPJthp3w8JtB-JR841hjxPZv3aK0nbhqjx81w3QdFO2XO3Uu4GS9FPStQjZWYgZacihxrhzzMa-4icRUVSzhsmu01WjsK2GQ5jJKXe8hGckUWghyOGPNwUVfm6a8DJKtEo720wPqz51qA_JAUsqOfu4CQoOI5A29mlTbC-7pRs5xDZqM4spulG-qcMZTuJAiwHrnvV9tIigc-N1T3Zb6p9Epx4sPEM65Rn2jNkN3kFNEp7UEjDIMD7GbY75HqQmQvCN2ebG7yJuMczji_rZ4Jb4TasHZHTJY9updpWMFb29aOffioJ2SzGoqa-taFrxajWjAcGZ9QUw9F8XFTNvANM9cIPls12uM4_o5aVuoPwJbk9gdBohnOiAk7vDvT3njMxtzP7I56bGycG5aFYNCNxjv9Cfk8MrfQ0Gv-2FEjJJGadwDEWx7Og8M1GPMinG5JeAoNMrQYl1sbimikh6slNNKjfTkey79ieip2DmpiUEHnh8iXd1X8IZvjepz1ya6SHr10BiyXWxAZaOAe65GXrxPlUxbp777VMwIEw8AgajHN6GxyDXBLRvT2vCTEmPG4CSh6nDWFk5tVBptkZMR1ZiCOKRgce24sRkNB8VX0E204PokBHzpPcMo5BGL-9ODj4WakIQzF6voEA33BB0l-6Q01BLC-ookQ-SPaeZHID5f4qq6jFEkV2kc2k9vGtFx6Gidf8eLw0HXk1M_f9X2NnSm44vzzoVruzEqnVAABPNHtPMfsZI4VM_TdoJtlYlQNtQ5UAYupexw8DHKzuZgPTyH75duSItXOLknoMk2zkgdRNp_ZE-VpDX1UM7cMoji-bEgnOXD2Ab1Ishr1GhnJbmxtKbRUh5AwAIQGY7j_CQCsvap9KfHv_sPZXq0dSxjTZhvpYw5GWddmXqzfU2VL_RWjeoW4_PuILoUZs_vbbh6qMYt82VcjKjLKzV0VyEgH7WleBMlwYRhbXNaDpWPqRkOdnn7rcWr9ayzPGbZOSwu_vrOyQ5su7QC-wEfbwx4qlEgZ4gYh7ZxgSlC1P9f5_9SAvW0YUUELCSPEXm_43kyqI0ZKaGCVe9f-GHKgcR8LM9_AfRnn47mNKwEPghXdVzYmZhPYE6MfBalk7CDTi_qXAjq2_Z3BH_w839Cfyk4xAIQ9fYxMI1ePzxtqy4mfq1aRL9-sQ6XQgrblz5f9iztOoB-kiVUlCzTvLEZDc7GLUDneQyVEQ2PaNDWgVwZPd_sYcjDUyqCoUWsEGg3IVO_261SQmsF_lgkNSD0smpPKJkT7uNQb2ZTHQGwMRRMBA4bFadB7KZLeZi2K74vDu-qPD5XgOcrQy5YWfpCNnXKUDZaCMyfQRxwo6kGJSwN8Pb_F_Aj8jVzzjvifKxuBDIpoMQnIqt_nGY2Ok8GgwzO0uGK_bwxF-2_oEXTh9CztHa4-XnuYUBLUcqbD98t746bob6QMSgRk13srJOCkr2LaeLUuHHgcbYXYkaFFY2R1eIsN3UDPY5xZCdLdqEGYH5s4Jn9mCrKBLbt6qnYvFtRDJUy5gT0kvmeMQSE52rqRtmz9yO3MKIZm7V6HXiaI1eaUsdKgREJiKgLYmtYvoFno=",
+        "id": "rs_029a73ed72e2f069006acc4ef591b087d0935c882a334af39f",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0065\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL15050833M\",\n        \"OL15051940M\"\n      ],\n      \"provisional_label\": \"D.H. Lawrence: short stories — 1981 Dent editions\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Matching titles and subtitles, the same publication year, and a shared Dent publisher support a provisional publication family. The name-plus-short-stories wording supports writings by Lawrence; only OL15050833M supplies pagination (400 pages).\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL10242987M\",\n    \"OL12033684M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"FORMAT_CONTENT_UNVERIFIED\"\n  ],\n  \"evidence_note\": \"The 1971 record identifies Selected Tales introduced by Ian Serraillier; the 1997 record identifies a collection of short stories in a cassette collection. Neither supplies contents or other information linking its selection to the 1981 Dent records. These differences raise possible editorial and format distinctions but do not establish separate publication families. The generic Lawrence titles also do not establish a single family.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_029a73ed72e2f069006acc4ef8e72c87d09398a4e2aed7e36a",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0065"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10242987M",
+                        "OL12033684M",
+                        "OL15050833M",
+                        "OL15051940M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10242987M",
+                  "OL12033684M",
+                  "OL15050833M",
+                  "OL15051940M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1616,
+      "input_tokens_details": {
+        "cache_write_tokens": 1613,
+        "cached_tokens": 0
+      },
+      "output_tokens": 435,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2051
+    },
+    "user": null
+  },
+  "response_id": "resp_029a73ed72e2f069006acc4ef4ae2c87d0bc890de663cd04e6",
+  "result": {
+    "case_id": "CCV1_0065",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "FORMAT_CONTENT_UNVERIFIED"
+    ],
+    "evidence_note": "The 1971 record identifies Selected Tales introduced by Ian Serraillier; the 1997 record identifies a collection of short stories in a cassette collection. Neither supplies contents or other information linking its selection to the 1981 Dent records. These differences raise possible editorial and format distinctions but do not establish separate publication families. The generic Lawrence titles also do not establish a single family.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL15050833M",
+          "OL15051940M"
+        ],
+        "evidence_note": "Matching titles and subtitles, the same publication year, and a shared Dent publisher support a provisional publication family. The name-plus-short-stories wording supports writings by Lawrence; only OL15050833M supplies pagination (400 pages).",
+        "local_group_id": "G01",
+        "provisional_label": "D.H. Lawrence: short stories — 1981 Dent editions"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL10242987M",
+      "OL12033684M"
+    ]
+  }
+}

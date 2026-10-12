@@ -1,0 +1,257 @@
+{
+  "case_id": "CCV1_0029",
+  "component_id": "W000005423_C02",
+  "edition_rows": 4,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774378.0,
+    "conversation": null,
+    "created_at": 1791774370.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0820b97fd4a89823006acc4ea2931487d0a79508f18b6facd5",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6qGw20QEG-G45_o93nu0ZHkCtN38Ap8R1drwG3Amzn9zxm1DSknGv1V_xdhOr0wuw2gCyB5k_iEEoy2Zvrcrjg8voVJTQpI2NZ32SSRAi3hQmly5zGaHR1Zx6L19xFXEOzMF0m0I_OjidEAfRuye5ghRUGOGvywu10rS3Ws7vydwJVszCErN513sDmMzvwRd9KEGbhoWaZpx8r77NeF3n3CsWp5iPCMfNnSmRIBV8FJnqeIgR2O2H8QEmPNFqJ0nd9n-SEIbzuJfj37SbHt_8jURWTNl4k-2pVDNZk2HT_Kx3CJufcMoVsLnozIKJbGLIS3hzhh1S-pejeBB_DyzPQrjK7hV22CGuORRBYQumHOs0gLrcibF3szliMT_YPpZWI09mGEnYzaQBzTgKNmZfPtPvHFa2bcT_gV7Mm9QLYPYb3ITw5qWtrfVvETCNy6huwy7aGK3Daxdpy8KFUWV2-NYMWqguEEYM6dSIKeBeCIoM5Ro9fOriuWP4xI6quUmP-WnPmsjkEloHOUuk-k7EfHaG0nqyHR7VKmFUgBG_w_iZzKMiGW_BYprlyuXARfiTkjM1xs6I-X9DNbx2fq_sB0uoLmbB6HW9EtBcTNuaJQucdx3Cffwm7jBiZDh2noH5mx8RiEYGnHOYXU5ydh3BL8HGV5wuCOig9fxaigse8YV2S2s4pWVHvQ1l0BZu-D8paDDwaqYF1D4eIFF4ZGSSUtDtr-e1FC5ZmoghRKn90TmQM7t0CTlwmaMedlfVpuyGRZ1IcvDaMngxKzrDnRsynidKxj0E4_TuS_38sLNDRd-p8uf7saB1HC2COil5FotN_rbnxPgKFozvCfychnmGTsxRFH7XgTQLoy_Tlw81EpjL68ATTqpuuyD-ZcNgA9bAwqSAIIkz7tSHpNcJXf0iY4vr4BKFRhfham_PHiqa8v6jVcAP5KLeWxkp5OOJ5u21wQ3UD-Nrno86HNi3-rmA7I16IJ3_bgMeSXqYX3QbSh3yf4AaJJl8cqj0-DDIqnM_ZUsqUGBI4tEOhxX7TJYwacL4BtIuRLcqhQEVqNf7RaaHb_C9-qZnCOFAzNkoMXBcQT0Chcegthifovg7zBdQLQBgI3zW112Fv_SogZEuzqud6_AmYlaodM1iwuDQXCEkQIZW9FLtA398Ghu451DB6pj28H67Rd2eRO0s-VKKZtlX6xUz4BQoIAmQcEsiDwXL2nTRXaQqLNw2cfuxRaYv9mNtccD6OKJ5EhCrWIOfaQHyCEQYWweSghe0kkKkqDzqX2lAxbTQFbt9nt-CeeAqNfxTx8rODjSdRk5QX-JvHShuE5HudkqmifJp2JHba-9ZQIysV2inAzJDUnQbVx6wFWhsUl3IChGBIgX8KE9Zh9e44izogBqKXmLUz4vy791xHsgG_5E_dttL3xFTcvhlMorraAAZhDHuEhk9BXuIlZrAuYxZhaK2naQhWFso66RySCmK2zd-hyn8gWk6mEEhaocTTZuPhga1UyEDX4UXbK3YcBSfuzttTtW7Nkyv7MIDZ3wb54REG0UavrApU9bN_QVRdP1HuEMFt7DzpD8V3HB4PpxXd5c4GaaTry3vOZAdf8ojM4d3QCSH2ZZiy0hkczmgbfaI_HieDkdygTwUrleiElCvlklmm4BKYNAEwUOHsgWjEIvXd7PJS2H6GmCO8YQ2zwKn2BYpxsSycusN3VXJ3B2c9uBdPKywm9SQhMXF7QeEWCbuQx37zi4ZhuO0skLIwdadvAr7A2tv63uFSW2QeqMPP7TtGpuS3QZwiEqQs_Ug-VkquvgbhzeOzA_oEN1mNl9WYeoGSVBuY_ccXSxgkKWBS1vJtvPCvy-Vrn-8E_Xqii4FtD5TLfHmx1MlbdluisREodr0p5NJ2TLLLifjaWQ0fakCP9kxQ0rGhtWxSMf62vS5EWkK-fNxb1E6eoaEgzloMB4lz1rziPQUsWNI9K_8mhm6tM34IyxBL2tu8HpC5HGZFkjiaVaIiTsGrMyGa04ET7aSfd5p8AwiCA3RvPOmB8b-tkHrS-Txt8RRGDayLgpjJiFVXBuf7emGP58vOvFOlSXXYpGQDfIMoWuTeefa-2COKifGqeBaxrekCJxgveO_P3J0xixTuerVyPtf-hVKtONtznW1ikoQbjuhyWqI7P_W3WeQY0ejf8ctqlmF8l1C0g2aCN7ZsGIOhyWYB3oeiIhSmIqETMosgFM4wvbJqcfP61AqkM6sCMLzjWpt_aoYu0Dlc_POkYdXILh7H0TUbQ9p_zd89i5kxAc5XApEHkWVEHyq36-QGa0cD06LX3l-XbElSZPIZQBNJuXTs3x5ErFqShzORbcUt9ygpPpOdgMOYVVSX7hlrxqbXPNTPif0N9ZsnDKmKUHtk74uYomICJxnczFaZpLqEnvSpRo5K6HYxu4NEmBLAJLBjTzGY0RqhB-u3Syu_1suTMSIf8XKMrzKtjHzEFmjmn1kCGRMz1qpLY4odpGIVyWSgPYQGenG9nKOn7nD0rW8zniSFJ5dVUFYJUa0Aiw3uWTyNRGjPLH-Cghiqu8pf6UwTJv7ti-hLGT52L5eaLaUa2qACcnqa1STgG28VE020Hgr7bC1GmC4i5YaNEfPvHBvF_4L4KOg9ZBfynOvxppyXggJpptfYsGoloadzTnigSZtSnfBHyJQtDjDmLwmXhylemD8-b3ySka2M5YL0iTTMCgZix9mCG42bWVVV7LvDzs7ksISWctbHPPs4Og5Omcz_F0ITgHqq2qxwK6tJABkCNwPOSPYXhj2weTtX4-4t6DqiR8JknlKv1wEWFEexdbNzvkFA9wqKixzMJeaPqrWwNtrge6JGiYtieZ-ABoplGJNWXBVn-yCFBnhhzlqHzRQ8vgk3mc1eBOfKF_Kv0niHjtLZ9-kF9ltoRCIsddcHvNxTa7F9vgNAPxyPtzbktS_MVVa_xd426gEc96SJyzm8SI4pHu6JI4yDNg0jjKVzHAbR3l347c8ZkWnB70FWouItZ9oL6uLi3Ql0X4r6J9s7JAGmFPZR6p4KSIRnKYy4c5BMW_llbeHZ9tUliW0f-MeV5KXhbJAJWwDnunBZisRHdqcHOnSgxCmyuW1ltxq6UGuEv8vzatBv1EfcQHi5DnNS_3jCPBIM9ShoAfrbbzNfcpptcfBfTBng4R2VBzasGr4GO_oJDIAeSxFtPIO79Lv2cWudPDNUYk63TonycUeAuWIYTib9KbOfXAbHLOtXWlPn97b1K1_n-85YgQArrjIO2NVR3dE6kpZ9hoxd3-WjJQ==",
+        "id": "rs_0820b97fd4a89823006acc4ea3705487d0b7812bccf1119cf3",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0029\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL13448971M\",\n        \"OL13536171M\",\n        \"OL23325915M\",\n        \"OL6940913M\"\n      ],\n      \"provisional_label\": \"Poems and ballads — Scribner editions, 1896–1904\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"All four records share the title apart from terminal punctuation and have matching or closely matching Scribner publisher names. Three report 367 pages; the record lacking pagination matches another record's 1901 date and publisher. The title and shared author key do not independently establish the relationship to Robert Louis Stevenson.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Concordant title, publisher, and pagination reasonably support one publication family across the supplied dates. No metadata positively indicates distinct editorial units, although missing editorial information limits verification of contents and authorship.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0820b97fd4a89823006acc4ea6775087d085ffc079c3a1cad6",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0029"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13448971M",
+                        "OL13536171M",
+                        "OL23325915M",
+                        "OL6940913M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13448971M",
+                  "OL13536171M",
+                  "OL23325915M",
+                  "OL6940913M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1589,
+      "input_tokens_details": {
+        "cache_write_tokens": 1586,
+        "cached_tokens": 0
+      },
+      "output_tokens": 419,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 2008
+    },
+    "user": null
+  },
+  "response_id": "resp_0820b97fd4a89823006acc4ea2931487d0a79508f18b6facd5",
+  "result": {
+    "case_id": "CCV1_0029",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Concordant title, publisher, and pagination reasonably support one publication family across the supplied dates. No metadata positively indicates distinct editorial units, although missing editorial information limits verification of contents and authorship.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL13448971M",
+          "OL13536171M",
+          "OL23325915M",
+          "OL6940913M"
+        ],
+        "evidence_note": "All four records share the title apart from terminal punctuation and have matching or closely matching Scribner publisher names. Three report 367 pages; the record lacking pagination matches another record's 1901 date and publisher. The title and shared author key do not independently establish the relationship to Robert Louis Stevenson.",
+        "local_group_id": "G01",
+        "provisional_label": "Poems and ballads — Scribner editions, 1896–1904"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

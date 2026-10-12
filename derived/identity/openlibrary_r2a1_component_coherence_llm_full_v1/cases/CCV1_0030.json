@@ -1,0 +1,273 @@
+{
+  "case_id": "CCV1_0030",
+  "component_id": "W000005423_C03",
+  "edition_rows": 6,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774389.0,
+    "conversation": null,
+    "created_at": 1791774373.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_067f5223d1eeeee1006acc4ea5a24c87d09b550bd8723f317e",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE61e4P0xjTV71ywHLBnI-CWXT3Bc3Plif5iLv0S_xxl4BpPXENHxsZsYXBGxgqYcvJVgU26M4aCTUToxdC0RLTR8LzNKWFyJEjuGJC01bMS-6Y2k7zUyDSouAkhKnrZna86Lf9N3Y0651uesmKkEGFjS5cxIl3ZWjJO-nOGKwSoV9ZXoyzrlBpypX0s8BDFszpbtRDL_zt7C0wiNhlceXNszoG-nt4x5yd5xXIKFzPRfxIgmfiSChQNw-aDbKnPAnfMELfoF8aRgI3C99BSGToyusSAdapdtRq--FulRGGu18W79J0dzjG9EmmmTNU0fI1Ufd2uHBONYtUToVRs6Y8k2K6h079yOy2pR37QqPSZSSPfMFCl_jrjAzqaXAxeNAMjtDtbF8eh5EzebG86Vi5yqNTl3bqLRb2ly0qMG8vOBn6WRF0BIC9dLV47ZJ5QmK0xzkER2whRiOUgoC8SvrG4D_HCnpbTs3MkErsKNlCd96i18-jMIiT9uJgfK6OQwflRM-VCVSESsmbzFWRh1csflAXcwyaozoyX_VzRi8maYVatVbR3aMHVnasiSw1ZjxVlK8IeKxznkXSiqGa2bGh_0blKPgfvf3azaUcomYxlcyNomGiYqSbl42wZ9qlDcpB-vkdT8dNLsH_QS2CdviSxYOn-UzouSoHojsZ6et2BIcbZq-RlaMm54kolX8fKEbgiMhBWFBMyXbfYuTbejPX2vSzg44m5t4W0HcniYX4WvxqVMF9X0JGsaX7cHVy-Ih7kvSMqLfSSIIKcp6r8IaLX7PP0ymfYOvmTIrKDBF25--iwnRtrQrTCGDru7eXlfVUXc6F3MOWB7wHqAfHGDyMPf8XO2QpmynCfh9Iejs6V2gLtHsJqDaCP1-FH4mEhmtrwr6hbodHwwApqRzwPIUQTzKjOThWnW5IYt9BED6Q_qure60fgdUd1KVu5JxuFIJ20Qx_YYByWpJR_wplkimZjlYHrR4F7gqOnxRzT3yz6FQVfWySZbLduRh4zX99wZ-DpuO-CqodJcqpFfy0Jg9PzWV_8-Fz2urzqvApm104MB4NKyrVQWjqjkCKVBoo5sTng5TGJAd6dGRH1rnIObt-iGijVzp4Sln_fiKVyOOTfGYeIK5Oh7JAUJEs3q5Tyf6wH70E_8EwyF8j_6vmWIN1uu6M3JouXjLE4lHxt7sHMtXd4v6w-zChG3ShT28LCvc714q1Qd9qeTB8VFAV8PoqAD01b3N0RuN5i9RH-zLWzb1TbEK6FXAB9ZBF8zDYJ3H1lRJH8g5ZDO8T24fHEkAv38ROaf-Jl9EG1qZRLTju2Fh0pHvU05qkjoy6NwHxxjdD4-VWwKPpGUnArT_xTKqpX8BxYuhVS-xstWhR3UjRsR_kRjPZicP_crJXe0IeumwauPGLS128Xoz-03Ivx0L5Xicdi2IrXvEKlkVAzasdiN4mRmlPtcsYEcZm3Xa_jK0GpnAdh2MJUXFRkswfdmP0VaUEOPoeND5-GYPX6qWEjk3lCI9qcCi6TNP0PVino5O7gPaCvkcaRF3qTj-QKE1bzLrFOU899aPb-hCECxXMOxLRxO6HYNUpo8qUDECAQqYLAFtmzP5g13HnO_nkdfSis6Xmx_gQ6b8fgJiky1yl9g8UPzGvJwrOxRAW2nTSPjiAAx19FcCU_yXxXhJ0PNguZFolkog8po86Zr9lG6GdkOj92fJSadbzfoQLGzCUWzpyTsrexN2E_mOqhScWlsPW9JoIio5eqrStYTFviZLczIRZHb6RnjDVTWjUKNJJMhy-mVRaZXjQXRo57oEnX75vnhW304jIdKIeka8GVLKiKwtpkDKfn0HNeEb4R8KeXsCE22RQZ42kWCPhny5WDIhLz8mcouWtbfw-Hi7-NQ6qrdBVDYxf16SpgW0K6L90SdOBFYzHtHFSciazSq81cch65fdkOzZ_4TGu3BeO68rEtR4ntqR3uqnQBwCtO7ZEkx1W77GymH9KhR4XH6HGeLaMawpFlb0M0n1xCNoyXy27n39CszZx-N69_MhxxvVvuhidu13VN-BCkc0JtOSJa9I9mtBMhlm70obiNOg24FiMRocwHOAoClBxAuA3uxOmm4BsFnNDnb0bLVMurzBqwU9gkzAcSBqDjB1GlsD6oitkHafnvHFBGlHE3L1FIeTp3p49Kk3kL3ovlgulQPIRwIXWx3X65ybopYTx9Fx5z7MsC5FY_7yZa_i7llC5vbwAPDHPBuCY3R3uE0d83ZseEiY9K6tQR46AT_xD6SLJFIKscgV_FvkBrbEGRA9PF9EbT9iVDtCs5TSuMwHJC7FpiB7yDCiQ1v6o33BxvHF_hUmdd5cPxw6bZjAfrKooLO5lqqydjIuWbmyvWiMGz2fNjLImGl9lMLQrQB0jPH6Sd7cFbeaxHa_zySmmia7ic8YwdD-twltg805itPoGBjq03194T9k25cY7c4IWQQ577my4D3w8H0gps-M3BDlLNVA4txkumziidNnsu6J4tXBijYSPaWYTfQOzwJxk6cVcWKZ8V3UfQ-OZFvAOU-MJhMKjlSn2AaY5dxmMJ9sa7JWlHZqkqZyvUJ7GkLffOffLbMCJt15_W8uKXpTbdK7napsIdlyr4VoSHjxq1dApWevpyJ7Dtf2pcE9Y5HuhtkqYCkRuBroaCGcaYo-UPc0PvW2LzrkTU4mWQe0CRz8Bb8_NgmqW_2FDpVuJm0cLkxUZy79xbVxNT_pF4gpgNxmmQ66ZepRqOiAzV4vqryevFuRBW47jgVbKhLHDC2zHNYwrhu7R6DDlxBf9MJhs7YcyvYMUR7rHuHsljND1jfA6nmnmMPAaBaJIT7660BYsA42Ns4jsLnVyIrpUZILg-fQmfL7PkKdkSPpiQFvJP9md9JoC6R1xDACHiYupmyYClxbOnwzViTn8wSgvBN-0cGYPPq13x30M2IOq6coFgnvlhoe6rZWqDPw1yPv_dGsm1sOTd32MieQ47qs0Pn5HNtUCnYmuU4AJKpljwe44xM2IEi0gAw-1mzEZ8aaAgSEm02tTVh70ce9hhiPhkL1M3mAtmwp3f8uirXLCF22lMA9A-Etqj2LAOX28m7yf4t4R53ZeKnWRwitNcWqvooSVcBr5Iidx0FAxWHQuPpbF-U2-QqKAgXxx017BpWRQZjoB4CKGlmbtPwx0PLAZullDHTNF8GFjCvNZjK-3FZH6UBGp5gijwS_QSNIwyGi7Zuj7abSc9jAqwtOnVwTDDOXK79eY8l02RIaiGxKAWz-KTV1jsdk8RCDZvn_95rt8g4A0klw6gPZa518h_mna9EvbqL1-sgaH-bTNsHvO-abb8qrMXLNytsi3QDolTJsdRBSOpiJyU8wz3Ne4P6JpRV2A2o3zRxAVdzrJu9GWEosKLy3Rq1DHlS4dhFsf4M6bw-RiVNq7QrnQfjriuzU8Le3wjT6Zrgqy71bWrP7hyz15o13bYoUclumNKxn_YdgZqb5lE3Epp62qvvhs6h1qSFW8O5c9-6l6UhaVD-8YfUflEFc-ZfM0dwEEw1kikmEy6PbdPWbTneu5YGt9dQyj5d8yx0ZRwJrM_OHpRNhNtHBDq-DRMMfh4qFYa4bM_ShRq89Gwns4tPvyxoG8UHLwV0Kmt_oXZm_OGh-QAdZoqstvYOl6-_mBP2FhqjVZnK2jS0TR094Sa9zQu0VW6-oxgqSrY1YhuxrFri1XJLZNRaL2SPm3OtpGKM4DBwwjUnjqvkRxFgbWo6HDi0c4BfWr7i8c35SJ-We6VKAi18f5p0rQ8iP9hxVCGKBnssSo60Lan1WIuCVBpQyJTRvp-uOx7xLZBcsZzJQh7oIWYfs2W3XL5yqmqdN8hiQPxt_pSgD85zx04nUJT-677joR27NyreWFEsfNxg_6MUydn8a0iUvjehyTcN8-HHJbv6zEANB4XsdFt9dcNeejCUJ8jFaTn4d_9cKiVLq2UyL41k0jvwAaOv2-7C3igRuIjcq0Tk1gWg0OoxV2lw3fdpDsc7lziLBn8CtPbXfgEjMFgG2NPFN9wXIgpPW1bbbnnU2XBhhvQOx37gl_kDA44qK0JyU4cjTSYwIybQ1-d2rhEugeev-aZml578v1fMsUSxGlsuiQVeDndbX02bSt-PeBIhae1NVOum-P6nkg6Lc6oQ9r_6FTkTShcBuOxOhD2Qa-OQN03nmW2WIXTJtAX9udvNEq2biScF5eqbxmuJg2zQsQib7d2oq4ZA7oL3-8_v-CLo6SvrW2co_1V1YsHA9kAaU-8pyGlK13c18dFjfF7hYoIANPebJ-Rws6mRlB74TmED6RTw_irsge46iO2-XHPzxMIVsYw3RADmiUut6kMhMUFIRRxWlnKAPn0p2WP2YZbGPmrb4aUwUGRzLQ2X7R0EB4eHo5R66iCWc8T8eVLHmyfg_uHG4iBNoLn29OS6q4jnghtI1Cui8YrnNhidNFCM5DTOf6MFEy7H4zlFzG0HNrXwDxD2e5xcs0LL_1WvfjihQpq2-75JYDKxs-BVgjGpqPNczp3u1afsU03vscwBuKQYq5gdCH7fTS21PJC1FAwnIChyzxJ7mUiNcLJHBIe2QwMzdE03QVC60851Xe8Ev7HAhcr-1cqSoje2B6lfgM41rFSpaOh62bjOEx8jRcxHwTTR5n-vdoAlp0vqw-ldEjV3p7fIxy8oHR3fQUheZKyunD-V3Pqb64fhaINNaMpVc4aF065AKce56KlMSZTRX4SPhPlvxqtkvUhjfn2Tc-FAgZF9gNxLHDuakXJ5TXYfpHjumqW5smSfiyM1uStSqX1vu0CVUm1WMO2_qtYskn3XchfCUF_sJMI2rUoTeLOz9RXemRz0lxK_4x1V_oXgOZz8qiqILWg9K8u6c_wPmNnwbohIHumjqEZetZRqWfbVenOMOj8uoUP68fXAOqiwtg4y98zzL3g0QfX9eWvUFbGFMBMABWOUY21bxPKiukGjqlvDPevQI6Nzd57Js-fSTCQAY6BF6bpuXWZn7dR6hAnAvpWmr0rGcTCzTmc8MwR8dMfAWECmtrnudcrAwhG2Zx9RPm7CDtHMQ7xGUuSK57GHJTiAdCX-Kf-igcqmrTPq-5S6CV-X-KL8wKnh_o-OWC2O_Gv5j0lZL3WK6fEDUc79VAm8ZqOAG6huEAqvaNngqUW8HjftgWSpNWne8hELzOHYXS6ggLxG8OR-ruRtH_q0ow5BwFleDBr4Q8fypmnlzab8fzUjs3snytUY0LzKwChSWrK3V5W4gIEHq0yrPfq3IyQlxHOS34fUcyfcGAE6OPpqGma1WznntDab6x3fq0n4m1qIJYPym03sZ5-jPZq3KeCx9lyO-0LAd3wWZ2vHP2mnHPt8ijobZgKwTztqfRQtTfNidBO_S_N2ov-lA==",
+        "id": "rs_067f5223d1eeeee1006acc4ea6b2c087d08a0bcdac48c0e6f7",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0030\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL23245066M\",\n        \"OL45639M\",\n        \"OL7943597M\"\n      ],\n      \"provisional_label\": \"Robert Louis Stevenson — Poetry for Young People\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All three records have Sterling, 2000, and 48 pages. OL7943597M explicitly associates Robert Louis Stevenson with Poetry for Young People, supporting a provisional match to the two otherwise identically described Sterling records.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL7988412M\"\n      ],\n      \"provisional_label\": \"Robert Louis Stevenson — Selected Poems (Phoenix Poetry)\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The author-name title and Selected Poems subtitle support writings by Stevenson. The Phoenix Poetry designation and 176-page extent indicate a distinct editorial unit from the 48-page Poetry for Young People publication; contributor roles are unspecified.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL14195420M\",\n    \"OL9725677M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The metadata supports distinguishing the Poetry for Young People and Phoenix Poetry selections. The 1923 Poems: a selection record lacks enough identifying information to establish its relationship to either group. The Tandem Library Selected Poems record could correspond to another supplied selection, but its generic subtitle and missing extent leave that relationship unresolved. Shared author keys do not establish compilation identity.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_067f5223d1eeeee1006acc4eae60d887d09dc62a5857087752",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0030"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL14195420M",
+                        "OL23245066M",
+                        "OL45639M",
+                        "OL7943597M",
+                        "OL7988412M",
+                        "OL9725677M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL14195420M",
+                  "OL23245066M",
+                  "OL45639M",
+                  "OL7943597M",
+                  "OL7988412M",
+                  "OL9725677M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1760,
+      "input_tokens_details": {
+        "cache_write_tokens": 1757,
+        "cached_tokens": 0
+      },
+      "output_tokens": 707,
+      "output_tokens_details": {
+        "reasoning_tokens": 273
+      },
+      "total_tokens": 2467
+    },
+    "user": null
+  },
+  "response_id": "resp_067f5223d1eeeee1006acc4ea5a24c87d09b550bd8723f317e",
+  "result": {
+    "case_id": "CCV1_0030",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The metadata supports distinguishing the Poetry for Young People and Phoenix Poetry selections. The 1923 Poems: a selection record lacks enough identifying information to establish its relationship to either group. The Tandem Library Selected Poems record could correspond to another supplied selection, but its generic subtitle and missing extent leave that relationship unresolved. Shared author keys do not establish compilation identity.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL23245066M",
+          "OL45639M",
+          "OL7943597M"
+        ],
+        "evidence_note": "All three records have Sterling, 2000, and 48 pages. OL7943597M explicitly associates Robert Louis Stevenson with Poetry for Young People, supporting a provisional match to the two otherwise identically described Sterling records.",
+        "local_group_id": "G01",
+        "provisional_label": "Robert Louis Stevenson — Poetry for Young People"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7988412M"
+        ],
+        "evidence_note": "The author-name title and Selected Poems subtitle support writings by Stevenson. The Phoenix Poetry designation and 176-page extent indicate a distinct editorial unit from the 48-page Poetry for Young People publication; contributor roles are unspecified.",
+        "local_group_id": "G02",
+        "provisional_label": "Robert Louis Stevenson — Selected Poems (Phoenix Poetry)"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL14195420M",
+      "OL9725677M"
+    ]
+  }
+}

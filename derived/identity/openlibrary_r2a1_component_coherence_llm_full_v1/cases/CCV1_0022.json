@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0022",
+  "component_id": "W000004923_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774351.0,
+    "conversation": null,
+    "created_at": 1791774347.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0c7b8d9f5c30fec7006acc4e8bdf3c87d0a670080e763dd38c",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6Qg6I7bGZ0tnmjjNGNPyzATc-zwAppwOdCAjnj3XqH9lA51yXMpdP2PyugRxRxA3DXKsgMIPo4M6BgIxA24oZrE0br7mMNQYjigni3nSplKxy-ZGdnSfPjR0pIBr8wSNEXZ7-gqOXXSepVNgPyP23sbAQfLaxoBtE9q_tE9Jg1xUer3tJGuLVySdX3NYP2IMdGnHdkG8NEUtDrsO-6BlEJXPM9eukXctHHov0GARyW8DmqrRyQUWGb6EqQfQhJMQqNY1mQ6E_Jf1NZvFgikl_ERqwIq2DrBcdmqqesgwDALad10IeOyO3OmEomP7ekqymYP02ogKW8BFu26MibRu5Y0ECTNbijvwEgnBq1d3T1C46G1Ph1LJYOy3m_i99GG5s90S5VuUhbILvA-_9GV1JQHtPRyxyeHYbFiAEKSYRcUk08dTnkeidPiRWW75U1S06MnPgOfrPgF1s3Si7d-tRWK4Nr8txispJS5ik0uSYOG0iOqggPz46vZCcWjqPvnqlpMO1Vq44E_CAbTLuWxlKBuIy9c139iS-qf6u-5wxBFlm2Gvv23GqiH4IuiNEctR24dxdnAcsTJ6JPnnreX0o_PGKe-dGnbQ_52lgJ77cZoAbId6ryWw7ZsBdAXPqQHBwQV1s-0Abmf_oAs0uhT2QYT-TvduNi7vUf0b3HYDWwSFGbprWeZ0wcJ6Y6MksVkFU-GQRZEQ23BBkqFgbB0BwGKgjuLl4m7yMFWcNRNNaDAwFfmOioQPAhBYUTRWL4WTTYRZ3JNsjEp9eCx7F9sLKtrIMil4jS5UmZSP00csgq8rIxFBFs639W63MIq8XTb9AtX8tgc3d-LvE0dNRV4XzjR4-fgwby_kGsfy8U_x1tmcU8uxkkjRGU1ibFSw9_ngdLwYUaySJrTIfMghSG4io7yzJfT6Ex2UP8q1DEiSo7t_BylEK3KhM0sS4KmuoJyr4-nYQ8qIk0iqL0F4wq_eX8xg5GPQvB0Pf_n9QRCWkgjhocpyzEiKqL_DYfM5fLXxTCKCQSGKR-a2IAHzVTAHbmh25acej7SkvBx0Pk_T57CIvHq-klbXPvJN-G8F1drnTgVB8J8L8LbD82ZfD068MI-cEBoTCvoxm6lm3CtV3KiZxT-gN8mDBMVGLr2clkgaCzVMWkbayrRFuDN3mhufqEisAp0R7qTsocQASm2Vq5g4AIq2jvvy8V7UQJqcRkcOmrdPYLeoQfeFqBiMWiYM6omLZKO0juFiXGhsE4mjfP7BqLeEzFeGULPPBtmcxCgLGQenSAQ5G8HM1wbokPmLLdlTX5REAzeOU31elx214zMXUs14KHzrQ1Y7yLP-aTxQnM_gcI-u-H0pYiSJ93Ak00BZOAF4Zmq5iO1QLBTbZw5473hYPs9KZ3ZkCmg766uAnx7U3NcajsWSnSprrl7ftRetPsXuiVfIRmif99kT7ZBjXymFGibnrzaaLdIZphCLhV76RKedqRvVgIkBJCy1FSjdq2xhCP5hgXlJkWiGZEyjJU2Ek42XjULpPaSnBliyv3Qtc3e7h82bUE4RkQsBO5HgMsCo8fZ7Od5h_UCMw6iIENEyTheHOsqBn0Gj4phJChl6dRj1MIJUEe6eMX1UIt_ufZykiptXHOeEXrCl6e0KFdvPOkrixtq9TsFlnt2RX7Gd9yvq_mha8FDm3RCaZgjs4xx8TH2dl2j8hQnB2PnPhbtewhugA26vmnunZgJ-D8g2onw85AF7zEBZ8j5zuojxw3t9fXgqFH5bp6AR25ECBt668o1WANnISulzbS7IKUf3E864H6jaX4dTdc5ziSFTmoICR3hQDctvqCfvuKtS0KaF4fkU06jli558yNc9QxGfpQcnU90C41sYsSpCoyU9uuF_31MMgKoo7Ip1XwBR6ApnaXXkt79yu-50XdI6JRLl6RqhoPIfmEeRHEIS9HIzS5Sbs11cxSGvbwsK12IB4=",
+        "id": "rs_0c7b8d9f5c30fec7006acc4e8ce52087d0b35b8e2f76c18f9b",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0022\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\"OL23017638M\"],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only one Edition is supplied: Cantos de vida y esperanza, published in 1977 by Editores Mexicanos Unidos, with 186 pages. No cross-Edition coherence assessment is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0c7b8d9f5c30fec7006acc4e8e186887d098ef4e5e71bc5bab",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0022"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL23017638M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL23017638M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1352,
+      "input_tokens_details": {
+        "cache_write_tokens": 1349,
+        "cached_tokens": 0
+      },
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "total_tokens": 1518
+    },
+    "user": null
+  },
+  "response_id": "resp_0c7b8d9f5c30fec7006acc4e8bdf3c87d0a670080e763dd38c",
+  "result": {
+    "case_id": "CCV1_0022",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only one Edition is supplied: Cantos de vida y esperanza, published in 1977 by Editores Mexicanos Unidos, with 186 pages. No cross-Edition coherence assessment is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL23017638M"
+    ]
+  }
+}

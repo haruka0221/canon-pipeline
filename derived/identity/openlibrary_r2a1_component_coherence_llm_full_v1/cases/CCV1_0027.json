@@ -1,0 +1,248 @@
+{
+  "case_id": "CCV1_0027",
+  "component_id": "W000005351_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774374.0,
+    "conversation": null,
+    "created_at": 1791774366.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0b627905f99baf6e006acc4e9ee3d087d0a16ce9b395176be1",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6maLMWJRMjDu3BqefKdxUQ_MOs1aiunDMm0gwaCarrHlGv6-Det4HFSaDeUz8JCNFmVkHq-2t0qmXFntFBCEO6d4Vq408NL7xY4guIsxKqxOUg70epluiHyCBKiYIUnWHV2PtTYeu0RzXB9tpQ0RcZqWHfppmeF7E5V_2ElmlmkEUDHMUMSv5g9s0GRhUUrmlAW3Df4uukZ9R2Uv_Q3twGoz-OJgKIJV84-kdqusSSi5TPKfQtud2llnFrctVCdX6bwz6YSevMOeZpVjIPPXdcEP9UMi72ELKrvpwdGDj2rOzqOPl6XZ-OnKTTBbYZ1aadu4ktlgCqSxVcLEN8rlMrvdxcddhlVrcnBA8mK4nJkZem-tKthCtWjXpgSoazXxbELd7UcEHRMq26zfl7HGY8EhHx3jZXs6Ieg0sY2oWXce2L4cl3V6Oz9z1SXbX7xNPVGSfFzB4j3_8XTrFgEWzyeyHNqG0eRdcB-FmnBra2XPXWYhEOkFPHDjkA7TQKa5fT5ZUW8xy4b_BiUC0QU9Y1KpCXuOOP8f5BhG0dCLXuuPqw5LlOtZ6I2JxZa3mW1OPGBkIvw_MjyGF8aWatlfg_j1N4M_DhbeWUayxrovEErO878xMt6tX4Njarxf8fTw2m-cnL-WNw34mArbOsDnMpMDowOh72AWGTYdHUdpFPvPuvgq4jOJ16fz2UVMuh0fli-lDVhvz_XV5QrdB20jcH4XbZbddMwPTJ5Umu1yNCuMOvI85AFQt7F3mf9nVKL0qDPWTWW1Jv5bezfC8Vu7Ko8omloA21xslgWY4HkDYDxsdKpxumVw7tjoN0FQWeLmHSBfS50XEbJczEehzZBAKn-91_DsT6VwI2veKhBEQOyK9tw-dUvfxskXelu6DXF5SnhCYlyoBSSAcX5JBb3ulX1eeW6ri_3EXvJKdeR1yGWsnyRi1JdMN2F-uxOjBtTTuualoEziSmJ5Ao74rm8zCVqDrQ3YzksG8Pnx5A6CrSBBsKDgvRTdSlvtpxQAr4GwYHVTGUQ03kvW3krtYJY_WhBf1vkVXgARrCt18WzBe3LLJ-alExH_MtSkz_lVvkJD2Kdc5dVUmQ5En9oNgJt4rv8-Q8hvwI1qw6aUo2lEgo9XBlYEd4lWJrsbPuuetSNf2sJOncFlEPSpPs7oTG-F3ZYRTFwIEXrRYkbi_6sp08XKbVcPqbOtglOWAqCA4eX33y3ZzikenzryYIjT3tgtZ4msruGfkV0xS8uSueLdXjlrm99u1M_oAa9zuV3SvFRXRFPKmB4z8vXx6Iu4-H1OYa7qm7J2UtlFWSp-L_YETBuAosgp9Qy1gARQVR7Li1E0Bsd0GFDsLZ19nN9vWvU54AHcKpf3SqGGmHPUB6eK3dkBpQDq0R56UrsNcZ_pu_MRFlMqEFtaiaI9NxqTm6pGedsq2csiB67ktAStaaEWwnWmHEWLNSJPgWWBa7sJsjisq8fn-Dc-fhr0M32TXxKUgRz7yz3k9dNLFVjgv3LyQ_v5FHr34PxmK-cx5jlYMqT72RuDNqlcN-okE82LaWk0aIrrc_g-4j2iTMvYu0sEzz9_imUt9TTvzqFDaB6M0tJxQ-twN5LKbvOhmi9Aec8MrlDJJhpQr-QngklhrnwaJ82HxwIzk4yX9v4sdHQ5SybtGmEjwRuRJtA38gs0ju9wK_8q9gZtkqoHuDH63B4vJUgv6q4EnNYrlCev37fbtc7k-RYBefhLKm5oJ2lDxIqx3UXJEPe2FixXzvmBV5IQ2DNuGq94i5JKaBS2N6nCv-9sQZekLqo0-3H3CH8CuFy-XBXOQkyaBybHc68GT7D_WyxEgwETpmFUTDNXSfSTYV-LQLHqMCegMmS4Dta11SpvwhoHsnVgzbckvx_HZTJEy2QmsTEaJIC_xqNdxwhXM_6qYv0wtUBHbzxrCFnVpzE0IEupLeQzELMbOmXcXtUZabWTK3an3AFJ2TthBssg1p_SrlHWORhptWfRN2EPaEKbE9JyLcf5DmTRflXfmhgUrf3hpp_sxVUs9Czv4w2tCY85E38Ah0BR1akZalZhm5tISXelLudFX6T6ioG7VrTVxyuzXx_gVt5aH9dYj8lcCANQ11hj0l10r2JskdzBsQZWNsfFO2tONCqyVcPX-WtIphyHhhxrG-57ukZKWiylANHCe7d2V9AOCtlYOdT3XUDcowCuGrpExzkAYcCWooflfWBwxHdoBKwKdMvns0av4SXPlwFxdU57_u_EjTcUWRU4Tqwybd4c_m_bWw8YO1JM3_1b1oKqVA76QxcYlqvC8tT4JvY6P2RSnFMn1ZuSVt1rLZSjrG1TIAFIyeEHJOgQCqAGKYQPGO0m7WDP7Zr3_M2T8qVFlso8I6Ysz6YZAwGqf6epsdKCWcUa1iPX5fMZg_D2beFqyGqNB14RFdlPv2PM9Iad1mJuksbmyX6jhjiOJ4DNo9yTo0ooqZP9p_K8ZQxzcPqC2dPGo-upcKXtYMIEdBZC8-Ih4uJlxQeFF_cgTEHy1y6e9Qd5Hp2fJuH79uRELSu-PoeHZjLwGINits8Ar1hzzgMRB6e5LlSSKWnnOSrtXEvV8qRxTSZ3VUdSgPUV9EeiuZsppwIHDDaDob3rGQSVnQzZFfrUihccAFAgrHQpm6Qg61hJSZI8yNJQvC9VjzgMjh8W7KfK2Lt3mw38qz_VWT1kUlHrjib6DWdZ-ZXCnmL4CbDtzXv8ugIhcSgCtxZRK7bnF7hWuJ8c2g7y3nP_wZ4y0gI4d-oiIYtaW8eBh-ELbr49uQZc17sNWL2N6Sh8YyOXxQ4PP9-VY9-mHAlK5hluBSACdNTugI9c0Lx8WbqRIWqLLtWjupAN_yqvSoeeVT8jaKHOElua4OFFDijm-W1zeWOBt_05vVwjTrQ-YO9uPZqBjPimA_JQCSPF5NY02L7bb3xwaSDnXXyye4j7n7I8j8LhSUesy8LZfIQ_WJaKDdXee1WFbEbyEXnwl_82SShcPH3TxbKQNyINMOMoH1YEJTeqUYMR0DinXg6tIIrKZbJ6Q9XsK3Jq_NYv069xWzqImTDZkaHjhquyQ7IOm-4WusuDYUTHk4NF0niuhWKqM7rNck6exL9C3Mi3M=",
+        "id": "rs_0b627905f99baf6e006acc4e9fc5f087d0b8b390473b843ab3",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0027\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL22203603M\"],\n      \"provisional_label\": \"Chaucer: selection from The Canterbury Tales and Troilus and Criseyde\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly describes a large and comprehensive selection from the two named texts, supporting a single compilation containing Chaucer's writings.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The 1963 Dell Pub record describes a 352-page selection from two named texts; no editor or further selection details are supplied.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0b627905f99baf6e006acc4ea2ec0887d0a751dc6124139dfc",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0027"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL22203603M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL22203603M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1375,
+      "input_tokens_details": {
+        "cache_write_tokens": 1372,
+        "cached_tokens": 0
+      },
+      "output_tokens": 358,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 1733
+    },
+    "user": null
+  },
+  "response_id": "resp_0b627905f99baf6e006acc4e9ee3d087d0a16ce9b395176be1",
+  "result": {
+    "case_id": "CCV1_0027",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The 1963 Dell Pub record describes a 352-page selection from two named texts; no editor or further selection details are supplied.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL22203603M"
+        ],
+        "evidence_note": "The subtitle explicitly describes a large and comprehensive selection from the two named texts, supporting a single compilation containing Chaucer's writings.",
+        "local_group_id": "G01",
+        "provisional_label": "Chaucer: selection from The Canterbury Tales and Troilus and Criseyde"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

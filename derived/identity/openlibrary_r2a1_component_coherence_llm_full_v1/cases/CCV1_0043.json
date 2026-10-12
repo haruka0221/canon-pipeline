@@ -1,0 +1,260 @@
+{
+  "case_id": "CCV1_0043",
+  "component_id": "W000014024_C05",
+  "edition_rows": 4,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774413.0,
+    "conversation": null,
+    "created_at": 1791774404.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0195119c2818abb8006acc4ec4169c87d0aa8d994ba9805877",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7NH0zvV8dHVuVQDDs5Cf6vHL-kT3z5tEEdDvo04tECDXaEuRCWr9C4rW5hDoHnf4Q3c9NCtWivMFT5rM9990oC1iqJImqqoux3uHuPASMlj6LhTzDCYyJssq48g9LCZo47RM2v_dqnGIjtURGCdl-wPPdvMJ24nIlgDAR3a7Y9KZOR6axTYNAdVoNBs8FUEzzML_dEx18CHT-lfvA6EFZQmXa6XuSYc9ByKM1nJt_mK9Bas_TgHCJWPKfN_gEkQ9URWSxenF7PBo7c4l9Sqjp87AU00QUu-vDYUOuDbok4WAjP8E8FK9F49jeDXVGsgJrjrP7v7Pb7baNt3bvYX0vj4hAZnSscDWWIq-stEVjk6EqgVIJpqvB8Exm7LPUVFFsyrY2S-dcm0XgkqntskHZEG8OVv8Y7kKN_z6PbXzCND4bj5kJ8IM7XMi4RXFjGTsQozq6IaS4oKo-pishtnmr9Jc3U0WebH6bLShoqzYXPlAp6LJLy7LxWr3xVJOnukeszV5mzdUEJtdpKXDb-cpVO2vXEghIjN3jl-cpTmeZBZeanPpLdyWz3tf1QovEavRA1LhG0n49nEvhZNojTRUgYTx8XjuNuY1aBIQWt9LM9Yl20KT16MjX5z5dO7IjcBokcGfZ8CQRVgPerDYisNXtDeX3buqhyc4M1gZ45MIjzF7WtzkgZ_9wJHFT9XKyNVuBm5exqPjTo-WB3jTaAInXnNhvd-Xuuuehbe7QJE2BFZL2Vm-vGNHpuGWFT4yfCZE3709XnMw204dxkY2jv3hIXasiQWo6sC58h6ersFhKM767sPoZFz5FQCt9UYMrP20DGACpv1CI6D0Unts1YbgrpXwVKo60NrPVXzzboLnictIMqiCNV9FuFBd0Ifhr4qPlQ-KWIRRyD6yBms_J0V3VuPVVIYRJ7cbkADfiV5E24ygUxPTZUMMfNC3rj8KeQfTIN7lRQKFru4nqWprZVj-AunIymdEfgwRodw9jjfM-nPmpFraN0XBrGGHdKbFgE4WwMG1KSJGLrywdlA_cfVmDHz3xWbc1QgaRITHTZJRz6fd6aQBe-COZ-8o9i75gb6k8IuyVzXEyrZEfrpW_DLjQNp4uJJr1otM73_OjntsSs44KBZDaiENamKWHFYeNofLZCc1mOVLWvuv1X4FGpn_TTBOX3Sk7vrAmLmRwxiekPR1YXnqleiq2y0UQLvKfRmPdAXbfFngZtuUk9emFFFPICiTC5FQimRA--qvLUEUb3a_aYkVQj08AEDRfbkpBxMP2Onkc79rVFtOd8Rys9b8HirtR7YBapuZoEaPZDMnFIX6oWbrEauxMyKfDNZhFZQ1H-P5TmarRFgu6_DWAvlZ7Jg5pDTo-TXI-pLUgIBGum9gkAq30bOqQ18dCYklFWMtEfOvslMV7NXgM6BYQ1n_f-cl5KeQc7CCQDCcUfRXfqliYmccCRlvfkVssnpPOA8pl9DLGNgc98tzjNQOPXl-68NBSC8lvIPrOssHL7s7Jpdoi7giw5OGNl3z-Kl2FGAUMr7eK2xoi5JtAq9WXma80JwiMTyYUp-WHKvweg-iDulKc4zVUzIYuAQCi3pZuAJgLpsmxrQCMKThpkxDAxBoRDRLEkLwoeuisETP9g5GymD2d9eIVQr6eWG5SkYg19L-kqW9t5RiFUTec_ZSH4WJaXzHQsZDzC-tVmTW-XftjGpx6snYmTHYA0s_N_vE74tGmp9dj65zJkuUOf471DALyjWIqZt5pDQT60RbJ8GRxk91yhgj5KpsEOwTVpxbrBnebFpTGmnwbx0PkM9ii-W9F3w-gQIwlAhm28lVVoBQTtATT5xyusqyhikKDTA1a5xynuRbmltSRUctHLkEQRTB8-KfNS9AGSHoE8aDdX4dvFpBj08nT3QlJsNgoYdxVQXKsZCbyoxxxPGJBsEKq__eMhgwmgIy6aSC7SvYhDw1I0OrmbtjwqcCvUZ6E_8qfEwDbOJS8I4LDYHjxtUCPLOSHsCajV_1eayqi-ZRlJPQfUQPuYiKOE3pVhvw3oWL9Z8LtMCW9U1kKujIge0wbmjJMybt4AMiJc6pbFdAVD0ftdq2FImQakRjPNMx5pUeeFvx_LsQny9kPrydjkyJzyTnpfsBvAaxwg6kLOVs9WMGxlhpdV6YJfVXsAzfb2TC-bpJMaO4VNKSRvv9eBOBTf9TRgIjCD-0nQevpEj-6Oa5bOywPImVwECGbNWFfFnBLffxNMKdZoFc2IUIIbMtNW-y_lKInxwshNWbJGHQdfA4hkfnLZ7XfGxUHKxGIEHFddJxSAybwdH0jEXD_9l-euZSIRM_mdmg4a9M9_veNelKhPgs0TyHGrUxaqnW7TbaxxN_m_4ac4GErOIZTyb12OuABW_lNSafAjhyis2MFjJuGO-QbRyrEvNgbMM1eWAED2Wzo93gNXoqvX5taRF3vJIcmoa1bscM5KOqrOgSkWxh3VRCv1W1iuq1LMxWFVVm0_VlOQyiUehbRk0ByP_rWErDFgNaOk_UD_q-EzifoIH9PVnXoZpc_KTWdlC-D2lDxal2Ds7CiTLXrRaejm8GhTLgCXZ1rYs5M1WZIFNhtHRFAjyHEZ0v7bneRZysZXONQ7GDOal82b_2wQoO_NerThu-mbXSyGk8rY160ynLmDP0guLQNQGc4L-FoysqYY5qkOF8pOLZ1eshwYtw8wpo3KsPpZDKgFutkykIpMPw_TMK2drtfUHWiqrKIWJSAevzoaqJm1w3UYtr-QYLXd2htnPQVvWjx2_NzRMlABYbLDXwNeWY5kK292Mp9vSTr7zbc9oW7nyjctZGNLd861fRYRhKj31SvrjgW_f4fz8KlMeQ97gi6lDGjK34sl99Ekob_I7q19D2p_sDLBI2NrYQ8vNRrTcN_dJG5NBs3Bs9O4zjzuad2gjx2O4R2MJXren0aCwJ8E",
+        "id": "rs_0195119c2818abb8006acc4ec4fb1487d0a4320656ff458eb2",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0043\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL7987916M\",\n        \"OL8393588M\"\n      ],\n      \"provisional_label\": \"Henry James: five-title fiction omnibus\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Both Chancellor Press editions list the same five literary titles and have 896 pages. The minor variation in 'The Portrait of a Lady' supports treating them as one compilation. The title and fiction-title subtitles support a collection of Henry James's writings.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL15088634M\",\n    \"OL7770273M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The two Chancellor Press records plausibly represent one bounded omnibus. Hamlyn's 'selected novels & stories' (1087 pages) and Dutton's 'Selected Fiction' (609 pages) lack contents or editorial details establishing their relationship to that omnibus or to each other. These may be different selections, but differences in pagination, publisher, and date do not establish multiple publication families.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0195119c2818abb8006acc4ec77e3087d0840aabad9ae8be0e",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0043"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL15088634M",
+                        "OL7770273M",
+                        "OL7987916M",
+                        "OL8393588M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL15088634M",
+                  "OL7770273M",
+                  "OL7987916M",
+                  "OL8393588M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1637,
+      "input_tokens_details": {
+        "cache_write_tokens": 1634,
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 2080
+    },
+    "user": null
+  },
+  "response_id": "resp_0195119c2818abb8006acc4ec4169c87d0aa8d994ba9805877",
+  "result": {
+    "case_id": "CCV1_0043",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The two Chancellor Press records plausibly represent one bounded omnibus. Hamlyn's 'selected novels & stories' (1087 pages) and Dutton's 'Selected Fiction' (609 pages) lack contents or editorial details establishing their relationship to that omnibus or to each other. These may be different selections, but differences in pagination, publisher, and date do not establish multiple publication families.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7987916M",
+          "OL8393588M"
+        ],
+        "evidence_note": "Both Chancellor Press editions list the same five literary titles and have 896 pages. The minor variation in 'The Portrait of a Lady' supports treating them as one compilation. The title and fiction-title subtitles support a collection of Henry James's writings.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry James: five-title fiction omnibus"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL15088634M",
+      "OL7770273M"
+    ]
+  }
+}

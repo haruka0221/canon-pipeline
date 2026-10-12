@@ -1,0 +1,244 @@
+{
+  "case_id": "CCV1_0055",
+  "component_id": "W000023649_C01",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774441.0,
+    "conversation": null,
+    "created_at": 1791774434.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_099e44a2deadf85d006acc4ee22c2887d0a6de5edd18fdd66c",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7pWfB0Pui0IsU0rRlPN7SKICl6jmeoEnBNReU0hcfUfSzCNMmuhoKnfCxzOMENlUQ6-3VaM5aW6ZjCN6EjbDFjOgWF-5R6qtMs9VU5Q0zW8-PcCsImfo1xqmrKMJ63o3EICq2Nd9CkB6aIIWECpMKymecOytDk_7ENMoG8m8Hc05GEx1r_mKAfy3u3OaCFD6tzHJAZ23e3MWYdzlgR0byrEXMsPtMvpGWeq9TplmgprJbJWAcT73WbDVJhUVSr2kLt6cSAKmAHOKEIklIpqjpl0gjXGNa5lGR3VEIzBnxd6t2JeRJdMMQ69EMPuBkOEZaDcHAw9xwj5yhNSJlPrpQphDbDURyyPFaf7KKpKyCfxme59b06VI-4jQMj0CVqmPLKaWoo9k-1nAojHHias5NFUYg-f0amiVntkBNJ0o35SBYyHfRG_W6Frz2EGWMewE0F9kqxZ7MNav14FiGBzprI2ZKS3fSJqyNdG70lxtLm7G0kDWapf2PVMh9iBcsPevlX385HWRvkMrfpaF4X6Kxc1PSFFLd_1UHNbQbmPiJQ8CoDYF2VubJsxe--jGxQBDlkJqF_vWJZgf-IBAWW0P_VWdhgrzdrc7oEi-KQQzeYZ4eGDp1gixIewGt59KRsaNdOnqNIWtd4v8I7cdBp3IiXuGG6EFhqrTvHn04zcMXd4BYwuxBFC0Na3vAJ5F4RJvhEUdPAREOqSV9Lu9pQ_Xot7Rf3Rcy0vVdqxq64-AhDiOq4ZRTPHK7937ZQfiz_lmGpoLFu2kBoCmpoh4ESX7p_AIdeZPpL6ZQfwHjyyAMZyjR_pCH8jX0F5BcaNFq78guW2rGDujGTlkaPlF8_GcTYsa_0PyPBOS8WFY9CWUysYe8IK6Sfc0nG4lUTijKX7r0YsguFBaylY9cGFYzQob7aC3lEnOx3nGrHKn_9NZn7ruTsPEYPb05Hi0p-hVxpmgAmEAo9PAqp38Jmk-LZYjArKuFEH-qM7gyV3ebxUKedRBz9EHYDKqso7W9etVEHvPY7QM_R3R0ytyXF_rRb2vJWeLpcmb1KrWEhuVYITtv5qJcFzqpQlOB1UZ-6YEUexvWkODJD9toeYWF0UM9jSgxAWhu1My56kD-7ePPjR-rDKCt9X5mU5zjFgXZy3pZfX1Z1pcuVY6FBA8ny_MsAz-e8QObnLA14RTQQoKNswBcV58devO8-vvNjqbOMjI2MkIK5qvL2d568gAAUcVCD7F4JwMV-zflLY7aRjOsoDmXp0R4_vOaEzwWOIAOpr6sImaww0QQZr9qbEudhpebYtDhVSxzN2vBW88HOnx2B34jI8mHIJwQ5-9kgNoKxyTy313XyHq_YHPFqvx-6BzNePfjnD9WaN2pwxelGMQS1DWkKvTilEKT1U9MHJzHOndU3-X_Rujm_1YYwRTSruBIJUioDGNOb4bLJyrhHGGsNhS2tI4Y4gaNUSn4bXGqo-5cUuXCSXNk2FMmZMDY8JiCaDf51ZNcX-HRui54-cRhEF3_W2EA8pi2d5JkzLOQuR0uqdL54foGowvDZ0NITSUtbJVZd--e1HjND34-nQen1nGE1e0N7F_REBPNZ4rFyl1DPVJtM_zU2K84BlXEJ-87lUVSu75nRTx8TYFl0UcziUBf-5UvFoqIUAwv6n9RWJ-CUMpSJX8TS3GllkcpL-YJp9V4_BnLIUPSef_fgAvMHNhAa79Zg1sRFrxS9EhhqH3TueADZc6MX1y3spqBo6Q4m5wbAux_poEhQ0ZtkvYnwD54aOPDxAP1IN2e8BpNukXdXCkqKK_UlSj6fc9Lny_4lhI1gaLfX3-Ih3pMkdfoKcgoWjP1xpnuM8GNV0tSdzkoUtBIsGu7rej9vyjcyolMY6HlqMOB0s9bfLJezpCS-h95W3jfoHAWNk6NOtHZ_Jsk2XW7Omy__2pxY4H5155lAUUE3ZUgHrLwtoVwmnuNN_EdlIu564Yms24Qg4NC4BQ9G6WBM2gFibpCqQdq547SYCmLRcxXzpZhDIGBmlEEfzCOBigDpzRw8onARqQxseTTRz2sqpg3bZNhhCvMh4DMZVI23GQmUBF5SgEddAQqXHFxB4Zdq_JfuyH34-5XOZSJT1rYyhQNRkRAbTYX22B7IoFR8USsxVaTNYHR48UVhMjSSkRkC9rZCOlk5KQqQ136q73dLTOwmnEoERFKddjOZ79Ecm_se0DcbO37jK9eLo4_4yCIDg-w8vkPgada3FdcKewEVerZf13aB0VdWSzs5koMs7ibbXfq81NDw1bpAalOFti6bZUQRXsz4ZbJjTSgtm7AGUgkQneDIamlIqTS8oyeaTPbiLFdTLX96EcA0oLtWc0fdK6S48zh6YgHBuB9gs2MdUuCk-kL_crLKAZWbkNsNuopw05JLCA_SnB8JR7jOZqUhyh-Wk2-vavwmpimzMoQt0El2QUElVth9js8oICanpepZfimNUNoMDpDKCEnaAdTDn6UdW2JFFyGvhTe2Uy-Od6VBOt4UXO4_RdVr18Q9UVQtac4XRNh_RCJiOLkVKU0l4AJ9LTU6NqUodRxBbiP7YpMQoCY8H-0OsgeRlOWm_baF-f-5rekph_XFQWou1yA3zdKE43-OaPjN1TLFOuNQ9r82Q4_DCro3_PCtqwuAH1mJ7oxyAMFH5kZfkaGdPktDq_CrGqKIahzTL_4tWfoyenuHFUe1ZvT9mjv-0TlX64AA851RzIQkoWMwTnPhhkFipT9UXCOEaeJk6ea4milhYUBblj44o9N1-5_rwF9uslxQZ-L-Wdk67NzyPIIXzrFL24cuYuYPg1NM_XTGMqSammQyVVJnKQwVwh1sjA6SeLVDtKNw1p1O7g0zIibgkyiGDd-FnbPaXJA7Y9N23JxotEATezxPe2fCAIGwtl7UGYXmxMavZ8Y4SY4PVOTNoj5INPgHlBppa2HK9laOjqS87J9A-uVmOkQw0Oxmm_OUmCWco8lv-D7Biy9HK-GrD0uf_K4OYpSx-ce-c8sZoXW5PWF-2EoCgCsFOMIKHoWFVxzgoO0IT0DQ4J243a88d2wh6WyOzrIACpmSXub05TK5Lkt5AOtAN0RHWx3960_oksuDidUhsrSxw7UiQwJXXq5y0coU7ORlQ5vNts0JLs6mcCn1-qHPGToe9mm2ZBqoKN9GBFjZ3deDx1bw0oDCZUydbjxFm2l-8kAPEcKsRMzaQ1MMxtSF-Zv7zsEdAP4wTZlHJi4GLHQDjEX-1vohUycv5WyWKkTzeBh-dS_j96L3QRw420pWvLd7w_umwXypAWY-T6oiO34Rgb-viBB-tV24_yWhNG5rtV8dtdIHciwmnjQZ6vLS_xYOBZvG3S0lCV4vD8oUJIpSAeDR3gd8unmUlNrGcy6_f8E2VV4Q0yJP_vhJT2VRSyCDEF1EgX4ZZYhWPo87OyyjAn1CdV_avtnHZHFUP17xj8rtaXzATUqjNyM_djRbmQn4GH1XzxyxUeUyqpk_gvo5t41sqMd31tb0WQTtyxnrKtYaSUNRnAcf0hcDTdL0OE1vIhT03FA3idPZB3Yqpte8wZSUYr7LNyVjZzuRio4D2ngfS6hhglEPu7F6KZc8IJGav0ZcjRismnxb_V9l1Y6FwFhzbk124pH2lLpr0Pcf7TgDpY5T1N_zJf0BTK0OTNVbaNKDpU0jkhzCGToWePBMjYnJJsxhvZN7iSUtR55LNy8vBCjOsgPsK7tzFa9oXaROCq24DaX-NUvI_-B7R0z0Kh3SZHaYEMeGdstLHEDW_PAKGyp6bjyI5SZGtmD9CWdVmn2SliUtHLrTFAkLStAptMPdyDCt7s22jQKFsPaym7ZAT-NZlCeF",
+        "id": "rs_099e44a2deadf85d006acc4ee314cc87d0a24947013f1ba0f0",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0055\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL15582404M\",\n    \"OL16002973M\"\n  ],\n  \"diagnostic_flags\": [\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"DIFFERENT_EDITED_SELECTIONS\"\n  ],\n  \"evidence_note\": \"Both editions are titled Ralph Waldo Emerson and describe passages from his writings. The 34-page edition additionally specifies a brief life sketch and reading-guide; the other has 30 pages. These similarities are compatible with a shared publication family, but the metadata does not identify the selections or their editorial relationship. Neither a common compilation nor distinct compilations can be established.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_099e44a2deadf85d006acc4ee6c44087d0b66147ee0857be42",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0055"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL15582404M",
+                        "OL16002973M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL15582404M",
+                  "OL16002973M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1450,
+      "input_tokens_details": {
+        "cache_write_tokens": 1447,
+        "cached_tokens": 0
+      },
+      "output_tokens": 364,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 1814
+    },
+    "user": null
+  },
+  "response_id": "resp_099e44a2deadf85d006acc4ee22c2887d0a6de5edd18fdd66c",
+  "result": {
+    "case_id": "CCV1_0055",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "DIFFERENT_EDITED_SELECTIONS"
+    ],
+    "evidence_note": "Both editions are titled Ralph Waldo Emerson and describe passages from his writings. The 34-page edition additionally specifies a brief life sketch and reading-guide; the other has 30 pages. These similarities are compatible with a shared publication family, but the metadata does not identify the selections or their editorial relationship. Neither a common compilation nor distinct compilations can be established.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL15582404M",
+      "OL16002973M"
+    ]
+  }
+}

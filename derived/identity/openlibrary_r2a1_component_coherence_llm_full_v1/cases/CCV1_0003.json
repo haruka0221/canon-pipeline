@@ -1,0 +1,239 @@
+{
+  "case_id": "CCV1_0003",
+  "component_id": "W000002404_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774308.0,
+    "conversation": null,
+    "created_at": 1791774300.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0ea3cc039d167087006acc4e5cbdbc87d093e5181dd4b70f0d",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5kKfJwZ0OpFWQt5KZ8Tzl7pfReMSrlNoe5K7iDR8STa6wKKLdEzz2BhcW0nZZxZam7itagfUGf0dLsZMV1BC3Kgc65j26C-z1lgX2kZbMmlcPBNO3qQIxviIj6rKvZocx3QTssZXWVCBvzWPSs9PScDVjrk86WZYcM6OSChork2cDYcpRxHK2KVIsqFh9fCin2UXMChYazbFGmrvflgrSA2qwI3XFR8b4Hq7FXyNIqpqt_dgmKyn8YiqnFcVfmH8y6X8Rj-shDJAXsopW7IbSRR7E4OwxOGk_rCw9YuiJM7qxANZhU4ZMGXwdDymu8HRy4csRLub9rBfYEGf_4hVX0Q_X1BT7gfQfT3qcAWzIJbZ-yYFPj_OcOCjv_81kZYsIsxo6ghsgZ6bQKiVu9TQo6b_y0F7Qlh7Tibo2wsp73VgnXhzlicgaNPxe95kwqN-GGBLHLaKArrCpCX7THwl5Hq0x86D7V7F8R7GE02Y41fGMxrgzpML0fNVAz9qYaPMORVCwuB7bWxIuEFwyXO0AgXdpkF1kIBCu48AqiXR7SDuHRXhtkRERhjpZMB9VWFRIhiZVAdltxKzTqoTODyHQcrBxApCtJYObzBnncM2bLKBOmw03-PIcP3xNyoRiVNaLKHbVTn9gmHEaO0lByX4CmJzs-9E0BwUYaNGZ7XxfbWtdK7b1_eDQT107X1LfreXq_DqB7CegKkGjLQahmMaOfQAHlOd4p6ETljBinhZGkMNvem34Yov4JHkHBrPxE2zK8diiVmsa65zTE-U_bmCNwWTmN7sJ2pUMI11r8Lw9GPvic5FZD_gBHGQ4tNZl8VOvSIUcO0uBeZHMkQsEuitZa8qNABWXzfSEm1I8KFWn-LWXcBb_Dm8419wM6IEzYoXAXMoZW2Sq9WDUuZPHFoghDqMdcgg0KU8drfBPlInjn8wRlI9UDXawWhTrnt00w-nWOyDHnRwyW24RZ9QINZXKv7tA2ID-5c_ES4L0G6NCEJ5j1BIJ70pDDzQnbvzUF8r0hz0XepJ8_ZO-73ibYAAkjbbRTNwJo5WmvDH2LhXPGUXZA7Hi5KDHPTIyR6oZrClKyRvcU3CXtR8Of7h0peFuRpwfkaX_Zv6MGdhPGMaHniAG2UZrP5J_4POHBboXMEAlAH_7hJ4E24WdF5sSpJL8oLDvDs_obl1fkl-9io3oyfegrrNnHb7nGVQS_0_8aiW6am2PxBYDgy6k2G6PimsisYMH9qZjp-ml6SH2xZniueS9LQ67jzbT-FkHFQtIXOKJW33j71FSCke8qGixtTRWLgUbLPT4St69XbfEXMzxWi3JN9fvyHF3bEdnyAf4ueqBz6Y1OAJBVT1mB5-gg0IlNu3VVynBB8EKZkTeUPIqcauF-eZnoWsBEZnH80jdVVAokYUeemJcFdK_5nbv0cCLHxxDp3o6cYWD1PAisJE1CunqxdwyNeppEi-PPWWVPheMWQ2NJGo1BUfz_xA8eWp8Da1vAtragE8lt1IlEFSa_4LFQLP1VSubeCMz_to40plD4wIFzp9GIV2HxQdv1hLm3x-NuDHgAAxI--fldcq_7ob2NA8cpVvrKW0UZro-88UrYxWuI-Tf8bqsq8Z1J-CCfEl6qDgZDYkq_7wXhFXRaH7xnW9c_pSkY-0qKBuQayRjZkQbeKIx6JSdHQG6XQ02ahXA6R3WeazadoF6sBf92KSVGxj2krY0qSFjWnHSgtw9-JHLCgWKTIOQTkSpPEX2mzCGmwR29uOzjdk2v_2XyIpAbXe6bI2UMHArt71nUojDKZLW65uZ0Vj0C7J7MwuHUUMwg_GLQgsGkyuGOAzFG90BdYPxlBZz3ZOROmk7zwer_LN22oCPW3O9YGkQdxfNkp6nQzDMtu4UXUe-MDbA0T9iE-0GgIeTqNY5FW3DurFCYzunkqgTaJ33LRtNq5cGMzenE2p4-la3t5Lxov1B4WFMwdDh_dWkuK2Z72sYezTZLL3HGJBSQTJQR-2lhdEHcy0AGROSsP2lvSJeG7I6cLK9PdqI09P4Zd9GR_fJI1xfH7jKcuv1X3i3Yec0aUWPoB5FCu_S_QrS8A9TaS4Hwx4ga0SwjHqBlRcPP6BN052xqIq8nCvUu0KhE43JfxbBllmdrvceSe1fusaKQfrJtaI1U0tdza_-0QSh4zt31RhhrCB-rl7iTGWOES-HA0KEKxGPKqcx5--BksO9V9aIhYWx_pU5gq-V5kvwmvjnH5AV88uTQwOmvTCAf6__BLrZKOOl-86NAhs5FlBQRTNopqqqz85X277IrS10AzkxHQlKCCDyT-5ZRy3jHzEbIrne54y_1iXebS0C86v-laG5w4ZiGvKbKtXxfEuQLB2lcfeY20bFTijtDdf_bnXJqPNSNw7nqhmsLJ9743UbaC0jxczcmxWi7p0dq2j6GOZSFMjkmVw-RaI_QJNcqFRIJXBg7DeQOVnZiaieskt1M_n29fQirOznES_UIgfuRY14PoMw-we7H0ZGGVLHqiVcAfd_uc4VWUZeQd2_DmvXzpOv34974hkxngKG3W5rwCrN-cS3vO-AZ2_aFxmkklCrcSJFJAzMYHLcQQnchOTjpY0GD2NzZAzeMrnYWcpftLYuY_qEU2NDdujP-1X9w-0zyHI848upJhwYzBHHGzUFN1neQN14i3S_Z-TQ3TWJYs_TnvoRtLNpprwANKG46l8kGL0wwvHGQuK1LsryCm1naPJ3SRNadfWDcc2TO46bKJgTVRwRWZuYLdNDNjUKYpGVTRz1wR7HiMOd20dUNSSn8LHec_1lLJwj72F7YYLwoE4P3vyiRnVSKWGZk2DNVZmBhjwwmj3O-jMpxmdJRbmu65-wWpN9cB58LZyAfLfEIdfzl1BShMH92a_CK80c8PS2Opu5hwIt2bi2b-x5TdeUo_XmvnKLp-GtE5acdn7hLcENlPTRsfNrYNaaXV6-egjPruU2A9YkBEfgg2kXuy4mzRKOcry6kTMltkzgLp8zchamGZDe7emulPQzEvq3W5yxj36Qq9ceoHrrdHvruGWm1LjvbfQ2EG_jmnsaM30NupgvDSSxZtdNmAa5It6VJqKTdE_k1ZekbZ_9FSlvbRSDT-T1sLM9QcHHZ8yPWEkDYGsZpYcpQspIUMSG1vdIB_xoYHQu18FPUyGfKbJ76Ji0M-RzaMNv4VvjmQ4br-WNWuVaXXs0arXxUWFRmrWvBwR-31eluCMaU864t5B2wnD07_gpswpzmz0Wo1_3rrV6qB8ypPdpg-1z4q2UqS_vvmxepNVX98hTMZIeiA1YRuBCM2UuLG5N3vBXMkM4Jyyw8wiwCRXtcvL7vI0UNaaV7DIQN1iXW3fy669q2mfngkq5YDiuIKEqxUFrhUgHaxkh5RsQJmknK0KFNEfcvjED0J8KCMq-29D3HqJWhSXBmy_jT9NR3yuU=",
+        "id": "rs_0ea3cc039d167087006acc4e5edf0487d0b02870fc2fc7bec5",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0003\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL4203530M\"\n  ],\n  \"diagnostic_flags\": [\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied: Henry Lawson: illustrated poems, published by Rigby in 1979, with 79 pages. No cross-Edition coherence assessment is possible. The metadata does not identify an editor or establish the scope of the poem selection.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0ea3cc039d167087006acc4e628c8087d0ad9210627dab3bf4",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0003"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL4203530M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL4203530M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1347,
+      "input_tokens_details": {
+        "cache_write_tokens": 1344,
+        "cached_tokens": 0
+      },
+      "output_tokens": 283,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 1630
+    },
+    "user": null
+  },
+  "response_id": "resp_0ea3cc039d167087006acc4e5cbdbc87d093e5181dd4b70f0d",
+  "result": {
+    "case_id": "CCV1_0003",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied: Henry Lawson: illustrated poems, published by Rigby in 1979, with 79 pages. No cross-Edition coherence assessment is possible. The metadata does not identify an editor or establish the scope of the poem selection.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL4203530M"
+    ]
+  }
+}

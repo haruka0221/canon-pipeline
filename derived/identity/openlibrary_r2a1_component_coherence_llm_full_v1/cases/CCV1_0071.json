@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0071",
+  "component_id": "W000031472_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774472.0,
+    "conversation": null,
+    "created_at": 1791774468.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_012430b56eab68ca006acc4f0447f087d0ade3a31adcb8f504",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE8JXjezayNUCFLl_1I6LgDf1wBDDpeQzIG8-wuBrUmBBHuEy1dQEBXkBYDe4zZ_I68CFJy00acvzQIcEzixQBo2BIBTftwEcuKka9yFEPUFNmnBRNM3eQuaBwH7SclIIMRAKAhzyodLIBS705Q72-gZ44KKBwtiCWkpl6NSD_4Yif129FP4IB741zEJkcFbh1rcXrFLYt5xNi4p5W3jr2xGhqaql78NN-UMCtM4tohP-1xC8G7Q-FcQylMa0b54aFTAOXxYIaio69J3819l17GKHC8trNnOiv3Zo_12R_URxBcx51dXalRr2_qRsZZ44nNNQr4ikYA3mq3yD1w0WLv7weFncuYkLGIKx9dPDTSSngiD32F2_2IHdtGZAPZzecpj6PUnrZ_AUtLhGniYAJk3iqKQc73apEkCoM1eY-_5uvgtRvvn1qPgE_6K89OuWTH92Fr98W5ImxeDXs4kTj-Hujzkg0TgHIPFehWSuN1-vS527fxWU891CZxt9ZLtlit8VNm3udZmXOseZOe-E-xPsz3_9l_Al5v1Q8rKzgUDINVg5aUb6v4R99rF69AkZ0ZFQjXu7FRaSlrnFuIY7E_MScR8pmMh2pT5YixxS6Ri0v08Kfp_gQEvc0kpMsDtBVhK2KSJ65R_88QJdfbx5SkWmmHUhut6WUoshF1F1dDNQQpm1hI7lpnD0bSQEJXtrbYRXvKHkAVgD_py4VYb-c5BvdvfEw5hDnpy1NVfuZBD3LqbP9hfw1aUmFEJKtpoSvKZQS2qUg1falMa7jFNj9oU1Y515mTnBeEK1X0ugIHdAI6s3Kh5SKndlTBXNw8VJ-rTF20K6MblkWCz1awnmTRadEX1Xs8a3zjWJgD_QAGwlJRJuqv3CWKHZ_XR0BexenN58UdqSYq8GSa1PwOIpOyX8bTfFfGRP3KJSwYwimeEOvx7dWpuOj979XZEWvYk8eJYkn-Zn86gI7cRTevFPrgbme8tGR0kIikvare6-bDfySvxl8hy7OE5guMEXc3R-Cv5Dov9NaihRgWxq9_thfbiAcOiAwhvap4GBg3ays--XZAjF05sVe5olASV0GB1wZNwUUIN8fTYg4c3Jbh0tBl7Zbnm1Sw6QXWuwMQtxdYF1eOcxofBxfprGtvsl0MFeIl9kcd0obraqFg32g8pcBj1ftDSJofi5wj0rDd_-Ix-WaMvr2FPc5jd_nVAHlzvq162p0j_HOyTddKnQP3sHjo5O7w1lr9Ix3hvmvLcR6VvznTW353rV0zo1uh9EvE-Mq_vKjbkZu8fY1Y6z8Mx20uvBCmHZW650mKDpEoRa2y82ViaMUqhwmsBUNqN6mcvVAxi9eJ3kjPbquPcu1t_Y3TErR33YUbm3VPiIahtA1sh_P5PmGAZzRoNKJHcGBlNXaLdpwWUUWEypS0tdCEg50VYFUrlg6hEpSnoWgGZAFMyYASZgXpd9rR_dUBR5Ox1yPDHYh1Q9cd3tiDmm757gjFPe7hG6n-kKsq29kDMcRc3B4k-0pDRrvqjTmLhAtP3J4qr_JaczBQOS3qj7no6u8ryLcZenlP-GM-7qpTNFC99Zq9o_sykL7LFDja_IH4l1dLigW54uLQ9GNLrlLMPT_6555jKdxMjhhe2KtksrPn1A-VOJwK6SF3MUgQcwW5ZVM9w1Y4YMq_QZ4Kh9PLI4mD9GyQ5g5SFdX9O5SmIV_ZBboDbRJWGcjY7V38qPQHf_fb2J9UQaAI1GAncN4IuCjYLzRQNOe4fgvSQ_8-Vx9Ceqceasm0Op1T-Q6YbSPSND4KEJcEScgnRqQ3JvEsftly9gXhBrvog7dciQ8nJbgKsYCV6-O_dQeDK_CIHzQcwDj2Dfbhby3rRFlSkDWCxxb3KFubFJk4ri7M8p0Fpd8_eewTT0GaQoa64Pnz1hCp9XTT5qIB-Cv4rVZlI5BRWwdGN5-fg3xtlvuytZZeiqIW04yACtoMgQM7QIjcap3s4N-P-B8vnXnB83kgmVIo2pD0soMfW460OtSq1_O8JReoJdA87iuqxH1P34ZR3kc29caWApILfzAx3qAsc24bWmu94yoqhZYPKO5r3KGvf7MuUmF16TOdgzvhZAaSP5_qWuIOSBXuO7z_s8WgykpQhmubkbdTjnNLGuCFwLxTkVMiGuqoAxY5uG7CNcQP7A5AfOXI7Zfc16hsic49pfS54fEFVjfmvo4Bx2AzkGDws3ipyBQJaxeXJ1r1-AXFO2R77hP884gVVAvIOCOrjnS0dN2GtIeflkEzRzb_u1eDqlq_FXcghPv4TK_pPw4mb_r4cMB2zeAW61FzhyNv1-UwENZcTAsaF6qtfGHuciRIeNVUb9FfDk7EWG6tIawWXNwRin48l",
+        "id": "rs_012430b56eab68ca006acc4f05414c87d0b1961bb13432f142",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0071\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL7748277M\"\n  ],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only OL7748277M is supplied: Galen, subtitled On Antecedent Causes (Cambridge Classical Texts and Commentaries), published by Cambridge University Press in 2004, with 365 pages. No cross-Edition coherence assessment is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_012430b56eab68ca006acc4f06cca487d0ae6629ceaf19a748",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0071"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL7748277M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL7748277M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1364,
+      "input_tokens_details": {
+        "cache_write_tokens": 1361,
+        "cached_tokens": 0
+      },
+      "output_tokens": 215,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 1579
+    },
+    "user": null
+  },
+  "response_id": "resp_012430b56eab68ca006acc4f0447f087d0ade3a31adcb8f504",
+  "result": {
+    "case_id": "CCV1_0071",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only OL7748277M is supplied: Galen, subtitled On Antecedent Causes (Cambridge Classical Texts and Commentaries), published by Cambridge University Press in 2004, with 365 pages. No cross-Edition coherence assessment is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL7748277M"
+    ]
+  }
+}

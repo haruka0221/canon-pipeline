@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0056",
+  "component_id": "W000023649_C02",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774439.0,
+    "conversation": null,
+    "created_at": 1791774434.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_03fc0a171f0493b0006acc4ee2cf5887d082a2b7dcb32184ac",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7otXgsV2fSB_0fyu5Ayiw5RPh4fd3SjI97Q7mRKfl-l8ozyG4Vwp6aHDvKwV_4RxPBR08mWVtYz3t9SnCOKJFsbnUL5WHLcuw-EY3x0n73qrKaL8DrrXCre71TjJD7G-5L6G80d8KBXASdjxWdrv2TkPjGgD3_YN43MKBwU61pv5OBkYgjbFtn8v4kZLQO0JVdRnLrGdo-w2MrEAhm1R8EgEfy6KHSFSAjuH8ff_5z77tk0uizGJJz4y0VnOH3-259KQikgbU0jdI1TXr9UVayVRpXomxoZ9k1E9iSpE-IJ8G03SV_TDDeHvsJyJm4Yvlmpa6WFcGQoLFVwfhmvFCdJ4OSthftpaTbjOqDSIW0OnhE5fSbbr-HUi4S3SAy9kMTRzNFn4aif9MGHk4xd2ERg4AjqsaoGcEvHDaxTxN4J9R-TW7p8mkewyI8wgZzsSxuASOgU2T9X4ZlbpXW_O2VpTwiY2F1f4kkhD-vRLSKFd2125Jyu_0NsGKkipo0OOBeOteu15CkkAnyDusxM7eGUcOA1L20lgXGAJKQ1-0XZXAhj6aSIq2n7RwUg6FIhsjs8HXjDRjsK5Pu22Aj3lrJJfjApAjRPsp0H23gnEh8D-JyqHYxWXQi4A4FB7qa3ghR-uqBV-vHF8BVAoucVXt7R0979aMYZOzscdFK64orWae9rr5Fi7sIJlrODhwM_JcLLF8TcmSJzNR8ZVSHOb1YMVTvpr_wcxlkpDlzmDrNx2_IBRs6K4MwqUh4ok3VMkGT65GQ5Wqni9UFOQqBWbA6xHu44UhadCWzUBFynTRa-zvnqx-ZsDx5OPPU3NBH6E14XMNpoKdZ0pQeQho39B0SLy_Pp1JMjpVuhWtehtjwzzwpnUkmcsjGE_WHjBZgqLStAuFk1Uj45uwcjCLg_wpWrEFoBOV898fppJZmncIpPD304yJnFynjuKCq_1Juh3MXVQwObt6XmoI70lKsBt4A9MdrGxvyVwUnKBZ7XEjt1hu0jyPTvDNleNPJpxynHZJzNQWNlCW1aQeSqKizkq9Fn4762PEm0aWbHMXEjZsnxQ-kIEueQZqCtbKyiyUvTLtm2VTdMHVXi680VFt9KIsnoj-q62mHbbzsqeNR2Mv4prxOkUjPL8Txpvm2-Ik5sdVLmESTMJ6GIwDUxJ8VS4n8aq_HVLfdl_LjtfXBjoPNRXEQmJ7goij9Xidy469WOfSa3sl0L47p2yC1mekqIhIkwLPOO3HMfTaFphKIYZFLh2NUZmpHoFoyTwvTBmBnWnryfl6scuaCyXfIO7hjYyhuD5sq4HSRaA7W5T2KYI2e9kshm_UCiYDkpGGXlApfbYrBM-Kej3k1rvbQJFGd2vTW4qXYn-Rc3L2GFD9hj72KIt-RC1sK1GKJ9FfdvWPRpjKNY6tCUlChwkgtSTejuFcRJa2ZBuf5-q1GV5IlNt2zHCjPoTHQCN8JG0b_dSjkOTi91ajxt9uF9gc5w24rUEGPSCiQHahufLCMKqY0SvtKuNtJMdoFRfnEbDwQth5zO18EcTrxg8uF258McfQnXu2axsPZ1zU2EwSE7mM9vwXlc6yZS_GvbZeMxMHW2CSVVDSdwJrMWHhfHjPmVTm7EY95RGdhaITEgiSl8lrn0CAFFZCFdYBlCNlrlaU8z-g_WQwqfaAJO6n_DU9dUkBzMgPLoThGYD22NTHo04bZJIDlRlIVHsa38gAtRZ6jqiuxYrHR73yTb8IpRPAeWixheXxKhgtm-iFULbQkhF96tfd01cfzsvTLOGXsWCQmUzH2LHhWgrImcvrW8y-4Th_3Qv3FK9THk2E4ykxDqihR5H2Wz6V9c6YwLoI-rjAdse1FU0TDOstV7mWyDoO6jyLSFXJKTa6NcWinLG0cZpwL-SwjhBSIXlR-ICf1cQ5V5LJaWlGGVnL8cqDa975xb5w7w2BhyMbw84gqx8vI4EDUzr3abbR_t-ipVzTN7kP1iMoSBq7kR_b903MGQj-OkYvpeUuvt5M2yR9i3KBCvplEsU2zQn6XOKA2ZZCJFEbBPxt1p8R8dKGpU1qZGVTNpYQkqTbp5_dvp92rsnrnGKb1EyBOADJdmsgRGhy4Q9q2chBbGhCsP5Eezanx4y0NDslUSEjOE1S7O8NR7SZV1fHGEVrhfJZsq6BX2r6WQwntPSJySL1ISJug4cS8H65yI-sR90MHfLyOg3It3QvjO15ujZ_D3iy2-D3IuxgEUb4Gwq6dtfnQ7Y9AVFlfesUvX8p9KoJ4aPkFH073QkvjycPPwX9Tn0rjI_vq5yq7zPl-Wvi6qhtKe4OfKbME-Ag2bBbOmk8PVllkuag1XOsCCrB9JUmHoyPcXoCpefn3bTEX31pkr-dAaFkJAZ4WovIMhgW7lg1XaKyjqjdxQcOodyyp5yIOYOS3m86ipkgZJXLP9Wn2icen4srMjRwSz8zfnKZD59CZaGz_5LC5C0Y9LhejDCMxfeieNzr92gQZtEQW_xeKm8KqlmahmowI3GNz5FN-ewoqtuCavMPr8T2qsTOvS-4qtyI=",
+        "id": "rs_03fc0a171f0493b0006acc4ee3b10c87d080ce92307f1d1792",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0056\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL13536806M\"\n  ],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Ralph Waldo Emerson' and subtitle 'representative selections' do not establish the selection's editorial identity or conclusively distinguish writings by Emerson from material about him; the author key alone does not resolve this.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_03fc0a171f0493b0006acc4ee5b71087d0b58b14008abac1ba",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0056"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13536806M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13536806M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1353,
+      "input_tokens_details": {
+        "cache_write_tokens": 1350,
+        "cached_tokens": 0
+      },
+      "output_tokens": 246,
+      "output_tokens_details": {
+        "reasoning_tokens": 73
+      },
+      "total_tokens": 1599
+    },
+    "user": null
+  },
+  "response_id": "resp_03fc0a171f0493b0006acc4ee2cf5887d082a2b7dcb32184ac",
+  "result": {
+    "case_id": "CCV1_0056",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Ralph Waldo Emerson' and subtitle 'representative selections' do not establish the selection's editorial identity or conclusively distinguish writings by Emerson from material about him; the author key alone does not resolve this.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL13536806M"
+    ]
+  }
+}

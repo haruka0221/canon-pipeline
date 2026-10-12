@@ -1,0 +1,243 @@
+{
+  "case_id": "CCV1_0005",
+  "component_id": "W000003023_C01",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774314.0,
+    "conversation": null,
+    "created_at": 1791774307.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0e2d0bbc6e713fc3006acc4e639d1487d097fe2f4f363bf2ff",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5qlOobS7p-70HexrghekRXsZXGqcF7Y8yo2Om7pBEpORRx2f5Z3lnMHo0WOUHxKTe8tETrhRWfhQlX_uDX651Gzwf71DM5yuBCckLDFQPxqCk224Nphgcsy_w74AYIFb-YFEdCav0jnefacztnCefTMePlEtQLstlW9r2I0cnXSFMTrabUWCQMAZKK-MKdId_caHsmNniDD-rkufJWaanAzUwcoFmWkW6OFSAIAZRuVeo_QWSpj1Ec35sANCmzxlDHLYiDEnjnXWDa9gjTSqUi4pQrkEDS4OOlJQlJLKXuKgBD_ZprmdroMUtjo1nC8hVbk82VBKkJHJjlVMtnHts_kty0tb7dVGeKLMMtoaGc5o_7tzOQxdisovK3ZjW3bmHEry_2eUrigC9Or0Zhkpag7VCCj4nXLaW_9wGrO4bbeqVSBDyC9-V5qSG9TBLb3Ib3T8BiSV7QQfh-JGIbZBTs7uRpb-PDSMv0v4LSZtKPqHgtmztM_SYZKewsdSBK4P7ZxvlqUqG0TZgHh6J390w9swbCh8tZ3y_Xt8aXJGh3iHxPm32UMNO04uYyqNxnNYmq5cWnn6qER8yJqiuh54rwQncqYBcRAyU-3MLSGGzki-FnilsIHuz_P5o4HMT2PkiPniklzTaTJ5ZoA3XO4xspUA1kPAxfKUXr-bA3ZpwrykdRpITGpfVmHxO-ZA0PaigJfPP-OEY8ChwIjzEOnmJla5iXbgC4T8SaO2IqWqNS5xgrDxXv05LsBZJPtb9ctCpm90DC8xGgoJ2MlDwnVT6Y1QSjvUuLTpHdWcIUjXTJct3xy_4BzBU8FdlPZelcf_ZcGpS5TUY78cStpLSdhLuY5wbLHmb0Gqpo_GwFcH4zn8m0GnnwZfZTLCwTQgziE47IPCwsR4s1nJd6hb9AqG23itfKLa9KZQjmkmTs0F8SbvDSndJCoSBunCh9eooldioLzb7ZM3cpmI_r2qJ5CRcunEo6BG7SGTiUNsx2DwqRDfGigsLhlqdgVKlW8H91a_o5UTE2CjjRtePm6fof-8-T18r-Vrx9-otYOYKC4k-xpG2--OB0Mfho8ViHDWxeJ0Q6y7fWTdpcNbKvocwV7K935GkXQTHU_8fZ9-wi1qEX3w7QjhGV7abJSVR6jFNO4TY7QX-HxDCSc-0NPkE4-doKvT-7jlVErbjH67UT2S-1ycDHcEYNHJDEvcr_Gk2afIBhSvmZkcFckdPVKzA9HTeAnpZ0y-y_ek1vAKhFgBMnCAXR8G18epzZ6IDVHTV2VJH3I040li6meJh1eJnSBCy37l-AMv85EBOI17N-nJ2-X-GnrEg3JYr05T9L_6qNT0ePbqp3b0UJAMMgtz_J5qcvIYkz7Mz1qssUs3fgrGoDbs-fg3rXR0IvQ1b396wWAMHtnV2YBHBqtIH1DAQKkWUrl1E04WDtZJwAUv8GLgF2QZ_tg3MWIMfOYgGmmsiJQ-2poz7GSdy-_V3EjnzBJHo1j54tkaNPQ8LZFlhdyS2h3aaFo3tU39ORxB1a3tzmcVMkEjjHMmDJKoerrKLy9mu_gkfM-MrnRaXw5IhbiotgfwF3k2ZB6RrgyHgogl8nl9U1XFXzVG6fVsynMj7CQnFyMB016SjPjXRvgcEh-Mh2Z7f6RQf-ZB62pahfOnzMXrHYDkIXNgJHN5RRfrNr-KgX-opBYCi8fUCSUNys8dPv6Lj0l9m6mTTdRGftNzjeBIxyynQsM6yPFOB3jMM669kdJqbZmZfi3aJVKM2U4Wz8Hx_OUPyH90NGBnNJ5hrKK5PzlTzzVa-BTXcuAyZEUqf-IfPDrGQ5RL9wjY8wtiyQ1O-AjFAUjctxcXUtAZJUtIRsGNzPPhzz-3ppL6bE_rqcHOrn0Gf25p63jcYmDHfrZZQDhSzXBN9vYqf0PvUtpSwy3YLxO2KIxPNjZzUk9Mcnfut0SVpV_AvdJcAf3jjeL7UfhmF9cP9jlCu-NTwZhuJaavwkrPF3WGuzmaLbj0Bih761Xk1uuWICiW9NcYJJZzjP52cPBRlk3DWR5du-8HDG19PQcX-yGgBOW1wb5Co0MFxA3oH2izbxdICotPmdgiNyEVzQzK5ky28QTvGgr7Xq8G7WQs2WyF6-C_9tgsLyLUyP6b-0vgYGfLn13rPgolUVO1OhvkmIe2CdYukk07RLO8LkrFHv7EPyTXKwVotO0KAL22GwSI0TsOogRHlLj0J3-wGIN2xEgTQBnSwpt885PVhJcoRxG-ym3StAO3fD12MDfbP9anlj_YYBllN16g-Oa8skPnuWNdzfKqM2WgQ56aYE9FF-hYUwq0gP7brqkZNZcdBXQ1bnt_vxj4M88Ognt73umfCQB8YMHCPWwNrXP2R1DevLDoVLs2CJXO_nys8HsPIDjQhPEPNf6K8L2qN7ISu-Y_Ys8cLWDMtiztlNlfqnDPAhmY2q4Do_pRQRUS6vTjmyd3xFqvKGUXPmYhnvAwnsTjfbIUAzFWiEPAJRvSQMBtwuOVSTuve0bVfXTh3pvVByKKnUhLga-t6RIqO_Py_6aIW-utXxIcqvxImes2I-QM1xtpuTgmnIcLE3LAZlB-gvp8EkfMiJaZYh_4X4SbD2Ul3rFqLTQ-rgobGWgcH3mXTdbO4kNrmtRyHFkcxXxFXLV9LIL-QxmCDGOQ779F1jEoBdlPoNEkUNN_2kRP9G6OTRJfipGha4xpzCohNNAK8yPYT-lrrXZ9IaaXpCbsZ_2XTR6ma6WKPKB7hQ2ldt11FmBe49sCrk76wlL3lU5EYpo63vEok46LKJFIhYu0nqJUGt1IYmnM2kBWhnyoU6MDYnXMyu5J_nC6DH_48XXwK5kf9i17J3m4aowNig9mVgIZIxssFkcrRYaKRZLCThOuZVWQiLoRqlrtt73VH7nCGNzwmN2LF96YHS4nPBSx3w5m7mzBWhSQWmcDvESQnpv-ilUyn5yNqWONDCUPdWOKUEDt2cYvsSVzlaIpILz4_xYpuqgfCMJEZO2OF9-4gRQHQDZjwyzWoTrwISfD5PeoTVr2gr0PBecQvIE10fYLdVeYAgCDpnU76EG2jQcJanRBgkW6wdQWqvEP0NTgIx9dgEmGfcV6hN33a8qie0VmL-XH0MC0fLngDFRfGtPWlAmlRsAKwEs1jINBOR9MCJK-3lEO3CpbaQx-W-OJk=",
+        "id": "rs_0e2d0bbc6e713fc3006acc4e64630c87d0896ede04ccada2cd",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0005\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL14962319M\",\n    \"OL19362026M\"\n  ],\n  \"diagnostic_flags\": [\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both editions are titled Arnold, with equivalent subtitles poetry & prose and poetry and prose. These matches are compatible with one publication family but do not establish the identity of the selection. No editorial or contents information or page counts are supplied. The 1939 Oxford University Press and 1946 (s.n.) publication statements establish neither continuity nor distinct compilations; the shared author key is not independent proof.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0e2d0bbc6e713fc3006acc4e678d5487d0bb10493207765893",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0005"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL14962319M",
+                        "OL19362026M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL14962319M",
+                  "OL19362026M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1425,
+      "input_tokens_details": {
+        "cache_write_tokens": 1422,
+        "cached_tokens": 0
+      },
+      "output_tokens": 321,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 1746
+    },
+    "user": null
+  },
+  "response_id": "resp_0e2d0bbc6e713fc3006acc4e639d1487d097fe2f4f363bf2ff",
+  "result": {
+    "case_id": "CCV1_0005",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both editions are titled Arnold, with equivalent subtitles poetry & prose and poetry and prose. These matches are compatible with one publication family but do not establish the identity of the selection. No editorial or contents information or page counts are supplied. The 1939 Oxford University Press and 1946 (s.n.) publication statements establish neither continuity nor distinct compilations; the shared author key is not independent proof.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL14962319M",
+      "OL19362026M"
+    ]
+  }
+}

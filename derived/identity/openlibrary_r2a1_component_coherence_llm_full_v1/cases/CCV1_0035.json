@@ -1,0 +1,263 @@
+{
+  "case_id": "CCV1_0035",
+  "component_id": "W000013400_C01",
+  "edition_rows": 3,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774401.0,
+    "conversation": null,
+    "created_at": 1791774390.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_037114b9e0d6eb12006acc4eb61cf087d0b1025a9e2230c97c",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7B5vEC8vvCJlGiNI7RqCK298PiIeQ9alqzdoiktn2nbrbYAhqxuWNNq6I6wtRLybyJnkFk68kCmQoE7djKw_DYWK-ZyqjgX8a6bpRbU5gRvcK01y2WDr1YXtp3FCk2qKVi-v5gOGiXrwZr7MsF9CSI8b7E0WvW8GwErBQr6SFfc9tYl3hsUAUJ0Ks1nxZ26FZk0cbpfUUBF-Zk-AjOlz7M6UDq3lv_YVbCvGGUjD_xkl9qsaIuL4slU_GAD7x74Yp1FUaX6zeYuKMJGgtBj9o8uajUG8-cJVNKhgtFmKHimDPxVPP_I4f_cSxZO9gE7K1BdO7wUyxOZxFjmKdKFfJNZHj267ygUbpTwAnK69qYy2IuUkAYsy6jniT6xwsPvyBo99rcd_vnEfdxrA9oG97T_mwvPV_rOltIqcmrsi-XbGI5oefzpRntr0TZ2-kmtYpPWk497EEgLgisjZkieuQ2Oxuyy56_5zXajtwwJ8YUY6kb1exCNC8g7uUrzngY_39-0fAgGyzAJpyd1vohRL5MZLbT1PnzWGDAeNeFVgEy673kvHP-PRoHBoeTtGtX6zu3-mHZxttPx_5MSMVS0UOXDpy7zjyDQqlXOu_dh5kpIRNpa7YvwhL5o3lK_m4AOpTOctofHgVAWD_bgmmc-aGsP9hPvimX6b-ucVWk9QPxLu2UCvTdcnzmDwiyJE7T1kLmmmcl_5DD0GgFxscBhjhsQSPKj_tzUieWC9ghuCUTtqt7CJZydIrLIn477djuc1tnHIMJaPUTvfGI2SdE3Misx57p0hNy58MNb6hxL7tmDiHp9DizPKn42Fesm97-Nm-5aDw_aX7MkUZgsg81nkGOzm3h-gNyPCfDxCewTcYNf_qff9KsvxdJDHNCfWxiG--eszqc3-JXxhNv6zPAvytXgS_VZ0Ql2Wu6Q8ihr1QfqhSJa6-ZNWjRZayxBpCd9CQ5udi-r3VSTqeddlGOewHnx_OtrkRmxRIjCzxsuxrgmjUH8UKK3NLGiLSiSZUtaPNafFAH0bKsN2MEP9wkzKnhznajwRaPj0XeRcaFf-RpKPNukS59ZwwyiL7fhfrmm5T3OZEfviY3DUjBIxJYGsPYr7C04u_jnpRreXfXfUVY4YwNsbSv2wl9EF6MCMMfO15MuJqezAEXyCyvh28l2hRMCobw22b5f7znQvjjR-yXkyVYzuEqwGnh8olnwMWa-s_OfhGt0DF9cGSE5Tnsl3jABTzsZbAq6dEU7Dmbyr7wiLk-d12SDI6jetfflZ2OhhkDVY-JK0BB5bVZe5MBUCiEJZnKi6jOO3_phTza0ygMnAXGHBqltjPJqvWNP3jp03ouE-lNcRLUNxyBudccWLDeMJE3up2qukzdkxF1RjR0zE3M3pFtjFLlEdvFWd521HZL_c3Jx02hkc2ODUtB5F5WdTzZHqnvqXTniShLU_OfnQj6F3sMwm3Kc-96oVCMb7rCFGN_k-JrLMBz4mFgqcrbAa8SslyGSZiKQiqaOGOItxuPP7YIgvixGmBURh7zOP7eu47stigFK3BnPy-xBUpPsq6ngG-Pv9HoZgD93qd8tnaVz2NDrlm2O48SxAi7x2-tp2tYtHUeobGnseWbbO77Frlzp70DD63JOQSPQl0iJGBOMnZjVmOHM-pLEfXhNoGeUQvsXlp26rDlBlipzJZSNf-9F6OJV0z6C47efGVsw0l7WdYilSxuaDdwpY-AmMyLgIteMHUCtEiE5_TBDmZHnYp81dqZhGLwvEddRu_2siy57N6JmclEJN2u_o4bijzFxqAs-Rcutp36JJBnZwGe7g1aKbTGbLjxgtMt-UCNyYTBDw8M0RUYQ2zVZ--HDm3ilFqoCGJz-SOOi4YqhiPw1RFO9GABdBUaRTV_nOKD2SAcdwT1y5Fgyo0AnueyvWzq9XbNGiRAshlAaS_sBU1RvKo0uMgJUTErSOmADRRqnGpxhQjg7jm3JPLHpEttO8QiEvsAsmKYLThgaPXU9yumJ5qMvle-eSYmZv2HwK4vUDBd_7qRw-bbKYDsIrzt0CaxbGnrdEZbbBrgdJ3zTGqIWPbI8KfvDvOb4F7pyHlqSn9iAT-SumlC53J02eYH9jJEeLDFhSRVMw2_xCtQBbzs40wzdserAI4Rl3ENZdcho4mZHFvh5CNYFIGV-3SyxhVsgR5zhdb8uakMTx1BQEoxRWuzECkoYAymKpRtBBO4104WwqvuFR4018fEm10EBYXlAooW7q6fgIte9IKn-3Tcis9lc1JtQEx31Pal8VoYt0cCj2cEVXmd-q9rCKqKlVZ18cpIbV7Xx5Zq7ZSSSAsI5rRMcEXH6v0JX-ljX3owhmr7UG98Jj96NwYyCSSuhR0jasPUhbzj4YNWLo2roUb3wwKKPsHLfsl4aQ9q6W6qpULYX4ZoMShIj4JpHB6JaYxiTskCasaPlt8O4cMbviph2YNMqqCtCZ1PIEIbLqAcYC3mSYGfUK1YbQrdMb6i_Yst1uQ-Zd4ho_GCHzATFoxRjpVXoaQn7h7qkKV2NAAfzqkfji77-29r8zb4qWHZsf5FoSmioriOL16OMws__y00z6cc8_OXPYAy71Eb02NmcHdZGEC7UTxuIdx7HoVy73bbwpGRLg_hOUICGNzzwI2_0U6lT_ZqpFa70tdVwihZpKIf-DGwRWr1LnzHS4GxhByr-aTVh6Prgr_F0e5xOJEz1SNzVuWtsqk0FSXqoQYORUJNbrh-rO1XR1DIhAweOn5r9meWshpinQdXSWnIrYQ4PftGvIeQF76Ut6ULlYjq44Jwv1nnWaEfZEk1VmlGRvH2toqmCYUDkLY4eihHgqMdsmOKXwZY0ondVfnPwkeEOyxXt6yiEu9ufAiTnYq1J7xoqVvjI68VPDojr0EJWxozeBFvQo9rb0JnQK3FmfgMBg_r0VboKC9D7f_Slag318N1ZtYbSUls_Tbfa0CwI0s7rH7dPOdeFN0sXvUzbggZkKcacLkBj1q7R6HmLH6slCKC-u4L_ZTtvyklpUJxgVZkisdt4ZTWDaj1KNq682STgd5F_wivzLZ9KvL6MQULnH9iGpyW_0d-YhSo_5e6kldpedrcDYW9s8y-F8Gx7Gi0-GdcuQO_qa7DtcH483gozbIyhyKBIT8-1Q-rxdrp-nD5DgK4k-gNnPywiRvc2iRDWtsnx_wiIqHLMhsJbh9kpsv2e7k-U5_f3gJysTd7qxr6UnVn7uOPlIpkvB5aZBHcoosEmlWnFHBDKmgWdJ7Zd6ZN1TtQletvXzxBXj8s52Q80-791NKMDCilcQuCKDiotchNEW2KGjQ--Rql08kMs8_9vnATqpTqEiCII4VyqXV2WAX6w266IxHtt_3lIj15BSErSzUuhQtiC42szvIjWNrMkMKi1K7LPnks36c9i1OJeCT0SAafgHrou12zUbynR79LkXGLlD7S23ZvjXHgAy-GUU1-y9X0LJ-hiJS1Z_ntt13QpSQAyQoi5ycwzS70SdjMSVxJDsOEWliUR6z3z6oxASsEHPOEwcUX2BI1hh1qubGi5p-sixr-P3qh5NBWiZGnOhPk5eTQ-1wsN9hQv7FIaRKXvieB2-31PnWjj6lvNVd6_9r0P2MJxgiycNDohRbEce04zEH893EocN5X3whoK6pdngLVLW_BUT1BmeC0trM9BuvCmMQcl2iMGlY2OwHeUGSoWbRMkxu7MANid-orQkm8b8ACgUuML1gW5bYnSHjqRv60Cuj2M3iIZhIU2DGQh98rZi_heiQcOVBv4vGg57Mh-TDWA2aFEVdMn-Lds28Ek0vtG6YyoDGALeZTKgZ-SZpbGxJgudUiLNqoKUsSXTM89t_kUKr5ryWcZx8WlUSHXQNH9ZqUu3Wcn6j7wFzsm8HhRvDztI1ScrkXnHEEx_6p0SE1Y1mMEhPgLKevOFvbl6-KJpEmBxGAHBFOoq36CQ6tVi9PxUHmLUM43rq1ImzrjfWaa5QUISsratFNqRJ0hVUNUfrQjV21dMUn9et9c5cMBr_fEE5Bd7xpmi5lhRtZ7wC9Szmqah8Sf_r8KUHzTa0Zn9iB-jwTpH9dclMKbwUIuUBEEYtlDTwDT6YwHOMuSJyzpuG_JVmwau0jQ6Fzc6sFEKVt1DwA4f37zhh7zm4IGp3qPYSELj8op6jm6RHic2-OLa-7njmECYY9z3FkemU9YfEBCwHPYUE32YerQtmCMviaOBMQqURFZtJQxoMPjzz1dzKxv6sVLy4cWPi_RG-mAbbHZQN7vVJT8wHr2_BnDrB1y5YavYNkOZ7YAQ8bs4r8j8-P-hLZ4Ae1xvFA-ND5q0o4sOEL83A2vTA=",
+        "id": "rs_037114b9e0d6eb12006acc4eb7085887d0bbc15a116965f72a",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0035\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL7507523M\"],\n      \"provisional_label\": \"Stories and Fairy Tales — 96-page collection\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The title and subtitle support a collection of Andersen's writings. Its 96-page extent and non-complete subtitle distinguish it from the 980-page Complete Stories; the additional author key does not establish a contributor role.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL7793223M\"],\n      \"provisional_label\": \"The Complete Stories — 980-page collection\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The title and completeness claim support a collection of Andersen's writings. Together with its 980-page extent, this indicates a materially different compilation from the 96-page Stories and Fairy Tales.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\"OL7436973M\"],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The completeness claim and substantial extent contrast support at least two publication families, rather than merely different dates or publishers. The 1973 Complete Fairy Tales and Stories may relate to the 2005 Complete Stories, but its missing extent and the absence of editorial information prevent a supported assignment.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_037114b9e0d6eb12006acc4ebc276087d0822e5281b12021d6",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0035"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL7436973M",
+                        "OL7507523M",
+                        "OL7793223M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL7436973M",
+                  "OL7507523M",
+                  "OL7793223M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1529,
+      "input_tokens_details": {
+        "cache_write_tokens": 1526,
+        "cached_tokens": 0
+      },
+      "output_tokens": 578,
+      "output_tokens_details": {
+        "reasoning_tokens": 211
+      },
+      "total_tokens": 2107
+    },
+    "user": null
+  },
+  "response_id": "resp_037114b9e0d6eb12006acc4eb61cf087d0b1025a9e2230c97c",
+  "result": {
+    "case_id": "CCV1_0035",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The completeness claim and substantial extent contrast support at least two publication families, rather than merely different dates or publishers. The 1973 Complete Fairy Tales and Stories may relate to the 2005 Complete Stories, but its missing extent and the absence of editorial information prevent a supported assignment.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7507523M"
+        ],
+        "evidence_note": "The title and subtitle support a collection of Andersen's writings. Its 96-page extent and non-complete subtitle distinguish it from the 980-page Complete Stories; the additional author key does not establish a contributor role.",
+        "local_group_id": "G01",
+        "provisional_label": "Stories and Fairy Tales — 96-page collection"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7793223M"
+        ],
+        "evidence_note": "The title and completeness claim support a collection of Andersen's writings. Together with its 980-page extent, this indicates a materially different compilation from the 96-page Stories and Fairy Tales.",
+        "local_group_id": "G02",
+        "provisional_label": "The Complete Stories — 980-page collection"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL7436973M"
+    ]
+  }
+}

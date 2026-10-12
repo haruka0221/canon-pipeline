@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0034",
+  "component_id": "W000005682_C05",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774395.0,
+    "conversation": null,
+    "created_at": 1791774389.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0d3c16b749c258cb006acc4eb4fc4487d082f166367395ce49",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE67GAt0LqrHCSk91Xg1awhVYY2Oh_QNo1MaQ4i9LRjyl_6tnLEJw_JFURIRKl7oXKSuXSN5dJ9ju_Un8NMGl9TLzYK_6gu8y99dfwizh-xFNFOERxfVwd7pqZD34pPYT6QWGOb0k_4EM8jkeDPjpulnWS2Wn8zmYUwc0gfcgc-SoRujX3gYSo5qXzWsYpwbjN5jFfNizlJaai4epqJshkaZyzX6WMVPUI24Iz7zYHdm0w985Pj8jtYo-rcIIRAk_UPjw4FM2anDA-9KWueeBh5iARDuZIwGK4jgHp42Y_SiZjtQQpUf0TDZPEsT7YzgTVI7uZNhgJ8fK6vOpw6wOGV7rsuNzfgG367nbk6A5RLAgcInZTCIHRUuU6xU-u-o4g07KX2vCJgq1MZ0QDj6D7R1RdJIidgTBxw4peIizgaGN2FR9H2v8jpDl1MVIMn_BMjodKNejb7aW7tD-POiXsxnstBwZCoRQv9iZUXVXPFAXIRwmyQNVpc9OOYFQ8Ig9SwLOArE2J6BMMRd9CHc8Zl5gm-vztBDyXFZ_Eh3dgzlMJQYITG2j_gqCmfTNbtptFhO4a7Q9BNH3KOBYa4f4YGY6efsc0kbRdvniYLCsHmEPfL-wjZ7plZ7i4khN7-ya9mYtqwj2IvL7EbAlVcKojcxCowpUDJSrEKc7VRwxBPzWaHPtdv5YNS66PJTKhOi1uOCG0x3pzTpM9odrsYbQ49j2PJEx7ZEjRA7vAm7jl8C0b-CaQLXEhgnd89aSkCSi_d2Rej8QsJkrtzXL9xtVkjk_bryBoTVlobF0uRfLY1yJeXHK4MaZzY6rkm952I7MuTpyzZAWugcZwxrCtg5YL53s7Pb3HJk4zKLDjrRbWXxqWsiaJjlZmMXVU2819LBYc80qOplXu9TTBO4YdV75bZyEwRDmp5tpifaNlnCAs472xICggnq1TYDXS-n9hsgFJ-pGgQBoyCyocCsEahyP5LXKJQfYPNr5dDTySACozvD-UxNibtz39OsXm3PJJSPmTWU8kUjXR8nSjeQCJ5B0kwOeievZXRKZ7wVv1s8lwtGRSgEgudbcftlO-6ItN0HH8GQUn4QXozKtqDopX09dCPBvruo_55YwicPmppJAenNKVRmroaTj-05VVh3XX_AXsZv7vMUFPjoWtToNZYoPo9pS_ebe75cvi7kpX6qqpsU689hSPxVOSOIfbVHWEgbN2dlxKt7GJvuW-hERvTqPhKSqwKNa4FODXPjV6qOpAe5z5Wd2aijBCl-ZQInog2XFUADOaSZ6x9GQnZ89rT7gStv543aMtQLlSQQa-r_GBMSWRjZwqawqZvUR298q1N2bw76VDOWBWTWxPEB1DIfAaINlGr-qKf2AKdym7QiP2XqvUvwpZ24rrdyH7wumUcL71-37Hsyvb3w7I1VueFnD__23SXuGFnv9yr5qEg-hMbdNOUdb8CiO_bGPKak7J0oqHzKviNLD77Pk5YEa_ZkihCcFwYDaorz3f1OxTvKDZtdmJmqN981he7ymPUxUdRmLtwBINC8VRBe4vMYBNTXInhnatwjLL3vf0jXlOq5Ub6w1TfI6z6PLCTbma1GNtAcy_tLE2-SMBNvYjgyeBLkD3yRkUV1hp-1hiRx74gpKmLM1UFaViM2AOdcYIKYrPzrk5LrZdLiyEhx9-3uPxpPs8AZj_OkLLPBzbYxIwtgZFqngKTuBS95kZHXc4gpYh9w0HWhO4aa8RTzLsHJPdBPq2fmjmvhrnz9a98qZh97fG3DngOF1ZXIWoWkOH4UQPkiwqdpCCSCk_zz9sX3hu-q8kyPhlINEA1rbLFtTgkWISn5osslBd5caG4YQo-7RM1c9TcE6F43bb7IUYPj5FcqX-26AJ3Yo7l9lsyQiO-VFHSmKfB5oZawW2axaJ3fME8My1Ovs5Bcly31P5ulohQAGJPu7Nq1vXPj10-uEcT-MyFTLFCpjHKBTAqv0Co3yk77f6Y5BZ4Gou0DJYvSrIm4T_dggcrSY7_Drz7xwO8S2-RQDaK1DMdrfD3RWLhZj_Fu5wKrkBSKfhlpjtj85IysdLu0rDdBgYNmTba8qPhV87a6p9SyjFH2tRP2wbxJBB7YhaiwA9gjf64Gyd7VYlwtvo__njiDXcmu_cJBbe0c74v_W10d8Ub_iWPP65byUKShckZeeUsanewXDGMvNREDBd151L8VXIT8oAok71bdfsWiXoQirqCeoKmaT65R-VBwJVp4N6TBWyF5sLLUIrlJtec8fymFW7mg95MClL9dcFPCKQ0qJnul7VpqLEKXR7dbQZeKLvpzn0g7doLN3SRipgNiTXRkIjdrNAKu3msjxj5hP9iYFMQ3hBEDkyGpcmsszH057QFnGv5yzXCBk_8nlHF2RR9LqgTK-XMJx6-qouc3lJaFMZBLxarjj5rpsbuGtHv2E3o3sUacVOI91yFjSkgr7JEjF83rltSJyTp7M4nNX0juQaM3MNUYeB-DupfRMLUge8RO6SWwXU6Pg-oKpZxaiVZFsghJSF8p320vneap6_5dvQBKeZjSFgDBhldGeXtS_YZZujElEvEXozxRdfy4LOw2zYkeMDAbfkzVj8u0aa2yIBkfiH94Awi5Vz62tXJCBgRJCm3HKItyyCe5h975UBe9dloTyB-pwjRTL7y2NgGAdc45JPJjtZeSrFkHFk1_wGYSuZMCLjzhI79YIKt484d1gc4cpmd1BofCzUEXoNQ5OZGg10Hn1dOrpTMEHq3aUyw3zomutEL2r6eEuSyRlgvzX72XPSYht4HQmxhmB7J8khBkMdEeYpi2zRc9Z6-LZj-dvfpon-1TqeEcIqypuPurGbA9F_XEgEtdX4Bf3v9HvyY5VKxHo5XDeMT6-mOMQHooU7H_5gJQiHJAKLZmvC0qew2t1mHdRcjHEdvAPjeesOBfZaSR8wOy5Ou63Ip1vueT2y6WTCECuvtiVT-YM6cqmdD-_eI07W0wBgAMszjcVLtckLMqwOrwi_il40M0yf5MIxb6GoWXMjGKa6xKw_Py_4rrLtAgQySRjNUcz2N2AyeXftgyBC6b8T6bgGdBUs8aH-yTJHFqrycGVJZRTnH9wNqTUF3FulcfI2d_1NaHkc6fPCkUynsLyniJNPaerPWxNNWzWpQIAhMG7bKeibhOr2PIHY7B93YETdBVDPqVICxMBzRMRGqZwAc1_kThBG74JL2gmXwFjNtH5See3-2bw_vcZzV9ZQ8I55Ijrps1I4D3yBAQBz2etg7gOEKoxnsWLo-QxuSo8xbBVy6HR0-AlGpXFAOR0PHCcu7G0IQiNbMu380LzMqTtYHT3L9fr_0ByOH5l2KeCNNiQPU4T-E39sWmUVszlWpP35rWbGuBX9ckllBknGcr6VT-9PMQBgpUNrDEcAoUqNMw8ma4PB9muM6vLAJhZMB6uwKKFLoLTmNiTUBQCJ3khf6nfZJrl2ummYhZvZ_sZYzDolEIWPLxmi3uvf2Ew45jFxc8pHs=",
+        "id": "rs_0d3c16b749c258cb006acc4eb6073487d081a8aae3faa4c11c",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0034\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL12897922M\"\n  ],\n  \"diagnostic_flags\": [\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"AUTHOR_SUBJECT_CONFUSION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Arthur Rimbaud' and subtitle 'Al Athar Al-Shi'rya' do not establish a bounded editorial identity or conclusively distinguish writings by Rimbaud from a publication about him; the author key alone is not proof.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0d3c16b749c258cb006acc4eb937e487d0a7ca1300459edcb0",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0034"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL12897922M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL12897922M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1358,
+      "input_tokens_details": {
+        "cache_write_tokens": 1355,
+        "cached_tokens": 0
+      },
+      "output_tokens": 314,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 1672
+    },
+    "user": null
+  },
+  "response_id": "resp_0d3c16b749c258cb006acc4eb4fc4487d082f166367395ce49",
+  "result": {
+    "case_id": "CCV1_0034",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "MISSING_EDITORIAL_INFORMATION",
+      "AUTHOR_SUBJECT_CONFUSION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Arthur Rimbaud' and subtitle 'Al Athar Al-Shi'rya' do not establish a bounded editorial identity or conclusively distinguish writings by Rimbaud from a publication about him; the author key alone is not proof.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL12897922M"
+    ]
+  }
+}

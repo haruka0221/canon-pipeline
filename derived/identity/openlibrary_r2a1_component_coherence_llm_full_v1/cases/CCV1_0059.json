@@ -1,0 +1,244 @@
+{
+  "case_id": "CCV1_0059",
+  "component_id": "W000023649_C05",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774447.0,
+    "conversation": null,
+    "created_at": 1791774440.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0ab3cd1e23460457006acc4ee87ecc87d0b41e92f50ba5caa3",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7vJVZ9kcYRe9su-IeyyDuZhvHzv28SdVRa6jQVRKoNtJgnSs5irGVRk8qkFveRU3z3OAXK6SQ8mbNiTfwRbAZNriaju8pM8yltjlTkTgsZBjDZqAwOBQuAJvYcH6nEL7oltd55_dOvVUECXtXkGBRFclS_vgmu3RYWb3O68MltVChW9XFyvbfPlEtp7BXmfY_MqryFIUdEpqpzRYGzaTGMjT2DzVP7i4vSzTeCOWYB-eRhVNQ1vI_ILiICOhZd54W2QU4wDGff_U4TpxqBZHXqLwpjjNiSmvsksB7aoYZTZJgj1fbXuDQk0ZyYqS6Yh2GSMljl3IoVGhJCrcvZHMzgE_5SR62kcbeRhqH0aMjLL-IeuMNknIy10IX9OM4YrFTegpM7FWFyOhhzhiogc7oCn6ujDsUPUOZDP--AqN5V7RRdeG_UGYCtfjSB8CVYS78obwjfths7K3BuZNJG2XrPfAsQVbd0W68NPUQL2v8NuykIzvBUxeRMbXw94rKPqc0cCbmma1M7-BY_VKn4fNQmeYG03nojGGXKsRdXrkQruycka6iTqeDiCQhaYQhxK6Hs2LBkEsBxxMIef57-v_2o2hbLzcece3KutibJlq2uCfEYz8AkYYB1vGIQNLGUisdt6rfDE-TWPRNsKlAQbGqIGXhol01jpkvEYfoY4goIjFJ-FI-duVB0amGfu0gumjNlnLfbv_mIsRP2FCjW-LIdVDYmMGd4b_TUJj0JZ7TB8qtbh2iqqaMxh-o-CRSPd9UjlyTWsWjnb8FibwXXAXN8t7JNgEocGjoTP4yXQJCJbhWnuXu7UEZIwlMEILeHnC23qXm4Cr_N-FPdfXryRubxFMxpCqS4GK6QWVMYvo-YlX5Qh_1DPxQKZggEqk-1xlm9Np3gMW-EXIRt8DuZ334l-7zkYjAR1Ed9-42DmhWjiCXS-m4vgY-Z8jmHMD3Xr-S7bk4ht56EoquC4kVw1bzxeAHSQQnK9S3qbw9rdaPKhxgI9QE5yQ4qGqABhYIYYPgl4KBdpxP3q90bFAPQxc3LEStCP2eyUaMbR8jQsnGrhIfD0P6iiu-XVsRoYBcoR3MiwaaiUGKXY-_RJ2cJ-QUkXsWgN1IAtwmGOS56p9u7d3_N-fZmsAy0X6nfshXKRU3IFhRJELF0aRIsbkbXeBJiyw5KJh_PotYdNVhQTJQzWKteFv8xmKoywrwbKSmpTQBirT267RJqj5wqDfE6kUw8FuE051IaWyD1PYeRDXJmZUp4MzKhlcvEgtYnf8CvVBAuN7wUYT9KGDps2o66Nfw_ECihb4ofZptiUWcjrCRTvbGPhTRO2L_XW7I4a6qrIjvt5G0u9WPpr0Z8awn7DabuCxfLYW7uymuGQTrWfuB1x3d2looDJSd56CMSw_uv5kq56Vhncmw9978LowaKikckMC3epLOW-sLtNNrfgv9NERdbn5RUhJy44zMiTNzMXO3tsG-RquKvYVC4GPcRANptItRSwKOGRPylIHuz-5clJ7hg1M9WEC65BeFzz4aNvbBtPDjQjDoDsEnC4OglnJF8lfQnoI_jc7tLzFFylw9qmbUZzGyXsma9qsAka3Fj_Nn42U-FQEkxXZpwLYEf7RL17bBWSpP8sLVzBBixqD-8twrdwGOPYtM3ZDWJeYaG5CJZ3b-aW46b7An5ZMl4j7hJqUvOwfxbaqdsBzyv8DHL1PA1jtn8gamjl3BaoSKyZcOLnpOAdJWgOItRxsLk7wQ-2HajveATCtLrADWXIxciUe-5OhK51RRl-06fw4SmMLP_wAzQquTvXhdwngpOMj98nsJ6tOqJOySp7WxRUgsuXUCYnVvQTwso4WcwwTi8FhqPh0dn9eIE-m-ecCPq6vIbOE_kmtGy2PChsza88-NHvxr51vAZZuwSg9qVelzwcilrzN45xEnX2-YAvk9KlORcBLxIJ7Wodz_20jiaUVmxWMc5VX2f6UIbVf97mPItfKg20zn4ag8PPkL76pgbTR7zHHLGBWlnqkml4-bckbBs3F4kG4mYAn0-16YqC095tIcN3-Ha4Qu1kekctmTnfNi8C56lGOsx3a5JvbKQtGAn-xNYj1yXppWsvBsx3bT79MDXwuFRlGynykDJcWP2GJ231VLX33BwD3R9rA5nyKHHqGzMHV1FbhxbfM5uYb_6VP8ub2dVhzNZtPnJ4m_bQHk93ZuttqMX9vmitQKjnZylh5XCSjGBLJMgFBGzVp-MysdiYu4OIs4SNQoBjv3fMW9nRZdQOLYOkOGyX4c6Qk-SXVIkwPcfWdhQOhaZZlWIE7AQFMTkTnZCYRp4Z2CdAvgKSUk3-2FiLwcSNZ28GEO6OIJJYQwHFvHZkILY45LRrOWrjk2qOTCGz8CJ67bIU0kPrQcNdrLzwiX4RG5U_8UkkXVTZFCyMCCBUDcGtAZvDIfQsyKvIvQztKVVHMsi_iGcBkypfJgcH7dLAHVaoISPjlQOMJx4CNGY3efVSlK1Og0S983CFBkng2zyWvjcb2CAZMXKuH_ZDWeSNhMFfEufcqfWDr6xTOajQ1CSQ5jEd318CcllIK85f9u-fBcXi3X7boPcC3s5zdQlzOVRJnP8ceI2pDASIrbgjDKiTD3nKyrIQiTtG31AXQ7haezMn5WDN-RRefesJdLw9w0T6F_Q9jibWxvx68cQSkGIX_v3vFferOvwhd3jjRp6znnZKhsWOFU51IajfmonwbIIrcTLoT205rNDCBdc4kZBfAKaXmiaX3eoMlW9q7Ar1p-uw9aGy2SGQWttylfA5-U5NFP9eR5hlAsN6v1xzxUm0tRN0S-n64a6MvnButE09J3DTUBitxbxy12iook3AmKD3c7TPih_gPgbJ5_6w3Y30Qo3AHJn9c5YkJh_ZabBzT72gH0_THcbNefPpkw-YUtithE9xNJJT5ce10FeliRv0RkDlWNn",
+        "id": "rs_0ab3cd1e23460457006acc4ee99e0087d0a7a7e5236876a301",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0059\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL11214880M\",\n    \"OL20962715M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both editions are titled 'Ralph Waldo Emerson', but their subtitles differ: 'Poems and Essays' and 'selected prose and poetry'. These descriptions could denote the same compilation or different selections. The different dates and publishers do not establish distinct publication families, and no editorial or contents information establishes a shared compilation. The common author key is not independent proof of authorship or editorial identity.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0ab3cd1e23460457006acc4eec3f1487d0bff20a157a09650c",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0059"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL11214880M",
+                        "OL20962715M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL11214880M",
+                  "OL20962715M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1440,
+      "input_tokens_details": {
+        "cache_write_tokens": 1437,
+        "cached_tokens": 0
+      },
+      "output_tokens": 314,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1754
+    },
+    "user": null
+  },
+  "response_id": "resp_0ab3cd1e23460457006acc4ee87ecc87d0b41e92f50ba5caa3",
+  "result": {
+    "case_id": "CCV1_0059",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both editions are titled 'Ralph Waldo Emerson', but their subtitles differ: 'Poems and Essays' and 'selected prose and poetry'. These descriptions could denote the same compilation or different selections. The different dates and publishers do not establish distinct publication families, and no editorial or contents information establishes a shared compilation. The common author key is not independent proof of authorship or editorial identity.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL11214880M",
+      "OL20962715M"
+    ]
+  }
+}

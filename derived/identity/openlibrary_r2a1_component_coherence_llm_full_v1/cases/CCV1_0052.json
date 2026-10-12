@@ -1,0 +1,276 @@
+{
+  "case_id": "CCV1_0052",
+  "component_id": "W000021761_C04",
+  "edition_rows": 8,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774434.0,
+    "conversation": null,
+    "created_at": 1791774425.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_05bb9ddc64d4e1f7006acc4ed92cb487d0a59920aee1aebaa7",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7ipPL-E8cKPitqrByWLeN70u94tpmCYjXgtiixY5dSmvUNQxWiwTxd2oRcLaY2HbGqn7QMF9_39Q3CGIWfP9gkg9rs6dKYfc8IZGN-zd_Hc6g2GR0vtU3j5yMp-JKSOxjtcns20bVjpxqbb6zsMEtjeRhkR3-7oC_SGQ0UoVnQkVzR0zkvQ4ZUkMkshD7XZsz0h5X8c_HQhrfcwFVRraHt2YZVrk0hmYOVkqCLai3HEMYs9CkyvUScf2HMD2GvWGGd8zXqXa1Bgh7xZjJ0gFVZoRKruIDPRjLJDWn2TfSOcnW4YXoFbnm4mN1X01Ua5wh4e4KiC8gnKKylQi_Zssxs5DVmJ16BZG7hSTLyK1UnIYuo6SJ7wM2VuiROV5DGvAU0WCHZYJRtRdrYiIqWLsTY9-A-1p4UInhdyv4JGQgG-vR7RZu_Zoo-cwYzwmtztiNvlU7lsOGs1e8GZrD2n2O4CwdnbWEKsDgNHy5Jwvbs4XorXFSWf48djFfiRFYqU3DdaQqO3GdFcFaby9HEZfRDjwc36fo_vZ2JaIO4-4XkCaiFtcORTpBfZ1yALm2p6ZV_8orU4DIIvpYgRmvGCrYUWsJdLuWpskqF0x7WjVAM8UVtGSitemYpLS1CrexfFWl8tEhquqYlLxUpFGUW4qI35dUSx0o40YuAC2Wz_8jbooQ1lcguCgMK9n3OPtrQUZt0_TgV4_NgTiHJ6gwKdrb8bD34uFXGv4n_mt-Px41AGjlI8Pem5hLnpUeBPKPSsjAFjzwFu8J__5B6hWY0GnHdPBS4e85Q4FtSgLG7QSEpcBwawZzopItt3RxyL8qyU2ocVuD35wgQOZEWO3nBdNP3X1rR_v26_Yl4z_zLxinBHprscEjX-Uk1zi67cAp9JuJvqgc6b_O9_Qgqkqwe0Vm5Ll6F92RVxO8E-S3A2y2t7uvgQ_4-tXgrr8k2wzbR_QhZx05YbqqeDMcr4hljBWSoE5ruiyNKHI4HKhbD1OCbNRE3lVI6QUj_llcMBQzyEex4VQdtSul3ztnXmf-NwwwCu9o1aVa9AC4Sb9UijXUB6ddso60n4S20hdc0NVmp6FN2RVnY7WsQxkbWuMY1YmSpVylBCgk400io6Rhaik1MQJokwIEBhzDlegedyeSNf1zrY1sgfJDM1AuLkfoVId-OJrkteFgyC1mkVBjMICmE-3t56TACLS-wZiz3cyVjRL0K6wUnS1Q3eE0_aCrGcVwCWL4caB3QQfuEeMYhC8QzdkEV3wSB2XvdUl7T7zVQ_d_T-4RHW8szg82OcrFDhCrkv08s2QHAWbeRJXfsrjiv_wDCXkGBJVgGHHnync3_WFJgQmFiFK-KakROss-MXh5IF6lmvgYyL0oADfLW0R7EEDsev9rd3Th9nherzXTqUxxKZjsnmg70vTKZVyHxpo7h6HPx8NMiOeIhh1xykDKFqcwfvyIZCXx_Bn4DB2w6M1XyOWtSRqyCPNi_CBey6zGMdj6DpiJy9z2i_BbMIy8L6ZTcGc27Pl_hBzMlG-DGO5T1PhjPLRulrreDvuG5lChT1vLYYaLL-9ysifBNv6Ky85Wl7d50JM2HIt2eOmsiwDT9BFvrEq2mO5ulRSc4tM713T3Bi5hPBkaItsHnMOdMb8nxITu_OcJ1xcKr1xTLXc1JW0Ynj8gqKP8eUnzYCElELAeGzyZSsPQUdA5q2bVNthb1kHYF3PrW2e6QABqpG-nt__VrlszcKE9KBOrxfL8uObYOOa8kQ3aUfpcSyuo-Z1LvP0yqqD3vSG38DhdXIwO3P3AsQHepVACuCrXwlKLaV0IO_rkfiulHEjn02jq-aZAkIQtJLcePSAncZt9rGa2VrIdK-VUxiTCTvcrPEbmVw4nWdOm9c7eutQZybtJOfkWVygIlGQExs-xaAVdLc5hyfe-jnfe3AA-ke35dQT15iwltrkE-yZfFyI90QavqpeROHELkcxttpUkB_8Gjx0qPKfDgf9mmcxBnJ4UDenfgFSe9ovNZhl4EmUs0j6jEh4RKLDriAcNCSHH5u-Zv7d_hkSt-DAYuMVI-VNn9O5Cgf1y3nui6QfVrLLyECenv_OTUtidsHyDUithtR5j_ejW2R5WHLsIf8FCnC-eahdTb45DTvEgxVlUvHitDRlcXivOU0rVOqyyinNcmhZnnPYQX5vDqtGPxIek-i-Ff1U55jnG8mBMCuWbU6CrNps3dhXdtjiXvdvK1Q6U1VTuVVDWsWqPKbV2mI3CvzQjEifUY2qKt1FodKWZmhdMtco_h1SWDkUZJMviT14fcbs--vo9yqrF4elfPgMb5NTcWfiUqHDIWvKsYwVjyxnK2h2oPJ0BuALME6xAk0bvzDryyAiGX1eubbA2CdKiP1eKkfrhBv3EwMxy6ia3FFYKFRZrozGJIaQg2rbdRUDuR5AVG8KGWHDR1aA-0YnfHQ41Uf1HKfg==",
+        "id": "rs_05bb9ddc64d4e1f7006acc4eda237c87d0b1809a1ff2bedf7f",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0052\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL20934050M\",\n        \"OL21599628M\",\n        \"OL4916026M\",\n        \"OL5387091M\"\n      ],\n      \"provisional_label\": \"Poems, 1968–1970\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All four titles identify the same date-bounded poetry collection, and all report 90 pages. Publication dates and publishers vary. The poetry titles together with the supplied attribution support writings by Robert Graves.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL14369127M\",\n        \"OL21481428M\",\n        \"OL5302777M\",\n        \"OL5464309M\"\n      ],\n      \"provisional_label\": \"Poems, 1970–1972\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All four titles identify the same date-bounded poetry collection. The populated records report 83 or 85 pages and publication in 1972 or 1973. OL21481428M lacks publication and pagination data but has the same distinctive title range. The poetry titles together with the supplied attribution support writings by Robert Graves.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\"\n  ],\n  \"evidence_note\": \"The explicit title ranges distinguish two publication-level poetry collections: 1968–1970 and 1970–1972. Consistent pagination within the first group and closely comparable pagination within the second support these provisional families; publisher, publication-year, and punctuation differences do not independently require further subdivision.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_05bb9ddc64d4e1f7006acc4edbe56487d0a1f2bc74d7ad6ce2",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0052"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL14369127M",
+                        "OL20934050M",
+                        "OL21481428M",
+                        "OL21599628M",
+                        "OL4916026M",
+                        "OL5302777M",
+                        "OL5387091M",
+                        "OL5464309M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL14369127M",
+                  "OL20934050M",
+                  "OL21481428M",
+                  "OL21599628M",
+                  "OL4916026M",
+                  "OL5302777M",
+                  "OL5387091M",
+                  "OL5464309M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1939,
+      "input_tokens_details": {
+        "cache_write_tokens": 1936,
+        "cached_tokens": 0
+      },
+      "output_tokens": 505,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 2444
+    },
+    "user": null
+  },
+  "response_id": "resp_05bb9ddc64d4e1f7006acc4ed92cb487d0a59920aee1aebaa7",
+  "result": {
+    "case_id": "CCV1_0052",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS"
+    ],
+    "evidence_note": "The explicit title ranges distinguish two publication-level poetry collections: 1968–1970 and 1970–1972. Consistent pagination within the first group and closely comparable pagination within the second support these provisional families; publisher, publication-year, and punctuation differences do not independently require further subdivision.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL20934050M",
+          "OL21599628M",
+          "OL4916026M",
+          "OL5387091M"
+        ],
+        "evidence_note": "All four titles identify the same date-bounded poetry collection, and all report 90 pages. Publication dates and publishers vary. The poetry titles together with the supplied attribution support writings by Robert Graves.",
+        "local_group_id": "G01",
+        "provisional_label": "Poems, 1968–1970"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL14369127M",
+          "OL21481428M",
+          "OL5302777M",
+          "OL5464309M"
+        ],
+        "evidence_note": "All four titles identify the same date-bounded poetry collection. The populated records report 83 or 85 pages and publication in 1972 or 1973. OL21481428M lacks publication and pagination data but has the same distinctive title range. The poetry titles together with the supplied attribution support writings by Robert Graves.",
+        "local_group_id": "G02",
+        "provisional_label": "Poems, 1970–1972"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

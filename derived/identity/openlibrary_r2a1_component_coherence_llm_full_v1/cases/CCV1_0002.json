@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0002",
+  "component_id": "W000002404_C02",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774307.0,
+    "conversation": null,
+    "created_at": 1791774300.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0d9f8348e1fa5c00006acc4e5caa8087d0ba022fe888fbfd06",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5jBmBDVRpcZfKinIVhSjF8BaDrYb2fhO8p9kButSro48wpAg1hAOPyRHelfRSR5mhjjwODMehq9rwXTjcAWCpZ0QOer_vZD175oKb7iXsHzDwzxk_BicCp_X47EjyzOma3dAbKBWqtIBAbvn36t5cdPCF33O9OPZZ1KNkSU00jp3hn2M_INLR1nATH5fdG2MsxvPQGKX0fhhMX2wEbAsB2Dk6R3R6AZYPyVjLUKemunI9I7I4dRZb7WU977C4exReDgOKbWixC-bJRTBBChiKbvmXeYETV281J_vtt9DlEnHOwCwLPoOHaXF2QXVO49JI49Akuu0jjN7ouZeD7ZMqOuq2_X86M_yBvcavHG_daV1ARYlZjZ2IPKqneCOktH1m7u3VrAGAUPk5rcrnBS2YxL_e12YHHOolT23OJjVXVleyd1ac0V-IQvr4IpgoPTfWND-NNWNKaA71BxxAm4H0W7PjmUxfXVjnUWVJKWZBC45708cvzIeTtPVvj4ftPHoJpqwNo38yQJLZjP-0s9F0wpiHBYjRiNrD8cb1kZuqzbAVDUf6ISbwzKhGtT_IZCkgNJWMQaUDO1nVhqOZ3LMt_qx7ABOm_JdCDqzFRn0H54xCwhasvJ5nC2hSBCs5Q9wb24LmSB93EPYVTvYg9H-1sXn5VUm8XsiEv_q9JjngYFPlThAjYGqNowG2r402SyVrIOBRPpH9t-o5yurhvtCBF9zkFZUV9XegqV4MlQlYWFEHi9IqHxISzdoXwB7-NRDuIkU6gl2lnXKp7QxL9Z6ESU4bLwydE_jdOwP80dA0j4nv1m3gCnh6RlKyZJk7hs7TiO0tqLqWZ6JvEuFUukC8AyD6Ltd-izBEtDeqReoOIEZA_UtRLySguq78JoHS16Bo_AyWkvBal67JIydZJ8Eh77BUwOUep0zTEHYVvmhn531vC73vQrfbCiMMW_JNnVmTrpHqe2QRJilVDK2cWJGWs0BjLW_7ArxI6-bZBtmUlJcqS7Rf9UF4JY70-CiEiHlGVfPhVon21Ekkp6Rd7r0ItjaYxNCFt_k7HyZixqdeL3gyV1SoLLS3wW1qKx6UBCm0vNaOe4QGr8Lv6n3HSLeXha_d-TWMjw9hLVa554grT7tcriVG2I1__-NO-rBSs70hBCvUxzhHMBgQ8djYgXv5dFvCfKIOS2bNrHZiLv2grD5kurub6CRCPSVvGF9CQlKitmPKIkx5bsfp6EJ9gYbTCNnnPIaT3mfpDS5BJHyUEGoUkViTGAR2UQMPmcRksAlfT_KtRDR3P9l4ZmebNmE6Zq-xqgYr7RPRl5hK54I7PzA8G4KJTBRNdjhve_-LalzO8m4O56Jo3roKhKoJ_5dwMDmo2A5anoKhGb83kIrwtywCT5xzbep3gDjo5G_w5dmuxHOhnwUqiWuBMxHthDSxQXq2xgmvc72XhLgW04G5J8s6AjCu5MUIh6_PRTHY9xsGTepWiWzIz8-d0sB5hhx2FshAsjSB30cK6vsayjwfxMNsTvouMsDPvjCyk3d3pbczayP7sufheSwNe6MxpMXas6-4abjx_bdbVfb7XrY8TbwZkaliMVois3BeH8vuO81wZVwxrz0J1ey8dAsfHrzISib3cdZPovUgHME0lSRCy4txwDo3cBIsd-mxjYJhK57Mg0h-qRglmfaFA4nuohfAYJQfXLiORZRh4idwXOcnBbbhYF8_w_965FKdGpEmonk3RtMNo0tR9ukS_rBfbRzzRLlPwfr--Yj4eKFF5fVzkOiQfHe1wnXaS4KCX60DLzBlzpbYQJSb305IGlAf5Rbxw9Hmhqcaph531Z1Ghsn0Okp0VXOcfwj0jRT4hr8obG3MjYbqzZZv8hi0sssOZz-ExqsUUJKA4_kBT_uyTxPM5SXfeNgSPp9qZRrcvPqZoLGUlQHdR6sBIsYOTrhHnHIchCDxY5qtn2Afj4a6As5FcPAtXxhQ5VIPY74ceHIExnxGVaHZbCrDyXAnBtmbiuCcNHzter81kL-Kkrg9E2JHWCl4vER7TAeiJXX-ZSRrtqvK4BghDd-sledGQ-K3UAu-zdoJPfmuY-BmV_ziuVdpnMFK-4AYjvmzPn94vZpR46xiq7Mb-BR1YnLLUbz9J5vdt2z-Rqvy4pHP3OLIhjSULdBAvlucckQ4rn-vHFpHTB4_zOz95h3kMh6VgBkjnkaE9Q9r20ZEn-GRoDNlWxXnp-YC-S2BKFdMjTFCYwLrJomGbqaCsSs1Uj_rGsJO1uyFuwgCkEttw6GKzmo7kRHTHsRe0aJGBV2jrDBThn6NIx6_9JqkXOUa-oYW2Wl0C5127vVfvOsaTYE9BMDi98Gr-ijKc0djHJ72j9YEkc0JpfWtJPP8U9k2RlS9FXcaB2WAcVOAdXkM-p-Zu8BwmcGaD5DmLhj75tpX-Dhpt9aIoIXUXaryqz5JpDOyyf2HK79l41WtArkrc_DmOAupqRZP0ZRhZdFQ8d1-ld2O11RhS74vAzo5malckRUWdFTnAK4_W_u_6N5bw9Avz94ThhyRUUqtnyopSV7YGppOSBvYSkdRtKAg8595AnsbG6rYJNFRJQyX18gXFuUmckJ91V2VplKyqK8qbwokN6adHyBT2WP8OsgXDIszTseppcbeInbfJaFmhaoocUhPOKQGc3huyg4mP3si93VOgIbNTGwuCQI1NXifCEtFrKDu5MX4nd5EbOi9WjcU1tZpvreN07A2U34ILcOsEKT63qR_95TS79rc_-4Tlk79e0Or8F8yJ3Ze9zgVZpHcJuwZlBorjJNWZuCK3bAsDSgO9U6BaZoCnbod7UcvTLAKisQNmo5r1JLbL6AfnHFH4R_WP_WeD8GOgFFgcUPQaHy8fw7HSRE0QtRBggPGpBEK_qR0Jqfhc2RY4LRdx3oTluQQJzlTntm20xG4bo1_a6AvP-p9Ol8kJbo32R0PVfjwFJDz_wZv_Xwc13YsCqw-n_Iyo3RjVogE13hbn7gc6v97xbOOw7M8Udwjjr2G-svwI2jnNZTLTCREa6CNvX92OMY_wVD1a3uB1YqYHQYwNmu3YWCY7iAxedm8a1YClad6ACj8nKAFYb1b-zbK2J1KFsriqg6QlK-lSSG2Eto7zmH3sO_GwO3M2z5g5uG76FVCN-k82Z3wpqCxwaQCDMw_qsAG-BYz1G9fUAWYKpJR7poyMIe531pkqWYvP20u5H3tMu4wzt-nOLDcixOb-C_fGJp7gm215YlbGJUsQI52yrhULTCOXoePQWxfePg5noxrkl9xdNDBBl_K_G3O_7M7XawlpFHCMaTqjrCPUOsp95t0DkEp6lUSH8q3HAOdO6vPRl6jT8OVH9U6yw38tgZZCuu2Ertm2882792UKWpDkMzeWq2aekx51Sb5enMTvx56yxsHCJxNUdBqQqfdDAoMyBPX1YmbQuJllBPf19SKanyJTzdEhbglwyRaeXReC9Awjei45yOEZYPICtDuUaj0tLX3U3ER6aosXO5dNw4UXKWgRJkGNbk5qWOJk4aLZccDteYxXUgpRYxAau99N92iQDBmCDmmE8T8KmYvCNYLXKU8DUsA9qkokXpLCjp155NH2NxPfGWr8dR9n-MiJHefqZF8LSJvO8n38DMJKpGBQpIGZENYLR0jymK_igP4w-6zIYkE2AjA-r4qP4riVopKtq7ra699_D84bYQ6CjedfyK7Yl5kN3By_nqnS",
+        "id": "rs_0d9f8348e1fa5c00006acc4e5e011887d0b24da098271122e1",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0002\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL9481390M\"\n  ],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only one Edition is supplied: Henry Lawson, subtitled Selected Stories (Angus & Robertson Classics), published by A&R Classics in February 2002, with 567 pages. No cross-Edition publication-family coherence assessment is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0d9f8348e1fa5c00006acc4e61593087d0a43cbf04e813dbf4",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0002"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL9481390M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL9481390M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1355,
+      "input_tokens_details": {
+        "cache_write_tokens": 1352,
+        "cached_tokens": 0
+      },
+      "output_tokens": 291,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1646
+    },
+    "user": null
+  },
+  "response_id": "resp_0d9f8348e1fa5c00006acc4e5caa8087d0ba022fe888fbfd06",
+  "result": {
+    "case_id": "CCV1_0002",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only one Edition is supplied: Henry Lawson, subtitled Selected Stories (Angus & Robertson Classics), published by A&R Classics in February 2002, with 567 pages. No cross-Edition publication-family coherence assessment is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL9481390M"
+    ]
+  }
+}

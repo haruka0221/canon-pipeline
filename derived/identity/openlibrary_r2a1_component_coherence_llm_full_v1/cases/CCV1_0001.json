@@ -1,0 +1,251 @@
+{
+  "case_id": "CCV1_0001",
+  "component_id": "W000002404_C01",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774310.0,
+    "conversation": null,
+    "created_at": 1791774300.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0254d2390aba5d60006acc4e5c545487d0a02ffa4ce323cc17",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5mrOxONbkuAy318GzO9mvZuiLJbUPhzkqrlrFf1jSaglVfZbSOgnGgNoN6bXG_6UfAE3pmDboX5liTMdCER5c0j7ZvzyiVtHm-5GNB_sEkkPzAXrEgG8L9OKQtYasoSLQ7b9_mLi2jsofeh1WM5nt2uau0H6EGkY4BNgSLPfkNqnM6_zo0Q5OK9hmf7vljFeH4LZpamzdNQ8UwiqJg5ZYuBIzRrQtvHTVN1ZRVqIoEVTZRPq2U19KmKULGBt9D6q0Z9V5MqoPAZWQfDDGbwJpHRb4sQbXtTpthYj1WjURldr7CTTU0c8q5s8RLf8Cf4YbUzfYD9DMOHspPacjjOCrgTIBWM95ia7WWuiCtzKIkdlDiJYQvWJC3QIZc3Vki5MhFsiaFoKW2DVc1t2R6g4o1oSTI4OVWXlxzVgu6pUWH-UvHvXipQINFCB8P_ESvnaY9DONdZOzTmLekeFKuS8UaaJEiLQGmHcuJVlfum9FZnR1xsBMhs9d4XbypVbqShtTKkh1K33JpUtLSmkD4rg1hwujJdWQ02iLgveY4A_51BVSq9P8jUpbuK1q7ygrcCOBdatG8hpWCpsJpujDreCSzQuwJ4fFIo1Ji_AV9dzYebLR57wu1itiXH8iZSflpwvgN2T17Quaj6-FAdX539IcWwuNt0Lf82CyYm5Ob5T1nEk8-yHgO5LiM9eMUE7Dt9XwDn1xwavQCA7n8LTJGgQZTibWjonYhqS6zB2k8Q3whri02LOb6V_LqckystmBfGWP2EUP9WK0bE9tdoKYKCHSgjMh4fhKDRqnWauUzTUqNcWEetAPZt2OsB_c76t-0U8-QnDWvE-ZE0lLiuMHaFi941Zs9HQbuXmVw1FnaHkTknMkWawoIIdoAiFCYTOUtRM7sZ-ctBo-JRnYJRQv2DWWkMEBqKRCrW7JdG8oe4ief69y0Zr3wkhg-zdMOZ-QPZbrLhfeh0HkehF7uSwBKewXPhyYymLJb5LJeI3W50SyOs8OYpcKrn68osBJiriAG2spgHG3iiRmD3U-HveG2R1RdrfR69HNfLCkRoRvF0fcCjD6zspVhFAzuXdO83xkP2h7NVG9ZfTRD2L8hAFduf5TzoXlZYTLv0KBs5pqAQKeFBZ8apA48IvAlUaY8cIkaUGAiNDKZH2S7cntBWvackZ0IDMMjy-ihFo2Qbc2YT9V96LVYJ1sAtnWeCYMBwkAiqgH97UMB7xnoNT3L3t5gJLy0gjcuFq_7xGIyheWfjdFxUIxBKBVmKesc3zOwcO_yptQhkGcRYN529FiarXgDXzd-F11eVCHUOIbTmIj9kxTWG7UpzdikuIiPEjEtyL0zgmO759oGv0RX_5-UGlRrJoXyF-REB5L46Fp06Uv9TX7PtmdN9MWd7eryUZ9JPjtdVFiNdqj4oCFZkXDDzFc_Vim_fnkOXG_vxcofgvvyfUrENkCtZ50gd6AxIVK9zIh24oXP2LC_EZ3Jo5067a54q7jtuA_7iJ9aA5MlKJALPYjjzXG3kh-88IMgMAw3iNlWsFUNXcNECh5JKXIYH-oBefvAG3wO4x1a3vxBIj2_70qg-5a4CWUubMhrPibY7RNPU3EcU894lsfWl2uTYy2F-tSMomLc4-aeMqQ9GkRZPTjhbmqPFZSGx_fgVCUTsiqD4JB9vCJ198iLIUdcC8MXoXW5feMy67382Wcp0DoZipmlOfuUqrn6V07bJCbv6-y04uFsyCoBnEGoj5UZcK40r98jyRlYXvx3SWJ2urTuxYMfX3WKVcLAD6ABOHYgB4a00hj1Ko3WhUYRVLfn0nwRTRHNaD5KtKqd2r_N5WVN9R7dRuN9Mh4QdsFBiR7_oaB1h2X9Y6YZFwQ-W-32s5BzEqEWvYMQS8J7I-IQmu96Kwj23Cq_pj7xBMWHGoiLkIbGGRykBK9QsPxqdc0gSVRC4voPMDXsB_jT3VRznzrnY6yYX1Z4QohFjLC9s90tOSt4N4r8U4udTWP3pbYkEch39VIpH4djwqCr2F1beOyYa3L_ReNBpdyP_8diBiM9C_VRNtAJNKm2_0D_ZmTaSX0A2LiAv33iaBmuz56kKDfEN3EmFg4i4afnpvmKks9tAuGCdacAo42o8hrzvBjeFzm8EHey55dek0mf0r6e0kpw3cUNQ4EtHsfcQjoD8qK7xkHiiVbNigNrsG9HO19vuXrHB71a4GyNIhkiABrTI0Vm99Mk61PRqnnFRW55rEI74Kw2AHvNDCkKx3Hlm95V7qm7vqy42zrAkRJJenUvQh9i4hoYleFjzbLaz3Dr7QKR-_JVGeOzKPoYJDRb0Qiedu1tHo3mJiI0JE3CZNzV_KfCMU3mg9MDJXKiuqnpfIjkdMP0E3TqZn_indIGaWiGw3e7V1iO8OlZmkEjl9tDRoFm-qNpWPpg_x9F_yCKJwcs-tPWrUnpoJHPnBweAnLhX1EW2y1RWYaSOGWB01kfNic58S4AbldjaXEheOBT1uL4_oeo5s55J0YcgoRnpSPrHN7UMYeYYMbOqFl8Jxd15DLOKRjQH9VDlh1PjSb5yVnjLdHupbRh618qusBAMkJGBoEoWaDorzC5kSelUnFiBKRd_sfnRtBvW-xwSnq_L46XYyF6WY96_ZuH6Hg6Pp0GlpflKM1iTDtW-m_RHqCFGx4bdnGI2IXRvS1IMrIRA2swU60o9UUAnmg83d5VIBcHAls9Dz75SrkkzKvdfyHH2kRlD5ULYqbPe3PxPsHaUW29om2hUhJOI9TOoRHu-Ob8YPOkenMcW7gy1xrFa3-YtfBscomHavelohOekKSRDo5FmDRovdyi6KbSb77SSkUYpQuZdYeFf6pdEi_o5piyx-JWam7bvdJ17K0N9mFi8ZT3u5D8qKvn85Ke32lNPVy_0x_u08mLBzQvgUYie-DqJFUjCICVCFM9IgkU-2VlUMczBLR6SYgjiICDKTmW846BH2KOOz3PHD32JHPP5EOFGO7K0bn746JtR2D2KO_DO1wgV-xKu19kIScDuNVnoHX6DiXfDs4a-PJIEQgq_IPGZbMHssgX63pO-8MzRDnFKzUIOzr4chvRmDCEQUYEoSqsqxUbosuwsAH7BfwtOBTG6Phs1Tg3M7WFs7ox_RG1Lmd6DgAX3yeTh_70tcIf_yUbAzpcsxWYNDaJVrAReVmkp2l7eO98emfDjud8riwtRpY4z1RRvtdH1S0Oq3c4jQdZUCSU4h6Vprf41ouVBXfWHkn1PnYk64TzKQfkqSTK7oii6claifbqbfp2NBZlqpAE81dgD_cYclfHfr5GxiIsQlpPdASou4u1FxgzR8MQFaWgnGVdUkxyOAzxX3cTG1jsHrZS8jjptEjTzsoBU_WZ_cqI3nd5_845XBHrFmlRhwXx8vxY62dJE4RKLI7W3Y5N0RvMKSzbgqjRLY6Pk6CuD4EdcNVg4OAGr3iNDJ0qzfmDnU-mr6Lk3BYjfjzrpLjrUxfP7VaA88eLsWBWIKqOoh6Cklxf19-BK0PeQ_EmkxN3S7cJcht34Xd4ReYhmtTJPOpm67hIWl0TGrbouhEyrFadI-PETyc3BzZKWchOtuagOkGoH725CgW3Sqn9vXrHOHtJHqQOkgz0zjF9s291e2bZDXYVUf5NC7HOyUXbK-OUNPiCJL88pu4Sr_IBWwiD_ssxselWGUXYp2ItA05JaknZybsZhNqy3FuqQ5f6LGDzyV3dXqOswWGt9rrI5gBIcoSGxp6STQ_cTSmct5TB8H31zvi5FtWZSof6R74gc_pSf1M4mOgI-qB_GdPyzqDG96ZrlKHEIWHOz1Zdz0E8NyCEJBM5Kc1rtv3QAabSTW3fijen5Z23aBCUqU8TCwON-t-QYswx9Ry_aumSWp9RjEOi7jCUyp5Xw4lvyx-_8B8jw3nEjMtlddZI-FIjqLsaEEmK2c82NG_nljuHODpPkDDk-iJHwd1bq7hqI7Q_nojzJiHxeOPTqcZw_W5oHj4COm1CY2hUBmnz8HD566qi6nv2YpvHox14pNPjJkFN7xh1Rc31JPBRNnwmNZBI711iaZD7MiI7ln4tVTYfRxkzvJsekVzrT05P1vRgGu9-olSxtB4crceySYl0bqMwywJ0q-rkCl2RdgprjQeMwO5USPykkLA0LLbjrznvlMC8kBHYhKDVmcjRU0mcKjzYuf2z33f419I7pYH-67zVyUxIG9-2TqdibaLCsdFFbL-yIDGILBqfLVc85s6_bJwyazCEayri62al5kjGY9xmzbYG_908JMATUFVotHYF5JDAQ74X3wYAYbApxHNhSvJaSZgu04TLKawKb-bHyHFFo0L6abGtN-EZPGM9RLls-ABccwWQwtZsrI2IGkco6eMKr5fMJ_nLeues_pmc_3d8DzYPeSnovF_1oKQ9a2mJoD0t_NX1ir7JXlvBYVwo1gzEp892V9u1pUaxIxBLtZI0Jk36-Ad26X0EiSx0q97fcAKvHathvaRTHOTr",
+        "id": "rs_0254d2390aba5d60006acc4e5d39c887d0b2aa012285c292e2",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0001\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL18357688M\",\n        \"OL6521638M\"\n      ],\n      \"provisional_label\": \"Henry Lawson: twenty stories and seven poems\",\n      \"authorship_relation\": \"MIXED\",\n      \"evidence_note\": \"Both records identify twenty stories and seven poems under the title Henry Lawson. The 1950 subtitle additionally identifies observations by his friends and critics and selection by Colin Roderick, supporting a compilation combining Lawson's writings with commentary. These additional details are not supplied for the 1947 record.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The matching title, specific story and poem counts, publisher, and 337-page extent strongly support one publication family across 1947 and 1950. The shorter 1947 subtitle does not establish a different selection, though its selector and commentary content remain unconfirmed.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0254d2390aba5d60006acc4e625e2087d08b100d0dcaabb249",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0001"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL18357688M",
+                        "OL6521638M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL18357688M",
+                  "OL6521638M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1451,
+      "input_tokens_details": {
+        "cache_write_tokens": 1448,
+        "cached_tokens": 0
+      },
+      "output_tokens": 489,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 1940
+    },
+    "user": null
+  },
+  "response_id": "resp_0254d2390aba5d60006acc4e5c545487d0a02ffa4ce323cc17",
+  "result": {
+    "case_id": "CCV1_0001",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The matching title, specific story and poem counts, publisher, and 337-page extent strongly support one publication family across 1947 and 1950. The shorter 1947 subtitle does not establish a different selection, though its selector and commentary content remain unconfirmed.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "MIXED",
+        "edition_keys": [
+          "OL18357688M",
+          "OL6521638M"
+        ],
+        "evidence_note": "Both records identify twenty stories and seven poems under the title Henry Lawson. The 1950 subtitle additionally identifies observations by his friends and critics and selection by Colin Roderick, supporting a compilation combining Lawson's writings with commentary. These additional details are not supplied for the 1947 record.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry Lawson: twenty stories and seven poems"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

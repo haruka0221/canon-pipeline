@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0054",
+  "component_id": "W000021761_C07",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774438.0,
+    "conversation": null,
+    "created_at": 1791774433.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_02d14cd311dc3c98006acc4ee14eb487d0b0d3f1d0b8e85b9a",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7m9qHFeIN9UpMovqQC8A8xb6auCViAk3Ez-E9n7Z7HOpzFB6PNrVEfV7rpOWNLBGNmAk7khrADdx2NO_dijR6IjgeFys2jZqp3QFMUiLmQcgRzipIq2BvR6FFv_ZOqy30MDdn8Som4K2lKpYR4bi51RDZ3sVfAU3I-4NfVtSIfoHlcQ0pL0VyT6FpIB7VI6hjb1LN0Wz2P1CNrNnDaDYy-gFYOUT_4EwNfWKzq6nf4WdifOjVPAbPes9gmGMMfwNSyxccXZPuNv4o-iT7Pt7yzM3XyjIYG3Wqo2CrTG67yNdeMAPuvhDDPZvD_t_k_WpGoK_qnXqNWfoI8VVXsyjZOZpRwDXg-Xa8nIpAxvtPRsFNJQZLvzs179i598wMvtAUlu8eMO_ABFeVSROR2yIH151eKLV-s_AWUgIgNvO_-MNIQ1eJ914RL1Kr6BJ0jvT1-rSTJzuoef3SCv5OSyNGPmDppgy2tVVJeUYIOGJfhGbx_r5dXJWrGK2OwMyiApmpXWJuGsgUmxuppqcHSxrJ6Rk3H_JyyLRwjsANGwvF4bmtwX-L_VvCwHal46s5oJ6qkuBe5iMvm2facqS-7JdPI-IdQsrRFwU0TmxpKdHxhFTDpbs8yr8AtGM_PV9CdHwi4ru7Pt7f_XTGQHfGHR9RjjGbJXiVVcL25Wre_dlZgkoSYlgARetHlDxut7loXs0kP8vAqU3HJAF9cCu1TJI71PePA9VGwK0T5VRxcyBoZ0cjZ_NgyyoZ2_e-7wdstq3nd-HL_x9YlJva_rDJzZ9Y-fGNaTHV8kB0cgJ6zYmB2HBtMmYS9TGWoQF2aa-6_epYK6LH3d6HTdWTXT62-dxafpjbJ8fEJX3hQXPSy20UMzKR4pmqenFnSfTXJSdShd5M0o56FXoQ_J8HIkyMvmSVMBJadu7ezbOVTiW5B4H15xlqiFuJ948IMEgpNVNHdLs9ISAeTg66sRne5wopy-3Wv6cxPP7-Ng7ATs_ytXBObhGQHypXirRorVN4XsVancrWDBRhNZpPMrBVdNm6zCQhmHLy8NOgKwGXxhaciZLOP7RWcQwjp5ASVs1uzFy0qbUIY9qdzN7Wdmb_37dayQ26jxTWkod5kWk7oDoD33Nna3lPrYNkoIhBcLYWz3oWyFRwjnSHyNfS0F0TrubQ6I2MyCq6FPTAgcGYufHtI-f5LQZ1QF1dIhRPbjgAD9wn7H09nW4X9zsCrqY7UKvJjqJ6AAhIm2bl1TigpxdA12BqZE9qPWiG4PUQppN6FE43RmIx9qNEyZ5guUP0bDvbxdZISL6nX918WN4d6WN0KCob-musmJMfvqnNSFvtjyEJ0a9McZAnS_Vyc-jHCo5t8nJMHYT6-Z5tOXj9YpFCl2Zzk5P6bhsj5220Yr-u0YnS8HNejJpNncVws-n1ZMxdO3dMT4rP6VcxPnhHCFVPPH_ly0-Ro5FgHhJhgHIFWQl0lEzHOL3_Fjgjfusu97UTUqPl_iMSwUVPP1qj6EXqNmSKIXncNP1ZKR0u23cEKS7cxrwt81EXn9nkcDo-VlR7PorNmSeLEPCbtk0txfBsZN8m3MFSyv6xTbcr97f8yDFSXKF5_dlpKanA2N3WH66Sa8oSFhmMpsW1q7hdWraEx-9yhi3Yb7SdgJGPFkMDSydxZJzInQHdXQoFfVC8fVMQnNlcZ9H-OCnEqvv2cCmw5VaVJQpQhpkA2C5WOc2pEUQ2xhmitJt4bugsUCiwaAi_9URRnNM1MFo81EFw5169c_5YuNtHCBGFt4uN2TLyT1k34tgQIasfHfq1Mc9casJou7aurzp_t3AzZeQOatv6Y-vh-EBntWSn-QLictVzld_mU-vRwy7QPGniuJG4FsfRVi8_dh_DV0DSNU-E9CMs4I0Iq698uHjpC_lsk574PiD9Z3wIP0-EJlxyQ3pDGaq2aLrWigLUVxC6FVKOKQMjKY_ZYSNww76uNKHwav5GAYy9sZPXnvJYs9r_nccKHCHQfuUs2tMN2z-ffr0JAe5JAR0S4Q7rEQaYbiFZd9IuT-831AsCfLxa7JrS5M26TuYEkMR4kL6Vw1u2C-UsaUlla43o-4R3MyzuOINX2J89Dfh6kLF_zItklg-lzZqPTZjKYF5K_eTIUr9r9DDIVn6Oet2UOWmq8ECzq3-YuKEpeGeX65-WdeJrRL1IlMlx0mgq02OzZEwQ3GHiuIOD34Tcu2p6WLSyxdaiP3cb7-8Qeel3vda3QWHUa2sxkQluEzUKPp5KrTOdZ_65ebsGlXoXfP7aFjH-wu3SPAakK-14Gul_9362UNB25KMROmhgVts9yIZ8X_NQEAdtsmw9auzEiVORvoOqR9e4-yG06B2okgegoTVWh7xJTRfjvE0sDDX_mKoetzVY-k_CH2KIep9kpQ8q2UTbpUK7kqkm1UTy7s389s-L40kbR_yywx9Ue_UH8CplHZqbo4SS5NBcfgMGvlROAzRG9bEo8BwSyChz3c5NSAvJzYM5skHRjTtOxENdJ5GyHP5oYBbnCq5fgT7xwaueXowFkuf69pI4tWe4qELNQZRn-CqRrZDURze8ooScomFd5gJwKoHvQbz_Jih6yFeRh1skKjjyXU234BUoI1JKCtGv-LpJg3H9cSmmvOLfS4kdzNPyPVI7FWg8XELVFPFQIIVsuENu0l9CJh8UG4Ga7Uibov88mDOo9ETWrFaH1Zv-lOY9PR0UwHWWsRyEKegMxX788EB3bNvYWgDHPoPeZ7IJcssWrUu-6rzw3pg-ddt5S8A==",
+        "id": "rs_02d14cd311dc3c98006acc4ee25fa087d08fbba1639cb5290e",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0054\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL6519850M\"\n  ],\n  \"diagnostic_flags\": [\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied: Collected poems, published by Random House in 1938, with 190 pages. No cross-Edition coherence assessment is possible. The generic title and absent subtitle do not establish the collection's editorial scope; the author key alone does not establish its relationship to Robert Graves.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_02d14cd311dc3c98006acc4ee4456487d0901d4a7eb708ed69",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0054"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL6519850M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL6519850M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1344,
+      "input_tokens_details": {
+        "cache_write_tokens": 1341,
+        "cached_tokens": 0
+      },
+      "output_tokens": 265,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 1609
+    },
+    "user": null
+  },
+  "response_id": "resp_02d14cd311dc3c98006acc4ee14eb487d0b0d3f1d0b8e85b9a",
+  "result": {
+    "case_id": "CCV1_0054",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied: Collected poems, published by Random House in 1938, with 190 pages. No cross-Edition coherence assessment is possible. The generic title and absent subtitle do not establish the collection's editorial scope; the author key alone does not establish its relationship to Robert Graves.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL6519850M"
+    ]
+  }
+}

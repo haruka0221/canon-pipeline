@@ -1,0 +1,11 @@
+{
+  "cases": 71,
+  "editions": 371,
+  "full_runner_sha256": "effa5029412a8f4752f6297219e3ce6bc8f2490669b0d09453107f9ed103be98",
+  "max_workers": 4,
+  "model": "gpt-6.1-sol",
+  "pilot_runner_sha256": "0ed2662fd824832ee1db172d4f4ca35dfd4d3c46473582434eaf139898ec5cd7",
+  "prompt_sha256": "c45db6f2ef12cb1e26e89ff6b6a8df49ca7db40e654dd6340e68297600bda57c",
+  "release": "openlibrary-r2a1-component-coherence-llm-full-v1",
+  "source_sha256": "58c317673f8072928a77fc72d7c7c9f9ac8f5764a8c7ff33df3b1c268cc0e502"
+}

@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0038",
+  "component_id": "W000013400_C04",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774400.0,
+    "conversation": null,
+    "created_at": 1791774396.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_09db4dd17b91a0ad006acc4ebc230887d0b6db24342c4d064a",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7BQv4_AbkHSsi4lmqs6mm0FSsWOV-FSdnWGgGyuBerTrrvoc9riQTwIK4JnTGRT80kzhsoX0txFddRMxVm3qdkakqyG9RWgDQKCHjsViRLuOSKUl5-ez_CBv0zALEmGf568Vp95XnpmrLd4p3AQQoJ39FAeqE96b06elQ8jO7z90J3V6GdRA2lCsRcbflY3IjQpHZpcPc8GYLBadMIBb_EVuqLF4ftguRcTfS5xhYVoLdUcdR8ZCIJ-WEO6EStVqNewL1Fe-NI_VMARIA9ohx0ZZXEL2HBwsGTOm36rpBCRGoqXoofsoRuWOCcy3pYziLUyYp5j0jxmFQXUVL4lG513nMZBf-qxhhBl_TdvTIgi4x9msRkaxMB3rdX92qcKus9OklMy39B0ONCVwdySppu8jvcdUWss7Dz6pX6ZMdq4FkpOsD6-xfh6iMbNN8ZDdM6nayngU_MlZ2G7qGHod2e6n-5A3HdHZRuzNLCh9Sml1Z4SZ7ZGD7aakeq7VwnJJhz4-hBTFIBHes48oXDF7mNAWR9L9xR1bTJx-LtL3AzwRWFhCV_fpV7NLAMsARCHJMYPuWXB_ka5FNdSqR3tz-5Iptk1PYWbOm5OqgnpOelJUzVoDu2MOgVDQbYbRx_pDYk58ZdXHGEONFmaIbWbRPoieSRYw7Whr6wvMlB16BDMF3Px7ioNkOtnzVNmQFslI1xt5pND58JuHnmYAWXOs0zNmaJZt19ZLpE-LpwWO5oUAYunkBTasTYqrxD2WD0tGPzt2_RInatYUPfR4Eq7vYPpZ8vWgIQa4HMlfLfrmJdCaT5QgG8yoJOd0Bkc9YoNEcMcAHpYRPa7tIyc3t2ZUMTqS0bHn0WWQ5SfBt3EqMe_Vuq-7AM6ZOcML8KJnBoAZKH5nNCkJnus-F0Yqhxx4ETniXk-5SlZHDg7A2ye43NITO9LLWEzb1BCLn9_mRBwzz0JLivKFR9XtZKB40R70E94xcJkx05KObIJZMjjYnP6C9Gw1KfrJCDBRTZTCqJELjOK_nGi0qxFHY8rgSGKWFFDsXgSjsq1ldTicMoEEtCHBD3WJ2i_HVHAPlp4r8Ren-8xQ74QbI1ZB-BweD6PZ58TCzvYFKG6n3PIG2-y3RaEReg3qMWyG-r55gTr58iI-t6cRPZP8mPu9qs7UN08K2WVfbj01vwIqx2iZVAGqXgHhDXnACvAWMY3cHIJOuCCLRGzzTdEMdIzGcquggWFjbMwwaPgQ1FsR0I8J-XDHcXp8I0WWDqbYJKyvMvOzSxT4KtO_WN7PPJas1RaoOYv5EesEYGJe_05nSZv6gHlL074BUcHnA5wXJZat1cO5LILsmdto4_DUVYsq-q7iMGHE8YywZArfh31foHEA36xTUufHpeNTejIx8w1nuhnUqZdSeFr4Ild_-MZ56z-ih49H4Xi8yV0rpnznnsNBzK5DoCwh3A6ULekaYpoHtzb0ILy9hHjjYcMYzZQ7F_4BLz9t4ytfx_xIL3_xTjyogZOLun0oZv6LYtfXFdjW2HWDlsLWTMB2mmZdfqyx9zCcCaWjUPcxJQOYiIcOe7_nMxjaQVIRvSCvKTpBgIWcuDIiWUuNDoaIRSIfptwUHYsOLM5efNor55Xe3OL8M084sXAeZQ9KJy5mDhb8BPs8b8s_UzvJG3vXkwcq5l7phce2m0mBJsnG4F1Et1jhGg_XqkVhAO3v0M5FxDNEV12iorLPS9MIRajTgsrKFreLwi4wVB2fpGypa7-MvfG9QEpC1KPVwlT0xooLncOJhZPSNddYYH1fCMMrPQ7zpblcM1i6zzwNTE-me3VcxnZfvqbFLIpAwzhpWCSIJ7MsPxNJRTGJGrxy4BjmFw6wpDDmuJo4MhjyIFvGk9xORI9F4WoeZPP1xxiIcrx7ypoQKlzKjk7rFia12J49eHGZKxb3MEz3uC5eO_fzPtLuvJwpML4SJuptWi13OaZgjIXBWeflqkHZYv391EEJBrenDZa79ezLb3foFmVroEYlcOwdsAHF1HTVvWyEBkU67cPXtbPlB8gE2Oz2TQq1_SX6bzo4o2GphqysdaOCVrG2R5PUH8sxDE0HQ8JKnVwjMt_X2XnDIexJLTqPakMVL_hpL6PJDzLmGDiK4jn-Hys5ZUJjUOGe9cn3Fef_raZDEJTVYM1HkhSVymraevc8vZMyyJDGU9Lh9Bvia1GZJJOGMgz-0DcabfFSMq-IPRpt_EoeSJmaQHn3ZKgcM9vEAFj6te-tLecm3Ac_dmwi2o-OgcNHdjGJAys6A1UclFPu87PMKCKd_m0LJzM3EZtA1iX-wBYCDk7xbUabyCAqqcev1nUt1zvPexKPlEoQnB1W_nbFrtl0A2aG_BUNTwMttlDeskKtFglTY6RsrFXsxyITuVUJoq_MenZYzyFVY=",
+        "id": "rs_09db4dd17b91a0ad006acc4ebcd69c87d0bbc10458607bb45d",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0038\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL6439822M\"\n  ],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Hans Christian Andersen' and subtitle 'the maker of fairy tales ...' suggest a possible author-as-subject relationship, but the metadata does not establish contents or editorial identity. The edition author key alone does not establish that this publication contains Andersen's writings.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_09db4dd17b91a0ad006acc4ebe609087d0a3554371d19657db",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0038"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL6439822M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL6439822M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1351,
+      "input_tokens_details": {
+        "cache_write_tokens": 1348,
+        "cached_tokens": 0
+      },
+      "output_tokens": 245,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 1596
+    },
+    "user": null
+  },
+  "response_id": "resp_09db4dd17b91a0ad006acc4ebc230887d0b6db24342c4d064a",
+  "result": {
+    "case_id": "CCV1_0038",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title 'Hans Christian Andersen' and subtitle 'the maker of fairy tales ...' suggest a possible author-as-subject relationship, but the metadata does not establish contents or editorial identity. The edition author key alone does not establish that this publication contains Andersen's writings.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL6439822M"
+    ]
+  }
+}

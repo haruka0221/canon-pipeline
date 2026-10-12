@@ -1,0 +1,286 @@
+{
+  "case_id": "CCV1_0042",
+  "component_id": "W000014024_C04",
+  "edition_rows": 7,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774414.0,
+    "conversation": null,
+    "created_at": 1791774402.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0f5402f33581ec92006acc4ec2349087d0a9f9aa26160eeb63",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7Oqs0mLC44bRC1_7MUlHucgAygGjMCdgACJvdA17UjT_Aq1KzWANf0RlwCFwa9zOONrL614mxwWSPbuXJBjpk0RDTb2WVEaYZHAomplpgqnZoXYrJSGo_RbMCVO-pYbTz6Y6fdqDWidvC0-KW2Obutf-KSTfdV8jydmwp0gIFjLr3F5Nn03-QK4lstu33VFh53uLP3B48f1nweSsnkXczVRH1xRSCvRPEyTlnSYMCg0SZRkz5YXATpYKi-EHMXsV9ZIOoYMam9a1Z1u24_RsQd-fkoUutYBDhKN4whOEbHooay380RWMJ6k4kUjXKkivOmYEF9GgTzZxayOiuKp-0XJEFz0iIj-o8fsoup9zFUVHpSx8W8jpM91CofkAprUhiWDsqr2XSflUYrcxZL3uVyU1D7TyubshAQGAplwrQiQ2WXvtSfS70AVu3-izrcw9YaOEZtH5tEfj-ao6NfKc2hmsMlz17klsJn236HDbQpHMK3mFRcWtzUiz8ZG-lN5oV0y43gaWxf4DZUNLmZwpl6s0Ou7mYrC7Qyk32B-QAdK4hNMwhN-kRL9GwDOnUyto1tdcG5Z6ZHeVXGwVmIetseb2dcGiyYISV-wOWfHr72RYMg9LDX5NDMwlNH6rRehOjCT1i1jMX39QI3USE5hjOetzJXvWLtqKh_jXPD11D2NZjGf5j6T35RqCstpOZxaRiQCK7CJkd1QoSK6InBhxPteSpg7tAIE9dv7AoeIW4f6GiVoK3VWv3yNq0Eqz5sgEac0GQR0eImSfKT057wXXYD1CVpS1v92jA_b9Y9_EPDFFmVdOpFEc_565s8A-JV5E_juw4jEIyZ24AJbJgZ4AZpmNHsGlrAg3B1AJyi-O0wNGLbRwikWBLrL2w6QUTNGAP6uK2xurtZXXf6y-B3n07l67e1T1WkxPW6_6X2r47VOZ8j_6qgWLi7lShk708XYB0UAsrz4hcgigb2QXHSFEXvMifYI15sq3NTJSc9ekTJk2it70KClKHYuWCAG3BjiQVlG-YfTB4BKfazVF4vzldDyxl1IDX5EREC_w3VCBQhsPkD5m4kt6PwTe0Uz7dLeq1oylEWClk8UG8gKmd6oxsGfzrXmEHDTikmMHCSXeu2Wj-53i4eTSW0MBrkiW9qNu7s5RxTSy-dzfVmXjSrsYvHrJP0i0EDKFmz0ZXpgDw-SJV2jGO6dysLI2QBA67RKy8llN20xBuulDr0bdQfIMxhD-g3wCMIHi0oQ4inHFIOzcVA0GPFThw1ymYq2mkaRHLXUesjUPhiizNRdxyj8C1x0ZueiT3opOnXt3o6ikcY7BCgRPHxgywNWkhfKrkWAVmHwnEE8-Duo2k0Hz-jOkg5koTMUdt9gxXnSBpRSl7-pabxQvqZyU3DoCEtrIZ0k2CuFjgDfrK6xYZ7I98m6NY4TONmpSAWGlwjf_uGWh6R5wcDQG-oz8weLgG8R_HcdNqb4QvOhwbtCOvtRyoHr3JpI_JD8_zT2m_l79nrUHBgyXSHkFCEAMIA3iJQZ7CPbbHku_oZlJtJKJKdztkbicgGiGh5W1Gt5QbzvIds4haZQToCSDvkRmD6s6IXKuEnoVtdNJEYsw5c_RdZM45gBKBbs3BXC_rpkMPaKqsVhdTejx9FXd9Q_a0GjOiM7BfWkYUW6rKCurE3njIrp08LYQnOX54dpukIgSwOJ7H4e5fy7ZSDBq880QRIqP4lFSaOkMJ09bKjc5geCC2eDVDzeXHNi3XymURM6EtFtWfHa48wuwHZzDWx7YUwztXK8WEsLqL_Q02uTy6yM5-clozqLIAGqeP3FfTOZs1YsOzKWeuoKnZamsOkwAc9OYkd_ThfM6WUZDf7bP4rrbS90ZrUl2vTLTUS0am4jf5nQTw8yTiiD2vVTGhasJhvNql3CKpHq3l_iUBG52lGlcIinCA_8vOUIuDzUtw31f_VObVkUssYOI8qASW7P3tW-GnirNw9lj9rbqVhQtDgFvqN3__l72wZZoBtASn4A_qGUObyW2GM5QorvMcwx_bqIsVKkcTodumBJz2PLQ0k7bLYkBHOOUb4CC53-KwFtPZu8oT85dEGsZOm8nsCYMY1kOmgx8ctpduuLUWjb9CUx54TStEa7cmt7uLYznF6UCUg6vB7O5X2HXW3XdwVlmUkz0Esm9AuQQ-3T8PJfEbFc4PyAynHnbnBkKsH4X_sP-qCQ6b_mxGyBgcYjFVG7955kAB0iNc_QC5tE0zc0NxZgN4dLiZrRTDBaqqs81fD7KA_C-DXl9lJOVF1AsZNnrPHk5Rv1SzZ7ze35jT-xijyMAY4NTLABSvNkvTjxoTtJ-NDhnYCsTvZz2iPTd7aw_hzJpi1h5CWpJ1WptnbePiafKvgLsGAYmY2mXVwnNKNOl-_EtkhLqJ0I2TWTjSzopkw075r_fEigX3GVyEqQClJ8rRvHViblaAswmelAQmYhg6oayY7fUfwrviGAWB4Hjxsigo-5VblPtt8OPEjjdQJjZl_GHrVDYMEOL9q1PkaKccKFUDi7Azh6qbyxg96e_DGXSMcmry87BSmJs49H8dTxZL6q-5sMO4DINbeQL5dZsA5OHy0SUCIhqUgNkqVHH98eA0GynVC3mf3dLd_MP7y4QkeRFFbrv5P3_QkpPaSb8BVVF1o71ol8Qe-95gRqD1DKVHpd398wz_SQd8t8a0TnaD1HCq3JsZJq-Yf7gs5X4T5wEkZRw_JpNpZAZ1fOZDRAt0G0CcJBEGrfNx4dlWlUV6Wui3tEz4NM1GV1ZdlAAhPLpPQe9UAa8y_mbHkcbEnHqfXGnUOn3Eq_U9EQUzamcqgJ_GTPBYEuSAmmmdYuElF5u4ILinvlTnMXx0rJo-Vi201gd9PMjmxvKGaT_sYirA277nHJi9r6IaulwPEAMdCPtqIcrREHCzHBZ34azPwMovjxKp1XGoEEQIT67fxnmlm77BXYi5XM8kb0nbZ0hJStAZJcfFVvoG2Ilrz0Z8Bm4g05D7EKkcOcldFTpbvsvGLZDWusjm_Jarz9YilFT2W0fmA4Cy9lCX8aSUvoRXSs7E5jxr-4qMHzFL0vrrfSbY-2VI92mj7XT1cm7vutn2zW3hdmQWI7Vk2HHbYB1wPYMiGq2Rl6qixH5svV2uFkXdwmykF63AalJ8g0vWRFVOAKUqZ_ozOzeiNrFrasj2LX6tEreg3QhbUMlSStybcPdCaQJUP5NSsPlaWEBuV2wta_B5vEjjeHoHCF8qqRYDNVpKNiDmHEa79_yi2Q-3948RgYClQDzo6RhEQRuhIjOO_6GlUl5MHoPwybQP-QKT7Zyj_XoHxhKp21ZusxLvQ7Kivy6oyfsaGmfReiGBOfcAVFKBKh9mSvPDG869D0ScCHdrgqLU3vgZ6JzN0hKUp6AD0Kq5Q3ZyN7qkVwAwtNEkms8ZSSC_5WJ2pbi8HDthMJtcTHkXRjXXQ0AaY1E3G8ejeJ2xjaRf8AP4i4rQVYIlQd3ll9GoT1lnA94oTrCA3TJXQnDXUFw14n-tBgvw3w7h9LSkwrU6iYV894iQ8SLLQeBHVYlG-5-qYEyP9B2aYDGpGe8gZVWDCoyZNTwGaZe6hpW4elAESJaLyzkSQLhTLqluZ_VTnQO3NmibOBGiuInjitNfzIrJR0w2gT2ohSTJXrIevcNDpHh3JFd3YmgPm_PnCeqTROC6izoG81fXS3HUDbRerS7eUp9W49K2mfxcUmG1FeRa5K9JozniQLSBbBuB0I5dxuJpr4nvgekb_pVBD_-6j_d8ieEtmoVmz9dRTLXxOiUg_Na5xX86kCzb0GiBCEJJ16572BSEfX43fpYNn2LbjlDeQ9vwGSB_v4VM39BvlQwGDuCgqxszo_51fx6OvI_vZ-tv6vmn1Obn4yQSI-v6t9T_g6IFY2U2LVONGVcsKz_3Ssk0S6ft0STKbxckbdS1zeD5piY1Hz7WkUEFFHtymJuQMlFbdw4hQBs-BUBj7QS8Jlq6apIFyUs5FbOkgmrnyHeOZIzLn4pPpTlTWcSQbAkzF9hp-JEQTIHUFeRr9zyaSvLAXhY2B2OFsxwhK3J0h6mDvXfdYxfw5lGLE_I5wDzQOCJWbD0MKolFAFfUv8UTMNuvghqwKVPVTNDw1fuXaAQI4t-zz-WzZpyBbZ1jC22_LBG5HZyNLPKBqa86Zyr4ZQti6RzEO2WXl_eHaMjjsiqyfENcpVu32q3hapdWb0tF_",
+        "id": "rs_0f5402f33581ec92006acc4ec3774c87d0bd06a06997e2e745",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0042\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL19038124M\"],\n      \"provisional_label\": \"Henry James: stories of the supernatural\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The title and thematic subtitle support a collection of James's stories, distinct from the other named compilations.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL23761644M\", \"OL5820603M\"],\n      \"provisional_label\": \"Henry James: seven stories and studies\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"Matching subtitles apart from punctuation, publisher, year, and 310-page extent strongly support one publication family. The metadata does not establish whether the studies are by or about James.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\"OL7425155M\"],\n      \"provisional_label\": \"Henry James: Collected Stories\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The Collected Stories subtitle and 1120-page extent support a distinct story compilation rather than identification with the selected or seven-story collections.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL10276969M\",\n    \"OL10952766M\",\n    \"OL21116506M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The differing compilation subtitles positively indicate multiple publication-level units. The three Selected Tales records cannot be confidently linked or separated: their generic subtitles lack editorial detail, the supplied extents differ at 496 and 350 pages, and the third has no page count. Shared author keys do not resolve these uncertainties.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0f5402f33581ec92006acc4ec7e7a487d0b538acdbd0fb7477",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0042"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10276969M",
+                        "OL10952766M",
+                        "OL19038124M",
+                        "OL21116506M",
+                        "OL23761644M",
+                        "OL5820603M",
+                        "OL7425155M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10276969M",
+                  "OL10952766M",
+                  "OL19038124M",
+                  "OL21116506M",
+                  "OL23761644M",
+                  "OL5820603M",
+                  "OL7425155M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1854,
+      "input_tokens_details": {
+        "cache_write_tokens": 1851,
+        "cached_tokens": 0
+      },
+      "output_tokens": 684,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 2538
+    },
+    "user": null
+  },
+  "response_id": "resp_0f5402f33581ec92006acc4ec2349087d0a9f9aa26160eeb63",
+  "result": {
+    "case_id": "CCV1_0042",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The differing compilation subtitles positively indicate multiple publication-level units. The three Selected Tales records cannot be confidently linked or separated: their generic subtitles lack editorial detail, the supplied extents differ at 496 and 350 pages, and the third has no page count. Shared author keys do not resolve these uncertainties.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL19038124M"
+        ],
+        "evidence_note": "The title and thematic subtitle support a collection of James's stories, distinct from the other named compilations.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry James: stories of the supernatural"
+      },
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL23761644M",
+          "OL5820603M"
+        ],
+        "evidence_note": "Matching subtitles apart from punctuation, publisher, year, and 310-page extent strongly support one publication family. The metadata does not establish whether the studies are by or about James.",
+        "local_group_id": "G02",
+        "provisional_label": "Henry James: seven stories and studies"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7425155M"
+        ],
+        "evidence_note": "The Collected Stories subtitle and 1120-page extent support a distinct story compilation rather than identification with the selected or seven-story collections.",
+        "local_group_id": "G03",
+        "provisional_label": "Henry James: Collected Stories"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL10276969M",
+      "OL10952766M",
+      "OL21116506M"
+    ]
+  }
+}

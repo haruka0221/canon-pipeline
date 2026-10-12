@@ -1,0 +1,254 @@
+{
+  "case_id": "CCV1_0068",
+  "component_id": "W000030498_C07",
+  "edition_rows": 4,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774467.0,
+    "conversation": null,
+    "created_at": 1791774460.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_016dda0d84438b5f006acc4efcbef487d0ab0817f4611dd33f",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE8EJV2F3j42Dow79C-wL1YRyXq4xKpZOGaDiLlsEzGVRppjRchyfXNPwIWw4uBQrZKabfoQqVe8IsE7d1i7pavqEW3vW3mzBOO8k1-kubhb3P5HgjHc4U3UBMjdFc-AmvpX4H6v7cz09SwTaN5CSovY3uxN-1VGGwnbbMUFKQwR7v4LN335qeh7NtfSIbPmFtpgLvfdex2eVZFJtW9jf-CF90SkMyIlf0i8y2gGPkNr6pwp2mcKH9vXqoOyt4j3-L1WDXqKOoqYs0U23LxXmU8Zar4zWUm_D_KbMXLdC2q97HrMRTgyqXxnYisF298KD1J2kRTfbnEEMozyM8Mchqfq9Z-HcYBdXNiC-XdFTzV22qTdKvmOuQXU-56JJvqUR0SKmxiA1jOQ2gW7aDPkfLYGXUZVi6_i7jC_qdnEXMKl5ctgm_2mPCXWuAIdIDJK9ZA7IhzcWcvZGthMigAkiy7sd-aYGXsxUlD63-_sJNjlFK4mr__8Ar7YQIE2KRhwg0rTr5EZAHjodQLET9PUGUZPv5eYaOdPRN5gsBT4O-6l9DOi_MSyxDVPwNb_3sXq_lrh1avM-jXOWZ0xd7L0d-pCzxs5vNJ1fvBpTDgpbGgmwGkBB-f1kgiSaLZGH-YK00RkFgj9Jn1rlX_r_5G_Kco73uv_0D_5nfl_vG_G6iVS-sDSJ6E1-kE-hAkRc544zvMQ52Y8bwjOUeggq2Z1hajYRlXtuwBnp72vE8P-_-tQPloskT21vnQX-CQerURhE2E_gy4pXWAtCbs2vQCbnGhdpcNGboYbvb4FzNzTEAnsLrnfr4cHixG7StlHr0gl7uG8eFlvORPEoGY_LHtfBnRDlesMKGydFZTwmX9CNZPZejurk7YqVr2Q8mfD14kZhvbfH8B074l65tnjBAXaON_SYZMeAgk7juywoN2zhM96RzMorE-lJhJqQ35d9dYWm--sAt5f1QP8fTvS4IjDwB-Arn-a1PAUCFn2Foz-uJYSLVVpXriN1izVMiHc7boKsFlYRb-ay-Zyy6feiDlJu5PmYR82BQYfZoN8o6NLvrxHS1UlIiliOhPLb5HeT89083V2GMYiyIHpzU_bZINovAOGTxfPhh8htwX_f8UGe-jH13K2fHbSD8T0SRxAYc5Mpj_PHhAAvHNMV1sxxLTK9rlK2KtZQ-eVx44uOvTAlHHmhHPIftkkNSj-NSeetxfhVx9ix1GuBuYhIJjt0cd0jlDZlJPF0naEOI5OqMoUG7UMjL5nSyddc2AAbtTg96maJjrouMlLQPPbf-BCQe06TCv3LhlOZiT0VodIe7HU8A1uxcJOvAP5r5Z3OuBcZWzfGObVyOr7QrqaClApkwp60q3xFkuojhoJNTVvN_B_0okU1vxM38HtHYFLDiTogYvYPJPOnhv7DFwvR_geaYcKd1tGzeXpRAfIf72zDVzGUZFQyHu37ET0iwyaWSJWeOOiiZUdZbVpw5JKMoppY1l7pje9zyVGWG314xvJ-xLkx33OPplqa7Zu5CwO9FmLeNhtyscSQALWdtOsYZ5oh5tkxlRb9kR5yDZMDBeG_1TEBDxowyS8Dapek44yk2EtB5Q2ZGla_w_CYrghcU6sucCiG7UcGAZSN3RRLYfw8_6xp7JnoALudI_WW_9Od5ZgzBxwPB_fenLTtxWBS84OIDjq0q2Jp9i-_lF06AISa8PRFvRkkG5mSubYE-vCxJWgspiCaSm-dld74WNjANfau9qH0c0E5uNMeuVr3Vz12eGps-8QLzJjMLMUQ9qqqbJFxs_59EBS_gyWbkV40-N96Edh7JZhO5TN-E4s-7QWhPyWbmUSQhuXXO5Qy3aRXh5_kWRYemiIEd7Dm8tzY9uLaBu9p-uQN0Ai4HQAvGchtAYtn-1_HkzbAMXd1ow7fuETiWbiY0dstmD4Y1kmp19r1ulOwSELRpddxrzZ9sKNx8RHmbBUl521qCVjM4k9XPKnYFqKcRA-ohgi2IhVUZ6D4g_g1FuccRwSgNTIGz-pLLyAm-2OFtMFgN_wuSd75HAKhYRAo_DvWJISXi20OUM0c2tXCC16C32MJXgjUbOltxzSZC2u5cqG02EG6p1malms7a0THKR9usRY2X2qPMBfCjdw3587unWiSY3ypNScu74Eoze1Vb0boRhQHbJ18d4nZcyWavs8gnJnGkM_OF4OMUOiBxjRr-RTzizfeAWUcyOSzaQLwRwnWQOXNrU7Xf3ND-PIQD38B-V9HvO2xiggcWSatylL5ARt_LDah-z7rAn1DXfbdXdaBOS8wjMDI6L3yLcZ4YwGcEmX5vKX5r8y7VZJi5w_XI3g5wLotB1Y-YZgxesX7MVeDhjunEqTW6VIcvGy8i3xtxPwWLkbNIHPMg25gQKGKWYxWSrIZwpgsXP0Fc46b7RnqF3x8uAH5YOOePFCEUHpIp9rvVOmhf5mCDR72f7T1drvIjSy2Im-YGJr8_zLvV-oM0EgFVePmmTmC_k4UP7_Yl4PHeZCnpNoayb3AXHC6C-IeMcwmhtRlCku5rI5zDqnMPiVIBwILAO2j7oOo1-Rq5VdFTb38q36dDS_z3xnKWBHEB9s6-fXGcg1mZK7ND_0HXlnmDf06S-P2b-oQw6Q07MrKYBOqEbVFYitReUOgLdUo6MtSQNZEHyQsYFcvexr-xw7GaMTR4QkgTq_I-mlhdsTNbhM1ODSDjbZRRDhrBsnkvBiQuhDBzk4s_7H9LvtAo9on2JAzTz-T5YPhxZ4",
+        "id": "rs_016dda0d84438b5f006acc4efdcb9087d0b8130b856155a628",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0068\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL1856256M\",\n        \"OL20592936M\",\n        \"OL20748982M\",\n        \"OL21142448M\"\n      ],\n      \"provisional_label\": \"D.H. Lawrence: selected poetry and non-fictional prose\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All four records share the same title, specific selection subtitle, Routledge publisher, and 258-page extent. The title and subtitle support a compilation of Lawrence's writings rather than a publication primarily about him.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Matching title, subtitle, publisher, and pagination strongly support one bounded compilation. The only supplied variation is publication year, 1990 versus 1991, which does not indicate a different editorial unit.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_016dda0d84438b5f006acc4f004cf487d09c4724a9cef6b17d",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0068"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL1856256M",
+                        "OL20592936M",
+                        "OL20748982M",
+                        "OL21142448M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL1856256M",
+                  "OL20592936M",
+                  "OL20748982M",
+                  "OL21142448M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1612,
+      "input_tokens_details": {
+        "cache_write_tokens": 1609,
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 1955
+    },
+    "user": null
+  },
+  "response_id": "resp_016dda0d84438b5f006acc4efcbef487d0ab0817f4611dd33f",
+  "result": {
+    "case_id": "CCV1_0068",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Matching title, subtitle, publisher, and pagination strongly support one bounded compilation. The only supplied variation is publication year, 1990 versus 1991, which does not indicate a different editorial unit.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL1856256M",
+          "OL20592936M",
+          "OL20748982M",
+          "OL21142448M"
+        ],
+        "evidence_note": "All four records share the same title, specific selection subtitle, Routledge publisher, and 258-page extent. The title and subtitle support a compilation of Lawrence's writings rather than a publication primarily about him.",
+        "local_group_id": "G01",
+        "provisional_label": "D.H. Lawrence: selected poetry and non-fictional prose"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

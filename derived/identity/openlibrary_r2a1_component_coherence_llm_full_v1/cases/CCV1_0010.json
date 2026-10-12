@@ -1,0 +1,244 @@
+{
+  "case_id": "CCV1_0010",
+  "component_id": "W000003030_C02",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774321.0,
+    "conversation": null,
+    "created_at": 1791774315.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_06d3e546b10ceb10006acc4e6b01b087d086078ab5d3386691",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5xRxmcPAeg33y6LtuLw6xk8wqY1evvajcXB_h-oakFYHl3ypnmTOZhq0Xym7M7069qbyCBFMRaGy5RVH90WfwHQH2Hmub6cEsHxbwYQU8pQE9DKsKpdKoZIjanSLUf-W3rz2AvfdPXmJwy5nxqO8ikVZJp0ACer5seGDo7eOzjGao7x85iF-SJ0WGLugrkDwKMlMcjTr62IuoOyVOJpgjnxOTgIcjanhFFO_IdWTe4KEPM5BwscBd0M_agcfUoHaEf0j5yd78QchhFRyPA-oses6Bk2gn2wAeP1NJRxmuEeHRan0H-S1lgJcTKnOc-28xq_XiKPVjSwecunQN_caAEKS6pMlxt8sb8fXOdBAxk7z0664EmNHnUVz3lMMnGQU-MhY8_BWrh9qxH62_F7MajZ6RspDuN74xwBft4MaaPc95XfN3P5RUFrXtPa_XFocP9ckeL5XgEmtHQLEe3XOw-E1Reo5RmLaVLMTfRpGcqwdta1sPx4ST1pJgkWfAaA5qcqZY721nKlkE_Ypcm_1BmFlE8T2I1lwLyKDgvKhVzdHV1PuvT2yBSKjxcGO1DQww5CJxlddxDkLH3D_j-WP0En93YKftAzYZAl1xfIgd0gbqaRk5xewC_kCDtEsfABMYgj7MLFyfPuGjsO38ZjqygkmaiCFo2TOHHVvaHXlRp2jwqqnsvYkzvA-Ld5EM1QXmCGknbGdv7MiBJQKuHKccyo2K8Q5iKxn7Egeq7dtJmD_XrlWlZEplZf48uspBjd02vr5BUqWXJ84Hp0OLGvuINIydNAvRhFQVwtspewH8ce8lY7Rbr6Jux7_Lu5TsBhFnvJevckcdNZjlykilcBR-SuQ4DA3ioZbSwr1NcjYgZB6vxtvfbfu2eArViCpyhgJO3O0IqdKSGTT8iLiDPM2NxcNdn-pqrjHiWUQ4gi3OLTk-8_S2G5MdvVXz9caKlkJ7czNkW9ttzSl6cMsHjE1_JW1OiJvuZwD1tc7kI18QCno5IQNaYX4IDF9owty3OLIlPOtGUy2-Lvmqg_0h_kpen9gyxHD5aIWeqLtduoO8Ono3j_fMr4GyPJXd5P9BLJqTguIAWe2OF_yM3UrCyJS5TU-4ibrlrbVv1sJzAxBS15FcFLtf3PoPjn6kvQyGq3NG3goQdmoPA7c2XQfOZRfjsKRJzpG-4sTEonpYJw18d58fVmGJDD-FhGXZxiPmub2L8jy5fy0pU41N9U37DvCBn2uT-dlWeRFK581vt8-wwhi_qFSXB-c6tYS_fAN9QVQjEu0PPDgfOwSh7-kZmhKlB3KfrV1lUfTqvXNUJmo_tejoaZD9MMVjeYqKSZqbTW0KDWQZ9QUXX_CI1ei8cEt7MKANnND7lzye_oYpEMQoWTIrKysJMUDsOnF10UV1a0_Yfi8htKpGvoZG75pLGXRr2nJoDGaq6Fn4H4mYMZOan0H1uU4H5dTilQco7134GEMxkCSFY3NWV2zU-tFlqAORyThCDZ168GUF_fQDp5VTDzL-xvApttdaZXMXGpVfMquUnf60DOTiZ4E6ls-7Ur6CG8bCnLsjn4PuEmZ-1C30aNaMlN2M1Rcr0kYQqJvtJC8gEzN6ytAMJbI71VnS-EFcSD_SDIEEjtG94snMTXkXNMKkBXn9ZDPTJNFa-GDFw4VZWFTOGSwDgINAvkRRULQ52QYADSNIeW0_WOsnKWWfgURFo0q1fdmwWoFJn1WGBWnWytRVWcnmPxFP5Qw0GZ5Hbl1_2unQcLoOrYrmqkBNOnO793e-ArmjP7eTtk_9mXhzHz_gJ_nfR7Af2uoSvBtlN6rPo3qx8ZZmbjZilndY-O1T6zlofjnW25LklPinhoG7H-kSHWSmCZ3e0W4sBfkAyRewEmIFdDowpfi_UxlCucJ9FKg5Kev4EJFnVDYe93z_zcGcNwVCFk5WKkgYLBX_hOtbxD-tzewOrENSNxydl0PSjkDkdSufOk_B2_bnNLpmg6qrSdFY-Fst87kXkn7u_OvRJIs26dq6CbEcdp3rcn6YLQTwjrzrg95FalWj3iTE1wkgALi2JGDzs9nf0ckKNgpzPbiv35RksVxWH2Wtmi-fdNDbiBkrn0W07x6mnqDrpreFQQB_GzyT70-v71y8ZfJ8vX9iouJOudyzSH-lSdUXdg9Dv6z0cRzB5ilclZd-v2FqSwRp_KMCTp7djShRbnLodNtnFVeqL0skLyfZ4B_oSpDBQ5NAkyRlbkE1uc1P1a7rm-i_htHVn1v0aXMhhKb5iZ4yNA1h2TjZFLXDsGJkGBidYtlYkOaB7ANeELZIDNmiofLIIb-K3C5bfZd1MAMfaMs13DZkIDMfhEuqUk77aj-iLjs49hUynKZW6M_53Yv9HDTi7sUbDBUirRYoNI7PUU4Ot-6SmBOCm44_7-EXb35km9xdnIqbnJXImHIHD9OqVtVIHira5jAYLCjQ7k-xovP_Ex3eaUffHj-c3M3hjpGz25Pe0D8LKZZXD11r6xwznhe9-gKmwj6PGjhtYwtuTLNsZgXBnNkpCE1oMAv6yYI7P0dI-WcZ1UCI3QWQ7wS9lME-7GQlSbdyiwYdtg-mrFECjnKtSCmuHpll3BmryBbplp3m2MV0G7nBalHzx5mf9swrTszMtyLrgKi6sWAoNL74jiSFQYXYkubx6IBa4vllV0w-KQa0SvCPaNxxgoWVpgmUaKieDJeLUIgAECVoeQuWNRXDghuW1Uc-8KljVYSDoy8laKEx9gwXxnvbThv_WSXHr8-n_OduKz13xKNcz9uom_5dYIAEUirwqy80=",
+        "id": "rs_06d3e546b10ceb10006acc4e6c046087d08322c1e330d46c86",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0010\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL10601816M\",\n    \"OL12581585M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both Editions have the title 'P. G. Wodehouse' and subtitle 'Selected Short Stories', with closely matching publisher names and publication dates in 1983 and 1997. These similarities are compatible with one publication family, but the generic selection title and absence of editorial or contents information do not establish that the selections are identical or materially different. Shared author keys do not independently establish authorship.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_06d3e546b10ceb10006acc4e6ead9087d0bb4b5e16ff5ac253",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0010"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10601816M",
+                        "OL12581585M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10601816M",
+                  "OL12581585M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1448,
+      "input_tokens_details": {
+        "cache_write_tokens": 1445,
+        "cached_tokens": 0
+      },
+      "output_tokens": 301,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 1749
+    },
+    "user": null
+  },
+  "response_id": "resp_06d3e546b10ceb10006acc4e6b01b087d086078ab5d3386691",
+  "result": {
+    "case_id": "CCV1_0010",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both Editions have the title 'P. G. Wodehouse' and subtitle 'Selected Short Stories', with closely matching publisher names and publication dates in 1983 and 1997. These similarities are compatible with one publication family, but the generic selection title and absence of editorial or contents information do not establish that the selections are identical or materially different. Shared author keys do not independently establish authorship.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL10601816M",
+      "OL12581585M"
+    ]
+  }
+}

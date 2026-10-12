@@ -1,0 +1,251 @@
+{
+  "case_id": "CCV1_0058",
+  "component_id": "W000023649_C04",
+  "edition_rows": 3,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774447.0,
+    "conversation": null,
+    "created_at": 1791774440.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0c3f7840dde243c9006acc4ee8119887d099b3ade7dccc8069",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7vt_QzteyrHcyHCfOCzpxm1uNBXNBxj_PEQN3tpzyGjqsXwQ5vFo2ESD0HR8NnH7sSTtQIXdvDiopOoD2KD5GJf-Jr12bGDSidXwJhCPDVnJ30YO5s_lPndFnYIqaMWp-_Wgpbk83Wct_2J7h1a7M25wXiVdP04TEBPaPF69v6KF6c1pmZJURxZQ6ibsUQJWcAuEUw_u1fFULDfUya8ViCfYiF2DBED27l5r3oFXqf0v_iBP-hQZQSyp6jdhTK-SHaSDCgQTOtWO3j8L6-KPGoYvuafB1-T1R3jolSH7dLTFzzYMOcwt8OocrFK93jXx25VLgm0n5l_hEQyjQZ_Itz-sYqZAjcq-sQdPzU1HT_vu9FWvclm8io3sIb547GUte9goKahaK24HWDDNyKJtrGmiFyxehUyXtqyATgdGHmEfY_g7VAZo4Z_7JgpojyDZ_tBcy-YKFvVzxBgvEDh09nlRiIf58XoJ8HeXmQmAcCE_BbW0c2vI-XPi1ava1sNA580FwE3PiOUuEzke1vFn-bzRXCHP-TU1rWKGIdj71ULJPnWnz-yxVygCIKUqSVPq4kRyuy-TNr_sW03FyXI8NbHgCXA2YnThW252_e5dte1jbQu39z93YN726xKyQrAXRGzuYWRUrt6ROuJgaFUE__7zgwNSdtRM9bN7ZlcLFssfVm48DIJp6Xp4s4ElZvy0GThtJL1wVIbg1RLzWMB739n3O2ZoxG4iKMQSvSUe81lkGOHSRYjGC8rUrAvt78KfzHyT-wfx1qy1iNeWydvIvUMGdBqvyH4sF9inmuhrFvgejvHcfZCywdofi4VZNm7-sIOH3Gr8D-7OozL_MfC8TV2TAW0SbmGy31oZtPU-V7DAz0IMllrSUDwxgs_pLn9dLXJYf3i9JsQe0zNTvLcyPGLSYWtgDLFPOeWOamI9JuPggtWWb3yJDGy2Ro_yFOPWqCqYLpB1I52W-TwtZSvg9IMy91YCq13So_lCG8a_DDRZrb3GgMeLLcmCfz-tFOnWbepHqHgTcoekLFm3A-VsVZ7aV9aPuxBZ-ZGRMy5RVtOdUmSWI1X0lFDcr6ODm69knkJh5C6t6oibDTaFqg_mIaRoNp5-VqIDqzvtovLExPpq2CiPLrPQo8id6uktTo8dSIICXftPH3LJ1CUrnXHXgwbHNlEpqA9iCfU3--KYzXMv49yN-8S_idTjgzT9t06CiD2n1ipsmrWfN6b4Bro9Pczq8GVZDOVuAqeYv6IQ9CoIvObXTxVh-d8NhubfQyEuLahqJQHdJJtzVxAXPBghRHtV-AYonXBSo5gKdbzLiZLO3kXQADq_gI2AfRtSLtCtXqpuRruOXg0Ziw5a-vTTN7wMPFChHlp7pBypCTYdhFEK5yxbVoJF2u-o5ZOk7ZLwWU753DfPY7CU11VtiYUfc1DXhe_AiQNzb8WxE2ccnHQGI-Kz86OQ6mwZC9ikO0Fe5FcamOPtv_8rVItYw4iwlWwXfSqHl_3oltSdpDJOQRzkqesCjLbhkx1MEkzlwDAFIoZP-6SQkISOUvouRDJ8BrWM4oaZOLn_u9HAdDXaoxljSt8UQMLnrVNVUpPPLaLBxKC3IWtBwRv2u3wCjFf17DXNIpDs4odgXF9_MtsE5lH2IF22IJuWy491dOGJcguZuQmGH4nR-7hRUrIojXoHNj0epnmjYZZiJOr2JCs9q7VN04DElF_hHPEWGwIU27Mw0fRRZ-XN0hFDzqbl2lK9o88u3ee4CK-6qvPGo95Xzdmk8krdWZSLt33M6BeEwpXddxhJWUkg6BZ4gPXX17gcDr7BvOTE7NqCZ6drpPFyrQIrdVZFIlPboCBaHB3tU_mVvgKepl1dtOfTP40lvNKWa4MqCP08nfqCWZ8ZIYMcfQzSkvojj_4X5K5wei8uIS1ch3NHFC4yaEOP2-vAMr3DkbWviIJTEjEqfomW1n9m7a8nue9yhhYMSoTLsPSkNGjj4iyQHxRMB-Uk98mUkihXg7jI2aoW4-5MHjsm0etrsWRrctZiEgJiI9fB2VTdvHLgy7GSC-C8WxXi2ehxrw1f7S0aiNPFvuNiyBiG0-Kk0Ma-pMZc1nTW6fFHIAClqAEXBQQSAVpWQPZa-czAPMIQbdNX-HYyNzVhRw2S9mjpkl_hu17KsB5N3l07FKBT2QsSyhRC31tSOUcjtHZ9qebI1y_rltBY55E-equAwh9Y-eZuckgtT8BoA1ogxG8eM_l09jVlas3tHvr8Xq4BqVcjimFzrD6NGxmxekxGMi9ogmOXGnht_Vi25x_Y_CitGjJQZ0mF23TJK4zYllSCNMUSuqKqpIRX9i3zdqkWDJamL6rxjOCBHDn6h9a8ZI3N2BvsyM",
+        "id": "rs_0c3f7840dde243c9006acc4ee9cf8087d09e386b018fb83727",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0058\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL13568097M\",\n        \"OL13789826M\",\n        \"OL23265825M\"\n      ],\n      \"provisional_label\": \"Ralph Waldo Emerson: essays and journals — Doubleday, 1968\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All records share the title, subtitle apart from terminal punctuation, publisher, and publication year. Both supplied page counts are 671; the remaining record lacks a page count. The named-author title with the subtitle 'essays and journals' supports a compilation of Emerson's writings.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"The matching title, descriptive subtitle, 1968 Doubleday imprint, and available pagination reasonably support one bounded publication family. No supplied metadata indicates a distinct selection or editorial unit.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0c3f7840dde243c9006acc4eeb4f4087d0b102cb7811a9ea0b",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0058"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13568097M",
+                        "OL13789826M",
+                        "OL23265825M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13568097M",
+                  "OL13789826M",
+                  "OL23265825M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1521,
+      "input_tokens_details": {
+        "cache_write_tokens": 1518,
+        "cached_tokens": 0
+      },
+      "output_tokens": 325,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 1846
+    },
+    "user": null
+  },
+  "response_id": "resp_0c3f7840dde243c9006acc4ee8119887d099b3ade7dccc8069",
+  "result": {
+    "case_id": "CCV1_0058",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "The matching title, descriptive subtitle, 1968 Doubleday imprint, and available pagination reasonably support one bounded publication family. No supplied metadata indicates a distinct selection or editorial unit.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL13568097M",
+          "OL13789826M",
+          "OL23265825M"
+        ],
+        "evidence_note": "All records share the title, subtitle apart from terminal punctuation, publisher, and publication year. Both supplied page counts are 671; the remaining record lacks a page count. The named-author title with the subtitle 'essays and journals' supports a compilation of Emerson's writings.",
+        "local_group_id": "G01",
+        "provisional_label": "Ralph Waldo Emerson: essays and journals — Doubleday, 1968"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

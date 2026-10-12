@@ -1,0 +1,248 @@
+{
+  "case_id": "CCV1_0023",
+  "component_id": "W000004923_C04",
+  "edition_rows": 3,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774359.0,
+    "conversation": null,
+    "created_at": 1791774351.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0f4e6bb95145d234006acc4e8fdebc87d0b7cdc8d680a2441f",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6XLIDO3IurhB5aLPaCoioW0Q8Ffht2aGPuMvSPJEpewShvcfgpr_stgNF4NzZ1FhDOprVIIWwHOfY0spVevcAg7t3mI-0ubk-HoEK57aAxFre_Is7YvcUijhZpkOKRPlXhDYjCLQBgb2Ghqq22q4IzZZMCyZOOOlL1PXIVwcMvVf2cC_br23ujJjP2b27iuwkIwIz1a9ugheLdLfi5kwYe5WWta9ki_HyCixxPrfXLT2hyWK5ukwOC-WkolYVeYi7-AB5C_slTZLLe6j8doXrh6gsO9ynJlYq6CCI55V010HRXa1fUpMxKejlb9cZ6PQ5mHtEaArzQgzrXG5vpMofZNDELcUIAfkiZFn3h4VuEqvG-FebQuSywM8-0CBhVyE2m1BFxxGVaWdVGhy6RMF1yp-hM9uO8CsNqdIq_ncieY61wo3Fjdoze8x5e36L3WIc1kBcA-AGbzS62DbGpYw_EGF9XTlt-3ikFPT5jT_etHFX0EbVY6CB0h7OiIGC1mqbtHleQb8jLxkMcdl52Y_92px0E-F0_bwd7LJo95N_vFNJbAMbUweZp2BwGnKKGHHYvcSrxTWC5kePR7LHS6hVUIr8csvaNCj8nRSk43kf1cpYGyp0Yk_MrcSK0-yq0nkBWT5BAyDkkh2Y3UF9wHVhaMnqc6WP_SEbEDgTZ3Ew3hPGeNqcQ8dnhkmTaC654iarsrIuzzzrIOgwoX2hXka2jZnggPrhX-521OPjKUkILQpzFa6s2-5AP3jdFmfmUNB4R3Iw5yUkgAat8yQp2J51IIl6livgx-8H8qRVdaug_Re7tNPgs9liYy-CgMKKoUygA2vxey00ehUYPVWPZbAn5BEkNI5HKv5J0DApSwTdSLhWJceXFIYKZHzLfGQ4wdbkOQD4JluQ6eQPfURajAM3Qq3r3JO1uyx7HQJIHmSsBXDVDUE-7h9juNCVxPrYUp4QXZeDLxbVG2OXRLTGCWZZ8cRqmOwTpu0M6hPZnCvFhQ22qwq5T1PsOUk1MkJKTaMVGPiOxjdifPalo_Xg-Jnzfod3cFEveuUCElo3U4qVjWuakIDD2B63pyw9goA9x4je86j_5Sh80mxkEvQcrjLVXxJ9T8AkvgmQ4GZsU44MYwwZj68kEIjjL90HDBuYeXA1dLL7FDSkprs6LwQKqlYn2hzzyiDpjt6igvLm8nReUNIgnj6OEa8CnEIXfT7mWPX6VySgQYWB-sThu-tBuwLX9Z548Qsj2ROU6x9sKdjbxz9GHJPjcsfUI22y2lCxCd7SAbzNWpf4tTvB2Thwbj4_U4dZpKvkZIHs8emwDF_Hw8gqcz3gmuZoljPSMZibhNecTwX2Tr5At9YK3liIf9YOJZbEkqxSN284jYOQnZVuqD7C9Xm3D1yU_85_1PRCu5JMXQpwwTSP7DFRAkEoORyIben-9VjLcWtpDHhN6rprE2MSIm6TDM7Bvw5fddGLNUfikGdZt1xMPkrMAUQMTAB8mo_2fG0V14O0eck-QzpvUB23ev1_8v88Ec8UAuW4ux7zx0ZWlo4x9x7lbdMfarTSETQ_TRZ0eVYIMQTh3DVo4At6mX5RRrVaSA_t2Ed9TRN-VS6ZrZJrG8RFLvFuBtzw_4GZSqSb-y5tn_UPbn8VL0FeGL9PyT06YyX7r0sPwzqvLJLTwtCrsXkKFuc3Nex05xtXASnj-pUsXI3nshsjMiCb8rDGXGfyvh2MFdoEEq0qFBzFFtIN1Ajhp6sWqIJQA9mH2wBUJJxWYR6uHL8JIGiJVJt8MtbOmPNndHovBWuaWPFAKgTdyEmpGCWPvUKQhMRWRjdda3IuMZuggcgy03-n_w781VojumaKH8snp06dH14YKjY8jfpjn21osIiGq6t7N2dxtjLlTvACcZgK2vtj1THqY3vwjyHCOk9XeuIhjkDaUsHxH4Wf8hp7lI2w6KtOdLYNh3CKhwBigORUOhzOyb7bkbPthVVF-awBwi5VlS_KacrQ1oD7JJuMW87t3YHXUm2q8TzCAt7GR8rSwp5cLvKfzHFd3gcaW4wefcYrW4eWOQroR6RX8MkpiYPePA-WEt_DCDPTx4jUSuvKRKmVcyQEzg1LpydaWZvoRLd5VPCs1fVozYZ0qDBlPXEsHWXLxBGtYqVfikPseBCI9amR39a0w49zP0HqcFrWGjqIEbfZWDQWMEOa_oRCjJ8yPc05ecKc0JCzhPDy9u9ZL3j3QtDwLwVCDeKFw3CTbjC2SYbLqfPgiSbbEc3Q-E_2d5DhV90Qwmp7gI-maPG7afF7ykWHFPdB4izKYPxf0nxzKzgBGbsD8dpVJne6r-PJwne3E5K3No7NVbgkATDbYwRqYlrkGVpj_cmLO2HcHW676wBeOswSoehSiYNO_NPds_dfmxXEwkMWpMxPn3vBWocPqPm49bMRd6q52w51JWshGT3ruEzfXr0jOCzls4IBwYLEqoxABrIycZNhn_FgQDAghntVqrHQkPBpF-Zf35lvBWYze6hnSBkyAOx5QlCxyTYBvx9W1zkgd5Er-hh79KXF_AJpZthfYQWwT3Xqk9Rzu0yAcSZAw4LLto0u5PRRFRI2OJXfQozsrvAtW8Ai9MwbJCKkDe8MxUSPGGzxfl_IEbkZpXmVMl4xWMBxd6FNI9XKsP0J4atDM5DA-m944N1IDnByEGWtEF7fesdD1e4nSIPDpwcLuwCJe-w8Xj2q4ylbdJvLyR3zmS2B3rxeY_Fx0qlMOE6stSJDzPg6VuRCTg6jTDnTYPjCJ8mURPGx2Xl9QjP3SJ0VZVIsQ465TvblhV6qGWX1eZJ6v1-IvUh1ZRUTrMPQ8-tm9B2sUhVqOX45kpwt4n6EOnATNMU5q5XvFrQfW-6hvsoGpWI_ou93GeQW65dcOxliq7hQAFB6LJ6TO7tqr4ej1AyW8lSxm4JgnFzkE0OQud7THydm4eJJZXAy7zTxd3zS0eOJAbYlu1c6RRClB5HhfuQS8i8AH5-7sLhe5vd5dkrrMJIJ_ZfWBg4FIAmtUQxHx3KDvlMVsve-mSIsyJdSLFzWk-7GwFkbNiR6kuR8XX1jJreI4zGi_4XD3g5VDnk4nzNuebUDPDWpo_fWrGbMcTER6nKpNevYx-lpfl_-21lP4o0XMwPCGWcRly8gQUdfXO49V5met9LrCV3ZDCC513scyOP7KQ2WCsjBZuq3P_CWyqt9XATE1f5NjsZqn8ziobwvQ_MQDqW0rYEDMhKQUVpdLaPGuhc-L691YZiSpG-zjD-FpqO6i_NrPTTRXQXf_MU51iyV_kP_IF4lUW2RYw0gA9goXe5244NwI6CXTMzbk9S4Bz5NXZAv7ZDSCdHmLnpDzMi0YX9YmF-jFeMaM0srE_OFCzJ8bIcxusbEEfZpR05v_uhAFgR3AV5LngWA4duJ2cuHKaRLTg283ecc7VSZWOix4G9VrVknu-UjkFwicFx4uPPoW2ZAGBCZCjyLhgDwIFPxw0Q==",
+        "id": "rs_0f4e6bb95145d234006acc4e908f6087d0a4e1ce4e4a65f80f",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0023\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL1137947M\",\n    \"OL22822047M\",\n    \"OL552409M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The 1952 Poesía specifies complete poetic books plus an anthology of scattered writings. The 1945 Poesias completas and 1989 Poesía do not provide comparable scope or editorial information. These titles could represent related editions or different compilations; the supplied metadata cannot determine which. The 510 versus 693 pages, publication dates, publishers, and shared author key do not establish either identity or separation.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0f4e6bb95145d234006acc4e941bd087d082c327607784a8d6",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0023"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL1137947M",
+                        "OL22822047M",
+                        "OL552409M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL1137947M",
+                  "OL22822047M",
+                  "OL552409M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1520,
+      "input_tokens_details": {
+        "cache_write_tokens": 1517,
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 1901
+    },
+    "user": null
+  },
+  "response_id": "resp_0f4e6bb95145d234006acc4e8fdebc87d0b7cdc8d680a2441f",
+  "result": {
+    "case_id": "CCV1_0023",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The 1952 Poesía specifies complete poetic books plus an anthology of scattered writings. The 1945 Poesias completas and 1989 Poesía do not provide comparable scope or editorial information. These titles could represent related editions or different compilations; the supplied metadata cannot determine which. The 510 versus 693 pages, publication dates, publishers, and shared author key do not establish either identity or separation.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL1137947M",
+      "OL22822047M",
+      "OL552409M"
+    ]
+  }
+}

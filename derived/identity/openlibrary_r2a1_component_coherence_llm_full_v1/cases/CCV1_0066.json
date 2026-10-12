@@ -1,0 +1,245 @@
+{
+  "case_id": "CCV1_0066",
+  "component_id": "W000030498_C04",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774460.0,
+    "conversation": null,
+    "created_at": 1791774453.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0f6a16bdc08c9f0a006acc4ef5c48487d08af4b54dbb5396c4",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE78Q3AUlUIa2TvHix2Fe5NIAu519v_DNM-jyXiH6CGyDI1cayuc-z7McO2qsrZbh-TRLU_MyzEPLhyyCABvVkQMK6DGpiNjM5Tn7PCMGMau5m0bhJ4j8gSxEs56ghn9s9wSOa4KhnPyVZhnj7MfooOibmwsj2dcdyqxlXKCOi930v5tz-LlqBG8YiI1JJ61i8CH-rbHGaqHZiVPH5j2lvFOCEbdc3xLQ_OKbsc8MJU4EqFuGsdDqs-SrgyV_Odx_IQIIk34ds4yW7UsnMsDwQCVR-YRW2B37z26WhwsUmq7I3vb6b5U6ndFwVI0tWvvXRZHB-ScH61qNcgj8XHeCQQruonsXRALxybPjePnXhKfe3Yc2YSvyPjBxd6R_8GyZp8W84CenuRTbbJMfoB6t4aaQL9mCipP4KYIdxiURbFOFS9GYmBxSxvV_VlMByqZD9XKSJ-fXSXLYLRbq6oEE4XOvroMiF4iw4XerRQTOS080u2Hv5YbjlTxEGx9plNdIF8Ee-EBKT8LbSILVsbQvDTvZX-yObjL8CqzzXe7YDxCMeCHNWVBhUwCrONufKBA_wcugsMD8j0BRvYTl2wos-X1minBzFuFKteJ_763tw-Ab1YBxSbwPZhuH0QAZ-8rx60ACAfEveGp-uyW-6mZ6wAvSFzAcdNFv83uHWdV1CReMXE-qM0iQFykPGeiJuX3hnMtTc4SWbeFPBEMm92wQDziBMh7i-E1AWIUBvC_jEE-gVGyDDDZUIzNVCToxRvNluQK5HWKfRgVEsOzl0vMosCc8UT9mjOGwtQmpBmqXDiSkTqnBbQEJHBtZtKBGGwJNfSZXqmHoiXNnorql_tWpA5aAPEMvtbIhuLF-ZFdpHVr_qDnWg3d8MbCaRuMNz7YG_smYWi3l-PUpDcVN6LWCb-w5JkNlJ0PO9Am4or83qKDg7Wt0_69aa3a8L4D3M1NvlxuLc-bArgxe9U_kuRHnKtuaX4q0ZSHzB-tS8zi2w9stNI-3pCFlB16keVpe2XK3LoEZdCyHkRlsD7TSxnjnUn7rrEhmmj-hHTUtwYy-MceEXXO9LPzB27iL2PoHbszPNXYLlv-hDFMPo8ZXQEnopX0CGg1NgJJUOCcyU5xTqRI5oc9loEMTC7mvhm3pR7NI7s2fNKgz9caZX-V5UcuYHyg8vLHFWQBdRHNy_54n6gT0tUGAMcPQXj9oT4mbq5nR93FRJH6uhxzNb9JAGRK1uHRi2vH4btHBCs0P5j91ZYjqI6tsw9Pjyx4X-lA3abHKK5TBtBLIg8YP56jRXPhSYR1vbXvSHc0zXADHvQCLT4O3OmahXWjzSx5qHOZ-0bPNlGPUX6KZ9n9SQwgasAihmfXoYebGfx9mItFAD5xtu9RFIebmGB0iD_qst_XXsep9s3aaCNsrQTNO90keIdFhSg2L8uGmTUk3xK3DVwWOnEX4pOcX3HT05Vi1lKUqTHL53timBdsDRr92qAF8doon9dA7ndsl0X0YPwiASgULtWoYyDC0idkSskhb8ugBOdPVsQOFzS0iCZsQTBcdglTLxXPvYCYfL4jqYNKim8QTEA0bFtI9SFxCLgN977ssEcItat1SW0Hqb-xdvY4KEWc7_JtF1gIQ324Ql1EU6DrSM5CwZ4RUs4ifsbik836QcSbuo-oG8vxO8LUEw9w-0i-LDgGImQn6Yx_sjWQZSwl0h-OpEB35CkOCcFMurFSEaRmTKG_NiDLoSRLgMxFaJRcwxosVs8Pwi9Ye4JrRhpSVzTPxlCrIG8MAJ54UrRMtByy9fUCWC0UE51LasZoQYyfz0M5klLk4C20c_YPDp9X1tsnur---CnKUAsywx_xby5bwMiuxWW4IHVRYiVkx5LkF31_CkadCoTxvfhzBby_c0zrMo83mmUiTHYZGwXdpWdujjNwq9Gf3YddLE8mlqA76BLLmQb5L3pkLla3d_BnVSAYJ1DFd3oxheERLCvQEUORPEr99JfJu4zf_46mmKzfpVm59jdc1flAnMsW-WJa4fKfgxz66bZXU7nvUcbQEyRBFMjAaRasI-eZOf7rKjlchlXua7YqdKfmUGjEsl85SLPADU4BM4yHOMN337tLR6nMmf8xDN0hL2Q2IVjaGk7moOAdIqnZiaoL5mff8P_FzYsNLCN3pnEhZ8854WEVJ2E7bizj3uGBVIJ0XTFu7Hh4W8anm0tW-NlxTyVpqUU4hqjag33FJuBKe5tQY9X7IQxkQX2xxAX_PkAUQ64tRakR0OdeMeQSTNTUrIF04JximgRS6LmF4c1J2HgCWHztK0bUSgIITo3mI7gAmr4OcLxTD8TtS7aLSj0E24CYlEZBk5e1-6WI2DcEUxdADNcZ1_bH4D_nff5cgkbLmsifr0SsvapBLgwFFCa5aXU3SUkr1VBMnlvJ9DSoZt4cM8PZDLM77pozMZTKtlyTQrYlX2lD-nZXVgEBeXfHrpVai19EVl8OyaWanb7Ioh4FGtxW-ay8E2VCiLwXjcgR5kjX8hM1Df4lmsJTjT0c8-XQYEoHV2dk8VUS6_JKIesXTCM8jXn4iMDB5VdunLGvRMP-fuLCpg-9aVXq62OYvbTEkav_H72uIfmR7B1vZkBTh-w1xpSrQiT3YKxcw1hNC6M_4Am5tMInWs4uo-6d8CRzArM1IQH7Ikw=",
+        "id": "rs_0f6a16bdc08c9f0a006acc4ef6a64887d083ccaf0a050281b6",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0066\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL18286922M\",\n    \"OL21582057M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Both editions use the generic title D.H. Lawrence, but their subtitles differ: 'a collection of critical essays' and 'selected literary criticism'. These may identify distinct editorial units, yet the supplied metadata does not establish their contents, editorial identity, or whether the criticism is by or about Lawrence. The shared author key does not resolve these ambiguities, and the different dates and publishers alone do not establish separate publication families.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0f6a16bdc08c9f0a006acc4ef9456087d0812a242c121be2da",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0066"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL18286922M",
+                        "OL21582057M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL18286922M",
+                  "OL21582057M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1437,
+      "input_tokens_details": {
+        "cache_write_tokens": 1434,
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 1740
+    },
+    "user": null
+  },
+  "response_id": "resp_0f6a16bdc08c9f0a006acc4ef5c48487d08af4b54dbb5396c4",
+  "result": {
+    "case_id": "CCV1_0066",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Both editions use the generic title D.H. Lawrence, but their subtitles differ: 'a collection of critical essays' and 'selected literary criticism'. These may identify distinct editorial units, yet the supplied metadata does not establish their contents, editorial identity, or whether the criticism is by or about Lawrence. The shared author key does not resolve these ambiguities, and the different dates and publishers alone do not establish separate publication families.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL18286922M",
+      "OL21582057M"
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "case_id": "CCV1_0044",
+  "component_id": "W000014024_C06",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774416.0,
+    "conversation": null,
+    "created_at": 1791774407.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0b8827ed726d733f006acc4ec7d5ac87d0ab983481919357d1",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7Qj8zzWYb2JAj4Yrjsq_UDej3G3v-eho17VGSC5cKhGC0MHYJgktZcGuHag8tZNnwPQttXsgqCXkAL3dG_mDkUJG97x45yonEnf2SR5mVQ9JpIpwKyJjA-gAuaPfxnDqj0q2PMzcPXaiyFEhsxkjfgxKOg01Rarz5HTuJNTpMpEDJr4O9tAGjqPOngacF0bBJ32Vq9Ld21457AvfrtkR0hI4k6t2reEZib-2Zy_fKvtNuOrwVZ4UOwycs9NOfH3vNjgJl7Ry147hyqgOyYpM4kr_2daAJHrTQ0TH4tt5Et-720k9lhWfH0cltAs2QU3hyM8UNZWWcmVTfe2PHgPzcpNC-Qa6NsPwhhW_8FwuSk18iftPlQJTthd-e_lS7z_fXvD-UbdZj09kEKvpHVQi3ZdzTCwW5uWXg6litnTCeWwtK2wq7t4U2CnFF-tnppcCJrghTZE42Cmtu9EkOkfr7V7EzB0CoFagb_GT71BJZWS8rRe4z9JTI5Dig4k4gdxTtXxZ1TQ7YckzY0tawVUu7sD1325mfWovZ4jBK-IobDdQStSWS-cVdaAQau808Plf83bqSWKtTonTR9prmLn82ZI7IibBxRsN3BsoPX8_u3JVG1T22kOn3PwC35AiBrE8nZdbq8zDR4nmLwL46Pjjob-zq3CKczXhFM94T3Mwn800btPBaTRCdTCSo54QR7WMeLh7XCzy7J1P5z5H06kF1Dy2hvxtUqAC0jKQFT08YUIjakIku5nIEHo8BM6U2Puvzj_JdRqA4F2IBvEPYQmvYJsWECs5RUs1a8Ffr1vUFRx1zUBrR1cDzfXzqUH4iXpOJBZEiDANomkU26sLioZfE9oPTiEiQXlEPPVv4Dxh2BEXiCFrG1s6ZGfcF1FyJiMhBlj43NRJuVc0qEjZnu06mpU070yvWlS39wjoZHXtz2hINKrvh-ZZH0npr2TmoMFSQLSa86GeWnJGLbegAQefszuB71YmM4zmi8O_iEdHrcw-BYhdwNTk95wZZtCdznIAfcmABVwbCK6G2XIhrnYqdDOcpzz9O6Da-4Q01TRlxoLWNZl4AsYm-PxBXkPXGsGUUIDuYJceSU3l9kQ9918PFyoGe_3fRFBkQArHUy4G_c3mvMnhqODXw8-ChunbwxOinpYd-kmFals-IsSC_aNi3pkffO7Ca1MiUt1QsjEjE066F90WZoAnOBsWdD5yMCtayi_5bCwypSISlGm72C82UiTTkAuiC-MyZzteqjpGWeyEWZLGkf5RUgNaOsoxx6qvSyLG_Mc0UlYRAzlLuIB4Jb1gb7F7NyeR_ADw581K07sQxIr7zx9yZK93SIQoj9eegwIRMDyuItM_zOZin0KRNSVbeHkyPo9jJHDcmckmAVc_6k39Aw_oMhI389dUnPELoOKBfsmvO5ZA1uJmNyciedaDbOGWSQW_T6_9p1bbCgZZqxtwUWB-ThVKwT4PVh45c1-RPgsWOsEcn5boQ_AmWcs_Kx0XXI0fTYgiq8bbGxOHqSrrexFOUVvV24-wx5bdWeKdr-ZYI7AMmWCvP_Y9-BLgz-6BFhd4fCfAMI3HB8ocl79uW7SpCAXpY7FO-ZhFm2Oy4qgc5GOXmq-f_7891Fv6HE-OJVt_wl8GVUzoy6GO4MffwE3gzRSFzvJdFmz3WYe1sXpT3ewHjGterjDjLOg-7jtB8tpiNRNbOZKI3L2dvwJ2pZ0rfPKjm6tT-yMIJ2R7BROHB8vxTKcwF8u9n4ODsepCBg4BcXYOzw8CMq39swlW2Nx913QWuKLMf6UCyqXXPJO2C5UTgYLT-t7Lu-0I6XT_DXPLeaZIFAjZcBpSPh509JL6HdC5D3VXk1G2fILL1suJ70ShzXmp02M3pHPIEaRh_RGXYzASOh9AmprdReEw2t-ZOACv9TTUpJkqz_ek8ker2CJXfBJ5y-2v-BP_b9X4dZn_uSMta_QGMNgOqpx06Lag4U5zLkwcdGVHTJssMyquMVV1a4EDy8Hj5FZNaVO4ztLd3Cja1Ah7Y7u0nV9vlxMqiJCRCwtNQW7Dr7_D-qjiN3-s064VTSAy5ZIfPjc0nCSgJMkUR8gxsNszcXgmKJVmOmhY6ePwGzcPLUdIPgxiVtYry0mijRmdvlKjX6tsjk-yyWAvONW6wcZAm5bq9QkNH2beA5yjoler4fXQ65r3YG2fHxFNvhs9-s_RZGY-nnsZHz4GG1MmN5BO9yg-7IXtRI7CVZgStdEmqukSH-BQQxvAmGwq816zhCJmVrBv92EsstSgGHLpUm4k0zJ7FR-_Ke-wKbMYFLa2mMfnxYZ44nlzx703FgmkV-sgQqws9jFW4dj6GJC4TU_xu487wXG2gjat9aOZLQi0vWYbXAYXZvdyxmtK3emt4E-O0gF_Bd-kpdWnI8f8fYv_MxQyFwaeluQ3o6e2h2gnclGJjJZv8oTuNCljdW4yOnetEMSsIdkxHbBjJelDedpl0agxGcdjMkAeifmkTAJH6J15m2UoZcd5aMrfxDMGEbr2R-QBRkvz4GZy2v9DwePoyQlyoGrzLEILPKqL5Z7b_fyuSsDgIFmcoMXV_Wd7sICHmKlER1DT3J2NvNo2dJ5_NaENlg7cVxToXnZ4KJ1rZp-3YGQMmwJkbH-UAxo6WqRXWtUTJt_vldyTKVwOGU9elugNZRc-8hNCoV6ZGejisIXyKgMbD-VjcLTKAREEW1OQhFvYcYv5q1HVKtuodyluCm2k5hpTv4JEcTFlUi7Kf8oE6a3D9d_cj0h7hF7WS9gEc5uuO8Y3yrOWLDofsoGiP_XkZpP12rZxngIShkJ1jl4eeCIvX-OGcuzEVNexmczAbFzyf64Vh2HwgtlhvpUInomrfq6wy9_jWGF7hfnlDMMtxUixlZS5lOBLolt-b5bKmaxUZ4zt0cyzOv-BNY9K_GNenbYNq4DPOlm7_v_Quo_eOqwkVNYDni_IyaogfzUskaxJwX2FgtTeBibW5u5K5xPD1fDYQXCeYP7C5urAXWJN75UmNs5RH_8TGewQZTM_QJKx7gAEWcY9jZ1sEucoLa8BmGSscnT3XUyP6zazEt4-jDbUDeXSoqv3FZK1PwN8QeZ3Sr-2GOIxG_Ws8kZmg3R1k_kYs0bzP9IlTQzD5gRL48xFvNb-WLklCWx8fbzKeeEG5szjyybuqrrrFVfAfxjdwijSY69zcB94Z7kco6TpZ2EO95RChCUdtgwVnRRht4iwjF_QED5uC2dT_UkVDtgDfjA4Z_s5R3X47TD75s",
+        "id": "rs_0b8827ed726d733f006acc4ec8b6b487d083603553186bcd9e",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0044\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL20389220M\"],\n      \"provisional_label\": \"Henry James: a collection of critical essays\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"The 1963 Prentice-Hall edition has 185 pages. Its subtitle does not distinguish criticism written by Henry James from criticism about him.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL976267M\"],\n      \"provisional_label\": \"Henry James: essays on art and drama\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"The 1996 Scolar Press edition has 537 pages and a distinct subject-specific subtitle. The metadata does not establish who wrote the essays.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The differing subtitle descriptions, reinforced by substantially different page counts, support provisional separation into distinct editorial units. The shared generic title and author key do not establish identity or authorship. Missing editorial information limits confidence.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0b8827ed726d733f006acc4ecbce2487d0b56848459dd1bc93",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0044"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL20389220M",
+                        "OL976267M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL20389220M",
+                  "OL976267M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1430,
+      "input_tokens_details": {
+        "cache_write_tokens": 1427,
+        "cached_tokens": 0
+      },
+      "output_tokens": 455,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 1885
+    },
+    "user": null
+  },
+  "response_id": "resp_0b8827ed726d733f006acc4ec7d5ac87d0ab983481919357d1",
+  "result": {
+    "case_id": "CCV1_0044",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The differing subtitle descriptions, reinforced by substantially different page counts, support provisional separation into distinct editorial units. The shared generic title and author key do not establish identity or authorship. Missing editorial information limits confidence.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL20389220M"
+        ],
+        "evidence_note": "The 1963 Prentice-Hall edition has 185 pages. Its subtitle does not distinguish criticism written by Henry James from criticism about him.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry James: a collection of critical essays"
+      },
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL976267M"
+        ],
+        "evidence_note": "The 1996 Scolar Press edition has 537 pages and a distinct subject-specific subtitle. The metadata does not establish who wrote the essays.",
+        "local_group_id": "G02",
+        "provisional_label": "Henry James: essays on art and drama"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

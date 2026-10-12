@@ -1,0 +1,293 @@
+{
+  "case_id": "CCV1_0015",
+  "component_id": "W000004821_C01",
+  "edition_rows": 10,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774347.0,
+    "conversation": null,
+    "created_at": 1791774332.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_04b3307913b9a75e006acc4e7c3eb487d0a77a39217db7433d",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6LDiFeNxZ74lx2BK7dPXrc88UF7wKjn5nGhvXk361yMRWnay8EWTcyBAEzME0PBrA5lxMmQQ9O3lXofiFR1Wmrns2JvBKWxG9frOTWpm0Si0o-21XfFATCcYwRCN168oCcgOD66yHaufva3vxKN9VHjhhjcD48LXTuQv5_vzVoy6nFoJOX544xWJJ10ltueFNo_-vAFUfuWCmo5YdBYj698a94W-2_4Fa7AgbcrO3_B6jg0Gw-hxfHak807zi4vA25_loJtETA3Q5xvpdH1RjEKPXgU5sOG0IgOB0gvdyUzeydtLpzKSrcUe2sLgt4U6CcE-Zt3pTPHGvV0mlzHGFEe8CDP6ZH7rM0MzBQ1NisPqTS-dRVkR1jWqXNVvFmc4GNKFSZ1NbSIadRv_3-cJxmUskBA0hzx04xr3aeFtJglycxO35rcOc0lEkbMTQa6foVBjKXvre-LNbtXrGl35Uw_yZ1OCxtctWvviqho4tasf-l8nbCUVXZZZzzso3RAPmNCUzHealPxQ6tvEwaBG32O5ctZrNBezgZRxovZ851xBZfRcdwHhMEyo2Dq19Jaa356l_Bib5rsDzZ1SLYdQBsox4UGziEQTDl1yajSolSelaLAQuOqeld5ySCYxl_rxGW3Ha-FsRgNQVt-vlDTxb3LEcHC3s_nmlmgXu2z26rttWZse0nN3c1persS38mIRuvXtkdU9KkrQiEVecaedpdVFWmJfdCZnO11R4o2LjPhJ6lDGP80wGN_KfCW36F_1bMH3W6v1B0R-2KtLwlUw1JYHNkT001R2Hc1GOA5e0w75RHF6943px7UmqAI-g8PQUp0XFj8FIBYig0a_ZHEthDjHbD6IYvIhw7PksaRjvYvqWn7XfSg3bKOOHqhX3XfRMHUsY9svJHXOsMGS2i7ZtEWidu8lX2PM3dZL7qUGKSZz-h8e6nrt5tbpLmjAFVU5wlu0dZJGlhgq0YYpL5r-idxkt0ObGyPPCZxCJI962NClI4Kc3eI40VUJ0UDKEEgPDt2b_Q2BDd_glxXxwHUTJ8235jz-e4wQxD2TMPUlKbj8TD2MxqsmUu5jCT2Uj_CwyDox-_qfZlfUR2n09WqMX9OLrzz9ejaDssw4lAqMrFSBRrT86Xi69OiiAPiP4BOJmsqbRrhh0_moukBcWRA6sM_ZNPGwLpw3gPkxGs9fIput_6JrdU2Q3ZFDKcf-aDun9FhDInkCIpeXJtVbpq_jbKwE65fgLDPcamic8GtA7PxGeiSqFAWH1KwJLON6WbUasHXHPDZWOwykNCPgI2UFdqJvmmryCqK_4140hq2zB8nGBdKpHCQ41R-T3v_HkyJnCKXZO5V0AE1yix9JHKhj-LKFU9qK1zJF3__VSmGiViCn0fkH7JHdyUAyXGdx3qAoQgCJq_CkN51XkxTGcxPLEGrqtgxgMg1BQzhdg3UoWP68PTqM0fSAhQhtbYFwm99LmMMqtxtWIhEGCVWaP8wRGKctQu0dBf6kdNUqC-Lmv6TyhcHyXittGd4UH_VPsLrTWj46uJ4wJpj1qgmzZVGJarVgEPC2D9VyLCVKBKmNvSuNSyLZB85QJkdVhQwf6mciUYgTkT4S4l5_rLtNiagdv_j7o2biDQ0sU7ZKW0JDdGyiE4RUuWXQuOkiVu0duUINXFn8wty7FnBQKwxLGHEVhBth0uGsrNO8YXIZhHeIPxYJTnsB1bw-J_F9wgM-OOKmAxl3nSVxbXG97bjkTjpfD67fNZX1c804U9UvoJYT_1VMfki6KS3mqKu9-dfQ-WZ0wmpXUmBK57JktcXRBENBH1l6SvXM92ozqm-9nL9ld9lWCr409k5GoMnPaQrx734ilpkrR2SP-SSO3xHe4pT0VSBYhHN0HenzyyCAZ-LZtlozNl6EWHFQaf1a8kh031fralkqeRFQUFrbrU7bqRFG8ATkONUA8iRZqIfq57zsXQXE9V_EsvyksCB_8hWZxPfcJTwUfkffgIrVPMcPaIZMePy5iTkAYsjeoqETqfrDW4DvowRuQB5a_QHb_TEoSqxW7KtJinFeA3JKvqswGLxVeFhL-R_-AjhGgKyVRBf1_MDq8swUVFGpEn4YNGMzgFJqkXw4Zx6rZJ6Mz2VSkXAtQOHSl9gd6MAixwlqCVldjs_6LfCzPsI110d34TWlyCLhTnsCaxGPHFMitCtjVA8atNXbaquHzMn2yCMnwDw9ityiK2LrzFgr1a8BNOibD1sa1LbduWzALNlbJVHtBADj6xF5qdiaV6AenlonBe7xPgqTsSdCir9iHsMHLtUxuRLLmQ6nachk_X-VNXGGHpj1SDJwT3V3dI-scZ97hUgfP6P5qDq4J9Jh0GsijgyOu5k9uR8Kryip_0-YiLPt3Tz1Q7tmAv5wTPmrcHz6Qu4lgGchBaY-VrZEQKu_mucEBMKr9NIkcTtUH2WOUHevMAJEn87wAY4qUX4Vn5J2Y-OG68b4f1rhFAVjruPHwtUOXAEkSN8tr0hgoWrudXG86CI57rdoL2OQ7RTcK1gFdf6WEtqILexpRhHyYpMPkgkHd_Vr3Pnqo_RZ3TclEPm2bhzNJ8cadSp1FZKiZPJSGRHgP-OB2S0tRTYR7OtytqAoQXPBN-2C7_9qma93jHw-gFj-IyYbuyrFXi_YzeTQv9IQBfZEvuOOQV2Ssj6fFt12um3YV8KOTp0_-IKJnjFHgLh3QXH4k6BQHYzB3qXGeaQPU6lgJpBgstgYbUWzoDfIbM4Kd8O1ebqSH6FKhe_odOy6n__0etoySRFVaAeONKiMgieDZkUkqKKHQHLlYDW5Jp57ZIkDtvOvcVIKuVPheCLeQrIjgqPw_lzT4VhvDUgL0sAKJbsHuYzvF50-1EjkJLqjSBXO-HC42LAaG0A2Idjp2n2HI0H2nqhXUFqjwcpk4RPOueSjjXh01khaHjNHLHGVSwHGq8EzNX-1GHrCnhIcoiNf4tnSqtVQokwawH4mhcL3Fl4MZGQN1g1FRcfkgvc5C48Jl2I5EyJmrFhZNahUpkqN0hFtqPDERRhDVcxjVBzr7R9uLQ2lazlt8XKrBdp1uKyXPTQarze0wTEaFWvPgtUqbIBgUxS1V3lMo4mtJEuuNB-D8QLMyNy4mP0HEvCjRwKr9uCkMzphm8KnK3kDhkOZGpHFBSf1vXtWHBZfPqNo_gYdjj3vzpNBBH_vYpmHPHrdHgdyjz6bE6RUyGqPgJcTNrKcYmQV0GOn7OeOVFQWjeUZcqdLp5exurGc5HP97RI3jlIgpadmmAz-fm7kDVmmB6Wgxaz6O_3PJiEWmxOif8V66aY7JVyGGa9TNww1WMr1D29xeysWNtzl-1IA2NADtJAA7HkXMwsb-c1Fz5Se1c999D7a57ZoreZ-NMOCR34zEcZDFTx6mvXAQ-Lxg9uw3uXO6ENe-LdbAvX43K4zF8T5kSfa1JJaj7si7N7LE52zrzcj4uxaw9p_4RIfLwvuMXS-_oZDeHCQ1W1UkzUwpI2J3i0n4GuN6B4iOQ3M-TrwXvkEiJTrU2WhXG15CmusX1VDkLqPaeHIqZJt3Fp6pfoOmoCGEx2tqu9ytlHrNrCw0MNwQNNJO9QBsPDA3ZXntRiJRAd6jE2IObmr6EfVeX5wzTD_K9Ra4JAPx54hengLGLuodRSZKVF7D9kOYzQnfDiDAKY4YoLxSRDxZBvyVJ78n_WoJ7TvOKSPVauYb2vwf6XxY0XGYMbL9DiPRlqH7Hm5vBH1L195-UPeSBZHR0BGxpaYliH8FxS-Mq0KEmQAHPQU9ItZKi9HFZXN4fkAZRKaoYpTwWenawxBnaWxaf5_5A76jRi73s0KBGlK00XPaqUXPA9IzIwzPIvz2ZCLY1gl1l60-Fmquj9p2d1oe9I2-Ke3lHQNzAu49e-B0Akyr6Z6obNyFzlwUNJeX5b1lcXMROw4769bvuzWieqRs64JUqLzwUZpik1Q7TQOMhY_WbQg9Jqh1A2Sdh1JurN5VHr7cCtsuwA_srU72YXcz2aT485BL8-TiSiHRgV0NRUT0NtJcErQX9IWSO1aXBl8GDnvNFlToAQeHoFEyTRZcx9J0uwFCd6esvZkR3i4EvaU-Tx8EUNjXBH9iErBv0NPdOLxfTB_lEFj_0GAWEtI0KFVYsTdeQJkNwT1pXzWZ1ZonBXdSKpMdfBHkmC54lCt5SgZ_GMIDz081yotW-sFCT5n6gw-yVoYvHnwyeKNVl3tV-0JAXmC7Di986hpcMa-7ue8ZCv9astrX34fN6oxrtRinyqOrWBUx8RJzp22REZUqTaclwGxksIZEg5quO6q6dKhZOMU2slqBSBdUn-f1OEuEdjyP-FHUehKGfMoRZWtaqpLJlekO-8xHFJDXIcMnZ3xXHGp28_ZQpIKnME1DSO-voE-G73hb7YOSMp5iZTNISFsTRGjL41eUchVnqc33mstiTWUsSXgdjmtLfqhdFKLls45rtuZq3s-hatJt6gUDoPSPc1muMT22EAg2oTjEdPL52oqoIrqHF6mvVzgiomrTI6vYA0GNtwAaKgylXonqYnqE3cJo-cVsKbecRMK1ZKEGJM5RndTLkts3ieqKW5GrUYzXMhYzLRwqUao5SmmEsPFfK_U0ZCaR3qVltqg3ijsf6xrsY17SEqVpL5Wou-D0a-_XJCwPmi41GRcjdMv-6HJ8UHDvFAPHghpdwW7nveHlvXO37tJn8st9jaq6nOep8pXXY1d7HsZnbIFst",
+        "id": "rs_04b3307913b9a75e006acc4e7d341c87d0b9c1328a075f18c4",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0015\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL16275462M\",\n        \"OL19167215M\",\n        \"OL6751878M\"\n      ],\n      \"provisional_label\": \"Poems, 1886–1929\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The same date-bounded title appears across these records, with only punctuation variation. OL6751878M explicitly states 'by Rudyard Kipling.'\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL1580250M\",\n        \"OL2031746M\",\n        \"OL7438365M\",\n        \"OL8995607M\",\n        \"OL8995854M\"\n      ],\n      \"provisional_label\": \"Rudyard Kipling: Complete Verse\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Titles and subtitles consistently identify complete verse; four explicitly name Kipling. This grouping is provisional: pagination ranges from 704 to 864, and only OL2031746M specifies 'Definitive Edition.' Editorial equivalence is not established.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\n        \"OL7097697M\"\n      ],\n      \"provisional_label\": \"Collected Verse of Rudyard Kipling\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The 1907 record identifies a collected-verse publication of Kipling's writings, with 375 pages. Its collection designation differs from both the date-bounded Poems, 1886–1929 and the complete-verse records.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL6104817M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The date-bounded Poems, 1886–1929, the 1907 Collected Verse, and the complete-verse records support a provisional subdivision into distinct compilation families. Publication dates and pagination reinforce, but do not independently establish, those distinctions. The generic 1899 Poems record cannot be assigned confidently, and editorial identity within the complete-verse group remains unverified.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_04b3307913b9a75e006acc4e83314487d09d06ace0500eae8d",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0015"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL1580250M",
+                        "OL16275462M",
+                        "OL19167215M",
+                        "OL2031746M",
+                        "OL6104817M",
+                        "OL6751878M",
+                        "OL7097697M",
+                        "OL7438365M",
+                        "OL8995607M",
+                        "OL8995854M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL1580250M",
+                  "OL16275462M",
+                  "OL19167215M",
+                  "OL2031746M",
+                  "OL6104817M",
+                  "OL6751878M",
+                  "OL7097697M",
+                  "OL7438365M",
+                  "OL8995607M",
+                  "OL8995854M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2109,
+      "input_tokens_details": {
+        "cache_write_tokens": 2106,
+        "cached_tokens": 0
+      },
+      "output_tokens": 808,
+      "output_tokens_details": {
+        "reasoning_tokens": 242
+      },
+      "total_tokens": 2917
+    },
+    "user": null
+  },
+  "response_id": "resp_04b3307913b9a75e006acc4e7c3eb487d0a77a39217db7433d",
+  "result": {
+    "case_id": "CCV1_0015",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The date-bounded Poems, 1886–1929, the 1907 Collected Verse, and the complete-verse records support a provisional subdivision into distinct compilation families. Publication dates and pagination reinforce, but do not independently establish, those distinctions. The generic 1899 Poems record cannot be assigned confidently, and editorial identity within the complete-verse group remains unverified.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL16275462M",
+          "OL19167215M",
+          "OL6751878M"
+        ],
+        "evidence_note": "The same date-bounded title appears across these records, with only punctuation variation. OL6751878M explicitly states 'by Rudyard Kipling.'",
+        "local_group_id": "G01",
+        "provisional_label": "Poems, 1886–1929"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL1580250M",
+          "OL2031746M",
+          "OL7438365M",
+          "OL8995607M",
+          "OL8995854M"
+        ],
+        "evidence_note": "Titles and subtitles consistently identify complete verse; four explicitly name Kipling. This grouping is provisional: pagination ranges from 704 to 864, and only OL2031746M specifies 'Definitive Edition.' Editorial equivalence is not established.",
+        "local_group_id": "G02",
+        "provisional_label": "Rudyard Kipling: Complete Verse"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7097697M"
+        ],
+        "evidence_note": "The 1907 record identifies a collected-verse publication of Kipling's writings, with 375 pages. Its collection designation differs from both the date-bounded Poems, 1886–1929 and the complete-verse records.",
+        "local_group_id": "G03",
+        "provisional_label": "Collected Verse of Rudyard Kipling"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL6104817M"
+    ]
+  }
+}

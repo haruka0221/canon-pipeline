@@ -1,0 +1,259 @@
+{
+  "case_id": "CCV1_0039",
+  "component_id": "W000014024_C01",
+  "edition_rows": 5,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774407.0,
+    "conversation": null,
+    "created_at": 1791774398.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_092fb391054392dd006acc4ebecd4087d080df7c8311bd1320",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7HVmffQ-A7A8nG0SSw36fC7gw08Lm3Ho6aCUbitSR_WxsGxxl4nWFBI1v-qpsKDKLrIzTWiKsz2iT1weRcoKYG247CeVvz5u5-7nih1UkgZrmtgNJOSUNDRt2CzxRCehreaMGb5T2m2LMyX7-NKLE-T4DxW41iZ9g6QP21u22MCVlpD_6DeOgXXqOQQmESakF5Igfjv6AmSFsdjzN_5qXoeCJr606LeVyTFzaGPAPm5xNDPsF1SLiPD17mZTHeqSQlZepm9h3nLgXgZj3o4y6zGk6oyhcG8jk3OuPrIjPR-7s_47FZRNAmCg8RS0cBDvByb9-ErkqbKked-dQkU4hZlEv2-TCDrEXcwHjKH29sqfbXGtAPme8Q0EAfLo_fhHFEg8XGc68JdAz9x3mdG7HOpj_kcz8lxNwJCLLw-uEfJ5o__F_8X0aGMVMGgKQoQZuyJl2dA6lAvUComj1pNUqHZlxg6mj7Ch1-95_I1x8OHGFaDd22OFPi4yPtObaJ1xqg4f5ELQ1_JwpKlG8OpPL0Aj1mXM2IJRihOHvJHUDsorQEdZKOy_w4RtDg-3D1lRxgBGtVNMUYBrD06iiPruTTkOlYPnnIa15mjLwKno7w-DAJsYUTbdIoyGCLUPAqMVBNTW1qiBK9KpcUEMz8HgBn6y_xSa5O7bMomtVAuw5uj26QvFdU5Wv71HU6vo_mZCxke_ngKxx3bmVij2zPoC7ygXYP85D050_Lp3OpWi4xjJ-CzDReO9vsTJssOTqoMO-4Rgst-trMV9ZM_qtkX44MJv8gqNIzdZs_SbWyvSSYs3tFVsyIk-fMGuS8vlJpmJ9tRWZuIQW7r9auABcbeucNzvU5YkiynozOyeGbYkQjkbsup0k91ubZ-SiKNeVgWsDoXtglZM7iSH8zmohyQUI2eVBIrO2DRklaDeFspmy1FEBikTAltfGnjx_38V3rOa4YLYYJKl15tK9phVmFGgbmxwxS2h0LK-fRrzNnQFQh_pguQHYG1c-bklyU55JZpaxrzE7mgg4giQMpr4ERD8TGY6Xt_QtQEfrpKtZV75arvgEPgt4UZ18fXkrOxWN2U6Xd6fU1Z4q4vfBtpOvPAKnblE_y_4lWcUTsB1XgsW1ZFZoChgUECGcbbnFIwxthfd_mofQClSbYyTf5bVOn4CL7bVm1_I0qrjmcZzbf3rE8HeE5uW1Z6O-IcrDBI8A3U-Xs24AVpInrvmw0LKVXutbRKeB3SyRiJblGfT4MJCBdJzFmyh2WVGw6_ik9OZgc3v8m51iOTuIXBgXuCU2UFu1XXXlZl_69Ct4QX6c74Cz_tVMLavxzSpg_clZ_1-Btz0n6dnGd4R6VoowKalFuZ28mUiWavK0CpEZHIFqiUD1mpsqCXMML6INO6fPEN3UdFY-feRuo35bzoBx3_lQuwdingnK1yR6EVXjNWnc-Q4PPK5ufEbKejC1xYw-HxK1iKMSz_1cacp7aSP6lAB4-CUZzxMGoRtCEMPuXn6LRB-Xg_379c6sG6j7LaH-EVWej8M3NwzIuOOKk3hGIeJoaF45d0qB5_pIZ_7SzqvI6DI63GQSBJjQ24cnhwWEtki_xmUQy8_TZ4Y0hP5mtDsq62oR8TIuk5g_DSDk3tfo9xgUeXc0hHkhnwwhmvUuDMIwCPoE4oMvdNEiP5Hc6iPkqHZtiB8m-b7QQK71rKBj3gRmd94-sWR1H4vr73leojeIdFCdT4RXZL6Vo7C1gUsQ0w-_R_eVOnKC9tkYgBSAGCcsXllSP3GdmcF_d7WShsrEB4aco1chZyWBZiWvlFIrRP3rlFyNNlGmvp-EoHM0wQYQcOCIigZ8-Zzn_1yV5fOFj2Ivz4rqt8bcV9XRPAQAqY8XK5XMr-9Ox_cFwZOXUT3KQCro-oBo-jpbWMF_Pb6H-YhuZNpx_ZthVP4U884H7vy24tLJbWvpIBIL9lU3vt1ekefUWms-cCmcgNENJYZ5jVadqF9I2DFfhv9aRtSMwaKDUBZYrbeenaZ9PKEzdHjN9dBUWcwlbcziZvrehPsMWSzTz2_5kqNbMilMwDjivwqK0Ij1XD6I-PXmDT-0HMh52YZ4yLQTP30M62V_7OgY8JuImlSVNy7X0DyQNuEJATrpMButcwLQUIeMIXFTH78sW3GkziJE_za8BzRfWig3ttxWLTjiFjazbS4Erv48xMafCjXwnFvUiiREWa1znRU9MMYsbpfa2F9HGumr45yykajp9d0yVpudJPWuCnNynPdQCWcXe9fCvoI-PZ_y2Z7kePGcwWHQLT4T8TgzbfpANiE1p3n4F6h7E3-xzs_nrPjmcnV4uoeamn3_1bl4Ho2PPmQcCU7X5Eoyix8dn9-mwVqtEKn-rq82IgsZJRhxJlje13vGLfAseVA6L10bVyiEA7Y7pkf2ijo_i7JiPqv643ixY0qd-3U71FH9wmtdLiYG76x4MFMsSzGleqC8U_zmU_e5odOlOeb3974c499_5q5vOuVC40H-XO_wOVARg6vui8ICKR3YQ0JcoPiSKX0InP3A9CRIE8fhauJKOlNyXtQ7UIwiG4Y31Az5VKbC-coUeAFf9-WXkDDcmxUy716qpI3xvuCxX4u1UQBnGQtDPrp2LnQxFsqjgG-EmOqSZuEvCM8a2zNx15CHah8Jg1_NTQxCvTboQRGl_K2FDfihpKqko4uSyYAtfAZdfAjq5lUR0UjUFi9HMvGJ7cWW4ZwQF8WI3OHYP517QiW5jQDn_r1CYXtaMknWBMr5q6bu-NDmrpuK8KsFk6V_RV-hcEcM1QdQxYqnUL2DRFvmqTVKTFelIfmzWi71G92VlO8luHlL96PBNpRDywC3UKw71U2eiPhwokjeD9f_B8UHesanhy6xiufm1WPBkHk8b48Q-f6Dw6c4icb8LAK63HMoKD6fPsk6HMOov-PMi0ZIeGfNGAlJBxua0gVv7oK6dq5vkD2W7Hphz2Ou6xcDbdRe9lO6oatqHNgcY6R49B-hco7EAftsZTNuWk-v0hMoUG4I_-_rXRBvUZM33HSBbFY6EoKsRVIusuBNtS6GbeTsYFSx9hohTCWV67A-WgVxGDN739nxPXtJEI8Q6OssgGw7RCrDXqcx4HFc17oW4ZRVkiFVKBapJEC8CMIIqsg_6-knZ7pYYRCiwvv5ZEY9wkRS48CoJYCcnLXFV91JB9nkQqcN1C8qxltDNOi--Q-Jbnus56YkD_TQTMSrNEOGbkd0zdHCQgtkm-TSn2obfeichXLWsi6DWHPdWGi_iou35QegSDfD7FhJwLO15trigXgycBbJ3oDQ2M7nRGakQT35OaKIyLLOq5GG-i_sVS2Nr6DwcjRay0jgj1OwZQp0i_kwaZpVNULruAixvmu8dD6fRulQeQZj2AKDmyCnhLv3Eo5Jqawzd3pY1wDHPkyybneqGwjhzl8gtwMx4JuIE4YyHOO9sNVehjtnGExPhEGsvqvunrUFEVbfp2K8XlFYe4pZndOfXT4k=",
+        "id": "rs_092fb391054392dd006acc4ebfec7487d0b8b39f5ead01d5c0",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0039\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL14220430M\",\n        \"OL15381973M\",\n        \"OL18829971M\",\n        \"OL23762008M\",\n        \"OL9367940M\"\n      ],\n      \"provisional_label\": \"Henry James: Autobiography\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All five records share the title Henry James and subtitle autobiography, apart from capitalization. Four report 622 pages; the remaining record lacks pagination but matches the 1956 W. H. Allen publication metadata. The autobiography subtitle supports writings by Henry James rather than a biography about him.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Matching title, subtitle, and reported pagination reasonably support one publication family across the 1956 and 1983 records. Publisher and date differences do not establish separate publications. No editorial information is supplied to confirm compilation identity.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_092fb391054392dd006acc4ec3424c87d08a078e78eb6156a7",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0039"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL14220430M",
+                        "OL15381973M",
+                        "OL18829971M",
+                        "OL23762008M",
+                        "OL9367940M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL14220430M",
+                  "OL15381973M",
+                  "OL18829971M",
+                  "OL23762008M",
+                  "OL9367940M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1665,
+      "input_tokens_details": {
+        "cache_write_tokens": 1662,
+        "cached_tokens": 0
+      },
+      "output_tokens": 433,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 2098
+    },
+    "user": null
+  },
+  "response_id": "resp_092fb391054392dd006acc4ebecd4087d080df7c8311bd1320",
+  "result": {
+    "case_id": "CCV1_0039",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Matching title, subtitle, and reported pagination reasonably support one publication family across the 1956 and 1983 records. Publisher and date differences do not establish separate publications. No editorial information is supplied to confirm compilation identity.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL14220430M",
+          "OL15381973M",
+          "OL18829971M",
+          "OL23762008M",
+          "OL9367940M"
+        ],
+        "evidence_note": "All five records share the title Henry James and subtitle autobiography, apart from capitalization. Four report 622 pages; the remaining record lacks pagination but matches the 1956 W. H. Allen publication metadata. The autobiography subtitle supports writings by Henry James rather than a biography about him.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry James: Autobiography"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

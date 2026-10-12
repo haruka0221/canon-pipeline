@@ -1,0 +1,312 @@
+{
+  "case_id": "CCV1_0051",
+  "component_id": "W000021761_C03",
+  "edition_rows": 13,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774439.0,
+    "conversation": null,
+    "created_at": 1791774421.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0ebf6f1a9f4baf96006acc4ed506d087d085921608368b4479",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7nZB_X5wb95Ct1qDH8n7Uu_rHYbm_DXAd91aC457X0Qp7zcp2tn5ldbctJ0vI_UyP-eqrmLzbD80oAW3VH3VfAuNDn7Ox9dmYKyIMPMmuAyepqcDZEXR-6_fLO5KSWePajXsh1TbFG_9CycN07c98XrYapUQQ-nMu11xYarc8gxxHMB_G5AJxfBsx-OZqIPMgqDOMuHa7nYBdeKHjYIfTwmqNJ6L9MKsQk_IQLw5-qyASSUi_TbL4hYQOxuPpVcOWmHXhpTNn2sj408wA8jHHB-VJ4YEH8TeUOtpXjCRDti-MEih5gWNj1cN0oHCL6qTlRBy_AdtDAQOb0DaJZGLkdDJGBd1Y-nWAIiZSyDZBEtRvFLZCrZCVyqBhoOg1fX1Ngj4h_P0SdyQKoXgR63aXt-XwcUj03JMle_GZ70gSwgimxSoHqP0W6KHDY9cVvy-IxV1equpp50WJ-B-h_9HbLxWis7UvHnMTeH2eAXah2QDNiicynsfdxgAAiMhcXmxJeQt0bQ_2yjw9d-ciyE7IVO3IKfjfXzcrHAs3zvI3ZwvkeMyPyhfhy7ZnFWGckbMt-bazx_mPw-d6OUY1T7Fhz3QWEfvYvj6Lt15sZGkl6JDUrKOf9tT5_u3sMxN0lSmlgXwFrlZ7oXlNX3pdUSCay0SatH2vW7ev_hC3o_jTdrknKlUveUSYLDGW7EEbcVkuLl35jaZ6CWaYqVUAlhk16Jc3569g-9Rw5F54p-ZFa6LAaKVMmTNu_pqo-Hej8Q-3bxV34VkdYi1ImelpjdySArgoF11wCCom7QE0FF3R9l3M2Vw2xFR-r7LegWtSYRDMHiEFFmEasLdLwbJ8El_IR_akMjZxNxajpWagosB3qJJoSO1P2VkP3KbedY4zvpFwibzbfq7ZwBxdcl-xyl10i7miM205o4bydRdTyy8PVG6EBh-vRz_zz6k4-y97kGms-CpDmaslDn9uuPY3-TKuC_iSEPMj7g8NnuG-srXn5Hp8K_-qJ8N63OLnZUyYj3vqjz7k9ybD-z0zJ16S9QKmJkJhkHXgZ8-zlNCO3pyGTq_EVpuYykgH0zn5BImjJa53KFw0h_TDB06a_IdnjVRQgG6tgKC89AhhFEPDQ-_0Ujpfw8hNIhgsoG5g7kBqza5LMpWc_5JgLt_2YuKUhxSh30VrM_3nPFmvLwajoTUgt-QvtDqYx1itKeqKU-jXjHmGfifljGUpFHUoYhfnEp_S7YIkoUTbsd04ZIGIeW_fKPDX2fJXEMuKgvGeLGvyNreBMUlVMP_iNINC5hBm02vzgWeO3vSMoIHt8J8eq3SYKOaG1-pHcAjCAyaZeArX6MSrpbfjLiGV81-dHntizIFSpOj7KsiRWJyy2QcN3G6AJALTZTqSV4rQBonazr23QIliTygOee5nxl58ye_ZGHbHx9JQxYLTQL73-aU0-rQ78Lo8gxeOvrnQIjGKR_WH8z9KQjm0whd_ugCVsf8nlMUUYcxVE8kGxRGBkSJE_2PHN2uHuzlWaBUDqjjE4lIbRohkjrUBnunzptHWMgEb_qf8CZ2e7LmBSBaFJHboaftauFrRZnzJb4gngaH4zLhX-WaAZSzBlSgFDgQpTRi5cHsNDZIfZc0kVinm9tnCzNDQlL76yBmvKkAzqFDHjK11DK1SCJGNcN4RmOp_5kNmetabU-oiwAXIMEYsUmw54bYiL4M-91S8SuYbOXSFFlo1WZ9LaptfmuRZEcXAT2dySTRjgQhqLZCKXCoHsQluiCFlvYUqQY_qzZRnIQ_9Kv68brFYWmMcL7yYP0ap8Tkl5ByHx5XRuFjMhizC97IryZfs6wuuK8V62g1CKtM1lY71-DjFQbeQSm6QnjzII0sRKA7k5aTJ427ASVr0TAtEXLTPM0LVWcEmS_Biop9YnsZH7bpePG9v9ttgQTpGshHikHuXOIworELciDSGBBUEQEb_qNIDi6brF24UprVXeG5x09Z668X4SvyijarAb7TdXcMveL9_02lhhOlUyWM-8WUJKeVXjHkx1fsmO9ldMEz8cPN4GmtJmlSIVCiUPNV51ci6iZMf1QqCmgLGhjmnR0p1u0SCJs4yXv1Zib6sjRHkQAZi2G7RQaKgBZvYIdfhGlW6KGmBt2cEqtTOiEMEu1XzdQQTMLYcOSqzhXuvTLu1xbrc1Aa4mUQUmsvgPDATdaNZ43X_2nESMx-ZbT7Wdz49SXWGwwfjUewCBu4dn5WbfAScipyrRje7gZflR2xhOLOJY0Wx3GPGyXa69-cQnoRG_mNOnwgo25xTL1b71r-ixl7NA9n2HxRepBPrjyMGnOmLJuvWYi0ydP3s2U_iy-cLhvlN5RKIN7hZ7vvdc1wbWBK0bTTXTUNjVZ7DnCtqLZk15U95NxLV44DoBWI7yA_lCqMN-utM-ZNlVFXJv1ii5g5IYzVS7Ou6IAYP6iZzKKJoQB9g2iZHYdnmXKC_QLIcqb7PRtSVMzn7Gkual4DKz5F54rxI3PllmeO9Ijpx18nd-UGXlTs69bxu2v9v4oJXxlf0_GJf2BwkD6ex2rewuBqAWN1IWMQ0X5A_1bVCb6kJZs7uFNJ5pL97vdTncFYR28Z4a6CDBymltyivnX002suP-dJH-oeQBouC239zJjM0OrldtvQe6BgeAghvaz9yOd5X5uK9zxTGYe8iOTgFowG1VIZOLW9rNBE-ag9mXzEfHGOXBQN7FcmAcAz3VkNXsNxTybQ87mmyYqat5gWAtNgnylnhA8_AV9ANkTds2hRjX8EROT-U57LusH_yBetoryG1QmmakPSw8d5LD6s3rdLL3renctMSNC26PFo9LzLW0ZudbhhiSP3RgyyBc9flstqqVvFO41HhpQiu6JHNa9EQ7rrAQHC6m0FyV78eSiewVPPkNzjw_f9936olwvQeqPtqboJrRc_PIWdnaB9oveGQfQ5pVAwWlaMGyMPHdsUgYYx9nv8nKLt-23q2K9RusRbPWE7LpmWdQIrHr-bueJiSLU3F3l-9kXjaVHpoGNPX-xiqzXQ8NJMF4HPlO4xDUKVlqB8VwWEOV__Nz1RdS_xE9_L3FAjaDpMO1g3i4FGZbiawW5ndIeH8cosNL3mAgcF4SbClOIhSNKpl1Dsvo_WZzq_74hFZM7HKynU-rl04Ej8amzctUVi-SxwFifEI0FSAPqft-OAWBthH30TXxToLKD76chhfWmt0FhhYwiBIQ2s-OCWoBzyJvWeZ6prrm_QMSyhy9UdjnCdbcAtpKXT0BAJLwI3jo-Xxh_1fP137zACxu8gOfFNn2aBWvmVd5KyLZ0_mJqk9v4jcsxJQXPi0nCX9x1v4pkitHPNeT4z1LzYP4cUfMbaTdNFo8jP65BBLXSGDy3y3-H35PHs4DipDs9QcxfNCSlrj4QD97NKRcKgkDIEzfxVAaabc93hcbgYV-J0I1Tvb1m_gW3V43HakesUuf4Ar_r5SmACyYOKTam-HvDogbC5HnfgX4Vq7VxWCMvR-WL750Rgme_aYjnIYnnRO0pkxvAhUwo6wxXQwgPvl0etjCpRtMaRSU7gQ67UKMzJ2NxFI-wEdOD0F9g9uRvO2lfGABw2ZquC17I7ah2iFnUfjaW-tgn9adZQBDJFROWPUgbej28VdL2G-0tGCq9L-Qh90YVuAh6krcuG92W4pZ03Ij3Ulz5YTn3egM9Ur54CPknCD9zYUbLvT-p-z1aDlaOL1VHj-pVpOxCC4tXRqLbsc7wFTCino6yp84CzAXpIJdhgQZ4_02983w6A0_QIXQS3hFCRfHlFfEcuFK71LegHYHIQ8q8atk3vo0EV0wg7mOUP2g-kMrZXjodNP-NhqlU-3to6S_z37Pn2lLr6eTa-Ypv3YpKpPAOPilhd2hkY7z9ZemFs3f3E8NOPC-ZvYrizv9JRT88tUR2FUOiRuC9ocK3UXoWYNBZNu6hBVez7hZ5UodwxMoYbKWEEAXTTisjoaSctcaSW2QJ1KsFxQ75zWa28mR0TuaGUPTb-KwrpGK9pO_UX-S1Oq2pbZ17SmceNSrVBSaHFSpkp1pjWpOC6cl7-Ulh-Rp5ayqkAR8bxdlYxcI-FK6Yz3IhK05GbG5lUoAcvWcNopOqYVkbVgFKdOxOc6fPpnC5n6pE5aGzhNQFqX7U-JMe2yMfP7awOhrFv5sRj9M8kwntGD5csYAvUOPypTl-cM3XQMHh3P442nEviju4dyDDL4Q0-AzwYvNHy9S7ObFf-zb7r4QPCSQfpkCCep9fiU10Q_Prjqsf3gT7CqtBwAkiiepIvAUc-S1AI9yotAAtl3o1ydl87aoJvkDUuBedAEhtz-VsgdAZLoSe19bJz12Tu5hfwnxZbqP7s7hSRvi3CmtdU0Jj5H6NMjao1gxepgeWyi1j1tK8VLR5LkW_iDy1Ic3nvNT5bDU-GzL_RcG7SiB6jYoWtQffa8WXGLbpOeFMA3dCBsd9zjkK8uMTYtJt49RQrVwLzxyrY8RpQq3pFJwO0V_moKiQtq5rvH8FoYD5Oh2OmHkHFE_u5snO7rSx2odTSy68YcVuhazgrEVh17LbYTxnWunlNYRNrvCoEy3BzxfMvLH6b8Wjn-tCC97_W-BdPdmTtVWDDi0HHaUgx2jJChbmHAeinOTNirnOsJX_a5ErYnvGEGCBNJzSvd233DtVlx0eNF2Q8TWK_KYK1odrWR37SxZwGnZc3nU6eQEjHkZNpy-aNA25H0oU7Hn-02lwQnoHZJ2B8sGfTsrt2psJbElux2tV64C8l7T2s4nAOzaeKvzz6exxk8W696Uf8jfXkTCw0oPaPptfBRl5cSdyKYyBcl7jny1_6zHY9xmfxWbG3vGdD18wZnlfkKSE7AJ05xUw4uSc40S9HzFUhIXtoBWWje9xpa0_w4He5tjPCXDsvW7gjr7YG5-L1VtBxSSgRc91ZMP6EQjBW_ng-Vbbu1t7upPm7H8W9dZuC1W8dxjBzhVH2pZwm0NCbPelmJ1dYYofLSjfbksYr7IlBeVjKbT4_-GNSDfXyyeuXV3D5btu14fo-BFGt7ASm4UnqNeYc2HFi9A1y_SMfMbtOGHPl8QYshavmpekMUUeZKwWdNDv_iv-vx5ZHiSjv9jbCcNmFI_KclyBovs5QHp49g56ixKK4hAAq1pCMlQp0Lz9lTHV2il2tInSOLGbUXVcfK4dz-OFoaIkJtwM0AV7anQu1hr-CHHDR5yKi8KzbNqzcLYIJgdpYHmcXKrBzZVUMwi4ZshdRVogZvL3ewUxWdEKuLo-9qoATRHhoXbs4bsfjxXJO5nG1WEbheQmK4sq5d4s7kUzxwE4_-AYbL4DdwX_0fLb8tbaQwOMVl5V4sNObPdmeyXSOfhp6xT2XgwYex1fhGly6_-aXf4J_t8dsufUDn9jSIu-eb9nTAnKUTKZRRaPvB6kqd78lq9KCxyw15Bf5ixppaKK5ZP0SfA7dF-dmHnKDwOhYJ7tO1_8KqcOLZTR6Zo8BA6pbxnPJET7tgKgJxu",
+        "id": "rs_0ebf6f1a9f4baf96006acc4ed61eb487d0a1dd2469bad4adaa",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0051\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL17755912M\",\n        \"OL23249232M\",\n        \"OL5822644M\"\n      ],\n      \"provisional_label\": \"Collected poems — Doubleday, 1961\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All three records match on title, publisher, publication year, and 358-page extent. The poetry title and supplied author attribution support writings by the predecessor author.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL2389393M\",\n        \"OL4936940M\",\n        \"OL9842251M\"\n      ],\n      \"provisional_label\": \"Collected poems, 1975 — 592-page collection\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Two records explicitly identify the 1975 collection and share a 592-page extent. The 1991 record provisionally joins them through its matching extent, collected-poems title, and overlapping Cassell/Orion publisher metadata.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\n        \"OL22489485M\"\n      ],\n      \"provisional_label\": \"The complete poems in one volume — Penguin, 2003\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The explicit complete-poems, one-volume designation and 896-page extent support a distinct publication unit rather than straightforward equivalence with the shorter collected-poems records.\"\n    },\n    {\n      \"local_group_id\": \"G04\",\n      \"edition_keys\": [\n        \"OL9000189M\"\n      ],\n      \"provisional_label\": \"Robert Graves — Complete Poems Volume 2\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"The subtitle explicitly identifies Volume 2, supporting a separate volume-level publication unit. However, its additional 'MacDiarmid 2000' wording conflicts with the Robert Graves title, and no author key is supplied.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL22564783M\",\n    \"OL22728263M\",\n    \"OL766252M\",\n    \"OL9000166M\",\n    \"OL9000196M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"FORMAT_CONTENT_UNVERIFIED\",\n    \"OTHER_EVIDENCE_CONFLICT\"\n  ],\n  \"evidence_note\": \"The metadata supports multiple publication units: matching 1961 records, an explicitly dated 1975 collection, a complete one-volume collection, and an explicitly numbered second volume. Their exact editorial relationships remain unverified. The unresolved records lack sufficient volume or editorial information for assignment; the 'Selections' wording and three-page 'Programme' record also require content verification.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0ebf6f1a9f4baf96006acc4eddd5c087d0b6f853d038efa921",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0051"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL17755912M",
+                        "OL22489485M",
+                        "OL22564783M",
+                        "OL22728263M",
+                        "OL23249232M",
+                        "OL2389393M",
+                        "OL4936940M",
+                        "OL5822644M",
+                        "OL766252M",
+                        "OL9000166M",
+                        "OL9000189M",
+                        "OL9000196M",
+                        "OL9842251M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL17755912M",
+                  "OL22489485M",
+                  "OL22564783M",
+                  "OL22728263M",
+                  "OL23249232M",
+                  "OL2389393M",
+                  "OL4936940M",
+                  "OL5822644M",
+                  "OL766252M",
+                  "OL9000166M",
+                  "OL9000189M",
+                  "OL9000196M",
+                  "OL9842251M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2308,
+      "input_tokens_details": {
+        "cache_write_tokens": 2305,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1009,
+      "output_tokens_details": {
+        "reasoning_tokens": 318
+      },
+      "total_tokens": 3317
+    },
+    "user": null
+  },
+  "response_id": "resp_0ebf6f1a9f4baf96006acc4ed506d087d085921608368b4479",
+  "result": {
+    "case_id": "CCV1_0051",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "FORMAT_CONTENT_UNVERIFIED",
+      "OTHER_EVIDENCE_CONFLICT"
+    ],
+    "evidence_note": "The metadata supports multiple publication units: matching 1961 records, an explicitly dated 1975 collection, a complete one-volume collection, and an explicitly numbered second volume. Their exact editorial relationships remain unverified. The unresolved records lack sufficient volume or editorial information for assignment; the 'Selections' wording and three-page 'Programme' record also require content verification.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL17755912M",
+          "OL23249232M",
+          "OL5822644M"
+        ],
+        "evidence_note": "All three records match on title, publisher, publication year, and 358-page extent. The poetry title and supplied author attribution support writings by the predecessor author.",
+        "local_group_id": "G01",
+        "provisional_label": "Collected poems — Doubleday, 1961"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL2389393M",
+          "OL4936940M",
+          "OL9842251M"
+        ],
+        "evidence_note": "Two records explicitly identify the 1975 collection and share a 592-page extent. The 1991 record provisionally joins them through its matching extent, collected-poems title, and overlapping Cassell/Orion publisher metadata.",
+        "local_group_id": "G02",
+        "provisional_label": "Collected poems, 1975 — 592-page collection"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL22489485M"
+        ],
+        "evidence_note": "The explicit complete-poems, one-volume designation and 896-page extent support a distinct publication unit rather than straightforward equivalence with the shorter collected-poems records.",
+        "local_group_id": "G03",
+        "provisional_label": "The complete poems in one volume — Penguin, 2003"
+      },
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL9000189M"
+        ],
+        "evidence_note": "The subtitle explicitly identifies Volume 2, supporting a separate volume-level publication unit. However, its additional 'MacDiarmid 2000' wording conflicts with the Robert Graves title, and no author key is supplied.",
+        "local_group_id": "G04",
+        "provisional_label": "Robert Graves — Complete Poems Volume 2"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL22564783M",
+      "OL22728263M",
+      "OL766252M",
+      "OL9000166M",
+      "OL9000196M"
+    ]
+  }
+}

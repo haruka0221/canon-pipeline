@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0033",
+  "component_id": "W000005682_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774390.0,
+    "conversation": null,
+    "created_at": 1791774386.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_01d4120c9de093ce006acc4eb2947c87d0a10cb7881ed9d054",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE63M7JoRFRMLMm6c5M4bepaBkeYG61d-akYOjEhPQdyYLATVdvGaB2C5bQx2NWtKptmwsQYMlJi3Ql1yRwreQxn5fPFg_WichA6ARV4OeLDaDi65kVrVXaLJLPYopkzJD98e_0Qy6cjnYhkKc2ut4ckArzW-4r-PZ7JTGFrEMPiOK52-klxybEOwnqSwIkNmFW6Fkkc_QstdN5RQgaT3tLKzzQipPVaehxLLxLOE_tl7Q98_AYFNlz0r52C7oivN_o_Brla5-L5n_AusNfJdCcPE1_gr-Knz4kgJr5bHcjpjPPRy10GfHFoVJc7NjkNOwIiE5ZirQp7E6ov_6DbtNgwPT9M1UZjBvWTLRd3P2WB6-pq5X1_O-fKBKyJPWZ9GIV353K3s1QW2lM5nue2n1AeZI8_kz7RJZfJNJCuqYF3qwoKR8pN6-LrsoexXYzDJYIPySyhzw-I07gZDjmCb4MqWeRiY5B7BQoE4qCQtuui8TlQDclTscukIUmnLxJEbBYmUe2TfyEag61NIngV8Ajy--Io5aK9banWtCK9R4C3y-qhq2k18_C7QDaN4PedoJiXYmY5Lq0hIyo8Z_-WbW4v4L0i2q-ht4J8dGAxh2PR5vClUR8yFoy9qck0_LLPpNdMih0-O_qWf7jYNEDwHznSLAt69vSMNVomTpkXfKNd8g70J7OJCK7_vloEv2aSDNWaHmKk0Q-g82hTxhpqDFsKReM1nLwffjjsiyGWhn3dHMRDAA-yZNCAQPwyauisV8yr3OCR3TnM0R73hoANaT5LuIVTnwUtZjUDBGDhD_JoLLLOu4E_f20ZiwPeR9IXhKpK1WAi3MbScdpZe5yqprm3I7dWlOoHyAKT3kTYMSvxA9XyPDtbS-0m5f7A6S0RiNoXv3SpLrI3vXtIA4b5tb-Y1WUn3Fsg39euRVQgH9kooXl6vQrDZF8EX1jYq7rumSE49U7uujrmu_tEjpyW-xCI07YnJctMrgrLRPBb4Fr_zeA39Bb0U23t_Weou1CJyxRYsMcoymqyZFPrLtkm1EjWnnGstRyK7p3TDeE3FyczMDUOQWL54DjhT51GK8moV__52Gz3_MK23pt0vACsqi6-dK9aQTINllClbB-fmzxvu2ZKfz_aufLQLo0iBntCacsl-TsUPXevculnLqmEHktdx2YksYsu5JjWNqL8n8rEK3eJmEwgyQSGmITHEpwYBtcul0M1yxAiTgeXs5EbO2bSTEB-1nd54VunLx0VAg5PefZf4vN9Kugc1A39AWtMdnmNWujA8H_cxNnqDlTRRDLI_TkObmKlzCmAqsYvY2S9QQ5M5UuieAWkVQWxKAipdob6fC1rzS9AzKPSOEyGhzXLAm0KyR-i3rx3cdKAGZx9uqWOLj_i2pqlZHehqeRYzQPDQFzVWOyk9TkkJ9XwDld1HqlIcpjB5Pauu8GzpzKnQgjZYINdV3LeDRbZlCLu74djV5wlypCdeY-eh0SDJ8fOmDkbdO3kMXi_UiQI8ggOzkZ5NF2W0aLM6jsYLuT9VrDhovZhIcjjsZwVgOQbghaj3vn1KZdM1dw-vhZQ-Vo28qsiutWaB59TGDX7ZjfnM97pQmQzzm4zNgLLunsxmRT-JkZCM2LrDUYZnJMPq8yHRx-lqnTVuA9gm4rawQsyPcrRybhzf3mbfGpWceXkNoU-6KYpve0ipm9Ltfs8Tn17D0vnOEIrxzDENIwCOaPkLFoqObgO9bk9UCG8WnT529aPE57yUCKBZ91JXZiOzUIyXVdI1YLvpGNZFsVE6I6RWMqvmN_-Cn4JPw2JRBJR2jZfsKg2ixq7W8pDnLibIWZboRJBJCU4HT2ncf5EPSn_GFl1Kd8Rb2zVJn2BovahCkn49Qf60rj6Ej7smN_8xbf76paDGzy6Wpe5elWshIeR7CZuTMEXobphYIZCMAK4V8yG4FV4c2A_LLhcysdhDVJgCF0dPwxaHTepmjsxHJC66YRRfIylsDzPf86G-pw-WmmeAXvKJquEH8MJx0W-imZ6Dq7okVrLqo9We93V5TRMkV9Z2N8dDwRYKwrpIvcPB5xg28aW9bNW16YRm7Jk4UOtxj6BA5pfr5KMMSCeJJYKwb82l4T1JLuyTb_jUB1ApQ00o8jkM3VSahzdabi5JON5NRqXuhoTcM0ptmW9otL2i7R9nQRWY7WjyiRcYBDniRLr3w==",
+        "id": "rs_01d4120c9de093ce006acc4eb36e0487d0ac13b5ffc7deb995",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0033\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL12059171M\"\n  ],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title \\\"Arthur Rimbaud\\\" and subtitle \\\"A Season in Hell (European Writers)\\\" do not establish whether the publication contains Rimbaud's writings, material about him, or both. The supplied author keys do not resolve that relationship.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_01d4120c9de093ce006acc4eb4cd4c87d0abeb154e975b7e7b",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0033"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL12059171M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL12059171M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1366,
+      "input_tokens_details": {
+        "cache_write_tokens": 1363,
+        "cached_tokens": 0
+      },
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "reasoning_tokens": 51
+      },
+      "total_tokens": 1595
+    },
+    "user": null
+  },
+  "response_id": "resp_01d4120c9de093ce006acc4eb2947c87d0a10cb7881ed9d054",
+  "result": {
+    "case_id": "CCV1_0033",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied, so cross-Edition coherence cannot be assessed. The title \"Arthur Rimbaud\" and subtitle \"A Season in Hell (European Writers)\" do not establish whether the publication contains Rimbaud's writings, material about him, or both. The supplied author keys do not resolve that relationship.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL12059171M"
+    ]
+  }
+}

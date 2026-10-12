@@ -1,0 +1,345 @@
+{
+  "case_id": "CCV1_0012",
+  "component_id": "W000004772_C02",
+  "edition_rows": 11,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774345.0,
+    "conversation": null,
+    "created_at": 1791774317.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0208046be152eb52006acc4e6d0c9c87d099f82aaf1ab9ccb4",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6JTux1DvnsMZhjgMpu-DTNq8ULiSTyt9zRyDNpH2V6Le2Dq-Vv-Rtd6sED1rr0RVR4ULMRo5UkIVHqTkRQH0ZZWwCZNPJrrzBtcYOXYkcZFifmq_SYmg-qxP3GIrtBs1OJfgW56l2knla25Dc2pBQyy2gFBWCgt2rxVS3Hk_r6H7_qIw63GsQ4GQQy22IJH_hQr6f5xNzTJ2jMgoiPrHyKUVxzdnJ3eHI5EXz95xip8yjmdL03AjXNIQoWkxOQO1-hU_8nk2Mg5bImLFz-EeQUTH_ZvB5x996YD9X2xWPyeEcw0y8fqzKIMtViGnoPSzrAwvd5cOSH9e65FUWqveHvA5meGj4Tdvwa632DHMAKQDFAFNc74HWEaqHqAvvzN9BD8bq0zoE4Iob0F855wcT5uHKcIEJhcxbnzIuo93VKJJvyAZ4CXJIZD8CsZhPzM54UI1AMv2me6F_cPShqIjFCWQFXBALb8Zm9u0-dz42we4wisy-xTtci8GGdSBaRRoB96NDMdBcmqVB5RIq-zTkbN9OULhniHNOUm9YLb4RSyAXUBPHrBqUdTAb76-yFd1qc9EeRslojg0QDWNTjJW25PMDpNdbbwJzbExhNoWUUn_TULX9DqSFJ4i5Av3YMEW7Vkbj44w9Tf-3XHMEFfUwYbMyF0nrgt_lwxbNAto6aa5nbV5I50vKJcCS1BSK5WSEpXSeQiaSPUzRrwnX0Uek_LR2L5WGas9Yg3WyUnHJzQEyarWxF1lXou2dXFMkH-Ll0fJaqR9Wt5y6jDKWc-CWBVlEFSxNj6DrxasRLJoNB1Rmu_9p5J2bWkcbh_xhhYeXe5gfz-b0tT85cylGMSI0LUxw5kUPEv6moiszqn1uzT_nLe2z-L8xuZ6bfC8pA19VpWniMAWZpYK3gUUpd2ua7BK_tDHQRIcMiss-VlE4GzbNM_A5EzxW8nbetjnB-FE5qOQ9CjVPpJORF6lxSeZyN2SZej5qSdqaELZ9EVMLoefjgvIivdFBF504jNYZDL2si3LACV2DO8PmvKucoxsrJG_yFN87QQACRasT1KmJ0gLtiE0c4rCZSNgZY6Rrw_xA-frncNRnY4UXkcupVJkXe67IcTZ5oWcu4g5Q4VMtxCuS3gaEGjj-whtEd2WfDlM_QLpItNtmRcbe9hjrqAOZK91joBQLgAHeP-lguPGkQrMrtUP0BCd7e9laZqduDZc2w7KH0OQK4dzAvtdD-PAHCUYoBelthlWz43KWqiXayiIe-GnnYPHxPa26x-6z83hjyz2wOxIDck6S6vQ1Y4PI5rGZW3sHpvmMQ_xFH0frk4JNzjPenZjqarLZWCl1fqGptrg978spomg5zi6LMditN1SVo3QGKqtpV8AHr_kS6MbZX5B_mlEvjEH8MUKDLrVWA9Of9yWOdFlQCXAK1Msbos_1SfLihsGC-W6NaM0XJLG_k9T8ZMctiSZyeIEHNqnZJZFRhvt2X3FwFAE3gNX3M--Dmqz_9s2TyI7rtNMAvAMyQH3j6tIpFVHUwMSg-PC6AytrNQ0xgDfXo2YacVKbdac1wJLcy1uJxgmNEBbcqY-S1rJAMHZtYHYu1Bkq_MkIc6xU-f-lSP3mxapY5Ps-gIvIvvW2qIyUOsp0fHegWS9lrI4OjAy0cSdGCncP9h6vMF8X3wUq6euj2XfhRt-myZvWmEEmEc-06qAeARwMSMIp7-DCTwv5NGzMAfHpff19O0n9u0CmrittRk2tUIYuBNWNGuGwQSXa0RH4YXpiXqSV0spZQhNfJVedtEjZyceU5-4e75jexXki-HIbAMEFWD1eOL6wLR_T832LJ87z6LkdNC6QIXCoq3Ir0CBJ3Gwo3g2TatveIPVGUNayHOm6Q70H4EUbqmrvK2oj1IOORZwjr1Jmy1Wq8JyT__Z6eX-yY_luVQN_Ombum4ceRv1UtkN4vPOnpuNud40ZBLogmBjVQ5Q6XaCIx3Ql3mhZjdJY7wOrE4zv5-KAi2KRX_W8FeK9y4Pk_tKO0gQas8pki9cHImKyFwFUF8JX4Ggl98CLB2W2H08GGNP_-xt-9-wODER1iMif9gZcBPQT_TrnNSmpkroNdHWG9FVOW66glmun3bQYekdecHhUiv1hUyLDSfwOGS02g-JHndnrW0IsK5P5SZovs70u9F_1SZ20zvXdyvU2G74sIafORXwzx7akd0CZTuncpeb_dlonoH5Pll55oxmM8Uup7FFzEBFpqHntWPxrYO3_L9a8aDDtfOBUvuVG7mJrfWHrNIb4RtKrVsczcx0E8xKcxubJMSIFbL64FZD3oJNkcoRO6PJVo8Q5ITgPzjMUUe4Hd8h2XoXe7IWMW0MFjRFBCdX54FHTQNsMb-_o0rZWlCQ-U0a-gAAhKYBQBWUEw8x-_XI6HEtMwPGBJUgPLXWtobpHPVI769IWSa_sIf8Oynj5mPNPKmCGeyeuVz4DP485kohNNMxirUbUYOQvya-k9wIvUHPEAomqJeFFwC91ed15WTAFMozCquhesxIfQVQbuxdB7SyouFPDFIIIAxP4d9dWMx2ea71_QdZtH-t8kTwFG0pmpuBf7DZca46zLonMgyYRuM7uuVb3rgtIWZabY0GE_ADR_bPu-x9necgF_nBnlT2TFIhu3kLmAbHj10fIzPunvW4Qk0mOxJ82k2tYdeonugo9jISQqHTVNu5ZfJp47j1-XLtdHHQMPxJkF7HiJ3WTkJdfHe6OBgA9crZIuHEidrI18PQ8idYKv6TypX9M6RtP0AAu544Vdc-O5XDNyWZnIWRsl6byN6hrXSK1QnNqaWS05zWpUtysaASJVC9pP4Zf-Zp5MrMeaaZ8F360lq9pc1JZtboqbpxDElNpEmJWPq1XKMXLzbFVsDMBS0GnUa3Wn8m96_X1yEmPEDEjNmnsf8GMww3mG0b8zrm2qXYyuB5JFvU1U8-rcl_20zH8ULhd4T4YrxZTX9abd8BYSWXWCek0QmJwY6v5Hw5Iz1zYZU-oFVuXAOo1D8dz2JGDtSS1PNi3ZEj3SEzsUz1b4NKc4gpxD6HMK8xcN2zXm4UW3bitLAR8g4JpgK-EZAZp_qMAI6VGpiyduhRpVCNSH9QgmeNCCG1XrA4xckM36XNEHkpgDmUR8z3SSoET1_itMOzWL0rEBlv7zFHaNuYm5hHqXcZkEkhAEofz-BRRllMnpdxRywKvXRUrImpI2KCMkh5gk_mxFVpUo-LEhx3CLK1o8a1YPL51t91tmr2zk41K9PoJIAvJiXUNlZHcl1-35PGtWFoevj5gsx5MBlmXjSAxYWVNWi-7CqmV7mZRldXwEZHzMy1FmRyiRRZmazVMDS0j-R-x3jZq7HNa0ZSrzCXIXP1kZBTU8sM8vnUN5UWe38ltq_puXLo3XbmvFK2kuxGTz9LZXUYyXLlvzZP3JgLbJr2kH6CG_QJ_lF59GKucSUIgjROy_0-RUZUnwMHVpsKHLUsU7dmZ3cUdX0JH3Hbz3-K8Ee0nt9wyxw-XyM9MRHvuFwnAr07Z-Cft4-kyOc6ri840S8uZNvCnmPRCEtqu2SXGeMNnS5ozKeQvp5j6L8XmxN6YJlNIRfnXWCMrwz5NtDUjVG23wsD0hx_A9vZ8TkVF0hEdC-iugmry_xau5f7EApkZ4xw-c03r6PbyiIyY35oXduIjD6Y0oMvFSd9X1R35wDyTsla2fJYLQfeRYQMwF05ByI06XCuLKm1VL9PClImOhgZZrYzHaQJiqbFkOShwv86989NdfStDCBOav9iXUDgizCRW9y30Co43OTAIbxRxbcVdPRDk4COHoP_v03pW-R2Jid1ZJm4DLUz8-PBdOjORlWfthACoshyKG3o5miGZLS85lTlavtrJpY3gyt_e54nmfRHSM43HIl-Fiq1tRhuDPr08v-O92s-KnGLGl3fOZ2tyhDDQWWwuRgE1E3mpnW5bugg7hw6XmwSDb5qu2ds8ZvWSenUOjigB3ku-rXFqT1SC3ZkDSjVffvD2v6UjhLLYvCnqt2CrH-L8-stvWtj-efAzKasmNOIbXbqUusRNJWVA07QuJPeOB-XGriyAEtOvfeioXKwMdj3c7t7EpE1UK0wZdCJDLmFZukMVobq4Q1_JDIaHVR448ntJuBDvykKra3jdjmlai-WBFU6qQA3vYoWB8ZujFfC2BvORtOKHHQkBRjCMT0gkj0EOa7UuJpzXkY6I_aDqmtUJ4MeO1ElfZNYiPepUtsgP29hvKRV_q80P1G5earTg9ZzSvLOxo1dWpu1mj26sxn6N43PAozIhBeGMaxdOIuzZfdf1EQXfKccLT3h4_mkHjCnTN21Xee44jQgYRfDtrkvBzdq5dE8davkCRmiJZP1kFcTg2xvoCZ-sWPsd6YatCCi10DEcxUsaL9RKqz3SzC_xacYaAqK0Jq67VtmPZyjMChXwGomQn3xetdr4RT6riGTEP91V4glNSowpmOGf3Hv5y3a8mezFv4Gk56Ss0KIs_yjxyZaisOOpvXJ6PCCuBla5gueQqf-XhTapktk-S3mPWj2_tcI3r6yObH0Xz43ab2NTMGqwauAgiOUIcXRGKhzCsQsCVGq4p-_7X4yCApXyn2rnroH0lcI3YTWY1mL-QtePSJ0QZuM36HdgxBXar4KnDJjBIxUUDLdlYwxrBLAMGfyh8PzdcVb9thPKPrgSV90SfQCk4Xkte6Qbj7ozUEqND5TFdaATbQFsTKUSqlOzo-nk09J99xByYvbS3VZf26unGIGJJQZg86dCfIrOf6e4Ye3kgw4_7L-1riEcZ4yfnexRdKSYj8xFYBKH95Lof3_DhyLAbfCsncAVqFc_jaTzBrGCzfCkenmTDlTJKHnvZQPCNdHUy0m1bOtBYfr_GR5G_KLlfyUif6_hd8NxCUuJ8e2UqXlLA3PYFZAMp3jUZzVpNmmi3uV6Vj2zbH6DxXJr79QZOQeWuB4UwKBSjJoqm4EyHr5whzZdeWZDJ2rKRJyz2YdpvehGF8UoYe1Wy8C4ncEioZP2wK8wtiTsc8hW4TrTLpe024yqmYVKlDWL8lW2WZtho_AfmNN5wvRWrWSAeovpoo0cvkHtGkYnM7bSoSGGfEavgKb4O6hJjOFknYOEwikk8W87Pgnm88U2175Vo5MN2r1wLvS48j31Io9L8TFv8xGAUsPGL8ZxsFKN1aBLn8kn6AW0xEnlT3qxhKeXKxq_IFKBAoNk9pIs0Iq9EROuS9tycZQXurm7_nbXKa7WndE560t7_ksD2PIsb7AsLA38ezkf75SwKI5QKep2yUZdSwqdvHh_huzfJTSTx1rrlCWHKC12ItKzqJxYKmn02UZUv3rO_y7cSzbS_Z6nc4le-7a6aVopv4Zle4LBSF6Bsiql_8qGX9wY04MvZ_vtbo98VCQWTtFmlL53T99nJC0cgovWUYjS6JViZpVisOo19E0_N7w5BCUQwvRZBauRqgnCosfcwDWCfM1Lg7ZrrBJrwvYOfGT7RPFSXLomm9t-qPhUULR1DSIqdIeAuSt4U0jjqWHNd1vV-i6KyXOprtH50iv09637pX1i3JB7ZxgARrhsvEsRWkM6SHFXInsiC-VoS-4wkSBBB2acMtCKzIBUfEnhnVJHzhQWTWd8QZdqZC8l6Cyw2S9cj-_N6ibLsrnf3eK_oIZv-XHa-m4EVy0Xq6s_Zxet2PaCZtIYwPN3g90D9J6zFRpWribU5VZxlShkIdWL9bXYSp0LLRIfh8CkdF6y3js2FzOz83R67CUsLQYnFg7usvUuaZdyA-Xn14X2f2EgfTPJIWDbP0bw-zI36JZGmPGlmpdbtrhHOA8NwKZSveMKTPwAyu4bIVBcE8JDUS_NpNjfavKAZ1TNJYBtgh3blMlzZKprDqV1Rtihix6flhwaHazXln1sH_McvDZBFpiN7o7KDvA9OJEm-zw2HxY-T35MLgnTmnH88WmN0QrD3H8wZ1BSCfsKfFILc67NOhDBh21KLWL9arV5j6XL70iqmAVjCOVW-bNP9EpmBXivVsbXjGxHHXEWh0RIcmfG5ixELuuqGjuBx4l0WtzV21_P3L8kjLb53EG3Wi5dl3nawEeRntDDyrA9UijgJUBSyrslBbNEmmSGe0NAoX6KQwVQBTE-hBmCFcB62b6T-MKljKtDnBWCAj08Tpl7uUvdhBkvNiOj3BBNchcM_G_cmpITXW2dF_XqPag_dxABDNRZ-vYmaEkcAfRSdf5PhrJ_TqWqsyAtzWTNG_0eWsdqp1k4wrh3M7SFi8ZIqvsmQ0pxySvtPzXbW3_1Ec32UyJ8BC5CsOuaTS1SATcMFW2Qd-K2SIwxpOktAzSbr2SuwGW4eytAyl1WKGhr9yWm6I0zalgJGYZNkp4QF3eAIVD1mkhRWEoIxMWlL1an3vIPK5C90BwokFctKa_a-wqJg_XEzCqskudn5ydrzX-2-iN4pkZw7_fRBjmzLbIBNdP4-aLJ0N-Ug4kUbN2zJmAOpmoXArhitb0DcPB2QgjNcwcL86D04VVKBMCa7LYzD8WiOi_tbFUl4aJ_486eLImUomIn7kVoz_9kg889Nldw4TV4Z9O2rE466jU0sGi-YlvG10ngO463QaBNcO5Hteb-Es3CngZR77R0vaxBcxrWT30tSCg1H-D_JgOYO-7HPckW6au2wHx91wfYALVtDaIDcwTtSbcTdCbmxhIyPt5h4sNHInbKb_SIyeEvWPOs5W3H3xD-_ZI90b--7kl4VqCq3sQF-25JngV82pe_gjiGXkSSY10Kh6k9T7ejxNloNy_rt_q1AjT3oKT1DO00S42X-hKkAYB3uECRshvor4LsEA-yRp6CVQRS8eJN2gUse91xGSEBRiKU8d3XuBR4SxctyTODnlAxaRz72MlmcvsAoqM2neSlGKJe3N7Mw-CpnVkBihwE23d_sPQr_5TTGHqBybQHGWLuqZgIZqcfepeqf3nCw244vqV4TJGWG5dFMfiotNmhKZ0cKm6QZ8w0Yyz5V-Ek5rciKuzU2zUct1iABpb4NJO9-4uZG9vV-KGMOl8pkkviBH2fhVy3ss-tVFhiCAxZ7Z5XxdFSzZ9QNIDQNSDpu_FussOnvM2z6s7zLXQCiu7_oGKNq5i2YaMylVI6VGnfq4HQ9wK9aaz0q0JyV7ut6fhqYfduyFBityEj-UogsxT6qOHTGs9m_HM_IQYR76_5d-S-vAoO4_A3PDVwfA7zo6dvdzFmJcKMdjE7dkxFxZnJXilSPkBL3UPIXwDhJe0tiokrD4D_TAUpFIJBKyWlqPDr-LngBjDOTMGXyDT71_8rrRrBNYO71Ww_mts_eoT-kDg3_xElN3UD6OmaHbwDxngUlbR-3q82YzAYmcMH3sniXE26QNg-m3bqq-7CKLyM3H8Ao0_NkTyAdo4ix1UuPplq6Eszu3lwO0XFy2mXr_Td9uQlc7Hia4cSHr4Q-H8UOq_fFt8874Pfa2bIVlCJGW8okoMR4kkddzpXE6rD-j_ro_hRz3cMF3wpM14ZHhBDFzSOj3dg_TARlZZRZKO-Xv0ZNWE6rIZf-JOMqaGQAzxQbnE4LmupTT22IisKr6FJZryEp3mCeCdgIgo6nYfrZXC163yBY0ISBglt7LcCJZgT-aFIrCGvhFTKIHnDgm0RT_IKwwkuBUhb3q1-EuCFhOUC-JrBHQoDjZtjbGkUyPZT2noGmCKt19KKRQQv08hmPB2uM45lDMQSnHxpY-1PboGvswa9IG1nHOHhneOmeBoNag-3MHl6OPRjvh-D26WhHQaOuIIahHVO2OfNXsz2-3ebl1XdX-6YU86Q7KT36D6M1R_3QT4YRSa9HKscJTf9V-X5YkA83PiFOfdM6xf2Yh7PZYVNOLfZ7-K4DpFL5xH0BONqWzSRTk74k5MfKtOqq6L5loZys1lePTpQEG8aTDpqOyHYcX_joPi6ujKJiB9o3l-ZQjlXhyMgtyoBSx5oPWw==",
+        "id": "rs_0208046be152eb52006acc4e6e1abc87d098b884ad59199534",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0012\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL7694038M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books I–IV\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The title and subtitle identify Josephus and a bounded book range of Jewish Antiquities.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL7694077M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books V–VIII\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle specifies Books V–VIII. Its No. 281 designation also appears on an edition specifying only Books VII–VIII; their equivalence is not established.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\"OL7694161M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books XII–XIV\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly identifies Jewish Antiquities and Books XII–XIV, a distinct stated coverage range.\"\n    },\n    {\n      \"local_group_id\": \"G04\",\n      \"edition_keys\": [\"OL7694270M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books XIV–XV\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle specifies Books 14–15 and No. 489. Overlap with another volume's range does not establish identical publication contents.\"\n    },\n    {\n      \"local_group_id\": \"G05\",\n      \"edition_keys\": [\"OL7694271M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books IV–VI\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle specifies Books 4–6 and No. 490, differing from the other supplied coverage ranges.\"\n    },\n    {\n      \"local_group_id\": \"G06\",\n      \"edition_keys\": [\"OL7694288M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books VII–VIII\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle specifies Books VII–VIII. The shared No. 281 designation with the Books V–VIII record creates an unresolved metadata conflict.\"\n    },\n    {\n      \"local_group_id\": \"G07\",\n      \"edition_keys\": [\"OL7694290M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books XVI–XVII\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly identifies Jewish Antiquities, Books XVI–XVII, and No. 410.\"\n    },\n    {\n      \"local_group_id\": \"G08\",\n      \"edition_keys\": [\"OL23383601M\", \"OL7694228M\"],\n      \"provisional_label\": \"Jewish Antiquities, Books XVIII–XIX\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Matching Books XVIII–XIX and Books 18–19 subtitles support a provisional pairing. Only OL7694228M explicitly names Jewish Antiquities; the differing page counts do not independently establish separate publications.\"\n    },\n    {\n      \"local_group_id\": \"G09\",\n      \"edition_keys\": [\"OL7694248M\"],\n      \"provisional_label\": \"Jewish Antiquities, Book XX\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly identifies Jewish Antiquities, Book 20, and No. 456.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\"OL22373355M\"],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"OTHER_EVIDENCE_CONFLICT\"\n  ],\n  \"evidence_note\": \"Explicitly different book ranges support multiple bounded publication units, rather than manifestations of one volume. The groups preserve each stated multi-book unit without decomposing it. The two No. 281 records conflict in stated coverage and remain provisionally separate pending verification. OL22373355M names only Josephus and Books IX–XI, without identifying the underlying text, so it remains unresolved. Authorship classifications rely on the title/subtitle combinations identifying Josephus's textual volumes, not on author keys alone.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0208046be152eb52006acc4e7b020887d0be0917e43a944ca8",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0012"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL22373355M",
+                        "OL23383601M",
+                        "OL7694038M",
+                        "OL7694077M",
+                        "OL7694161M",
+                        "OL7694228M",
+                        "OL7694248M",
+                        "OL7694270M",
+                        "OL7694271M",
+                        "OL7694288M",
+                        "OL7694290M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL22373355M",
+                  "OL23383601M",
+                  "OL7694038M",
+                  "OL7694077M",
+                  "OL7694161M",
+                  "OL7694228M",
+                  "OL7694248M",
+                  "OL7694270M",
+                  "OL7694271M",
+                  "OL7694288M",
+                  "OL7694290M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2322,
+      "input_tokens_details": {
+        "cache_write_tokens": 2319,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1484,
+      "output_tokens_details": {
+        "reasoning_tokens": 479
+      },
+      "total_tokens": 3806
+    },
+    "user": null
+  },
+  "response_id": "resp_0208046be152eb52006acc4e6d0c9c87d099f82aaf1ab9ccb4",
+  "result": {
+    "case_id": "CCV1_0012",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "OTHER_EVIDENCE_CONFLICT"
+    ],
+    "evidence_note": "Explicitly different book ranges support multiple bounded publication units, rather than manifestations of one volume. The groups preserve each stated multi-book unit without decomposing it. The two No. 281 records conflict in stated coverage and remain provisionally separate pending verification. OL22373355M names only Josephus and Books IX–XI, without identifying the underlying text, so it remains unresolved. Authorship classifications rely on the title/subtitle combinations identifying Josephus's textual volumes, not on author keys alone.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694038M"
+        ],
+        "evidence_note": "The title and subtitle identify Josephus and a bounded book range of Jewish Antiquities.",
+        "local_group_id": "G01",
+        "provisional_label": "Jewish Antiquities, Books I–IV"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694077M"
+        ],
+        "evidence_note": "The subtitle specifies Books V–VIII. Its No. 281 designation also appears on an edition specifying only Books VII–VIII; their equivalence is not established.",
+        "local_group_id": "G02",
+        "provisional_label": "Jewish Antiquities, Books V–VIII"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694161M"
+        ],
+        "evidence_note": "The subtitle explicitly identifies Jewish Antiquities and Books XII–XIV, a distinct stated coverage range.",
+        "local_group_id": "G03",
+        "provisional_label": "Jewish Antiquities, Books XII–XIV"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694270M"
+        ],
+        "evidence_note": "The subtitle specifies Books 14–15 and No. 489. Overlap with another volume's range does not establish identical publication contents.",
+        "local_group_id": "G04",
+        "provisional_label": "Jewish Antiquities, Books XIV–XV"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694271M"
+        ],
+        "evidence_note": "The subtitle specifies Books 4–6 and No. 490, differing from the other supplied coverage ranges.",
+        "local_group_id": "G05",
+        "provisional_label": "Jewish Antiquities, Books IV–VI"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694288M"
+        ],
+        "evidence_note": "The subtitle specifies Books VII–VIII. The shared No. 281 designation with the Books V–VIII record creates an unresolved metadata conflict.",
+        "local_group_id": "G06",
+        "provisional_label": "Jewish Antiquities, Books VII–VIII"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694290M"
+        ],
+        "evidence_note": "The subtitle explicitly identifies Jewish Antiquities, Books XVI–XVII, and No. 410.",
+        "local_group_id": "G07",
+        "provisional_label": "Jewish Antiquities, Books XVI–XVII"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL23383601M",
+          "OL7694228M"
+        ],
+        "evidence_note": "Matching Books XVIII–XIX and Books 18–19 subtitles support a provisional pairing. Only OL7694228M explicitly names Jewish Antiquities; the differing page counts do not independently establish separate publications.",
+        "local_group_id": "G08",
+        "provisional_label": "Jewish Antiquities, Books XVIII–XIX"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7694248M"
+        ],
+        "evidence_note": "The subtitle explicitly identifies Jewish Antiquities, Book 20, and No. 456.",
+        "local_group_id": "G09",
+        "provisional_label": "Jewish Antiquities, Book XX"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL22373355M"
+    ]
+  }
+}

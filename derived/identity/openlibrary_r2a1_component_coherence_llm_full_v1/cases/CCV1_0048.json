@@ -1,0 +1,458 @@
+{
+  "case_id": "CCV1_0048",
+  "component_id": "W000014515_C01",
+  "edition_rows": 70,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774432.0,
+    "conversation": null,
+    "created_at": 1791774415.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_08a6577cab623fe1006acc4ecf53fc87d0b833fc772ca1bae1",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7g8DIPf2ypPi7nuiUA1G64AqJ7PP2auSA1P2N3sDJ_2I_43tjUBsm1CgXgV4_L45Ee0UJP4fO43hO-foeznOHMHGyWeOMcYhRq99is61P-kZWvm-YtNpvri6YWNlriJqzHE3x2UH7smFOiZMZhvJt-xGkVR8lHJ2cA9NdHelB1e2fMVJkO9eYgXYg55aENvLz71GdZHUrolaK1jXHejtrZJferipIxW8SdtNe1kRC6BcqcIcKHxLxvxQ_n1QlS3OQnVHdGe4xUMtYbj83t6BZfj7-LESpB0lZq-fUs0DMznf4g30SW-cMbSCoPr0cescyGwGSGIcNU9fUsFVOdySQoTnq8cknF2SsUYoAeMNJ85JLMPJI9f13s5guPZ3-ybvaN0Ff1CWmWJUzoQKEDFC_-TYzCuBP3raSTEV9B2C1SRjOGoNWVVMcF40SEhz1b1-esbIJfwtbOtmyuOLxdj-Wib6Zlx0oE6zbiUrBzgxViGQGG2EeBft3x_6GKTf2CLMygg7Xr-jNKlmoS4eN96rVUk82u-t3ZHiy8ybmvrm7vSIZwqhaYn1MkVC6rTik2TrBni7u4BVsJd5LafjXmcwRG9ZJzTBaySDabf-wuywv916wSAImbe305sQpnhDDLouTiNstVWrEFnyGCdvYpdPdeIixbNzOQl8OR9gPCvxv1_en-8cvslMq7RQug-24KE7OrUMGYN2ZSlj3kIKfx7PjhNi1CVh0alU1mfLu4-sohsl4U919up1KqZWUN_fWZIkx0jfLV364oS7JvW95eONu2JfiuAPqqyVbxwzg5YxOSI5Repo362tFRXQGgysPJuZ5w_87R-DbxNmLq8MjKrqfo5H37kzd74UxqLuaFyJkwLRv0JxFZnqE3eB_VNhAonLalIuTWI7jht_RmRlrn1An04asnBSD9IsWLKunO89jLrpZo8QdSZlxvAGRq8ejD9xmgn9HsMYJB29mEk84WGfBu2qNBfequZhcGg6V_GNu3zXaxYiGwrDvRSK7eUVjkQQtgk6intu8G6CYVnRa3lKAegAZDl0OuTPOI5tAOHFQwgPCd0wu6mgGeLBf2PQMIlxsmx8ofxW7dYMTyGIJ_ec6HWF0XWkMygNXNs-FycxbT4ldZRfwnJJkyjtOPN-JEyQh5jGMajq8VBMx6OZa27iFBdxySVh38fti6veICC_o0Y_SRV_mRK6D7Sx0KXVC4hDIi-cEK40kURo51yFgYMFvEbuq9ylCMx7L0n43l_w9FjrchXRXPKPBah_wEMLiFmHftE7ZhTMF0PwNiyXxZccrZD4__tRkBv7-4sSS1y1Ig_UdIPHTg4ZqamMgp-jMPPl0PuBHJGbv-uN2bTBs8x-cjaea0BhsIdHlOajGH5jXCQxkxO-CCKBQDo0n72SbnqoC7b1KzmMnmt6AHDrObWTV96hiQfTbIZ1g1f9q0uQkIDFoKNrv6ujkYyC6WRYVE__e8iklM8QVkgJ5EaSLv1cLXEmjupjVE1sC0h6JbiIWMBr1jmc6vlL_58QwY5wob45WrzszwT3wQSruX12VjRqrWEIq6gO5MIVxUA3LAFKtugyej6jubZQsHMk1hBVZdQHA1l_VVJfa4hawnnBXD1s21PNue7Txlz67-FIYL4Q_xRd1n5tQHj6wwk1at4nfpkrCifdWHh8-rswNMAV17M5V7edx9tIA7bb4zx0uG6bUbWYA2p5RPGQdhezPFPtVSrd1xP-sRPEUlqB-zMjJViYhW7vXqVr_5BwlYj9R35Mn825ABZkydXgH3Z3lkDdisji-oQ5J1iVTlBp05wrGlyDZcRwk1nqWE4dpCpqMvBww0ntH3S6hFuoUjuu5y0Rmb3ohaJePoBwqOAdJUf939xs1HkJlZoh6HYbOKwwzPxWiu6cAKpRe-8lxS5Rt6zeq-nOQbY1iSpHnlWeUtd8Vz-elsOiKU39doz4YlNV7qALI_A_FeUbzhuiw_x03Mg9_62jJWsu9Q5qN10s8FAoW0rB2lLGRhlENyeBcjbbLfQ9Oop7iC0Jd1MZ9X7_Zi5vTLW1LD4fRZFNLpn58wqtUMiFr0-m1rx8A7watiScoWOpA4Cb3VaBqEfOcA1lwXgfeud-k95iX6G5aU5LtrxF1bcR2G_eXReK8yP87jF6KxdpVJDGOiQXGvQ0BziPHx3vw_Xkb6Mhag9jxljDBZhuHgeZaE-cs7yLdOpGP3vrbOhVgdjaxfHZJzaUoP0IxXocgFpcCzGw8oUUq76X4rga_jbsZMqg1Bhi1F46yaskK1Jlml_kWCBtDmMAj2T9F-HGJCkj68eOeLGwjpv9SiYc3KMkTvT9RCRPQMZhDePj2-hzwVIcnZ3QpxEvTBwkucqe0KEC8fFTTmvhWxpu9Js8B-pJdbiDUyDFqHEjzCk4wWvvrGX0VwnnlbdERhZcj2ANYM9-jMIWjMNah_oJR_oNlKMJhUhLoOCkIOxdGrfZA3J0Lzp4-m4IdmFJwYg6JzAuHT3KsY5KiMZ4k0mGkFuSERKK0gZ0sd6RGP5Hz_YK74xZHgK-AsUgjwcKoTpGFpNyumTZEQ607RcrnpSC3AeB1BoMmMnKcH9rJv6OjU1PsMsJdC1Q2cur8OsQV65QJFYeW5V9sj1_kNjHCb09K7pQRtQtCy0OtotQ6PMBEsjN37S8UsBh7MFShHVujQSTrYAtwJTQ18ivXCIHwo-HLAcLEM8UgNs33D1ptWAQPvb_lgFk9MCa6liZN_meMJQIkga2lJ2t_XF0xKRYDLupV7eTfYtex7GyIqrevkHjTG2Q3u3AJtgHJ--CijI42srlqvypYzsgZfKHNSrp5na3yFl_GAlIvy0gAeJHqymXbR1zky9hyAELZHWXjrT831PgtsMZJpwSyTCHjqpaQ6zmdcAU77-OU7AIn3GYotKg_K0y0y9URR3GmAkHfEyvlaU8MQsXrtfRIu3TAY7F5n1A_3C9WaKPRs_j11aguBkr3CtI9KJD9mRQrxRBaDmOw0J1FK_QKEW6fNc1uS0rXnc4xA9C2xVGL3XAbBrS7pPek1nn1d-vnpWZA5e61tzBg44mMyVICQxJV8-s6-tZEv7YOF5y4Kgi1rxNpS5MN1ITTjBFisjXoUwGrq4jurHMAr3dZ5FK-JDvH4dYe7WMQj5kFZyKf8f5SeFlAMAWfSWvOBfKgS1d-eN-NveYmB4IMBDrldAMkAb2sJtFjcP8wn2e8wix9MVZIU3D0AJCnJEA0QhGJVY6wH_EDw2AoxutXY8iQQ-tMJt3vo9_IUItTZfKfRpS71IQzhHePhZK6iLMZyn5kQ3SWe_W1NSGIKK5G5jo0R4t70PU79sHSkwE9bHnoUSr1-Brs79m59VgMP0G2N27vREowx4lmfewhFVebW0cKNyzOijf5tUfPmwQ3EZr1OUW52W-GhU_rY2TR7xKL_VPbAtD310u1mXgjslO0gPzPk6fOhFvEbLbtCR11hrHTEpHydog_T08uckqqYxwgloNKeYxYSXp1BHVLh7Z391E4PkK688d2Q6Cr4UCn10EiKGEN76ujedGS-GplUnGbZRWKjLh_3WdsctFO_43f33h-rbHzyCGlC19_urPTOxpsCGfOsg8-QPeDhXZQ4EJKNFiKInuRj6yyoVO5yyn8hWsSEZtfiPKBWAiRZ1ROUm-MbW1Rb7ME2PIvbmKY5iVSvClT24b93wxTonQk4mc3x6rDQ7_qyHQVl9FxGGrEE59kFBbK1Cjea8g03Bi6fOOzVJkwCCV_HLxNkp1-Dq9z8tbayyBnL8i3ecMByQxCZaS9eWVNHM0Xm2QnaTGuWsvDg44Csel9YOdYZrdBFc_lODnaei9UC9XQCd8dzLzUs4UVhpJIUF1ADFsVuWXB4mllR-FJk0qoRHnFzXtEwFxC88BzkLEVgRZTG4T0fo-qqONEljUfFOX8TuspjAJDOCQu2O8-YlD51ZjMrD1qmy-vMjmiJQZFufSGY6hPTjxpd8Ycsr0sHENnSTqRPaOwba-caG-ynFiXlqvCly7faEx6bnOJ1rgh9lOtL5h7bV7XWtBIj9kbQAwLljXkRuSbmJKwAGLH4CcFomUTzemZPkdd1sE1vjbCuWoydAxBpiUwwxZn3ThJxQaWMvNZKAPrRg96lEi_QfziWEKDR_Evs_ijRrkdkv_yC56v3xWO10lw3e0bcIzzkvTjr7cFTmwlyxh970e0WSYZQftDvTaDGXW7GZK1S6ZwL166u0CXxmKmdMPcZa36M8SxyA8NYnxhIOO6pu7DWrdFs9Kv0PCJVx7W4tqqTyKIdM_QXZx5weJwlIXXD0HMLbH6jFI0qnzSbSHr-6QtiIek99Zm9z8j2Fvcql3B5oCgYX_BP0UYsKs2DA30pUEefbNOouMPpGvhYCFeN4mEutjmqFOc=",
+        "id": "rs_08a6577cab623fe1006acc4ed0262887d0a59955e9488616b0",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0048\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL1279251M\",\n        \"OL13442898M\",\n        \"OL13445463M\",\n        \"OL13536901M\",\n        \"OL13555192M\",\n        \"OL14702505M\",\n        \"OL23747194M\",\n        \"OL23764964M\",\n        \"OL24325164M\",\n        \"OL24999690M\",\n        \"OL27789870M\",\n        \"OL30307886M\",\n        \"OL30307887M\",\n        \"OL30690983M\",\n        \"OL32254253M\",\n        \"OL32296825M\",\n        \"OL32311079M\",\n        \"OL32388991M\",\n        \"OL32450203M\",\n        \"OL32963529M\",\n        \"OL33188084M\",\n        \"OL39006644M\",\n        \"OL40851799M\",\n        \"OL41510827M\",\n        \"OL41565254M\",\n        \"OL42213101M\",\n        \"OL42704805M\",\n        \"OL44699021M\",\n        \"OL46133282M\",\n        \"OL46315911M\",\n        \"OL46331635M\",\n        \"OL46331667M\",\n        \"OL48309332M\",\n        \"OL48376430M\",\n        \"OL48450194M\",\n        \"OL49243735M\",\n        \"OL49244262M\",\n        \"OL49244751M\",\n        \"OL49245585M\",\n        \"OL49282450M\",\n        \"OL49284193M\",\n        \"OL49286553M\",\n        \"OL49287225M\",\n        \"OL49287313M\",\n        \"OL49287557M\",\n        \"OL49288182M\",\n        \"OL49288240M\",\n        \"OL49288346M\",\n        \"OL49288586M\",\n        \"OL49288952M\",\n        \"OL49290953M\",\n        \"OL49291067M\",\n        \"OL49293080M\",\n        \"OL49293177M\",\n        \"OL49293350M\",\n        \"OL49293355M\",\n        \"OL51368008M\",\n        \"OL5300748M\",\n        \"OL53895478M\",\n        \"OL6711810M\",\n        \"OL6942458M\",\n        \"OL7091411M\",\n        \"OL7095232M\",\n        \"OL7098363M\",\n        \"OL7236443M\",\n        \"OL7249168M\",\n        \"OL8061105M\",\n        \"OL8373199M\",\n        \"OL9519170M\",\n        \"OL9764143M\"\n      ],\n      \"provisional_label\": \"Louisa May Alcott: Her Life, Letters, and Journals\",\n      \"authorship_relation\": \"MIXED\",\n      \"evidence_note\": \"The recurring title combines Alcott's life with her letters and journals, supporting a mixed biographical/documentary compilation. Several records explicitly name Ednah D. Cheney as editor, including the 1889 Roberts record and later records with the same title. Most other titles match closely; two use the shortened 'Life, Letters, and Journals.' No supplied title identifies a competing compilation or selection.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"FORMAT_CONTENT_UNVERIFIED\"\n  ],\n  \"evidence_note\": \"The distinctive recurring title and consistent explicit editor statements reasonably support one publication family. Publisher and date changes do not establish separate editorial units. Confidence is limited by missing editor statements in most records, abbreviated titles in two records, page counts ranging from 246 to 434, and one explicitly large-print edition. These warrant content verification but do not positively establish different publications. Author keys were not treated as proof of authorship.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_08a6577cab623fe1006acc4ed521f887d0b963cffe8c5cc8d8",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0048"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL1279251M",
+                        "OL13442898M",
+                        "OL13445463M",
+                        "OL13536901M",
+                        "OL13555192M",
+                        "OL14702505M",
+                        "OL23747194M",
+                        "OL23764964M",
+                        "OL24325164M",
+                        "OL24999690M",
+                        "OL27789870M",
+                        "OL30307886M",
+                        "OL30307887M",
+                        "OL30690983M",
+                        "OL32254253M",
+                        "OL32296825M",
+                        "OL32311079M",
+                        "OL32388991M",
+                        "OL32450203M",
+                        "OL32963529M",
+                        "OL33188084M",
+                        "OL39006644M",
+                        "OL40851799M",
+                        "OL41510827M",
+                        "OL41565254M",
+                        "OL42213101M",
+                        "OL42704805M",
+                        "OL44699021M",
+                        "OL46133282M",
+                        "OL46315911M",
+                        "OL46331635M",
+                        "OL46331667M",
+                        "OL48309332M",
+                        "OL48376430M",
+                        "OL48450194M",
+                        "OL49243735M",
+                        "OL49244262M",
+                        "OL49244751M",
+                        "OL49245585M",
+                        "OL49282450M",
+                        "OL49284193M",
+                        "OL49286553M",
+                        "OL49287225M",
+                        "OL49287313M",
+                        "OL49287557M",
+                        "OL49288182M",
+                        "OL49288240M",
+                        "OL49288346M",
+                        "OL49288586M",
+                        "OL49288952M",
+                        "OL49290953M",
+                        "OL49291067M",
+                        "OL49293080M",
+                        "OL49293177M",
+                        "OL49293350M",
+                        "OL49293355M",
+                        "OL51368008M",
+                        "OL5300748M",
+                        "OL53895478M",
+                        "OL6711810M",
+                        "OL6942458M",
+                        "OL7091411M",
+                        "OL7095232M",
+                        "OL7098363M",
+                        "OL7236443M",
+                        "OL7249168M",
+                        "OL8061105M",
+                        "OL8373199M",
+                        "OL9519170M",
+                        "OL9764143M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL1279251M",
+                  "OL13442898M",
+                  "OL13445463M",
+                  "OL13536901M",
+                  "OL13555192M",
+                  "OL14702505M",
+                  "OL23747194M",
+                  "OL23764964M",
+                  "OL24325164M",
+                  "OL24999690M",
+                  "OL27789870M",
+                  "OL30307886M",
+                  "OL30307887M",
+                  "OL30690983M",
+                  "OL32254253M",
+                  "OL32296825M",
+                  "OL32311079M",
+                  "OL32388991M",
+                  "OL32450203M",
+                  "OL32963529M",
+                  "OL33188084M",
+                  "OL39006644M",
+                  "OL40851799M",
+                  "OL41510827M",
+                  "OL41565254M",
+                  "OL42213101M",
+                  "OL42704805M",
+                  "OL44699021M",
+                  "OL46133282M",
+                  "OL46315911M",
+                  "OL46331635M",
+                  "OL46331667M",
+                  "OL48309332M",
+                  "OL48376430M",
+                  "OL48450194M",
+                  "OL49243735M",
+                  "OL49244262M",
+                  "OL49244751M",
+                  "OL49245585M",
+                  "OL49282450M",
+                  "OL49284193M",
+                  "OL49286553M",
+                  "OL49287225M",
+                  "OL49287313M",
+                  "OL49287557M",
+                  "OL49288182M",
+                  "OL49288240M",
+                  "OL49288346M",
+                  "OL49288586M",
+                  "OL49288952M",
+                  "OL49290953M",
+                  "OL49291067M",
+                  "OL49293080M",
+                  "OL49293177M",
+                  "OL49293350M",
+                  "OL49293355M",
+                  "OL51368008M",
+                  "OL5300748M",
+                  "OL53895478M",
+                  "OL6711810M",
+                  "OL6942458M",
+                  "OL7091411M",
+                  "OL7095232M",
+                  "OL7098363M",
+                  "OL7236443M",
+                  "OL7249168M",
+                  "OL8061105M",
+                  "OL8373199M",
+                  "OL9519170M",
+                  "OL9764143M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7668,
+      "input_tokens_details": {
+        "cache_write_tokens": 7665,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1125,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 8793
+    },
+    "user": null
+  },
+  "response_id": "resp_08a6577cab623fe1006acc4ecf53fc87d0b833fc772ca1bae1",
+  "result": {
+    "case_id": "CCV1_0048",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "FORMAT_CONTENT_UNVERIFIED"
+    ],
+    "evidence_note": "The distinctive recurring title and consistent explicit editor statements reasonably support one publication family. Publisher and date changes do not establish separate editorial units. Confidence is limited by missing editor statements in most records, abbreviated titles in two records, page counts ranging from 246 to 434, and one explicitly large-print edition. These warrant content verification but do not positively establish different publications. Author keys were not treated as proof of authorship.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "MIXED",
+        "edition_keys": [
+          "OL1279251M",
+          "OL13442898M",
+          "OL13445463M",
+          "OL13536901M",
+          "OL13555192M",
+          "OL14702505M",
+          "OL23747194M",
+          "OL23764964M",
+          "OL24325164M",
+          "OL24999690M",
+          "OL27789870M",
+          "OL30307886M",
+          "OL30307887M",
+          "OL30690983M",
+          "OL32254253M",
+          "OL32296825M",
+          "OL32311079M",
+          "OL32388991M",
+          "OL32450203M",
+          "OL32963529M",
+          "OL33188084M",
+          "OL39006644M",
+          "OL40851799M",
+          "OL41510827M",
+          "OL41565254M",
+          "OL42213101M",
+          "OL42704805M",
+          "OL44699021M",
+          "OL46133282M",
+          "OL46315911M",
+          "OL46331635M",
+          "OL46331667M",
+          "OL48309332M",
+          "OL48376430M",
+          "OL48450194M",
+          "OL49243735M",
+          "OL49244262M",
+          "OL49244751M",
+          "OL49245585M",
+          "OL49282450M",
+          "OL49284193M",
+          "OL49286553M",
+          "OL49287225M",
+          "OL49287313M",
+          "OL49287557M",
+          "OL49288182M",
+          "OL49288240M",
+          "OL49288346M",
+          "OL49288586M",
+          "OL49288952M",
+          "OL49290953M",
+          "OL49291067M",
+          "OL49293080M",
+          "OL49293177M",
+          "OL49293350M",
+          "OL49293355M",
+          "OL51368008M",
+          "OL5300748M",
+          "OL53895478M",
+          "OL6711810M",
+          "OL6942458M",
+          "OL7091411M",
+          "OL7095232M",
+          "OL7098363M",
+          "OL7236443M",
+          "OL7249168M",
+          "OL8061105M",
+          "OL8373199M",
+          "OL9519170M",
+          "OL9764143M"
+        ],
+        "evidence_note": "The recurring title combines Alcott's life with her letters and journals, supporting a mixed biographical/documentary compilation. Several records explicitly name Ednah D. Cheney as editor, including the 1889 Roberts record and later records with the same title. Most other titles match closely; two use the shortened 'Life, Letters, and Journals.' No supplied title identifies a competing compilation or selection.",
+        "local_group_id": "G01",
+        "provisional_label": "Louisa May Alcott: Her Life, Letters, and Journals"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

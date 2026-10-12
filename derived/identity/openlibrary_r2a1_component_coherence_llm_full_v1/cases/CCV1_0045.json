@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0045",
+  "component_id": "W000014024_C07",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774414.0,
+    "conversation": null,
+    "created_at": 1791774410.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_07f9540ba569011d006acc4eca21b487d0a5aaeb92f197120c",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7PDEj_cdeHjmCcUQfyquEXDbEc2ENMj5VXFUdRAgySlnAH9Ep3PgAcpuPTx9LYh0VjzOnjNcMSIQeVKlOux4IL-kvza2un0EkSr2bk6Tm9hj1kcWeOsmKDuZ8_0hPoEeZ1YMP4JPtTBS_kyUv_tH1rBSxCtplPCeztHk_tFblPY_ZYHhzmEm6SZt0KIpAAspSWGR3EHmo_0HbWrHkNP5xR0McjE0rtNyGAM6Pb4P43UEr55SvEJOcXJn_Jp6KoVUTLbphJp2C2R1xlu7p8TLJ1us-YEU0hfTWTcPzb4HXdzNl-B_S-2u15LgGw9cZ9A11B2qd9h-zHIt1OY_EcXFccl0O0WKZpxtP2x8zGbMSQ_lK6v2P6kA6cMsQ5mwsM8LT1w7GCvSRCPPlfBHoWysyeljsD_W_sl-JRCd2AymH06kpK6t_Prr5yeEI_ihSl-5x3CIETTY1TMO_RsH_ebxmMdo-TpDu5WjGdgcZZFLRS8A_-MxqYVEFgR1Aq6N2sBhMiybtqKo-wmZSz0BOFi1QCBozpQq_uo3Co7L1e2QVzhiC0TjrvuYJ2oqfYx0hi_-GcKPaW1r7aGHZ6wnoshi5D6s30QYNIZR6BsUwn-XZ1h8gbyS7lWAnwW_uttG3AH5oAxIE8cncfItQHIXplHK7INsFeMG8RiHxot9qGHJlbvA7lpKiq9LCJTA2kcy3dgyb3YVXFkgg-qdefkLjmIGH6nOgqM7I-ReN0TUR3nx_vynCZ1W7Ys7vnwSSIewPm2Pg-HAP5GR_mIdyTM58rDRgO4e-gPYyiSetYJPgrT1oSD44yFXJ12UBee1y24LSF5Olt3Ffrm7-rj-SfmlWgmSpVRIoBeTA6jP8rDjY8LUjF2jdV9P_-pnDI3IrpvfNKHkhrb3tU17xYyp80ns1lDuSI6_lw2oL7rstosuaowVJXzIvTqQRwMMh2cFZKhzV34waR9dPbcRxQm1tW69_7DQAARjaQRHeWB-RMEjJBo2PqK5fm3-lGs6uRdFtUTEIgx23JUNym4LgXYy2bjBwPAqnQV2hNXhBQW-kdCkJhQAZ2GSjPBegpbCpKaHRusIUOgqfqbM84dV2mJ7l6H0k4BLLNrJ4SnPzmbpP4bBhyFxDPhb7LTUtyUqgo4x5SoAMBakd8GA9hD1RCEQ_G1RnwGFSUixJPTy00oOuQvvktTAzmhVUNgMJzKNPd3isuLnWkzWZ5rWh46sSU6tuCsSFEkp_OQlOTDYPKf8s3iMVeounCJZ-s0NdFm0smYFcgaZihAFXjI9I1TDXrQdXttaTHWEtr_F6M60MMs-hRlzRSKiFHPwrrjSYbY6R-4o_f19Ib6WwAP8FupN4cftjFJWm9l38Bxw33irOIqlE__D8lyK7pguPT44iq33qcI9mAQJKmTE37dMLDNT99fEtoVAYrxnpxq23FUxPhMDJP5tOQbEqQpnPxZQy0anbTLCOzVMYs2-0dq2gnhv9gXMFwJHdUKXDwxht3JtA85x2gGnATJranVeheSWg2ETVeyB8SF5peTrHS3Zc8h1SFUCMnLINHfmj8iFDxIvn8CHUodUxBQk73knIMh3s4dnB_h0b6Y1b5zqizts0xLnxwXk0rPcQNWwSa_aIVyowhOGmOTxviafQKez9KanhyTvj3DBeMgpWVccvILx6AqoZyZVzRlbAVOglgfaz4Nip_XVFahGzyPr51VqLWmHbo1wrozuSkbznFM_uEGK05rGljGVXY8h_mMT1bodjlNqb7NVkowSs9aje4AtVBCs7CkRH9ZqlPT4Nwt_Ju2Ve4HES44jGNljJvEwFqC2gZZUegjgMRCCdTTHe8yz49mqKM5P-JLxp1dsuHOko2JpqPhYUiMS_FV_w71hUU4b0mx-MghqWJMLSZCyDWYzusvOeyO22zyiX_PdLcZ0XOGJRCN5eXjpn9s9yo-zmUySlRr7ZrXN82Gjtf7HpFsqeGYNOORu6xOPAEs19LZh-6aeypO3VHBKY-NJNlGKWGP4ialEdl3YbtvFRUTsV4nhyDyE8WtL0YEjpREyPst_l-B4B7DLdhTW2H8tEjyY04UbnDS5rVkxwbqgmA4dQguIyvtZmQ4dVVPy9TGjbO0QyZgwhXZyX3iuNVG7lJColyikQ9UgJnEx5b4ZevTv4QjO9H0x-rpXYZPburRGYnxUKecK4l7JFmJCCocyZ4O1IEcs6MDTgbEZ94paqaYe0jLuDH5I_s1brgtk0yDfkGDZS2rGxqO5flCBG9RJStM1PSxytT2tu0qXZ98qUhfz76YqSWvLZve0kv96Pt7X_j7NargxQV-e4AiapSUx8NAEPmjQ9-cB7fLjjAoYG0gxh9NL4=",
+        "id": "rs_07f9540ba569011d006acc4ecaffc487d0b7a3d5c09333a976",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0045\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\"OL10689330M\"],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only one Edition is supplied: 'Henry James', subtitled 'The Spoils of Poynton Vol 4 The Bodley Head', published by The Bodley Head Ltd in 1977. No cross-Edition coherence assessment or subdivision is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_07f9540ba569011d006acc4ecd28a087d0b4d0a956e68c27f8",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0045"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10689330M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10689330M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1365,
+      "input_tokens_details": {
+        "cache_write_tokens": 1362,
+        "cached_tokens": 0
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 1570
+    },
+    "user": null
+  },
+  "response_id": "resp_07f9540ba569011d006acc4eca21b487d0a5aaeb92f197120c",
+  "result": {
+    "case_id": "CCV1_0045",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only one Edition is supplied: 'Henry James', subtitled 'The Spoils of Poynton Vol 4 The Bodley Head', published by The Bodley Head Ltd in 1977. No cross-Edition coherence assessment or subdivision is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL10689330M"
+    ]
+  }
+}

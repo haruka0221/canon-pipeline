@@ -1,0 +1,251 @@
+{
+  "case_id": "CCV1_0026",
+  "component_id": "W000005351_C02",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774367.0,
+    "conversation": null,
+    "created_at": 1791774360.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0708cd99d284747a006acc4e9800ac87d08c3403f73d0f8d0b",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6fUajG0iX3OFHWDbPA2h38_JW6HCa8iE_VinYzZU0lgeWtbkF3WvFJ7nfEQZsA4swo1Dd0XMamDi1e49s5pW1BMDzQzN0llhWzezb2Zj0FrVmF0fOppNRaEpoMpCc0RXq1iIpE5hJHKMMvwKIVUevdqC23VRMN21YFl1sykwW0n9Q3HGdFTPF2bIa-9sGtWFpFWt1Z9LP0SXRAyZac1cxoBj96ocaWe2o7pkokmLnQRX576yRKk2VIP3uTTm-PA2P6DH8Os6tmRiwpZQcQJUTTvNTdi4bQxKcAQYi3qfW02XUnAyS3tjOW8ACaWqjk55zxXZgNHQ2drgwcUElAhv9gT6zrMZb81OJuE7OsX1ImBkOAsCrkDpEX2cOf4pbpxy1cfcKOliIMMdT4Yw2jKPxdYzpxkzi1ttl1epx1RRV8UBnthzC8Ubh7LYOgb2A9lQExqMcJhr3fYbWNfJ2NsCnEsowflreIILP3hBE7jCJ01OPZeMaaVbBGWZybcnQ_qtk164Bb9kMNY5xoWtkA0AYv8Ef_KsI9Qjzl7WRLo0O-8LcpWvoO6cdDHvLo7sJ7Ei3Ms4lbivnnriN6MAtWC8kgIyH5zyoPGYsJUM4xBSfB1pipxfsXu_N3JfHn5bIDcS9AdlL4BO-PTBMeAdLY9UG2COQT6gUk7eLpbZEmiRWIdR3OWKe95cPO-0Rp681RpQoSzTMuYW1uuzk3ZaL_KHsIqwyB7edcwmFGq0Ncv_E38kQl2Ho4CwrOTTu6Qq24EwtehWklEmkvfgjn8zTxne9hVtk4KRpnhT9OHC3TuQjHavFMLJuOraFx39GM--qUvWVXfogiTGk55WnVPC9lI2YTwivQj08GExwaxPvpFi3UUKO3R4qHNyLTHty141eY05it_YECM_SssMUi88VS0e_tEVmRwec7jrxAtWwHyKfYyI-WEZeSK1NKCwojZOi0xx5pi66WyBDFNj8yXNTPeasnCHzAfdB_ygIE5BSgUwfY-N4mg94tllNaBQIehatfzYnc8COjb3IBRXqe619zAOY0kGm4yl6QF4wBxuaVuFaejgKr6bm8ueqtPcwmfXezl-xvseRXbTqnhj3qMd6lj3xEWWAHaf4zBW91nf45LyDaPC1FcmBRjRmPkqUloJFQmWxyzowG2zl6ivHX_YSDfz4rgRCK9TVyMu1gEZRmfXJ4yfkpSWYR74ITAUQsDWSDFxVi47goXAXFdlmUt_ZuiaYuxMbtidTJfQoFDMm53BwXND6TCR2J8E74Ogmpl0rITAkx8NZy83eGi-MexA5_G94q8HDco3dN_fVMAs28ut84LiGzZRL_slaFtYVRHe7_fklMOjAyI9QVfSPgeDfP8RAE9O3absSO2q7ezBATC5ApdZADCVB06K5jxRE78MkbjjUoNFuD2tgZpbo3cSFk3NyulAqoqDZDY7fIO9GbldH4eRVNyxa2Fu_Qe_GZfII49b8P_nls0KswO5eT_GPWwufeNh-2qd9lvCmBb5EiBJR0cvDRxHkyb1WReV9dxGJeEyMbrvSAwQv7A0SYd1Rfk__YPIJfPZGGWhdOdMzbAYT9ndorgQzzaTmParIy6Xb0HVjpJqV9g3kH2DTAjZOpZ6-yLBHEFttyWZbDsJRTstP6W96eAVLfr_z2iMF_s1It5ybfQZVoDttvMaLAvI7LiVdoinYzz5Bfroi7FoAB9tdHFyPo71tLxC--KRW_OG1MdB9byKMFoBGkcadUM9VL6_VkSacBZ-Tk1qZyy_3L0PtuiLhjyKOH8XGrIJ3U96gbk-T433UN2yu4DfQpNFIccQOcG1UV1Qj5al4SKXv809GSQcZ2r1fQBCQEH4IUW45G8E9aICVHeTHavpWtVy5Lj4mg8Fe7ZKKd7I3eOdYE2dz3kesTL1iTQWwkRSgbqSIs0V6Gc9zBqVdlRxfXMo9_L84QSHZ3EVRYcppIbU-eqJ82FAP1rbEjaenxNhmss0Nkg0TIF-Cf9nAWB8brnBFJone-_eIyHldFx27m90j0XmUYT4-H1bWxJncJVCdpQyEJSO1SstqesElXtA2ahx5RL6_RG_bhKfUeJSUjd0hCNAJCOEsPvnTruQVyuNnyYGyJCOtNHD8wSvJ4Ev2fX_pyXDFC3pHwenCIAfBK1PHCVQEHaNnuHFaSf0ix5yUF-v1-EpT2u6Lyz9guuKjqa8vpTW3567xQt6JOpqRSkdpVGd8nOORzq7mgICEIpkfrCvxtAsOB_MZdtfA4PKHq4YXm6CDZc4ar3CmnmgbKVEQDSooPM0vP0nOtdf5nb3gtIOcdXQxliuEzuhAoV57IhWcpq95__vy-SYF8aO4TIOUCpRmaOPpOxFoeD1nkwbcmrD7MItjh2G1zmPiAnr86ynCfqSTOg78XQeLkfGj7I8ExS5zVhzogsvZlgRWQonQSOQAUFv4UdA999fcZcCmixHx7oTYIVKzh-5VIhONSYw_nLp2aUIVvmJ8zIMTQaXaPJtNjr8boO_a2hsaejIEN7-CZulU3bE_KhyEtWYWbK7CHFCLwq6jsFLJ7q3EJNGV3g96bAkKcx14c-sQ-TV4MGvHjtqDADJ6_tMkII2igVVsQsgHVbN5VbrCHt90bfLu6z8qh32azeVXRlr723NAdLxIxA07kg4haEdakWM-mdKSinslgS8d_sDxDB9oHBfFnP339_6u0RESc_b-QxPtBKZdN-zMQFlna4q2vwy-v9e2R45JkSYr9qI4Owh7lgivwa_6q-LwZvRzqSpVgB1vI_n7RHm_7y0pWqhIyozYqZFqi_2dpiIIKIL2CI18nkldLzwhTyg45SNttbvFU76XtEYlZYayHMFaCZtN4Mkbc5KKhCwnTauj_Yh4H98l6qOXvYWx7J0XvYDH_j4-FKNhXtYycSkC-COoA1k1clsUtYx6GcTXKxHbboLZk7M33ZOxO81QqRfZ-l9YD15AnXfDT_WKvB0NQZ6ud8sDypjDx9vjXG-PIGn--IJhRSP72onVCyD7CavfPxHB_CN7XDetnDRajJzqO23xBQeTCCfkCA2yrIYdlx8uW3Spq_tlTMHUXfDojVY-vJYp0JcUOyjjQgvj6TAw2Gc2knbt7adj0YeX_QMUKqEHlB1nT6Oq6vphn_l_CSMwPgztSjrefu9lJiD2K_I5kNSC1NBBAh_Sv7tKxq4ruIxfJgbE63651uIs75sH3imhQsu2zJx5lowr6gti_LEOSBEhGOQCdgzNbnd2rDyZPJFpQTDDZmBJSqwsTJosI5J8z39VGsc06wV8IfDeLyevO-RdOpVuDTdWZF9YYW5xUh0dphDj8riPWmNFKP79RsjgfZWKFQzphK2OzMPMQqafwgIe72cWQNgdE0lyHyXZX4mqgkDqzpcZS01SNC30xu-5lX-quTahYOP4gBwdGse2UzZDuvrTYCTRrXbMiwt3SGzP0F8Oup_oKGfypeqlKMGB4nfbhoRVuNowndTk7Z2kNHw==",
+        "id": "rs_0708cd99d284747a006acc4e98e4f887d0b0368175c4026738",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0026\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL10513911M\",\n        \"OL11888609M\"\n      ],\n      \"provisional_label\": \"Chaucer: The Legend Of Good Women\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"Both records have identical titles, subtitles, publishers, and 300-page lengths. Their 2006 and 2007 publication dates are consistent with editions of one publication. The metadata does not explicitly distinguish Chaucer's text from a publication about it.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Matching specific subtitle, publisher, and page count strongly support one publication family. The shared author key does not independently establish the authorship relationship; editorial and content information is absent.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0708cd99d284747a006acc4e9c086087d0b184268cb421cd6b",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0026"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10513911M",
+                        "OL11888609M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10513911M",
+                  "OL11888609M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1452,
+      "input_tokens_details": {
+        "cache_write_tokens": 1449,
+        "cached_tokens": 0
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1846
+    },
+    "user": null
+  },
+  "response_id": "resp_0708cd99d284747a006acc4e9800ac87d08c3403f73d0f8d0b",
+  "result": {
+    "case_id": "CCV1_0026",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Matching specific subtitle, publisher, and page count strongly support one publication family. The shared author key does not independently establish the authorship relationship; editorial and content information is absent.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL10513911M",
+          "OL11888609M"
+        ],
+        "evidence_note": "Both records have identical titles, subtitles, publishers, and 300-page lengths. Their 2006 and 2007 publication dates are consistent with editions of one publication. The metadata does not explicitly distinguish Chaucer's text from a publication about it.",
+        "local_group_id": "G01",
+        "provisional_label": "Chaucer: The Legend Of Good Women"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

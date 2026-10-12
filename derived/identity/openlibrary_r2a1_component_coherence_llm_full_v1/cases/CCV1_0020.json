@@ -1,0 +1,280 @@
+{
+  "case_id": "CCV1_0020",
+  "component_id": "W000004821_C06",
+  "edition_rows": 6,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774355.0,
+    "conversation": null,
+    "created_at": 1791774345.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0b67c3e50d9ce2f0006acc4e89998087d09092e8b31f9a3e34",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6TeGGsm40TswnBCsAB58EwjRoaeb5wwoineM3LDOgmYSbIzzikYNobuTHa0qLqQVhck2L5vwozF5SCZVrGJU5fw3-NxESOz3mumKUUYtRkPm7I-hwiFEyv1aPGaEjpuaj_0pTZHg5CfR62ne8SLWAaYanJHTC_2JOTrhZp2VVzF0oB9AnCg5EKbBgfcJv5y0WEL9LLYYX0qcHp_GVB8wiPayaH9XhRmHN9Ko2rfaARlCeZBIUPjrY2180oSS65UhCnrGceMNtcPpLKI8w--_iHDfI8pIpL7_jNi1uAVZyyI7Ez_ViG1jr41uTpDePFzQpUdcBZiBsQqwazl3pf80pnKUnX-1w-NLBYbrGPkJD0aYrooODT42-M-S9o_8NOMQOb4TpdTS8Zzz37IVm6aIKkrS36eNeCGm8ftkEgstl928fwVTWM2H_N6DDWyrWFSlCtzKiuIuJTQ3gXIoYrPUt9vem2q6lkISj5tHuDSuWWQYmAtfuEhOKgvBITJccnwlgsyk1PzKEvcLtcTtYT0yY7psfuNSV1k9ifn39lyYWYidWjyHGimqrTn7m2as_5qqc973cb_0pHTkz8oLcwlvl-P1KOl5yi5k0bNslmi99RBHtRgPmHiEruRhhgVMsoqJAj9WSu6rdvT2idPyTmfwxrD4LLYJKhHqtMWsN6_4-sBepmXAmVyARx32zEIMDKml_kCbKjitaMWq9Ta9Zva7jCdA6H_ZbvjUSO95XuC9rEtofPmmzD9WNpnn_6dyc2RKCfWM9S9f6FKNIKPOkSB5GfoQx638hLwp7yMCiPOiFyBu-Wpj00k6vyaOQ9VOaCIbZCpPdzw0GU0svYwCkzU1KYH-xVDGEuXZjm69tDCPOwyj1nM1MC0snifxOXJgSGxgrPwvHV_EhsIxMgR1qz5fuozdHl4nKDjfQcDqqhOT_Jqx1phZx6btGa0xQtngml7IKFhyztZ6kDEGsp3xzF_1Rq090vuXzEdk1JA2aPGtMKgSq2ghqFrznDoAKsXXlfeVE60G3szkTabAgPE4Ezq0TtN-I7hc9i3r5rdHxhulfzM1TvEjzkwtiT9o5dkqpXBMcWnxBgBBmNCLieMjoL5GCbYbNpVoKVozCPlrHCDVe1V4UXtBismOeOHuS_HoyNSR8qxDNLdQM29QB6QO0P1oFS0LxAuhzrkcZqDGgAs2Pj7InblQ3uHpBYOFn5b58JdV10bR-iAUpWVzeKiAzCXaPAGolVn8ObUfhRSEv5rMtJnyv9KwZdbOEEWv0rdqkLadNkfW0UzdoOjuTBKIB97_M1yPL0l8_dt6jQipD1afLW9MkbOlSVNfizzuXvb5tgkQ5Wp__2l0CfPlnUTx3azvTyNwr3WzJG1dpJYhMUj1v3tA3kJ6etZFjrisSKgp1Qi32if41Ueegj8aniNb_8Eo8v3w_u9cTpwfi8025hrvXWMS-NiXNPdoeExBl9Zurh9anx4Yaj2Urnm9t1DOSjuMBtMS-g499dTto_z8cDqtHokVxDMFTnuWxGDqvWYtXz66hnSJgtk96R9Dt9jbYCcxJk9PMcQSbzD6VurpJB3_yRJepNouFPoGoUkpGdudD5f_l-TMxoYBuj6geigdhKy0YIxKwFQLCafyTSrUtT0R1vk5FEmj2QsRJrULiqx9QxYQvgAwXpDTn8Dq4b3ySgHJSOgfXic-1P0MbkXtMAHhWrhBnRRXPWnNtPRVRMW3nnmuFM1gErywfKGjWuk9heLxGN5Oc_hJhaq1c5S_0anb9CnaWr4LEMvBIORBJN8iL_PrkJeS7o67RiV-pr_8TWHZM39uaHjP8BTh_NS_9SExd7EVTC0Mr5F4uV9syLuqLzNTE0SON_4SD8JnV_6fiIRjeZRTzdRrQdKA0FUFkTd-0UznbEZd8iwegzLdFYreNpUiE7OjHzaqUBDv-TCPP6ImAIWhv1wiIvwUGepYiPwrdUy-Dtkcpu1dlHhoK-DTV0iHkuZ2vlfs9lVy6laU9fxCnjZBSvNv0tAz3XMRZQCM-ndKRC2SdRmMO6ngB1-7M0PaHI9Be0Tfj64n2WY4FBqXDlPo_xGvrn7OiL7pSWMTpYqW2YtPt7-OVwosD5lYJuCcSCihLszOPxZrF2XWCz1aVGxjSKX7yTGl41QUD1np98ht7dkGL1kMbPhiJHCFTdUXXQAJQ0s-5cbCV98A117j59l6-OlSVzeorjk3MMz3hx0mC2nWlAAwYqv3zmVw5ViN0BgqOgoNSBdJoZyrV_iCKDqEuwcdmeM0-hf6FX391fDgwvB8o-2JRvnK9y477_uy6REX-0zzB-z8Hr1AGXj_2BXyVXBHGAYfctczne9_E8e6FWU2KeqbJpWkLWfbMk6TSie6xn2gjAD0--HYns0n5PytQo_0ua--Onyfz_X_ym5w7hSukLPgkMI9kSFEgy9d-Qe2w4sp5gRI2mIvZPL6mW_hVZNqufScxY6xgVBGkyLn8MAHXo_e-7ZuapZcbqgxlkzqeO26nXZci2hQbWKjpa7tp3EtdaC0F5cOVMdMKCjlwXX4qVDydjdAA3qfO9baXGbOo8JLriUkk2NNv-3CFrR4lCluxfSJNXL5q6aGFODnElKHYsR6wtlWJbvjsvpAH3WRDdyHQ34wkd5NpN_GHkHVwPp3EiPjaEaaTGnoct9hW6KUiHcoKy_D9sSidKwAp09hXdLrAazSyUUCKYGlMm4CEsENcmX2VsD66hQ-4xzcNcOFmtaeDKJ-KPCt_B-JGH",
+        "id": "rs_0b67c3e50d9ce2f0006acc4e8a50cc87d0a267c3350df35ac3",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0020\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL23245061M\",\n        \"OL45636M\",\n        \"OL7943536M\"\n      ],\n      \"provisional_label\": \"Rudyard Kipling — Poetry for Young People\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Two records explicitly identify Kipling within Poetry for Young People. All three share Sterling, 2000, and 48 pages, supporting provisional inclusion of the generic-titled OL45636M.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL7349722M\",\n        \"OL9304374M\"\n      ],\n      \"provisional_label\": \"Rudyard Kipling — Selected Poems (Penguin Twentieth Century Classics)\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Identical titles and subtitles, June 1999 dates, and 228-page extents support one compilation family. Both list Trafalgar Square Publishing; one additionally lists Penguin UK.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\n        \"OL7988417M\"\n      ],\n      \"provisional_label\": \"Rudyard Kipling — Selected Poems (Phoenix Poetry)\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The Phoenix Poetry subtitle and 160-page extent support a provisional compilation family distinct from the 228-page Penguin selection. Exact selection overlap and editorial responsibility are not supplied.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The metadata supports separating the 48-page Poetry for Young People publication from the Selected Poems compilations. Penguin and Phoenix selections are provisionally separated by their named series and substantially different extents, not merely by date or publisher. Titles and subtitles support Kipling poetry collections, but editors and contents are absent.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0b67c3e50d9ce2f0006acc4e8cca2c87d09a390e55cc75d6d6",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0020"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL23245061M",
+                        "OL45636M",
+                        "OL7349722M",
+                        "OL7943536M",
+                        "OL7988417M",
+                        "OL9304374M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL23245061M",
+                  "OL45636M",
+                  "OL7349722M",
+                  "OL7943536M",
+                  "OL7988417M",
+                  "OL9304374M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1794,
+      "input_tokens_details": {
+        "cache_write_tokens": 1791,
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 2391
+    },
+    "user": null
+  },
+  "response_id": "resp_0b67c3e50d9ce2f0006acc4e89998087d09092e8b31f9a3e34",
+  "result": {
+    "case_id": "CCV1_0020",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The metadata supports separating the 48-page Poetry for Young People publication from the Selected Poems compilations. Penguin and Phoenix selections are provisionally separated by their named series and substantially different extents, not merely by date or publisher. Titles and subtitles support Kipling poetry collections, but editors and contents are absent.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL23245061M",
+          "OL45636M",
+          "OL7943536M"
+        ],
+        "evidence_note": "Two records explicitly identify Kipling within Poetry for Young People. All three share Sterling, 2000, and 48 pages, supporting provisional inclusion of the generic-titled OL45636M.",
+        "local_group_id": "G01",
+        "provisional_label": "Rudyard Kipling — Poetry for Young People"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7349722M",
+          "OL9304374M"
+        ],
+        "evidence_note": "Identical titles and subtitles, June 1999 dates, and 228-page extents support one compilation family. Both list Trafalgar Square Publishing; one additionally lists Penguin UK.",
+        "local_group_id": "G02",
+        "provisional_label": "Rudyard Kipling — Selected Poems (Penguin Twentieth Century Classics)"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7988417M"
+        ],
+        "evidence_note": "The Phoenix Poetry subtitle and 160-page extent support a provisional compilation family distinct from the 228-page Penguin selection. Exact selection overlap and editorial responsibility are not supplied.",
+        "local_group_id": "G03",
+        "provisional_label": "Rudyard Kipling — Selected Poems (Phoenix Poetry)"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "case_id": "CCV1_0016",
+  "component_id": "W000004821_C02",
+  "edition_rows": 19,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774346.0,
+    "conversation": null,
+    "created_at": 1791774334.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_07132bbf064e34d3006acc4e7ed6e887d0bf6f59714d9e835a",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6KTOUP7e3Wo-SlJY0ZSo3piWGHxxE1xgyAwyC0ibRlvvHnHsl1xFZNzCf-D-Nk54hLDGiFWEhSKx_AQUx2dIKlimLZbYeWCxnXb0ksYgX54CenCYMe7kKUcmFqMWMYWgrA8ni9lryh0PSH6CZsxegdjzvo_kxlA0FwF5rq7_kN_Sq6pmcDE6xpEccX2TB2r0ZhNIhltL-Gg72wfZAGd_gqGxR1Fi2epP0Fb1elwbuOzLPDf_8Hh2PcymLyQ9h-XosRoEsfM61fQfrYvEZBDlcsLxvVoxqh57k4-G2KyhaQrqQ4PDrkxb5n81LDm1PE3wi3FvXKLXOfGDxxIrlXAO1sOhooQ0-m0nXoz0vUP8_VDea25iwv4nPDYDxRLJwnPGruBgkXDnrDxdS-5nq3C0MDxhgv8UGHgDMBsu-7FfUCXWyqoKlxGQ7AK3IhUhgvQ5NMdu-lFPiuCrXr_o4hHOD4Yg-681mC95KMreWv_FBZOrUVxknhLR0Z1Ly_0ZKYB7BeFhhkgeIsenFcQ2KEDOXi7yFCaR3B71Rpa2PBsDM9qmDD-XjQ-3RZMWfBD_a1cT-3EsnRiIE3F2k45s56STPuGEs2jf9Z5-jzlP4SaYap6VJL4n5_vGUJdv0pTNU0X2JRrHGmnv9e_qG6wwnZdSV5XBChZMy7WGZW8-JDw2PkvcAniIRwf68JQNNqReNH_84ijkJ3_b6GbVTdmzDdyiq6qFHAgWAQLcKulGhQfdmXdC_lLGH0vV4_O_isWLMLyML989ma5PLsZuTlLuefnXSG7jn18JgmavnjkeZ9TWVbXGRPdx7zGmhEeDqiYeQnnMkaoepUwratEjUMFpJEfYUAgOOohTPdsFX9S8LvLrTTIXRO1RFbqeJDpTrgsWp4bGXZJ1bC5RcMLl2hQcq2Foh4ASHpwRU7Dd-Q5YJ7tJMPisfA-qxtf-gPx1OcSjgoawF7A3H5oo1NEjf4WzWffdiAH9M9axoxwxIvABuJGVFAUugFQnIpWJ-Z17VTmpjvB6RVCmGwoV0hn0ha8SySQeg8TK0CX3FSG5N-0p8WzolzcLDscB_4JeL9D99olneDZNDN0LJtCSa64O0f2hu-vzrKrm7PET10zxnHSxJEE-ixmbCzxa72RE7SRuhxjCmMYBUP5SgZ4f3agxmO1j4llhkXg6qaf3cSOQgUplay0MK0jIiUErEVc6KnPsfjNhq9eEBW01aSaPAJExV5v-H6J6tgsTfs4hIwE63xFQZIf_88P991rvflqboRzGi7fJDkatdcg-Ed0O2O3uVRPmyzi0C5H0CsKNDD2QKdbu-3zeZ-1aRiVfKBQh_FuTj2QmOWsbqaOll3NvX9v3WoqjfXRwz6dvdb145sBqXu65SEkeKQcjoMhMETEzMe2kZk7KJvIpUVx22NGMn1ZChSdsTpMaQykqMpOCG1-XNu3qLB-M48mZV8BY_p9TKuDrDyfkQsZby0xmYjuBKz83syqANjqvXv5x_8wU5KoNZXdTHm_5R_cxli8Ng74H6NQdCSn-ZaVwcp9zIqQiovPToMG638-meiJhwUpqsiZ_AHs9cPUe6J15KrWrZnZwi27gI9qmhr5NTnQ61cdKQg2HTElaU889W-JYOdKHk_ifTysSfy6lEAk-c6CKJLXKRhVW6n9yInDEZnJ5dZVDfde7KCq4XCXd5UdD2Qdn5l64mwKQOOD3d56IeiO4wLHf5qgFDvnqylTcNeaQ3pRCsIsdIoFqu0iYVtczthg7wnzlFNo_TLTJfyEZ6HX1Hqf5TgdGTkOsC1RptH17EeeKndkR3L4afaHh_2AQM7fsi1EBNDX144Yj-eUIJdTwduT8VdknwAaJBomSRhDkAdEw5BWNsAVYDAwvT49824V0HDCOCbqaoY2OU2iDJazKSIy9wHw0di6gdO2id_n2_lk7FtkwMtXNtUaQMVyKJ7LcC6EUgvLYQ83h9yCb1KmWf0IvUvapTe5579y6qfFFEqQhe3rqCCbs_L6s4x3ol52-Z28KXghwgE7r1S6mJzGHkpPVHwx2zfO1q9AZ7-2SgSbwh53yIl-ThZwr55sxW3YSxyMZ3zeuLmU-3Ozybn8iWFXTF0tckOzEqWn3aFrt4-iLSRz_PpylWOFES2r17DHO7bVWfOivvBaGwG2Ni84zIVVfVxxwOh9lwOFesJPM8Viy0pDuii8ltuzqAiQ5r6-2M5g9_Pbpwv6Xnnc0_YNg1at76by3i2OoOQcqQnvPjVKJJ-zl6SZkkfsD3cNEgdzGLDh3bKNIADnTaD6MxUgoYmZhtK8UanvnCeAx5XSL7mXiHS38WQ0L1y2-jjySuKzmRRornxjjZrDbtumcXIkaFzSJkNwWpf9-U1Yh9OXwxRbpKeb3YCzBL7lL49ddg4iTp43YWCOoEsViC4TMbWy966NgUuAkALhUHno45S4Kb52sOhBo00xbzbWGIhAauVLs8J64NZrrYBCCU30yeTBlgLeqpwIxRnbwInCzW2xooRNsVdmKAQ8tGJ_ulrXXbZGnh3byokXSS1qmBIyhRDlHm1whbdkGVg9vddbNnAIzg7oKp1u16mO-sNyCVSkggyS30HV9CRcgA_VmTKBjpyJnhF1C_YO8hREfkQQMGjahnkGubeZUaPd5hi2D2eNAzR6WWgUPf69JlZPoNJSi4vZGEGe4BFuSj9-S0-H1_9kD26gH98SIrtc4Z6FVn-OGPiotyKyOxYGf5vr1TsZ1pudSQPDh4Mo-3mPJKIRxlP1AavTUe4CS4-pCNZc7NHnX-fdyIb6Nhh9hEx2RsBXX9EUVrPwXcElgJEIYuy6BMZ7g6E5d7gXNcoEUW6jLbZGH18FtAuRbU547VK2D3gTvALzzv2KCZvnsLXgQEVwWDu0uycSALrfsE3H4dPgnrcoOXSwMsS49wXBOpd6Mt6r7mGu-p3uu_TdZ8ymzXcxza5PoPJaxxrMRzXPHmuhm4lbqa2hg9CWSJ5jZLGIXzSEzDXXuiHz-tQPT2HGdEpDEU9DJKnCPYnlOS2pAFH8wpgLSCXGWs8cLIN1rLjzDZSckPEMNJ0zXXGIV-UysQ8wcVZYtL2DNr3-3npEwVgFbWlXSG_1FAATVx9JGh2VVLLMVmEI6yHKF1LE4XMlI9TuxzE5tCNJyBQdJXNcsHSckH6zM5_smdF0kULAHS27_zgVmXYBYWkBusoMIAVfbbxOYe6f1QKFa2zVsH_JoU8RAXviblCrkSEmO8iFRqadW2jjAu9I36Pr0TFsK97B1mWQuUxTjk_lbIWgcS_MMfJUi1hEtkzaubNZjTrOgSg8UvT34r_jXoc3Zi6Y2oV9Gx2gQRBobVeMPo0r4frNrE1oCBNkF8yw6BgcNhNO3wuwPKcAMSNZg7aCRagJErGr0QQ4V51hm0ciBr1d49fyAFG2n9xeaEMhrydpKU1dMlgXy69J-fXdmhM3oU0W7AgThUip3Y2FzROMAxEOdbw0O8s99fQN2VwfHx2fu4W0PzaNoFkdFtEM-dqI8eGwNT9RLRn8eJel4qkRgGEIPIyAAFhL6u04e9nJoONDZrqgh_4WTNpp8iumaRqgbg0yv2Kq2eGX_PQxABh-eCQbK4hcoqFVYw6pBgJWRqzbE2NQkPCq6Kjqe_Vn4klg_J3B7_yXUaBMGhgSBlNoz9BrgeTguxlCmbwpz__OwGrB1OOS4pvWpb3yLyJgX1PPXmBMu5rPsII6-PxWZLryktj1GquB4b-7VqwGjFcVhBKMDwXFp_i3dPNOAF6gp84Oi_DBljLmfcANDCWJXhb-21PkwFxgHM6zs6ODue6lOlcZ6dhuYsmcVaYGEL54JO9JsPsbwHpEfrU1JiOxFkVvVH0kGhM_HwfItybFh9Xbffq2e2kNkg7hk6xPSUIz2bvgcubJyVIa4pzZ4Hn5ow3Zg_vX5sCe6axYkKCTcxOTdjKviKaPLDLsU0KoKQHwXXq-38ayOz7D4dJ0hpHH9VehZpgoOZC57XP9mAbdrc919bMxZdKy7J93FZ_ahLz3xhdsQ6SvsIivjdI5lDPWu093Z-YDYXHOOKSWEh2uKlKPdWLRBUG2uUXrbgYY2Gd_2M7nTWVbzUPslh4CNpWZEFK3M-6wykXnjCwTdtNGyVcxnWTDxlkjItk4c2UoOne_GHixF-EucR3f5tAjDkdHRoGgGDZP9X90-yg3fQpdHGuN20tNGssCXk8KN47kAYTB-I946FtVt_YjCfBdZIUGXis5IFCwD99xBDqBJPcyRYg_ar_5ITrO2nZQG80MUDajP6Ji7jhTHzpmec2U2GM64HpHLu9hUxqYE5MJ2-9dbQO9nH6q72T0xKxwOVzbBvxVLo-hiI16DOkEPhWf7RbG1PCs3WaZSeY88KIkGUF5xXP_GicP8-pf7diSJ83UskvjXhe73Svpe2qAMG_cKMokgRJaASqa1TLMGGrZu-SsuOe3Au_Lfa-1yD2YqrHdlMt6lQ5FRdaMzqmFyB48t1iBbxO_58e2bzRAxQX-NPUXAFvHi3z3n1sGeMjA_QpAC1Sbd17xA5xlyqMiBpiwK03oELqviBlGhNZtF4Smy0O4ia94gOjC13mgrxDjXVt9nkvIN1P5hDa8dP9ZhgRc3kHNNSU6fGNhjirBLGaG8T3O4NfHe2gX52mUilSnfOfCQK3Vzo5MWrvZ8xpDm16UlqzMnqP3M0kr92JuQ9SmzisjqHIh07puuMC83OZqTGNBSP-xV9CIVI_8tzOcSL-LSv-",
+        "id": "rs_07132bbf064e34d3006acc4e7fc28487d091fe7609febc396d",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0016\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL13815836M\",\n        \"OL14075688M\",\n        \"OL14328788M\",\n        \"OL14546301M\",\n        \"OL14818036M\",\n        \"OL16847288M\",\n        \"OL17270480M\",\n        \"OL17508950M\",\n        \"OL183505M\",\n        \"OL18358917M\",\n        \"OL18567389M\",\n        \"OL19309121M\",\n        \"OL21228477M\",\n        \"OL22009783M\",\n        \"OL23138207M\",\n        \"OL23140200M\",\n        \"OL23334660M\",\n        \"OL23759105M\",\n        \"OL7855491M\"\n      ],\n      \"provisional_label\": \"A choice of Kipling's verse\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All records share the same title apart from spacing, capitalization, and punctuation. Most supplied page counts are 306; others are 310 or 319. The title supports a selection of Kipling's writings. Two subtitles explicitly identify an accompanying essay on Kipling, but its extent is unspecified.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\"\n  ],\n  \"evidence_note\": \"The shared title, repeated publisher/date combinations, and predominantly matching pagination reasonably support one selection family. Publisher, date, and modest pagination differences do not positively establish separate compilations. Selection details and the accompanying essay's extent are absent; the differing author key on OL7855491M does not independently establish a different editorial identity.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_07132bbf064e34d3006acc4e84ab1087d0b4874c4b5f27b2c9",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0016"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13815836M",
+                        "OL14075688M",
+                        "OL14328788M",
+                        "OL14546301M",
+                        "OL14818036M",
+                        "OL16847288M",
+                        "OL17270480M",
+                        "OL17508950M",
+                        "OL183505M",
+                        "OL18358917M",
+                        "OL18567389M",
+                        "OL19309121M",
+                        "OL21228477M",
+                        "OL22009783M",
+                        "OL23138207M",
+                        "OL23140200M",
+                        "OL23334660M",
+                        "OL23759105M",
+                        "OL7855491M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13815836M",
+                  "OL14075688M",
+                  "OL14328788M",
+                  "OL14546301M",
+                  "OL14818036M",
+                  "OL16847288M",
+                  "OL17270480M",
+                  "OL17508950M",
+                  "OL183505M",
+                  "OL18358917M",
+                  "OL18567389M",
+                  "OL19309121M",
+                  "OL21228477M",
+                  "OL22009783M",
+                  "OL23138207M",
+                  "OL23140200M",
+                  "OL23334660M",
+                  "OL23759105M",
+                  "OL7855491M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2833,
+      "input_tokens_details": {
+        "cache_write_tokens": 2830,
+        "cached_tokens": 0
+      },
+      "output_tokens": 661,
+      "output_tokens_details": {
+        "reasoning_tokens": 225
+      },
+      "total_tokens": 3494
+    },
+    "user": null
+  },
+  "response_id": "resp_07132bbf064e34d3006acc4e7ed6e887d0bf6f59714d9e835a",
+  "result": {
+    "case_id": "CCV1_0016",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "MISSING_EDITORIAL_INFORMATION",
+      "MIXED_COLLECTION_OR_OMNIBUS"
+    ],
+    "evidence_note": "The shared title, repeated publisher/date combinations, and predominantly matching pagination reasonably support one selection family. Publisher, date, and modest pagination differences do not positively establish separate compilations. Selection details and the accompanying essay's extent are absent; the differing author key on OL7855491M does not independently establish a different editorial identity.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL13815836M",
+          "OL14075688M",
+          "OL14328788M",
+          "OL14546301M",
+          "OL14818036M",
+          "OL16847288M",
+          "OL17270480M",
+          "OL17508950M",
+          "OL183505M",
+          "OL18358917M",
+          "OL18567389M",
+          "OL19309121M",
+          "OL21228477M",
+          "OL22009783M",
+          "OL23138207M",
+          "OL23140200M",
+          "OL23334660M",
+          "OL23759105M",
+          "OL7855491M"
+        ],
+        "evidence_note": "All records share the same title apart from spacing, capitalization, and punctuation. Most supplied page counts are 306; others are 310 or 319. The title supports a selection of Kipling's writings. Two subtitles explicitly identify an accompanying essay on Kipling, but its extent is unspecified.",
+        "local_group_id": "G01",
+        "provisional_label": "A choice of Kipling's verse"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

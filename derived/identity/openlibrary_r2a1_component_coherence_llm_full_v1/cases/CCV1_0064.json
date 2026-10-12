@@ -1,0 +1,260 @@
+{
+  "case_id": "CCV1_0064",
+  "component_id": "W000030498_C02",
+  "edition_rows": 2,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774460.0,
+    "conversation": null,
+    "created_at": 1791774451.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_023b0b5bc4711f5c006acc4ef3911087d0848d879fd8767fcc",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7819WtMT9Wunl8fap_g2OIU6VYYniYuvBt0msOBpHPjOL25535I0uDaw9nQho-o_IWAvlIOECp1jbVU7K9irlyJaE3ypB5W5dbZyaM80yYkNrPBMOpEg_SzsEGTwde8ZxHFrpHW6J1SBA1y1CbYJi8TeOFZ2KE3MPcKjDZdWr9UmFUYZw22HpvfRTxpqCGTkhsA8NdTT6hqz9Vg1Oz-iMCGFHJWebcmuQJkhEbpBCNz-KEwhT_9Q06sIrcgFE_FYQx5ofx_avZxCU9317LdskHkkuSpEZDv0WHK9yXAdA0oy6oTJDSD1r1EUUsmIaaPmx8GrKu-qlBBvzSRQf9ZwUlm_REZHZcbmJNZR8TfvoGlzWBOGGbYy2Rw8BVbkzUbYt1u0SbvdJK4kuhSgdkk7pbxLo8HHuJLv_QmPr7Rzt5OCqlxSUYkJx2W14ZZcdi0HfK4KD2JaHm1nbupy6Gpu248m0Kr0dvg8IrT786h6m1H27j-U53vatlf-DQopeFpYiDN0vmKI9L2yJZy8_GD6WhDvde-Lg8LOSp0C5HD9YPog7CLJnVDrekVzSJhzqnLozymvGIDO8KMfTS7K_DXzXGuqqojdAjJr2_cbbfaj8mVQ5XCc8nc1NcOq8dkxxBki1LryVu6V8TwOQDI6hsbNiXWc71p3azYmCpVcBQimspTeVZDjjMmdpeNU-eP8MWCp1kAIj94wvC_W0m0RLRvOsAUOgOVz0709hihBEoTCAzIT7MQ_FgPG9aAc0sZE-MBdse6acJ0mfq9bvrSUiRpnpb3Yj2iNTdi-UfNFuUf1tYC0wd03hXTiddUuUt625fGtP3ahFO3YqElztkH3Qi6tWiEBxH7L3az5sXOVcz47ne8HXFRqZIgorRUy8yO-SkoQTUJP5-QTcqnQR8DOJQebsPZlz86hZSQKF6bgGAK6-pLlayVXjlLLvZbsVxpJnVU6oA0x4XTopDoaoXgWVtKzax4Mephkjcpo1cw2g9jU4I5DlFeOmiPs-oke0vbJgYxMpwkJQAcL6nlVOmpwQcIYoBEBZCECy5uFgU_v-6oUy70zZwvHnKMY0fadxaOxKDu2kChgipWvQdZBBM7lCVEYTQ-TrQRLc7uSBKxl17XjhU1o23ZzwdMWPBC-HMZtHjw-F048dqWkAX_h-r3pkkRmMICv6vuIB6YQvOsv2FmlsWHK0D5SFlGmI2hhmmpRO9S81D1_Exg1-T-hDr6rWWLBH7j16Af1QQ3t3NzeXkk3zne8sEbnZwfrDqmZY93YKud0U_jx1KY1pXwpXYaP_v4lZmDqbMiZoIEEqOgJMT_bpgPGDH65itH7l0iWF7Hpvq9yq_RsjebNFSqZus8MOrtmZ98Rddh0FSZ4Fv_y1_UAIDXril9WwITmFqXdqFfRNWBn15aiPxDGgZmcNxpGLYxSwcnsy4q5KSbi7NjtmbLYSQ9xO08_CmMzKMYmgC7vnLVWMhbjAU6le3ah7_87pwbenZByFiDVSWkGRu4lfNtEwTI8PqO_1EkYEye2Q0kjTDwfU7-psZ7OT-dDoaPKXVR9ZtKIPhBt7oCyYP07CjuzoWqBrk9AQi1qBBELnNYkgO5VqLhaWQ-8NlDqVLOToRgzsFxdL4ZbZA2oGrEP1WLYK8IKzTHdiim0dn6sfQP95jlkVl-eBBRu3faYRWl2Ce-iOLrsMh1mf_SO_8iNrO_e8fsqOto300rXg_mUFlwAkMDpCWNf0hOT6-YmK6RswCefkMEQ-CARHwDAhKkRs6PyEG7MvtQwybr0GI7HLwU-7M7MH9fIJZ4VS5K5dHOBI_3eyH0Canr121ppg2wgBAtw97SXN0kqwS-PlgRzZOFi9odBnGTYT4FMxaabVAXpB4J8tIdv2KDC5dERll43c70GPseUSkWCLHJdZY1QGWTondV6_gqfzv4YXpSfPIUbGz40Ny4dYC2ZPp2hQ1ayx_dDSbzRv6bNMC1rA31OZYArLi6mn4zom-EJhme4pnp_sAFqiHkSLL_H5Q3GASYkkBOGx51P95hcrDuRy7L9Pmi2PtYS-GFAGeEnfYFxr4yFxms0tGepnaWqsQd6_KCNJCAFu4D43pLgK2lvmmZKEjt0BqZMstafeLJdr-iPoJmymxvtV9FLhxP6DnUxG-cF_fOxhWTRRVacMXHSiJFcAQ8yrUFDf-JQZ8s4wPHD0vKnZ1laDxblt6hRqPKeY5syt_D0WJbfHFZMxyinsA97XtbOjX4jjRgb3meyrXigFHCHu3-JJcfkFIS-swzHJZNwykAh3mKugPym3Vhh5dlZT_oqDRUlnjKRKGnswMrM2fLo8VtiRKyvwX6opB5Hqeyxc-_8Rf3-aSDpVMTGrg6-oTfCWeyTEWakOQCn7YOaSYQeJUga48vaBFgmUQV2F845eosIs1NPR6b_2QIJ5ZXMjO7TUoUplb4tUsUjFebFoDsU24jU9wVvZgy0hQJt-MKMSwui9zvCrT0k5Q4OxOwpm7ySgOoi2CG5ncRVLALgSGYGlC2HNw9eNnp4eGnq83u-Kz6rbyVwYJkQ-gyudMVwh2vX18kBOGUroZ9cTX8_d6sfBX0xaepZhZrjSfUZMN4_6kaqLnx2IEXnWMzpiexLp3_sp9_WW8wMu1tDFqzMfziZO2aZBZuJKMEGOlnZzDAN-Tepipg9egUd5RupnypOLc06t_HRlZgreJ-_UNeMRrI2i6BrIWB9MH5uC3tDzaR6gzbqTUnS4mCMzC8WIeNV4wGRXf3wxeAu5UozT4Qd91owIqYoC_JolDKI0ORLWjqGqs06Ar_4A=",
+        "id": "rs_023b0b5bc4711f5c006acc4ef4829487d0acec77fec08db0ef",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0064\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL18929693M\"],\n      \"provisional_label\": \"D.H. Lawrence: The rainbow / Women in love\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The author-name title and subtitle listing two texts support an omnibus of Lawrence's writings.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL9208520M\"],\n      \"provisional_label\": \"D H Lawrence: six-title collection\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The author-name title and subtitle listing Sons and Lovers, the Fox, Love Among the Haystacks, Aaron's Rod, the Ladybird, and Women in Love support a distinct collection of Lawrence's writings.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"GENERIC_TITLE_AMBIGUITY\"\n  ],\n  \"evidence_note\": \"Despite nearly identical author-name titles, the subtitles identify materially different collection units: a two-title pairing versus a six-title collection. Women in Love is shared, but The rainbow appears only in the first subtitle and five other titles only in the second. This supports separate publication families rather than a split based merely on publisher or date.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_023b0b5bc4711f5c006acc4ef755e087d0b7cc6a78f7a97922",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0064"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL18929693M",
+                        "OL9208520M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL18929693M",
+                  "OL9208520M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1453,
+      "input_tokens_details": {
+        "cache_write_tokens": 1450,
+        "cached_tokens": 0
+      },
+      "output_tokens": 448,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1901
+    },
+    "user": null
+  },
+  "response_id": "resp_023b0b5bc4711f5c006acc4ef3911087d0848d879fd8767fcc",
+  "result": {
+    "case_id": "CCV1_0064",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "GENERIC_TITLE_AMBIGUITY"
+    ],
+    "evidence_note": "Despite nearly identical author-name titles, the subtitles identify materially different collection units: a two-title pairing versus a six-title collection. Women in Love is shared, but The rainbow appears only in the first subtitle and five other titles only in the second. This supports separate publication families rather than a split based merely on publisher or date.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL18929693M"
+        ],
+        "evidence_note": "The author-name title and subtitle listing two texts support an omnibus of Lawrence's writings.",
+        "local_group_id": "G01",
+        "provisional_label": "D.H. Lawrence: The rainbow / Women in love"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL9208520M"
+        ],
+        "evidence_note": "The author-name title and subtitle listing Sons and Lovers, the Fox, Love Among the Haystacks, Aaron's Rod, the Ladybird, and Women in Love support a distinct collection of Lawrence's writings.",
+        "local_group_id": "G02",
+        "provisional_label": "D H Lawrence: six-title collection"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

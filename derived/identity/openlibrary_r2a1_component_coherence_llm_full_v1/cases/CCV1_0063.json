@@ -1,0 +1,282 @@
+{
+  "case_id": "CCV1_0063",
+  "component_id": "W000030498_C01",
+  "edition_rows": 9,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774462.0,
+    "conversation": null,
+    "created_at": 1791774449.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_033023e99684040e006acc4ef182f887d0aa38a314afe535c9",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7-m0N7TZahMW9kNdg4OTgiA40uDnh83WyIDVYBOz_cCcyPfXBNI401b5kMXcbkzG1UXG9NcW3prplIuorfu3c2UcT1hPkRgkNLtMAjZxB43eCarN9WRHY4MYF1Rwc-kFVJM8qmlzGN22qzLmBSLW9Se3FGft3Qa2uR1WsRE6ITHHxANu7pobt3yRoDSOLnjO6W98XUl8897ObSj0-9y-BiTDJY4PHh1Wr-0mBKKvX1pqhvtUKRqwtsFF7cXWrcYK10zKDen6EGOJak5dy1vBhhNeMjGLRk7b7XOjUryRrkaFSmSyD7CmVnoJwwNLL_mYqNJP-gZ3CjAyYQiEOBafyOwcN5Sb8l7IsSEIhADtHxRBZ_ur_j5npAUH3dRN1I4yR77MWZyhKWC9w5e7Iyg8oQQBz89T5B_8PBs7PuOf_7WDSSDoqTbH7UFA72p5S9SlxiuKIUX9RWrzyClxISirm8OgJsEpZYvO0dywDfVaAO_1iHX1zogOVcwyfT81KTOTU0WMJNOkIvn0jh6d98j46J2qFvPfCCIpDDfXNNem3UkH0aEMuC2-PqhcTQgAvYqwYrHLI832FJ2tV2SfSgTDCAckFtb3jgDEpfbzp3Lsl3B4yMOVAvk0mHcIfiyOLyNWevFr9A7zl4yVNfxrSvg7QQAvOvznNrHAKfO_NbiCTQi21Gq6hKilQ1HNM-jSH9kCqnEQUQoir0Y7khzq_YCJFYnzWBFp0DM7fNKZFXW8jPJgYdac7HnmR0CVJulK_AxGiVGnijr9R9uinM7b1AqEQ2S-jeq7-mAzBldtH908ksQzuvjlF9SvnZntAZ4E986LIRXEP9Z78sUrAuAAF2bKTI3ECFXP7Gek74FF0mk9yoqx5GRWYS8h206E-06X3ZOtVdiy1-L2hj2ZyDsxWzjIhD0Ob68qGpjxsAx4UxV6F-HCal2oyXMlzQ1qE5ncyCfHWiCmNLNaO9dy4TyoZt-4dXq9J7zgQ3zlVKjFLQ1WzJ9V-G6plmF5m_-MVjFeY1iWtyG2oJ8ZrI7BI7-uSxfCgjt7KXW6-AWLJYTaAqOUpnr8Q4nw9uHNf4Gc6sHIiP_92XCZ5bQuFkIuPSJ2cbL0PCatKKqJB3vvYQC5NZ5dDTtslWGLPvgzfrrpLnXO_gpax3y85DjVyPfgcJCDfLim5iep8qKNJ_mXr5sahCsDt882lBHUqKulf0-dgwjqGV3KKtMHY4yj3sxoxI9uU3uExirV0Mndz9yfmO4eZu1A22aZFq1fNsPwj5jdz_roPNU2bp3GMLBayJA1mqJXVuc8xKhTvqRCy9eJvlgRplbkGi91jfU7GhjFsDjTHehH0Z6mZgYqinPcxvIgq3w48EDWc7fnQDkIwAeLeuazN14upXelbK-DKOXUmwxPxHQjl77k0H3sUF-hqODDUwJSxys8uHPm4bvbEu-CpJoahkWyrUcVLTfzMmuHCUnlaBHwmqR-Xg8PAOkeyOsnPaQRchkBmYrknYNZf-DHKBiufa0S72q0CJibIsnAzNDYt7O8gHKd1xwbuUXAT8jWYaeeb5Rxcqms2dN8nWhqNyxyHnWi_VyaXIqOlinx3IQ6M0fjgx9bW06EKwPHLeafRtG-f4wTw89tVk4BtEep4BE6P_2YL4rfeIVrUbVj-IuWYWoWNzrP_Zpm0HfhiDvK-IDkvXZ9e1C84cd9H8IUZGof0GXUw6ruKbrIVsdLapR46FJ777ttxFIT-8kTu8oD7lmyqGS6lLJSGtvQm4D_8vCgycI8UlqJPoUPwwt5ZUbvHeQDa3zxMboOaZPo-MEF7fAAt5OaqD2xbPqAV39a_3Z4JdThfahj84XUnHSp_WBOP0XIW59m6TUb2XdauVrHu5lU5v7_wvK9cMuXBhvrMF5GQpTMzb2ioTucNPbKMBcPQWQtnDvS2XmFhADnJA7_qT5bgLsv7lfCB8GseduQati8t0bWjuy68EMFD3i9JwTshs13AshtYIWgHdXBPeuE5J8x-USfEx4Bo62KLNhyMEb-Ja5T4NXAnBzRncp59yQHRlty8-v15KtuBNcpg4S9lnjVOC5PZQygj0HN3Jzb4X6DZHxZW0BacOyyLda6n9tY-eiTc5PIRIsmMiK5uW_rVs3rTxCrkkENp7LAs4QOTInsQ6Z6ILxJx23q1FdsJTV2OlIYuh5hbKNuW3JBEab98isms9LTsxZPfx36efbrCabgqe6BdwyNI1LY4M3g74KFwKln_cFzxtFCQFcmht-DwtOeek3XGkizmtq2TUmKot-N5hBsPLYx3p_ou99vt-9BJHqS37H5JHwtD1btd_T4ZlACjEuEt2pNWiXlzrpqo8Ew0z1B5Z3m1w1VFjtjdVQUrYJ8Pwd7idPvGNgoxpTCc8mcJddNQj25cpXipNcv8cjHi_7u9bbIJ2qYnq0VTWTAj1fV2eCxUqbbwwYCuCeYywrcELwycHP4t9CK60i-yXAykys_LA_sW3NubCA7TpsbluOkB5tzGBqzXCGZ4HzL8479jKxJF9vgFwKU3IuL0HXb1sLEAC8HgbxmC4jfle2e94DQ99TvOizBb-8ZehMFuknj6PAI0gNBEbzIfTJ1OQ2lydtUR6w-yZO5NxBthMwKa0le74BOU26sgNmFxJyndA4VEoSEKeiu427cATtBdjXxBoTTwn6me6toA5thxudp-4lIbNPXa6K5RzL_OMLHuH55QyxSUlWFeZjDtJhKHGiWpQs_3KYVy1bvkZFU4OelVMLen-p2kp63FC0eyBMFd0UKSua_h3WsuruOJ4dMLh8ZzKfSyAkIOYpOW-J9UAC25n5BEfk41ycIUT52fcU4YhCXIQVmdsTs-bDO7lIsW7KeSGlfiPhBKu0CueK2JLKw-I5YQyub34swzZi_KHcVP51ekJOdE45gyCfeSbbzJLpscNVjkzjhQ5lyaQXp4rXGezHiBrwgSeWFoIknz_wPc7UmxEgF4UDS5HQ2sanxElxsXhfDYr1GbZu-XRIwtw1X7ddecA_8jM1nMiY1QAizdobMCye5eb6BMI0ysWOJj_0kZN6r_5gam2WVTLFqggx-3HveuIbcxADiuTwDeL0eBA9EWY1V_jXphom3ZmWmHEdUKl6lCM2K2Vynkb94VewmwUBfUqlMdT1Y_p7slS_hqg7bHT7wLEaIqk_xuMYQpY6AIe5uViVOs6pMelJY88DHXK5orC5vA8sAnF2HR4Zuy1LlcbR7E1FdUkzb68WbAKsNwgjeonqSStQ2IrZbJEqh0nmGNHu5baWJEB9yNvRF-M_e5HTfvoYq7udemLuttmQjaPBpFBnu4m3a0glc6j0eMQ93xYd81JK6mdZ45s04BVbFZgq8dwiqJiPt-65Md8NRjKrCJUcOlUmLOsHd_mP0YdqUOV5pawMxZ69n16pE3OE3xj5_jQM0vCIx2hBABCjsM8U_HRc7K7eaOnmOEwhusAqe8AA9wg3EkmMxW9PXMlsnDs_uB_9MXyt5T8KP2fh6e8tEF1rTc4xeIy_I3T3RmfyGQxkgqd99BTvwt7O8WH3XEu3NN1PnogrbB_eefDm_uu2yUgOhNdAIE8hqsWOYDSW_Zt2-uhfCq6vModWMWZi2vpRMpNiFa-RGigDDzurwECbU1bX-eNobrlteb9caBE1z_DDTETCsKTKIJ96iil3ej0rTdyjOcqKf5Z9DOASwY3ovqA78wXEhDggok72S5XdpJzC7sIXprRpBhewXNR9HCmTmegVAJDnYETdnn7FQEvVORrmTpimOeg2W2TZu2QTc8yGQTq2bpVkXy2GpwbKI7X6NbLKU55CxJ3CT437dcj10FUujx37L6FK2l1hd3b6o7gISHeuIPfllr9qQbIApZ1i-GuVOsJUTz4jDL-vqUhs4vU3Cj_LaiF4H6RqS-FlzO66AckEmetVhqGPLRYXyJPVz_f6_psQ2TK1SgkfEPKVS8z_AQCA0x5rzAuFz6WHnzJsgTin-HIN98ev4jaBZKYfuJBLILGW-ykQ_R02w47TfHm-r-qcZoEfNF7vo24mDYJ16pGkTna1f5gkwOqD6VnWKrfxUG947pnJ-1WISEO1Jvpbqo214PlnM7J8QjOK_o2G6eO0RfREb9xcPoQKeSOwRWgRR-8-NwzOp3x0dBblxXOs_ZcMwDpRvA6cBDw2e8M1lkEBlskg-CCzP4x5FM0ZoCjcjkK98WR4wAl4RDyklW8jLiB10eW01M4TLdTJrnwcY0mqq1uz4bON3Q936LChXGkKH0gDj6fSmoK2EIzydSv564=",
+        "id": "rs_033023e99684040e006acc4ef2712087d09c6d8be604af78c6",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0063\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL19834864M\",\n        \"OL20573625M\",\n        \"OL21032214M\"\n      ],\n      \"provisional_label\": \"1928 Benn selected-poems publication\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Two records match on title, 1928 date, E. Benn publisher, and 31 pages. The third names selected poems and has the same date and the publisher variant Ernest Benn Ltd., supporting provisional inclusion.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL19844723M\",\n        \"OL5529159M\",\n        \"OL5765525M\"\n      ],\n      \"provisional_label\": \"Poems selected for young people\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Two records explicitly identify poems selected for young people and both have 120 pages. The less-specific 'poems' record matches the 1968 Macmillan record on title, publisher, date, and pagination.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL14961959M\",\n    \"OL4717145M\",\n    \"OL7640881M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The 31-page Benn selection and the 120-page selection explicitly intended for young people support distinct editorial publication units. The 184-page Oxford selected poems, 30-page Norwood poems, and Viking Compass selected poems lack sufficient editorial information to establish their relationships to these groups or to one another. Shared author keys and generic author-name titles do not resolve those relationships.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_033023e99684040e006acc4ef7ea8087d08ac497370fe2cbde",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0063"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL14961959M",
+                        "OL19834864M",
+                        "OL19844723M",
+                        "OL20573625M",
+                        "OL21032214M",
+                        "OL4717145M",
+                        "OL5529159M",
+                        "OL5765525M",
+                        "OL7640881M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL14961959M",
+                  "OL19834864M",
+                  "OL19844723M",
+                  "OL20573625M",
+                  "OL21032214M",
+                  "OL4717145M",
+                  "OL5529159M",
+                  "OL5765525M",
+                  "OL7640881M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2007,
+      "input_tokens_details": {
+        "cache_write_tokens": 2004,
+        "cached_tokens": 0
+      },
+      "output_tokens": 658,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 2665
+    },
+    "user": null
+  },
+  "response_id": "resp_033023e99684040e006acc4ef182f887d0aa38a314afe535c9",
+  "result": {
+    "case_id": "CCV1_0063",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The 31-page Benn selection and the 120-page selection explicitly intended for young people support distinct editorial publication units. The 184-page Oxford selected poems, 30-page Norwood poems, and Viking Compass selected poems lack sufficient editorial information to establish their relationships to these groups or to one another. Shared author keys and generic author-name titles do not resolve those relationships.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL19834864M",
+          "OL20573625M",
+          "OL21032214M"
+        ],
+        "evidence_note": "Two records match on title, 1928 date, E. Benn publisher, and 31 pages. The third names selected poems and has the same date and the publisher variant Ernest Benn Ltd., supporting provisional inclusion.",
+        "local_group_id": "G01",
+        "provisional_label": "1928 Benn selected-poems publication"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL19844723M",
+          "OL5529159M",
+          "OL5765525M"
+        ],
+        "evidence_note": "Two records explicitly identify poems selected for young people and both have 120 pages. The less-specific 'poems' record matches the 1968 Macmillan record on title, publisher, date, and pagination.",
+        "local_group_id": "G02",
+        "provisional_label": "Poems selected for young people"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL14961959M",
+      "OL4717145M",
+      "OL7640881M"
+    ]
+  }
+}

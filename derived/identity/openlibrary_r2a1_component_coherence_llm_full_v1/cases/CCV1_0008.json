@@ -1,0 +1,239 @@
+{
+  "case_id": "CCV1_0008",
+  "component_id": "W000003023_C04",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774316.0,
+    "conversation": null,
+    "created_at": 1791774310.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0d9d48974b6f9b90006acc4e66c4f887d0bd4d299e7af60693",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5slPUtVOCiqtwWDBEM9RlMMX4zL4ZjLrrIzcipaku0NVDbk1itE05PfkVOHjUzS83SPYyhmCjndwDLLX5o48yjw5bsTP6j99zzrC-qwn9hXdRwhwqCeqEqEdZRG0kQIfeqwryO7VInKAkH-nIXVyaKHXKEFiS24rm_Ioxk6PaIxeR-50TviqlZEyoZkpKomScL5RSljS7Lf4EDCX36UVeN3NppKXYegubIsxuI47GxImV3mnnA3hoyB8xNUuis0lujL4MJpASUnxSU9tJ6BjUdQoMH5kpEwYPqtZufufQJN6teFdTifQZA3BBj-h0BAQN3iWx4gBpsSbOAsnDqYXg97fVPgfTeipcb4mccKOn_5fN0ZXB8G1kis3rjcFrN4OwCM_-lN89hdlSccogfFhNLGfoPEUq0VK5pC502Ke-OKcQvBhs7LznzdveRBQdCt19J6A50Zg-0cdsCcskF0TZWq1IYC8d1rFAopQiySOUi91HnUZcflXZksrMTm2rjn3vlJOEnYswfSbCChH_tBvYb4V2uG5sDfQfSTeIKyrgL0dBFH2KAC-jACsyYqd5p3KpSuqgwsvAP_twx22SExanMWEjSZjbIXSypLkQYR0-SrN15TWVOu57kIGfhJ-BI_PRlC5_f3VL6Z9j7A63WnSHJK0S1TQYbNg7na6qq45EXqBmOp0pFcoXrsBkQnwOdlWncTCXaAbHZf2fTaw6jI0xjtbgyBm2kk6nAn5qtLldIoU6dVNz1w_o4F9kE2X_5PnhXcOynhxZl14Dx73fpCD8MFH1kw8KhhRPps9hKQDpPVJp57ditetoCcIEUmCOjTb7OXDZmZdOjMoF2-KHVls86t0LmF_wjWlrf2AkP4-m2iwJqgPibdjW4bBIauwAG2YZ_jtrAyQlUHGUc-qqdWyWR48BdSOHR8wu9tX6LWe8lRkyBvGiD7EEvxBDLDiOLU9CDDVMTY80PdGbNdoWkRGHTppMz9qC68SEAR6tYayMjaFtpz2fdVu5kp-WHu5myuUa_1e03ZkzKhBYSmv4nmY7cxYT0He3FAw30AqTZZrnRzMrhAKZJ1fqB2ujpDgwUxlwQrMYovsB2BZQEqdGcj_27jxC0zlHWJhS-3gDN385LsQAaFfoTztzaIEKn9RwIi8RSWwbV8SYtg2njB7VuoOeJUJBQjy5tj8pNPPHTI-f1zvFMqBI5hb3f930wLdhlLa1ZKaN01ZgrhfisAGzCgWpBJKsXgxAc0qp6fn1nS-cXgvZnAKAagdZy52eGBOn4U3AjGSWXVTNSA2dQRh8zC_mmzTJDb7xslLtwGQUuiIA0kkUWTwm4toZXG5f_2FkZtSnd6Mp-ztfQXOP3EtfjnmPDyPaK2sVYlyk63Z8RZmMLw79PGJrDvLGeU5JL0g3lPnacFHSLL3IBSqQcsv3Uas98aaNhfcHeMB_RDyOsWJbISNzcC-FedxFmCjrN_Xf6DEh2uSyY1JvK_RItiS-ekcwPlukSecORZpYsIFwiiBBrdwuHv7DPjpUG4F30p66IZRRyuCES9AJipw6RQR-UdNK4gT1y1JakJttPItxkN1uoLntetNXohOM13-zd5LGPPXBydVIu2VOl8witIP_sJA63OpmEAP0AP-S_4v6hVO3FYZ0OdeQ83K-FXyZbVsYrnhxwtEepaIelPrBsUP0FevOujmYfxTyCN0drRTxnir0ZN4pzLlJ_2RCvuzgTUlkhn2SO2ulaAFYnm09YwB-93unrstZKuQBWwQotHdG65ivk6_ezMAXn5TW2CaSPsetJu8-ZfKAUc-rI-IJOTt_YWbH8rgtGZPVZyv2f914O7aJJViQYXn9Aj5MDCwvShdMb1V4HjATrm_QynT2MD9NSgfcbQ6EzkjFuCgy7Hz12bjDqpkHx7kOhFEcEdCPU8uzg0vbgSyp6JyIqoRa7DWf69dtI9gBcYosHV-nLO8puHlph50KdDopcrsBY4zmpijN_9tJTQQNWcDWmOtB2JFw_jBRy5D9FISheFqwbyOrHNFukZ5fkAKtt-D4bZfmPJLyf59KfEjHVtabjgmqi4g_d5mKpWctKugq4E3jiu_JF_punGUAwjjhuVWRTrGVnDXY11Resr1b3lPGTVWIV_oKAlr8sQzw3VZNNH-86qnF0VP4Mrow5iH49Nni70KjWswE3BdFGjq3Ys9D2Fnn70kT1aO4IPcq5t1EMKHcvbBeF_C95IYbXRWk5-qTBwX7DZUWR2DEXri1aVSq2whCIBRDPQggDHmPJE2zEn-4XeLqVfwT9cwMPsYoR2zxDTJvKvdKPQUyedLvHllvyRIeNLOIf-y7nmJIt-GoRkMdn5MW4p_4_VNriijaTfpxJbtZrWOIXujrZ_ApZQKOJxpocjPN-1Wbs5QsQgXrB8rY0YMCoqhcABiZMaW4WtHn-clHKXs14HAHEP6vy3Tm96aTJvZui0qLLocfRkhau2ReillQwh2coJ6ocbd0R_gsSWaO0SFTJIpkFWQK5oX2-_esV18F_Y4Hhk1d4a3QrS2JhWhR_wFXs4PKWXqt3TtYbrPx1jBOtqyhDooY2GcapBk0QIKf-XfGuHp2e2DHMACP5JX1FaHhVGCihQ1VM5t_mb_IoU4UBsP4EQ36JJ6Y-wr-URRvTzvSHjr8eNRrC973ShDxV291CpVSL5Hr0aZ_LUnLvwRcQpHcv-ulJG9stQJO_6pLshQY0nSEzzM66k2GRBT_F3ldbJTz79K_BPEzbCEtdJ2txRIsatWjE7Lkx3pdt4OVJdf-QIQus8JXAGZgKgaJ0xhczc5-Fw_Xcy-HUbwHVMUER0KoGO7M2NBJi_EIIcFEUfoDVYlJgjMSmnR1BZwxvISd23yjR09MWnnM02UFlDdosVVFgmUmxgd5yi-CDf2maatUpLkqBf8lPRn92Pm6dbeqYhBNv_tGhbK0KBkU1gG1JoPX0",
+        "id": "rs_0d9d48974b6f9b90006acc4e67bc1c87d08a0303c41800e6b5",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0008\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL22304281M\"\n  ],\n  \"diagnostic_flags\": [\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"Only one Edition is supplied: Arnold, subtitle 'poems', published by Penguin in 1985, 267 pages. No cross-Edition coherence assessment is possible. The metadata supplies no editor or selection details establishing the bounded editorial identity; the author key alone does not establish authorship.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0d9d48974b6f9b90006acc4e6a213887d0a261dc0f274473ae",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0008"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL22304281M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL22304281M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1346,
+      "input_tokens_details": {
+        "cache_write_tokens": 1343,
+        "cached_tokens": 0
+      },
+      "output_tokens": 263,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1609
+    },
+    "user": null
+  },
+  "response_id": "resp_0d9d48974b6f9b90006acc4e66c4f887d0bd4d299e7af60693",
+  "result": {
+    "case_id": "CCV1_0008",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "Only one Edition is supplied: Arnold, subtitle 'poems', published by Penguin in 1985, 267 pages. No cross-Edition coherence assessment is possible. The metadata supplies no editor or selection details establishing the bounded editorial identity; the author key alone does not establish authorship.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL22304281M"
+    ]
+  }
+}

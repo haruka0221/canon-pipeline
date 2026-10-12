@@ -1,0 +1,263 @@
+{
+  "case_id": "CCV1_0057",
+  "component_id": "W000023649_C03",
+  "edition_rows": 3,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774451.0,
+    "conversation": null,
+    "created_at": 1791774438.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0b932b19c601e85e006acc4ee6e29487d092df5452d7c1c34a",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7z6m3NOJU0GrTVVR1hXrAadsnefEXv1VjDLxagkjiwYJNY2hBrVt8uqFwQ7vf7oG1uvtoIy1wN7rJIhjn9xvRd3fFvF6bCw1JZAuf4XnNQG2FQhZzQ2Xaoh6B1fBkJit52ysJfkmEfq2ESS3__URuGTc1IrKtUgASdJjsazpfMwEJwP70OfZFBym7Q65HGS4raXTdqpLvNDmUs8c8A5tRu68XwsQyP9eGvDsOfpVtVe_Txz8sYnzpb8ri864GovKD2LvuAskFvZjIz_gnI4FjmZsqPx54GrDvkR6i1q4lFjb7kiMZ8PO9ZRVx9wNv-pCko-v-nlPZQ4A-zNk2nfC2d3OnwIMV0KTL44rNmxdzHlymDY7gYIeZWSuACQVk7iDmoCu8GX7C34GwSapVc4ME0TxBnHWkoUMsn0-4XrBHgfLffONDw0B78KBgTrtGg4-C1_st7KdnuCh-CtEh2Tuc6Ztv6jq8FwxgsclbImnL5aN0WRkdUo9DV2pj8iq5o_xyFkVlVweyS4Xzbw8vQRXCUWK_mzL8kjOru1Aj8LIOrKLrYV0XDLbUbOu0gEhJZfJsHCXqH6k7pnaaLF8m3OKcvJfF_9p3ikYQ7HJ7WmHorsaA4-s3ruGq__MEt3GDCtgs5RscEm_hXpYIbyDrOj0w_cDpzPiWsNYNwW6u1vdjWvITTKH4DhmfaclgJbNKsa4dafn5uTdHn9z6W0J2Bsv9YaLiuPXfajA2KHbaFFBPY4maQD_F9oWORSj-nQPoUrkWZRSqq0RTEFmff8FzR1FdobQQP5xWTrtqAuwQKGBM2334S8Kv9rvX0GkH1ChyzQOr0ZIbk5gxL0esuWJav23KY-5mPyiXkRJV9bi6fn8l6DLU3oeYr8p1QLd7Tp56Zg0mscijN8foJJQ4CPOxele37rwdeOIa6KnZ4jFOSQh8_ZeMfkBuz97-Dsba7ClnN5FPJLTEu1fQdhCMc6KknYgHfbZ3J17TU5TLC2vAx202FSFqbMGkwESgE185c2EgWrOsOFizBt0UDXOEQh69wBSiqd6BtIG5Qux6FerTSx80V51HIDwIizxCFIxuRtyVNzQBncySMYUqpE2HWULNuJgYFEpFgGmb2nXcpJbFWrp48NEXuOEaJTL1ySKgEFZrFV5ZvCI8I484Q3YTUkqMwt6234bl3mjXdksNhlCB1PRQGUpG9mLXMdzH1fY6TFm1rwfRU9JAdVFQrmWwdz7UvtJzk3K0K9O-edxwgeCRVu-48P6mVpBzmcZ7qDhZjXq72nDLQUlVJTRbHV-aZyKrRJQwvbCZnflJnNSSJp1Yw9Chdrp5gBQ6pVf2m1pkVThao1QoH9-udwFo9rXK_ZdEysqtuoJbSgtatwpx_dXU7EokBhAI1JMWLyOdFetGpaIg5j-xssm6tSXzomius66MlPgJ7qpRnwUkqMcbbciHqGNsUIzSMZIbO0aOA66WQm8SxtjIxfHVvR_rDMYNPt6c4P7gdvoNeqaGSoKCrASfCvL2oHRxDnMdLMXvtUWDtiyrIBvDl02-iLAOh1DtAy4FTPbsoxtVQVVWYWpj6TooL2knvUdp8B-lRJKJcCK9iG68LTabpCDxOZYnkGqHXzBr1O5e9FGwQc-z4Mze8zLIJbURla71NPqWvM1ny1iF8mrlAgfuaIZUnkYa6kpZQqE047-ti4oxJbCJwk46s7w3aWRerjKh0TpJzFfwzgll26V2G56NVmXCNjWQ4Ho_wbVcdffKsLIL_AP228IKuB6d3_a6Nlwj4Q4C-ZJPE_NXOx0zysoQCF7RDBemFnt32mQCfzXuhSSuP5peGO3ogOoU3eKPwQ4vWHzNmFlx04GC9ky8iEFtdPXif7Hf0EQXwBqtTBKTi3QqIzn5zsNR63q8tf1bpw5WLcEfKS4BgLgHBlMEWiYWHU08wL0m8iAXhvM85UmI2KhtqsmRSgPx89z1Px_7jnuQNRMzSI2ILMjbDSPw8KUFMYsa3ZqVLQT1NYeHk6R1jfMZeuVUh6qZJXtuQjC9OImm0uIchzkTdbe7vCrr-fnj3bUkBiAeDNSqSPABS0_QZ4QS8uN4dXoWfB0xQMW4J9t1qjhZeom6veDHp3NZ5S46Z1G0vCTJ5wyfKfsS5hXUbz6P6AXPyO2_mseOe4_HJuLp0egQBomMTJ_wUCQF_dYyK1iac1JW_mvPXwjW2HRXM-71pXrb_yH_oh-AmtWa5cBte3JGznRWVFrGjKM3XHWStt92EedfweIOXroIKzufYcR1lruiRPp6Csluaepgr7QdoFo0R45OGO0dXmx3MD2eh25NunTnf4O-cP_quhCnHMTUfWhEcChLjn3NHf6leBKsGE8XlSNXodDDbRBmV6vvJHZujJli40nocqj7Pz6LEiAhDNhXmMD-w5NhocY1FkEuGgK0bUg_PZkV-4XCOxg6urqk9XkDFp9Dnhd8_tAB5ETNUpiQD_WBu-IBINHHPLVSQiVVyI56LK1KKeaKe-6N-1UN73YDZLAKCWVC7-wYrIIIJ1_qpsnM8IiUkFWaY7v5yN1aPyOVsUVvRsNrZFU9uC7YTx7sZ2CzMPaTmJEZJR7ARVu_VrFb8BJyEYrB1P5wg4J8n8xpech_JqO4c7nT4K8yXDkfqWWEWwbGjDI6nrSukIj0HvtjagvryYjYc7E119aVUxT1gJ_ei9OCmuEsXnAfr2JMkJgML1PiU6ecrPwA_hZt_3sE0u-StkZs9IWOhilhgtuM7H9GK4UlyglcSZmoIYSGzVa3nK3INUyUgFTckua3WVJPuiWZCTNzfZvbaCVxrErPVUft-0n-zJsHRlmLw-wTv00tR4ZGdzMKyYx9rxEqBlbdsCKemicNaoGOgbX4xedQGIqB16Lbser14vXxeCK2c4Lh4iuoDaxv8o0clCFbyPC8TX0EVg7LC9apkZnA-74Scxmz1lcEWVuSA_ctQFGl7sVtMAs9SNp2Dwmbxb95MZZM_j7KNdz70kcoNWGuN8gljaFcCr_Flz053aeDXGaf6oEeBq7W5ah94tbpmt-ak3tN6P_CU_oaSW4bKkb_pVRoDaJieh35iSfaIN1DM9ZPdthc2OyFuHRNwb3aCa5YDDaiAgiefaY6MpQQCWK4DrwZVvR8d9lTKba1n8zbWNuz7IdnNoHx8QTDDdzOg31HbFqIMV2slRS1yzVHSHgOqSB4vP8AtiaQ-qKEXT-MEuElEwiCPVwLTUgCvYipXcn_cD2tQfBbwbf5ODcTyZsZt7v7syhlFL_jVMSnnsshZKUnXU8RbCf-Sovp4uqbHDsANHcAieoyJiSk3vqexxMa94gWDLna82i8U_MMC5LyfXV9gDQESVFfr6eiGCFJp4SSESIW6_ByA8GOJq9UfOiT1KmJx_ZIAxqp0yuExaFlzYAi3sMQupG7cR-J0CgjednBKl_TESf-XXQqHP9EgNS9bbWNYL6qIpvUkukMXzBe8kPihr0iO6UNBuF0bmIsUBChtf91wTgEicyimKr4Ry8pUVqwG_pCVHa4LrJzrdbqzo9IbNIKXYDZ-pmm_MIgPMNG4QphO2UwimqduG3MiN7bCSbaW5blYANW9Mx_V2MAYeKWq_b5vW6yj5Du5b2n-0FqpZN3GFOqHDVFyto7g6jIuArUsvcIePegRSaZ5zBe9dflO5KbRWYGqSvYOWtihk9sgPZIvczIrmMR0X53XAKz3h7NvQI667KlnhmHNqcryxwwF2xAUZImGrgQuK6kyxNKYOgC-4gxBzT8b3XScWrVBRf1BA5WSWXFflJOmOuRiGhkzdG8YZm8sy52Kh6jkzATvttfIg_vTiQnF9ewqb3FbdaJ_hYU1oBLorBN-NBA05PGBD5IjeDdLDZsHJnmfI0quT8NQ9XpBr77vmNipyqZAsTp5i5lHsLTBuFINbDNZLM8HDK4t6u1T7pR1S0c2hTFYuLktdvMgB8xlS3YZGo53RJHbn7nN_mkTKFFPN2ulkbzX85lqv3aSq70coKW7GIm-4W2dTaHwY2xt80-ZgNVuba0EZ8UKWO8Dj-46zCq_2Yfvw1Nyy5zCgzfv4y80dZKz5-RMCM4Wbycpe3yq95f4UNujCyWNQ7RKxS2DDDaIK-VlC0sKoYwMYJXDI8KQMbnw6_NeiBudmb-W9HWsrgylcad6JUEffL3tBSDcGvt67g8TdgMooqqWcxjPYoJYaS9K8NjBF9Gqop6TwWjVprJTm0gkxwymQ6eWIUCsQ-_ReKob0qCq9tbu4m2tPQhFC9-AKfq7rEh9PllFeH6tZSyqdjpXazVS6QS8q87o2cTZx-QCNh4jwtkcyHR9gz2J-txwYGVxpbpaAAgiGL9RM2Dj8hopX22ay2VAzZGM3zUBbzx_7xAIt-8RflDxM9i6f4CfKM7yUvaIW70LrAYuFBkHnSwVsriX_h3OqbCj0uAVoWRRp0HeHIWhwesP2COtYQdaylHtTZbLN7fD98fxNT2gGMbdlySlNyTeJiCZWajZAQhVpAC5u3jbwEuP9-Ty0LYRY9lUbXiZCgRLwNGiEaTa-SnO3sehLG2WCiuvQ0l_ZuXokT2C6lYJdbiEAiwtnaAVmPUZFdlj4rzGLjmLT4XPXq1hohRWNgXExeov7Bfof3K4vkISiXkKHoXgfM4Kr9i2iE64sBqcqIPbm6leqTvxGeaZAj9aEjYAz7bBDSmEj8BfqFB9t18HQmPX7z1z047bOErgW7fV6HpyjlnulUnQtaASLHdliYO0IDG9ZEPoATnDxsMFw7WaY3-7zRFcBTWPyHU_JqO-wkHvgHIcM4JpeB0vvEFHxjmsaCnXk7kl1nkfnvhmDw65RpnzyDo_drt7CDQ20c6u0meFVCdQH679TJv7KOXmah_Ntybyw1Bx5im2_o9wmmx8zLBNNcDsvIHazufdUpkQhNvivP8DxUmHOJ8ZhwnW5xKDvx2QRtlfnVbDxkaoFd8r9AGgqRY2Fqf-PxMUOfkCC3y-f54Ck449Og1QwMpR-lHnJN8gfOHJTaUP9UwikUWyWMw8lalFyQyeGu8qWfrNRWME7ZMhy50x8Laa_GSzIzOVZzYP9b-A28ZrPuF-Iu_IcCDuDGVLaI85pUjlQ1BSRQCR7YOTiBJIqG6bLpxAM6euUMVB8LrFdBI2GSV4zBaefTJaJZ_zoMAig4sYL55h0TSh6yqcy-Q-kIjqQ073rF1ogF-fYj8pUZm0MKTuws0yVOaym_EuOhC-_6MyL2YT7UVMglSzIBTOSBUTW6vSYuEcLbOmcWSbHZ7_4EZJ5VrcFugQV1w8Ul9yZ3dfCpdu5tUzqziU22IBscaEaxseYKEjWrUliL5F1Nt-3UZlcqIo3Sj0IAEDkeeEyYGfZfPIpnhc1YKVZKAUFOKw6bb9IdOqDtJddMs3fgYxp5jl780cjKYMCQnLS84ZFxUX34801eD9MjGDY-ggDFtPzfO3Z28XwsAG-VRQODDzoIZM1gvnXzcbPcrokLzt1qjXpeQnMhuN_vM=",
+        "id": "rs_0b932b19c601e85e006acc4ee80e2c87d086660ae9d5839150",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0057\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL10601790M\",\n        \"OL12581586M\"\n      ],\n      \"provisional_label\": \"Ralph Waldo Emerson: Selected Essays — Books on Tape\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Matching titles and subtitles, with closely matching publisher names, support a provisional shared publication family. The author-named title and selected-essays subtitle support writings by Emerson, independently of the author key.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL7820506M\"\n      ],\n      \"provisional_label\": \"Ralph Waldo Emerson: Selected Essays, Lectures and Poems — Bantam Classics\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly describes a broader selection including lectures and poems, supporting a distinct compilation from the essays-only group. The author-named title and subtitle support writings by Emerson.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"FORMAT_CONTENT_UNVERIFIED\"\n  ],\n  \"evidence_note\": \"The essays-only and essays/lectures/poems subtitles indicate different compilation scopes, rather than merely different publishers or dates. The two Books on Tape records plausibly belong together. Editors and detailed contents are absent, so the subdivision remains provisional; any format-related explanation for the subtitle difference requires verification.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0b932b19c601e85e006acc4eeda4e087d084a07e14446d7f0b",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0057"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10601790M",
+                        "OL12581586M",
+                        "OL7820506M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10601790M",
+                  "OL12581586M",
+                  "OL7820506M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1531,
+      "input_tokens_details": {
+        "cache_write_tokens": 1528,
+        "cached_tokens": 0
+      },
+      "output_tokens": 656,
+      "output_tokens_details": {
+        "reasoning_tokens": 261
+      },
+      "total_tokens": 2187
+    },
+    "user": null
+  },
+  "response_id": "resp_0b932b19c601e85e006acc4ee6e29487d092df5452d7c1c34a",
+  "result": {
+    "case_id": "CCV1_0057",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MISSING_EDITORIAL_INFORMATION",
+      "FORMAT_CONTENT_UNVERIFIED"
+    ],
+    "evidence_note": "The essays-only and essays/lectures/poems subtitles indicate different compilation scopes, rather than merely different publishers or dates. The two Books on Tape records plausibly belong together. Editors and detailed contents are absent, so the subdivision remains provisional; any format-related explanation for the subtitle difference requires verification.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL10601790M",
+          "OL12581586M"
+        ],
+        "evidence_note": "Matching titles and subtitles, with closely matching publisher names, support a provisional shared publication family. The author-named title and selected-essays subtitle support writings by Emerson, independently of the author key.",
+        "local_group_id": "G01",
+        "provisional_label": "Ralph Waldo Emerson: Selected Essays — Books on Tape"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL7820506M"
+        ],
+        "evidence_note": "The subtitle explicitly describes a broader selection including lectures and poems, supporting a distinct compilation from the essays-only group. The author-named title and subtitle support writings by Emerson.",
+        "local_group_id": "G02",
+        "provisional_label": "Ralph Waldo Emerson: Selected Essays, Lectures and Poems — Bantam Classics"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

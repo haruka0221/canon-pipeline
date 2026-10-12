@@ -1,0 +1,266 @@
+{
+  "case_id": "CCV1_0049",
+  "component_id": "W000021761_C01",
+  "edition_rows": 8,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774424.0,
+    "conversation": null,
+    "created_at": 1791774416.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0cb24370ce27fd31006acc4ed0c9e487d081f8c0055d1fa1fc",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7Y6tyRpnFfu086kpXaxeMZXEtf64OSa5Eavhrki32ZgPdPTRb55bp44ZrIEyycOCI4XWIf7YNuTAU42uwb00hsarl9vwk6ub76df9Jv53QpeaP6MwROQzrRg4qGVugRnPfv4fVw3lZHT-OWwAPSO2HzpxI0FvBKsH3OiefH0o5Ac5t9ieHvn8OvkRfUmjOhNd5D1MwPsSYV14NhvP-fqwHVX75maZeErO-ua50MtaepR9182Ce105Urw7Fef1Rk1rmfk3cUJi7Ldf0Sw-sZKYH80f7Sp-gvzSIa3uKNpjwBkRK3U8i_gZ-1Pw0N6Lv-1mVohuv7AQG5RQiOq8zuleow2USE1F0nUbcnWCRHdEs3tRYdxa2WGkeQ5Y2c-aglKoDucWgp9BzrhWrfLouJ4Rv5bBHWs9GG2aGh75mja9TRYBWEXoVnZ-LsasxaRZmOGvL7laHLy1IXUyxbCJbvbpBXJ9Q99do9HbDBAdJXp4v1As9MgGNJWOwWAVnnkfTtlR0akRLie-KYYpLMOtam2mwFmCl_ygz8n9BJdeWPONJl232wjhr8gNHaWu1Jqf69tx6dhJYUgaDbZjvWKb1ARjWbvhLp-dl1xSdOiu9EGCAAL2IqxizPPrjV2LHF9YgU-RmNk8gmmaszc_fpr7B0QB39Lek1XK5nvzYQZLZAXL24DqLzmObn6HpSsEhRKGpn85MTYZ9BmNo8junOqUgYUZY6aM6fYF_LCQpAV-JEwofKsuljhGU0Z1w4MrZfgnjasr2VEi35_lUcmsB40M6PnbESp9Wtx53CR134-6Zl6LzjCODBv0z-v5KLX6SRfSEpkkPzWnDyHzak2S0NBeztkzAWpwvWco_MZl8t5l6AetXEX8O42qdRckNLt75PY4T7FAbQmO-BfSr2-MYY39lMN9KLLbYCcfYH23qp9XvRupLNuuTG4FewgmtBC0xUv0fbctvOAlssZKHyLDKwNeC_5cfEBEQ8gAUDYx6-GfvKMB5eb0s0QQK4Z4DkPFxQuTx1RlrmcgEMyUm5pZANM2CYzsVZHDAx962bfru8HgxrUeuNzJ7o_Ir5uxALsbxetbyvSSezN1o-OFBedvlST0xVYiPS8tX2AZldYl3gVlN2nvMuJtWVhLlB7DxODkOdilXaYI2FTvlTKASZipb_pe71st4IsQ6BQtCrk2BEnNBxFhyJA6xPpbA29niac1DWZTu0xS7pmpuhvkZAUjIZuym7yWF5JHYVROrw9ctQ13-xtSCEJ84b2mx4PWYmWGfGHAWmG-ZuQAA2m9WwOQOxHEOs6bRAg0M-z6H_AL7AOqRgfTDfuwhXZ-h5ga5WUBPth7vn4t17HGGfzX2N2fsGSogd8giOW5QhclvAMdRpPYSkocb0y5aG8MElioFX-TK5CuKdT7JwHYnZ5nBz7XUfmSXR-g3TR_1bhJETOHBvzCaYjKKl2k3ZnzIsPXbMCzIENh-WyMGo1ZnS2xGzQEbXIau-qVHiqXVQL-kefcAO4BjK13FqCfLLcf4DwfniwfOeddHfhS_JPEhwcZ3b_b6ofmwyPuRHLPMtwW_BqNwtV74i9wot7m-63GJgoztw9xoTdQGl1B4HUl0TOCWCpkv-8c0yjkwFJ0IZ7UgvLYkvckyoet93NWJ3WlumOw91HIXDGvWiPyAoOu8uuHyO6NMIzfNf4svsri3eKlTM1injA2ZOzdbAqQBmi_DTcNU11uITLHQ0Xcm2_ZHMBN8rXVdf8t4x-vkJB9xqvoHLVxJMwnmPU3PmBKT_D3Z2NGFbtxQvUGP_af_vsCFATWcR8Uz5F5-yGH7GPbeDd9M99hh5CtfWJHSWwyBmviJKoxwKzCF2Qt5ooCzyOjAQo537sEuQPnMUdWZF8cxIGAX2hqQCIqLkXlIW1hjm08qTWCf6mYWc_NxSVRvWbXXpCoh77180hYDRRGO7nRATKEb9DU0OfqFiUzORk9_kdyo41F0bbqzJMYNT6Hvx2n84lzm68eHp6sXti6tnNaXYVHVfQqSwqgOU7FS2fzW2KdQCFfiqMk5vP5EOEFpAFbDzUGz5sqkMQej2HnslwDHgc2GaP9BQEQvWe7cNEaTf3QiwyuUyJPttgc9d66CyhNJtm-q1JuDV48nYc-0IIykf1ZX7nt20WFdzO5qVjiYLkg29ziQKyOqS7oNTb5WixlZYOiyA4pNW6Gc7lg2j4QkGfpkRUmOsUwIjtTyPGLAWOnWCvtTynkPUtReizD_grj53oWt1HDieNKg2J59uFw5eqEUXuPcXZaCDfsujaQOXx6Ndew8mkV9maJjbl1gU0cgZq45-HrGBQMWUD33z-LxFdklEP3bT4pqXeaz9ACeSfk7jwNltOaKcNV336gt1jYeN9l1UutCeUFPyxFEVz783Nj1aqCBiSUL2D_WBDUi0EmpPRI-CNqrc3hS7CHtD67zGywb69jm1Zrs3FJPbtrXUoixjM3mQXZcvSi6h_lqPlk3ovjH3IUvYZXPAR9Mv4ouSaK7zhg17OSabDhuybfK2wIUi-Crh1v4UktCj6v7AkoJAxiy78GfcnTE45R30ZMDQZjLc-MKPzym-3qSWWTvtPWlXAvn76dzGRWh-wQHtGUFaGhr2xvuzcVNOrg9BZgAafRp2sqqt_koOrZns9oGsErgDpOSCwgufV2HCr6KL-78NjjZIhAaBCh0gbMM3dF_ipKIYf37Ty-1_fWAUQoUNvtpXLXp-7KDUSiJN7qwAhEyEOb6IgTtHI0yC2mTDmu2V4_2gJecaBxxqki-8GNLdAB57fGqJuRMRQrlskqC1w5iQn7nPHxWw7EJ21eu6asc2-Ni0V2SVDoxO-hrsQ==",
+        "id": "rs_0cb24370ce27fd31006acc4ed1b9a087d0b53a16d649d076b7",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0049\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL16460375M\",\n        \"OL18892416M\",\n        \"OL19340515M\",\n        \"OL20389510M\",\n        \"OL20631778M\",\n        \"OL21147236M\",\n        \"OL21818681M\",\n        \"OL22242857M\"\n      ],\n      \"provisional_label\": \"Collected poems, 1914–1947 — Cassell, 1948\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"All records describe collected poems covering 1914–1947, published by Cassell in 1948, with the same author key and 238–239 pages. The poetry-collection title and supplied attribution support writings by Robert Graves, rather than a publication about him.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Matching chronological scope, publisher, publication year, and near-identical pagination strongly support one bounded collection. Differences are limited to punctuation, placement of the date range in the subtitle, and a one-page pagination discrepancy; none positively indicates a different editorial unit.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0cb24370ce27fd31006acc4ed4526c87d0a7b7fc571f377ae1",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0049"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL16460375M",
+                        "OL18892416M",
+                        "OL19340515M",
+                        "OL20389510M",
+                        "OL20631778M",
+                        "OL21147236M",
+                        "OL21818681M",
+                        "OL22242857M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL16460375M",
+                  "OL18892416M",
+                  "OL19340515M",
+                  "OL20389510M",
+                  "OL20631778M",
+                  "OL21147236M",
+                  "OL21818681M",
+                  "OL22242857M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1921,
+      "input_tokens_details": {
+        "cache_write_tokens": 1918,
+        "cached_tokens": 0
+      },
+      "output_tokens": 410,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2331
+    },
+    "user": null
+  },
+  "response_id": "resp_0cb24370ce27fd31006acc4ed0c9e487d081f8c0055d1fa1fc",
+  "result": {
+    "case_id": "CCV1_0049",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Matching chronological scope, publisher, publication year, and near-identical pagination strongly support one bounded collection. Differences are limited to punctuation, placement of the date range in the subtitle, and a one-page pagination discrepancy; none positively indicates a different editorial unit.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL16460375M",
+          "OL18892416M",
+          "OL19340515M",
+          "OL20389510M",
+          "OL20631778M",
+          "OL21147236M",
+          "OL21818681M",
+          "OL22242857M"
+        ],
+        "evidence_note": "All records describe collected poems covering 1914–1947, published by Cassell in 1948, with the same author key and 238–239 pages. The poetry-collection title and supplied attribution support writings by Robert Graves, rather than a publication about him.",
+        "local_group_id": "G01",
+        "provisional_label": "Collected poems, 1914–1947 — Cassell, 1948"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

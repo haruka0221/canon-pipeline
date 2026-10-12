@@ -1,0 +1,254 @@
+{
+  "case_id": "CCV1_0041",
+  "component_id": "W000014024_C03",
+  "edition_rows": 3,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774409.0,
+    "conversation": null,
+    "created_at": 1791774401.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0cabd4f0116cd7ad006acc4ec1607087d094696adde331ea12",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7JQPrz7GARuWTokCjRYByXW5jSWlh6CD1j5x6PH6-GlIg8xXaT59vAc4j48fBISwrWH1ZpD19vv0uiSrvuf3nBgZr36naO4HUuMTLs9DyWoYgRkBdPHQZyKrOhRN77PmcuO6na2R_16k6a-hl5nOPcHp_YJZb5-MKsnxUl3hsIcbHgIQpUOOKGi36zmXJTcnKxh7M5hW3wszXGd2koi_lKnlcpt8M0KtXRelfKe-l8sy3Xls4f8DemzqgSuNWgSGHtg_lTF0gm1U4eAAnzqyWskf_CYCH2QkFoFlBqpbTYECjfHHh92G3_A7nWBh5iMAwgRio5UBliioo8AccMuCdywrBCl9c_HrpHHqgfwCGu72dLcrrFmBuBj0JODTfCWUT4ZAo68j14IOGi46yH2CmUivwjYUf_WmkzNWk1VsKcU7yJLHZdh2BkaMkZ-4MXkcSx1ct0rAQI5FRKP_w-eFPse-gWQ76eyfuHajsGeSHSeW4_uXgOrm7M4n74f71bHZFgymU253QGUfS3N0KfDZS6TIVg-LQtBORCGH1el16uoKjoQO4F_rOzBLqjshQ_hnGpThujJzlLSuEcdbLi9zL0LT5Te_darAA5gNysx0n-MIl-hqBHLmBqdhVwKWE8Bz4iJlUQmSb6q8EXb07prBbWzdgam_f_nPWtJn83r1CdTbnu1lut5ttSGxPeyYK_aACbSto0XNeWDcXJnfL8xeBjQmUKUQZyusna2kx_LivWVm0kvLwVXj9pbR5vqcVBEpYTnk9b41Ng3e60CqMn-5-xaO_FPQQ7sKtcvJ0z8sXCCY2Fxgeo66CWEQvamsIxy3aP3wut_lQ-woila3VMmQh7lwAdA_5OFk2M7KXP4NC4HuCtiAMHemJUCtMYZINnuyhkaFIWFQIGnsWGMsUqwMv85ivGUBnbGDsErlxeLl7YRW_HuzvnBpudh8Jv1dKP43Yq9kgAcyizDQ4x7c0I8kn3YKXYQhbnhhhwuCsM7_XW4U0_liNIjyIMUzSNhz_2XTBSRWD4DDBuMw3AUsy-NdY0PX6xELwGD1fsr4UTmOV2If_HjwiSoDo3KMrnaaji3VrcxL19NBC1egUtLZEF6_mm8P2PHWsJmHeQlvDEcAx5YHnPzgi305WID9YwVj1I0HNRnVmUjtyxVsDbqayz0XV4VEP71CSkALU885_Z703gq8kWtCWmBW97-SmKSAed1uQyYxYkkr6E9Ee248gTxFkwJoour1MuqR0MjhnDYo_Ie0j5b2AkPcjaeeC051RWV_KX3W-9ciQQzf3MZnfqKSwYqtcqQAobL42lMq4CM_CbFCQ2I3hIl9iExZ64UdhdvKdOx8FTn0JuO2p_d6Z__R7n2SWAeIxSrGwLyxBMUV507CMHM1hDHJLzAVxPgPusdLpy141DfWsamk7iJ5rg5fb1NjOUKZXTK0tDG6j5yuWdxV5k6NvSHO-kAdXFo3yJj3bgXMqQzXG39hlvZmhN_K9InkrA9Sw5tm1rzKVeZLdxzFBS3YTYAaRrHVIHxiL41yHLVByNgCGAu-vuxSpJlpvF87lJSzwkxjgkd9ZK72eNOuYIb_FwhvBWui0tAgSU8gnB5u5NOk0iDvjYPxatjisFMLRWk91eIked9ASzbhmP1FsurqHmIxPedF0O89_us_g0hZeWdapJlIVM2SksmarOTT_e19xaSR2bDDV2hn-ovSXdW0nuj5mIOJ-ST30-_BmU3nojnwS1lOdKIwiqHfR9OvvuBtP08PN-lvFBkMEfGXF6DNTEag8sAEaT1yA0jgFv9usgQ9SHg_f7E0YpZcW_1j3GG48hNNZZnrravqxVKdcGmhEDkCa4n16J7qta1tbYmIE58Rh0gi_Lszervo5YzwaCaZ5NcTkImwi69DeNuqgPcPDIxI-8c7LKf-qqToy2_hga0xkiVzI_T2XO1wWVbsRASPGMr3DyK1ToRhmQuWEaTlKB48x659RiAmCJNchXXzlKSCeOPrInwGQQONAhLr0Rb0C_QnRkoRGDwNitC5I8McHkTLX3qtpE1TSnCVxHsUwUsTEM03NU_IhwK3c0rWJtVqIxh3CLirXOLHTqNitS6zpWXMwRVbTtbmePJo2wurwT5mv4QMkwAy_FNuYgKSr4zS6jgV6HozjUSyqhP6lLMF-6mCtk5Cspor7uRBIurBg75YcOf0QDDkDtIvU6ZApuMaqKKitFpRCb0hC810_zyLmkOXNkTRDvYS5l9I82tOe2zJPQ_BtBE_yaIoU2QfzNuZB83RltwmM-NXHCTrIYk-SFjOssk90PtV4j2rlL34jjfKOImjFgMo633EWZWvF2CN1xn1nE6vglTYFiX8zQPDJRjFlOCGrQD_yAP5LRh0i9B8nJxLMI4S8FKfSVerS1mo0cdQxacJYwUpdYa0FLoKNDBIJBzJD43EsqvSD7OthJX7LcUK3gde5zTs2PRbAGZ-Zhq69DkvTV639ZujQS6j89Ri0-0_LLY7B1mYpjLlut6-r8osDt3PCnYXmC7yg3hDHd0hRZ4wZ2ych-dqgYHYE4QL3B8BhDkpwVp51GEj8x_wFddVU_Hn3Hsb-ILBXXsr4AJtpk8cx4nDsyXliTDcChsHMpfPYyD9LqyELeqm0u-xOkY6b22hvZ_jFkdm83C9QKJDQukPv9MJkgLn364v7rfVHLr_wK1e87Ywx4Seuj-g9kqB_hVVmDlXKN087HBu4Khak2Szu03gjkwvIahNaaVALaPCwWNMOE4w7-LZTZ8TvlyS3PgSiUdkqOcmcgh-sPgz-i_zs07XsanuMnhvuXS-1Q1itBYltgfh4ZkkYe1Ofv7wdwJ7SX8zKSVOxInQoLfO_GzIljKmHBs-rPGGnvGsLzcFFmKXyUH5LnA0r3hlhhzZDNgOIIP2N5FiJi74ApUTy2l2egCwt66xnafXN94oDWud7PXZOr5faCBqjVIgVE7ZRo-nfeK7HYH8zzwByHcCdp4rAofl4CrjSbAHt6PaWvpYONMb550a0al9hEId3cC9nkT8MrkT7KzE1A96SdX-Dau0PAjpsW2654kAOHLkPCx5YaG4S32L7kplp3JMP2itKLv3-BhfMPihNDmtqprRsW-aTwpNs3BAMbpLu5_v5Jv8ZavtvPEzXxndV_VC-hOXDkdtQvhv1sRII1GOJ6KgHBwTFlEmP3I16AYWcl11DVFw1TjCwCYjxOefyv0M0Pvnf78d8NzcJmUAtfcZAhOjHFgb8PMCc7h5w=",
+        "id": "rs_0cabd4f0116cd7ad006acc4ec2545487d08bd4e6aca5dda7d0",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0041\",\n  \"coherence_decision\": \"ONE_PUBLICATION_FAMILY\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL123300M\",\n        \"OL15269801M\",\n        \"OL7354878M\"\n      ],\n      \"provisional_label\": \"Henry James: A Life in Letters\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"All three records share the title and substantive subtitle. The two 1999 editions both have 667 pages; the 2001 Penguin Classics edition has 704 pages. These differences are compatible with editions of one publication. The metadata does not establish whether this is primarily James's letters, a biographical treatment, or a materially mixed publication.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [],\n  \"diagnostic_flags\": [\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The shared specific title/subtitle and matching pagination of the 1999 records reasonably support one publication family. The later publisher, date, subtitle parenthetical, and page-count differences do not positively indicate a distinct editorial unit. Editorial identity and the author-versus-subject relationship remain unverified.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0cabd4f0116cd7ad006acc4ec4c1f487d0ade2dd62cba37a02",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0041"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL123300M",
+                        "OL15269801M",
+                        "OL7354878M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL123300M",
+                  "OL15269801M",
+                  "OL7354878M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1512,
+      "input_tokens_details": {
+        "cache_write_tokens": 1509,
+        "cached_tokens": 0
+      },
+      "output_tokens": 430,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 1942
+    },
+    "user": null
+  },
+  "response_id": "resp_0cabd4f0116cd7ad006acc4ec1607087d094696adde331ea12",
+  "result": {
+    "case_id": "CCV1_0041",
+    "coherence_decision": "ONE_PUBLICATION_FAMILY",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "AUTHOR_SUBJECT_CONFUSION",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The shared specific title/subtitle and matching pagination of the 1999 records reasonably support one publication family. The later publisher, date, subtitle parenthetical, and page-count differences do not positively indicate a distinct editorial unit. Editorial identity and the author-versus-subject relationship remain unverified.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL123300M",
+          "OL15269801M",
+          "OL7354878M"
+        ],
+        "evidence_note": "All three records share the title and substantive subtitle. The two 1999 editions both have 667 pages; the 2001 Penguin Classics edition has 704 pages. These differences are compatible with editions of one publication. The metadata does not establish whether this is primarily James's letters, a biographical treatment, or a materially mixed publication.",
+        "local_group_id": "G01",
+        "provisional_label": "Henry James: A Life in Letters"
+      }
+    ],
+    "unresolved_edition_keys": []
+  }
+}

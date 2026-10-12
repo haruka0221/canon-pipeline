@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "cases": 71,
+    "editions": 371,
+    "proposed_groups": 76,
+    "unresolved_editions": 91
+  },
+  "decisions": {
+    "INSUFFICIENT_EVIDENCE": 17,
+    "MULTIPLE_PUBLICATION_FAMILIES": 18,
+    "NOT_ASSESSABLE_SINGLE_EDITION": 22,
+    "ONE_PUBLICATION_FAMILY": 14
+  },
+  "human_identity_decisions_created": 0,
+  "status": "FULL_QC_PASSED"
+}

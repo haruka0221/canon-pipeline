@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0019",
+  "component_id": "W000004821_C05",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774351.0,
+    "conversation": null,
+    "created_at": 1791774345.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0f863219d2bfa397006acc4e89966c87d09ef0883c86d13d0f",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6PXhOA1VD3vn4MHgldJTg2FclOBhZWCB8kM7hlJV8UFO_fhpSsNwxbej7rdJxVQW_80xVNlXnLS-2oavLjLN51MTLFnzCEJ0ot7T04LG0Dnsq9cA21DtKLvej3fVg4DbuLYSLofLBX__oNIVYVcLjEcfN9MHVVeWcERaFU9JX9hHIkSXP_PxthZshSm43K5oLnCkThVo0w9WzbOYF8uvPdNq1fFI7DH8MC2ckgq_IaSveViT7pgzhEtvs6x87Af8yAT5VoSaIQhy3DlgYa_yCrspt5lYgZf1iywYw0Cn46lDPxmzpQpFuQB6j1tvo7uGbQ4-KbGYG9Ycl4GOne8vZ5R1Fw03cK-eKa_tEMdTuxevlJfCYmiJUmbhRgX1ipWYo9l43i78xeyAGx-cQOlPFKNDhX2EV-EHnWPXk5w5K_LTAY4_tD_p0ETAFGqEniv1T-oDtiqK_qs2x6g4hQ_3czUawqwMFyTTnECVlRCITFVhpMVUppEKKQseSxIFfxjwbM50iFiF-j8hW8seJzwfLOvhdGTYXKzzPusRfDU8yCEFgpYE_7hP4vhPqY3tPQQvTPZVXNEK_ofC3Qm2MrHOAWs2eXsutcbxk0VCCWU-Pi691ylc7EBIxgVGp3WGoN9p2DJNv0sw2W0pHcCdMfOsmIgGeazsQhjx7EDTiPwOqTeIuAabdE_2ysfHKnEvd4vKjHTxiyA1SLc4PRS_6o8Opo7SVQIHluUMlmbXn6A21ltaD4BRYDiFoXFPTeEBLSAwOJUjZZjsKv-qHwjkoG-k7ZwLf6aWROgC6lJld7d3Y_Y35_cg6Eld5gSbpkibaJTw8efy1vHfpA1-xJpCFCeHyWSVmXNYVbvqB1vAkJ42HP_RbQbTTQRMjnT_dSIwczAEzikbbep-lSlzC7tZf72gbCPgjOBMSU2fsugyuFXlb1JArsI0_PxBxEdezmWNMO8RiapceR75iwGSke42kpvkYHww03cvlEM9etZb-ZBmqkUAukPZdkBREhjl5o9l7rYBg-05S8fRLjEHN_CVvElncywSzv5XNo8j6wo19MmnNKIhMK92bmNGRPZMA4BnonSl3PBtWUc_Jk-_38IMVSseKcp6qmqabbER7_YJyjHvm9e4w20WWy035MHtiCt-X9hu-XBP0pBTUJ2xveRfGynBCcaYmngBp2tlhjdDbvE4FSkH5DEkFbtU07PnzUkhF2V29zHdsr9cAAloyLRbjtCwx_1yWD65ykYiDOry3GpyBp6_i6UCfBMaCdTTbjtBnFQxPi90wC1iPy0xx66zFRHwbPQOS99O43D95sZyP8ZVU3cihiHqrWTxUjsgY7meEywr4cw_3J6JKOsQyyJddK5RtvzDQ4EIy1bxcZ7ZgElnR9qX45FR9qNMGSWczTOrv1de_COLeBFUnTZh5zQEvWGhGM8NhBOMfTki5KHUXtqX5eGrp8o2aK9EMQ-AAWX6eAjb3ZZl1kFtDFAbQVll3IUnaqLJYzM8cmTYk3fzlBvscheSzMK9bNk60BVxYfWUd5KV6SP434Sw7hTae-KNGbB4dGKTRnb_W7d5pn8HsMAFNPi2fT_Tzha4-Zy-kT36iGUhr6bsqWnMVMpQn1AOmHdgXsaWcUcnvoRy52FbQ_oRd9hcCGyJZ4zMSh4wtQ33vmS0KMnCUBLRY-TeEdZXcHs1gJHmwz7E8YTmiNG5H7JappM49j5jNJEZNfEj0Np5QVX7uCwk-Z3YBTCJ-0BoG04g6P4bnssrmyKdA_GsgyIf38M32RcUq1WokiMbygcNsh2Lr49Ir5Q-ATX_fjN9_boyJHeI8tIuftH0jUiyMwhLUacvje2mE-2fGO7kY9-PU6_G9rYq0KEJwo5BUqz3d_mtGqO1kzoCK518QcrEQw_RbOCC3nAqwOhoMOaqgm20n-BvT3ex_CcgflvuKiaG5njRsL9c6RVOn_7uNJmQ8qpS-JDcDNxy5v9q7VsSHcaRb6m6X6-IpCKIRJdsS24633UT-hEJkA22HfQ16yD-MlYINOkmH4LlLWw_ervTqH7nEMfVI-UbkfWL02b-tYpSPPu2ixO-aIGOEsb6Isg7tGD-IsstBa3Ge0NA-GWQWE_P-mZqEzAzD8dXR5ql5zy3ZQ-gqZESvD7Rr_ruiBCG3TdbnqYO-EJpEDDFx2fIPFzzJ7zxQBwiuc0QuA46fq0W78N0A3JL_7ogrnFVJizQKMu4mVBoHq5CSpW29OG1hK3lQs_dK7i3oyVT512xXflsVHrDkZw8VKzrd-anfmrtlqA7ves3yhravOAZRG3Y2V2jdgyOfmssGyYI-t72LTqP5wM1IOu_9p5aRvPQvKGILfOiTjBPuYGx_cJfsDV_cG3wIvQKIM8IEgIfPxpQjrO8wiR-H82Fye9Z2JmVKA--15EyGnDIn_ye1MHy3M0-bNvx7aQlVYJqnNGp-Y9sRedwCK2kbJjICCQrKDEC00vfSRsmdY5FQrpREBcRJyZ9GjNz5jdwBvgi6KBIrmZIvIG8AL6o5a1fEveDHHuG4SrLhaorPrXpLvGqpJMB5jOfXHS9l_mHExKaXZ_5A1YIlLK0PRyDd3SUKV_t0QAX1thoeeBzdf1WMBrtaDNSx7HVrzBuaybuWsAcF6g9of4BSpdann5mT7xc0MISVsy0FjM20bxDtJFS7s3unwEnfVL7o9NT9zdc7gQoG2AbryX4FizYtOFEtBIMSGraN4JYnazkDHSY0WC5-_S1W9cKwYjJ-uN_YPmAMHqIQRg27H-VM5010pUbIdjyH4u-lS0z00HehAHmmoO_nZP3qScgNiG7p4YyOuFlRIfS2TNabGqINhmfIiBjarFvIWzZFM3zSpp4yRjp_Uua7e6Nz5Fc_XydHE3x1-onHZg29RX84_7tKtfBEQb8sQqMmE3yPKtfp8wIv4PzkCtGszPamhHQC7v8Lfx19TN5rxDALUwdz_dIMh8Evl_Ws36YbNKlknqxtUYoncUY6lzATrmZ_DIyqKOsyeS0y0t48rARMVPfLnP_Icb1gKBYOrguCjC16g6YNmSrIKcUv0s3ohfQ_D9apzjVRwR85LmKxYevfgOqRV6dvVBvrOkdtV2U4NL1GlA5YiTemGBVsG19M_Yyeu42N_J0uX_7wnQSToGu7-6-PDLg1CQQNMx0u6YGuF28SH7E6cyzhJ2J-mNVmKciNkqD8GaYV5Pc6i29jbspePwdvQfJzlxcKxnXGYIqBJ9toPlzxur3Gmd5dNbwWc1FTKaP85LpqFdOcbErmT2M9okRU3ckLIbW9LpZ2TMKDeXvvkcVks1r34uZdZki6057rCGXorcxVA1G1L3JpQPx9nTWqbjtdb5TXtQ5ghO37d2tbtBHKROWux3LMJ9gfgbgog7IqYinmkGHHNXa4J1GSPVemhcyGLt-EYvfcc8RsRUlNhO2j3VhtF5YXWd7YITKiKcRGaY_Kl79BIRjIkyMHtkNC_3pKruqNU_PFR3POB6nWweSSnZ5dbaOnPpaaXy-VHBqXvq3uyRkuYDzqMffzp7hzqPq62KYnxWtu8P1jx3UZ9tf3voZHosBICfoEYbxPV7kdft_jpfcVRBWdyWKARnRdyloITcDi5aSnGXE54PX-9FT2Ub38YKod9daY=",
+        "id": "rs_0f863219d2bfa397006acc4e8a693887d0a357f30dcc46b979",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0019\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL11214944M\"\n  ],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only one Edition is supplied: Rudyard Kipling, subtitled Barrack Room Ballads and Other Poems, published by Spoken Arts in June 1987. No cross-Edition coherence assessment is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0f863219d2bfa397006acc4e8de2f487d09ee6fee9f57d4ce0",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0019"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL11214944M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL11214944M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1359,
+      "input_tokens_details": {
+        "cache_write_tokens": 1356,
+        "cached_tokens": 0
+      },
+      "output_tokens": 285,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1644
+    },
+    "user": null
+  },
+  "response_id": "resp_0f863219d2bfa397006acc4e89966c87d09ef0883c86d13d0f",
+  "result": {
+    "case_id": "CCV1_0019",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only one Edition is supplied: Rudyard Kipling, subtitled Barrack Room Ballads and Other Poems, published by Spoken Arts in June 1987. No cross-Edition coherence assessment is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL11214944M"
+    ]
+  }
+}

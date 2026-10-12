@@ -1,0 +1,297 @@
+{
+  "case_id": "CCV1_0024",
+  "component_id": "W000004923_C05",
+  "edition_rows": 8,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774370.0,
+    "conversation": null,
+    "created_at": 1791774352.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_08169093f288c340006acc4e906dd087d08e6d2f3ef44f804a",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6iW0coG4Bk-NISNJWHhdK-RaTHBJ-PWBRJc0K9PxwGljElkVcRoYFP6EpfsI7jtVM25W9cTfhdAex2Pk0mE8tU5pzWMotGg8YwSUTKb68xcZs7GgRpaHrhd60SJxdbMx-uwcHheZfgwdr7wM0flGyYjfGswweCy1ugvakAuuaSHS0zGOmOzxMrlk1135qtxkqWqaSrycM-sV4SJEuvSEs59o0eUQP4eApQssuRerAzpO6FR2wytDQQC4qVAY6dafJLGfdFroCHUB6i6dbjEQMmcCXajByycFWY5_0QC2r4vJNJj_F0NzCIMUHncnx0J4V7zl45Q8cJYRJkmTJrmeSjBfUvH9wrF0BETgAZq_ray4mTeNn4VxCtyNfqfGdB2T0HFJX_52sR9sRAiT1o9QCJc1478EOROZmYU9UWrpc8Puj1FmcEpKtjPsAjW9-L1AGI09an7vGvRODUGpq6GOnKFS4xov1Btprb193pIH9kDOKFNwYg63CzSpNQBO5i7GcBcVDaLAhXS23KhCXsYE54WxzkcMXTjENc4MsLEhvGaxcMhn01cJEHgxh4fuawkaSunkc7K6CQSVIKIVKoZeus4-7keyWrd1HBFGkt6_ru5cdX1sveQEvHM3TQngQU8N1CNM049eWe4uflDag880_Sri9gT7wjtN6olBgzPV0E5IIPJ2Ope09I7qPUPt5lUWOuJhenFWFFn4A7D3MZQSGgSuLiWWUNnwKUbZ0msSrnpZ_ggDQTEHQyCbwd6wHjJF1tGcJGvVoZSMFdTdUv09sbZdmxFEQIkMXnJ5u71bV3a2ear9DpIMqfcgDKSbBokGYi8-6Z25ajskWXsFJ4n1dBmv_EYMqioCUyIl5_p-RS_kUcE4rDPaYbZhf93qUtF6vLkQ1N0SDgsRbihCDCRYKZwiRZCoDfAU5WOVnpUgOAIQDf20AQlv_PFOsQ9nbb1-Iq-iSbo1hoMVbeQPi--0YWpkXUClTXELKA9HmStWPXXQvtKjbH-zRGTum30fOzZm8fH2hLYq2R3iNX3yp-BvfcRygASOOuUC--_iJ9E7qitbARfrQbBWPG0hsfLvXRxURe_53fvsjgk4uUQyOfoDi2hi1sQryohL51GKcucNk8DIJLcMck2ME4jU1-jnwi6GJlgyUrIxacEU4t1oYqN1s_bTrOZCXxjo7noYVsizyEcxB_sLHsaXK6d2aW-qez-ddE_zITcXswfXCdJtMYYVht8FToLMusODMPf-EvwE7XDjw1Wj5YrKB3-UbgAAeljBLgei8CL89dBOMa_XdmaBgVXLVP9xhtf0VamkUu9UQ-jmqu1NznyRuYzqi0Q2y3z15Ro0LJTC3845zSBy0gRSTZ8MMPfT1WzeGqXW8jmIsNwUq2rD0B17Xgaq8xQutMR2kngJYgJ4tnc8re0HAZp6PJeQ_QOPMxkgixzyk-4KeMjbpSqTGbL4cttQ9gEQTcDQqVswNORmhSxbDt6PPM-AxkZ2WLL9IOcljX1OYgJ2kEHN5uxDSehkAHOkJTGyI489T8eYeKxkiz0_sRLlCnLy5rRU-z1d4LpHNH__AXm2qiy-FCzl7RN38JWljxA1_u5CVRSGII9db-QLLKdG7nfS2vBnGAwHZBEMbfxfPJTr1wtxCxuq9maP74u1Fnws1rTDzQk13m2lseI80xYqPfDCVu_Tkfv27c7cqnxvGmBCXKlM4AOMTtVbceO-tvA1r4exQqI3waN8r9y9HqlyBnVr_ehUxv6FZELe_zyhHpSt4YmjsLAl4xtO-HD4Gv4y3tGnyPPOrxBRc2Fe06X98E_UV1eaxO8LbZvxz3WXkkyeXXmsKf6z1U0X8ohbewfIfD_wUMyDtJO9KXco8GwJtzzB89n93SDz_w2vZ1guHsJuiQOX9PTZHhjwtCTs2kJ2mo68S0Ib9YzVU9W_Zv1bZLdRySbtrsqt2QN0yI27UXKR7a8CRoSa8m2wrfBYwfayOftF2qIBqm1_OmzPL5ITr3eLxCfBY8hE09EpSyn7nlWI0VwfR_rLPpXkUtu9s4cCZD05cEShd4BS6Q-3beT3H7-mS1DVIe-i6AOvJ9OMCyq-kF1O8hzQKU6hiCozgMivraykB3Lozzkct7QN04Wh_BQOzBoTZRrhU6Ra2D3r7l41UOLWZFZR91UpA1yEb5jLlrqsUUOouPO2BJZoQpvfop1teRhC4ZBOeIzvdcaDILuEpGQCrIZ7yBk5euuoRp4TZHaz0ztc8N3WWosv1REnvV4gHBnWbBfvxMOXzRkScTZi4WE8X3rJGQdixfxQFaxCaRZWNBg7W67v0zjGnUSwe8WYrn6NbIQ5BG2EjqjWzqSHL6EDxdW5syBNJjuZU5-PvFYykxtdaDqmaXPvga-S3E0zudnPgZusoCENEJgmjn2u6mrRPspkP1OlAN2qJbC3PodE1jflfZtFwoKjyWyqJAAZPYpZEg2wTNqzBvjm3dYbpd7DWHhZ-Ye-A8yVcai5Pl0OEHBLos23W4NCdFuJ8P68QGdy45UBB4HVVUoelwnRMS5gP3ypwygGvwBVFafdbz7_AGZjQM69v3ELl2Bp2F6K2uzBye-r7TIL8_FNrDJhD7xVs0xGIRNcFZZmhZTzfvaQlheWI0gVpkOoVrKsZFBiZ3IU2kR29v0eAoMI3qrejAJjzGjpjikOAHuTcrZ6b1ZPkouG0e5WvUhYbdLEtkRiCzw5SrHqRoRysRkfDMXd04gVThWBY6W52-Dzc3LaIEzfLvHEsgLuK0h5jXE9qIobV6ZboZAr6ql7eWGLVBiM69V45W2p8vg1aodZGX7cldP-zY54t87jpCvYb_vI2dkG4LeSXB7pTni4TpAGp35MhrDwa9V09jZMGi2ncG0oBQ9PYOSYoEl4nMvmmQCa_EmSmRnOM47xcDyxV2plzG3IUT9SZLlx9I_3n57IQC326BR9vnL-l7ngGAbPsf6a7ahyr13hiWXXF3q6Eyp6Yi9Xsr-GmmEIatZG1IwEVKiTCa8XqTCE-6HbVN4GW5IfkRu_Fg9sir5NVKhZhkvixWFm7MbqkrXl-UG3FHcu2233PhI_VKKc7eXrTSnjUPNKU7R92REZZPpvMWSWutcmp42MsEZA0zx3GFOgfpxtq1Di4taSQFP2HYydWZECd0AD43J4598kSJVZWnBlPHVO2YXSUPOnnY9ViiJCwuburEyezv0Mb1Eg3w7FzmYUkSvsR7ZTlXSXS-3DO5XFRTpjV5QK0ZnpmTfchvINfNMTvIXartuA_NHOrGxjJgMhBfMVWI4WNRCG8xgxGkenAhVPFx7Hw35ld9avNaJR2H9R_Uch18twCewkx43vv3qhR3At-bG3fnH8v4QCI4MuEO8WiifIdrKHTF9PAnM7Uuo8yFTVPG6pRDJ0X9GU8O15EIv3hyd7Jx2z1cYrQn-AS8Njped0a4XE3MWUHn7b2s328diUVm926LV0fYVVqGcSdub6Gf6zzMoaZEv5Y_FJk4GM0454oOBunXTqZrJ5O55EC5mAWb5gmENvWhzKI0VDht3dI_yISfdj7mvyYCI5OPlkPGMj7TR4HWRLZRcJB52iq8Ep52XVmc7q-2EeMMx4r0jriDE-fqGsgujpSeRm_2H-0GbKdvgA8xK01ozCPAnxIFPE-WN4vaT8vOHNPCXKvtdpMCqdIOjWgLXgymfsNjnMtCSI9WthHqK4HOl-mL-hm747DiuFw3Pd7ZDkulcrnE6G2_MnVmfHQOWS7urc3R-O18ZIXUiyt3_Xd5_fdWHnwNwc6o_jIFrAe32FoGT9AZ469H-TadIVCmZ2-47jAflbiE8I7VMrKnCaLoztKdyS5Gl7qK08f6CZ1bpmeZZPvOOVfz74rvDZf_vWh9RStOcJIMO71z4Z1fSGwt2-CXlRT5IVe_YKcJN2IGe_XL3UmACcHipwdoHgDjCf5xCCepQ9ltMVAAiu3j3_78qRDb_TuZotfabDl_vaAaog_ADAHAwanaML07gRr_qFZQkUyeibcOTuC4SRBOb7TXUDImynGibynUQQgt9yAQvJzZGq9VTpIY-LoC5477j__pl8JovvNG6qVqbt6AySnB0YmqldDEwf368CHN5DJnZ97rFOpDNQwnpmvkbqSI1VCqjm2iIMT9wnFMLeGqQu0QrIq-2h7Acm0cM_SPM-hw8XjCGSGYU1ykBIdQUvAGWDh6JNcPpJfbDnmf3dvTIkm4OrVs0jzVgHXTH4bhkZNN2lgT5cUMGHiINwDiIzrl7twXg_6y_3jCnrNIDLoi65oAGBBoUz2A56p3aobVgg_0uIvfkDpvCsLaFs9jS-amgApWMlxYK-t8VdK8FszgUITocDrOGPS3f9kb15OotBugDqWTT04PFhjgZjm5vE4Vz_Fi0aQo2EtDr6b3C4sJpIGsqpzWcZfZFqlmtG3Qtkm8EhMccRMsQUcMEbEZY7Ze4mqYsgeZbH0RY_1Ea-HrYzQyDA-hPrqPLF5YZVahIHRXDeUpnB_X9y_EhX0hq01NIXfY0hAKY0ueV7eDdvgOYf2KdYMEcqLzIVjKs1UrcT1xn7yrHTFGpEoYfkYtq7s1ngJn14O7dEQI6Wa95El4ImtkpOgaVtTq2V0rVQuZPvqqX3nMi1NkMqpRfKt1M7HIVOScaX9fvkaW1zL_FK_HidJVMhYzzCAdJCcr9xr3IPmdw1WAULdCXpE1MRLnQODmZGwZu2eXGf3C0VVm3xXzXwALQ_oZD51QZB5lAadtxCcyJdYBzaAjJlSmWJ8ZQctH0LOfOqVHCiLCwPx7GgK4nh3guL0KidurbBjlAETH0c_5KRtaiChY2JbAvk_1G2yF_5phu-ZiA1v01SWGVsKsUYV_trRFjVoVr9ip6J7Cf3gfNd0T-DdqLstVlnk1AAK70UwDyIiS0NCSxHd3wvFimjW8KruANGMDyXjVtvLHFdLQtkSJT4qIGF7ulS5tWH9ufirOaTx7uUwZSyol-rAyZB7yMGGGBfrobn29WItnhqU3WmE-HJmPqQh7lY7b0GxtXvZdGOVDf8UvNdNqZXHIYN9zZ5ylBeTkOPDCo8-31DK-Vl32wyent9D2Cp71jMC0ZeDBaziygytt8WWXmRm5KBb8Sti3thw3WR8KVWTdABxcmXZLuo8ia7KvK4OL5sGUAJ1452M0tY8Ss_bOnRnLgnhQlJhb2NuNbChzrR9YWyrofbFROef7c_0L9Pk8AbU77Q7iYfAe8xjNksmyVeGM35Woh_NvuCFCU6Lu5YhbCrukp5xkdKTUCQp8yTEJtC6UJZ1sSrBUE6mbJiyIK_mHsKOM72TRF6EA4WY-L2Jn_6glV_C-7wlKvsj8mhepVT48vBJ0domKrp_6kJ3kraiPc1i7kATGuyvh3u_WRZUmB0kux1riSFjjdYNnoZ_bNATBLBnxLfxETteZwHX37PJND-6mbS4Hb7M4ygSQV1c8sGKwWJIwsHRqhhqhwLR5YwQy0bI1TUOS8747xcBWkaJsS9e4uhtgBNrC_963zbeReo4LQkhdmpSUe1bcnBpzjjr45Ia0fDHImLzyueIwz0B7q_N4QzhNjnWQSRGAbfQHwB6NNMwqpxTyoC03wZDF33TMZ6vhMEY393wZdryDa8SR2cA8d1qS9ZgRsXckW5kOxTWUaX81cwG9GKgHk1PWjnsroujmAPG71BsTnU_prC8OlFRvu1qH973JmMzdvp7Ab0kLjXNfFTaabZXZ29G5TIPpYEY3oe2O1F0kGc3-JpvS_GfarueWZeF_sUjYvlN-pO2mVe08WprmMLhrkiMrc-WxHKvaUJQpbjFYEbONKPbiOvhqwYIcFC3wd7dfBAnFfm5dpZ5bCk2_AXYYkNKg6ExoJJd6T9JNlcQRayCFx6d794Uae-suJioTrR89_VHs5P3-GD2TxCAHMgZpikhjSeih3lESNlSqn3xWj8EE6OAFuT2UVM1J9GemuwYlN8McpcrVmK36zh9nz5UX5ciio_WEtFCVPQJ1dt9NCrnDOTBr8F4O_q5IMK7UX5HPHMr5fj35VyGhrKD_Bu24KdfAcKkJc-PYnYnTrkr5xPzxkZA=",
+        "id": "rs_08169093f288c340006acc4e925fb887d097cab693729654f3",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0024\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL19535989M\"],\n      \"provisional_label\": \"Rubén Darío: semblanza y florilegio\",\n      \"authorship_relation\": \"MIXED\",\n      \"evidence_note\": \"The subtitle indicates a biographical sketch combined with an anthology, supporting a mixed publication-level unit rather than simply a poetry selection.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL20913144M\"],\n      \"provisional_label\": \"Poesía: selección, estudio y notas\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The title and subtitle describe selected poetry with study and notes. This supports a provisional edited-poetry unit, but no editor or contents are supplied.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\"OL22237766M\"],\n      \"provisional_label\": \"La princesa está triste--: selected remembered poems\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The distinctive title and subtitle explicitly describe a selection of the author's poems, supporting a provisional anthology unit.\"\n    },\n    {\n      \"local_group_id\": \"G04\",\n      \"edition_keys\": [\"OL7204715M\"],\n      \"provisional_label\": \"Eleven poems\",\n      \"authorship_relation\": \"UNKNOWN\",\n      \"evidence_note\": \"The title identifies a numerically bounded poetry collection, provisionally separable as a publication unit. It does not independently identify whose poems are included; the author key alone cannot establish that relationship.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL22964785M\",\n    \"OL22974511M\",\n    \"OL22996991M\",\n    \"OL23037366M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The combined sketch-and-anthology publication and the explicitly described poetry selections support multiple editorial units. The generic anthology titles lack information linking them to any particular selection. The two love-themed Rubén Darío titles do not establish whether they contain his writings or discuss him, nor whether they are related editions. Proposed groups are provisional; dates, publishers, page counts, and shared author keys do not independently establish identity.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_08169093f288c340006acc4e9a516887d0bde7b8a20d75d84d",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0024"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL19535989M",
+                        "OL20913144M",
+                        "OL22237766M",
+                        "OL22964785M",
+                        "OL22974511M",
+                        "OL22996991M",
+                        "OL23037366M",
+                        "OL7204715M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL19535989M",
+                  "OL20913144M",
+                  "OL22237766M",
+                  "OL22964785M",
+                  "OL22974511M",
+                  "OL22996991M",
+                  "OL23037366M",
+                  "OL7204715M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1907,
+      "input_tokens_details": {
+        "cache_write_tokens": 1904,
+        "cached_tokens": 0
+      },
+      "output_tokens": 923,
+      "output_tokens_details": {
+        "reasoning_tokens": 321
+      },
+      "total_tokens": 2830
+    },
+    "user": null
+  },
+  "response_id": "resp_08169093f288c340006acc4e906dd087d08e6d2f3ef44f804a",
+  "result": {
+    "case_id": "CCV1_0024",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The combined sketch-and-anthology publication and the explicitly described poetry selections support multiple editorial units. The generic anthology titles lack information linking them to any particular selection. The two love-themed Rubén Darío titles do not establish whether they contain his writings or discuss him, nor whether they are related editions. Proposed groups are provisional; dates, publishers, page counts, and shared author keys do not independently establish identity.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "MIXED",
+        "edition_keys": [
+          "OL19535989M"
+        ],
+        "evidence_note": "The subtitle indicates a biographical sketch combined with an anthology, supporting a mixed publication-level unit rather than simply a poetry selection.",
+        "local_group_id": "G01",
+        "provisional_label": "Rubén Darío: semblanza y florilegio"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL20913144M"
+        ],
+        "evidence_note": "The title and subtitle describe selected poetry with study and notes. This supports a provisional edited-poetry unit, but no editor or contents are supplied.",
+        "local_group_id": "G02",
+        "provisional_label": "Poesía: selección, estudio y notas"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL22237766M"
+        ],
+        "evidence_note": "The distinctive title and subtitle explicitly describe a selection of the author's poems, supporting a provisional anthology unit.",
+        "local_group_id": "G03",
+        "provisional_label": "La princesa está triste--: selected remembered poems"
+      },
+      {
+        "authorship_relation": "UNKNOWN",
+        "edition_keys": [
+          "OL7204715M"
+        ],
+        "evidence_note": "The title identifies a numerically bounded poetry collection, provisionally separable as a publication unit. It does not independently identify whose poems are included; the author key alone cannot establish that relationship.",
+        "local_group_id": "G04",
+        "provisional_label": "Eleven poems"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL22964785M",
+      "OL22974511M",
+      "OL22996991M",
+      "OL23037366M"
+    ]
+  }
+}

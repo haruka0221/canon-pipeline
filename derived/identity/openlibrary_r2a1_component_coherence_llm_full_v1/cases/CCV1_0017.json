@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0017",
+  "component_id": "W000004821_C03",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774339.0,
+    "conversation": null,
+    "created_at": 1791774335.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_06408c2700e58c7b006acc4e7f745487d08341d74cb5491144",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6DTrhUJE0f2FFTFD1RkAIl8jH1i9RTqZLlNJtFPKLxwhKPnyrBq-mBXbB8a1JdJ2Ltla705ztdMoFvrsZnWotqrcyOFoSlI9a80zurAyAmQJIlOyOoYcqR7jREB_JvE18u1U4WObn77KMXJks6h4znN_T6GNA_DQrmwxmRS3OlrK00xBvQcPpAPJNIXU9kjf1UFiE65AK20Q958SBfu6C0tQGZBj7b-T6FRHMnv-n9uDlNXUzSQU7BRkbuXyAXKtzFRnB3EgGrI9rFx0cDND7j1R9VVQ8IAHFWkAKdi5_vY19wvHgCbl0sGEaF8Szr2JYDHPgbwhJkivwY-mteyzUxErUi98yb99xBXWp5OhU1Qr4mVEP0_Qj__oNp8YrfG0BX3L5OmGXUgvK3FiqHcaCq4QlV4IArsAQFdnH8au5IzLTK3CIccdPLf2kR2-A0zLzfyADQfCUknfJYM5c1tBs41n6iWNU7RtYopFHaFChmv0oxPPye1NNWG3RD5szoRTk_BkJcllUVQOCTm5zh3Sqj8YNqdv_swEc-dY1n6apKvd5EAr5YsFoGZ_urzzq5jY9URycGzgu65Vt7i2vja2tJlDk7gee-LqRBa-nvxCQO_VRw1sOUKURhDdT0I1VGgM2XXfLV4sPYYV45JO12iTHQJZ2qQ-KjYLWsAX3OxTcIvs64XqP9BJTfw9qJfAnt52tvNpcrMHi5vVGwER7UvV9ojKEH4DCEmWiGBsPfIvEPJDX6mCLOcLS89ib8YBP23Law4mw4ByFSqO8Vq4o_17F7YDc21v0tP2F-Su9X6cmJCqVAcpdkFq9UmY7LG72r1QYxd4boZoDwcSf8WlsDg0Lh2kxg3xUJ6HqIwJVXjd7w5T43_6XF0Y0gcIcwR73x2TZcexOgwTw9-mvFsVtBWsmG1iMQjJ2KZkE7-DG6NMw47moz-nlxBkXVnsDiDzdO2_8YEhlmfSXDfBeZmHIyBJFbyljniKAmxNjqr62ZnWVbtTWevGDg9a3PRa_f0Qxh0_4FnZktkwCxf_fcJvj4bGdaFnVczEhU-8F9a6LxVEbyGaqRx4bxJXi7AknZGaxuMFMsUOMqLpDp9VhOLPjsq4Yroa-nf09HQjJqJxFo5d3_-OBlcCQY5cm3-dRKX8a62bO4gnob_RS6k1JGa2FlmYFEMxLbt9OSiOyJQdF_WsOoEH1vItm0B_hWJslUzXmplLhICpVCdpSmrS83GCXK_H181dgEhFaBnCcEZGrcTvd73eY5HQrXTDTDD7daWRxLmVy9YASvQa-qI3X7-hLgDyiZ-dUyhRrGarxu8kvjkJBHq91ZvA_uKPlZtwImBSZV9ukjC37us7iezbBliOSJYcMEcwik-oBY3Sbp6Ad4WakG3eDF4E_NdQi66UILH6S20-cgts2yuYLA7PwjM-9odp74Yn2dCJgt_GuD13npOlGYQd1UasIdXcosinthOIz_zKJNaTxj0G09kdZdwKGDRWdKu_7zBzRW1qA-ZjOYYnM-iuOhN8vJxoMUAvY7WTST_XlrKbwwOo6PfgzUDHHeZ6m0VMW2xbi4PDZ6KzvZ42p9qdEvsmDnYXWwyfnLLwQk_wUdXqXfi1EWr9YPy2DN7fWxYz2LLq9PTTZMdzph65L8sRiM52_425cy61Mo-07Doh-v8s27rRv66KCkKBGDKHvVVTN7CgfF1bmWmfmdbbr_sgfeZh_JwQXZSwqePm0dRqiDfF7j6tl5gIKKitm0OTc4-vI7ixvriHK8JR031KlECqiprGiTCEzLdHbemU5XfALTwFMXwueAmIAnqiHRBPQ2Fbl3WZDutAmt0XsabjZ2aS2XTy1kcBSH_EfSjDkrnLi5CjASY-YMRYhYEk5h2HQIsQGV5p9m4HlobAaEC_c8Mjzwy6XT5G8PNfqyQXEF5GpDUYNPu5G1dLnx96S1bUzA27E_av0MztR6v7vp7-gKRSoreX8sCF_76Z_1B3A_7malkfwbG5x5VboOl_u8OLYkYURA6zDSJ1OzEVLxz0BXBxeQPbNF5cNkykK9JQEI_lUZNQAvbcAnMZkSd-TFMNGaocfrPvfcUT8cNmf4HR45wFo=",
+        "id": "rs_06408c2700e58c7b006acc4e80275c87d09b895597034dd948",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0017\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\"OL7067717M\"],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only OL7067717M is supplied: Departmental Ditties and Other Verses, Vol. I, subtitled In Two Volumes, published by Methuen in 1914. No cross-Edition coherence assessment is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_06408c2700e58c7b006acc4e81c75087d08aa26f7c4c117c96",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0017"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL7067717M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL7067717M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1360,
+      "input_tokens_details": {
+        "cache_write_tokens": 1357,
+        "cached_tokens": 0
+      },
+      "output_tokens": 185,
+      "output_tokens_details": {
+        "reasoning_tokens": 47
+      },
+      "total_tokens": 1545
+    },
+    "user": null
+  },
+  "response_id": "resp_06408c2700e58c7b006acc4e7f745487d08341d74cb5491144",
+  "result": {
+    "case_id": "CCV1_0017",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only OL7067717M is supplied: Departmental Ditties and Other Verses, Vol. I, subtitled In Two Volumes, published by Methuen in 1914. No cross-Edition coherence assessment is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL7067717M"
+    ]
+  }
+}

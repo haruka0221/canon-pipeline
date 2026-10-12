@@ -1,0 +1,264 @@
+{
+  "case_id": "CCV1_0032",
+  "component_id": "W000005682_C02",
+  "edition_rows": 3,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774391.0,
+    "conversation": null,
+    "created_at": 1791774379.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0a63e92f742c3a0e006acc4eab0ec087d0a8f3dcad5c0e679d",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE63FCg7cERY5wZBRDD0fC81TgI-tJfffOHN02N9DcgXR1eZ22U-Tt3MWnHTPHCdUJTSYAOGNqwfzXtiOsQaSm53br2fyOefbOu56Dx2sjLdBdzLLzK3NaLctG7BsDaPkajnLLIZcLLxtdWp-XqEoPRxxjK5zGVUD8OYHG0UmeMJx6bGCSkW_DAHymyAgkkC5O--bwrISclp-X-QRt6sPjZxkakMeJDN-RYYZZxgzSfv2-BwySXhYJRb_1zLBgZ6UYxTappPm94-LayU5eaqOcrPxjRIE6EIWwuNnhfsL6RQl_BQYqlN3wIqAAWZAiY62Dzrd9Gi2SBkrpbAXMHhUQxFLfWDo1BA876xzh3d4iGMTdkQdYWjTltl1EeTwdvJ2tB1FXflz6guzYGC45HM_erZAkgXqT90klM2_4X0AxZHnRltz1nk9_7fllPfBIy3ONoy8_I8ZUknRa9ZdGhAQhbY972h-9v99uvqmWdTnEKx6L36aFSe-QoWUI9bs7T475QCtbe4XZO-Hkx4k-TQJx7UIFI_ZQYpk5p2rGyx_KCx9JMG-lJFYriVBBTXEDz2cwkD36ThmiUzBVX03D1GuCyu0lt7x0kgFZu0ETpix-Ug23C1IyKTrxHDh1iqZYiVltFdFa3A6etJzj1q3_zTQKjM05ErbmT88xNnweZpXbCrePoxl5AtrTxwDT0CcSkMFqykyiIbSFKdkBhT616UQRr80dgGahoUpk003HlxsT58dLv-P9l6QWaDAm7LbF7KL7ub6IkySBnRwfkOVbGKqjHfUN7JDfRWrBIvyHIjqFoCABkyukZhnUrV6jQ0PwI2v4ESt2LPQhbM8YaHxL-EcoYI4wRGGaOOql2Br0mpAhGTQ4gGjDQDC87kWb8Mx-ZYjDdYDF42XwHfGDyVA75H9SMQ7Gwe6rjk_bdARHcyrs7pMPsEwav-phwUmD8XtytpXfxOCNfgRg3z42iHUVM-x5d0nGd3KGwWyHsTfwdOeMZzl3Z8DN24yViOZAZlH5n96tXJnnFAoKLlLnrojC5n3_MJlWD5R6tNK88O_ZzAi3EovnDUM4e2-Ed2-fmh42Q4SE4HjNV-q_DYHV6Xlc-IrsQMfSU0FaJMnnIhwMYxti5UHO6kEXSzQ6z2ib7EQobVvKcV2sDCbaiNLsqtiHRF6sufrcN_sPjoL6jPp7kfrLn8HTjDGg517v2-cE_ZP59paLV4MBLwr0ma8z3t0QEs7M3vyT5Ylu2swjg2ZOvEyp62xhhfh4sHQpcQlN10LUC2yVFx7Ex2kDzS-3IW9HSwj4UMA3w3V4GAlWoi6vp7ZWQHw_4vXKbzwHv9E2G4Ar3dyJ4gZXq6tctCRq7Uy2n2r0LTGiszulfKSoU0g9rQNVatufBHHd_VDCRJezyyQP0HogMYmPf1-LYLRH9rLt_idHFaXD-sPO6ZNXyxaC2AaoGqAlUhuqVg3xESrGqa-4upaaLMaZHDYMs4htih34IJN3hZOc_n9SJY5lqmjNCN8yYq3c_pTYRUk11mobHIG2_zgx6b9GuWCo61sNjEP-eKXDbp9Qa1k-0xDj81oHCJlfIQB1zX3_WkXQMCvzeLI4hhyaoSgoLRka0klVcuptkwWiIMth1kbV_jKUnlBbvTBZ0la1xLh9KLX4-1g88STjIFZC9tfZY-4IMHBGwL-S0MDwXgKUiYMV7e1n706VoGGQJsXTMaylkvh1TiP34ytVBCcRF9L8apspoiCLK9Sh-Td0OIPdyq0CvuCHLFKk6bfc4qdt8g5GU9aBGy2mQwbRL7dG7XDDCRkvJkqVSQ2SPrBh5-g0bGlwpUge6yZZ1WmLd104pLZCQstBcu4HBFhKd8ip7zkyjsMWZ-zW1wzpzK1aj3R6PFmcOf8aV9wM7qALGfK7TUWKydcynSvGTlKlYYei7BDgA-wyFBwmsPw4EyZDd46Mt_ktMC6Z9YBM5hIMcu6knIJyB7QrXoPqxb09ZmYASN0v30y0N1GIBSXP4IL9O7kkjFpjtwS2GZpHCsnu9nvPqqDLZdNuCLg2LLNmHvvdyD_aWgCsFL-XzHX8mnV6Y2CaCzNrKSMAdVLfr539dsEIZwtuR5wi43Uhk1UqJ7xkwtAFVjIrxSQ4YKW9roSciQlCt5tvAmJVxOSvzRd4-k8objIPNQ6oRLHQFm6TsGFA8oyOoXQKqBzv6rEuDz_bqmw2kzM_LZlLBKlTw4GHBGtVvu5sgJKyCrTJrDDKY5viIQSeGoZX-0t3rCUTeNOnZaAwGPQkClL5xFV08eNC9tEwDOJrhEeSXMY4a-po5EvzT2uJzCeoCVV83FZ3qdZLJoE1m4T2qfGygTtfC_YQuoUJKiZ4yOH6xVStB9_sZeKGoA9Xb08PFQ0qs337dvpyDbBOSw3T1fYOBxA1l7I7504x3v9-yaXCMLGzDoiGWZEA2Z2sTaPwxf5cH1CNdxG0CI6z-b7jmLKNf9hHx7KiWYMT3Jdj1my4z5SuyD1bY5kV-FUkmNm0thjgpukklcKIbsWcip_rOYXpJGFEtkEcTFvtxt3vdRW6KAF_WbKc95N41H-GkwuH93ILdImtrr4Pktqaeu2Io71s4-wB_wHStmQ2Fpcl2Tuf6M1IJp8g0V1lCW4E39cQ0LsIMS-yOo0j83D23fAGDiU2gP5jLsVgxWt9he1bGBR22blSw7CJyaMcP1E6Wr_2Hkpe5IfoJ-bI6ZroR3RQ1G3_PL3XzzlInSpQYvM5h8FWUXT-GKOHi9iy8m2jCsI5Ai1dEM1nnduEGyroO9KKN7XWYxJguVbW_B9WD-99guWaOyC7mrKsn9bmAnPkJEzqS2OYG0qESVy1zwoJvB7sX3ovEy7-4_nM70vc2rPXKyVTuzxq6pGN7ewrw_WM3yLjPkjrNW_1cyUZGcUblhLceswtIuGQCVlToW7BDO7A_aev2xVj5iZawueU9dQcvmME8tVUe7noh9zYJlVeTOUCTIbp03z5B1K9saAXP9N_AX6bDSyGpIYbs2BrTk9v2MqF0dylV10oVsqH2XdU-zakAJzCvoIdHr-EURaBMTHGbCZIZNFTG5kacqbuhvAIS0YP4MmP9_YZRBcHGto8TaBRFYmVJWaZ0HmOBynvZfIpKINhR9RGX36uNAhsz0f_QN-rEbrkPqRQur50k8PhZWidWiBE16KXNjOl0b8Qf4Z8RRroH13ex2SMp6EZ6d4Condr-2dKRJj6kvvHxtVDUS2dmrzRjbf8KFFob_4ancCbLX35QXwTSYOnEjajQiVCLKx-MUU6TQxBkkf9BYikXT9NUDZ9_HsmOa5lf9GXUk30tjSrxLBebb3QI8pZ4qRDvYiLd1btfJBygir8RLwCSiwN20dE2HSI40IWkSRpJti63x59YtJDoe0_IRUgdaiKP_2rzSlHpGsBqsp37cadLqHaOW_ZWPrwL_MotnhKPJM5MfWpiqaHV-Jn-L68jyGF1av7vY2l6y-GxnQHGy7NdumZLwpLZacFslXAc0L3kBAZURNXTlcNGrqNSKm9BKL1-DxG6AQzOPGGqN2mpzPn0SYJJhcg4rVhaqgPEbMFdngkG3KVm-TTeygk-9AF9eJ9HtDeG0Akbp_giI3zM82wCre0skIa_ut-kQzf5Uj3V8TjgxCG7LgT8jHYWAe1oSS4KcIfmjg7HgkL_GzkKtNCU_UMDGUrFmA8WQo-empP78KcLloTNFRiXrRPQ7sFBtAqyP5QXPYEr8VmM2wKAngr0_zsmf1QW2eWDnGk1dcRguCDTtPDb9uN7DMIgeMFRhK6rkUBt8Brh-fggYdFkpPiEYoXfzzubHwdIxn2kduWF4VuhDgcQ5JOqszQwB5pQA1s3wmjFpxcVgxS4UM2WQdSdrCywPDE00ZgJonsfaOeLI50yVI0owLCie722ItD2-X8UKL2t8aLyh2q648-IKKGwqRiUASYxSl-HgEog80JAXlEAJSUF_Pp5N4YDYl_-5HY-UUDv8u_DZ-l9Zi2YCGYxWv0SYOsSNia8qgPcaY0ipWI93Wg0tHXp5cx-gtye4nGNqxQpTpoeioJ3ZN1-_0edGi5YG3hbxF7AvtcobZQOvIJE5lLUsQoeN3G7IVcfik_T5QoPFPni2j64JUmoMoWZp6YXKrLfzH_JMdxOjIZHSs8H_3iplgzxdvcAWSTgl81hoz2ykic9BlPmIzE9eV9-1ZJAvaC3S3ACnn0RqQHE6bKsXhO65s-vZ1PHBVISCqExrB2xxpsymRh97qi-13laAWq-c9L5TPS5usn6ZNj-WOVUbvghQMWDwqjazWJZ8arDuXUJ0BN2kmV0cIj1OQzmGtLo0SB6oImmphEGE8zEhlJ6CESXrQyMsjxpk8RqmXENBRtM328FQEYJcTrsMOhZbAXhcr-r3besrBstqJfMQCSHAiwFWAqUT9sPBKp9O8PX1GhjjWp_fxLIfcJQtSwdj4ZPcKQcjEh_c7rULs6RgotcQf-MyyamPGZtlX5v8MOJCxe5jcZONyJQ5wtu55w2PcnxTvvrlWKZavboPjVl6vBYMBRTTMWx6yiRg0wjgzf1OYUaXjtBxFjvUp_OOzsUFpjBQe09889E78rzDnjvSrhBaELPfp4pvXPM8cJG3SGBmNpm-XybWvZypLBVg2aOqcqc51x75SavWKj8ZVOD4GTrGWc9Z0UZyX7RThYPaw1ZPBhHlohRvkIImMwH-qPJ0NWWHoeCMKNqWzz_iUSkQyuBkgvtDhh6sALsYH0WQ",
+        "id": "rs_0a63e92f742c3a0e006acc4eabf18c87d093a5ed3dd4403166",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0032\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"MEDIUM\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\"OL12608860M\"],\n      \"provisional_label\": \"Arthur Rimbaud — poems and texts illustrated by Gabriel Lefebvre\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies poems and texts presented through images by Gabriel Lefebvre, supporting a distinct illustrated editorial unit.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\"OL13722959M\"],\n      \"provisional_label\": \"Arthur Rimbaud — selected works with bibliography and documentary illustrations\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies selected works accompanied by bibliography, drawings, portraits and facsimiles, distinguishing this editorial package from the Lefebvre illustrated publication.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\"OL22493800M\"],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The specific subtitles support at least two distinct editorial units despite the shared generic title. The 2001 Seghers 'présentation et anthologie' could be related to the 1967 Seghers selection, but the supplied metadata does not establish whether it is a reedition or a different compilation; it remains unresolved.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0a63e92f742c3a0e006acc4eb1c3bc87d0bc068662706c9147",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0032"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL12608860M",
+                        "OL13722959M",
+                        "OL22493800M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL12608860M",
+                  "OL13722959M",
+                  "OL22493800M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1551,
+      "input_tokens_details": {
+        "cache_write_tokens": 1548,
+        "cached_tokens": 0
+      },
+      "output_tokens": 610,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 2161
+    },
+    "user": null
+  },
+  "response_id": "resp_0a63e92f742c3a0e006acc4eab0ec087d0a8f3dcad5c0e679d",
+  "result": {
+    "case_id": "CCV1_0032",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "MEDIUM",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The specific subtitles support at least two distinct editorial units despite the shared generic title. The 2001 Seghers 'présentation et anthologie' could be related to the 1967 Seghers selection, but the supplied metadata does not establish whether it is a reedition or a different compilation; it remains unresolved.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL12608860M"
+        ],
+        "evidence_note": "The subtitle identifies poems and texts presented through images by Gabriel Lefebvre, supporting a distinct illustrated editorial unit.",
+        "local_group_id": "G01",
+        "provisional_label": "Arthur Rimbaud — poems and texts illustrated by Gabriel Lefebvre"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL13722959M"
+        ],
+        "evidence_note": "The subtitle identifies selected works accompanied by bibliography, drawings, portraits and facsimiles, distinguishing this editorial package from the Lefebvre illustrated publication.",
+        "local_group_id": "G02",
+        "provisional_label": "Arthur Rimbaud — selected works with bibliography and documentary illustrations"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL22493800M"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "case_id": "CCV1_0036",
+  "component_id": "W000013400_C02",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774398.0,
+    "conversation": null,
+    "created_at": 1791774391.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0f66936885678fea006acc4eb7440887d0a4d05550fbbf5a5b",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6-gy6bQNc9BmPWge3DzdmltoftX7ziaI6QuUVbHHUG1zspuMXROBOJoUX7d7Ulvqw8JaWZR3ykpLUQLADyXidP5qkA57h8Zu2gUmcFkgAxEYaDiztrIV7h3R1Qrtzz9qmK3nMYbZjxfyXb4t7DLDhtCN4F76Tq9ATkN4f-HKQ0WgWh6JviRQCtESevtlCBWftSDyYYnJbwvgxkS5v9F-D_ChGMMYV949CVEpqv9xnE_GGcYsRiWzhqsKngn5p_TpTlM6gb99nZxE_quKrcg1__dvSuJBpg_BzKuoesqZZfPQ6UJqipj3-xOqEGO2nvcc2CgwXLX0JJMg4rr_mofxZffn6fvnXp-qu59UutWnfXsR_3l2UgrJv-utPRdr94W8cqz8eLow0PpAaVGAvKDDi4x8Y8Vua9-wkL0jSfT5MCrt0685ttJkkCdr7BsqX5EqyjFUoTRcQIeV2oniVZVWKuJYS8U5GSGNvIXH1x1B7q0vRjv_t-rOyibMGra8UFSoIWX9sTVTUmg1Y5y7rSTk4WLNKUxSko4DqsEy_L7nSTfM-CeiCQhy2WcGE7edRmCjz6_FcsrXJ_3G1sdRb7GXRnaFiT5mUDJMGSkxMc5pZvfshex-qYFo0RO-ijPGuORraHsYhj2jav94Mil7XAuMcwJm2I_gVZEmoOM8FKFaExf1dWsYiZBmr1gmeIgH3G8mG-DsWEl3-QVS-gnsybyWv1JzqkVNNoYO_TnA-A_eDOx7ln1NAadR1J-xytax7oUAoljgfBis2tqMCkVLQB--uE3Uj0OBotJnCQktBt774YC8ieEZdrjbevx6aTHt4aLnqg6t-mpLO5JREUZI4pj8hpxbpvHvPKVIZYVO1T_pL-4DNRALNokxe7fQ7IvJ_tPjSMTmrXDRDzGnulNbY58WeIAJohDBt2ugwOtKLRyH_K3eRO_yW-NuXKhbG1claj_ZiX6O34f9B3Mdeu0oaQBf1MJEOdOOU2Le_-nWig7oce3b2XzBavZmCHX31jBgeA-CIWhUBx2m81zV1GX1kex36iU1gqfiPbguitPA7muvpbMFXqtQhSfAYflER0xxItPSmdQrf4zCdcCYTorLeETqG8Xyme6unQ2HIa4uozqqTKVZg_RmFbEu2m5OF1zicfpLu099OgKZfK8faHdKsXPklriDmPZD8mzLEL6wDheoGM9pUKanY_AyJhHht6Bh305SMO9e-_FUPfjgL34b2oDLUwpByM6dYJo-pf47jwtbjTLYvzwTt-3cuxv0OnNziCJMtsaKEB0_fRsVks56_9DpYi5Tw23ZDHxeL2gh8K1uOKLjzdM7slyNiS6wofNr1aRsCEGsCho-y5sYuCfrmXDbkTmh6y4SITgIM-aZl2SdoGFsZ4kbOuqTB4sceaMrXbGKrTEnqiFlwLEXwudGIuQ5i7TG3lhJKkYjik0gaNevh-jiXlcnbA5ZfBORA1Jc39O5goRLUpBgQhfNlR6taUIbf7GOmZqvFLoLK7GZpDAY98ie_wB3VDYFGLejA1PB9KCE3lV33YCxUhbUhRTASVVf1i5uaASIvPWeepg2W7IsxYe17uEj_qSNlKusDFHyahYwLxgQJuRY3sBjz4zhdUYkbD6zmS9Nn93rvh2T2S02cVgZ0UwHcc7p8lsgkdRPEy3QMDrOnki3rItNByID_4ggPmQFA1TTLVaa87AnVvWZPHOunhsDsF5_sHbYgQek_Uj3ipDo7WV-mJeV9nLcJ8V0jwD4r0aNMrkGDwrvaE88EHhSeASmaa6WZvx4J5Wah3i6qdu65Kn4ifLz5fqw0i85Qxprfsyuhl3_BlINBlVkDikf9gXcO8atkaOMS2P-cZtwP1179l0OtH2-0pCX26PzDQrO-92Jba-JA-nbobQgAhyFqeSrU8XzIYsEVuxkC77x-tm4pPABCWV4-DEKwu1d7vUC52-QTsONOpQ2soBkBBjnJ1PtO61p42IeU5GSXlqSE6ns8mujRj1HSmxg5h4G-ujcQFMvN6lLEgoKE0mbMx3cbqc1BLK_Ft7EeFjjNFSzYjnqCx3ZzS97wMdgSrurNGCV_d5OUStewHYuQqivmblKH18qZZ6QZUue1r7OePA9AJyCN-_USCASXh-6UQN33O-IZYGL5axu9DqmNifjZkFSftyEdEvgF8n0i0R_ikbXPoJ5WatSXxzhVEI_F_-6E2tW5a5IAg3jT4_Zm2FH7EXfkB50Umn7EUaFlLyqlgamWPWWC2yajJN7N8UyTQcvUhEijqRrgM--z57h7nSyV9Qf23qPvQTHEm0sc-eOHP52bsuoq2jPbl5aG102WZXycfq2ac4owfasZc5kadARIAFmX84UTkhesUPy7RRZvSQ8d3Z4kmDbbhdKH56JNRJqmBhQTW4x5ZPLAlJITm2fo4Xb_3R15sl7LjtT_XvmqmWpgMWyakqglZkyX0JDV1nq3keIZFucMSxBiDjydtQyHdWQdFq9X853Pih8n6l0dIGpOJmmYgbvRryzTbxT4ND7hAvgr9FKtRg_eekshrKaqzBstiY3ehiZLulYVDsGITczyM7UXTDHUfRub-37gCGjMhLCBVSn9Q8Irhjbdcb1RyMFHKrNPMwgUPbXTvEceeROTNKyYvHx8ScfK7d-lF_D_dzitgU1MbiZjsuRsZrYZHS21mfzPMgFIn15fQu2y6B2hJ3_sjdLipC0sSJhezYAomODf0EByLR3irkqmIgAJXrT9bhuqRWNI23WD7uOqyboXLw8b6V9tFO-9JToaf6im7Yvb1-yJBEf_2Rci5X70N4qwCgLncQMGAUsffzOdGLy2gG8f-kW_6ziu_qiJHv3NAbBa8w9kBBKp9K-q3vc3Z6-OaTD2zLbUj2jAELOKCqKht6xQgpraMSEQCBsNIqpTYESGEIIsdKnV9QbHSmtKbe-4yl6v1R9UsBneMce1RMrjXAgFaG_VReymT-KHcLDO-W-t5-b16IpPgFB1m_D_mNxu7MtYU3c8yv7c8BpCNGt77NyF7QsxtAPxpVnPohzN_BCtyEBvxBnl_BgIRcihN8x0SCNxYcaqiFGW4PjCzi4W8uGonkN8fp66wfc17zakeO6TYmFMJA7_XF82Fat-Hk4THpxXu-JVZeXavNNOsmSOCNfZpHTHqo4A2S6PPXQqHcPAglySe0PTP7W3ySjDLKRJj4HqYnbtuGN1YSmDDUP6wonjdm0RGp6YQg8S1mMMOox3K21yeXTMaLYE_EeN3qIMW992w5OtYOwZxAN5FRzH-lUCe9H_ZnlZ6V56nNQRFuA==",
+        "id": "rs_0f66936885678fea006acc4eb8487887d09dac536063fdb371",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0036\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\n    \"OL13384556M\"\n  ],\n  \"diagnostic_flags\": [\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"FORMAT_CONTENT_UNVERIFIED\"\n  ],\n  \"evidence_note\": \"Only OL13384556M is supplied, so cross-Edition coherence cannot be assessed. The subtitle, 'His Poems and the Story of His Life,' suggests poems combined with biographical material. The publisher is listed as Caedmon Audio Cassette, but the metadata does not establish the contents or editorial identity of the recording.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0f66936885678fea006acc4ebbd34887d0b2d97fc63514d511",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0036"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13384556M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13384556M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1357,
+      "input_tokens_details": {
+        "cache_write_tokens": 1354,
+        "cached_tokens": 0
+      },
+      "output_tokens": 312,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 1669
+    },
+    "user": null
+  },
+  "response_id": "resp_0f66936885678fea006acc4eb7440887d0a4d05550fbbf5a5b",
+  "result": {
+    "case_id": "CCV1_0036",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "FORMAT_CONTENT_UNVERIFIED"
+    ],
+    "evidence_note": "Only OL13384556M is supplied, so cross-Edition coherence cannot be assessed. The subtitle, 'His Poems and the Story of His Life,' suggests poems combined with biographical material. The publisher is listed as Caedmon Audio Cassette, but the metadata does not establish the contents or editorial identity of the recording.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL13384556M"
+    ]
+  }
+}

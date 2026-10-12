@@ -1,0 +1,297 @@
+{
+  "case_id": "CCV1_0025",
+  "component_id": "W000005351_C01",
+  "edition_rows": 8,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774373.0,
+    "conversation": null,
+    "created_at": 1791774356.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0c26e257254a71d9006acc4e942a3c87d08de54432156c6f06",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE6lLJVAItWn00fDtmdzjm9WvnEVcEfQ_F5ErCKTF_Y_uKct8ON8KWawe8CthzY3xsSuOzSJi27hKNVvZJa_bUyluW0vwIX7uCuB82lgBEWT8XoKYcw8BAGJYcaY9WQmFrNOcA-B2N86IPWFo-_T7yJyhKRihjS_jX7TviT3JZY-YlQCbwzzJ2q07IA7lGK2u_gTKzGR2fIMwa648XwNSZ5JdcR0hJPu9I9Im_6znBKlEWUxuMyhhZVR6fknce7vI9d5r7-f591E_3p4pcW-h5o7YMMDEg6N2H36Vp8ZIXkHUqIKKVlqDozZAl6hEv2rB_lv0vpFgynL6DK9pVbZ8HEJdSjFQPwpUfmdIcA5wWrVYWP5QUtJOaOYiu8-lcWdHujyUe2ina5e0wcclGbzuN6nIXxJQ4uUBv911PE2StgSW6iKlVioQ66V2pOTIfwB57kkIwQueWnxt5GRxN43xp9KK1yfXbpDNU1FOVaqdtMTGB9Ry6vnIwN5c6HEpDzcK9-BpV5bPHBGsquijo3ZY15t96_Ts8-mox-MDiP0h2XSxAsKqlYpfs4CUR1iAFUDAr-nV4ZRC-NVpycRaG-XZGD9JfcyiSGXaU0-_n6Qh1p0eMs-jRQtCU2nMLQlxbtzLzolR1Q9cP34jWO6_N5gy-LrkC8CxByG9R7b6fdzd0XLFxJfpg5v6b6SKF35cnPnOPJpL7VG0z7lEwpMoTSAikbQB2gZTgr2wvJU-GRJ5mAR6vZ4pa3eWV3smQvGpvkqppWENBlG4VQ3RgVriFKdeKnLVAz8n3HoXVPGrzL3-YXwb5AZrYA4o9A4OxjhCMAua257rOO-qDLaiVJehDPm7JzMatZSfEBKp3cKi6o3ASpITTSUlH8kmxijrvvf-BldQZlUZO8xIONEsB9J-Piwpfltuj8fsbu8QDcr2E76aEQUPIUP_C6UvIa4Aq8pAobmqhFKei-c8BtSrWpiF5FLYYKSbkXeUDkv13tNfWoPGJhPEIkfZ1a8Bmyl18b_ChKEmCQ9j9geYN8acZ3D92chWXeze44EdrfRpbCDALM5D0d9NZ_xHJ8QDRMTwk_VhQjwHtiO6z0qHNTT5ASQclRaGdAQuAVfoFidlyuYNZAFAsPs7-5WYsA1By4TTjsj1xJ4VJX3znkh6b8Bmudhg6GR7Y9JlXCqoSBHbFUNRCXzVVODHnl2zKKDY4NvR6sr_yD7LdoOSmNmmdYrBrmFpsGmrxkQh-4RsxAXp_A6qmtqbIUQiKyohr-cbadygDQbBDrnW7rKgT_u-HI2Dc0RQLKXKpUNos0tV-VSxK-CcCRp7TFXD_-BdoJtYdqDQOuzuSGEu0bvF2xN48k1IKOBVftYXIOSVAA0Hg9c0poXdlVXK34JvTMd0-R6r9YFpO-54rXijSXKUReHEIN5zuwFqbCgtGRAAw0_0IKqXgK8TS1wSNQh0ZB8D73tLMSBXqfTx8q-vHw6yjVOf8HtPHRkbu4HhzE8IQt383LarLZbSMLQmA4wJ7qahYrXXYiZeHEqTdDB0xe9tqUVAsoeHLR2lo7rJd1f1Xja5gHBk9MwOIEVmXhjvCMzml3gEIryhIBgtkx4wPhJT_mBvEhhLjVB3RmS6VdFnvBtDn-8TurHXtguoEjxmorSDO8WByK8GU_vHRIucqO0w7xFGtPJjrpKemBuUG3Lr7D3uWvSDKN9XFRAJzbaIEJckNs4GiQnrE3n-p0LI7t2du_P8wTaV9ZgyiBYQNUE0nOJNqGKWb1BeFHeBU-7SCO3C_JTuh8_ILAvWKlON3jgE483PvGHLfbKWsgY2WqmSoFX_t9Z_XeBtTjCbJdPgoRty7bmjxOnSa7vWuMMa3ziLUxYZ-j0epuI8dZ7x1f26jGxiPJ0bCkiGFjCAI_UTN2C7TemvmU5ib4Sfd4S9AaD9P_y_eR0cdJMwb1EeGQdW-GMhBEQgMujbcAlG6o_uiYOje60Wzg9YjoN2bmvsGxgXb8Rv77OQ1A2E0O7mpT_FA1offK5KUUIiM60eEcwCOZoCHKEgAabkKTGoPABcqodxKFTuyqBxdmMNZZsfbYLruQ6kQ2yT4nTrXetKlbIc6hJQ71twoTmGW45fQjt8IEsPRGDKjzg9cS1SR0N0KqJhSYZFUOPZdiMovlP_8inJB6DRWIQAF2QHX8j1sVL4HTW4g7wma9T3m_8MMuDI6TpP4jo6VoG6vlPA6sGmjkAmMAFX9LddbTkvBycMAvLViwv8L86Tp_DUiVhvJ2S5apsmz6ZSNYoQQ7Jypkbnz4fcyiZRUCBoeGLSpxoEKXTXZE93Ww-SlhjFZ7omhCCnaNZBin5hWgSpt5OEqFBaIYbXs6T0fSfmJ4NJGOUjc7QiPgfvDs2NBb_gRVLmxOo6rJBaM24S8-hBwEFWwRO5zwKA3SMUZFVkqIeiWkLxsi7wdKdijHGECAalpssS7Lp9S5dxL_190kg4_HgjXRYffhZzMW7Bi_bXuHIQVGilFIEHdsl38eLqJ7Tm_48Bqqko27f7-4PsCtX8EVqr8SJseYYrYcv38JigiP7g_AItl9ofZlP_clBmNRdxzXKdOVZ7Tvvll1zLsoU3NgqYJwyFfSdhzZLLrHakth6wFhCUUKBL-8WsZ3jxEnlghDA9zculqKIK78oJnM6ZG5i7h6OfEav7TueSTDWqLdx4vnZNt66HMYDQ9ilQ6bYn50AK4WV6Andg6_FXfqWJNwPq-_zK9Z-T_h9dKjZPznP2vi0-VquMEK53JcQ4SaYsGkve79gL1ptN0LTy-gtWytQDukO96QsBMGIxN2cLbG2PHDOTb3WsokzdYYysSr6ZInDqiT8e9nUD-ct33Qlp_zWKFa5yAqZNOL3bSI-nCUWnfDTcuP4EtMSgASrBaGvl-iypBqw-ZoaMTEy6vlu0eZiqaJ7GxlCsNahF0v-U2FKeReUEAhLFoBg-yyeoXDQd-hUCYU9CX09DnWhSv7PpP2Rs6KAOz2JEdSRl-7zrhro60SYf4skLaDdDoI1oJU2EVpxjCtN9I-Hr_cB8dEdwKgsCmZrOgeceq6aZd445jE-2iundyq_f3QLPmANUqkfTCDGOSUUjdQUtCwnyJ3tR-GPYS3OzgHDzXsEAQldmmI5sFauah4XxHBDi8vRW8yW8UFIbhyOQGbwE8rWWdyWgJsN0kXN5h8C282E5hh1QH7gZujwNAypxk-ywmRow1kLPKuPdO81k8-5aCFaNTNG4tpbBqji70Q8v31DFHJ9_rJvBlgk4S_8L04LmBjjUYWm8a3eTnRM4B1KLMmjzrxwhAIJqzDR0qpoZaxczmqIJlu9cn5DNy-zg0aVJ93tK-VQGrh4txsUSwUgM9dQDPvoJ46JpjMzRWx1LCeQjcC3BZmorcObICzDNBABmUX_iZdBtresoEMzJeqD-Vge4gVFWjiVwDz1Sc0_j6tVYFAZ1lIjrGYLmObzejG9gejD3n-iUrLeDXn8CEKHMe_wIiscXEdyNio5wOYeVl_wiIjnGSgU_7wKUAaX8X5H5QCGKqCWLn82jqZYBneM59aJwv9yL6tq7QQWKipToRp4xi69oSjCuCRH--fC_NtA7NgkYt75vs1s4AT5_yiJHMvRWWE0uZM2SoBMFhCozYr__4Ywjiy394ZeKQS-Ham6sdINrnkRmKFujBZiC3JPYXwySnYe4rsOICTz3mLWNNjgHKTqmLx95UWAw_jtEAWB75FVFN3clfriIA7bbDNVNZ4bIpl8hG51hP9Y0jl4TDtxZa_NN3o9kqQXNlTaMW9gtj5UwSbkhBOyv_-LPODkWE7vnZEbmPfJ9CISnH3lTo0n7S8khlnEH5kGZ5RaFN80baFp8iD5VYRb2uw01j1rbKOquW1Gdl3o1r96nf7Np3d4L1oquTwZL0gsl2It2sajppHt7F9l99xITU9AE0e3_syK0RlvrBU9vSLjdXSSxRKzxV6zmt6RYPoUZlynOswA9WGROyb0DUtUH-Yq9Wk9sS-96pzEwz4RQCGhhW8ZWyiJpNcTiEU8SVXsJYI0zs2AfIXNGoNlqKS4RByhlIKWyE-9QuIyfD2NxOkegKDFVmFrwKZVZkYjhBORz2eFsTLpkXqSo1Lqcj2E2B-pEDak0rzOzt9-d0QBw_XO_EZJk0etNARDVGmP2cf_Q_bh-XyTmNpHzKx2yfPfKWC5AZk1k4gvZTBbNjuAVbyswN68bZC9bxy5JkN0oK7DINB708c3pb2JASjVxp0EWZMeV-YBpwU202SH-ZAnMpjfAd_llnkX-MplP_7wx5W-BNvp639OxRrsUfC7g8j_ovkwKsVdJQNqeSHIuETKKU5soXelfeA5X04Ba3v6YcPxE1MiZEMB7SSPI_YlCI2LwR2hwa3duMtNdouKnfTRhTJ7lj93f6v5JjGov6NdKYJhGhknSyooD9DRPFIuc-6zb13OuryTIYHJwlfAHSK0ubRc2kxwidv_KgGGJfDdHKIDiPDtvl_-b9KUm0AT-EBtGU6Kf8winbyW8heeZNAzMvC4b5U-W8bfcubGfU3WjEVHrr3JAlbRmLFoFUlxtzygecgKfyjnUhpiym4YShNhchkcTuIroMjxBrSuZ-Vs_GFXFJImljcs2r85Al2VWOxcwnjImU70z3T9Ah0mUZBAuZk8NFA6y_LAfoXAC8c7lrz-4iiAYZ8y9QuOSElYuL7S2XC2rZXHka7M99kdFRT-smI3YdH7vYdrwVynR_Yyy130zVi9yXB5WHuDaxR50pmXfoML8kfrNxKYSZ9mCT0A7QzMfdp6k4qvJgnmZ97nMJzxXM1d1vf0xTqoxuHimWSciHno2SlrukhzZgwbY2n6ws9Oe6vo80Y7jGc6cLPPJ6MNrFC1nFrSHI5wUrU1UKKIcLydOtaBeRUzUrcygIc1pMEyeRDt-i8jTRFKtQY9IygR--mo6_wYVn-mB7UUxZaM1EH-PwiiVFT-p4ez-DyRqTDuXr_YqMyMISQ1lDqr2aEFXgDbwUfywCZVGzs0nmZFcJXJuJuuLM21HmtE4_GQfeTBfeHamhEC6n_jkUmCyZLOMceaySQajiDvN_7FSVYOA-uPc7Tud2pp3h6kKSf10mVuZ3HszgphhS-DEb3Hw1SHsTITTmsSWqO3Y79LaNRgw8vEobyeCwDA8YZLM_37PJSyt5vZdXg=",
+        "id": "rs_0c26e257254a71d9006acc4e95061c87d0aa463b7a89e4c0c9",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0025\",\n  \"coherence_decision\": \"MULTIPLE_PUBLICATION_FAMILIES\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL10521333M\",\n        \"OL11928746M\"\n      ],\n      \"provisional_label\": \"Five-tale Canterbury Tales selection\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Identical subtitles name the Prioresses Tale, Sir Thopas, Monkes Tale, Clerkes Tale, and Squieres Tale. Both are 2007 Kessinger publications; the 536 versus 540 pages does not establish a different selection.\"\n    },\n    {\n      \"local_group_id\": \"G02\",\n      \"edition_keys\": [\n        \"OL13965206M\"\n      ],\n      \"provisional_label\": \"The Knight's Tale — James Brodie\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies the Knight's Tale alone, unlike the explicitly multi-text selections. Editorial details are absent.\"\n    },\n    {\n      \"local_group_id\": \"G03\",\n      \"edition_keys\": [\n        \"OL18507930M\"\n      ],\n      \"provisional_label\": \"Prologue, Knight's Tale, and Nun's Priest's Tale selection\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle explicitly identifies a three-text Canterbury Tales selection, published by Clarendon Press in 1903 with 262 pages. This is a different stated selection from G01 and the single-tale titles.\"\n    },\n    {\n      \"local_group_id\": \"G04\",\n      \"edition_keys\": [\n        \"OL20198381M\"\n      ],\n      \"provisional_label\": \"The Nun's Priest's Tale — James Brodie\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"The subtitle identifies the Nun's Priest's Tale alone, distinct from the Knight's Tale title and the explicitly multi-text selections. Editorial details are absent.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL17340672M\",\n    \"OL21173026M\",\n    \"OL7747330M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\",\n    \"FORMAT_CONTENT_UNVERIFIED\"\n  ],\n  \"evidence_note\": \"The generic title 'Chaucer' masks positively different selections identified by the subtitles. Multi-text selections are retained as publication units. The three prologue records remain unresolved: shared text references do not establish shared editorial identity, and publisher or CD-ROM differences alone do not establish separate families. Authorship classifications rely on the named Chaucer texts, not solely on the shared author key.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0c26e257254a71d9006acc4e9c2f8087d0907925fa396c0bb1",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0025"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL10521333M",
+                        "OL11928746M",
+                        "OL13965206M",
+                        "OL17340672M",
+                        "OL18507930M",
+                        "OL20198381M",
+                        "OL21173026M",
+                        "OL7747330M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL10521333M",
+                  "OL11928746M",
+                  "OL13965206M",
+                  "OL17340672M",
+                  "OL18507930M",
+                  "OL20198381M",
+                  "OL21173026M",
+                  "OL7747330M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2009,
+      "input_tokens_details": {
+        "cache_write_tokens": 2006,
+        "cached_tokens": 0
+      },
+      "output_tokens": 913,
+      "output_tokens_details": {
+        "reasoning_tokens": 264
+      },
+      "total_tokens": 2922
+    },
+    "user": null
+  },
+  "response_id": "resp_0c26e257254a71d9006acc4e942a3c87d08de54432156c6f06",
+  "result": {
+    "case_id": "CCV1_0025",
+    "coherence_decision": "MULTIPLE_PUBLICATION_FAMILIES",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION",
+      "FORMAT_CONTENT_UNVERIFIED"
+    ],
+    "evidence_note": "The generic title 'Chaucer' masks positively different selections identified by the subtitles. Multi-text selections are retained as publication units. The three prologue records remain unresolved: shared text references do not establish shared editorial identity, and publisher or CD-ROM differences alone do not establish separate families. Authorship classifications rely on the named Chaucer texts, not solely on the shared author key.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL10521333M",
+          "OL11928746M"
+        ],
+        "evidence_note": "Identical subtitles name the Prioresses Tale, Sir Thopas, Monkes Tale, Clerkes Tale, and Squieres Tale. Both are 2007 Kessinger publications; the 536 versus 540 pages does not establish a different selection.",
+        "local_group_id": "G01",
+        "provisional_label": "Five-tale Canterbury Tales selection"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL13965206M"
+        ],
+        "evidence_note": "The subtitle identifies the Knight's Tale alone, unlike the explicitly multi-text selections. Editorial details are absent.",
+        "local_group_id": "G02",
+        "provisional_label": "The Knight's Tale — James Brodie"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL18507930M"
+        ],
+        "evidence_note": "The subtitle explicitly identifies a three-text Canterbury Tales selection, published by Clarendon Press in 1903 with 262 pages. This is a different stated selection from G01 and the single-tale titles.",
+        "local_group_id": "G03",
+        "provisional_label": "Prologue, Knight's Tale, and Nun's Priest's Tale selection"
+      },
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL20198381M"
+        ],
+        "evidence_note": "The subtitle identifies the Nun's Priest's Tale alone, distinct from the Knight's Tale title and the explicitly multi-text selections. Editorial details are absent.",
+        "local_group_id": "G04",
+        "provisional_label": "The Nun's Priest's Tale — James Brodie"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL17340672M",
+      "OL21173026M",
+      "OL7747330M"
+    ]
+  }
+}

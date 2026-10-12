@@ -1,0 +1,237 @@
+{
+  "case_id": "CCV1_0047",
+  "component_id": "W000014024_C09",
+  "edition_rows": 1,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774419.0,
+    "conversation": null,
+    "created_at": 1791774414.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_0829426d741bbfd9006acc4ecec91087d09f21d6ec0f7c71a5",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE7Tyj_RogZn6euQKO8aM4zzMhyKXSeddhLvN6ntRv1O3difZGxOClg6PNXTAiv4-iHlRufdGPMpvrNJP9wlzyYfN1yCIfm8IfSKv7M0lRqoC034bs-VcGVt80dWs8wI1q9Qo7YFY6zbaekJGSRI9-nHoobfSDKHH0_NHdKU-nmlsiR3WWQiEPPIW9AOp9aEuKWdS80wrG4wCi8yJcWdCFIQj6jHpVrVG4NPRUgJIkKXyI9TBZx7hm9G-Z5_gXbmmCRlnCzJzAoJNypsCi82bZ2XTUJBQDJXdwKxra5j4ZwxpWKJrBHM1VAJg3Q4hngToG8DXL3ecIpSl6zD_YKKSIp_sDxn9ckAeh6IU7JPL2FPyri76o5GvJyYF3pdMkT-dd1OOmOW7Bq_YgLyyxs8fzHUMz0_dnagkOhLR_WokLPpCaZyyN6Dceg4f2Co_3wbHsK9Ciy6uTDCM1cZWZ9T9f3NNQuLg2Uzd90rO1aa9A4hDO_i3_5PG1qv3kMghYLA7_2feQwXWAu3OBS-4hbwpbPb9QUkCrGuu5wTOu35ByP2IhIKJP2RXMwU1t_pWz5eMacyYEBJRmKW7pzp8Bdu9xBplCFQPi-wQZcdO1cmx6tmDi0KEROG2cY6qPdVMpzF3yPApHXuMPEXqob7n_UMRcvkHBMGr3oln9tNMj7KFwRhzNr7ZPZ-SytbYLb6yevJh24vj8SylN8PnoHpW6mWdPQU2yKLP5kLrDIaSzDrEqPqD6iu59SQ29SbND2xL6doMVqlREDjrBBHo74hXegt4h0nu1xwUc_5i3EVqtzSgRkPxA0FJ3kmoQx5413AjEDAmiH-lcVPP2_My3810nv8Gp2ikvDAd5wg7WPTyInY_KWF9hfeLrTyA7JUkXcYBYhK8Qq11KK2IZho9iGFEnVhXhO8_j-HAESY6Juw-EnKWQjfR65c6IQA27lmb0cI6B2w9QRtlUk8VZgiOIkJkW-NL_ZILycNlMov0Wuk0_p_bRqur0BjruqjjNL1a0yZtCB8N_oU9Hh7MlL_aCvqIb4bM7owbzqcVzq96vqNUr3o4UxX0hbexZSl6y8KPSbdKJw0gml2qPInalcRekeBsPxVPUATNjdDTCGSS1KSmwcjKnVIR1ItAmh3pIa6roPLtXy_vCr_vlYv4eRvbB3KN5GvQKUZzllSxMwM1t1nenvoqyUTaQZQYVdFShfGPN4sZks9rnKswrTpnnDXD0dopGAK5ElJEWW_ggIyg_sebmaa54Y6wYN5tZOGUpCYQPST0f6nopKNo9psLA1GTA4ne_CknPMWD4frCci_jsrhpx1ZuM_sDQyCUdZC3DF6GA82qqdhngs6rQfkoLW-YhBpx7XVyGXY0Y11yN414TNCgZiEmJXCOVMftWbQ2BdLOZUl-tFEhnHHJQg9oQN2Zn2s55C0QjXUa6lHfFvKx5fx1mzDLa4pYEFGdcgRDOoPwQg3vWMQdKdap_BURID9dmomLg1PCs1EyBP9oIDeCv77SwLQxc_RB9BnxLqYbmUgP1SsiqZhVw8HcN6-xfhJ3du6y2yD0w6LNgTiX2tFL9u5JeqVhCHlzS25mSPHJheq8x5z_cjPPwTJJJDQavAQhLgqUq_JDwL7WWdtzfCDDx_0FKcln2_hFM65_EmHAozoyzbe0hq17eFgJPztfXgTdnDSUhDRUiJKDqKz8BB_JHD7KIHFx1BjpVeWqaWLMvXPAIWjOjxHGiUOpq9EW2Q4waRTgn-p2jRm8CXLEospw8zBjkU5u9Y0PVKHC9sNsHseBz5mo-hEHfz-UZWIFkMoyGyZU2mcmYce5X-KHXKdJd5bV3bBT6s2yvmfDkCu3rJRtyD0D6SSX9Yg5lupPy49K50LcYDbXLqOci25lOwxNoIKPl5Fgb6uJuo3tLvBwYt6-6VEcX2XOUheebnushmaMkomN1_1knigcDgiFx7bd2zo0SgAXrDnohTfFmPxvCc6tb4NHumMS5avVjd-F4e4X38A1IMTn_r11HnjiNTnulAaNVM6O6EpiXvLLx4Hv8Hpxd2N6Vl0Q9HIUUhv2_gomuOZfVrxaMZhguv88fIA_zlV0UImi7iYFqlqejVwPYiQf-dIvCpR5BsX7QbMx_FoO14l-GVrBETjBnLBRwdgWlL80xZKQF1YTsskySPlx0T4NMuKFFKN441xSIoLZxSH8mkHr5DKFOysfTK0hWGiC6vA_iWnFNw9E7x1xkVqx-gIZ__2nmCYXtfr3cuBDFTK3VohLglV-nvRkwLi-NlG2NqF1awEuiq-wQtcARq0bEQWRUlXAgruvATh9g6wUr4iLht7B7ei1QzjjioPRcqDi9BlDQIo6O5sdeEe4Fmn8U3rXiDEip4W0t8IrYOzByZzHuIsjJzDVFCBygQzhCPDpMu9gAWMqR4_yQgdZDA_pTjK4DrlqzVkz2whF_0RHFeVVHUssPv-wWqoAVUlf8_-mkUxuHmqoUoOtN8iVSnci7xVsNTm4AfdyXFH0sheyV-tpbrPK0VuEYnnXGIrI16PC23OSdOd7uAFSHWaIoOHaKd9DfbgrgsZPxZh1dYfOoIoyofKtJNHX-BcTAdRAlo3p45lZPyxoQfsGFkSTb53gdNd02BuNnAgeQb0kEKMcA-YALoyCIkrlwaJTDx9S3tPgF8_eZ4q4IxBi9pc9VlTE812eyQGavtmCdW2uoCvhJX8koQlydqJAUimzNt9k3HW7YMnDsFlFb3o2ZyRHllTPRRU0HnK4_qcEHHsUdF6NmyUsGan4YsHw4sUByuIAgAw1_HYO3eFFMjTnsUBDnZgY9bVzuctqYkkjik7nuZkXMbLWDS6l045XQg_hWhUjeH4bU6oTDB6kyBnijujffg-5r1kTR8jPXrGjNEbDuKQGNFb0Ikzp2aaSnYj2g==",
+        "id": "rs_0829426d741bbfd9006acc4ecfbbbc87d0a91de7046663a260",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0047\",\n  \"coherence_decision\": \"NOT_ASSESSABLE_SINGLE_EDITION\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [],\n  \"unresolved_edition_keys\": [\"OL7692691M\"],\n  \"diagnostic_flags\": [],\n  \"evidence_note\": \"Only one Edition is supplied: Henry James, subtitle Selected Letters, published by Belknap Press in 1990, 490 pages. No cross-Edition coherence assessment or subdivision is possible.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_0829426d741bbfd9006acc4ed2025087d08092625a57af79af",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0047"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL7692691M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL7692691M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1352,
+      "input_tokens_details": {
+        "cache_write_tokens": 1349,
+        "cached_tokens": 0
+      },
+      "output_tokens": 227,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 1579
+    },
+    "user": null
+  },
+  "response_id": "resp_0829426d741bbfd9006acc4ecec91087d09f21d6ec0f7c71a5",
+  "result": {
+    "case_id": "CCV1_0047",
+    "coherence_decision": "NOT_ASSESSABLE_SINGLE_EDITION",
+    "confidence": "HIGH",
+    "diagnostic_flags": [],
+    "evidence_note": "Only one Edition is supplied: Henry James, subtitle Selected Letters, published by Belknap Press in 1990, 490 pages. No cross-Edition coherence assessment or subdivision is possible.",
+    "proposed_groups": [],
+    "unresolved_edition_keys": [
+      "OL7692691M"
+    ]
+  }
+}

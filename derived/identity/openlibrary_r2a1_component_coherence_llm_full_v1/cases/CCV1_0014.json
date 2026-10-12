@@ -1,0 +1,261 @@
+{
+  "case_id": "CCV1_0014",
+  "component_id": "W000004772_C04",
+  "edition_rows": 4,
+  "model_returned": "gpt-6.1-sol",
+  "raw_response": {
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1791774334.0,
+    "conversation": null,
+    "created_at": 1791774323.0,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "id": "resp_052e94333ca8069e006acc4e737f3087d08ab1f6ade69717a2",
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "metadata": {},
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "object": "response",
+    "output": [
+      {
+        "content": [],
+        "encrypted_content": "gAAAAABqzE5-50hT9NdlWEHeqcUTIDe-QD_F5W3si8bWEPg6PWTF6dMZvLtZ_AA_C0pt2jWS7m7ugaZCddGNLkZNPZ-_mz0x7SMgYIkjsTZ2Ug9A2MQwJ_fzmqBW4pj5xsNFH_ssa3UUoSBdf6SB2KbcGG-r82G3eGhSypMxeLaD9WZpO4emkCETUQdoJdZgIlFXlXXOKxKXagTDLoQFHQI1NaZpkr_4szim-q5oIhSyGKVx66XfDcT5lCzYqHTCyYNOOugYHrTZMYbpFqNNKvkhFfbByU4JyqlgVbgwUl__XPk_OlSKX22CdoSm2pmq4jQSYUBIS9iN7UrCPYH4tNLRGGqvqEyhEuLX-96Or2IKKd9U268HNj44JAvfWGS-oFGG3o01gWqnqUBmWFTIaIairxUYkFJzk4OUAzrw9_rtBdSIp4UE5ywdsl8IuIEh5VEh3R6efNLLBiVbHepCEokonvwlpx9Qw2A_l2OYVld9CIbR0WQ0xDj02iLL6SoEzrwjUM31OPBYrOPLrsNtyt2kRQUE2xOi1mKvHNXfFxrh_mh-Iq1gW0mkoAwW8PbhLzLbwHNoIoTEdIqAy562-pcZ3Wi716XjBwXSziEDiVUpPK_lRaAZ0kdvFfxt05Qr4FeseuXx_U2sl-rRmcwT3pvMa9Sly0ykWOKIczgMXjuJgYBfv23nnarxrA3hP2Npp4ieGhAzWRBSBuDIj5cs4HNINb8jDPZRyMw3jXkZIcTdzOLi6PBv0kiabIwjk8OJKuf_sqaZkyRxFLTklY8Y6nfGHHbi-xR919RFAC4aJi9OW6i90-q9f13XIN_HjBjPTpSvctBlWNLqY9KfYqUQiWb8PicmpORER7xhR5S-qRSiaB0oWqUfwqB_7W_oZgW_8mQxGTLD2hgsQhaY8YTlCXk-UWyDcCHFqgr6oqO0pURQ73gtX5nLA1M2C7Mjc2cylkweQEwhG0-MjPVFbuuqWO3mtB9rwRvvlHVHe9OHUaxo3pjZdEICacTecGpujLn74G-hpksVCZsnpkX_6R25wT_gPsO8Jh26hOG71lF9miSrPWchhlKix4VaXLZfesKfMwpL9G40c8MV7dk4fXE7cdmudJGlW0pARWjAAWa8HawE9b9Lc6eAKcvhAyuhoMzlyD2W1GclUIHFtyMagjmH6xWB7e2B-cZr7bmsT7D9VEJqyZL8WeqHXXUOa4gK2BK6ZTVIR-jiMYaf8UfVvLwj09CXqQ3DpzPoYKOD7-7DpaY9wMRNcEgN7MQ2LJdkBTHIQ5QCYB_S7POzU4QYqQEJxPzQCWfDhL_PPHWrafMcnSW3aaRdvXjgDOTQNKIgCKLx-l3P2v6wWbcEEE4edVCUKcJBTHn2YdMrEy7e_5HYU2YYAcgZZh0lAnDXPj9_Dsauo7tZDB6HcJDp1EvSyLNUuxOvrIhqSnDWhpFpuUciLD24G-dE61KptaPcH5mr8cMEFxQUanEatzQAGGBXAqVuYpXqCD4cY0skQVGUNUhu3rFCadDMwJeV0514BoWT9IR4WnNOgLHbFZeuuxSwF0CwNll15ZCTewQe61fkKUBI_25jvsibfLWP6r6JsS7oz4EdA80T2PWq6aiSnGjB7k-eQ__HjYRKKTaXzBXohYVwoEDTvg8dfpoB_NJF1tTA-g4Re0bNZ9Fu5NXqxoYQg2PxL1U6rPl-Y9fR1KXTLr6I2eUVAh0N1DpNet3-QJeoUEZcaPeRCct_Pdu88QoWCPQuuf3UBKQeSNuc02uyzWPj-diYS1s8225SSxhEWU5QwCy0seaE651-FmiTAexJs5RgCXEEOARUQJmO9uRhJf0HsQjt04Oj7nYgA_prrNbj18srw-1Lr_NGCviKNpTzEX2lQCJA4f-mXvc8KeDlnb6tCNQjCPsa9B84EjeDmwp-19R5vhqLaMrLR_JZ5uuhbDdwcmEzXP66jklHQec_Sk5YsmbmoBWsTPAOyORD41UHV2nXqoiTyyvYT_aUJSqiOVOHNBzyxoumN82YKc8x6ouOoFYgUecf-zf2b9HYjEM7fBrIBYBLM_j7lzXPRrrZ8ANnpHqy-gfG7Sjwovqf53badAO55WJ2xdbbBbTo56QG59b5S7VIOpf8DHW3Gxrq3AUycMXVq4HxLopNsl8wwblboztqyHb3OsmcJT3kQrzCJZij0Vxp1gmat6cuDuZorp6AWMmKHc6a-ObURcwTr0UGrSmowEsIxTrmL1jjHEqEDQA4F4CEe9szm8YAVxzICqNwnMLIgD4O3Yd0FZF1ikIkMgo8ibfXP8P4UDePaFaVUpCmdwXU-2xZRTf7GiwEwKN_P5yyz4Bmz7bbD9XaFvkBRWelO27xIAiXNP54pkrMcDa9AAVQ7A0o2EKPKN2-FkCBIow6JtbqNIIyMul-C8As9LhGMsmHVZAvTsyNXm4njrJjBmYpvOPYHkg1qnlhRPeDYe7OGnR1RwCICdfTZCoaJ18LTa-V16MtXRA9wYeJWqf8sFYZE8F1PUGqdNddnNElbQImb7oKo_0SUm_HW-_2uVbzeB5lN6qJ1-ta78ukz4K_FI9our-MsthN8yxhkE1OEFr22RbEE1j1GZ65XQnPawT-JC1jrOsu2yPsQRpgH9RX4uaMmp0Z_M7SbQ6dWguo-HshKu3ABFxu5E3qAUx2E61excbKyU2wulqywqPPDxzI1E9JAonzyDz3Sz2uEUKD_MhglEdDRaupZy33S9htdOVxHv5N8TJTq1XLBNCC8lhDrpkRoTa7t1MYwijS0Ueuvess1dESu4WtvVxpUWHQ50uRqQ_1IHRz5WTtnudYN4l4s2tpUugvQY4aYoxEPvhmxYAUAcuudsJO1WMwCmQBHcHD3n3UnPjD9xQ2p3IRfo1kze0WSe3hFZg7KYuWD_-W9XCyIZnZgvx85FyVqrcOImCLC2dJ68eVIOZ6BC0_yDU4Ju0dktD5GGiwqa8L7eU84Qvx_HvbGUA4puwV2jWRT2tMcyeSy1PbQ96cvG7TqysSpthxBusbsjuZZci4VtEhOowfZzqLXguv0WvNGcQrvAFHD3WgZdO5ZUwjN1FoFk7xJu-J5SymT4JtH6uqyl_Zl_xAoLZ_BhVrhP6PvzjToI5CF-4WUKlB14ggsu7xyivYV6jWHxmfzDbflHeD_KKdc-JZADuHvAWAfb6QnWU5_JAIiS2hfeVyVGA8fHFwcJYasQWzvcGCWiPRNSoFTHIgJQdJ52rPeeujzKtLq6vGRmXNaCo4wggNfr8QVEnrdMF3Fs8yicAXbPs-X5QDwTi0RAaZf0QXEiyAJkjUGHy0hUoDHgiB5DQC6h0hDRD1GeQvV2l2hrSuI6o5RlrwUA3swB6kFE4kzvmAtivMVUNARtV5tR_HNOsO1ObUrglpiFaMB7Y7diPgd52MyE3DZN0fQJETHCc9XTvyh7bpkMsKxsEAFioquFugj5g8hj45x_DuVAyb5j9qO64mB5Z4HVHQLZ3YJND-2dymmnwCQWTVf_crLkNSgNB3W1_VHG2jWKzXu6WLMGbT64XArI1V4oPKL3CISQCHdAo5m6mz49PvkyESC70oJldS1RQ-QQq9FY1iIb-7npiVACGSpwGxtwGfJHNQSinb_kXHVWKF85iRvzJFGMl2R6QsAUVaIH_VLMiQwgVKS0xOAiR6kzH2mXjqE1Mv1QkU9PawoAWLzLYN0Mx8A84StyZZP6KujR9tXAG_hGZ5oo-4x1ZRit4w0PBwHJiiktWd5GnUcmxw8y_PC0zTSI7ZhNtrEXNuCLF57SooP7jzDYdIqunOef6-XUva02JEMe8HtDbi0qEWWc190QMTpni3v6MVgj0Y0BOWp9l76uDfe9tc90QTLmO8TySDEB8uHi6BxjOzJ7Bh_1WyPfYYtm8ByK_ngODAa-mUxxu7sYlMNzyosLcfWW1UO15TzxthaXSwcgfAZvZBZh6ZciPPSX9V8msb7c5QlF-3zBn-dGkImvEkGfuNZCgANPT2MmoBSITPCx8dij_yGcHO61v2qDdgWfnQxtZxBEYv53CT-ayJBi5pnl1-w-n7g8z_cgLYlGOnZ24w9txVJZGXQsx_YQG8Mq5IIzuIy2PRvAHEAPeffNbAGgV8KkQC2UDYXL11pD-NECE79Po0KMif6fKeMqJxBfiq4nsM7is5ywbr7F5Po781qJLlm5TCeQhyetWkqHoykxqqG8-gi6FWbCZpFtL8Qr2t91sUqXBPMBvsMRdsrGmBl2QFXvJpG37o63TmueXqESWQRwIfQLsTd3i5UN-ogVAZLHtYlylt6itadVpJS7ITVIYNLvD_6Za4GbITgvcWrgeP7UnS4DWuavDhKPFe_fBkFlN-KNe0b0NPSmUFoOHhvQ7EHt0CLtaoKYDqip3LVDYLClU7DRx5LZA67djJm1xRt08Ftju2IxyP4M-hdPiX7fK1lcFDbqA9x-eHOF9euu-50tKC8nnSaZN1tDfw6-CVaO-bbM2AQrOn-AEs0G19SW796jtRM4FoIDfnhAQlrLJs3ZyjTyW5amgbSDEVaHvXhIQWJ7HQxrxWd0JFZBk1TOc_wBGsRT9B7pQWtqMVkApY-1HJ-waoU-BasJtmHlgpXM6U5H661_8w_PPI4rgmhH1i3tjqoKyVDcA26qxsGxlg8kWWCvKevRuqP8dYP9x6XbHnxNF5AlK3JFy0xQHmMtdAh9tOF9PMit7apNEgObEyJipXzgCbYM7jUUlGF2oN1H8=",
+        "id": "rs_052e94333ca8069e006acc4e7495e487d0b955e16fc52f52d5",
+        "status": null,
+        "summary": [],
+        "type": "reasoning"
+      },
+      {
+        "content": [
+          {
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\n  \"case_id\": \"CCV1_0014\",\n  \"coherence_decision\": \"INSUFFICIENT_EVIDENCE\",\n  \"confidence\": \"HIGH\",\n  \"proposed_groups\": [\n    {\n      \"local_group_id\": \"G01\",\n      \"edition_keys\": [\n        \"OL8163549M\",\n        \"OL8163633M\"\n      ],\n      \"provisional_label\": \"Josephus: The Essential Writings / The Essential Works\",\n      \"authorship_relation\": \"AUTHOR_TEXT\",\n      \"evidence_note\": \"Closely related subtitles, the same publisher, and matching 416-page lengths support a provisional publication family containing Josephus's writings. Editorial identity remains unverified.\"\n    }\n  ],\n  \"unresolved_edition_keys\": [\n    \"OL13764882M\",\n    \"OL8599716M\"\n  ],\n  \"diagnostic_flags\": [\n    \"DIFFERENT_EDITED_SELECTIONS\",\n    \"MIXED_COLLECTION_OR_OMNIBUS\",\n    \"AUTHOR_SUBJECT_CONFUSION\",\n    \"GENERIC_TITLE_AMBIGUITY\",\n    \"MISSING_EDITORIAL_INFORMATION\"\n  ],\n  \"evidence_note\": \"The 1966 subtitle explicitly identifies The Jewish War and other selections from Flavius Josephus, but does not establish whether that compilation matches the Kregel editions. The 1993 Barbour record has only the generic title Josephus and two author keys whose roles are unspecified. Neither common editorial identity nor materially distinct publication families can be established across all four records.\"\n}",
+            "type": "output_text"
+          }
+        ],
+        "id": "msg_052e94333ca8069e006acc4e794a7c87d0a1996c2ec39efe40",
+        "phase": "final_answer",
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "description": null,
+        "name": "ol_component_coherence_full_v1",
+        "schema_": {
+          "additionalProperties": false,
+          "properties": {
+            "case_id": {
+              "enum": [
+                "CCV1_0014"
+              ],
+              "type": "string"
+            },
+            "coherence_decision": {
+              "enum": [
+                "ONE_PUBLICATION_FAMILY",
+                "MULTIPLE_PUBLICATION_FAMILIES",
+                "INSUFFICIENT_EVIDENCE",
+                "NOT_ASSESSABLE_SINGLE_EDITION"
+              ],
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM",
+                "LOW"
+              ],
+              "type": "string"
+            },
+            "diagnostic_flags": {
+              "items": {
+                "enum": [
+                  "DIFFERENT_EDITED_SELECTIONS",
+                  "MIXED_COLLECTION_OR_OMNIBUS",
+                  "AUTHOR_SUBJECT_CONFUSION",
+                  "GENERIC_TITLE_AMBIGUITY",
+                  "MISSING_EDITORIAL_INFORMATION",
+                  "FORMAT_CONTENT_UNVERIFIED",
+                  "OTHER_EVIDENCE_CONFLICT"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "evidence_note": {
+              "type": "string"
+            },
+            "proposed_groups": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "authorship_relation": {
+                    "enum": [
+                      "AUTHOR_TEXT",
+                      "ABOUT_AUTHOR",
+                      "MIXED",
+                      "UNKNOWN"
+                    ],
+                    "type": "string"
+                  },
+                  "edition_keys": {
+                    "items": {
+                      "enum": [
+                        "OL13764882M",
+                        "OL8163549M",
+                        "OL8163633M",
+                        "OL8599716M"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "evidence_note": {
+                    "type": "string"
+                  },
+                  "local_group_id": {
+                    "type": "string"
+                  },
+                  "provisional_label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "local_group_id",
+                  "edition_keys",
+                  "provisional_label",
+                  "authorship_relation",
+                  "evidence_note"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "unresolved_edition_keys": {
+              "items": {
+                "enum": [
+                  "OL13764882M",
+                  "OL8163549M",
+                  "OL8163633M",
+                  "OL8599716M"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "case_id",
+            "coherence_decision",
+            "confidence",
+            "proposed_groups",
+            "unresolved_edition_keys",
+            "diagnostic_flags",
+            "evidence_note"
+          ],
+          "type": "object"
+        },
+        "strict": true,
+        "type": "json_schema"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1620,
+      "input_tokens_details": {
+        "cache_write_tokens": 1617,
+        "cached_tokens": 0
+      },
+      "output_tokens": 568,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 2188
+    },
+    "user": null
+  },
+  "response_id": "resp_052e94333ca8069e006acc4e737f3087d08ab1f6ade69717a2",
+  "result": {
+    "case_id": "CCV1_0014",
+    "coherence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence": "HIGH",
+    "diagnostic_flags": [
+      "DIFFERENT_EDITED_SELECTIONS",
+      "MIXED_COLLECTION_OR_OMNIBUS",
+      "AUTHOR_SUBJECT_CONFUSION",
+      "GENERIC_TITLE_AMBIGUITY",
+      "MISSING_EDITORIAL_INFORMATION"
+    ],
+    "evidence_note": "The 1966 subtitle explicitly identifies The Jewish War and other selections from Flavius Josephus, but does not establish whether that compilation matches the Kregel editions. The 1993 Barbour record has only the generic title Josephus and two author keys whose roles are unspecified. Neither common editorial identity nor materially distinct publication families can be established across all four records.",
+    "proposed_groups": [
+      {
+        "authorship_relation": "AUTHOR_TEXT",
+        "edition_keys": [
+          "OL8163549M",
+          "OL8163633M"
+        ],
+        "evidence_note": "Closely related subtitles, the same publisher, and matching 416-page lengths support a provisional publication family containing Josephus's writings. Editorial identity remains unverified.",
+        "local_group_id": "G01",
+        "provisional_label": "Josephus: The Essential Writings / The Essential Works"
+      }
+    ],
+    "unresolved_edition_keys": [
+      "OL13764882M",
+      "OL8599716M"
+    ]
+  }
+}
