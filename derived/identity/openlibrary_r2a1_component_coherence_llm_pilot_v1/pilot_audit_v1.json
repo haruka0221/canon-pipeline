@@ -1,0 +1,11 @@
+{
+  "cases": 3,
+  "decisions": {
+    "INSUFFICIENT_EVIDENCE": 1,
+    "MULTIPLE_PUBLICATION_FAMILIES": 1,
+    "ONE_PUBLICATION_FAMILY": 1
+  },
+  "edition_rows": 14,
+  "human_identity_decisions_created": 0,
+  "status": "PILOT_QC_PASSED"
+}

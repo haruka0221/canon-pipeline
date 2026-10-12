@@ -1,0 +1,15 @@
+{
+  "case_ids": [
+    "CCV1_0066",
+    "CCV1_0052",
+    "CCV1_0040"
+  ],
+  "input_freeze_commit": "dde7af0177f0dc942fd20b587d1f27f262a765e0",
+  "input_manifest_sha256": "698e8e64d5030f5f7e5cffd591552d181d878d5305cbfc0e9007e09cfbf02847",
+  "input_sha256": "58c317673f8072928a77fc72d7c7c9f9ac8f5764a8c7ff33df3b1c268cc0e502",
+  "mode": "3_case_pilot_only",
+  "model_requested": "gpt-6.1-sol",
+  "prompt_sha256": "c45db6f2ef12cb1e26e89ff6b6a8df49ca7db40e654dd6340e68297600bda57c",
+  "release": "openlibrary-r2a1-component-coherence-llm-pilot-v1",
+  "runner_sha256": "0ed2662fd824832ee1db172d4f4ca35dfd4d3c46473582434eaf139898ec5cd7"
+}
