@@ -1,0 +1,69 @@
+{
+  "algorithm": "Python random.Random(seed).sample(sorted(stratum_ids), quota)",
+  "counts": {
+    "development_units": 20,
+    "evaluation_units": 20,
+    "held_population_units": 761
+  },
+  "input": {
+    "path": "derived/identity/aggregation_llm_review_adjudication_v1.tsv",
+    "sha256": "5405cee3e2ba183d0af95fa1af17a9c5d19e22f1843de41b7d91dce32479bef3"
+  },
+  "known_prior_exposure_exclusion": {
+    "excluded_anchor": "E000018716",
+    "reason": "Prior discussion disclosed this unit's LLM decision and blockers before the evaluation sample was frozen.",
+    "replacement_anchor": "E000002752",
+    "replacement_method": "minimum SHA256(salt + null + anchor) among unselected UNRESOLVED units",
+    "replacement_salt": "aggregation-held-evaluation-replacement-v1-20261018"
+  },
+  "outputs": {
+    "development_review_queue_v1.tsv": "7668a6aca783430c0316025652bac0f9e7a714830ac577ebe84a389a8924bc03",
+    "sampling_selection_internal_v1.tsv": "c4eb577d5b351cc479276eb2ee8733dc0e72ed94506c30aaa9eef8c58faeb432"
+  },
+  "per_split_quota": {
+    "MULTIPLE_WORKS": {
+      "development": 3,
+      "evaluation": 3
+    },
+    "ONE_COMPLEX_STRONG": {
+      "development": 4,
+      "evaluation": 4
+    },
+    "ONE_COMPLEX_WEAK": {
+      "development": 2,
+      "evaluation": 2
+    },
+    "ONE_SIMPLE_STRONG": {
+      "development": 4,
+      "evaluation": 4
+    },
+    "ONE_SIMPLE_WEAK": {
+      "development": 2,
+      "evaluation": 2
+    },
+    "UNRESOLVED": {
+      "development": 5,
+      "evaluation": 5
+    }
+  },
+  "protocol": {
+    "development_queue_contains_prior_llm_labels": false,
+    "evaluation_evidence_not_opened": true,
+    "no_project_work_or_identity_decisions_created": true,
+    "sampling_is_disproportionate": true,
+    "selection_internal_contains_prior_llm_labels": true,
+    "unweighted_sample_is_not_population_accuracy_estimate": true
+  },
+  "release": "aggregation-held-units-sampling-v1",
+  "review_order_salt": "aggregation-held-development-review-order-v1-20261018",
+  "seed": 20261018,
+  "status": "SAMPLE_FROZEN_REVIEW_NOT_STARTED",
+  "stratum_population_counts": {
+    "MULTIPLE_WORKS": 19,
+    "ONE_COMPLEX_STRONG": 237,
+    "ONE_COMPLEX_WEAK": 6,
+    "ONE_SIMPLE_STRONG": 181,
+    "ONE_SIMPLE_WEAK": 14,
+    "UNRESOLVED": 304
+  }
+}
