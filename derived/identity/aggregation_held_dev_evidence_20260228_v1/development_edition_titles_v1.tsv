@@ -1,0 +1,178 @@
+review_order	unit_anchor_entity_id	current_ol_work_id	edition_title_raw	edition_count	example_edition_key
+1	E000005163	OL1518128W	The Adventures and Memoirs of Sherlock Holmes	4	/books/OL14620307M
+1	E000005163	OL1518128W	The Adventures of Sherlock Holmes and the Memoirs of Sherlock Holmes	2	/books/OL24271252M
+1	E000005163	OL1518128W	Sherlock Holmes	1	/books/OL17338678M
+1	E000005163	OL1518128W	The adventures and memoirs of Sherlock Holmes	1	/books/OL47073534M
+1	E000005163	OL1518128W	The adventures and Memoirs of Sherlock Holmes.	1	/books/OL18933156M
+1	E000005163	OL1518128W	The adventures and the memoirs of Sherlock Holmes	1	/books/OL3294714M
+1	E000005163	OL1518128W	The Celebrated Cases of Sherlock Holmes	1	/books/OL7776659M
+1	E000005163	OL262419W	The Complete Adventures and Memoirs of Sherlock Holmes	4	/books/OL16087440M
+1	E000005163	OL262419W	The Adventures and Memoirs of Sherlock Holmes	2	/books/OL26009035M
+1	E000005163	OL262419W	Adventures and Memoirs of Sherlock Holmes	1	/books/OL24303526M
+1	E000005163	OL262419W	Sherlock Holmes	1	/books/OL25010133M
+1	E000005163	OL262419W	The adventures and memoirs of Sherlock Holmes	1	/books/OL6791415M
+1	E000005163	OL262419W	The Adventures and Memoirs of Sherlock Holmes [The Modern Library, 206.2]	1	/books/OL7461622M
+1	E000005163	OL262419W	The Adventures Of Sherlock Holmes (Adventures of Sherlock Holmes)	1	/books/OL9161034M
+1	E000005163	OL262419W	The Adventures of Sherlock Holmes / The Memoirs of Sherlock Holmes	1	/books/OL16392961M
+1	E000005163	OL262419W	The Adventures of Sherlock Holmes and The Memoirs of Sherlock Holmes	1	/books/OL3971574M
+1	E000005163	OL262419W	The complete adventures and memoirs of Sherlock Holmes	1	/books/OL5204501M
+1	E000005163	OL262419W	The New Annotated Sherlock Holmes, Volume 1	1	/books/OL10157273M
+1	E000005163	OL262419W	The new annotated Sherlock Holmes: Volume I	1	/books/OL36096059M
+2	E000022268	OL44005294W	Suddenly at his residence	1	/books/OL60038437M
+2	E000022268	OL4463215W	Crooked Wreath	4	/books/OL35899248M
+2	E000022268	OL4463215W	The crooked wreath	1	/books/OL6509819M
+2	E000022268	OL4463215W	The Crooked Wreath Lib/E	1	/books/OL35683835M
+3	E000021061	OL42471334W	The haunted bookshop	2	/books/OL57634821M
+3	E000021061	OL619317W	The Haunted Bookshop	25	/books/OL10508359M
+3	E000021061	OL619317W	Haunted Bookshop	16	/books/OL28500199M
+3	E000021061	OL619317W	The haunted bookshop	13	/books/OL16716767M
+3	E000021061	OL619317W	The haunted bookshop.	6	/books/OL17890971M
+3	E000021061	OL619317W	La llibreria encantada	5	/books/OL28649758M
+3	E000021061	OL619317W	Haunted bookshop.	1	/books/OL14554332M
+3	E000021061	OL619317W	La librería encantada	1	/books/OL25434707M
+3	E000021061	OL619317W	The Haunted bookshop	1	/books/OL40255141M
+3	E000021061	OL619317W	The Haunted Bookshop (Large Print Edition)	1	/books/OL9794090M
+4	E000031310	OL7634635W	Jonah and the voice	1	/books/OL6381897M
+4	E000031310	OL7634636W	Reluctant prophet	1	/books/OL6382622M
+5	E000020209	OL39452048W	The three musketeers	1	/books/OL53684721M
+5	E000020209	OL41496381W	The three musketeers	1	/books/OL56355486M
+5	E000020209	OL42517291W	The three musketeers	2	/books/OL57706456M
+5	E000020209	OL42517479W	The three musketeers	2	/books/OL57706758M
+5	E000020209	OL42585891W	The three musketeers	1	/books/OL57825414M
+5	E000020209	OL42639494W	The three guardsmen	1	/books/OL57954155M
+5	E000020209	OL43706619W	The three guardsmen	1	/books/OL59578294M
+5	E000020209	OL44501127W	The three musketeers	2	/books/OL60774775M
+6	E000005779	OL15331099W	The weird shadow over Innsmouth	1	/books/OL6466778M
+6	E000005779	OL8423671W	The shadow over Innsmouth	2	/books/OL6354466M
+7	E000007121	OL16420059W	The Heart of Midlothian	1	/books/OL7115818M
+7	E000007121	OL16420059W	The heart of Midlothian	1	/books/OL25154802M
+7	E000007121	OL19771369W	The heart of Midlothian	1	/books/OL26983510M
+7	E000007121	OL42517014W	The heart of Midlothian	1	/books/OL57705995M
+7	E000007121	OL44055289W	The heart of Midlothian	1	/books/OL60175246M
+8	E000017398	OL32146062W	John Ward, preacher	1	/books/OL43882243M
+8	E000017398	OL38982467W	John Ward, preacher	4	/books/OL53080491M
+9	E000002390	OL121239W	The Adventures of Grandfather Frog	4	/books/OL51016525M
+9	E000002390	OL121239W	Adventures of Grandfather Frog	3	/books/OL36549587M
+9	E000002390	OL121239W	The adventures of Grandfather Frog	3	/books/OL1711190M
+9	E000002390	OL121239W	Adventures of Grandfather Frog (Annotated)	1	/books/OL34303200M
+9	E000002390	OL121239W	The Adventures of Grandfather Frog (Illustrated Edition) (Dodo Press)	1	/books/OL11677913M
+9	E000002390	OL121239W	The Adventures of Grandfather Frog (The Bedtime Story-Books)	1	/books/OL47727801M
+9	E000002390	OL44504811W	The adventures of grandfather frog	1	/books/OL60779085M
+10	E000004873	OL15127746W	Traffics and Discoveries	24	/books/OL10493466M
+10	E000004873	OL15127746W	Traffics and discoveries	17	/books/OL13535719M
+10	E000004873	OL15127746W	Traffics And Discoveries	6	/books/OL11651882M
+10	E000004873	OL15127746W	Traffics and discoveries.	5	/books/OL13648951M
+10	E000004873	OL15127746W	Traffic and discoveries	2	/books/OL16447218M
+10	E000004873	OL15127746W	Traffics and Discoveries (20th Century Classics)	2	/books/OL7349680M
+10	E000004873	OL15127746W	Traffic and discoveries [Book].	1	/books/OL18383969M
+10	E000004873	OL15127746W	TRAFFICS and DISCOVERIES (Annotated)	1	/books/OL36865560M
+10	E000004873	OL15127746W	Traffics and discoveries (Collected Works of Rudyard Kipling)	1	/books/OL9386479M
+10	E000004873	OL15127746W	Traffics and Discoveries (Large Print Edition)	1	/books/OL9801518M
+10	E000004873	OL32278230W	Traffics and discoveries	1	/books/OL44025830M
+11	E000019600	OL38761626W	La Comtesse de Charny	1	/books/OL52772273M
+11	E000019600	OL42483417W	La comtesse de Charny.	1	/books/OL6977706M
+11	E000019600	OL44636987W	The Countess de Charny	1	/books/OL60972793M
+12	E000005348	OL15230747W	Further Adventures of Nils	6	/books/OL10955697M
+12	E000005348	OL15230747W	Further adventures of Nils	5	/books/OL13524895M
+12	E000005348	OL15230747W	Further adventures of Nils.	2	/books/OL14263238M
+12	E000005348	OL15230747W	The further adventures of Nils.	1	/books/OL22560121M
+12	E000005348	OL644990W	The wonderful adventures of Nils	16	/books/OL1115612M
+12	E000005348	OL644990W	The Wonderful Adventures of Nils	15	/books/OL11340641M
+12	E000005348	OL644990W	Wonderful Adventures of Nils	14	/books/OL10161107M
+12	E000005348	OL644990W	The Wonderful Adventures Of Nils	4	/books/OL11754905M
+12	E000005348	OL644990W	The Wonderful Adventure of Nils Holgersson	2	/books/OL30627513M
+12	E000005348	OL644990W	The wonderful adventures of Nils.	2	/books/OL22560090M
+12	E000005348	OL644990W	Wunderbare Reise des kleinen Nils Holgersson mit den Wildgänsen	2	/books/OL32049722M
+12	E000005348	OL644990W	Ni er si qi e lu xing ji	1	/books/OL26914130M
+12	E000005348	OL644990W	Ni'ersi qi e lü xing ji	1	/books/OL27132915M
+12	E000005348	OL644990W	Nils Holgerssoni imeline teekond läbi Rootsi	1	/books/OL25849379M
+12	E000005348	OL644990W	Nils Holgerssons underbara resa genom Sverige	1	/books/OL13269413M
+12	E000005348	OL644990W	The Wonderful Adventure of Nils	1	/books/OL43064039M
+12	E000005348	OL644990W	the Wonderful Adventures of NILS	1	/books/OL43171014M
+12	E000005348	OL644990W	The Wonderful Adventures of Nils (Dodo Press)	1	/books/OL11675977M
+12	E000005348	OL644990W	The Wonderful Adventures of Nils (Dover Children's Classics)	1	/books/OL26845422M
+12	E000005348	OL644990W	The Wonderful Adventures of Nils (Large Print Edition)	1	/books/OL11976186M
+12	E000005348	OL644990W	The Wonderful Adventures of Nils (Wildside Fantasy Classic)	1	/books/OL9785582M
+12	E000005348	OL644990W	The wonderful adventures of Nils.  From the Swedish of Selma Lagerlöf	1	/books/OL24607336M
+12	E000005348	OL644990W	The wonderful adventures of Nils.  From the Swedish of Selma Lagerlöf.	1	/books/OL22202888M
+12	E000005348	OL644990W	ニルスのふしぎな旅	1	/books/OL23008245M
+13	E000004501	OL14905113W	Gulliver's travels, the voyages to Lilliput and Brobdingnag	1	/books/OL6569815M
+13	E000004501	OL20686W	Gulliver's travels into Lilliput and Brobdingnag	3	/books/OL13573593M
+13	E000004501	OL20686W	Gulliver's travels	1	/books/OL18694961M
+13	E000004501	OL20686W	Gulliver's travels [microform]	1	/books/OL2302026M
+13	E000004501	OL20686W	Gulliver's travels into Lilliput and Brobdingnag.	1	/books/OL15331528M
+13	E000004501	OL20686W	Gulliver's travels.	1	/books/OL16470979M
+13	E000004501	OL39440125W	Gulliver's travels. The voyage to Lilliput and the voyage to Brobdingnag	1	/books/OL53670009M
+14	E000034716	OL989044W	Crainquebille. (L'affaire Crainquebille).	1	/books/OL6087883M
+14	E000034716	OL989307W	Crainquebille	9	/books/OL14171838M
+14	E000034716	OL989307W	Crainquebille =	1	/books/OL6061766M
+14	E000034716	OL989307W	Crainquebille.	1	/books/OL5077129M
+15	E000001231	OL11280470W	The White Tower	3	/books/OL16840754M
+15	E000001231	OL11280470W	The White tower	1	/books/OL6484109M
+15	E000001231	OL11280470W	the white tower	1	/books/OL24489467M
+15	E000001231	OL11280470W	The White Tower.	1	/books/OL19274873M
+15	E000001231	OL11280470W	The white tower.	1	/books/OL17404576M
+15	E000001231	OL1519616W	The White Tower   Part 1 Of 2	1	/books/OL10601254M
+15	E000001231	OL1519616W	The White Tower Part 1 of 2	1	/books/OL12580595M
+16	E000033606	OL7973256W	The Collected Works of Ambrose Bierce: Volume III	7	/books/OL37760711M
+16	E000033606	OL7973256W	Can such things be?	3	/books/OL13536993M
+16	E000033606	OL7973256W	Can Such Things Be?	1	/books/OL9780477M
+16	E000033606	OL7973256W	The Collected Works of Ambrose Bierce ...	1	/books/OL32342367M
+16	E000033606	OL7973256W	The Collected Works of Ambrose Bierce Vol. III	1	/books/OL47007250M
+16	E000033606	OL7973256W	The Collected Works of Ambrose Bierce, Volume III: Can Such Things Be?	1	/books/OL27050506M
+16	E000033606	OL7973356W	Can Such Things Be?	20	/books/OL11978687M
+16	E000033606	OL7973356W	Can Such Things Be? Illustrated	9	/books/OL34196869M
+16	E000033606	OL7973356W	Can such things be?	6	/books/OL14777803M
+16	E000033606	OL7973356W	Can Such Things Be	5	/books/OL11002194M
+16	E000033606	OL7973356W	Can Such Things Be? Illustrated Edition	3	/books/OL36115695M
+16	E000033606	OL7973356W	Can Such Things Be (illustrated Classic Edition)	1	/books/OL34245791M
+16	E000033606	OL7973356W	Can Such Things Be (Wordsworth American Classics)	1	/books/OL8978853M
+16	E000033606	OL7973356W	Can Such Things Be? (Large Print Edition)	1	/books/OL11978688M
+16	E000033606	OL7973356W	Can Such Things Be? (Large Print)	1	/books/OL8962875M
+16	E000033606	OL7973356W	Can Such Things Be?( Illustrated Edition)	1	/books/OL37008430M
+16	E000033606	OL7973356W	Can Such Things Be?:( Illustrated Edition)	1	/books/OL36070492M
+16	E000033606	OL7973356W	Hinter der Wand	1	/books/OL25771801M
+16	E000033606	OL7973356W	Mozhet li ėto byt?	1	/books/OL22978169M
+17	E000009675	OL18084699W	Tin Soldier	31	/books/OL34457269M
+17	E000009675	OL18084699W	The Tin Soldier	1	/books/OL32704557M
+17	E000009675	OL18084699W	The tin soldier	1	/books/OL24178899M
+17	E000009675	OL7873645W	The tin soldier	1	/books/OL7135842M
+18	E000001842	OL11708202W	Rainbow	2	/books/OL16255856M
+18	E000001842	OL11708202W	The rainbow	2	/books/OL6464925M
+18	E000001842	OL38537734W	The rainbow	1	/books/OL52440747M
+19	E000014424	OL24821063W	The dark flower	1	/books/OL32985083M
+19	E000014424	OL879086W	The Dark Flower	8	/books/OL10571740M
+19	E000014424	OL879086W	The dark flower	8	/books/OL15420174M
+19	E000014424	OL879086W	Die dunkle Blume	4	/books/OL15477196M
+19	E000014424	OL879086W	dark flower	3	/books/OL14973310M
+19	E000014424	OL879086W	The dark flower.	3	/books/OL17422871M
+19	E000014424	OL879086W	The Dark Flower (Edwardian Collection)	2	/books/OL9370944M
+19	E000014424	OL879086W	Dark Flower	1	/books/OL9568957M
+19	E000014424	OL879086W	Dark flower	1	/books/OL23762295M
+19	E000014424	OL879086W	Die Dunkle Blume	1	/books/OL25432703M
+19	E000014424	OL879086W	dunkle Blume	1	/books/OL20669150M
+19	E000014424	OL879086W	Tamni cvet.	1	/books/OL20669177M
+19	E000014424	OL879086W	The Dark Flower (Classic Books on Cassettes Collection)[UNABRIDGED] (Classic Books on Cassettes Collection)	1	/books/OL12033571M
+19	E000014424	OL879086W	The Dark Flower (Dodo Press)	1	/books/OL11652455M
+19	E000014424	OL879086W	The Dark Flower (Large Print Edition)	1	/books/OL11975934M
+19	E000014424	OL879086W	The Dark Flower (Large Print)	1	/books/OL8964949M
+19	E000014424	OL879086W	The Dark flower.	1	/books/OL5221022M
+19	E000014424	OL879086W	Tmav`y kvet.	1	/books/OL19865569M
+19	E000014424	OL879086W	Tmavý kvet.	1	/books/OL20669124M
+19	E000014424	OL879086W	Tmavý květ.	1	/books/OL19865954M
+20	E000016328	OL318898W	Jesus the Son of man	5	/books/OL1121879M
+20	E000016328	OL318898W	Jesus, the Son of man	2	/books/OL13568666M
+20	E000016328	OL318898W	Jesus, the son of man	2	/books/OL19221780M
+20	E000016328	OL318898W	ʻĪsá ibn al-insān	2	/books/OL23093865M
+20	E000016328	OL318898W	Īsá ibn al-insān	1	/books/OL20363621M
+20	E000016328	OL318898W	Jesus the son of man	1	/books/OL17112710M
+20	E000016328	OL318898W	Jesus The Son of Man His words and his deeds as told and recorded by those who knew him	1	/books/OL43013258M
+20	E000016328	OL318898W	Jesús, el hijo del hombre	1	/books/OL23069264M
+20	E000016328	OL42845982W	Jesus the son of Man	1	/books/OL58373142M
+20	E000016328	OL42845982W	Jesus, the Son of Man	1	/books/OL58371669M
+20	E000016328	OL7921040W	Jesus, the Son of Man	29	/books/OL18831881M
+20	E000016328	OL7921040W	Jesus the Son of Man	9	/books/OL35675991M
+20	E000016328	OL7921040W	Jesus the Son of man	2	/books/OL28658059M
+20	E000016328	OL7921040W	Jesus the Son of man,	2	/books/OL40265206M
+20	E000016328	OL7921040W	Jesus, the son of man	1	/books/OL45841079M
+20	E000016328	OL7921040W	Jesus: The Son of Man	1	/books/OL11951061M
