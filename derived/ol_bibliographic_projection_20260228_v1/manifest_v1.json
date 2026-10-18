@@ -1,0 +1,66 @@
+{
+  "status": "LOCAL_QC_NOT_PUBLISHED",
+  "created_utc": "2026-10-18T13:54:18.306283+00:00",
+  "research_commit": "dd8ee20393297edfd786fdb3566291fceccb475c",
+  "edition_snapshot": "2026-02-28",
+  "dates_source": "strict_parse_publish_date_v1",
+  "source_work_target": "current_ol_work_id; historical IDs retained separately",
+  "edition_count_semantics": "Open Library registered Edition records; not publication events",
+  "language_count_semantics": "Edition counted once for each distinct tagged language; sum may exceed total",
+  "edition_link_semantics": "Target extraction manifest reports zero Editions with multiple source Work links",
+  "identity_semantics": "Project W v7 current_analysis_target only; no implicit merges; unresolved targets omitted from W totals",
+  "scope_semantics": "No final genre, language, period or literary work scope determination",
+  "raw_editions_dump_sha256": "NOT_CALCULATED_IN_UPSTREAM_MANIFEST",
+  "counts": {
+    "historical_target_rows": 34789,
+    "current_target_rows": 34789,
+    "all_extracted_target_ids": 34792,
+    "active_works": 32066,
+    "active_works_with_ol_source": 32065,
+    "source_light_works": 1,
+    "mapped_source_works": 32689,
+    "unmapped_source_works": 2100,
+    "current_target_edition_sum": 421749,
+    "mapped_w_edition_sum": 367622,
+    "unmapped_edition_sum": 54127
+  },
+  "input_sha256": {
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/openlibrary_analysis_targets_v1.tsv": "021eab7dd569385a85f00033d8a5f8e7ab53086951bc586322df3e904a55a35c",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/work_identity_map_v7.tsv": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/work_edition_summary_v1.tsv": "c89dff7286a907bc8f647979c210be0d22cb92135abc5617f6aa5a62c5e8f8aa",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_slices_20260228_v1/work_edition_quality_v1.tsv": "b62b7e5791a77dcfef013fddfa518629e337bcfa71e600776a8d27ffa17d13d7",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_slices_20260228_v1/work_edition_by_decade_v1.tsv": "49a8fd6f6da0eabfea07224a5bacca4821c4c301e833bd2e4eaed8cc4c5f4782",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_slices_20260228_v1/work_edition_by_language_v1.tsv": "fd5e8bc61ee8d5980feb9fe7baeabf5087f032aedf5b55bcd602e488d0fe6f1c",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/manifest_v1.json": "ae92d62403cd535c050c33be87b77944097ebabe04c3e5a763f30d09358dd850",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_slices_20260228_v1/manifest_v1.json": "b54c768fb66088c05369be0eb312afdf49a09d3cc5f3230d470a1e2ba139d4f3",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_edition_target_set_v1/manifest_v1.json": "ca1b7a95d9d6e15c7da6923a7c452bf6d07376cbe4ba434d8fb5d921d4133f16",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_historical_edition_projection_20260228_v1/manifest_v1.json": "3c0649730ec74856dd75c72afd9801aa7472051faa29c1478f6ae4ef01929ed5"
+  },
+  "outputs": {
+    "source_ol_work_v1.tsv": {
+      "bytes": 4208831,
+      "sha256": "4fa3f463f13a5b647d93aeec5eb0c24b8b5a9010ed77f3a97f6bb41b8ec62087"
+    },
+    "project_w_v1.tsv": {
+      "bytes": 2188076,
+      "sha256": "2286addbd41cd42456a4c4c94c6a787268e9ed6c081af7c70951043728e57184"
+    },
+    "source_ol_work_by_decade_v1.tsv": {
+      "bytes": 2404387,
+      "sha256": "4d2f7c33a1e13271a9e23ce2c48e99bb2937413170ffc3b7fbe20ea16dfbcaad"
+    },
+    "source_ol_work_by_language_v1.tsv": {
+      "bytes": 988205,
+      "sha256": "2920e8b0e8ddb9b42e429d4d196f866b7330438102e408fac3bda33c21f66026"
+    },
+    "project_w_by_decade_v1.tsv": {
+      "bytes": 2201727,
+      "sha256": "098d158284ee71187145df4c38919dce6786700f18ca181402daf90d93465da4"
+    },
+    "project_w_by_language_v1.tsv": {
+      "bytes": 907840,
+      "sha256": "65aa9254b1956c8d3ade4462d8d34e94d5ed734b93afc451b922450062e9b44b"
+    }
+  }
+}
