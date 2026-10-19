@@ -1,0 +1,45 @@
+{
+  "counts": {
+    "edition_links": 1485,
+    "edition_year_parsed_rows": 1456,
+    "edition_year_unparsed_rows": 29,
+    "ol_works": 53,
+    "raw_edition_title_rows": 263,
+    "unique_editions": 1485,
+    "units": 20
+  },
+  "inputs": {
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/edition_details_v1.tsv": "5ca56a76b46b8ce028930b13ec9942f42301d4b74c361bc394b36d0d2734cbe3",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/edition_work_links_v1.tsv": "e08aa8a5e132c2ccfd190bc0fade269c50b0a9d9fa4feb0cc98257e7072d4996",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/manifest_v1.json": "ae92d62403cd535c050c33be87b77944097ebabe04c3e5a763f30d09358dd850",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/work_edition_summary_v1.tsv": "c89dff7286a907bc8f647979c210be0d22cb92135abc5617f6aa5a62c5e8f8aa",
+    "derived/identity/aggregation_held_heldout_queue_blinded_v1/heldout_review_queue_v1.tsv": "490c519d4df6c117cef020450fa710825c24947cd544d0b2232360db963c315e",
+    "derived/identity/aggregation_held_heldout_queue_blinded_v1/manifest_v1.json": "e2fef5e0aa4c5a419cb27931d898e38a32ab0f689734829dc497f9137621dc09",
+    "derived/identity/aggregation_review_members_v1.tsv": "f656b9393eac5a12f15ca39bf6abb30c2ad47c5343bfadcd928fdf4043ab3978",
+    "derived/identity/openlibrary_analysis_targets_v1.tsv": "021eab7dd569385a85f00033d8a5f8e7ab53086951bc586322df3e904a55a35c",
+    "docs/AGGREGATION_HELD_UNIT_HUMAN_REVIEW_PROTOCOL_FROZEN_V0_2.md": "663a82b2203ec8e260544a528b9eda5cc924eb501ca36bfba6e6394bfaba356f"
+  },
+  "interpretation": {
+    "blinding": "Only the blinded held-out queue is read; previous LLM verdicts, sampling strata, and development judgments are not read or written.",
+    "complete_sample_edition_coverage": "All 1485 extracted Edition links for the 53 selected OL Works.",
+    "historical_first_publish_year": "OL target field; not a validated conceptual original publication year.",
+    "no_corpus_scope_decision": true,
+    "no_existing_release_modified": true,
+    "not_independent_evidence": "Open Library Edition metadata is source-internal to OL Work clustering.",
+    "publish_year": "Strict edition-date parser result; not a conceptual original publication year.",
+    "review_status": "No human, LLM, or project identity decision made.",
+    "source_work_title_and_authors": "Work-level metadata; author IDs are not Edition-level authorship evidence.",
+    "title_distribution": "Exact raw strings; no title normalization or deduplication."
+  },
+  "outputs": {
+    "heldout_edition_titles_v1.tsv": "0b349b0b9c5ca17620f6c467bdd48a01b791b67e46a659bdd579985714137685",
+    "heldout_editions_all_v1.tsv": "25f7058eecb8d51a7bbbb82279e11390cdc5ad62b94321f08eab3cf8458a0f00",
+    "heldout_ol_works_v1.tsv": "314e4d973e7865a1d7e21f69c58f0a9ccbff3baa07253a431f658917602e5654",
+    "heldout_units_v1.tsv": "e8d38eee8c1099a090357178fdaed9c7969310d78fad994e3629f2d4c7963264"
+  },
+  "release": "aggregation-held-heldout-evidence-20260228-v1",
+  "sampling_source_status": "BLINDED_QUEUE_READY_NOT_ADJUDICATED",
+  "source_snapshot": "Open Library Editions dump 2026-02-28",
+  "status": "LOCAL_EVIDENCE_PREP_NOT_ADJUDICATED",
+  "workshop_tables_upstream_status": "LOCAL_VALIDATION_NOT_PUBLISHED"
+}
