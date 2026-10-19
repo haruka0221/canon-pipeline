@@ -1,0 +1,25 @@
+{
+  "status": "AI_ASSISTED_DEVELOPMENT_AUDIT",
+  "input_ledger": "derived/identity/aggregation_held_dev_review_draft_v1/development_review_sheet_v1.tsv",
+  "input_sha256": "3176dba703479d775d860e792f5f2f1c30748306211c8a4c4a5a010d1319cf40",
+  "output_sha256": "0ea8d5f3f6ca7e07c49b6766e1db52f3a7701deeb927522754486983f66a1b15",
+  "units": 20,
+  "preliminary_counts": {
+    "MULTIPLE_WORKS": 2,
+    "ONE_WORK": 12,
+    "UNRESOLVED": 6
+  },
+  "missing_url_in_note": [
+    "E000005163",
+    "E000022268",
+    "E000021061"
+  ],
+  "human_decisions": 0,
+  "limitations": [
+    "Preliminary categories are not human gold labels.",
+    "Primary issues are illustrative, not exhaustive.",
+    "URL presence does not establish source validity.",
+    "The audit does not verify bibliographic claims.",
+    "The sample does not estimate full-population rates."
+  ]
+}
