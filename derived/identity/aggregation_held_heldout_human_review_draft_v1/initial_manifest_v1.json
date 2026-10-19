@@ -1,0 +1,12 @@
+{
+  "status": "DRAFT_NOT_ADJUDICATED",
+  "review_mode": "AI_ASSISTED_HELDOUT_REVIEW",
+  "source_queue_sha256": "490c519d4df6c117cef020450fa710825c24947cd544d0b2232360db963c315e",
+  "source_works_sha256": "314e4d973e7865a1d7e21f69c58f0a9ccbff3baa07253a431f658917602e5654",
+  "frozen_protocol_sha256": "663a82b2203ec8e260544a528b9eda5cc924eb501ca36bfba6e6394bfaba356f",
+  "initial_review_sheet_sha256": "e3f93e9a8f716b91b4afe64633172cfbac43e8e3b33b0393bceb071e1c853bf4",
+  "units": 20,
+  "initial_human_decisions": 0,
+  "historical_llm_decisions_accessed": false,
+  "project_w_modified": false
+}
