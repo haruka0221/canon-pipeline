@@ -1,0 +1,73 @@
+{
+  "artifact": "heldout_researcher_review_frozen_v1",
+  "blinded_queue": {
+    "path": "derived/identity/aggregation_held_heldout_queue_blinded_v1/heldout_review_queue_v1.tsv",
+    "sha256": "490c519d4df6c117cef020450fa710825c24947cd544d0b2232360db963c315e"
+  },
+  "case_level_caveats": {
+    "12": {
+      "decision": "MULTIPLE_WORKS",
+      "note": "Post-review live OL Edition metadata for OL52630896M confirms the catalogued 1894 Regent's Daughter / Black Tulip combined publication, pagination 319, 253 pages. Original physical volume and MARC source not independently inspected. OL60308945M also has a With note requiring cautious interpretation.",
+      "partition": "SPLIT_BY_OL_WORK",
+      "unit_anchor_entity_id": "E000019492"
+    },
+    "16": {
+      "decision": "MULTIPLE_WORKS",
+      "note": "Standalone story versus story collection established; exact source Work or Edition partition remains undetermined.",
+      "partition": "UNDETERMINED",
+      "unit_anchor_entity_id": "E000009006"
+    },
+    "17": {
+      "decision": "ONE_WORK",
+      "note": "Both OL Works describe the same two-novel aggregate publication scope. ONE_WORK means duplicate aggregate source records; it does not identify the two constituent novels as one novel. Downstream constituent-work modeling remains a separate question.",
+      "partition": "SINGLE_WORK_NO_SPLIT",
+      "unit_anchor_entity_id": "E000001131"
+    }
+  },
+  "evidence": {
+    "edition_count": 1485,
+    "file_sha256": {
+      "derived/identity/aggregation_held_heldout_evidence_20260228_v1/heldout_edition_titles_v1.tsv": "0b349b0b9c5ca17620f6c467bdd48a01b791b67e46a659bdd579985714137685",
+      "derived/identity/aggregation_held_heldout_evidence_20260228_v1/heldout_editions_all_v1.tsv": "25f7058eecb8d51a7bbbb82279e11390cdc5ad62b94321f08eab3cf8458a0f00",
+      "derived/identity/aggregation_held_heldout_evidence_20260228_v1/heldout_ol_works_v1.tsv": "314e4d973e7865a1d7e21f69c58f0a9ccbff3baa07253a431f658917602e5654",
+      "derived/identity/aggregation_held_heldout_evidence_20260228_v1/heldout_units_v1.tsv": "e8d38eee8c1099a090357178fdaed9c7969310d78fad994e3629f2d4c7963264",
+      "derived/identity/aggregation_held_heldout_evidence_20260228_v1/manifest_v1.json": "f0f064fe0dc67cb263bdff828267c7d1104b5a59cf34c87966f3f6cb919ccda3"
+    },
+    "ol_work_count": 53,
+    "source_snapshot": "OL_EDITIONS_2026-02-28",
+    "unit_count": 20
+  },
+  "frozen_at_jst": "2026-10-20T00:45:16.449233+09:00",
+  "frozen_protocol": {
+    "path": "docs/AGGREGATION_HELD_UNIT_HUMAN_REVIEW_PROTOCOL_FROZEN_V0_2.md",
+    "sha256": "663a82b2203ec8e260544a528b9eda5cc924eb501ca36bfba6e6394bfaba356f"
+  },
+  "frozen_review_path": "derived/identity/aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_frozen_v1.tsv",
+  "historical_llm_judgments_compared": false,
+  "independent_unaided_human_gold": false,
+  "limitations": [
+    "These are researcher-accepted AI-assisted judgments, not independently unaided human gold labels.",
+    "Not every Edition was physically inspected or textually collated.",
+    "Live Open Library audit metadata is distinct from the frozen 2026-02-28 evidence extract.",
+    "The historical LLM decisions and internal sampling strata have not been consulted for these review judgments.",
+    "No automatic Edition reassignment, new Project W assignment, or corpus-scope decision is authorized by this artifact."
+  ],
+  "project_work_release_modified": false,
+  "review": {
+    "decision_counts": {
+      "MULTIPLE_WORKS": 7,
+      "ONE_WORK": 13
+    },
+    "review_mode": "AI_ASSISTED_HELDOUT_REVIEW",
+    "review_status": "RESEARCHER_ACCEPTED_AI_ASSISTED",
+    "reviewed_units": 20,
+    "unreviewed_units": 0,
+    "verified_fields_populated": false
+  },
+  "review_protocol_version": "v0.2",
+  "review_sha256": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d",
+  "review_type": "researcher_accepted_ai_assisted",
+  "sample_type": "blinded_heldout_20_units",
+  "status": "FROZEN_RESEARCHER_ACCEPTED_AI_ASSISTED",
+  "working_review_path": "derived/identity/aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_working_v1.tsv"
+}
