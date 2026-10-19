@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_FOR_HELDOUT_EVALUATION",
+  "freeze_date": "2026-10-19",
+  "protocol_file": "docs/AGGREGATION_HELD_UNIT_HUMAN_REVIEW_PROTOCOL_FROZEN_V0_2.md",
+  "protocol_sha256": "663a82b2203ec8e260544a528b9eda5cc924eb501ca36bfba6e6394bfaba356f",
+  "draft_source_file": "docs/AGGREGATION_HELD_UNIT_HUMAN_REVIEW_PROTOCOL_DRAFT_V0_2.md",
+  "draft_source_sha256": "b10c9aadb3d83f2d2c3635a91708d964fe498e83d6e040e61fceead77758d5af",
+  "development_acceptance_file": "derived/identity/aggregation_held_dev_human_review_draft_v1/development_researcher_accepted_ai_assisted_v1.tsv",
+  "development_acceptance_sha256": "05576716f2868f86b8bb1670f95256838468dc4a380d4586a4a82ecd758bb42a",
+  "development_units": 20,
+  "development_review_mode": "AI_ASSISTED_DEVELOPMENT",
+  "heldout_units": 20,
+  "heldout_review_started": false,
+  "previous_llm_decisions_exposed": false,
+  "project_w_modified": false
+}
