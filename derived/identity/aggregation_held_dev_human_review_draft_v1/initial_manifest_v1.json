@@ -1,0 +1,19 @@
+{
+  "status": "DRAFT_NOT_ADJUDICATED",
+  "source_review_sheet": "derived/identity/aggregation_held_dev_review_draft_v1/development_review_sheet_v1.tsv",
+  "source_review_sheet_sha256": "3176dba703479d775d860e792f5f2f1c30748306211c8a4c4a5a010d1319cf40",
+  "source_works_file": "derived/identity/aggregation_held_dev_evidence_20260228_v1/development_ol_works_v1.tsv",
+  "source_works_sha256": "b1ecbb0a9febbfceafde9b7d81c178fcb2a727f976b63fa88c03ba4bf8bb44b8",
+  "human_review_file": "derived/identity/aggregation_held_dev_human_review_draft_v1/development_human_review_v1.tsv",
+  "initial_human_review_sha256": "0b047da8847a718ffd4be8f0539321b4af93c450a4a0d7c3288d5bc77311f38c",
+  "units": 20,
+  "initial_human_decisions": 0,
+  "review_mode": "AI_ASSISTED_DEVELOPMENT",
+  "notes": [
+    "AI preliminary labels are not copied into this sheet.",
+    "No human decisions are automatically populated.",
+    "This is not a blind human evaluation.",
+    "Held-out evaluation units are not included.",
+    "No Project W identities are changed."
+  ]
+}

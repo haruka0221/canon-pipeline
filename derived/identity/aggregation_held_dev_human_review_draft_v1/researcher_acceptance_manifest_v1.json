@@ -1,0 +1,18 @@
+{
+  "status": "RESEARCHER_ACCEPTED_AI_ASSISTED_DEVELOPMENT",
+  "approval_date": "2026-10-19",
+  "approval_basis": "Researcher explicitly stated that they reviewed and accepted the AI-assisted case explanations.",
+  "independent_blind_review": false,
+  "independent_source_verification_claimed": false,
+  "aggregation_release_changes_authorized": false,
+  "source_template_sha256": "0b047da8847a718ffd4be8f0539321b4af93c450a4a0d7c3288d5bc77311f38c",
+  "source_audit_sha256": "0ea8d5f3f6ca7e07c49b6766e1db52f3a7701deeb927522754486983f66a1b15",
+  "source_preliminary_ledger_sha256": "3176dba703479d775d860e792f5f2f1c30748306211c8a4c4a5a010d1319cf40",
+  "output_sha256": "05576716f2868f86b8bb1670f95256838468dc4a380d4586a4a82ecd758bb42a",
+  "researcher_accepted_decisions": {
+    "UNRESOLVED": 6,
+    "ONE_WORK": 12,
+    "MULTIPLE_WORKS": 2
+  },
+  "units": 20
+}
