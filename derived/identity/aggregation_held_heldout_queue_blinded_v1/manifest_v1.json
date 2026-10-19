@@ -1,0 +1,15 @@
+{
+  "status": "BLINDED_QUEUE_READY_NOT_ADJUDICATED",
+  "selection_input": "derived/identity/aggregation_held_units_sampling_v1/sampling_selection_internal_v1.tsv",
+  "selection_input_sha256": "c4eb577d5b351cc479276eb2ee8733dc0e72ed94506c30aaa9eef8c58faeb432",
+  "development_queue_sha256": "7668a6aca783430c0316025652bac0f9e7a714830ac577ebe84a389a8924bc03",
+  "frozen_protocol_sha256": "663a82b2203ec8e260544a528b9eda5cc924eb501ca36bfba6e6394bfaba356f",
+  "output_queue": "derived/identity/aggregation_held_heldout_queue_blinded_v1/heldout_review_queue_v1.tsv",
+  "output_queue_sha256": "490c519d4df6c117cef020450fa710825c24947cd544d0b2232360db963c315e",
+  "units": 20,
+  "review_decisions": 0,
+  "previous_llm_labels_exported": false,
+  "strata_exported": false,
+  "development_overlap": 0,
+  "project_w_modified": false
+}
