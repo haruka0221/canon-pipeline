@@ -1,0 +1,98 @@
+{
+  "evaluation_scope": "761 held aggregation units",
+  "frame": {
+    "old_llm_multiple_works_n": 19,
+    "old_llm_one_work_n": 438,
+    "old_llm_resolved_n": 457,
+    "old_llm_unresolved_n": 304,
+    "population_n": 761,
+    "resolved_coverage_rate": 0.6005256241787122
+  },
+  "frozen_review_sha256": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d",
+  "independent_unaided_human_gold": false,
+  "limitations": [
+    "Comparison is against researcher-accepted AI-assisted labels.",
+    "The held-out sample is small, especially within strata.",
+    "The standard error is a plug-in design estimate and is unstable with small n.",
+    "No formal confidence interval is asserted.",
+    "The UNRESOLVED stratum had a deterministic replacement.",
+    "Results describe the 761-unit sampling frame, not all 34,789 OL targets.",
+    "A disagreement does not prove an actual Project W v7 error.",
+    "Case 17 uses an aggregate-publication identity interpretation."
+  ],
+  "release": "aggregation-held-heldout-llm-comparison-v1",
+  "review_reference": "researcher_accepted_ai_assisted",
+  "sample": {
+    "agreement_n": 12,
+    "agreement_rate": 0.6,
+    "heldout_n": 20,
+    "old_llm_resolved_agreement_n": 12,
+    "old_llm_resolved_n": 15,
+    "potential_over_merge_cases": [
+      11,
+      12,
+      13
+    ]
+  },
+  "sampling_internal_sha256": "c4eb577d5b351cc479276eb2ee8733dc0e72ed94506c30aaa9eef8c58faeb432",
+  "sampling_method": "Stratified random sampling without replacement; one documented deterministic replacement in the UNRESOLVED evaluation stratum",
+  "status": "FROZEN_EVALUATION_REPORT_V1",
+  "strata": {
+    "MULTIPLE_WORKS": {
+      "disagreements": 0,
+      "excluded_from_population_weighting": false,
+      "heldout_n": 3,
+      "old_llm_label": "MULTIPLE_WORKS",
+      "population_n": 19,
+      "sample_disagreement_rate": 0.0
+    },
+    "ONE_COMPLEX_STRONG": {
+      "disagreements": 1,
+      "excluded_from_population_weighting": false,
+      "heldout_n": 4,
+      "old_llm_label": "ONE_WORK",
+      "population_n": 237,
+      "sample_disagreement_rate": 0.25
+    },
+    "ONE_COMPLEX_WEAK": {
+      "disagreements": 0,
+      "excluded_from_population_weighting": false,
+      "heldout_n": 2,
+      "old_llm_label": "ONE_WORK",
+      "population_n": 6,
+      "sample_disagreement_rate": 0.0
+    },
+    "ONE_SIMPLE_STRONG": {
+      "disagreements": 2,
+      "excluded_from_population_weighting": false,
+      "heldout_n": 4,
+      "old_llm_label": "ONE_WORK",
+      "population_n": 181,
+      "sample_disagreement_rate": 0.5
+    },
+    "ONE_SIMPLE_WEAK": {
+      "disagreements": 0,
+      "excluded_from_population_weighting": false,
+      "heldout_n": 2,
+      "old_llm_label": "ONE_WORK",
+      "population_n": 14,
+      "sample_disagreement_rate": 0.0
+    },
+    "UNRESOLVED": {
+      "disagreements": 5,
+      "excluded_from_population_weighting": true,
+      "heldout_n": 5,
+      "old_llm_label": "UNRESOLVED",
+      "population_n": 304,
+      "sample_disagreement_rate": 1.0
+    }
+  },
+  "stratified_estimates": {
+    "estimated_over_merge_units": 149.75,
+    "estimated_resolved_agreements": 307.25,
+    "population_weighted_unresolved_results": null,
+    "potential_over_merge_rate_given_old_one_work": 0.3418949771689498,
+    "potential_over_merge_standard_error": 0.1786237885925913,
+    "resolved_agreement_rate": 0.6723194748358862
+  }
+}

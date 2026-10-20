@@ -1,0 +1,68 @@
+{
+  "evaluation_design": {
+    "development_units_not_used_for_final_comparison": 20,
+    "heldout_reviewed_units": 20,
+    "independent_unaided_human_gold": false,
+    "reference_labels": "researcher_accepted_ai_assisted",
+    "sampling_design": "disproportionate_stratified_random_sample",
+    "sampling_frame_units": 761,
+    "unresolved_stratum_replacement": "One previously exposed evaluation unit was replaced deterministically within the UNRESOLVED stratum.",
+    "weighted_accuracy_scope": "Historical resolved predictions in five strata unaffected by the replacement."
+  },
+  "frozen_reference_review_modified": false,
+  "git_branch": "ol-bibliographic-projection-review-20261018",
+  "interpretation_limits": [
+    "The sampling frame comprises 761 held aggregation units, not all 34789 OL targets.",
+    "Reference decisions were researcher accepted but AI assisted.",
+    "The small held-out sample yields substantial sampling uncertainty.",
+    "No formal confidence interval is claimed.",
+    "Historical UNRESOLVED predictions are abstentions, not automatic merging errors.",
+    "One deterministic replacement affects the UNRESOLVED stratum.",
+    "Case 17 retains an aggregate-publication interpretation.",
+    "Results do not establish actual errors in released Project W v7.",
+    "This comparison does not authorize Project W or Edition changes."
+  ],
+  "output_sha256": {
+    "evaluation_metrics_v1.json": "5936183f6a485ed1fcf60d298fe3a68ec4c433a4c6565712892d029929a886b6",
+    "evaluation_report_v1.md": "a8d4e23838904aeb2317d2a5596a187949071a6a2561dc714d470a9a8b22801f",
+    "heldout_case_comparison_v1.tsv": "2a9aa7e8776a5f694ca2785c81a14e95a4d814ec492e8ecd716c80091a3fa96b"
+  },
+  "project_work_release_modified": false,
+  "reference_inputs": {
+    "frozen_review": {
+      "path": "derived/identity/aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_frozen_v1.tsv",
+      "sha256": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d"
+    },
+    "frozen_review_manifest": {
+      "path": "derived/identity/aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_frozen_v1_manifest.json",
+      "sha256": "d73326fc6a5f8d856c4bfcd3b1b3165c9e893bfbb451332c9ac64b3ade566c51"
+    },
+    "sampling_internal": {
+      "path": "derived/identity/aggregation_held_units_sampling_v1/sampling_selection_internal_v1.tsv",
+      "sha256": "c4eb577d5b351cc479276eb2ee8733dc0e72ed94506c30aaa9eef8c58faeb432"
+    },
+    "sampling_manifest": {
+      "path": "derived/identity/aggregation_held_units_sampling_v1/manifest_v1.json",
+      "sha256": "27e184f3f2fa54bc166c51414a6313880b246313b5c994f641846e6c170d2a85"
+    }
+  },
+  "reference_review_commit": "09fde4b19f2be0704c2152090a8ef3759f1e5575",
+  "release": "aggregation-held-heldout-llm-comparison-v1",
+  "released_at_jst": "2026-10-20T11:15:17.898976+09:00",
+  "status": "FROZEN_EVALUATION_REPORT_V1",
+  "summary": {
+    "estimated_potential_over_merge_n": 149.75,
+    "estimated_potential_over_merge_rate": 0.3418949771689498,
+    "estimated_resolved_agreement_rate": 0.6723194748358862,
+    "exploratory_standard_error": 0.1786237885925913,
+    "observed_agreement_n": 12,
+    "observed_sample_n": 20,
+    "old_llm_one_work_frame_n": 438,
+    "old_llm_resolved_frame_n": 457,
+    "potential_over_merge_review_orders": [
+      11,
+      12,
+      13
+    ]
+  }
+}
