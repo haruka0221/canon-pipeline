@@ -1,0 +1,41 @@
+{
+  "active_project_works": 32066,
+  "author_name_title_flagged_operational_pairs": 34521,
+  "author_name_title_flagged_works": 21,
+  "coverage_diagnostics": {
+    "NOT_QUERIED_R2_R3": 352,
+    "NOT_REMEASURED": 1,
+    "OPERATIONAL_CANDIDATE_PRESENT": 7077,
+    "QUERIED_NO_OPERATIONAL_CANDIDATE": 24636
+  },
+  "date": "2026-10-20",
+  "limits": [
+    "Historical first_publish_year is MIN parsed linked-Edition publish_date, NOT conceptual original-work year.",
+    "Author-enriched OL Work record is historical source evidence, not a verified novel or a final scope decision.",
+    "Corrected OL target IDs may not be present in historical source population; never substitute historical erroneous metadata as current source truth.",
+    "No held-out decisions, identity or Edition judgments, or OpenAlex v2 dispositions are changed."
+  ],
+  "manual_scope_judgments_created": 0,
+  "no_letter_title_works": 13,
+  "nonascii_ascii_screen_works": 186,
+  "pilot_cohorts": {
+    "PURPOSIVE_AUTHOR_NAME_TITLE_21": 21,
+    "PURPOSIVE_CONTRAST_12": 12,
+    "PURPOSIVE_HIGH_JACCARD_15": 15,
+    "PURPOSIVE_NO_LETTER_TITLE_13": 13,
+    "PURPOSIVE_TOP30": 30,
+    "RANDOM_ACTIVE_80": 80,
+    "RANDOM_NONASCII_12": 12,
+    "RANDOM_NOT_QUERIED_12": 12
+  },
+  "pilot_unique_project_works": 159,
+  "release": "scope-evidence-pilot-v1",
+  "simple_random_design": {
+    "draw": "deterministic SHA256 rank, 80 without replacement",
+    "population": "all 32,066 active Project W in integrated v2",
+    "sampling_unit": "project_work_id",
+    "seed": "scope-evidence-pilot-v1:20261020",
+    "warning": "Purposive and diagnostic cohorts must NOT be pooled with this random cohort for prevalence estimates. Pilot is not an accuracy/precision estimate."
+  },
+  "state": "NON_ADJUDICATIVE_EVIDENCE_TEMPLATE"
+}

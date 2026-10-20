@@ -1,0 +1,20 @@
+{
+  "inputs_sha256": {
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/openlibrary_target_corrections_v1.tsv": "ca16d3382b4b10f619cc2af7b796d14d12fab2630d584afdc014dbd2b3d8a410",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/source_entities_v3.tsv": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/work_identity_map_v7.tsv": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/integrated_work_visibility_v2/integrated_visibility_manifest_v2.json": "e8ca6a35781a3e3c52d3b8dfd7663da33c365d04aebc52162d386c15a6db5cd8",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/integrated_work_visibility_v2/openalex_visibility_by_project_work_v2.tsv": "a64f9ccb4f66b248bb33395441396db9fa67198f89567ed927537fdb05b4bbde",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/registry_v4/openalex_queries_v4.tsv": "136c136301054bde48ada42956c9584eb9271b46117c7a603cab6292b192b91b",
+    "/home/tsutsui/canon-pipeline/derived/ol_dump_population_with_author.tsv": "27eaa404eb1cc9c93fd99bdeb121638b35f43ec8aefe11738d6e0e5600b705c4"
+  },
+  "outputs_sha256": {
+    "README.md": "c104925d1b248a0e56acfdd7d66bd90a00e990eabac023791337a495fe9788cc",
+    "sampling_frame_v1.tsv": "efd0412231204295460086cbe3260aba157ca41bc3835f5998ff91558ad46222",
+    "scope_evidence_review_template_v1.tsv": "3b442fd90116bc422b4ac3b328f2d67348c18986053371db9a48001cdc80de30",
+    "summary_v1.json": "3f4dbfc132f0b94c9dae07ac9eafebc625d4542447971bc4ee384d4971905d26"
+  },
+  "release": "scope-evidence-pilot-v1",
+  "status": "NON_ADJUDICATIVE_EVIDENCE_TEMPLATE"
+}
