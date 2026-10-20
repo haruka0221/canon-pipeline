@@ -1,0 +1,48 @@
+{
+  "version": "v0_1",
+  "purpose": "Provenance-preserving current Project W to historical OL Work projection for later scope screening",
+  "classification_performed": false,
+  "original_publication_year_inferred": false,
+  "historical_first_publish_year_definition": "minimum linked OL Edition-derived year (not original publication year)",
+  "input_files": {
+    "active_project_w_frame": {
+      "path": "derived/scope/scope_evidence_pilot_v1/sampling_frame_v1.tsv",
+      "sha256": "efd0412231204295460086cbe3260aba157ca41bc3835f5998ff91558ad46222"
+    },
+    "identity_map_v7": {
+      "path": "derived/identity/work_identity_map_v7.tsv",
+      "sha256": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3"
+    },
+    "source_entities_v3": {
+      "path": "derived/identity/source_entities_v3.tsv",
+      "sha256": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0"
+    },
+    "historical_ol_population": {
+      "path": "/home/tsutsui/canon-pipeline/derived/ol_dump_population_with_author.tsv",
+      "sha256": "27eaa404eb1cc9c93fd99bdeb121638b35f43ec8aefe11738d6e0e5600b705c4"
+    }
+  },
+  "counts": {
+    "active_project_w": 32066,
+    "ol_work_memberships": 32689,
+    "historically_matched_ol_works": 32686,
+    "historically_unmatched_ol_works": 3,
+    "project_w_with_historical_match": 32062,
+    "project_w_without_historical_match": 4,
+    "project_w_with_2plus_historical_ol": 550,
+    "project_w_with_1_historical_ol": 31512,
+    "project_w_without_current_ol": 1
+  },
+  "expected_w_without_historical_match": [
+    "W000014515",
+    "W000031537",
+    "W000031538",
+    "W000031539"
+  ],
+  "expected_current_ol_work_ids_without_historical_match": [
+    "OL245401W",
+    "OL509889W",
+    "OL85892W"
+  ],
+  "note": "OL Current Work identities remain distinct from historical source rows; no backfill or identity repair is attempted."
+}
