@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "editions": 10,
+    "researcher_decisions_made": 0,
+    "work_context_rows": 2
+  },
+  "input_sha256": {
+    "aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_frozen_v1.tsv": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d",
+    "aggregation_held_one_work_bibliographic_screen_v1/edition_evidence_v1.tsv": "40ea3d224b7dc6195c65e9cafc0db372794b5619ef1f4b65ea0f0d55049e69d7",
+    "aggregation_held_one_work_bibliographic_screen_v1/work_screen_v1.tsv": "5b9591d1869aaa8fe01cbf380184ef5387792b331102132a63cfc0250de91f2a",
+    "aggregation_held_one_work_raw_edition_enrichment_v2/raw_edition_enrichment_v2.tsv": "3dcdea64a24b1dc7020bea64131be8a8bc810d2921246b4c0cdf8ce50ef862f4",
+    "aggregation_held_one_work_refined_evidence_v4/refined_unit_queue_v4.tsv": "abd74e0e68c0abbc43214eb1cb095a0f1524a9d55dae5e64054d21d779042970"
+  },
+  "observation_cue_counts": {
+    "NO_DEFINED_CUE_NOT_ABSENCE": 1,
+    "SUBTITLE_AUTHORS_NOTES": 1,
+    "SUBTITLE_NAMES_HEART_OF_DARKNESS": 1,
+    "TITLE_OR_SUBTITLE_COMPLETE_SHORT_FICTION": 6,
+    "TOC_CHARACTER_SPLIT_SUSPECT": 1,
+    "TOC_EXPLICIT_TARGET_TITLE_MENTION": 1
+  },
+  "output_sha256": {
+    "README_review_protocol_v1.md": "f62d5b996378731978b24d8762008a8a0391fcfc5a49348ad4c8bfef68072284",
+    "edition_scope_review_draft_v1.tsv": "b33b188fa32e7fee702b755076bd1b728914c29939e38bad1b7b6cb7ba7b6534",
+    "work_identity_context_v1.tsv": "ca5096b19c3b99b4ffed4e9b3aebadf882b3534e2135284fdd1a42a6b424e5cd"
+  },
+  "release": "held-narcissus-edition-scope-review-draft-v1",
+  "restrictions": [
+    "All researcher decision columns are blank, with status NOT_REVIEWED.",
+    "No inference of ABSENT_CONFIRMED from missing title or contents metadata.",
+    "Exploratory, not an independent validation sample.",
+    "No Project W, source artifacts, frozen held-out decisions or Git mutations."
+  ],
+  "selected_edition_ids": [
+    "/books/OL11558585M",
+    "/books/OL11952490M",
+    "/books/OL15364763M",
+    "/books/OL20710563M",
+    "/books/OL21568672M",
+    "/books/OL8132525M",
+    "/books/OL8132526M",
+    "/books/OL8132533M",
+    "/books/OL8794202M",
+    "/books/OL8968317M"
+  ],
+  "snapshot": "OL_EDITIONS_2026-02-28",
+  "status": "DRAFT_NON_ADJUDICATIVE_NOT_REVIEWED",
+  "target_ol_work_id": "OL38815W",
+  "unit_anchor_entity_id": "E000019634"
+}
