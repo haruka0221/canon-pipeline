@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "editions": 10,
+    "evidence_status": {
+      "EXTERNAL_BOOKSELLER_ISBN_SUPPORTS_PRESENCE": 1,
+      "FROZEN_CATALOG_TOC_SUPPORTS_PRESENCE": 1,
+      "NO_DETERMINATION": 8
+    },
+    "researcher_decisions": 0,
+    "work_context": 2
+  },
+  "external_sources": [
+    "https://www.abebooks.com/9781850522041/Joseph-Conrad-Lord-Jim-Nigger-1850522049/plp"
+  ],
+  "outputs_sha256": {
+    "README_scope_conclusion_v1.md": "013ef80733fea8808f2e70790a24882daf8d745d66582b6fc37967b80769dd6c",
+    "edition_evidence_closure_v1.tsv": "6918b2bd69241e65e36f096ab3d999ccc5d75c04ba88032564d738ba7d7b6023",
+    "handoff_next_chat_2026-10-20.md": "037aeac4d2759e324aa9fbab499e34cf61fc72b92e2ab334859b3c6e8eece26e"
+  },
+  "release": "narcissus_edition_scope_evidence_closure_v1",
+  "restrictions": [
+    "No identity adjudications",
+    "Missing contents is not evidence of absence",
+    "No Project W or frozen revisions",
+    "External ISBN source is a secondary bookseller listing, not a physical-copy inspection",
+    "v4 is exploratory and post-hoc"
+  ],
+  "source_commit_minimum": "b788763d",
+  "source_draft_sha256": {
+    "README_review_protocol_v1.md": "f62d5b996378731978b24d8762008a8a0391fcfc5a49348ad4c8bfef68072284",
+    "edition_scope_review_draft_v1.tsv": "b33b188fa32e7fee702b755076bd1b728914c29939e38bad1b7b6cb7ba7b6534",
+    "manifest_v1.json": "54db7aa050d4bddb4b03d668b051a189dc87b2db0c1ce3bb7415975feeedecae",
+    "work_identity_context_v1.tsv": "ca5096b19c3b99b4ffed4e9b3aebadf882b3534e2135284fdd1a42a6b424e5cd"
+  },
+  "source_snapshot": "OL_EDITIONS_2026-02-28",
+  "status": "EVIDENCE_CLOSED_NO_RESEARCHER_ADJUDICATION"
+}
