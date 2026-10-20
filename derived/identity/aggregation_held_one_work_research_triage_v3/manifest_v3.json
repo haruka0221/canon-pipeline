@@ -1,0 +1,74 @@
+{
+  "counts": {
+    "evidence_example_rows": 1112,
+    "examples_by_signal": {
+      "COLLECTION_TITLE_WORDING": 51,
+      "DRAMATIC_TITLE_WORDING": 5,
+      "MULTI_ARABIC_SEGMENT_PAGINATION": 135,
+      "NOTE_COLLECTION_OR_ADAPTATION_WORDING": 38,
+      "NOTE_WITH_BOUND_ITEM": 16,
+      "POSSIBLE_JOINT_TITLE_PUNCTUATION": 207,
+      "SAME_EDITION_PAGINATION_AND_SUBTITLE": 72,
+      "SUBTITLE_JOINT_SEPARATOR": 302,
+      "TABLE_OF_CONTENTS_PRESENT": 270,
+      "VOLUME_TITLE_WORDING": 16
+    },
+    "ol_works": 1249,
+    "triage_tiers": {
+      "T1_CONTENT_CLUE": 75,
+      "T2_SCOPE_OR_PAGINATION": 61,
+      "T3_GENERAL_METADATA_VARIATION": 236,
+      "T4_NO_DEFINED_PROMPT": 66
+    },
+    "unique_editions": 40305,
+    "units": 438,
+    "v1_v2_presence": {
+      "v1_0_v2_0": 66,
+      "v1_0_v2_1": 27,
+      "v1_1_v2_0": 130,
+      "v1_1_v2_1": 215
+    }
+  },
+  "created_at_jst": "2026-10-20T12:39:52.078995+09:00",
+  "frame": "438 HOLD_FOR_LATER_REVIEW units with historical LLM ONE_WORK",
+  "frozen_researcher_review_modified": false,
+  "git_committed": false,
+  "inputs_sha256": {
+    "derived/identity/aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_frozen_v1.tsv": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d",
+    "derived/identity/aggregation_held_one_work_bibliographic_screen_v1/edition_evidence_v1.tsv": "40ea3d224b7dc6195c65e9cafc0db372794b5619ef1f4b65ea0f0d55049e69d7",
+    "derived/identity/aggregation_held_one_work_bibliographic_screen_v1/manifest_v1.json": "10505c674b2949515e54ac56d582bb0aa00ccfa4136b4ca3e1e6496ff655f174",
+    "derived/identity/aggregation_held_one_work_bibliographic_screen_v1/unit_screen_v1.tsv": "560f50be62cddb3dbf7b8b5c76f6ee054d36d1df8a587c2fbb840c5645232cc5",
+    "derived/identity/aggregation_held_one_work_bibliographic_screen_v1/work_screen_v1.tsv": "5b9591d1869aaa8fe01cbf380184ef5387792b331102132a63cfc0250de91f2a",
+    "derived/identity/aggregation_held_one_work_raw_edition_enrichment_v2/manifest_v2.json": "6f25f6ea7a9219d3ca405e4fe772c8258373346b2d46b28ccb3b3fccd0a080ba",
+    "derived/identity/aggregation_held_one_work_raw_edition_enrichment_v2/raw_edition_enrichment_v2.tsv": "3dcdea64a24b1dc7020bea64131be8a8bc810d2921246b4c0cdf8ce50ef862f4",
+    "derived/identity/aggregation_held_one_work_raw_edition_enrichment_v2/unit_raw_metadata_screen_v2.tsv": "d74089b713c59ea50db673c8f6c8b4929d86365a628a4a109301015ea89abc70"
+  },
+  "limitations": [
+    "A document with multiple pagination segments need not contain multiple conceptual works.",
+    "A With: note may refer to later library binding instead of publisher-issued composite.",
+    "A subtitle with and/or punctuation often describes one work.",
+    "An Edition table_of_contents may describe chapters, not independent works.",
+    "Tiers prioritize further checking; they are not estimates of identity-error probability.",
+    "No defined prompt must never be treated as an automatic merge authorization.",
+    "Case 11-13 were known before these exploratory rules were designed; sensitivity is not independent validation.",
+    "Selection only covers 438 historical held ONE_WORK units, not the full OL corpus.",
+    "Underlying workshop-derived Edition tables were marked LOCAL_VALIDATION_NOT_PUBLISHED.",
+    "No human labels, source entities, Project W identities, or earlier screening releases were changed."
+  ],
+  "output_sha256": {
+    "research_queue_v3.tsv": "091b69d464e63f64f6a5fa48df1ca92d9e80537d03b8654818cd9b3cf5fc2d6e",
+    "review_evidence_examples_v3.tsv": "c502828fa094f61c73d19bc04a98dfef65ce9a9fc41bf5a9b887f9fb180f85ca"
+  },
+  "project_w_modified": false,
+  "release": "aggregation-held-one-work-research-triage-v3",
+  "source_snapshot": "OL_EDITIONS_2026-02-28",
+  "status": "EXPLORATORY_NON_ADJUDICATIVE_LOCAL_NOT_COMMITTED",
+  "triage_definition": {
+    "T1_CONTENT_CLUE": "Notes indicating another bound item or collection/adaptation, OR same Edition has multi-Arabic pagination and a non-empty subtitle",
+    "T2_SCOPE_OR_PAGINATION": "Explicit collection, volume or dramatic title wording, OR multi-Arabic pagination without same-Edition subtitle",
+    "T3_GENERAL_METADATA_VARIATION": "Other v1 title/author variation or v2 review prompt (including contents presence or subtitle separators)",
+    "T4_NO_DEFINED_PROMPT": "Neither screen generated a prompt; NEVER evidence of safe merger",
+    "max_example_records_per_signal_per_unit": 3,
+    "ranking_input": "v1 and v2 bibliographic signals only; no held-out reviewer decisions, historical LLM confidence, or prior approval outcomes"
+  }
+}

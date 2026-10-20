@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "edition_links": 40305,
+    "ol_works": 1249,
+    "unique_editions": 40305,
+    "units": 438
+  },
+  "edition_snapshot": "OL_EDITIONS_2026-02-28",
+  "frame": "438 HOLD_FOR_LATER_REVIEW units with historical LLM ONE_WORK",
+  "input_sha256": {
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/aggregation_held_heldout_human_review_draft_v1/heldout_researcher_review_frozen_v1.tsv": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/aggregation_llm_review_adjudication_v1.tsv": "5405cee3e2ba183d0af95fa1af17a9c5d19e22f1843de41b7d91dce32479bef3",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/aggregation_review_members_v1.tsv": "f656b9393eac5a12f15ca39bf6abb30c2ad47c5343bfadcd928fdf4043ab3978",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/openlibrary_analysis_targets_v1.tsv": "021eab7dd569385a85f00033d8a5f8e7ab53086951bc586322df3e904a55a35c",
+    "/home/tsutsui/workshop-20261016/data_sources/ol_editions_34792targets_tables_20260228_v1/manifest_v1.json": "ae92d62403cd535c050c33be87b77944097ebabe04c3e5a763f30d09358dd850"
+  },
+  "input_table_sha256": {
+    "edition_details_v1.tsv": "5ca56a76b46b8ce028930b13ec9942f42301d4b74c361bc394b36d0d2734cbe3",
+    "edition_work_links_v1.tsv": "e08aa8a5e132c2ccfd190bc0fade269c50b0a9d9fa4feb0cc98257e7072d4996",
+    "work_edition_summary_v1.tsv": "c89dff7286a907bc8f647979c210be0d22cb92135abc5617f6aa5a62c5e8f8aa"
+  },
+  "limitations": [
+    "Signals are post-hoc exploratory triage, NOT validated identity predictions.",
+    "No signal does not imply a safe merge.",
+    "Title markers are English-leaning and have false positives and false negatives.",
+    "Snapshot edition details lack subtitle, contents, full pagination, and MARC record.",
+    "Historical strata and OLD LLM labels are used only for target selection and descriptive grouping.",
+    "An OL Edition linked to multiple selected Works is retained, not forcibly reassigned.",
+    "No frozen review labels, identity assertions, source tables, or Project W were modified."
+  ],
+  "output_sha256": {
+    "edition_evidence_v1.tsv": "40ea3d224b7dc6195c65e9cafc0db372794b5619ef1f4b65ea0f0d55049e69d7",
+    "unit_screen_v1.tsv": "560f50be62cddb3dbf7b8b5c76f6ee054d36d1df8a587c2fbb840c5645232cc5",
+    "work_screen_v1.tsv": "5b9591d1869aaa8fe01cbf380184ef5387792b331102132a63cfc0250de91f2a"
+  },
+  "release": "aggregation-held-one-work-bibliographic-screen-v1",
+  "status": "EXPLORATORY_NON_ADJUDICATIVE_LOCAL",
+  "unit_signal_counts": {
+    "AUTHOR_KEYS_DIFFER": 113,
+    "COLLECTION_TITLE_WORDING": 35,
+    "DRAMATIC_TITLE_WORDING": 3,
+    "EDITION_TITLES_VARY_WITHIN_OL_WORK": 275,
+    "POSSIBLE_JOINT_TITLE_PUNCTUATION": 110,
+    "VOLUME_TITLE_WORDING": 12,
+    "WORK_TITLE_VARIATION": 131
+  },
+  "upstream_tables_status": "LOCAL_VALIDATION_NOT_PUBLISHED"
+}

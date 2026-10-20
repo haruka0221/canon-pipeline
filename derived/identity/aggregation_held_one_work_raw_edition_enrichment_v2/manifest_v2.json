@@ -1,0 +1,77 @@
+{
+  "case12_catalogue_observation_in_frozen_raw_dump": {
+    "bibliographic_review_prompts_json": "[\"MULTI_ARABIC_SEGMENT_PAGINATION\"]",
+    "edition_key": "/books/OL52630896M",
+    "pagination_json": "\"319, 253 pages\"",
+    "subtitle_json": "\"The black tulip\""
+  },
+  "counts": {
+    "dump_records_scanned": 55615769,
+    "editions_found": 40305,
+    "editions_requested": 40305,
+    "ol_works": 1249,
+    "raw_field_edition_counts": {
+      "description": 1482,
+      "edition_name": 2872,
+      "identifiers": 9585,
+      "lccn": 3403,
+      "notes": 5546,
+      "oclc_numbers": 6822,
+      "pagination": 23976,
+      "physical_format": 7950,
+      "series": 4204,
+      "source_records": 38440,
+      "subtitle": 8394,
+      "table_of_contents": 484,
+      "works": 40305
+    },
+    "unit_without_v2_review_prompts": 196,
+    "units": 438,
+    "v2_review_prompt_edition_counts": {
+      "MULTI_ARABIC_SEGMENT_PAGINATION": 209,
+      "NOTE_COLLECTION_OR_ADAPTATION_WORDING": 40,
+      "NOTE_WITH_BOUND_ITEM": 16,
+      "SUBTITLE_JOINT_SEPARATOR": 817,
+      "TABLE_OF_CONTENTS_PRESENT": 484
+    },
+    "v2_review_prompt_unit_counts": {
+      "MULTI_ARABIC_SEGMENT_PAGINATION": 94,
+      "NOTE_COLLECTION_OR_ADAPTATION_WORDING": 29,
+      "NOTE_WITH_BOUND_ITEM": 13,
+      "SUBTITLE_JOINT_SEPARATOR": 143,
+      "TABLE_OF_CONTENTS_PRESENT": 140
+    }
+  },
+  "frozen_review_modified": false,
+  "input": {
+    "compressed_dump_bytes": 12194964686,
+    "compressed_dump_path": "/media/hdd1/user/tsutsui/openlibrary/ol_dump_editions_2026-02-28.txt.gz",
+    "compressed_dump_sha256": "a381a5964cc9b72f6f3d2c9463b9dc9a59e3dfdf91a75c66d8d4592a86df9fcc",
+    "frozen_researcher_review_sha256": "9b9dea1b7ec54710affab9b739797de0dc5d01b7f8d9049d9e723a2962a91c8d",
+    "v1_screen_input_sha256": {
+      "edition_evidence_v1.tsv": "40ea3d224b7dc6195c65e9cafc0db372794b5619ef1f4b65ea0f0d55049e69d7",
+      "manifest_v1.json": "10505c674b2949515e54ac56d582bb0aa00ccfa4136b4ca3e1e6496ff655f174",
+      "unit_screen_v1.tsv": "560f50be62cddb3dbf7b8b5c76f6ee054d36d1df8a587c2fbb840c5645232cc5",
+      "work_screen_v1.tsv": "5b9591d1869aaa8fe01cbf380184ef5387792b331102132a63cfc0250de91f2a"
+    }
+  },
+  "limitations": [
+    "No identity adjudication, merge/split or Project W change is authorized.",
+    "This v2 was designed after the held-out adjudication was unblinded; prompt sensitivity on known cases is NOT independent validation.",
+    "A missing or present metadata field does not establish work identity.",
+    "Multi-Arabic pagination can represent multiple segments within one work, not necessarily multiple literary works.",
+    "A With: note does not establish whether volumes were publisher-issued together or later bound together.",
+    "The 2026-02-28 dump may differ from the later live OL API record.",
+    "Contents may describe chapters, not distinct works; subtitle may be descriptive, not a second novel.",
+    "The upstream v1 Edition tables have LOCAL_VALIDATION_NOT_PUBLISHED status.",
+    "Only 438 held historical LLM ONE_WORK units are included; the 761-unit frame and 34789-target population are distinct."
+  ],
+  "output_sha256": {
+    "raw_edition_enrichment_v2.tsv": "3dcdea64a24b1dc7020bea64131be8a8bc810d2921246b4c0cdf8ce50ef862f4",
+    "unit_raw_metadata_screen_v2.tsv": "d74089b713c59ea50db673c8f6c8b4929d86365a628a4a109301015ea89abc70"
+  },
+  "project_work_release_modified": false,
+  "release": "aggregation-held-one-work-raw-edition-enrichment-v2",
+  "source_snapshot": "OL_EDITIONS_2026-02-28",
+  "status": "EXPLORATORY_NON_ADJUDICATIVE_LOCAL"
+}
