@@ -1,7 +1,7 @@
 # Scope evidence review — initial 13 Project W (draft v0.2)
 
-Date: 2026-10-20  
-Status: **EXPLORATORY_EVIDENCE_DRAFT / NOT_ADJUDICATED**  
+Date: 2026-10-20
+Status: **EXPLORATORY_EVIDENCE_DRAFT / NOT_ADJUDICATED**
 Applies to: the proposed *primary OpenAlex scholarly-visibility analysis only*.
 
 ## Purpose and safeguards
@@ -151,4 +151,4 @@ The seven `OUT_SCOPE_CANDIDATE`, four `IN_SCOPE_CANDIDATE`, and two `UNRESOLVED`
 2. **Do not let the exploratory 13-W case mix determine a population error rate.** Use the separately marked independent 80-W sample for distributional assessment, with the sampling design declared.
 3. **Scope ≠ OpenAlex precision.** Classifying a Project W as a collection does not prove its individual OA hits false; classifying a novel as in-scope does not prove its candidate hits correct.
 4. **No destructive operations.** No edits to integrated OpenAlex v2, Project W identity, historical OL population, frozen evaluations, or concluded Edition audits. Do not stage the unrelated untracked `derived/identity/openlibrary_r2a1_split_identity_review_pilot_v1/` directory.
-5. **Next step:** Researcher reviews these 13 entries, specifically `Sousanna`, `Kentucky`, and the first-edition imprint for `Diana`. Only after the review rules are stable begin the independent 80-W sample. 
+5. **Next step:** Researcher reviews these 13 entries, specifically `Sousanna`, `Kentucky`, and the first-edition imprint for `Diana`. Only after the review rules are stable begin the independent 80-W sample.
