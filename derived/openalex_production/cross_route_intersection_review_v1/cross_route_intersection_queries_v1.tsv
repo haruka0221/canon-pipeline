@@ -1,0 +1,4 @@
+query_id	target_lane	project_work_id	unresolved_unit_anchor_entity_id	alias_id	alias_project_source_entity_id	alias_source_record_id	query_route	query_form	query_title	query_author	query_author_source_id	query_author_selection_basis	query_author_selection_version	logical_query_status	query_registry_version	created_at
+OAQ000099741	resolved_w	W000031714		OAA000001746	E000001746	OL1165901W	R2	title_author	The Happy Foreigner	Bagnold, Enid.	OL117938A	AUTO_SINGLE_RESOLVED	v1	calibration_candidate	v4	2026-10-02
+OAQ000099742	resolved_w	W000031714		OAA000001746	E000001746	OL1165901W	R3	title_author	The Happy Foreigner	Bagnold, Enid.	OL117938A	AUTO_SINGLE_RESOLVED	v1	calibration_candidate	v4	2026-10-02
+OAQ000099743	resolved_w	W000031714		OAA000008183	E000008185	OL17662276W	R3	title_author	The happy foreigner	Enid Bagnold	OL5124030A	AUTO_SINGLE_RESOLVED	v1	calibration_candidate	v4	2026-10-02

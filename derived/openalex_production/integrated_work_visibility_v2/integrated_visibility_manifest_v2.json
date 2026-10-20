@@ -1,0 +1,26 @@
+{
+  "base_release": "openalex-integrated-work-visibility-v1",
+  "input_sha256": {
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/cross_route_intersection_review_v1/cross_route_intersection_review_manifest_v1.json": "d935b3c28176d917a2273b73b63a0055ab247e0b2eac27ffb3ee36b8564fa1bb",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/cross_route_intersection_review_v1/cross_route_intersection_review_v1.tsv": "48ae68380fa240301236e2690f046f6e7ba1e56ca44131e509ccc705bf9b05b3",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/integrated_work_visibility_v1/integrated_candidate_dispositions_v1.parquet": "bea6d71439f3fe42e34fe6ef11518623e3ea1aa17706b3912f9975eb9fc9ec17",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/integrated_work_visibility_v1/integrated_visibility_manifest_v1.json": "2a296c104e9b2aff2d93fb95f31b4a3b57c1127d6eb808f1c55976d41f5b7384",
+    "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/integrated_work_visibility_v1/openalex_visibility_by_project_work_v1.parquet": "beaeb0c5c6272aea2ee6ffbf3a9418dd6fb8a5a29b9bcc798d5c0ebc6fb7180a"
+  },
+  "invariants": {
+    "active_works": 32066,
+    "cross_route_included": 7,
+    "held_legacy_pairs": 65546,
+    "operational_included": 226221,
+    "raw_pairs": 291859,
+    "source_light_unremeasured_works": 1,
+    "works_with_operational_candidates": 7077
+  },
+  "output_sha256": {
+    "integrated_candidate_dispositions_v2.parquet": "8b615ca3da6f6341411209e1adc051e8f994c0092d9db1ac40766bbcc3554a14",
+    "integrated_visibility_summary_v2.json": "380eb418cf16d13260dd22dfc9a60c9d3749f30aa6a6bfcfb3dd6aeb60e0f442",
+    "openalex_visibility_by_project_work_v2.parquet": "ff994d2f322dae3ecd4b0ee346b25e4c2f40a77b57d6afdad99c906d246c7453",
+    "openalex_visibility_by_project_work_v2.tsv": "a64f9ccb4f66b248bb33395441396db9fa67198f89567ed927537fdb05b4bbde"
+  },
+  "release": "openalex-integrated-work-visibility-v2"
+}
