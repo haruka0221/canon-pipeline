@@ -1,0 +1,31 @@
+fe_id	sample_id	project_work_id	edition_stratum	edition_count_max	ol_work_ids	ol_titles	query_author	uk_first_edition_year	uk_first_edition_publisher	uk_first_edition_place	earlier_non_uk_edition	evidence_sources	evidence_confidence	notes	status
+FE2_01	BLC2_151	W000026410	ed_1	1	OL7421534W	Murder in Paris	Alice Campbell								PENDING
+FE2_02	BLC2_175	W000015492	ed_1	1	OL32096535W	Red Riding Hood	R. André								PENDING
+FE2_03	BLC2_161	W000002432	ed_1	1	OL1233065W	The stuff to give the troops	J. Maclaren-Ross								PENDING
+FE2_04	BLC2_158	W000022372	ed_1	1	OL5259903W	Contract bridge made easy	Charles Henry Goren								PENDING
+FE2_05	BLC2_153	W000010997	ed_1	1	OL22078738W	Coming back with the spitball	James Hopper								PENDING
+FE2_06	BLC2_173	W000025352	ed_1	1	OL7014689W	That man is here again	Arthur Kober								PENDING
+FE2_07	BLC2_156	W000019344	ed_1	1	OL43324121W	At nine bells	Samuel Emery								PENDING
+FE2_08	BLC2_171	W000010993	ed_1	1	OL22075184W	Outward bound, or, Young America afloat	Oliver Optic								PENDING
+FE2_09	BLC2_182	W000006917	ed_2_5	3	OL16833120W	The laud Troy book	J. Ernst Wülfing								PENDING
+FE2_10	BLC2_197	W000005922	ed_2_5	2	OL15853874W	Melindy's medal	Georgene Faulkner								PENDING
+FE2_11	BLC2_186	W000022901	ed_2_5	2	OL5555523W	The sons of Noah	Negley Farson								PENDING
+FE2_12	BLC2_184	W000021313	ed_2_5	3	OL4879535W	Thieves' nights	Harry Stephen Keeler								PENDING
+FE2_13	BLC2_180	W000022528	ed_2_5	5	OL5301602W	Blennerhassett	Charles Felton Pidgin								PENDING
+FE2_14	BLC2_192	W000010270	ed_2_5	2	OL202984W	Carroll O'Donoghue	Christine Faber								PENDING
+FE2_15	BLC2_179	W000024240	ed_2_5	2	OL6605341W	Old Greenbottom Inn and other stories	George Marion McClellan								PENDING
+FE2_16	BLC2_177	W000028112	ed_2_5	2	OL7606804W	So great a man	David Pilgrim								PENDING
+FE2_17	BLC2_223	W000011835	ed_6_20	15	OL228725W	Hero Tales	James Baldwin								PENDING
+FE2_18	BLC2_201	W000000644	ed_6_20	20	OL109187W	The Loot of Cities	Arnold Bennett								PENDING
+FE2_19	BLC2_210	W000024901	ed_6_20	6	OL683085W	Cloud cuckoo land	Naomi Mitchison								PENDING
+FE2_20	BLC2_207	W000014775	ed_6_20	17	OL3171083W	The Lottery, or The Adventures of James Harris	Shirley Jackson								PENDING
+FE2_21	BLC2_206	W000018816	ed_6_20	6	OL4230367W	Bare Alberte	Cora Sandel								PENDING
+FE2_22	BLC2_219	W000008484	ed_6_20	14	OL1797866W	Janice Meredith	Paul Leicester Ford								PENDING
+FE2_23	BLC2_212	W000017806	ed_6_20	16	OL39038W	The clue in the old album	Carolyn Keene								PENDING
+FE2_24	BLC2_240	W000018671	ed_21_plus	22	OL413631W	Roughing It in two volumes. 2/2	Mark Twain								PENDING
+FE2_25	BLC2_242	W000022929	ed_21_plus	21	OL5591844W	The Poisoned Chocolates Case	Anthony Berkeley								PENDING
+FE2_26	BLC2_238	W000002822	ed_21_plus	74	OL1285599W	The King of the Schnorrers	Israel Zangwill								PENDING
+FE2_27	BLC2_245	W000012349	ed_21_plus	26	OL2343424W	Blackfoot Lodge Tales	George Bird Grinnell								PENDING
+FE2_28	BLC2_231	W000008880	ed_21_plus	28	OL181948W	Life with Father	O. Henry								PENDING
+FE2_29	BLC2_244	W000000060	ed_21_plus	210	OL10215W	Мы	Евгений Иванович Замятин								PENDING
+FE2_30	BLC2_233	W000014232	ed_21_plus	49	OL286548W	Something Fresh	P. G. Wodehouse								PENDING
