@@ -331,6 +331,8 @@ def main():
     ap.add_argument("--contact", help="contact e-mail for the User-Agent")
     ap.add_argument("--max-requests", type=int, default=DEFAULT_PER_RUN_CAP)
     ap.add_argument("--raw-root", default=str(Path.home() / "bl_raw" / "calibration_v2"))
+    ap.add_argument("--out-dir", default=str(OUT),
+                    help="log/plan directory; must be non-default for a mock run")
     ap.add_argument("--endpoint", default=ENDPOINT,
                     help="override ONLY for the mock server test")
     ap.add_argument("--ignore-night-window", action="store_true",
@@ -341,10 +343,15 @@ def main():
         got = sha256_file(p)
         if got != EXPECTED_SHA[p.name]:
             sys.exit(f"ERROR: {p.name} sha256 {got} != frozen value")
-    OUT.mkdir(parents=True, exist_ok=True)
+    out = Path(args.out_dir).expanduser().resolve()
+    if args.endpoint != ENDPOINT and out == OUT.resolve():
+        sys.exit("ERROR: a mock --endpoint needs a non-default --out-dir")
+    if args.endpoint == ENDPOINT and out != OUT.resolve():
+        sys.exit("ERROR: the real endpoint writes only to the default --out-dir")
+    out.mkdir(parents=True, exist_ok=True)
     logical, physical = build_plan()
-    write_tsv(OUT / "logical_queries.tsv", logical, list(logical[0]))
-    write_tsv(OUT / "physical_queries.tsv",
+    write_tsv(out / "logical_queries.tsv", logical, list(logical[0]))
+    write_tsv(out / "physical_queries.tsv",
               [{k: v for k, v in p.items()} for p in physical], list(physical[0]))
     todo = [p for p in physical if p["early"] == (args.phase == "early")]
     n_early = sum(1 for p in physical if p["early"])
@@ -364,14 +371,14 @@ def main():
         sys.exit(f"ERROR: --raw-root must be outside the repository: {raw_root}")
     raw_root.mkdir(parents=True, exist_ok=True)
     if args.phase == "rest":
-        status_path = OUT / "physical_query_status_early.tsv"
+        status_path = out / "physical_query_status_early.tsv"
         if not status_path.exists() or not args.early_check_ack:
             sys.exit("ERROR: rest phase needs a completed early phase and --early-check-ack")
     if args.ignore_night_window:
         global NIGHT_START, NIGHT_END
         NIGHT_START, NIGHT_END = dtime(0, 0), dtime(0, 0)
 
-    runner = Runner(OUT, raw_root, args.contact, args.endpoint, args.max_requests)
+    runner = Runner(out, raw_root, args.contact, args.endpoint, args.max_requests)
     statuses, stop_reason, rc = [], "", 0
     try:
         for p in todo:
@@ -383,7 +390,7 @@ def main():
         stop_reason, rc = str(e), 3
         print(f"\nSTOPPED: {stop_reason}", file=sys.stderr)
     if statuses:
-        write_tsv(OUT / f"physical_query_status_{args.phase}.tsv", statuses, list(statuses[0]))
+        write_tsv(out / f"physical_query_status_{args.phase}.tsv", statuses, list(statuses[0]))
     manifest = {
         "script_version": SCRIPT_VERSION, "script_sha256": sha256_file(__file__),
         "git_head": git_head(), "phase": args.phase, "endpoint": args.endpoint,
@@ -397,7 +404,7 @@ def main():
         "stop_reason": stop_reason, "inputs": {p.name: sha256_file(p) for p in (SAMPLE, ALIASES)},
     }
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    (OUT / f"run_manifest_{stamp}.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    (out / f"run_manifest_{stamp}.json").write_text(json.dumps(manifest, indent=2) + "\n")
     print(f"\nHTTP requests this invocation: {runner.sent}; cumulative: {runner.cumulative}")
     return rc
 
