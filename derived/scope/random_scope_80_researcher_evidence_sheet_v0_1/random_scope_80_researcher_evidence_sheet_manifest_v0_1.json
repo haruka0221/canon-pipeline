@@ -1,0 +1,47 @@
+{
+  "name": "random_scope_80_researcher_evidence_sheet_v0_1",
+  "status": "NOT_REVIEWED / NOT_ADJUDICATED",
+  "random_seed": "scope-random80-first10-20261020",
+  "counts": {
+    "sample_rows": 80,
+    "ai_provisional_in": 44,
+    "ai_provisional_out": 26,
+    "ai_provisional_unresolved": 10,
+    "ol_diagnostic_any_w": 11,
+    "wikidata_diagnostic_any_w": 5,
+    "combined_diagnostic_any_w": 16,
+    "ai_out_with_ol_signal": 10,
+    "ai_out_with_wikidata_signal": 5,
+    "ai_out_with_either_signal": 15,
+    "ai_out_without_either_signal": 11,
+    "ai_in_with_either_signal": 0,
+    "ai_unresolved_with_either_signal": 1,
+    "reviewer_decisions_recorded": 0
+  },
+  "input_sha256": {
+    "ai_exploratory_register": {
+      "path": "derived/scope/random_scope_review_draft_v0_10/random_scope_80_ai_exploratory_register_v0_1.tsv",
+      "sha256": "da00d568c7552add8fcfd70ea299c9784f2c6aaf7315565ee122ea8b513da527"
+    },
+    "combined_bibliographic_evidence": {
+      "path": "derived/scope/scope_combined_bibliographic_evidence_v0_1/scope_combined_project_w_bibliographic_evidence_v0_1.tsv",
+      "sha256": "e6d01748327ef0eed243e0dc35f862cd9480714f10efaba7380ee3d5d38e523c"
+    },
+    "frozen_random80_sample": {
+      "path": "derived/scope/scope_evidence_pilot_v1/scope_evidence_review_template_v1.tsv",
+      "sha256": "3b442fd90116bc422b4ac3b328f2d67348c18986053371db9a48001cdc80de30"
+    }
+  },
+  "output_sha256": {
+    "random_scope_80_researcher_evidence_sheet_v0_1.tsv": "6943609c07df1dea6093e9b679865f4199f168717db8422ee0db04f85f90799f"
+  },
+  "limitations": [
+    "All AI proposal classifications remain exploratory, not human-verified.",
+    "All diagnostic flags are metadata signals, never grounds for automatic exclusions.",
+    "Wikidata P577 dates and P407 languages are snapshot statements, not validated original date/language.",
+    "Historical Open Library years are minimum linked-edition years, not verified original-work publication years.",
+    "URLs cited in exploratory notes have not been revalidated by this generator.",
+    "All researcher decision fields are blank; all review statuses NOT_REVIEWED.",
+    "The 80-W sample is fixed; frozen upstream identity, source snapshots, OpenAlex data and existing review sheets are untouched."
+  ]
+}
