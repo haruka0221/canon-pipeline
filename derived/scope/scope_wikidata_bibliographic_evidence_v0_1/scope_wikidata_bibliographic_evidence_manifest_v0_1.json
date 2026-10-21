@@ -1,0 +1,53 @@
+{
+  "release": "scope_wikidata_bibliographic_evidence_v0_1",
+  "snapshot": "2026-08-05",
+  "source_kind": "frozen Wikidata property-value projection via adopted identity v7 QIDs",
+  "counts": {
+    "active_project_w": 32066,
+    "adopted_wikidata_qids": 6177,
+    "wikidata_p577_nonempty": 4473,
+    "wikidata_p407_nonempty": 4893,
+    "wikidata_p31_nonempty": 6120,
+    "wikidata_p629_nonempty": 1,
+    "wikidata_p577_and_p407_nonempty": 3651,
+    "active_w_without_adopted_wikidata": 25889
+  },
+  "inputs": {
+    "active_frame": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/scope/scope_evidence_pilot_v1/sampling_frame_v1.tsv",
+      "sha256": "efd0412231204295460086cbe3260aba157ca41bc3835f5998ff91558ad46222"
+    },
+    "identity_map_v7": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/work_identity_map_v7.tsv",
+      "sha256": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3"
+    },
+    "source_entities_v3": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/identity/source_entities_v3.tsv",
+      "sha256": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0"
+    },
+    "wikidata_entities_parquet": {
+      "path": "/home/tsutsui/research-data/wikidata-source-layer/2026-08-05/wikidata_entities.parquet",
+      "sha256": "cff30f05e62d63d666c2640f8b98ecd257d591f4bd875f771160b42da56c82f7"
+    }
+  },
+  "outputs": {
+    "scope_wikidata_qid_evidence_v0_1.tsv": {
+      "rows": 6177,
+      "sha256": "d95683b4108d86d86c0b2461a758c492591db0c9e54ff2e6cbbe5c879b6b5618"
+    },
+    "scope_wikidata_project_w_coverage_v0_1.tsv": {
+      "rows": 32066,
+      "sha256": "e4e3f5df48097174a2eb1ddffa4c722f45fc01e5377895c2e8ab88152c108eb1"
+    }
+  },
+  "interpretation_limits": [
+    "QIDs are adopted identity matches, not independent bibliographic verification.",
+    "P577 values are publication date evidence, not verified original publication years.",
+    "P407 values are language statements, not verified original languages.",
+    "P31 is entity type, not proof of an individual novel/novella.",
+    "P629 usually links edition/translation item to its work and need not be present on work items.",
+    "Frozen parquet arrays are value projections: statement ranks, qualifiers, and references are not retained here.",
+    "Missing adopted Wikidata QID is not an out-of-scope decision.",
+    "No changes to existing identity, historical OL projection, OpenAlex data, or researcher adjudications."
+  ]
+}
