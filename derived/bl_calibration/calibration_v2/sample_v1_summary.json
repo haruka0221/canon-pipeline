@@ -1,0 +1,46 @@
+{
+  "release": "bl_calibration_v2_sample_v1",
+  "generated_at_utc": "2026-10-21T11:56:48.772360+00:00",
+  "seed": 20261021,
+  "inputs": {
+    "target_frame_v1.tsv": "55b8a26625f50b331aabdd5d2a1a0ba8d436aaad7956185b8f02c671094ca9a5",
+    "ol_edition_counts.tsv": "2be48c5e27661075da14e261577d0e8d0d9742f8f41865397d9ae32ac37b2e46"
+  },
+  "population_active_w": 32065,
+  "population_unresolved_aliases": 2083,
+  "active_w_without_edition_count": 3,
+  "population_by_edition_stratum": {
+    "ed_1": 13832,
+    "ed_2_5": 10199,
+    "ed_6_20": 4920,
+    "ed_21_plus": 3111,
+    "": 3
+  },
+  "sample_rows": 270,
+  "sample_by_stratum": {
+    "S1": 150,
+    "S2": 100,
+    "S3": 20
+  },
+  "s2_by_edition_stratum": {
+    "ed_1": 25,
+    "ed_2_5": 25,
+    "ed_6_20": 25,
+    "ed_21_plus": 25
+  },
+  "v1_retest_total": 21,
+  "v1_retest_by_stratum": {
+    "S3": 20,
+    "S1": 1
+  },
+  "s1_early_check_targets": 30,
+  "alias_rows": 278,
+  "alias_primary_action": {
+    "USE_ORDINAL0": 278
+  },
+  "outputs": {
+    "sample_targets_v1.tsv": "71553b94cb2536a98fec22c2c0eb27fa7b48fc3691ce1a6ddb0c2dc2314f3c27",
+    "sample_aliases_v1.tsv": "a8a88e20185e7a7f5ff4861b6d734653a989a30c201be5900b4b19699832e5f5"
+  },
+  "note": "Frozen before any BL request. Edition count is a stratification variable only (max over aliases, not sum)."
+}
