@@ -119,8 +119,8 @@ def main() -> int:
     ol2e = dict(zip(ol_ent["source_id"], ol_ent["entity_id"]))
 
     # v1 sample membership
-    v1_w = dict(zip(v1["project_work_id"], v1["sample_id"]))
-    v1_u = dict(zip(v1["unresolved_unit_anchor_entity_id"], v1["sample_id"]))
+    v1_w = {w: s for w, s in zip(v1["project_work_id"], v1["sample_id"]) if w}
+    v1_u = {e: s for e, s in zip(v1["unresolved_unit_anchor_entity_id"], v1["sample_id"]) if e}
 
     rows = []
     unmatched_entity = 0
