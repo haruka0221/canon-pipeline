@@ -1,0 +1,47 @@
+{
+  "release": "bl_calibration_v2_target_frame_v1",
+  "generated_at_utc": "2026-10-21T11:49:43.522431+00:00",
+  "identity_version": "project_works_v7",
+  "inputs": {
+    "derived/identity/project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "derived/identity/work_identity_map_v7.tsv": "85c17a05a875140f1b8157a5db6fc4e526d37280df383efe83634b61d49feeb3",
+    "derived/identity/source_entities_v3.tsv": "10b3e19ecc522eb7456eb33a5935084c11b4c6ae452e8562fd0235b28fc40cd0",
+    "derived/identity/project_work_identity_suspensions_v1.tsv": "48ab05054b4a94712340692d1d2938a58e2faac6f5721d6e1ad1202c06e74674",
+    "derived/openlibrary_query_author_selection_v1/openlibrary_query_author_selection_v1.tsv": "5561f5146d262fff448428c8d70388f8bbb06e6a9b4a3c095f89ccbe6129ca37",
+    "derived/bl_calibration/verification_pilot_v1/bl_verification_pilot_v1_sample.tsv": "debd0af6dc02ffe3aa7fcfd52a748064725f51482b705b321ad3bda554f51bf1"
+  },
+  "v7_invariants": {
+    "w_rows": 32089,
+    "w_active": 32066,
+    "w_suspended": 16,
+    "w_superseded": 7,
+    "map_current_targets": 32689,
+    "ol_targets": 34789
+  },
+  "rows": 34790,
+  "rows_by_lane": {
+    "resolved_w": 32690,
+    "unresolved_source": 2083,
+    "identity_suspended": 17
+  },
+  "rows_by_measurement_status": {
+    "TO_RETRIEVE": 32689,
+    "TO_RETRIEVE_UNRESOLVED_LANE": 2083,
+    "NOT_MEASURED_IDENTITY_SUSPENDED": 17,
+    "NOT_RETRIEVED_SOURCE_LIGHT": 1
+  },
+  "resolved_w_distinct": 32066,
+  "resolved_w_multi_alias": 550,
+  "unresolved_ol_aliases": 2083,
+  "primary_action_resolved_w": {
+    "USE_ORDINAL0": 32334,
+    "NO_OL_AUTHOR": 352,
+    "USE_OTHER_ORDINAL": 3,
+    "": 1
+  },
+  "v1_sample_rows_located": 25,
+  "active_w_without_row": [],
+  "auth_entities_not_in_source_entities_v3": 0,
+  "output_sha256": "55b8a26625f50b331aabdd5d2a1a0ba8d436aaad7956185b8f02c671094ca9a5",
+  "note": "Frame only; the v2 sample is drawn by a separate script. Unresolved aliases are not yet grouped into aggregation units."
+}
