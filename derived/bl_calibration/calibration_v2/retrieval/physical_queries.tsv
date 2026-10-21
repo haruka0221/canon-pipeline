@@ -1,0 +1,785 @@
+phys_id	physical_signature	cql_sent	route_class	n_logical	early	targets
+BLP2_0001	"alma.title == ""the letters of bret harte"""	"alma.title == ""The letters of Bret Harte"""	TITLE_OR_KEYWORD	1	False	BLC2_001
+BLP2_0002	"alma.all_for_ui all ""the letters of bret harte harte"""	"alma.all_for_ui all ""The letters of Bret Harte Harte"""	TITLE_OR_KEYWORD	1	False	BLC2_001
+BLP2_0003	"alma.creator all ""bret harte"""	"alma.creator all ""Bret Harte"""	A1	1	False	BLC2_001
+BLP2_0004	"alma.title == ""dr. jonathan"""	"alma.title == ""Dr. Jonathan"""	TITLE_OR_KEYWORD	1	False	BLC2_002
+BLP2_0005	"alma.all_for_ui all ""dr. jonathan churchill"""	"alma.all_for_ui all ""Dr. Jonathan Churchill"""	TITLE_OR_KEYWORD	1	False	BLC2_002
+BLP2_0006	"alma.creator all ""winston churchill"""	"alma.creator all ""Winston Churchill"""	A1	1	False	BLC2_002
+BLP2_0007	"alma.title == ""the boy allies with haig in flanders, or, the fighting canadians of vimy ridge"""	"alma.title == ""The boy allies with Haig in Flanders, or, The fighting Canadians of Vimy Ridge"""	TITLE_OR_KEYWORD	1	False	BLC2_003
+BLP2_0008	"alma.all_for_ui all ""the boy allies with haig in flanders, or, the fighting canadians of vimy ridge hayes"""	"alma.all_for_ui all ""The boy allies with Haig in Flanders, or, The fighting Canadians of Vimy Ridge Hayes"""	TITLE_OR_KEYWORD	1	False	BLC2_003
+BLP2_0009	"alma.creator all ""clair w. hayes"""	"alma.creator all ""Clair W. Hayes"""	A1	2	True	BLC2_003;BLC2_068
+BLP2_0010	"alma.title == ""adventures in contentment"""	"alma.title == ""Adventures in Contentment"""	TITLE_OR_KEYWORD	1	False	BLC2_004
+BLP2_0011	"alma.all_for_ui all ""adventures in contentment grayson"""	"alma.all_for_ui all ""Adventures in Contentment Grayson"""	TITLE_OR_KEYWORD	1	False	BLC2_004
+BLP2_0012	"alma.creator all ""david grayson"""	"alma.creator all ""David Grayson"""	A1	1	False	BLC2_004
+BLP2_0013	"alma.title == ""the devil's drummer"""	"alma.title == ""The Devil's Drummer"""	TITLE_OR_KEYWORD	1	False	BLC2_005
+BLP2_0014	"alma.all_for_ui all ""the devil's drummer harding"""	"alma.all_for_ui all ""The Devil's Drummer Harding"""	TITLE_OR_KEYWORD	1	False	BLC2_005
+BLP2_0015	"alma.creator all ""tex harding"""	"alma.creator all ""Tex Harding"""	A1	1	False	BLC2_005
+BLP2_0016	"alma.title == ""the inheritors"""	"alma.title == ""The inheritors"""	TITLE_OR_KEYWORD	1	True	BLC2_006
+BLP2_0017	"alma.all_for_ui all ""the inheritors conrad"""	"alma.all_for_ui all ""The inheritors Conrad"""	TITLE_OR_KEYWORD	1	True	BLC2_006
+BLP2_0018	"alma.creator all ""joseph conrad"""	"alma.creator all ""Joseph Conrad"""	A1	5	True	BLC2_006;BLC2_258;BLC2_260;BLC2_261;BLC2_264
+BLP2_0019	"alma.title == ""a hair's breadth"""	"alma.title == ""A hair's breadth"""	TITLE_OR_KEYWORD	1	True	BLC2_007
+BLP2_0020	"alma.all_for_ui all ""a hair's breadth thayer"""	"alma.all_for_ui all ""A hair's breadth Thayer"""	TITLE_OR_KEYWORD	1	True	BLC2_007
+BLP2_0021	"alma.creator all ""lee thayer"""	"alma.creator all ""Lee Thayer"""	A1	1	True	BLC2_007
+BLP2_0022	"alma.title == ""the unclassed"""	"alma.title == ""The unclassed"""	TITLE_OR_KEYWORD	1	False	BLC2_008
+BLP2_0023	"alma.all_for_ui all ""the unclassed gissing"""	"alma.all_for_ui all ""The unclassed Gissing"""	TITLE_OR_KEYWORD	1	False	BLC2_008
+BLP2_0024	"alma.creator all ""george gissing"""	"alma.creator all ""George Gissing"""	A1	2	False	BLC2_008;BLC2_204
+BLP2_0025	"alma.title == ""the follett picture-story of indians"""	"alma.title == ""The Follett picture-story of Indians"""	TITLE_OR_KEYWORD	1	False	BLC2_009
+BLP2_0026	"alma.all_for_ui all ""the follett picture-story of indians bailey"""	"alma.all_for_ui all ""The Follett picture-story of Indians Bailey"""	TITLE_OR_KEYWORD	1	False	BLC2_009
+BLP2_0027	"alma.creator all ""bernadine bailey"""	"alma.creator all ""Bernadine Bailey"""	A1	1	False	BLC2_009
+BLP2_0028	"alma.title == ""off for hawaii, or, the mystery of a great volcano"""	"alma.title == ""Off for Hawaii, or, The mystery of a great volcano"""	TITLE_OR_KEYWORD	1	False	BLC2_010
+BLP2_0029	"alma.all_for_ui all ""off for hawaii, or, the mystery of a great volcano bonehill"""	"alma.all_for_ui all ""Off for Hawaii, or, The mystery of a great volcano Bonehill"""	TITLE_OR_KEYWORD	1	False	BLC2_010
+BLP2_0030	"alma.creator all ""ralph bonehill"""	"alma.creator all ""Ralph Bonehill"""	A1	1	False	BLC2_010
+BLP2_0031	"alma.title == ""in the mountains"""	"alma.title == ""In the mountains"""	TITLE_OR_KEYWORD	1	False	BLC2_011
+BLP2_0032	"alma.all_for_ui all ""in the mountains arnim"""	"alma.all_for_ui all ""In the mountains Arnim"""	TITLE_OR_KEYWORD	1	False	BLC2_011
+BLP2_0033	"alma.creator all ""elizabeth von arnim"""	"alma.creator all ""Elizabeth von Arnim"""	A1	1	False	BLC2_011
+BLP2_0034	"alma.title == ""first lensman"""	"alma.title == ""First Lensman"""	TITLE_OR_KEYWORD	1	False	BLC2_012
+BLP2_0035	"alma.all_for_ui all ""first lensman smith"""	"alma.all_for_ui all ""First Lensman Smith"""	TITLE_OR_KEYWORD	1	False	BLC2_012
+BLP2_0036	"alma.creator all ""edward e. smith"""	"alma.creator all ""Edward E. Smith"""	A1	1	False	BLC2_012
+BLP2_0037	"alma.title == ""the billy bang book"""	"alma.title == ""The Billy Bang book"""	TITLE_OR_KEYWORD	1	False	BLC2_013
+BLP2_0038	"alma.all_for_ui all ""the billy bang book rue"""	"alma.all_for_ui all ""The Billy Bang book Rue"""	TITLE_OR_KEYWORD	1	False	BLC2_013
+BLP2_0039	"alma.creator all ""mabel guinnip la rue"""	"alma.creator all ""Mabel Guinnip La Rue"""	A1	1	False	BLC2_013
+BLP2_0040	"alma.title == ""stanton white"""	"alma.title == ""Stanton White"""	TITLE_OR_KEYWORD	1	False	BLC2_014
+BLP2_0041	"alma.all_for_ui all ""stanton white hall"""	"alma.all_for_ui all ""Stanton White Hall"""	TITLE_OR_KEYWORD	1	False	BLC2_014
+BLP2_0042	"alma.creator all ""asa zadel hall"""	"alma.creator all ""Asa Zadel Hall"""	A1	1	False	BLC2_014
+BLP2_0043	"alma.title == ""the dust of conflict"""	"alma.title == ""The dust of conflict"""	TITLE_OR_KEYWORD	1	True	BLC2_015
+BLP2_0044	"alma.all_for_ui all ""the dust of conflict bindloss"""	"alma.all_for_ui all ""The dust of conflict Bindloss"""	TITLE_OR_KEYWORD	1	True	BLC2_015
+BLP2_0045	"alma.creator all ""harold bindloss"""	"alma.creator all ""Harold Bindloss"""	A1	1	True	BLC2_015
+BLP2_0046	"alma.title == ""a light in the window"""	"alma.title == ""A light in the window"""	TITLE_OR_KEYWORD	1	False	BLC2_016
+BLP2_0047	"alma.all_for_ui all ""a light in the window rinehart"""	"alma.all_for_ui all ""A light in the window Rinehart"""	TITLE_OR_KEYWORD	1	False	BLC2_016
+BLP2_0048	"alma.creator all ""mary roberts rinehart"""	"alma.creator all ""Mary Roberts Rinehart"""	A1	1	False	BLC2_016
+BLP2_0049	"alma.title == ""over the pass"""	"alma.title == ""Over the Pass"""	TITLE_OR_KEYWORD	1	True	BLC2_017
+BLP2_0050	"alma.all_for_ui all ""over the pass palmer"""	"alma.all_for_ui all ""Over the Pass Palmer"""	TITLE_OR_KEYWORD	1	True	BLC2_017
+BLP2_0051	"alma.creator all ""frederick palmer"""	"alma.creator all ""Frederick Palmer"""	A1	1	True	BLC2_017
+BLP2_0052	"alma.title == ""the starting gun"""	"alma.title == ""The starting gun"""	TITLE_OR_KEYWORD	1	False	BLC2_018
+BLP2_0053	"alma.all_for_ui all ""the starting gun stein"""	"alma.all_for_ui all ""The starting gun Stein"""	TITLE_OR_KEYWORD	1	False	BLC2_018
+BLP2_0054	"alma.creator all ""aaron marc stein"""	"alma.creator all ""Aaron Marc Stein"""	A1	1	False	BLC2_018
+BLP2_0055	"alma.title == ""pomona's travels"""	"alma.title == ""Pomona's travels"""	TITLE_OR_KEYWORD	1	False	BLC2_019
+BLP2_0056	"alma.all_for_ui all ""pomona's travels stockton"""	"alma.all_for_ui all ""Pomona's travels Stockton"""	TITLE_OR_KEYWORD	1	False	BLC2_019
+BLP2_0057	"alma.creator all ""frank r. stockton"""	"alma.creator all ""Frank R. Stockton"""	A1	2	False	BLC2_019;BLC2_056
+BLP2_0058	"alma.title == ""ethiopia, the land of promise"""	"alma.title == ""Ethiopia, the land of promise"""	TITLE_OR_KEYWORD	1	False	BLC2_020
+BLP2_0059	"alma.all_for_ui all ""ethiopia, the land of promise adams"""	"alma.all_for_ui all ""Ethiopia, the land of promise Adams"""	TITLE_OR_KEYWORD	1	False	BLC2_020
+BLP2_0060	"alma.creator all ""clayton adams"""	"alma.creator all ""Clayton Adams"""	A1	1	False	BLC2_020
+BLP2_0061	"alma.title == ""mr. on loong"""	"alma.title == ""Mr. On Loong"""	TITLE_OR_KEYWORD	1	True	BLC2_021
+BLP2_0062	"alma.all_for_ui all ""mr. on loong standish"""	"alma.all_for_ui all ""Mr. On Loong Standish"""	TITLE_OR_KEYWORD	1	True	BLC2_021
+BLP2_0063	"alma.creator all ""robert standish"""	"alma.creator all ""Robert Standish"""	A1	1	True	BLC2_021
+BLP2_0064	"alma.title == ""the mac's of '37"""	"alma.title == ""The Mac's of '37"""	TITLE_OR_KEYWORD	1	False	BLC2_022
+BLP2_0065	"alma.all_for_ui all ""the mac's of '37 price-brown"""	"alma.all_for_ui all ""The Mac's of '37 Price-Brown"""	TITLE_OR_KEYWORD	1	False	BLC2_022
+BLP2_0066	"alma.creator all ""j. price-brown"""	"alma.creator all ""J. Price-Brown"""	A1	1	False	BLC2_022
+BLP2_0067	"alma.title == ""anna of the five towns"""	"alma.title == ""Anna of the Five Towns"""	TITLE_OR_KEYWORD	1	False	BLC2_023
+BLP2_0068	"alma.all_for_ui all ""anna of the five towns bennett"""	"alma.all_for_ui all ""Anna of the Five Towns Bennett"""	TITLE_OR_KEYWORD	1	False	BLC2_023
+BLP2_0069	"alma.creator all ""arnold bennett"""	"alma.creator all ""Arnold Bennett"""	A1	3	False	BLC2_023;BLC2_201;BLC2_239
+BLP2_0070	"alma.title == ""the desert of love"""	"alma.title == ""The desert of love"""	TITLE_OR_KEYWORD	1	True	BLC2_024
+BLP2_0071	"alma.all_for_ui all ""the desert of love mauriac"""	"alma.all_for_ui all ""The desert of love Mauriac"""	TITLE_OR_KEYWORD	1	True	BLC2_024
+BLP2_0072	"alma.creator all ""françois mauriac"""	"alma.creator all ""François Mauriac"""	A1	1	True	BLC2_024
+BLP2_0073	"alma.title == ""dave porter's war honors"""	"alma.title == ""Dave Porter's war honors"""	TITLE_OR_KEYWORD	1	False	BLC2_025
+BLP2_0074	"alma.all_for_ui all ""dave porter's war honors stratemeyer"""	"alma.all_for_ui all ""Dave Porter's war honors Stratemeyer"""	TITLE_OR_KEYWORD	1	False	BLC2_025
+BLP2_0075	"alma.creator all ""edward stratemeyer"""	"alma.creator all ""Edward Stratemeyer"""	A1	1	False	BLC2_025
+BLP2_0076	"alma.title == ""andros of ephesus"""	"alma.title == ""Andros of Ephesus"""	TITLE_OR_KEYWORD	1	False	BLC2_026
+BLP2_0077	"alma.all_for_ui all ""andros of ephesus copus"""	"alma.all_for_ui all ""Andros of Ephesus Copus"""	TITLE_OR_KEYWORD	1	False	BLC2_026
+BLP2_0078	"alma.creator all ""j. e. copus"""	"alma.creator all ""J. E. Copus"""	A1	1	False	BLC2_026
+BLP2_0079	"alma.title == ""naomi, a friend of jesus"""	"alma.title == ""Naomi, a friend of Jesus"""	TITLE_OR_KEYWORD	1	True	BLC2_027
+BLP2_0080	"alma.all_for_ui all ""naomi, a friend of jesus mcgrew"""	"alma.all_for_ui all ""Naomi, a friend of Jesus McGrew"""	TITLE_OR_KEYWORD	1	True	BLC2_027
+BLP2_0081	"alma.creator all ""florence delight mcgrew"""	"alma.creator all ""Florence Delight McGrew"""	A1	1	True	BLC2_027
+BLP2_0082	"alma.title == ""peggy covers the clipper"""	"alma.title == ""Peggy covers the clipper"""	TITLE_OR_KEYWORD	1	False	BLC2_028
+BLP2_0083	"alma.all_for_ui all ""peggy covers the clipper bugbee"""	"alma.all_for_ui all ""Peggy covers the clipper Bugbee"""	TITLE_OR_KEYWORD	1	False	BLC2_028
+BLP2_0084	"alma.creator all ""emma bugbee"""	"alma.creator all ""Emma Bugbee"""	A1	1	False	BLC2_028
+BLP2_0085	"alma.title == ""stronghand"""	"alma.title == ""Stronghand"""	TITLE_OR_KEYWORD	1	False	BLC2_029
+BLP2_0086	"alma.all_for_ui all ""stronghand gustave"""	"alma.all_for_ui all ""Stronghand Gustave"""	TITLE_OR_KEYWORD	1	False	BLC2_029
+BLP2_0087	"alma.creator all ""aimard, gustave"""	"alma.creator all ""Aimard, Gustave"""	A1	1	False	BLC2_029
+BLP2_0088	"alma.title == ""richard baxter"""	"alma.title == ""Richard Baxter"""	TITLE_OR_KEYWORD	1	False	BLC2_030
+BLP2_0089	"alma.all_for_ui all ""richard baxter jones"""	"alma.all_for_ui all ""Richard Baxter Jones"""	TITLE_OR_KEYWORD	1	False	BLC2_030
+BLP2_0090	"alma.creator all ""edward franc jones"""	"alma.creator all ""Edward Franc Jones"""	A1	1	False	BLC2_030
+BLP2_0091	"alma.title == ""mr. fortune explains"""	"alma.title == ""Mr. Fortune Explains"""	TITLE_OR_KEYWORD	1	False	BLC2_031
+BLP2_0092	"alma.all_for_ui all ""mr. fortune explains bailey"""	"alma.all_for_ui all ""Mr. Fortune Explains Bailey"""	TITLE_OR_KEYWORD	1	False	BLC2_031
+BLP2_0093	"alma.creator all ""h. c. bailey"""	"alma.creator all ""H. C. Bailey"""	A1	1	False	BLC2_031
+BLP2_0094	"alma.title == ""poor women!"""	"alma.title == ""Poor women!"""	TITLE_OR_KEYWORD	1	False	BLC2_032
+BLP2_0095	"alma.all_for_ui all ""poor women! hoult"""	"alma.all_for_ui all ""Poor women! Hoult"""	TITLE_OR_KEYWORD	1	False	BLC2_032
+BLP2_0096	"alma.creator all ""norah hoult"""	"alma.creator all ""Norah Hoult"""	A1	1	False	BLC2_032
+BLP2_0097	"alma.title == ""cupid, m. d"""	"alma.title == ""Cupid, M. D"""	TITLE_OR_KEYWORD	1	False	BLC2_033
+BLP2_0098	"alma.all_for_ui all ""cupid, m. d swift"""	"alma.all_for_ui all ""Cupid, M. D Swift"""	TITLE_OR_KEYWORD	1	False	BLC2_033
+BLP2_0099	"alma.creator all ""augustus m. swift"""	"alma.creator all ""Augustus M. Swift"""	A1	1	False	BLC2_033
+BLP2_0100	"alma.title == ""a heroine of 1812"""	"alma.title == ""A heroine of 1812"""	TITLE_OR_KEYWORD	1	False	BLC2_034
+BLP2_0101	"alma.all_for_ui all ""a heroine of 1812 blanchard"""	"alma.all_for_ui all ""A heroine of 1812 Blanchard"""	TITLE_OR_KEYWORD	1	False	BLC2_034
+BLP2_0102	"alma.creator all ""amy ella blanchard"""	"alma.creator all ""Amy Ella Blanchard"""	A1	1	False	BLC2_034
+BLP2_0103	"alma.title == ""ten g commandments"""	"alma.title == ""Ten G Commandments"""	TITLE_OR_KEYWORD	1	False	BLC2_035
+BLP2_0104	"alma.all_for_ui all ""ten g commandments handsome"""	"alma.all_for_ui all ""Ten G Commandments Handsome"""	TITLE_OR_KEYWORD	1	False	BLC2_035
+BLP2_0105	"alma.creator all ""lon handsome"""	"alma.creator all ""Lon Handsome"""	A1	1	False	BLC2_035
+BLP2_0106	"alma.title == ""the art of the novelist"""	"alma.title == ""The art of the novelist"""	TITLE_OR_KEYWORD	1	True	BLC2_036
+BLP2_0107	"alma.all_for_ui all ""the art of the novelist lathrop"""	"alma.all_for_ui all ""The art of the novelist Lathrop"""	TITLE_OR_KEYWORD	1	True	BLC2_036
+BLP2_0108	"alma.creator all ""henry burrowes lathrop"""	"alma.creator all ""Henry Burrowes Lathrop"""	A1	1	True	BLC2_036
+BLP2_0109	"alma.title == ""the fortunes of the pasquiers"""	"alma.title == ""The fortunes of the Pasquiers"""	TITLE_OR_KEYWORD	1	False	BLC2_037
+BLP2_0110	"alma.all_for_ui all ""the fortunes of the pasquiers duhamel"""	"alma.all_for_ui all ""The fortunes of the Pasquiers Duhamel"""	TITLE_OR_KEYWORD	1	False	BLC2_037
+BLP2_0111	"alma.creator all ""georges duhamel"""	"alma.creator all ""Georges Duhamel"""	A1	1	False	BLC2_037
+BLP2_0112	"alma.title == ""by yet another door"""	"alma.title == ""By Yet Another Door"""	TITLE_OR_KEYWORD	1	False	BLC2_038
+BLP2_0113	"alma.all_for_ui all ""by yet another door arbor"""	"alma.all_for_ui all ""By Yet Another Door Arbor"""	TITLE_OR_KEYWORD	1	False	BLC2_038
+BLP2_0114	"alma.creator all ""jane arbor"""	"alma.creator all ""Jane Arbor"""	A1	1	False	BLC2_038
+BLP2_0115	"alma.title == ""lords of the housetops"""	"alma.title == ""Lords of the Housetops"""	TITLE_OR_KEYWORD	1	False	BLC2_039
+BLP2_0116	"alma.all_for_ui all ""lords of the housetops vechten"""	"alma.all_for_ui all ""Lords of the Housetops Vechten"""	TITLE_OR_KEYWORD	1	False	BLC2_039
+BLP2_0117	"alma.creator all ""carl van vechten"""	"alma.creator all ""Carl Van Vechten"""	A1	1	False	BLC2_039
+BLP2_0118	"alma.title == ""new waggings of old tales"""	"alma.title == ""New waggings of old tales"""	TITLE_OR_KEYWORD	1	False	BLC2_040
+BLP2_0119	"alma.all_for_ui all ""new waggings of old tales bangs"""	"alma.all_for_ui all ""New waggings of old tales Bangs"""	TITLE_OR_KEYWORD	1	False	BLC2_040
+BLP2_0120	"alma.creator all ""john kendrick bangs"""	"alma.creator all ""John Kendrick Bangs"""	A1	1	False	BLC2_040
+BLP2_0121	"alma.title == ""times of linnæus"""	"alma.title == ""Times of Linnæus"""	TITLE_OR_KEYWORD	1	False	BLC2_041
+BLP2_0122	"alma.all_for_ui all ""times of linnæus topelius"""	"alma.all_for_ui all ""Times of Linnæus Topelius"""	TITLE_OR_KEYWORD	1	False	BLC2_041
+BLP2_0123	"alma.creator all ""zacharias topelius"""	"alma.creator all ""Zacharias Topelius"""	A1	1	False	BLC2_041
+BLP2_0124	"alma.title == ""a merry eternity"""	"alma.title == ""A merry eternity"""	TITLE_OR_KEYWORD	1	True	BLC2_042
+BLP2_0125	"alma.all_for_ui all ""a merry eternity wilby"""	"alma.all_for_ui all ""A merry eternity Wilby"""	TITLE_OR_KEYWORD	1	True	BLC2_042
+BLP2_0126	"alma.creator all ""noel macdonald wilby"""	"alma.creator all ""Noel Macdonald Wilby"""	A1	1	True	BLC2_042
+BLP2_0127	"alma.title == ""the last voyage of the donna isabel"""	"alma.title == ""The last voyage of the Donna Isabel"""	TITLE_OR_KEYWORD	1	True	BLC2_043
+BLP2_0128	"alma.all_for_ui all ""the last voyage of the donna isabel parrish"""	"alma.all_for_ui all ""The last voyage of the Donna Isabel Parrish"""	TITLE_OR_KEYWORD	1	True	BLC2_043
+BLP2_0129	"alma.creator all ""randall parrish"""	"alma.creator all ""Randall Parrish"""	A1	1	True	BLC2_043
+BLP2_0130	"alma.title == ""the nicholas blake treasury, vol. 2"""	"alma.title == ""The Nicholas Blake treasury, vol. 2"""	TITLE_OR_KEYWORD	1	False	BLC2_044
+BLP2_0131	"alma.all_for_ui all ""the nicholas blake treasury, vol. 2 day-lewis"""	"alma.all_for_ui all ""The Nicholas Blake treasury, vol. 2 Day-Lewis"""	TITLE_OR_KEYWORD	1	False	BLC2_044
+BLP2_0132	"alma.creator all ""cecil day-lewis"""	"alma.creator all ""Cecil Day-Lewis"""	A1	1	False	BLC2_044
+BLP2_0133	"alma.title == ""grapes of wrath"""	"alma.title == ""Grapes of wrath"""	TITLE_OR_KEYWORD	1	False	BLC2_045
+BLP2_0134	"alma.all_for_ui all ""grapes of wrath cable"""	"alma.all_for_ui all ""Grapes of wrath Cable"""	TITLE_OR_KEYWORD	1	False	BLC2_045
+BLP2_0135	"alma.creator all ""boyd cable"""	"alma.creator all ""Boyd Cable"""	A1	1	False	BLC2_045
+BLP2_0136	"alma.title == ""weeping cross"""	"alma.title == ""Weeping cross"""	TITLE_OR_KEYWORD	1	True	BLC2_046
+BLP2_0137	"alma.all_for_ui all ""weeping cross stuart"""	"alma.all_for_ui all ""Weeping cross Stuart"""	TITLE_OR_KEYWORD	1	True	BLC2_046
+BLP2_0138	"alma.creator all ""henry longan stuart"""	"alma.creator all ""Henry Longan Stuart"""	A1	1	True	BLC2_046
+BLP2_0139	"alma.title == ""the hawk of como"""	"alma.title == ""The hawk of Como"""	TITLE_OR_KEYWORD	1	False	BLC2_047
+BLP2_0140	"alma.all_for_ui all ""the hawk of como john"""	"alma.all_for_ui all ""The hawk of Como John"""	TITLE_OR_KEYWORD	1	False	BLC2_047
+BLP2_0141	"alma.creator all ""oxenham, john"""	"alma.creator all ""Oxenham, John"""	A1	1	False	BLC2_047
+BLP2_0142	"alma.title == ""my dogs in the northland"""	"alma.title == ""My dogs in the Northland"""	TITLE_OR_KEYWORD	1	False	BLC2_048
+BLP2_0143	"alma.all_for_ui all ""my dogs in the northland young"""	"alma.all_for_ui all ""My dogs in the Northland Young"""	TITLE_OR_KEYWORD	1	False	BLC2_048
+BLP2_0144	"alma.creator all ""egerton r. young"""	"alma.creator all ""Egerton R. Young"""	A1	1	False	BLC2_048
+BLP2_0145	"alma.title == ""the buried self"""	"alma.title == ""The buried self"""	TITLE_OR_KEYWORD	1	False	BLC2_049
+BLP2_0146	"alma.all_for_ui all ""the buried self macdonald"""	"alma.all_for_ui all ""The buried self MacDonald"""	TITLE_OR_KEYWORD	1	False	BLC2_049
+BLP2_0147	"alma.creator all ""isobel macdonald"""	"alma.creator all ""Isobel MacDonald"""	A1	1	False	BLC2_049
+BLP2_0148	"alma.title == ""trumpet in the city"""	"alma.title == ""Trumpet in the city"""	TITLE_OR_KEYWORD	1	False	BLC2_050
+BLP2_0149	"alma.all_for_ui all ""trumpet in the city miller"""	"alma.all_for_ui all ""Trumpet in the city Miller"""	TITLE_OR_KEYWORD	1	False	BLC2_050
+BLP2_0150	"alma.creator all ""helen topping miller"""	"alma.creator all ""Helen Topping Miller"""	A1	1	False	BLC2_050
+BLP2_0151	"alma.title == ""rich man"""	"alma.title == ""Rich Man"""	TITLE_OR_KEYWORD	1	False	BLC2_051
+BLP2_0152	"alma.all_for_ui all ""rich man kreisel"""	"alma.all_for_ui all ""Rich Man Kreisel"""	TITLE_OR_KEYWORD	1	False	BLC2_051
+BLP2_0153	"alma.creator all ""henry kreisel"""	"alma.creator all ""Henry Kreisel"""	A1	1	False	BLC2_051
+BLP2_0154	"alma.title == ""twelve stories, and a dream"""	"alma.title == ""Twelve stories, and a dream"""	TITLE_OR_KEYWORD	1	False	BLC2_052
+BLP2_0155	"alma.all_for_ui all ""twelve stories, and a dream wells"""	"alma.all_for_ui all ""Twelve stories, and a dream Wells"""	TITLE_OR_KEYWORD	1	False	BLC2_052
+BLP2_0156	"alma.creator all ""h. g. wells"""	"alma.creator all ""H. G. Wells"""	A1	3	False	BLC2_052;BLC2_211;BLC2_236
+BLP2_0157	"alma.title == ""maid of athens"""	"alma.title == ""Maid of Athens"""	TITLE_OR_KEYWORD	1	False	BLC2_053
+BLP2_0158	"alma.all_for_ui all ""maid of athens lafayette."""	"alma.all_for_ui all ""Maid of Athens Lafayette."""	TITLE_OR_KEYWORD	1	False	BLC2_053
+BLP2_0159	"alma.creator all ""mclaws, lafayette."""	"alma.creator all ""McLaws, Lafayette."""	A1	1	False	BLC2_053
+BLP2_0160	"alma.title == ""buck jones at annapolis"""	"alma.title == ""Buck Jones at Annapolis"""	TITLE_OR_KEYWORD	1	False	BLC2_054
+BLP2_0161	"alma.all_for_ui all ""buck jones at annapolis hobson"""	"alma.all_for_ui all ""Buck Jones at Annapolis Hobson"""	TITLE_OR_KEYWORD	1	False	BLC2_054
+BLP2_0162	"alma.creator all ""richmond pearson hobson"""	"alma.creator all ""Richmond Pearson Hobson"""	A1	1	False	BLC2_054
+BLP2_0163	"alma.title == ""death of an eloquent man"""	"alma.title == ""Death of an eloquent man"""	TITLE_OR_KEYWORD	1	False	BLC2_055
+BLP2_0164	"alma.all_for_ui all ""death of an eloquent man russell"""	"alma.all_for_ui all ""Death of an eloquent man Russell"""	TITLE_OR_KEYWORD	1	False	BLC2_055
+BLP2_0165	"alma.creator all ""charlotte murray russell"""	"alma.creator all ""Charlotte Murray Russell"""	A1	1	False	BLC2_055
+BLP2_0166	"alma.title == ""the adventures of captain horn"""	"alma.title == ""The Adventures of Captain Horn"""	TITLE_OR_KEYWORD	1	False	BLC2_056
+BLP2_0167	"alma.all_for_ui all ""the adventures of captain horn stockton"""	"alma.all_for_ui all ""The Adventures of Captain Horn Stockton"""	TITLE_OR_KEYWORD	1	False	BLC2_056
+BLP2_0168	"alma.title == ""murderer's trail"""	"alma.title == ""Murderer's trail"""	TITLE_OR_KEYWORD	1	False	BLC2_057
+BLP2_0169	"alma.all_for_ui all ""murderer's trail farjeon"""	"alma.all_for_ui all ""Murderer's trail Farjeon"""	TITLE_OR_KEYWORD	1	False	BLC2_057
+BLP2_0170	"alma.creator all ""j. jefferson farjeon"""	"alma.creator all ""J. Jefferson Farjeon"""	A1	1	False	BLC2_057
+BLP2_0171	"alma.title == ""a millionaire at sixteen, or, the cruise of the guardian-mother"""	"alma.title == ""A millionaire at sixteen, or, The cruise of the Guardian-Mother"""	TITLE_OR_KEYWORD	1	False	BLC2_058
+BLP2_0172	"alma.all_for_ui all ""a millionaire at sixteen, or, the cruise of the guardian-mother optic"""	"alma.all_for_ui all ""A millionaire at sixteen, or, The cruise of the Guardian-Mother Optic"""	TITLE_OR_KEYWORD	1	False	BLC2_058
+BLP2_0173	"alma.creator all ""oliver optic"""	"alma.creator all ""Oliver Optic"""	A1	3	False	BLC2_058;BLC2_162;BLC2_171
+BLP2_0174	"alma.title == ""sweepers"""	"alma.title == ""Sweepers"""	TITLE_OR_KEYWORD	1	True	BLC2_059
+BLP2_0175	"alma.all_for_ui all ""sweepers waine"""	"alma.all_for_ui all ""Sweepers Waine"""	TITLE_OR_KEYWORD	1	True	BLC2_059
+BLP2_0176	"alma.creator all ""charlton waine"""	"alma.creator all ""Charlton Waine"""	A1	1	True	BLC2_059
+BLP2_0177	"alma.title == ""don quixote of the mancha"""	"alma.title == ""Don Quixote of the Mancha"""	TITLE_OR_KEYWORD	1	False	BLC2_060
+BLP2_0178	"alma.all_for_ui all ""don quixote of the mancha parry"""	"alma.all_for_ui all ""Don Quixote of the Mancha Parry"""	TITLE_OR_KEYWORD	1	False	BLC2_060
+BLP2_0179	"alma.creator all ""edward abbott parry"""	"alma.creator all ""Edward Abbott Parry"""	A1	1	False	BLC2_060
+BLP2_0180	"alma.title == ""solomon, my son!"""	"alma.title == ""Solomon, my son!"""	TITLE_OR_KEYWORD	1	True	BLC2_061
+BLP2_0181	"alma.all_for_ui all ""solomon, my son! john"""	"alma.all_for_ui all ""Solomon, my son! John"""	TITLE_OR_KEYWORD	1	True	BLC2_061
+BLP2_0182	"alma.creator all ""erskine, john"""	"alma.creator all ""Erskine, John"""	A1	1	True	BLC2_061
+BLP2_0183	"alma.title == ""the fearsome island"""	"alma.title == ""The fearsome island"""	TITLE_OR_KEYWORD	1	False	BLC2_062
+BLP2_0184	"alma.all_for_ui all ""the fearsome island kinross"""	"alma.all_for_ui all ""The fearsome island Kinross"""	TITLE_OR_KEYWORD	1	False	BLC2_062
+BLP2_0185	"alma.creator all ""albert kinross"""	"alma.creator all ""Albert Kinross"""	A1	1	False	BLC2_062
+BLP2_0186	"alma.title == ""story in america, 1933-1934"""	"alma.title == ""Story in America, 1933-1934"""	TITLE_OR_KEYWORD	1	False	BLC2_063
+BLP2_0187	"alma.all_for_ui all ""story in america, 1933-1934 story."""	"alma.all_for_ui all ""Story in America, 1933-1934 Story."""	TITLE_OR_KEYWORD	1	False	BLC2_063
+BLP2_0188	"alma.creator all ""story."""	"alma.creator all ""Story."""	A1	1	False	BLC2_063
+BLP2_0189	"alma.title == ""the prairie boy"""	"alma.title == ""The prairie boy"""	TITLE_OR_KEYWORD	1	True	BLC2_064
+BLP2_0190	"alma.all_for_ui all ""the prairie boy smith"""	"alma.all_for_ui all ""The prairie boy Smith"""	TITLE_OR_KEYWORD	1	True	BLC2_064
+BLP2_0191	"alma.creator all ""john talbot smith"""	"alma.creator all ""John Talbot Smith"""	A1	1	True	BLC2_064
+BLP2_0192	"alma.title == ""to the throne from the sheepcotes"""	"alma.title == ""To the throne from the sheepcotes"""	TITLE_OR_KEYWORD	1	False	BLC2_065
+BLP2_0193	"alma.all_for_ui all ""to the throne from the sheepcotes schoeler"""	"alma.all_for_ui all ""To the throne from the sheepcotes Schoeler"""	TITLE_OR_KEYWORD	1	False	BLC2_065
+BLP2_0194	"alma.creator all ""william schoeler"""	"alma.creator all ""William Schoeler"""	A1	1	False	BLC2_065
+BLP2_0195	"alma.title == ""by whose authority?"""	"alma.title == ""By whose authority?"""	TITLE_OR_KEYWORD	1	False	BLC2_066
+BLP2_0196	"alma.all_for_ui all ""by whose authority? madox"""	"alma.all_for_ui all ""By whose authority? Madox"""	TITLE_OR_KEYWORD	1	False	BLC2_066
+BLP2_0197	"alma.creator all ""hueffer, oliver madox"""	"alma.creator all ""Hueffer, Oliver Madox"""	A1	1	False	BLC2_066
+BLP2_0198	"alma.title == ""the dragon fish"""	"alma.title == ""The Dragon Fish"""	TITLE_OR_KEYWORD	1	False	BLC2_067
+BLP2_0199	"alma.all_for_ui all ""the dragon fish buck"""	"alma.all_for_ui all ""The Dragon Fish Buck"""	TITLE_OR_KEYWORD	1	False	BLC2_067
+BLP2_0200	"alma.creator all ""pearl s. buck"""	"alma.creator all ""Pearl S. Buck"""	A1	1	False	BLC2_067
+BLP2_0201	"alma.title == ""the boy troopers on duty"""	"alma.title == ""The boy troopers on duty"""	TITLE_OR_KEYWORD	1	True	BLC2_068
+BLP2_0202	"alma.all_for_ui all ""the boy troopers on duty hayes"""	"alma.all_for_ui all ""The boy troopers on duty Hayes"""	TITLE_OR_KEYWORD	1	True	BLC2_068
+BLP2_0203	"alma.title == ""the gold bug story book"""	"alma.title == ""The gold bug story book"""	TITLE_OR_KEYWORD	1	True	BLC2_069
+BLP2_0204	"alma.all_for_ui all ""the gold bug story book stovall"""	"alma.all_for_ui all ""The gold bug story book Stovall"""	TITLE_OR_KEYWORD	1	True	BLC2_069
+BLP2_0205	"alma.creator all ""dennis h. stovall"""	"alma.creator all ""Dennis H. Stovall"""	A1	1	True	BLC2_069
+BLP2_0206	"alma.title == ""devil's reckoning"""	"alma.title == ""Devil's Reckoning"""	TITLE_OR_KEYWORD	1	False	BLC2_070
+BLP2_0207	"alma.all_for_ui all ""devil's reckoning street"""	"alma.all_for_ui all ""Devil's Reckoning Street"""	TITLE_OR_KEYWORD	1	False	BLC2_070
+BLP2_0208	"alma.creator all ""cecil john charles street"""	"alma.creator all ""Cecil John Charles Street"""	A1	2	False	BLC2_070;BLC2_094
+BLP2_0209	"alma.title == ""death is late to lunch"""	"alma.title == ""Death Is Late to Lunch"""	TITLE_OR_KEYWORD	1	False	BLC2_071
+BLP2_0210	"alma.all_for_ui all ""death is late to lunch bois"""	"alma.all_for_ui all ""Death Is Late to Lunch Bois"""	TITLE_OR_KEYWORD	1	False	BLC2_071
+BLP2_0211	"alma.creator all ""theodora du bois"""	"alma.creator all ""Theodora Du Bois"""	A1	1	False	BLC2_071
+BLP2_0212	"alma.title == ""jenny wren's boarding house"""	"alma.title == ""Jenny Wren's boarding house"""	TITLE_OR_KEYWORD	1	False	BLC2_072
+BLP2_0213	"alma.all_for_ui all ""jenny wren's boarding house kaler"""	"alma.all_for_ui all ""Jenny Wren's boarding house Kaler"""	TITLE_OR_KEYWORD	1	False	BLC2_072
+BLP2_0214	"alma.creator all ""james otis kaler"""	"alma.creator all ""James Otis Kaler"""	A1	1	False	BLC2_072
+BLP2_0215	"alma.title == ""perversity"""	"alma.title == ""Perversity"""	TITLE_OR_KEYWORD	1	False	BLC2_073
+BLP2_0216	"alma.all_for_ui all ""perversity carco"""	"alma.all_for_ui all ""Perversity Carco"""	TITLE_OR_KEYWORD	1	False	BLC2_073
+BLP2_0217	"alma.creator all ""francis carco"""	"alma.creator all ""Francis Carco"""	A1	1	False	BLC2_073
+BLP2_0218	"alma.title == ""college readings in the modern short story"""	"alma.title == ""College readings in the modern short story"""	TITLE_OR_KEYWORD	1	False	BLC2_074
+BLP2_0219	"alma.all_for_ui all ""college readings in the modern short story macminn"""	"alma.all_for_ui all ""College readings in the modern short story MacMinn"""	TITLE_OR_KEYWORD	1	False	BLC2_074
+BLP2_0220	"alma.creator all ""george rupert macminn"""	"alma.creator all ""George Rupert MacMinn"""	A1	1	False	BLC2_074
+BLP2_0221	"alma.title == ""graeme and cyril"""	"alma.title == ""Graeme and Cyril"""	TITLE_OR_KEYWORD	1	True	BLC2_075
+BLP2_0222	"alma.all_for_ui all ""graeme and cyril pain"""	"alma.all_for_ui all ""Graeme and Cyril Pain"""	TITLE_OR_KEYWORD	1	True	BLC2_075
+BLP2_0223	"alma.creator all ""barry pain"""	"alma.creator all ""Barry Pain"""	A1	1	True	BLC2_075
+BLP2_0224	"alma.title == ""the fourteen thumbs of st. peter"""	"alma.title == ""The fourteen thumbs of St. Peter"""	TITLE_OR_KEYWORD	1	True	BLC2_076
+BLP2_0225	"alma.all_for_ui all ""the fourteen thumbs of st. peter loch"""	"alma.all_for_ui all ""The fourteen thumbs of St. Peter Loch"""	TITLE_OR_KEYWORD	1	True	BLC2_076
+BLP2_0226	"alma.creator all ""joice nankivell loch"""	"alma.creator all ""Joice NanKivell Loch"""	A1	1	True	BLC2_076
+BLP2_0227	"alma.title == ""the only two ways to write a story"""	"alma.title == ""The only two ways to write a story"""	TITLE_OR_KEYWORD	1	True	BLC2_077
+BLP2_0228	"alma.all_for_ui all ""the only two ways to write a story john."""	"alma.all_for_ui all ""The only two ways to write a story John."""	TITLE_OR_KEYWORD	1	True	BLC2_077
+BLP2_0229	"alma.creator all ""gallishaw, john."""	"alma.creator all ""Gallishaw, John."""	A1	1	True	BLC2_077
+BLP2_0230	"alma.title == ""the chase of the golden plate"""	"alma.title == ""The chase of the golden plate"""	TITLE_OR_KEYWORD	1	False	BLC2_078
+BLP2_0231	"alma.all_for_ui all ""the chase of the golden plate futrelle"""	"alma.all_for_ui all ""The chase of the golden plate Futrelle"""	TITLE_OR_KEYWORD	1	False	BLC2_078
+BLP2_0232	"alma.creator all ""jacques futrelle"""	"alma.creator all ""Jacques Futrelle"""	A1	1	False	BLC2_078
+BLP2_0233	"alma.title == ""the wandering dog"""	"alma.title == ""The wandering dog"""	TITLE_OR_KEYWORD	1	True	BLC2_079
+BLP2_0234	"alma.all_for_ui all ""the wandering dog saunders"""	"alma.all_for_ui all ""The wandering dog Saunders"""	TITLE_OR_KEYWORD	1	True	BLC2_079
+BLP2_0235	"alma.creator all ""marshall saunders"""	"alma.creator all ""Marshall Saunders"""	A1	1	True	BLC2_079
+BLP2_0236	"alma.title == ""inn of that journey"""	"alma.title == ""Inn of that journey"""	TITLE_OR_KEYWORD	1	False	BLC2_080
+BLP2_0237	"alma.all_for_ui all ""inn of that journey price"""	"alma.all_for_ui all ""Inn of that journey Price"""	TITLE_OR_KEYWORD	1	False	BLC2_080
+BLP2_0238	"alma.creator all ""emerson price"""	"alma.creator all ""Emerson Price"""	A1	1	False	BLC2_080
+BLP2_0239	"alma.title == ""the world's desire"""	"alma.title == ""The world's desire"""	TITLE_OR_KEYWORD	1	True	BLC2_081
+BLP2_0240	"alma.all_for_ui all ""the world's desire haggard"""	"alma.all_for_ui all ""The world's desire Haggard"""	TITLE_OR_KEYWORD	1	True	BLC2_081
+BLP2_0241	"alma.creator all ""h. rider haggard"""	"alma.creator all ""H. Rider Haggard"""	A1	3	True	BLC2_081;BLC2_249;BLC2_257
+BLP2_0242	"alma.title == ""the rhodesians"""	"alma.title == ""The Rhodesians"""	TITLE_OR_KEYWORD	1	False	BLC2_082
+BLP2_0243	"alma.all_for_ui all ""the rhodesians chambers"""	"alma.all_for_ui all ""The Rhodesians Chambers"""	TITLE_OR_KEYWORD	1	False	BLC2_082
+BLP2_0244	"alma.creator all ""stracey chambers"""	"alma.creator all ""Stracey Chambers"""	A1	1	False	BLC2_082
+BLP2_0245	"alma.title == ""bildad road"""	"alma.title == ""Bildad road"""	TITLE_OR_KEYWORD	1	True	BLC2_083
+BLP2_0246	"alma.all_for_ui all ""bildad road rouse"""	"alma.all_for_ui all ""Bildad road Rouse"""	TITLE_OR_KEYWORD	1	True	BLC2_083
+BLP2_0247	"alma.creator all ""william merriam rouse"""	"alma.creator all ""William Merriam Rouse"""	A1	1	True	BLC2_083
+BLP2_0248	"alma.title == ""dan hyland police reporter"""	"alma.title == ""Dan Hyland Police Reporter"""	TITLE_OR_KEYWORD	1	False	BLC2_084
+BLP2_0249	"alma.all_for_ui all ""dan hyland police reporter jonathan"""	"alma.all_for_ui all ""Dan Hyland Police Reporter Jonathan"""	TITLE_OR_KEYWORD	1	False	BLC2_084
+BLP2_0250	"alma.creator all ""norton hughes jonathan"""	"alma.creator all ""Norton Hughes Jonathan"""	A1	1	False	BLC2_084
+BLP2_0251	"alma.title == ""elder conklin"""	"alma.title == ""Elder Conklin"""	TITLE_OR_KEYWORD	1	False	BLC2_085
+BLP2_0252	"alma.all_for_ui all ""elder conklin harris"""	"alma.all_for_ui all ""Elder Conklin Harris"""	TITLE_OR_KEYWORD	1	False	BLC2_085
+BLP2_0253	"alma.creator all ""frank harris"""	"alma.creator all ""Frank Harris"""	A1	1	False	BLC2_085
+BLP2_0254	"alma.title == ""subchaser jim"""	"alma.title == ""Subchaser Jim"""	TITLE_OR_KEYWORD	1	False	BLC2_086
+BLP2_0255	"alma.all_for_ui all ""subchaser jim berger"""	"alma.all_for_ui all ""Subchaser Jim Berger"""	TITLE_OR_KEYWORD	1	False	BLC2_086
+BLP2_0256	"alma.creator all ""josef berger"""	"alma.creator all ""Josef Berger"""	A1	1	False	BLC2_086
+BLP2_0257	"alma.title == ""the notes & commonplace book employed by the late h. p. lovecraft"""	"alma.title == ""The notes & commonplace book employed by the late H. P. Lovecraft"""	TITLE_OR_KEYWORD	1	True	BLC2_087
+BLP2_0258	"alma.all_for_ui all ""the notes & commonplace book employed by the late h. p. lovecraft lovecraft"""	"alma.all_for_ui all ""The notes & commonplace book employed by the late H. P. Lovecraft Lovecraft"""	TITLE_OR_KEYWORD	1	True	BLC2_087
+BLP2_0259	"alma.creator all ""h. p. lovecraft"""	"alma.creator all ""H. P. Lovecraft"""	A1	1	True	BLC2_087
+BLP2_0260	"alma.title == ""dalaradia; or, the days of king milcho"""	"alma.title == ""Dalaradia; or, The days of King Milcho"""	TITLE_OR_KEYWORD	1	False	BLC2_088
+BLP2_0261	"alma.all_for_ui all ""dalaradia; or, the days of king milcho william"""	"alma.all_for_ui all ""Dalaradia; or, The days of King Milcho William"""	TITLE_OR_KEYWORD	1	False	BLC2_088
+BLP2_0262	"alma.creator all ""collins, william"""	"alma.creator all ""Collins, William"""	A1	1	False	BLC2_088
+BLP2_0263	"alma.title == ""the wrong murder"""	"alma.title == ""The wrong murder"""	TITLE_OR_KEYWORD	1	True	BLC2_089
+BLP2_0264	"alma.all_for_ui all ""the wrong murder rice"""	"alma.all_for_ui all ""The wrong murder Rice"""	TITLE_OR_KEYWORD	1	True	BLC2_089
+BLP2_0265	"alma.creator all ""craig rice"""	"alma.creator all ""Craig Rice"""	A1	1	True	BLC2_089
+BLP2_0266	"alma.title == ""ganton & co"""	"alma.title == ""Ganton & Co"""	TITLE_OR_KEYWORD	1	False	BLC2_090
+BLP2_0267	"alma.all_for_ui all ""ganton & co eddy"""	"alma.all_for_ui all ""Ganton & Co Eddy"""	TITLE_OR_KEYWORD	1	False	BLC2_090
+BLP2_0268	"alma.creator all ""arthur jerome eddy"""	"alma.creator all ""Arthur Jerome Eddy"""	A1	1	False	BLC2_090
+BLP2_0269	"alma.title == ""great german short novels and stories"""	"alma.title == ""Great German short novels and stories"""	TITLE_OR_KEYWORD	1	False	BLC2_091
+BLP2_0270	"alma.all_for_ui all ""great german short novels and stories cerf"""	"alma.all_for_ui all ""Great German short novels and stories Cerf"""	TITLE_OR_KEYWORD	1	False	BLC2_091
+BLP2_0271	"alma.creator all ""bennett cerf"""	"alma.creator all ""Bennett Cerf"""	A1	1	False	BLC2_091
+BLP2_0272	"alma.title == ""the life of baby animals in picture strip"""	"alma.title == ""The life of baby animals in picture strip"""	TITLE_OR_KEYWORD	1	False	BLC2_092
+BLP2_0273	"alma.all_for_ui all ""the life of baby animals in picture strip morse"""	"alma.all_for_ui all ""The life of baby animals in picture strip Morse"""	TITLE_OR_KEYWORD	1	False	BLC2_092
+BLP2_0274	"alma.creator all ""george frederick morse"""	"alma.creator all ""George Frederick Morse"""	A1	1	False	BLC2_092
+BLP2_0275	"alma.title == ""sketches of adventure and sport"""	"alma.title == ""Sketches of adventure and sport"""	TITLE_OR_KEYWORD	1	False	BLC2_093
+BLP2_0276	"alma.all_for_ui all ""sketches of adventure and sport groves"""	"alma.all_for_ui all ""Sketches of adventure and sport Groves"""	TITLE_OR_KEYWORD	1	False	BLC2_093
+BLP2_0277	"alma.creator all ""j. percy groves"""	"alma.creator all ""J. Percy Groves"""	A1	1	False	BLC2_093
+BLP2_0278	"alma.title == ""fatal descent"""	"alma.title == ""Fatal descent"""	TITLE_OR_KEYWORD	1	False	BLC2_094
+BLP2_0279	"alma.all_for_ui all ""fatal descent street"""	"alma.all_for_ui all ""Fatal descent Street"""	TITLE_OR_KEYWORD	1	False	BLC2_094
+BLP2_0280	"alma.title == ""art of the novel"""	"alma.title == ""Art of the Novel"""	TITLE_OR_KEYWORD	1	False	BLC2_095
+BLP2_0281	"alma.all_for_ui all ""art of the novel james"""	"alma.all_for_ui all ""Art of the Novel James"""	TITLE_OR_KEYWORD	1	False	BLC2_095
+BLP2_0282	"alma.creator all ""henry james"""	"alma.creator all ""Henry James"""	A1	1	False	BLC2_095
+BLP2_0283	"alma.title == ""basic engineering drawing"""	"alma.title == ""Basic engineering drawing"""	TITLE_OR_KEYWORD	1	False	BLC2_096
+BLP2_0284	"alma.all_for_ui all ""basic engineering drawing orth"""	"alma.all_for_ui all ""Basic engineering drawing Orth"""	TITLE_OR_KEYWORD	1	False	BLC2_096
+BLP2_0285	"alma.creator all ""herbert denny orth"""	"alma.creator all ""Herbert Denny Orth"""	A1	1	False	BLC2_096
+BLP2_0286	"alma.title == ""the order of release"""	"alma.title == ""The order of release"""	TITLE_OR_KEYWORD	1	False	BLC2_097
+BLP2_0287	"alma.all_for_ui all ""the order of release stacpoole"""	"alma.all_for_ui all ""The order of release Stacpoole"""	TITLE_OR_KEYWORD	1	False	BLC2_097
+BLP2_0288	"alma.creator all ""h. de vere stacpoole"""	"alma.creator all ""H. De Vere Stacpoole"""	A1	1	False	BLC2_097
+BLP2_0289	"alma.title == ""the last of captain bligh"""	"alma.title == ""The last of Captain Bligh"""	TITLE_OR_KEYWORD	1	False	BLC2_098
+BLP2_0290	"alma.all_for_ui all ""the last of captain bligh vaughan"""	"alma.all_for_ui all ""The last of Captain Bligh Vaughan"""	TITLE_OR_KEYWORD	1	False	BLC2_098
+BLP2_0291	"alma.creator all ""crawford vaughan"""	"alma.creator all ""Crawford Vaughan"""	A1	1	False	BLC2_098
+BLP2_0292	"alma.title == ""short stories"""	"alma.title == ""Short stories"""	TITLE_OR_KEYWORD	1	False	BLC2_099
+BLP2_0293	"alma.all_for_ui all ""short stories davis"""	"alma.all_for_ui all ""Short stories Davis"""	TITLE_OR_KEYWORD	1	False	BLC2_099
+BLP2_0294	"alma.creator all ""sam p. davis"""	"alma.creator all ""Sam P. Davis"""	A1	1	False	BLC2_099
+BLP2_0295	"alma.title == ""l' éclat d'obus"""	"alma.title == ""L' éclat d'obus"""	TITLE_OR_KEYWORD	1	False	BLC2_100
+BLP2_0296	"alma.all_for_ui all ""l' éclat d'obus leblanc"""	"alma.all_for_ui all ""L' éclat d'obus Leblanc"""	TITLE_OR_KEYWORD	1	False	BLC2_100
+BLP2_0297	"alma.creator all ""maurice leblanc"""	"alma.creator all ""Maurice Leblanc"""	A1	1	False	BLC2_100
+BLP2_0298	"alma.title == ""the lost treasure of trevlyn"""	"alma.title == ""The lost treasure of Trevlyn"""	TITLE_OR_KEYWORD	1	False	BLC2_101
+BLP2_0299	"alma.all_for_ui all ""the lost treasure of trevlyn everett-green"""	"alma.all_for_ui all ""The lost treasure of Trevlyn Everett-Green"""	TITLE_OR_KEYWORD	1	False	BLC2_101
+BLP2_0300	"alma.creator all ""evelyn everett-green"""	"alma.creator all ""Evelyn Everett-Green"""	A1	1	False	BLC2_101
+BLP2_0301	"alma.title == ""the naughtiest girl again"""	"alma.title == ""The Naughtiest Girl Again"""	TITLE_OR_KEYWORD	1	False	BLC2_102
+BLP2_0302	"alma.all_for_ui all ""the naughtiest girl again blyton"""	"alma.all_for_ui all ""The Naughtiest Girl Again Blyton"""	TITLE_OR_KEYWORD	1	False	BLC2_102
+BLP2_0303	"alma.creator all ""enid blyton"""	"alma.creator all ""Enid Blyton"""	A1	1	False	BLC2_102
+BLP2_0304	"alma.title == ""estelle"""	"alma.title == ""Estelle"""	TITLE_OR_KEYWORD	1	False	BLC2_103
+BLP2_0305	"alma.all_for_ui all ""estelle fischer"""	"alma.all_for_ui all ""Estelle Fischer"""	TITLE_OR_KEYWORD	1	False	BLC2_103
+BLP2_0306	"alma.creator all ""alexander fischer"""	"alma.creator all ""Alexander Fischer"""	A1	1	False	BLC2_103
+BLP2_0307	"alma.title == ""ancient law"""	"alma.title == ""Ancient Law"""	TITLE_OR_KEYWORD	1	False	BLC2_104
+BLP2_0308	"alma.all_for_ui all ""ancient law glasgow"""	"alma.all_for_ui all ""Ancient Law Glasgow"""	TITLE_OR_KEYWORD	1	False	BLC2_104
+BLP2_0309	"alma.creator all ""ellen glasgow"""	"alma.creator all ""Ellen Glasgow"""	A1	1	False	BLC2_104
+BLP2_0310	"alma.title == ""\""b\"" is for betsy"""	"alma.title == ""\""B\"" is for Betsy"""	TITLE_OR_KEYWORD	1	False	BLC2_105
+BLP2_0311	"alma.all_for_ui all ""\""b\"" is for betsy haywood"""	"alma.all_for_ui all ""\""B\"" is for Betsy Haywood"""	TITLE_OR_KEYWORD	1	False	BLC2_105
+BLP2_0312	"alma.creator all ""carolyn haywood"""	"alma.creator all ""Carolyn Haywood"""	A1	1	False	BLC2_105
+BLP2_0313	"alma.title == ""the river motor boat boys on the mississippi, or, on the trail to the gulf"""	"alma.title == ""The river motor boat boys on the Mississippi, or, On the trail to the gulf"""	TITLE_OR_KEYWORD	1	False	BLC2_106
+BLP2_0314	"alma.all_for_ui all ""the river motor boat boys on the mississippi, or, on the trail to the gulf gordon"""	"alma.all_for_ui all ""The river motor boat boys on the Mississippi, or, On the trail to the gulf Gordon"""	TITLE_OR_KEYWORD	1	False	BLC2_106
+BLP2_0315	"alma.creator all ""harry gordon"""	"alma.creator all ""Harry Gordon"""	A1	1	False	BLC2_106
+BLP2_0316	"alma.title == ""by the shores of silver lake"""	"alma.title == ""By the Shores of Silver Lake"""	TITLE_OR_KEYWORD	1	False	BLC2_107
+BLP2_0317	"alma.all_for_ui all ""by the shores of silver lake wilder"""	"alma.all_for_ui all ""By the Shores of Silver Lake Wilder"""	TITLE_OR_KEYWORD	1	False	BLC2_107
+BLP2_0318	"alma.creator all ""laura ingalls wilder"""	"alma.creator all ""Laura Ingalls Wilder"""	A1	1	False	BLC2_107
+BLP2_0319	"alma.title == ""animal stories"""	"alma.title == ""Animal stories"""	TITLE_OR_KEYWORD	1	False	BLC2_108
+BLP2_0320	"alma.all_for_ui all ""animal stories burgess"""	"alma.all_for_ui all ""Animal stories Burgess"""	TITLE_OR_KEYWORD	1	False	BLC2_108
+BLP2_0321	"alma.creator all ""thornton w. burgess"""	"alma.creator all ""Thornton W. Burgess"""	A1	1	False	BLC2_108
+BLP2_0322	"alma.title == ""elias portolu"""	"alma.title == ""Elias Portolu"""	TITLE_OR_KEYWORD	1	False	BLC2_109
+BLP2_0323	"alma.all_for_ui all ""elias portolu deledda"""	"alma.all_for_ui all ""Elias Portolu Deledda"""	TITLE_OR_KEYWORD	1	False	BLC2_109
+BLP2_0324	"alma.creator all ""grazia deledda"""	"alma.creator all ""Grazia Deledda"""	A1	1	False	BLC2_109
+BLP2_0325	"alma.title == ""the hidden hand"""	"alma.title == ""The hidden hand"""	TITLE_OR_KEYWORD	1	False	BLC2_110
+BLP2_0326	"alma.all_for_ui all ""the hidden hand daly"""	"alma.all_for_ui all ""The hidden hand Daly"""	TITLE_OR_KEYWORD	1	False	BLC2_110
+BLP2_0327	"alma.creator all ""carroll john daly"""	"alma.creator all ""Carroll John Daly"""	A1	1	False	BLC2_110
+BLP2_0328	"alma.title == ""never dies the dream"""	"alma.title == ""Never dies the dream"""	TITLE_OR_KEYWORD	1	False	BLC2_111
+BLP2_0329	"alma.all_for_ui all ""never dies the dream landon"""	"alma.all_for_ui all ""Never dies the dream Landon"""	TITLE_OR_KEYWORD	1	False	BLC2_111
+BLP2_0330	"alma.creator all ""margaret landon"""	"alma.creator all ""Margaret Landon"""	A1	1	False	BLC2_111
+BLP2_0331	"alma.title == ""any shape or form"""	"alma.title == ""Any Shape or Form"""	TITLE_OR_KEYWORD	1	False	BLC2_112
+BLP2_0332	"alma.all_for_ui all ""any shape or form daly"""	"alma.all_for_ui all ""Any Shape or Form Daly"""	TITLE_OR_KEYWORD	1	False	BLC2_112
+BLP2_0333	"alma.creator all ""elizabeth daly"""	"alma.creator all ""Elizabeth Daly"""	A1	1	False	BLC2_112
+BLP2_0334	"alma.title == ""glencannon meets tugboat annie"""	"alma.title == ""Glencannon meets Tugboat Annie"""	TITLE_OR_KEYWORD	1	False	BLC2_113
+BLP2_0335	"alma.all_for_ui all ""glencannon meets tugboat annie gilpatric"""	"alma.all_for_ui all ""Glencannon meets Tugboat Annie Gilpatric"""	TITLE_OR_KEYWORD	1	False	BLC2_113
+BLP2_0336	"alma.creator all ""guy gilpatric"""	"alma.creator all ""Guy Gilpatric"""	A1	1	False	BLC2_113
+BLP2_0337	"alma.title == ""grandpa's little girls"""	"alma.title == ""Grandpa's little girls"""	TITLE_OR_KEYWORD	1	False	BLC2_114
+BLP2_0338	"alma.all_for_ui all ""grandpa's little girls curtis"""	"alma.all_for_ui all ""Grandpa's little girls Curtis"""	TITLE_OR_KEYWORD	1	False	BLC2_114
+BLP2_0339	"alma.creator all ""alice turner curtis"""	"alma.creator all ""Alice Turner Curtis"""	A1	1	False	BLC2_114
+BLP2_0340	"alma.title == ""william - the pirate"""	"alma.title == ""William - the Pirate"""	TITLE_OR_KEYWORD	1	False	BLC2_115
+BLP2_0341	"alma.all_for_ui all ""william - the pirate crompton"""	"alma.all_for_ui all ""William - the Pirate Crompton"""	TITLE_OR_KEYWORD	1	False	BLC2_115
+BLP2_0342	"alma.creator all ""richmal crompton"""	"alma.creator all ""Richmal Crompton"""	A1	1	False	BLC2_115
+BLP2_0343	"alma.title == ""the works of edgar allan poe - vol. ii (assignation / balloon-hoax / black cat / cask of amontillado / descent into the maelstrom / facts in the case of m. valdemar / fall of the house of usher / gold-bug / imp of the perverse / island of the fay / masque of the red death / mesmeric revelation / ms. found in a bottle / murders in the rue morgue / mystery of marie roget / oval portrait / pit and the pendulum / premature burial / purloined letter / tell-tale heart / thousand-and-second tale of scheherazade / unparalleled adventure of one hans pfaall / von kempelen and his discovery)"""	"alma.title == ""The Works of Edgar Allan Poe - Vol. II (Assignation / Balloon-Hoax / Black Cat / Cask of Amontillado / Descent Into the Maelstrom / Facts in the Case of M. Valdemar / Fall of the House of Usher / Gold-Bug / Imp of the Perverse / Island of the Fay / Masque of the Red Death / Mesmeric Revelation / Ms. Found in a Bottle / Murders in the Rue Morgue / Mystery of Marie Roget / Oval Portrait / Pit and the Pendulum / Premature Burial / Purloined Letter / Tell-Tale Heart / Thousand-and-Second Tale of Scheherazade / Unparalleled Adventure of One Hans Pfaall / Von Kempelen and His Discovery)"""	TITLE_OR_KEYWORD	1	False	BLC2_116
+BLP2_0344	"alma.all_for_ui all ""the works of edgar allan poe - vol. ii (assignation / balloon-hoax / black cat / cask of amontillado / descent into the maelstrom / facts in the case of m. valdemar / fall of the house of usher / gold-bug / imp of the perverse / island of the fay / masque of the red death / mesmeric revelation / ms. found in a bottle / murders in the rue morgue / mystery of marie roget / oval portrait / pit and the pendulum / premature burial / purloined letter / tell-tale heart / thousand-and-second tale of scheherazade / unparalleled adventure of one hans pfaall / von kempelen and his discovery) poe"""	"alma.all_for_ui all ""The Works of Edgar Allan Poe - Vol. II (Assignation / Balloon-Hoax / Black Cat / Cask of Amontillado / Descent Into the Maelstrom / Facts in the Case of M. Valdemar / Fall of the House of Usher / Gold-Bug / Imp of the Perverse / Island of the Fay / Masque of the Red Death / Mesmeric Revelation / Ms. Found in a Bottle / Murders in the Rue Morgue / Mystery of Marie Roget / Oval Portrait / Pit and the Pendulum / Premature Burial / Purloined Letter / Tell-Tale Heart / Thousand-and-Second Tale of Scheherazade / Unparalleled Adventure of One Hans Pfaall / Von Kempelen and His Discovery) Poe"""	TITLE_OR_KEYWORD	1	False	BLC2_116
+BLP2_0345	"alma.creator all ""edgar allan poe"""	"alma.creator all ""Edgar Allan Poe"""	A1	1	False	BLC2_116
+BLP2_0346	"alma.title == ""starosta warszawski"""	"alma.title == ""Starosta warszawski"""	TITLE_OR_KEYWORD	1	False	BLC2_117
+BLP2_0347	"alma.all_for_ui all ""starosta warszawski kraszewski"""	"alma.all_for_ui all ""Starosta warszawski Kraszewski"""	TITLE_OR_KEYWORD	1	False	BLC2_117
+BLP2_0348	"alma.creator all ""józef ignacy kraszewski"""	"alma.creator all ""Józef Ignacy Kraszewski"""	A1	1	False	BLC2_117
+BLP2_0349	"alma.title == ""a voyage to brobdingnag made by lemuel gulliver in the year mdccii"""	"alma.title == ""A voyage to Brobdingnag made by Lemuel Gulliver in the year mdccii"""	TITLE_OR_KEYWORD	1	False	BLC2_118
+BLP2_0350	"alma.all_for_ui all ""a voyage to brobdingnag made by lemuel gulliver in the year mdccii swift"""	"alma.all_for_ui all ""A voyage to Brobdingnag made by Lemuel Gulliver in the year mdccii Swift"""	TITLE_OR_KEYWORD	1	False	BLC2_118
+BLP2_0351	"alma.creator all ""jonathan swift"""	"alma.creator all ""Jonathan Swift"""	A1	1	False	BLC2_118
+BLP2_0352	"alma.title == ""stories by nathaniel hawthorne"""	"alma.title == ""Stories by Nathaniel Hawthorne"""	TITLE_OR_KEYWORD	1	False	BLC2_119
+BLP2_0353	"alma.all_for_ui all ""stories by nathaniel hawthorne hawthorne"""	"alma.all_for_ui all ""Stories by Nathaniel Hawthorne Hawthorne"""	TITLE_OR_KEYWORD	1	False	BLC2_119
+BLP2_0354	"alma.creator all ""nathaniel hawthorne"""	"alma.creator all ""Nathaniel Hawthorne"""	A1	1	False	BLC2_119
+BLP2_0355	"alma.title == ""bernard brooks' adventures"""	"alma.title == ""Bernard Brooks' Adventures"""	TITLE_OR_KEYWORD	1	False	BLC2_120
+BLP2_0356	"alma.all_for_ui all ""bernard brooks' adventures jr."""	"alma.all_for_ui all ""Bernard Brooks' Adventures Jr."""	TITLE_OR_KEYWORD	1	False	BLC2_120
+BLP2_0357	"alma.creator all ""horatio alger, jr."""	"alma.creator all ""Horatio Alger, Jr."""	A1	2	False	BLC2_120;BLC2_143
+BLP2_0358	"alma.title == ""the high history of the holy graal"""	"alma.title == ""The high history of the Holy Graal"""	TITLE_OR_KEYWORD	1	False	BLC2_121
+BLP2_0359	"alma.all_for_ui all ""the high history of the holy graal perlesvaus"""	"alma.all_for_ui all ""The high history of the Holy Graal Perlesvaus"""	TITLE_OR_KEYWORD	1	False	BLC2_121
+BLP2_0360	"alma.creator all ""perlesvaus"""	"alma.creator all ""Perlesvaus"""	A1	1	False	BLC2_121
+BLP2_0361	"alma.title == ""how i twice eloped"""	"alma.title == ""How I twice eloped"""	TITLE_OR_KEYWORD	1	False	BLC2_122
+BLP2_0362	"alma.all_for_ui all ""how i twice eloped eaves"""	"alma.all_for_ui all ""How I twice eloped Eaves"""	TITLE_OR_KEYWORD	1	False	BLC2_122
+BLP2_0363	"alma.creator all ""catherine eaves"""	"alma.creator all ""Catherine Eaves"""	A1	1	False	BLC2_122
+BLP2_0364	"alma.title == ""the travel tales of mr. joseph jorkens"""	"alma.title == ""The travel tales of Mr. Joseph Jorkens"""	TITLE_OR_KEYWORD	1	False	BLC2_123
+BLP2_0365	"alma.all_for_ui all ""the travel tales of mr. joseph jorkens dunsany"""	"alma.all_for_ui all ""The travel tales of Mr. Joseph Jorkens Dunsany"""	TITLE_OR_KEYWORD	1	False	BLC2_123
+BLP2_0366	"alma.creator all ""lord dunsany"""	"alma.creator all ""Lord Dunsany"""	A1	1	False	BLC2_123
+BLP2_0367	"alma.title == ""it is the law"""	"alma.title == ""It is the law"""	TITLE_OR_KEYWORD	1	False	BLC2_124
+BLP2_0368	"alma.all_for_ui all ""it is the law willson"""	"alma.all_for_ui all ""It is the law Willson"""	TITLE_OR_KEYWORD	1	False	BLC2_124
+BLP2_0369	"alma.creator all ""thomas edgar willson"""	"alma.creator all ""Thomas Edgar Willson"""	A1	1	False	BLC2_124
+BLP2_0370	"alma.title == ""gold dust"""	"alma.title == ""Gold dust"""	TITLE_OR_KEYWORD	1	False	BLC2_125
+BLP2_0371	"alma.all_for_ui all ""gold dust schultz"""	"alma.all_for_ui all ""Gold dust Schultz"""	TITLE_OR_KEYWORD	1	False	BLC2_125
+BLP2_0372	"alma.creator all ""james willard schultz"""	"alma.creator all ""James Willard Schultz"""	A1	1	False	BLC2_125
+BLP2_0373	"alma.title == ""adam bede"""	"alma.title == ""Adam Bede"""	TITLE_OR_KEYWORD	1	False	BLC2_126
+BLP2_0374	"alma.all_for_ui all ""adam bede eliot"""	"alma.all_for_ui all ""Adam Bede Eliot"""	TITLE_OR_KEYWORD	1	False	BLC2_126
+BLP2_0375	"alma.creator all ""george eliot"""	"alma.creator all ""George Eliot"""	A1	1	False	BLC2_126
+BLP2_0376	"alma.title == ""the american conflict"""	"alma.title == ""The American conflict"""	TITLE_OR_KEYWORD	1	False	BLC2_127
+BLP2_0377	"alma.all_for_ui all ""the american conflict robinson"""	"alma.all_for_ui all ""The American conflict Robinson"""	TITLE_OR_KEYWORD	1	False	BLC2_127
+BLP2_0378	"alma.creator all ""mary s. robinson"""	"alma.creator all ""Mary S. Robinson"""	A1	1	False	BLC2_127
+BLP2_0379	"alma.title == ""three go back"""	"alma.title == ""Three go back"""	TITLE_OR_KEYWORD	1	False	BLC2_128
+BLP2_0380	"alma.all_for_ui all ""three go back mitchell"""	"alma.all_for_ui all ""Three go back Mitchell"""	TITLE_OR_KEYWORD	1	False	BLC2_128
+BLP2_0381	"alma.creator all ""james leslie mitchell"""	"alma.creator all ""James Leslie Mitchell"""	A1	1	False	BLC2_128
+BLP2_0382	"alma.title == ""the house of mirth"""	"alma.title == ""The house of mirth"""	TITLE_OR_KEYWORD	1	False	BLC2_129
+BLP2_0383	"alma.all_for_ui all ""the house of mirth wharton"""	"alma.all_for_ui all ""The house of mirth Wharton"""	TITLE_OR_KEYWORD	1	False	BLC2_129
+BLP2_0384	"alma.creator all ""edith wharton"""	"alma.creator all ""Edith Wharton"""	A1	1	False	BLC2_129
+BLP2_0385	"alma.title == ""the lone ranger and the silver bullet"""	"alma.title == ""The Lone Ranger and the silver bullet"""	TITLE_OR_KEYWORD	1	True	BLC2_130
+BLP2_0386	"alma.all_for_ui all ""the lone ranger and the silver bullet striker"""	"alma.all_for_ui all ""The Lone Ranger and the silver bullet Striker"""	TITLE_OR_KEYWORD	1	True	BLC2_130
+BLP2_0387	"alma.creator all ""fran striker"""	"alma.creator all ""Fran Striker"""	A1	1	True	BLC2_130
+BLP2_0388	"alma.title == ""the other side"""	"alma.title == ""The other side"""	TITLE_OR_KEYWORD	1	True	BLC2_131
+BLP2_0389	"alma.all_for_ui all ""the other side jameson"""	"alma.all_for_ui all ""The other side Jameson"""	TITLE_OR_KEYWORD	1	True	BLC2_131
+BLP2_0390	"alma.creator all ""storm jameson"""	"alma.creator all ""Storm Jameson"""	A1	1	True	BLC2_131
+BLP2_0391	"alma.title == ""the adventures of a sailor boy and tales of the british navy"""	"alma.title == ""The adventures of a sailor boy and tales of the British Navy"""	TITLE_OR_KEYWORD	1	False	BLC2_132
+BLP2_0392	"alma.all_for_ui all ""the adventures of a sailor boy and tales of the british navy william"""	"alma.all_for_ui all ""The adventures of a sailor boy and tales of the British Navy William"""	TITLE_OR_KEYWORD	1	False	BLC2_132
+BLP2_0393	"alma.creator all ""martin, william"""	"alma.creator all ""Martin, William"""	A1	1	False	BLC2_132
+BLP2_0394	"alma.title == ""name your poison"""	"alma.title == ""Name your poison"""	TITLE_OR_KEYWORD	1	False	BLC2_133
+BLP2_0395	"alma.all_for_ui all ""name your poison reilly"""	"alma.all_for_ui all ""Name your poison Reilly"""	TITLE_OR_KEYWORD	1	False	BLC2_133
+BLP2_0396	"alma.creator all ""helen reilly"""	"alma.creator all ""Helen Reilly"""	A1	1	False	BLC2_133
+BLP2_0397	"alma.title == ""the story of a cowhorse, gotch"""	"alma.title == ""The story of a cowhorse, Gotch"""	TITLE_OR_KEYWORD	1	True	BLC2_134
+BLP2_0398	"alma.all_for_ui all ""the story of a cowhorse, gotch sweetman"""	"alma.all_for_ui all ""The story of a cowhorse, Gotch Sweetman"""	TITLE_OR_KEYWORD	1	True	BLC2_134
+BLP2_0399	"alma.creator all ""luke d. sweetman"""	"alma.creator all ""Luke D. Sweetman"""	A1	1	True	BLC2_134
+BLP2_0400	"alma.title == ""the greek coffin mystery"""	"alma.title == ""The Greek coffin mystery"""	TITLE_OR_KEYWORD	1	False	BLC2_135
+BLP2_0401	"alma.all_for_ui all ""the greek coffin mystery queen"""	"alma.all_for_ui all ""The Greek coffin mystery Queen"""	TITLE_OR_KEYWORD	1	False	BLC2_135
+BLP2_0402	"alma.creator all ""ellery queen"""	"alma.creator all ""Ellery Queen"""	A1	1	False	BLC2_135
+BLP2_0403	"alma.title == ""the valiants of virginia"""	"alma.title == ""The Valiants of Virginia"""	TITLE_OR_KEYWORD	1	True	BLC2_136
+BLP2_0404	"alma.all_for_ui all ""the valiants of virginia erminie"""	"alma.all_for_ui all ""The Valiants of Virginia Erminie"""	TITLE_OR_KEYWORD	1	True	BLC2_136
+BLP2_0405	"alma.creator all ""rives, hallie erminie"""	"alma.creator all ""Rives, Hallie Erminie"""	A1	1	True	BLC2_136
+BLP2_0406	"alma.title == ""the jamesons"""	"alma.title == ""The Jamesons"""	TITLE_OR_KEYWORD	1	True	BLC2_137
+BLP2_0407	"alma.all_for_ui all ""the jamesons freeman"""	"alma.all_for_ui all ""The Jamesons Freeman"""	TITLE_OR_KEYWORD	1	True	BLC2_137
+BLP2_0408	"alma.creator all ""mary eleanor wilkins freeman"""	"alma.creator all ""Mary Eleanor Wilkins Freeman"""	A1	1	True	BLC2_137
+BLP2_0409	"alma.title == ""for faith and freedom"""	"alma.title == ""For faith and freedom"""	TITLE_OR_KEYWORD	1	False	BLC2_138
+BLP2_0410	"alma.all_for_ui all ""for faith and freedom besant"""	"alma.all_for_ui all ""For faith and freedom Besant"""	TITLE_OR_KEYWORD	1	False	BLC2_138
+BLP2_0411	"alma.creator all ""walter besant"""	"alma.creator all ""Walter Besant"""	A1	1	False	BLC2_138
+BLP2_0412	"alma.title == ""young west"""	"alma.title == ""Young West"""	TITLE_OR_KEYWORD	1	False	BLC2_139
+BLP2_0413	"alma.all_for_ui all ""young west schindler"""	"alma.all_for_ui all ""Young West Schindler"""	TITLE_OR_KEYWORD	1	False	BLC2_139
+BLP2_0414	"alma.creator all ""solomon schindler"""	"alma.creator all ""Solomon Schindler"""	A1	1	False	BLC2_139
+BLP2_0415	"alma.title == ""'missing,'"""	"alma.title == ""'Missing,'"""	TITLE_OR_KEYWORD	1	False	BLC2_140
+BLP2_0416	"alma.all_for_ui all ""'missing,' ward"""	"alma.all_for_ui all ""'Missing,' Ward"""	TITLE_OR_KEYWORD	1	False	BLC2_140
+BLP2_0417	"alma.creator all ""mary augusta ward"""	"alma.creator all ""Mary Augusta Ward"""	A1	1	False	BLC2_140
+BLP2_0418	"alma.title == ""the river of life"""	"alma.title == ""The river of life"""	TITLE_OR_KEYWORD	1	False	BLC2_141
+BLP2_0419	"alma.all_for_ui all ""the river of life куприн"""	"alma.all_for_ui all ""The river of life Куприн"""	TITLE_OR_KEYWORD	1	False	BLC2_141
+BLP2_0420	"alma.creator all ""александр иванович куприн"""	"alma.creator all ""Александр Иванович Куприн"""	A1	1	False	BLC2_141
+BLP2_0421	"alma.title == ""the one-eyed griffin, and other fairy stories"""	"alma.title == ""The one-eyed griffin, and other fairy stories"""	TITLE_OR_KEYWORD	1	False	BLC2_142
+BLP2_0422	"alma.all_for_ui all ""the one-eyed griffin, and other fairy stories inman"""	"alma.all_for_ui all ""The one-eyed griffin, and other fairy stories Inman"""	TITLE_OR_KEYWORD	1	False	BLC2_142
+BLP2_0423	"alma.creator all ""herbert inman"""	"alma.creator all ""Herbert Inman"""	A1	1	False	BLC2_142
+BLP2_0424	"alma.title == ""adrift in the city, or, oliver conrad's plucky fight"""	"alma.title == ""Adrift in the city, or, Oliver Conrad's plucky fight"""	TITLE_OR_KEYWORD	1	False	BLC2_143
+BLP2_0425	"alma.all_for_ui all ""adrift in the city, or, oliver conrad's plucky fight jr."""	"alma.all_for_ui all ""Adrift in the city, or, Oliver Conrad's plucky fight Jr."""	TITLE_OR_KEYWORD	1	False	BLC2_143
+BLP2_0426	"alma.title == ""the magic story"""	"alma.title == ""The magic story"""	TITLE_OR_KEYWORD	1	False	BLC2_144
+BLP2_0427	"alma.all_for_ui all ""the magic story dey"""	"alma.all_for_ui all ""The magic story Dey"""	TITLE_OR_KEYWORD	1	False	BLC2_144
+BLP2_0428	"alma.creator all ""frederic van rensselaer dey"""	"alma.creator all ""Frederic Van Rensselaer Dey"""	A1	1	False	BLC2_144
+BLP2_0429	"alma.title == ""brian banaker's autobiography up to the age of twenty-four"""	"alma.title == ""Brian Banaker's autobiography up to the age of twenty-four"""	TITLE_OR_KEYWORD	1	True	BLC2_145
+BLP2_0430	"alma.all_for_ui all ""brian banaker's autobiography up to the age of twenty-four trites"""	"alma.all_for_ui all ""Brian Banaker's autobiography up to the age of twenty-four Trites"""	TITLE_OR_KEYWORD	1	True	BLC2_145
+BLP2_0431	"alma.creator all ""william budd trites"""	"alma.creator all ""William Budd Trites"""	A1	1	True	BLC2_145
+BLP2_0432	"alma.title == ""youth and the bright medusa"""	"alma.title == ""Youth and the bright Medusa"""	TITLE_OR_KEYWORD	1	False	BLC2_146
+BLP2_0433	"alma.all_for_ui all ""youth and the bright medusa cather"""	"alma.all_for_ui all ""Youth and the bright Medusa Cather"""	TITLE_OR_KEYWORD	1	False	BLC2_146
+BLP2_0434	"alma.creator all ""willa cather"""	"alma.creator all ""Willa Cather"""	A1	1	False	BLC2_146
+BLP2_0435	"alma.title == ""madame margot"""	"alma.title == ""Madame Margot"""	TITLE_OR_KEYWORD	1	False	BLC2_147
+BLP2_0436	"alma.all_for_ui all ""madame margot john"""	"alma.all_for_ui all ""Madame Margot John"""	TITLE_OR_KEYWORD	1	False	BLC2_147
+BLP2_0437	"alma.creator all ""bennett, john"""	"alma.creator all ""Bennett, John"""	A1	1	False	BLC2_147
+BLP2_0438	"alma.title == ""send for paul temple"""	"alma.title == ""Send for Paul Temple"""	TITLE_OR_KEYWORD	1	False	BLC2_148
+BLP2_0439	"alma.all_for_ui all ""send for paul temple durbridge"""	"alma.all_for_ui all ""Send for Paul Temple Durbridge"""	TITLE_OR_KEYWORD	1	False	BLC2_148
+BLP2_0440	"alma.creator all ""francis durbridge"""	"alma.creator all ""Francis Durbridge"""	A1	1	False	BLC2_148
+BLP2_0441	"alma.title == ""the judas time"""	"alma.title == ""The Judas time"""	TITLE_OR_KEYWORD	1	False	BLC2_149
+BLP2_0442	"alma.all_for_ui all ""the judas time schneider"""	"alma.all_for_ui all ""The Judas time Schneider"""	TITLE_OR_KEYWORD	1	False	BLC2_149
+BLP2_0443	"alma.creator all ""isidor schneider"""	"alma.creator all ""Isidor Schneider"""	A1	1	False	BLC2_149
+BLP2_0444	"alma.title == ""mondo piccolo, don camillo"""	"alma.title == ""Mondo piccolo, Don Camillo"""	TITLE_OR_KEYWORD	1	False	BLC2_150
+BLP2_0445	"alma.all_for_ui all ""mondo piccolo, don camillo guareschi"""	"alma.all_for_ui all ""Mondo piccolo, Don Camillo Guareschi"""	TITLE_OR_KEYWORD	1	False	BLC2_150
+BLP2_0446	"alma.creator all ""giovannino guareschi"""	"alma.creator all ""Giovannino Guareschi"""	A1	1	False	BLC2_150
+BLP2_0447	"alma.title == ""murder in paris"""	"alma.title == ""Murder in Paris"""	TITLE_OR_KEYWORD	1	False	BLC2_151
+BLP2_0448	"alma.all_for_ui all ""murder in paris campbell"""	"alma.all_for_ui all ""Murder in Paris Campbell"""	TITLE_OR_KEYWORD	1	False	BLC2_151
+BLP2_0449	"alma.creator all ""alice campbell"""	"alma.creator all ""Alice Campbell"""	A1	1	False	BLC2_151
+BLP2_0450	"alma.title == ""children of the covenant"""	"alma.title == ""Children of the covenant"""	TITLE_OR_KEYWORD	1	False	BLC2_152
+BLP2_0451	"alma.all_for_ui all ""children of the covenant scowcroft"""	"alma.all_for_ui all ""Children of the covenant Scowcroft"""	TITLE_OR_KEYWORD	1	False	BLC2_152
+BLP2_0452	"alma.creator all ""richard scowcroft"""	"alma.creator all ""Richard Scowcroft"""	A1	1	False	BLC2_152
+BLP2_0453	"alma.title == ""coming back with the spitball"""	"alma.title == ""Coming back with the spitball"""	TITLE_OR_KEYWORD	1	False	BLC2_153
+BLP2_0454	"alma.all_for_ui all ""coming back with the spitball hopper"""	"alma.all_for_ui all ""Coming back with the spitball Hopper"""	TITLE_OR_KEYWORD	1	False	BLC2_153
+BLP2_0455	"alma.creator all ""james hopper"""	"alma.creator all ""James Hopper"""	A1	1	False	BLC2_153
+BLP2_0456	"alma.title == ""little grandfather"""	"alma.title == ""Little grandfather"""	TITLE_OR_KEYWORD	1	False	BLC2_154
+BLP2_0457	"alma.all_for_ui all ""little grandfather may"""	"alma.all_for_ui all ""Little grandfather May"""	TITLE_OR_KEYWORD	1	False	BLC2_154
+BLP2_0458	"alma.creator all ""sophie may"""	"alma.creator all ""Sophie May"""	A1	1	False	BLC2_154
+BLP2_0459	"alma.title == ""the emperor"""	"alma.title == ""The emperor"""	TITLE_OR_KEYWORD	1	False	BLC2_155
+BLP2_0460	"alma.all_for_ui all ""the emperor monroe"""	"alma.all_for_ui all ""The emperor Monroe"""	TITLE_OR_KEYWORD	1	False	BLC2_155
+BLP2_0461	"alma.creator all ""kirkman, marshall monroe"""	"alma.creator all ""Kirkman, Marshall Monroe"""	A1	1	False	BLC2_155
+BLP2_0462	"alma.title == ""at nine bells"""	"alma.title == ""At nine bells"""	TITLE_OR_KEYWORD	1	False	BLC2_156
+BLP2_0463	"alma.all_for_ui all ""at nine bells emery"""	"alma.all_for_ui all ""At nine bells Emery"""	TITLE_OR_KEYWORD	1	False	BLC2_156
+BLP2_0464	"alma.creator all ""samuel emery"""	"alma.creator all ""Samuel Emery"""	A1	1	False	BLC2_156
+BLP2_0465	"alma.title == ""that little smith girl"""	"alma.title == ""That little Smith girl"""	TITLE_OR_KEYWORD	1	False	BLC2_157
+BLP2_0466	"alma.all_for_ui all ""that little smith girl perry"""	"alma.all_for_ui all ""That little Smith girl Perry"""	TITLE_OR_KEYWORD	1	False	BLC2_157
+BLP2_0467	"alma.creator all ""nora perry"""	"alma.creator all ""Nora Perry"""	A1	1	False	BLC2_157
+BLP2_0468	"alma.title == ""contract bridge made easy"""	"alma.title == ""Contract bridge made easy"""	TITLE_OR_KEYWORD	1	False	BLC2_158
+BLP2_0469	"alma.all_for_ui all ""contract bridge made easy goren"""	"alma.all_for_ui all ""Contract bridge made easy Goren"""	TITLE_OR_KEYWORD	1	False	BLC2_158
+BLP2_0470	"alma.creator all ""charles henry goren"""	"alma.creator all ""Charles Henry Goren"""	A1	1	False	BLC2_158
+BLP2_0471	"alma.title == ""captains of industry, or, men of business who did something besides making money"""	"alma.title == ""Captains of industry, or, Men of business who did something besides making money"""	TITLE_OR_KEYWORD	1	False	BLC2_159
+BLP2_0472	"alma.all_for_ui all ""captains of industry, or, men of business who did something besides making money parton"""	"alma.all_for_ui all ""Captains of industry, or, Men of business who did something besides making money Parton"""	TITLE_OR_KEYWORD	1	False	BLC2_159
+BLP2_0473	"alma.creator all ""james parton"""	"alma.creator all ""James Parton"""	A1	1	False	BLC2_159
+BLP2_0474	"alma.title == ""the sidewalks are free"""	"alma.title == ""The sidewalks are free"""	TITLE_OR_KEYWORD	1	False	BLC2_160
+BLP2_0475	"alma.all_for_ui all ""the sidewalks are free ross"""	"alma.all_for_ui all ""The sidewalks are free Ross"""	TITLE_OR_KEYWORD	1	False	BLC2_160
+BLP2_0476	"alma.creator all ""sam ross"""	"alma.creator all ""Sam Ross"""	A1	1	False	BLC2_160
+BLP2_0477	"alma.title == ""the stuff to give the troops"""	"alma.title == ""The stuff to give the troops"""	TITLE_OR_KEYWORD	1	False	BLC2_161
+BLP2_0478	"alma.all_for_ui all ""the stuff to give the troops maclaren-ross"""	"alma.all_for_ui all ""The stuff to give the troops Maclaren-Ross"""	TITLE_OR_KEYWORD	1	False	BLC2_161
+BLP2_0479	"alma.creator all ""j. maclaren-ross"""	"alma.creator all ""J. Maclaren-Ross"""	A1	1	False	BLC2_161
+BLP2_0480	"alma.title == ""up the baltic, or, young america in norway, sweden, and denmark"""	"alma.title == ""Up the Baltic, or, Young America in Norway, Sweden, and Denmark"""	TITLE_OR_KEYWORD	1	False	BLC2_162
+BLP2_0481	"alma.all_for_ui all ""up the baltic, or, young america in norway, sweden, and denmark optic"""	"alma.all_for_ui all ""Up the Baltic, or, Young America in Norway, Sweden, and Denmark Optic"""	TITLE_OR_KEYWORD	1	False	BLC2_162
+BLP2_0482	"alma.title == ""camp hero"""	"alma.title == ""Camp hero"""	TITLE_OR_KEYWORD	1	False	BLC2_163
+BLP2_0483	"alma.all_for_ui all ""camp hero chute"""	"alma.all_for_ui all ""Camp hero Chute"""	TITLE_OR_KEYWORD	1	False	BLC2_163
+BLP2_0484	"alma.creator all ""b. j. chute"""	"alma.creator all ""B. J. Chute"""	A1	1	False	BLC2_163
+BLP2_0485	"alma.title == ""soldier bill"""	"alma.title == ""Soldier Bill"""	TITLE_OR_KEYWORD	1	False	BLC2_164
+BLP2_0486	"alma.all_for_ui all ""soldier bill simonsen"""	"alma.all_for_ui all ""Soldier Bill Simonsen"""	TITLE_OR_KEYWORD	1	False	BLC2_164
+BLP2_0487	"alma.creator all ""sigurd jay simonsen"""	"alma.creator all ""Sigurd Jay Simonsen"""	A1	1	False	BLC2_164
+BLP2_0488	"alma.title == ""little bok"""	"alma.title == ""Little Bok"""	TITLE_OR_KEYWORD	1	False	BLC2_165
+BLP2_0489	"alma.all_for_ui all ""little bok bardeen"""	"alma.all_for_ui all ""Little Bok Bardeen"""	TITLE_OR_KEYWORD	1	False	BLC2_165
+BLP2_0490	"alma.creator all ""c. w. bardeen"""	"alma.creator all ""C. W. Bardeen"""	A1	1	False	BLC2_165
+BLP2_0491	"alma.title == ""mr. benjamin's sword"""	"alma.title == ""Mr. Benjamin's sword"""	TITLE_OR_KEYWORD	1	False	BLC2_166
+BLP2_0492	"alma.all_for_ui all ""mr. benjamin's sword abrahams"""	"alma.all_for_ui all ""Mr. Benjamin's sword Abrahams"""	TITLE_OR_KEYWORD	1	False	BLC2_166
+BLP2_0493	"alma.creator all ""robert d. abrahams"""	"alma.creator all ""Robert D. Abrahams"""	A1	1	False	BLC2_166
+BLP2_0494	"alma.title == ""hudson frontier"""	"alma.title == ""Hudson frontier"""	TITLE_OR_KEYWORD	1	False	BLC2_167
+BLP2_0495	"alma.all_for_ui all ""hudson frontier berry"""	"alma.all_for_ui all ""Hudson frontier Berry"""	TITLE_OR_KEYWORD	1	False	BLC2_167
+BLP2_0496	"alma.creator all ""erick berry"""	"alma.creator all ""Erick Berry"""	A1	1	False	BLC2_167
+BLP2_0497	"alma.title == ""even bones lie"""	"alma.title == ""Even Bones Lie"""	TITLE_OR_KEYWORD	1	False	BLC2_168
+BLP2_0498	"alma.all_for_ui all ""even bones lie ward"""	"alma.all_for_ui all ""Even Bones Lie Ward"""	TITLE_OR_KEYWORD	1	False	BLC2_168
+BLP2_0499	"alma.creator all ""sybil ward"""	"alma.creator all ""Sybil Ward"""	A1	1	False	BLC2_168
+BLP2_0500	"alma.title == ""southern belle"""	"alma.title == ""Southern belle"""	TITLE_OR_KEYWORD	1	False	BLC2_169
+BLP2_0501	"alma.all_for_ui all ""southern belle eppes"""	"alma.all_for_ui all ""Southern belle Eppes"""	TITLE_OR_KEYWORD	1	False	BLC2_169
+BLP2_0502	"alma.creator all ""allen eppes"""	"alma.creator all ""Allen Eppes"""	A1	1	False	BLC2_169
+BLP2_0503	"alma.title == ""little comrade"""	"alma.title == ""Little comrade"""	TITLE_OR_KEYWORD	1	False	BLC2_170
+BLP2_0504	"alma.all_for_ui all ""little comrade stevenson"""	"alma.all_for_ui all ""Little comrade Stevenson"""	TITLE_OR_KEYWORD	1	False	BLC2_170
+BLP2_0505	"alma.creator all ""burton egbert stevenson"""	"alma.creator all ""Burton Egbert Stevenson"""	A1	1	False	BLC2_170
+BLP2_0506	"alma.title == ""outward bound, or, young america afloat"""	"alma.title == ""Outward bound, or, Young America afloat"""	TITLE_OR_KEYWORD	1	False	BLC2_171
+BLP2_0507	"alma.all_for_ui all ""outward bound, or, young america afloat optic"""	"alma.all_for_ui all ""Outward bound, or, Young America afloat Optic"""	TITLE_OR_KEYWORD	1	False	BLC2_171
+BLP2_0508	"alma.title == ""historical romance of the american negro"""	"alma.title == ""Historical romance of the American Negro"""	TITLE_OR_KEYWORD	1	False	BLC2_172
+BLP2_0509	"alma.all_for_ui all ""historical romance of the american negro fowler"""	"alma.all_for_ui all ""Historical romance of the American Negro Fowler"""	TITLE_OR_KEYWORD	1	False	BLC2_172
+BLP2_0510	"alma.creator all ""charles henry fowler"""	"alma.creator all ""Charles Henry Fowler"""	A1	1	False	BLC2_172
+BLP2_0511	"alma.title == ""that man is here again"""	"alma.title == ""That man is here again"""	TITLE_OR_KEYWORD	1	False	BLC2_173
+BLP2_0512	"alma.all_for_ui all ""that man is here again kober"""	"alma.all_for_ui all ""That man is here again Kober"""	TITLE_OR_KEYWORD	1	False	BLC2_173
+BLP2_0513	"alma.creator all ""arthur kober"""	"alma.creator all ""Arthur Kober"""	A1	1	False	BLC2_173
+BLP2_0514	"alma.title == ""tales from the dramatists"""	"alma.title == ""Tales from the dramatists"""	TITLE_OR_KEYWORD	1	False	BLC2_174
+BLP2_0515	"alma.all_for_ui all ""tales from the dramatists morris"""	"alma.all_for_ui all ""Tales from the dramatists Morris"""	TITLE_OR_KEYWORD	1	False	BLC2_174
+BLP2_0516	"alma.creator all ""charles morris"""	"alma.creator all ""Charles Morris"""	A1	1	False	BLC2_174
+BLP2_0517	"alma.title == ""red riding hood"""	"alma.title == ""Red Riding Hood"""	TITLE_OR_KEYWORD	1	False	BLC2_175
+BLP2_0518	"alma.all_for_ui all ""red riding hood andré"""	"alma.all_for_ui all ""Red Riding Hood André"""	TITLE_OR_KEYWORD	1	False	BLC2_175
+BLP2_0519	"alma.creator all ""r. andré"""	"alma.creator all ""R. André"""	A1	1	False	BLC2_175
+BLP2_0520	"alma.title == ""albert the camel's son"""	"alma.title == ""Albert the camel's son"""	TITLE_OR_KEYWORD	1	False	BLC2_176
+BLP2_0521	"alma.all_for_ui all ""albert the camel's son heaton"""	"alma.all_for_ui all ""Albert the camel's son Heaton"""	TITLE_OR_KEYWORD	1	False	BLC2_176
+BLP2_0522	"alma.creator all ""hugh heaton"""	"alma.creator all ""Hugh Heaton"""	A1	1	False	BLC2_176
+BLP2_0523	"alma.title == ""so great a man"""	"alma.title == ""So great a man"""	TITLE_OR_KEYWORD	1	False	BLC2_177
+BLP2_0524	"alma.all_for_ui all ""so great a man pilgrim"""	"alma.all_for_ui all ""So great a man Pilgrim"""	TITLE_OR_KEYWORD	1	False	BLC2_177
+BLP2_0525	"alma.creator all ""david pilgrim"""	"alma.creator all ""David Pilgrim"""	A1	1	False	BLC2_177
+BLP2_0526	"alma.title == ""marah"""	"alma.title == ""Marah"""	TITLE_OR_KEYWORD	1	False	BLC2_178
+BLP2_0527	"alma.all_for_ui all ""marah christian"""	"alma.all_for_ui all ""Marah Christian"""	TITLE_OR_KEYWORD	1	False	BLC2_178
+BLP2_0528	"alma.creator all ""w. asbury christian"""	"alma.creator all ""W. Asbury Christian"""	A1	1	False	BLC2_178
+BLP2_0529	"alma.title == ""old greenbottom inn and other stories"""	"alma.title == ""Old Greenbottom Inn and other stories"""	TITLE_OR_KEYWORD	1	False	BLC2_179
+BLP2_0530	"alma.all_for_ui all ""old greenbottom inn and other stories mcclellan"""	"alma.all_for_ui all ""Old Greenbottom Inn and other stories McClellan"""	TITLE_OR_KEYWORD	1	False	BLC2_179
+BLP2_0531	"alma.creator all ""george marion mcclellan"""	"alma.creator all ""George Marion McClellan"""	A1	1	False	BLC2_179
+BLP2_0532	"alma.title == ""blennerhassett"""	"alma.title == ""Blennerhassett"""	TITLE_OR_KEYWORD	1	False	BLC2_180
+BLP2_0533	"alma.all_for_ui all ""blennerhassett pidgin"""	"alma.all_for_ui all ""Blennerhassett Pidgin"""	TITLE_OR_KEYWORD	1	False	BLC2_180
+BLP2_0534	"alma.creator all ""charles felton pidgin"""	"alma.creator all ""Charles Felton Pidgin"""	A1	1	False	BLC2_180
+BLP2_0535	"alma.title == ""john wesley, jr"""	"alma.title == ""John Wesley, Jr"""	TITLE_OR_KEYWORD	1	False	BLC2_181
+BLP2_0536	"alma.all_for_ui all ""john wesley, jr brummitt"""	"alma.all_for_ui all ""John Wesley, Jr Brummitt"""	TITLE_OR_KEYWORD	1	False	BLC2_181
+BLP2_0537	"alma.creator all ""dan b. brummitt"""	"alma.creator all ""Dan B. Brummitt"""	A1	1	False	BLC2_181
+BLP2_0538	"alma.title == ""the laud troy book"""	"alma.title == ""The laud Troy book"""	TITLE_OR_KEYWORD	1	False	BLC2_182
+BLP2_0539	"alma.all_for_ui all ""the laud troy book wülfing"""	"alma.all_for_ui all ""The laud Troy book Wülfing"""	TITLE_OR_KEYWORD	1	False	BLC2_182
+BLP2_0540	"alma.creator all ""j. ernst wülfing"""	"alma.creator all ""J. Ernst Wülfing"""	A1	1	False	BLC2_182
+BLP2_0541	"alma.title == ""patricia at the inn"""	"alma.title == ""Patricia at the inn"""	TITLE_OR_KEYWORD	1	False	BLC2_183
+BLP2_0542	"alma.all_for_ui all ""patricia at the inn snaith"""	"alma.all_for_ui all ""Patricia at the inn Snaith"""	TITLE_OR_KEYWORD	1	False	BLC2_183
+BLP2_0543	"alma.creator all ""j. c. snaith"""	"alma.creator all ""J. C. Snaith"""	A1	1	False	BLC2_183
+BLP2_0544	"alma.title == ""thieves' nights"""	"alma.title == ""Thieves' nights"""	TITLE_OR_KEYWORD	1	False	BLC2_184
+BLP2_0545	"alma.all_for_ui all ""thieves' nights keeler"""	"alma.all_for_ui all ""Thieves' nights Keeler"""	TITLE_OR_KEYWORD	1	False	BLC2_184
+BLP2_0546	"alma.creator all ""harry stephen keeler"""	"alma.creator all ""Harry Stephen Keeler"""	A1	1	False	BLC2_184
+BLP2_0547	"alma.title == ""the key of dreams"""	"alma.title == ""The Key of Dreams"""	TITLE_OR_KEYWORD	1	False	BLC2_185
+BLP2_0548	"alma.all_for_ui all ""the key of dreams moresby"""	"alma.all_for_ui all ""The Key of Dreams Moresby"""	TITLE_OR_KEYWORD	1	False	BLC2_185
+BLP2_0549	"alma.creator all ""elizabeth louisa \""lily\"" moresby"""	"alma.creator all ""Elizabeth Louisa \""Lily\"" Moresby"""	A1	1	False	BLC2_185
+BLP2_0550	"alma.title == ""the sons of noah"""	"alma.title == ""The sons of Noah"""	TITLE_OR_KEYWORD	1	False	BLC2_186
+BLP2_0551	"alma.all_for_ui all ""the sons of noah farson"""	"alma.all_for_ui all ""The sons of Noah Farson"""	TITLE_OR_KEYWORD	1	False	BLC2_186
+BLP2_0552	"alma.creator all ""negley farson"""	"alma.creator all ""Negley Farson"""	A1	1	False	BLC2_186
+BLP2_0553	"alma.title == ""woman's work in english fiction"""	"alma.title == ""Woman's work in English fiction"""	TITLE_OR_KEYWORD	1	False	BLC2_187
+BLP2_0554	"alma.all_for_ui all ""woman's work in english fiction whitmore"""	"alma.all_for_ui all ""Woman's work in English fiction Whitmore"""	TITLE_OR_KEYWORD	1	False	BLC2_187
+BLP2_0555	"alma.creator all ""clara helen whitmore"""	"alma.creator all ""Clara Helen Whitmore"""	A1	1	False	BLC2_187
+BLP2_0556	"alma.title == ""toby"""	"alma.title == ""Toby"""	TITLE_OR_KEYWORD	1	False	BLC2_188
+BLP2_0557	"alma.all_for_ui all ""toby harris"""	"alma.all_for_ui all ""Toby Harris"""	TITLE_OR_KEYWORD	1	False	BLC2_188
+BLP2_0558	"alma.creator all ""credo fitch harris"""	"alma.creator all ""Credo Fitch Harris"""	A1	1	False	BLC2_188
+BLP2_0559	"alma.title == ""the kitten pilgrims: or, great battles and grand victories"""	"alma.title == ""The kitten pilgrims: or, Great battles and grand victories"""	TITLE_OR_KEYWORD	1	False	BLC2_189
+BLP2_0560	"alma.all_for_ui all ""the kitten pilgrims: or, great battles and grand victories ballantyne"""	"alma.all_for_ui all ""The kitten pilgrims: or, Great battles and grand victories Ballantyne"""	TITLE_OR_KEYWORD	1	False	BLC2_189
+BLP2_0561	"alma.creator all ""robert michael ballantyne"""	"alma.creator all ""Robert Michael Ballantyne"""	A1	1	False	BLC2_189
+BLP2_0562	"alma.title == ""the trail of the maine pioneer"""	"alma.title == ""The trail of the Maine pioneer"""	TITLE_OR_KEYWORD	1	False	BLC2_190
+BLP2_0563	"alma.all_for_ui all ""the trail of the maine pioneer clubs."""	"alma.all_for_ui all ""The trail of the Maine pioneer Clubs."""	TITLE_OR_KEYWORD	1	False	BLC2_190
+BLP2_0564	"alma.creator all ""maine federation of women's clubs."""	"alma.creator all ""Maine Federation of Women's Clubs."""	A1	1	False	BLC2_190
+BLP2_0565	"alma.title == ""compliments of a fiend"""	"alma.title == ""Compliments Of A Fiend"""	TITLE_OR_KEYWORD	1	False	BLC2_191
+BLP2_0566	"alma.all_for_ui all ""compliments of a fiend brown"""	"alma.all_for_ui all ""Compliments Of A Fiend Brown"""	TITLE_OR_KEYWORD	1	False	BLC2_191
+BLP2_0567	"alma.creator all ""fredric brown"""	"alma.creator all ""Fredric Brown"""	A1	1	False	BLC2_191
+BLP2_0568	"alma.title == ""carroll o'donoghue"""	"alma.title == ""Carroll O'Donoghue"""	TITLE_OR_KEYWORD	1	False	BLC2_192
+BLP2_0569	"alma.all_for_ui all ""carroll o'donoghue faber"""	"alma.all_for_ui all ""Carroll O'Donoghue Faber"""	TITLE_OR_KEYWORD	1	False	BLC2_192
+BLP2_0570	"alma.creator all ""christine faber"""	"alma.creator all ""Christine Faber"""	A1	1	False	BLC2_192
+BLP2_0571	"alma.title == ""the sword of the lord"""	"alma.title == ""The sword of the Lord"""	TITLE_OR_KEYWORD	1	False	BLC2_193
+BLP2_0572	"alma.all_for_ui all ""the sword of the lord hocking"""	"alma.all_for_ui all ""The sword of the Lord Hocking"""	TITLE_OR_KEYWORD	1	False	BLC2_193
+BLP2_0573	"alma.creator all ""joseph hocking"""	"alma.creator all ""Joseph Hocking"""	A1	1	False	BLC2_193
+BLP2_0574	"alma.title == ""ships across the sea"""	"alma.title == ""Ships across the sea"""	TITLE_OR_KEYWORD	1	False	BLC2_194
+BLP2_0575	"alma.all_for_ui all ""ships across the sea paine"""	"alma.all_for_ui all ""Ships across the sea Paine"""	TITLE_OR_KEYWORD	1	False	BLC2_194
+BLP2_0576	"alma.creator all ""ralph delahaye paine"""	"alma.creator all ""Ralph Delahaye Paine"""	A1	1	False	BLC2_194
+BLP2_0577	"alma.title == ""the clutch of circumstance"""	"alma.title == ""The clutch of circumstance"""	TITLE_OR_KEYWORD	1	False	BLC2_195
+BLP2_0578	"alma.all_for_ui all ""the clutch of circumstance cooke"""	"alma.all_for_ui all ""The clutch of circumstance Cooke"""	TITLE_OR_KEYWORD	1	False	BLC2_195
+BLP2_0579	"alma.creator all ""marjorie benton cooke"""	"alma.creator all ""Marjorie Benton Cooke"""	A1	1	False	BLC2_195
+BLP2_0580	"alma.title == ""rudra"""	"alma.title == ""Rudra"""	TITLE_OR_KEYWORD	1	False	BLC2_196
+BLP2_0581	"alma.all_for_ui all ""rudra westermayr"""	"alma.all_for_ui all ""Rudra Westermayr"""	TITLE_OR_KEYWORD	1	False	BLC2_196
+BLP2_0582	"alma.creator all ""arthur j. westermayr"""	"alma.creator all ""Arthur J. Westermayr"""	A1	1	False	BLC2_196
+BLP2_0583	"alma.title == ""melindy's medal"""	"alma.title == ""Melindy's medal"""	TITLE_OR_KEYWORD	1	False	BLC2_197
+BLP2_0584	"alma.all_for_ui all ""melindy's medal faulkner"""	"alma.all_for_ui all ""Melindy's medal Faulkner"""	TITLE_OR_KEYWORD	1	False	BLC2_197
+BLP2_0585	"alma.creator all ""georgene faulkner"""	"alma.creator all ""Georgene Faulkner"""	A1	1	False	BLC2_197
+BLP2_0586	"alma.title == ""the shipbuilders"""	"alma.title == ""The shipbuilders"""	TITLE_OR_KEYWORD	1	False	BLC2_198
+BLP2_0587	"alma.all_for_ui all ""the shipbuilders george"""	"alma.all_for_ui all ""The shipbuilders George"""	TITLE_OR_KEYWORD	1	False	BLC2_198
+BLP2_0588	"alma.creator all ""blake, george"""	"alma.creator all ""Blake, George"""	A1	1	False	BLC2_198
+BLP2_0589	"alma.title == ""an arizona ranger"""	"alma.title == ""An Arizona ranger"""	TITLE_OR_KEYWORD	1	False	BLC2_199
+BLP2_0590	"alma.all_for_ui all ""an arizona ranger sulles"""	"alma.all_for_ui all ""An Arizona ranger Sulles"""	TITLE_OR_KEYWORD	1	False	BLC2_199
+BLP2_0591	"alma.creator all ""albert des sulles"""	"alma.creator all ""Albert Des Sulles"""	A1	1	False	BLC2_199
+BLP2_0592	"alma.title == ""vivian of mackinac"""	"alma.title == ""Vivian of Mackinac"""	TITLE_OR_KEYWORD	1	False	BLC2_200
+BLP2_0593	"alma.all_for_ui all ""vivian of mackinac c."""	"alma.all_for_ui all ""Vivian of Mackinac C."""	TITLE_OR_KEYWORD	1	False	BLC2_200
+BLP2_0594	"alma.creator all ""levere, william c."""	"alma.creator all ""Levere, William C."""	A1	1	False	BLC2_200
+BLP2_0595	"alma.title == ""the loot of cities"""	"alma.title == ""The Loot of Cities"""	TITLE_OR_KEYWORD	1	False	BLC2_201
+BLP2_0596	"alma.all_for_ui all ""the loot of cities bennett"""	"alma.all_for_ui all ""The Loot of Cities Bennett"""	TITLE_OR_KEYWORD	1	False	BLC2_201
+BLP2_0597	"alma.title == ""dickens and his illustrators"""	"alma.title == ""Dickens and his illustrators"""	TITLE_OR_KEYWORD	1	False	BLC2_202
+BLP2_0598	"alma.all_for_ui all ""dickens and his illustrators kitton"""	"alma.all_for_ui all ""Dickens and his illustrators Kitton"""	TITLE_OR_KEYWORD	1	False	BLC2_202
+BLP2_0599	"alma.creator all ""frederic george kitton"""	"alma.creator all ""Frederic George Kitton"""	A1	1	False	BLC2_202
+BLP2_0600	"alma.title == ""david dunne"""	"alma.title == ""David Dunne"""	TITLE_OR_KEYWORD	1	False	BLC2_203
+BLP2_0601	"alma.all_for_ui all ""david dunne maniates"""	"alma.all_for_ui all ""David Dunne Maniates"""	TITLE_OR_KEYWORD	1	False	BLC2_203
+BLP2_0602	"alma.creator all ""belle kanaris maniates"""	"alma.creator all ""Belle Kanaris Maniates"""	A1	1	False	BLC2_203
+BLP2_0603	"alma.title == ""human odds and ends"""	"alma.title == ""Human odds and ends"""	TITLE_OR_KEYWORD	1	False	BLC2_204
+BLP2_0604	"alma.all_for_ui all ""human odds and ends gissing"""	"alma.all_for_ui all ""Human odds and ends Gissing"""	TITLE_OR_KEYWORD	1	False	BLC2_204
+BLP2_0605	"alma.title == ""great sea stories"""	"alma.title == ""Great sea stories"""	TITLE_OR_KEYWORD	1	False	BLC2_205
+BLP2_0606	"alma.all_for_ui all ""great sea stories french"""	"alma.all_for_ui all ""Great sea stories French"""	TITLE_OR_KEYWORD	1	False	BLC2_205
+BLP2_0607	"alma.creator all ""joseph lewis french"""	"alma.creator all ""Joseph Lewis French"""	A1	1	False	BLC2_205
+BLP2_0608	"alma.title == ""bare alberte"""	"alma.title == ""Bare Alberte"""	TITLE_OR_KEYWORD	1	False	BLC2_206
+BLP2_0609	"alma.all_for_ui all ""bare alberte sandel"""	"alma.all_for_ui all ""Bare Alberte Sandel"""	TITLE_OR_KEYWORD	1	False	BLC2_206
+BLP2_0610	"alma.creator all ""cora sandel"""	"alma.creator all ""Cora Sandel"""	A1	1	False	BLC2_206
+BLP2_0611	"alma.title == ""the lottery, or the adventures of james harris"""	"alma.title == ""The Lottery, or The Adventures of James Harris"""	TITLE_OR_KEYWORD	1	False	BLC2_207
+BLP2_0612	"alma.all_for_ui all ""the lottery, or the adventures of james harris jackson"""	"alma.all_for_ui all ""The Lottery, or The Adventures of James Harris Jackson"""	TITLE_OR_KEYWORD	1	False	BLC2_207
+BLP2_0613	"alma.creator all ""shirley jackson"""	"alma.creator all ""Shirley Jackson"""	A1	1	False	BLC2_207
+BLP2_0614	"alma.title == ""the country beyond"""	"alma.title == ""The Country Beyond"""	TITLE_OR_KEYWORD	1	False	BLC2_208
+BLP2_0615	"alma.all_for_ui all ""the country beyond curwood"""	"alma.all_for_ui all ""The Country Beyond Curwood"""	TITLE_OR_KEYWORD	1	False	BLC2_208
+BLP2_0616	"alma.creator all ""james oliver curwood"""	"alma.creator all ""James Oliver Curwood"""	A1	1	False	BLC2_208
+BLP2_0617	"alma.title == ""a duck to water"""	"alma.title == ""A duck to water"""	TITLE_OR_KEYWORD	1	False	BLC2_209
+BLP2_0618	"alma.all_for_ui all ""a duck to water stern"""	"alma.all_for_ui all ""A duck to water Stern"""	TITLE_OR_KEYWORD	1	False	BLC2_209
+BLP2_0619	"alma.creator all ""g. b. stern"""	"alma.creator all ""G. B. Stern"""	A1	1	False	BLC2_209
+BLP2_0620	"alma.title == ""cloud cuckoo land"""	"alma.title == ""Cloud cuckoo land"""	TITLE_OR_KEYWORD	1	False	BLC2_210
+BLP2_0621	"alma.all_for_ui all ""cloud cuckoo land mitchison"""	"alma.all_for_ui all ""Cloud cuckoo land Mitchison"""	TITLE_OR_KEYWORD	1	False	BLC2_210
+BLP2_0622	"alma.creator all ""naomi mitchison"""	"alma.creator all ""Naomi Mitchison"""	A1	1	False	BLC2_210
+BLP2_0623	"alma.title == ""christina alberta's father"""	"alma.title == ""Christina Alberta's father"""	TITLE_OR_KEYWORD	1	False	BLC2_211
+BLP2_0624	"alma.all_for_ui all ""christina alberta's father wells"""	"alma.all_for_ui all ""Christina Alberta's father Wells"""	TITLE_OR_KEYWORD	1	False	BLC2_211
+BLP2_0625	"alma.title == ""the clue in the old album"""	"alma.title == ""The clue in the old album"""	TITLE_OR_KEYWORD	1	False	BLC2_212
+BLP2_0626	"alma.all_for_ui all ""the clue in the old album keene"""	"alma.all_for_ui all ""The clue in the old album Keene"""	TITLE_OR_KEYWORD	1	False	BLC2_212
+BLP2_0627	"alma.creator all ""carolyn keene"""	"alma.creator all ""Carolyn Keene"""	A1	1	False	BLC2_212
+BLP2_0628	"alma.title == ""a diary of love"""	"alma.title == ""A diary of love"""	TITLE_OR_KEYWORD	1	False	BLC2_213
+BLP2_0629	"alma.all_for_ui all ""a diary of love hutchins"""	"alma.all_for_ui all ""A diary of love Hutchins"""	TITLE_OR_KEYWORD	1	False	BLC2_213
+BLP2_0630	"alma.creator all ""maude hutchins"""	"alma.creator all ""Maude Hutchins"""	A1	1	False	BLC2_213
+BLP2_0631	"alma.title == ""the sign of the crooked arrow"""	"alma.title == ""The Sign of the Crooked Arrow"""	TITLE_OR_KEYWORD	1	False	BLC2_214
+BLP2_0632	"alma.all_for_ui all ""the sign of the crooked arrow dixon"""	"alma.all_for_ui all ""The Sign of the Crooked Arrow Dixon"""	TITLE_OR_KEYWORD	1	False	BLC2_214
+BLP2_0633	"alma.creator all ""franklin w. dixon"""	"alma.creator all ""Franklin W. Dixon"""	A1	1	False	BLC2_214
+BLP2_0634	"alma.title == ""tales from the x-bar horse camp"""	"alma.title == ""Tales from the X-bar horse camp"""	TITLE_OR_KEYWORD	1	False	BLC2_215
+BLP2_0635	"alma.all_for_ui all ""tales from the x-bar horse camp barnes"""	"alma.all_for_ui all ""Tales from the X-bar horse camp Barnes"""	TITLE_OR_KEYWORD	1	False	BLC2_215
+BLP2_0636	"alma.creator all ""william croft barnes"""	"alma.creator all ""William Croft Barnes"""	A1	1	False	BLC2_215
+BLP2_0637	"alma.title == ""wide is the gate"""	"alma.title == ""Wide is the gate"""	TITLE_OR_KEYWORD	1	False	BLC2_216
+BLP2_0638	"alma.all_for_ui all ""wide is the gate sinclair"""	"alma.all_for_ui all ""Wide is the gate Sinclair"""	TITLE_OR_KEYWORD	1	False	BLC2_216
+BLP2_0639	"alma.creator all ""upton sinclair"""	"alma.creator all ""Upton Sinclair"""	A1	1	False	BLC2_216
+BLP2_0640	"alma.title == ""the eternal moment, and other stories"""	"alma.title == ""The eternal moment, and other stories"""	TITLE_OR_KEYWORD	1	False	BLC2_217
+BLP2_0641	"alma.all_for_ui all ""the eternal moment, and other stories forster"""	"alma.all_for_ui all ""The eternal moment, and other stories Forster"""	TITLE_OR_KEYWORD	1	False	BLC2_217
+BLP2_0642	"alma.creator all ""e. m. forster"""	"alma.creator all ""E. M. Forster"""	A1	3	False	BLC2_217;BLC2_266;BLC2_270
+BLP2_0643	"alma.title == ""c"""	"alma.title == ""C"""	TITLE_OR_KEYWORD	1	False	BLC2_218
+BLP2_0644	"alma.all_for_ui all ""c baring"""	"alma.all_for_ui all ""C Baring"""	TITLE_OR_KEYWORD	1	False	BLC2_218
+BLP2_0645	"alma.creator all ""maurice baring"""	"alma.creator all ""Maurice Baring"""	A1	1	False	BLC2_218
+BLP2_0646	"alma.title == ""janice meredith"""	"alma.title == ""Janice Meredith"""	TITLE_OR_KEYWORD	1	False	BLC2_219
+BLP2_0647	"alma.all_for_ui all ""janice meredith ford"""	"alma.all_for_ui all ""Janice Meredith Ford"""	TITLE_OR_KEYWORD	1	False	BLC2_219
+BLP2_0648	"alma.creator all ""paul leicester ford"""	"alma.creator all ""Paul Leicester Ford"""	A1	1	False	BLC2_219
+BLP2_0649	"alma.title == ""the people of the ruins"""	"alma.title == ""The people of the ruins"""	TITLE_OR_KEYWORD	1	False	BLC2_220
+BLP2_0650	"alma.all_for_ui all ""the people of the ruins shanks"""	"alma.all_for_ui all ""The people of the ruins Shanks"""	TITLE_OR_KEYWORD	1	False	BLC2_220
+BLP2_0651	"alma.creator all ""edward shanks"""	"alma.creator all ""Edward Shanks"""	A1	1	False	BLC2_220
+BLP2_0652	"alma.title == ""crescent dawn"""	"alma.title == ""Crescent Dawn"""	TITLE_OR_KEYWORD	1	False	BLC2_221
+BLP2_0653	"alma.all_for_ui all ""crescent dawn cussler"""	"alma.all_for_ui all ""Crescent Dawn Cussler"""	TITLE_OR_KEYWORD	1	False	BLC2_221
+BLP2_0654	"alma.creator all ""clive cussler"""	"alma.creator all ""Clive Cussler"""	A1	1	False	BLC2_221
+BLP2_0655	"alma.title == ""the farm"""	"alma.title == ""The farm"""	TITLE_OR_KEYWORD	1	False	BLC2_222
+BLP2_0656	"alma.all_for_ui all ""the farm bromfield"""	"alma.all_for_ui all ""The farm Bromfield"""	TITLE_OR_KEYWORD	1	False	BLC2_222
+BLP2_0657	"alma.creator all ""louis bromfield"""	"alma.creator all ""Louis Bromfield"""	A1	1	False	BLC2_222
+BLP2_0658	"alma.title == ""hero tales"""	"alma.title == ""Hero Tales"""	TITLE_OR_KEYWORD	1	False	BLC2_223
+BLP2_0659	"alma.all_for_ui all ""hero tales baldwin"""	"alma.all_for_ui all ""Hero Tales Baldwin"""	TITLE_OR_KEYWORD	1	False	BLC2_223
+BLP2_0660	"alma.creator all ""james baldwin"""	"alma.creator all ""James Baldwin"""	A1	1	False	BLC2_223
+BLP2_0661	"alma.title == ""the billiard-room mystery"""	"alma.title == ""The Billiard-Room Mystery"""	TITLE_OR_KEYWORD	1	False	BLC2_224
+BLP2_0662	"alma.all_for_ui all ""the billiard-room mystery flynn"""	"alma.all_for_ui all ""The Billiard-Room Mystery Flynn"""	TITLE_OR_KEYWORD	1	False	BLC2_224
+BLP2_0663	"alma.creator all ""brian flynn"""	"alma.creator all ""Brian Flynn"""	A1	1	False	BLC2_224
+BLP2_0664	"alma.title == ""the end of andrew harrison"""	"alma.title == ""The End of Andrew Harrison"""	TITLE_OR_KEYWORD	1	False	BLC2_225
+BLP2_0665	"alma.all_for_ui all ""the end of andrew harrison crofts"""	"alma.all_for_ui all ""The End of Andrew Harrison Crofts"""	TITLE_OR_KEYWORD	1	False	BLC2_225
+BLP2_0666	"alma.creator all ""freeman wills crofts"""	"alma.creator all ""Freeman Wills Crofts"""	A1	1	False	BLC2_225
+BLP2_0667	"alma.title == ""stuart little"""	"alma.title == ""Stuart Little"""	TITLE_OR_KEYWORD	1	False	BLC2_226
+BLP2_0668	"alma.all_for_ui all ""stuart little white"""	"alma.all_for_ui all ""Stuart Little White"""	TITLE_OR_KEYWORD	1	False	BLC2_226
+BLP2_0669	"alma.creator all ""e. b. white"""	"alma.creator all ""E. B. White"""	A1	1	False	BLC2_226
+BLP2_0670	"alma.title == ""the gold bag"""	"alma.title == ""The Gold Bag"""	TITLE_OR_KEYWORD	1	False	BLC2_227
+BLP2_0671	"alma.all_for_ui all ""the gold bag wells"""	"alma.all_for_ui all ""The Gold Bag Wells"""	TITLE_OR_KEYWORD	1	False	BLC2_227
+BLP2_0672	"alma.creator all ""carolyn wells"""	"alma.creator all ""Carolyn Wells"""	A1	1	False	BLC2_227
+BLP2_0673	"alma.title == ""no country for old men"""	"alma.title == ""No country for old men"""	TITLE_OR_KEYWORD	1	False	BLC2_228
+BLP2_0674	"alma.all_for_ui all ""no country for old men mccarthy"""	"alma.all_for_ui all ""No country for old men McCarthy"""	TITLE_OR_KEYWORD	1	False	BLC2_228
+BLP2_0675	"alma.creator all ""cormac mccarthy"""	"alma.creator all ""Cormac McCarthy"""	A1	1	False	BLC2_228
+BLP2_0676	"alma.title == ""thumbelina"""	"alma.title == ""Thumbelina"""	TITLE_OR_KEYWORD	1	False	BLC2_229
+BLP2_0677	"alma.all_for_ui all ""thumbelina andersen"""	"alma.all_for_ui all ""Thumbelina Andersen"""	TITLE_OR_KEYWORD	1	False	BLC2_229
+BLP2_0678	"alma.creator all ""hans christian andersen"""	"alma.creator all ""Hans Christian Andersen"""	A1	1	False	BLC2_229
+BLP2_0679	"alma.title == ""the red house mystery"""	"alma.title == ""The Red House Mystery"""	TITLE_OR_KEYWORD	1	False	BLC2_230
+BLP2_0680	"alma.all_for_ui all ""the red house mystery milne"""	"alma.all_for_ui all ""The Red House Mystery Milne"""	TITLE_OR_KEYWORD	1	False	BLC2_230
+BLP2_0681	"alma.creator all ""a. a. milne"""	"alma.creator all ""A. A. Milne"""	A1	1	False	BLC2_230
+BLP2_0682	"alma.title == ""life with father"""	"alma.title == ""Life with Father"""	TITLE_OR_KEYWORD	1	False	BLC2_231
+BLP2_0683	"alma.all_for_ui all ""life with father henry"""	"alma.all_for_ui all ""Life with Father Henry"""	TITLE_OR_KEYWORD	1	False	BLC2_231
+BLP2_0684	"alma.creator all ""o. henry"""	"alma.creator all ""O. Henry"""	A1	1	False	BLC2_231
+BLP2_0685	"alma.title == ""wood magic"""	"alma.title == ""Wood Magic"""	TITLE_OR_KEYWORD	1	False	BLC2_232
+BLP2_0686	"alma.all_for_ui all ""wood magic jefferies"""	"alma.all_for_ui all ""Wood Magic Jefferies"""	TITLE_OR_KEYWORD	1	False	BLC2_232
+BLP2_0687	"alma.creator all ""richard jefferies"""	"alma.creator all ""Richard Jefferies"""	A1	1	False	BLC2_232
+BLP2_0688	"alma.title == ""something fresh"""	"alma.title == ""Something Fresh"""	TITLE_OR_KEYWORD	1	False	BLC2_233
+BLP2_0689	"alma.all_for_ui all ""something fresh wodehouse"""	"alma.all_for_ui all ""Something Fresh Wodehouse"""	TITLE_OR_KEYWORD	1	False	BLC2_233
+BLP2_0690	"alma.creator all ""p. g. wodehouse"""	"alma.creator all ""P. G. Wodehouse"""	A1	1	False	BLC2_233
+BLP2_0691	"alma.title == ""bertram cope's year"""	"alma.title == ""Bertram Cope's Year"""	TITLE_OR_KEYWORD	1	False	BLC2_234
+BLP2_0692	"alma.all_for_ui all ""bertram cope's year fuller"""	"alma.all_for_ui all ""Bertram Cope's Year Fuller"""	TITLE_OR_KEYWORD	1	False	BLC2_234
+BLP2_0693	"alma.creator all ""henry blake fuller"""	"alma.creator all ""Henry Blake Fuller"""	A1	1	False	BLC2_234
+BLP2_0694	"alma.title == ""the snow goose"""	"alma.title == ""The snow goose"""	TITLE_OR_KEYWORD	1	False	BLC2_235
+BLP2_0695	"alma.all_for_ui all ""the snow goose gallico"""	"alma.all_for_ui all ""The snow goose Gallico"""	TITLE_OR_KEYWORD	1	False	BLC2_235
+BLP2_0696	"alma.creator all ""paul gallico"""	"alma.creator all ""Paul Gallico"""	A1	1	False	BLC2_235
+BLP2_0697	"alma.title == ""when the sleeper awakes"""	"alma.title == ""When the Sleeper Awakes"""	TITLE_OR_KEYWORD	1	False	BLC2_236
+BLP2_0698	"alma.all_for_ui all ""when the sleeper awakes wells"""	"alma.all_for_ui all ""When the Sleeper Awakes Wells"""	TITLE_OR_KEYWORD	1	False	BLC2_236
+BLP2_0699	"alma.title == ""on the makaloa mat"""	"alma.title == ""On the Makaloa Mat"""	TITLE_OR_KEYWORD	1	False	BLC2_237
+BLP2_0700	"alma.all_for_ui all ""on the makaloa mat london"""	"alma.all_for_ui all ""On the Makaloa Mat London"""	TITLE_OR_KEYWORD	1	False	BLC2_237
+BLP2_0701	"alma.creator all ""jack london"""	"alma.creator all ""Jack London"""	A1	1	False	BLC2_237
+BLP2_0702	"alma.title == ""the king of the schnorrers"""	"alma.title == ""The King of the Schnorrers"""	TITLE_OR_KEYWORD	1	False	BLC2_238
+BLP2_0703	"alma.all_for_ui all ""the king of the schnorrers zangwill"""	"alma.all_for_ui all ""The King of the Schnorrers Zangwill"""	TITLE_OR_KEYWORD	1	False	BLC2_238
+BLP2_0704	"alma.creator all ""israel zangwill"""	"alma.creator all ""Israel Zangwill"""	A1	1	False	BLC2_238
+BLP2_0705	"alma.title == ""the matador of the five towns and other stories"""	"alma.title == ""The Matador of the Five Towns and Other Stories"""	TITLE_OR_KEYWORD	1	False	BLC2_239
+BLP2_0706	"alma.all_for_ui all ""the matador of the five towns and other stories bennett"""	"alma.all_for_ui all ""The Matador of the Five Towns and Other Stories Bennett"""	TITLE_OR_KEYWORD	1	False	BLC2_239
+BLP2_0707	"alma.title == ""roughing it in two volumes. 2/2"""	"alma.title == ""Roughing It in two volumes. 2/2"""	TITLE_OR_KEYWORD	1	False	BLC2_240
+BLP2_0708	"alma.all_for_ui all ""roughing it in two volumes. 2/2 twain"""	"alma.all_for_ui all ""Roughing It in two volumes. 2/2 Twain"""	TITLE_OR_KEYWORD	1	False	BLC2_240
+BLP2_0709	"alma.creator all ""mark twain"""	"alma.creator all ""Mark Twain"""	A1	1	False	BLC2_240
+BLP2_0710	"alma.title == ""across the river and into the trees"""	"alma.title == ""Across the river and into the trees"""	TITLE_OR_KEYWORD	1	False	BLC2_241
+BLP2_0711	"alma.all_for_ui all ""across the river and into the trees hemingway"""	"alma.all_for_ui all ""Across the river and into the trees Hemingway"""	TITLE_OR_KEYWORD	1	False	BLC2_241
+BLP2_0712	"alma.creator all ""ernest hemingway"""	"alma.creator all ""Ernest Hemingway"""	A1	1	False	BLC2_241
+BLP2_0713	"alma.title == ""the poisoned chocolates case"""	"alma.title == ""The Poisoned Chocolates Case"""	TITLE_OR_KEYWORD	1	False	BLC2_242
+BLP2_0714	"alma.all_for_ui all ""the poisoned chocolates case berkeley"""	"alma.all_for_ui all ""The Poisoned Chocolates Case Berkeley"""	TITLE_OR_KEYWORD	1	False	BLC2_242
+BLP2_0715	"alma.creator all ""anthony berkeley"""	"alma.creator all ""Anthony Berkeley"""	A1	1	False	BLC2_242
+BLP2_0716	"alma.title == ""salted with fire"""	"alma.title == ""Salted with fire"""	TITLE_OR_KEYWORD	1	False	BLC2_243
+BLP2_0717	"alma.all_for_ui all ""salted with fire macdonald"""	"alma.all_for_ui all ""Salted with fire MacDonald"""	TITLE_OR_KEYWORD	1	False	BLC2_243
+BLP2_0718	"alma.creator all ""george macdonald"""	"alma.creator all ""George MacDonald"""	A1	1	False	BLC2_243
+BLP2_0719	"alma.title == ""мы"""	"alma.title == ""Мы"""	TITLE_OR_KEYWORD	1	False	BLC2_244
+BLP2_0720	"alma.all_for_ui all ""мы замятин"""	"alma.all_for_ui all ""Мы Замятин"""	TITLE_OR_KEYWORD	1	False	BLC2_244
+BLP2_0721	"alma.creator all ""евгений иванович замятин"""	"alma.creator all ""Евгений Иванович Замятин"""	A1	1	False	BLC2_244
+BLP2_0722	"alma.title == ""blackfoot lodge tales"""	"alma.title == ""Blackfoot Lodge Tales"""	TITLE_OR_KEYWORD	1	False	BLC2_245
+BLP2_0723	"alma.all_for_ui all ""blackfoot lodge tales grinnell"""	"alma.all_for_ui all ""Blackfoot Lodge Tales Grinnell"""	TITLE_OR_KEYWORD	1	False	BLC2_245
+BLP2_0724	"alma.creator all ""george bird grinnell"""	"alma.creator all ""George Bird Grinnell"""	A1	1	False	BLC2_245
+BLP2_0725	"alma.title == ""les fourberies de scapin"""	"alma.title == ""Les Fourberies de Scapin"""	TITLE_OR_KEYWORD	1	False	BLC2_246
+BLP2_0726	"alma.all_for_ui all ""les fourberies de scapin molière"""	"alma.all_for_ui all ""Les Fourberies de Scapin Molière"""	TITLE_OR_KEYWORD	1	False	BLC2_246
+BLP2_0727	"alma.creator all ""molière"""	"alma.creator all ""Molière"""	A1	1	False	BLC2_246
+BLP2_0728	"alma.title == ""go down, moses"""	"alma.title == ""Go Down, Moses"""	TITLE_OR_KEYWORD	1	False	BLC2_247
+BLP2_0729	"alma.all_for_ui all ""go down, moses faulkner"""	"alma.all_for_ui all ""Go Down, Moses Faulkner"""	TITLE_OR_KEYWORD	1	False	BLC2_247
+BLP2_0730	"alma.creator all ""william faulkner"""	"alma.creator all ""William Faulkner"""	A1	1	False	BLC2_247
+BLP2_0731	"alma.title == ""the elephant god"""	"alma.title == ""The Elephant God"""	TITLE_OR_KEYWORD	1	False	BLC2_248
+BLP2_0732	"alma.all_for_ui all ""the elephant god casserly"""	"alma.all_for_ui all ""The Elephant God Casserly"""	TITLE_OR_KEYWORD	1	False	BLC2_248
+BLP2_0733	"alma.creator all ""gordon casserly"""	"alma.creator all ""Gordon Casserly"""	A1	1	False	BLC2_248
+BLP2_0734	"alma.title == ""the yellow god"""	"alma.title == ""The Yellow God"""	TITLE_OR_KEYWORD	1	False	BLC2_249
+BLP2_0735	"alma.all_for_ui all ""the yellow god haggard"""	"alma.all_for_ui all ""The Yellow God Haggard"""	TITLE_OR_KEYWORD	1	False	BLC2_249
+BLP2_0736	"alma.title == ""the holy terror"""	"alma.title == ""The Holy Terror"""	TITLE_OR_KEYWORD	1	False	BLC2_250
+BLP2_0737	"alma.all_for_ui all ""the holy terror charteris"""	"alma.all_for_ui all ""The Holy Terror Charteris"""	TITLE_OR_KEYWORD	1	False	BLC2_250
+BLP2_0738	"alma.creator all ""leslie charteris"""	"alma.creator all ""Leslie Charteris"""	A1	1	False	BLC2_250
+BLP2_0739	"alma.title == ""sister carrie"""	"alma.title == ""Sister Carrie"""	TITLE_OR_KEYWORD	1	False	BLC2_251
+BLP2_0740	"alma.all_for_ui all ""sister carrie dreiser"""	"alma.all_for_ui all ""Sister Carrie Dreiser"""	TITLE_OR_KEYWORD	1	False	BLC2_251
+BLP2_0741	"alma.creator all ""theodore dreiser"""	"alma.creator all ""Theodore Dreiser"""	A1	1	False	BLC2_251
+BLP2_0742	"alma.title == ""the orange fairy book"""	"alma.title == ""The Orange Fairy Book"""	TITLE_OR_KEYWORD	1	False	BLC2_252
+BLP2_0743	"alma.all_for_ui all ""the orange fairy book lang"""	"alma.all_for_ui all ""The Orange Fairy Book Lang"""	TITLE_OR_KEYWORD	1	False	BLC2_252
+BLP2_0744	"alma.creator all ""andrew lang"""	"alma.creator all ""Andrew Lang"""	A1	1	False	BLC2_252
+BLP2_0745	"alma.title == ""the graysons"""	"alma.title == ""The Graysons"""	TITLE_OR_KEYWORD	1	False	BLC2_253
+BLP2_0746	"alma.all_for_ui all ""the graysons eggleston"""	"alma.all_for_ui all ""The Graysons Eggleston"""	TITLE_OR_KEYWORD	1	False	BLC2_253
+BLP2_0747	"alma.creator all ""edward eggleston"""	"alma.creator all ""Edward Eggleston"""	A1	1	False	BLC2_253
+BLP2_0748	"alma.title == ""burmese days"""	"alma.title == ""Burmese Days"""	TITLE_OR_KEYWORD	1	False	BLC2_254
+BLP2_0749	"alma.all_for_ui all ""burmese days orwell"""	"alma.all_for_ui all ""Burmese Days Orwell"""	TITLE_OR_KEYWORD	1	False	BLC2_254
+BLP2_0750	"alma.creator all ""george orwell"""	"alma.creator all ""George Orwell"""	A1	1	False	BLC2_254
+BLP2_0751	"alma.title == ""the four just men"""	"alma.title == ""The Four Just Men"""	TITLE_OR_KEYWORD	1	False	BLC2_255
+BLP2_0752	"alma.all_for_ui all ""the four just men wallace"""	"alma.all_for_ui all ""The Four Just Men Wallace"""	TITLE_OR_KEYWORD	1	False	BLC2_255
+BLP2_0753	"alma.creator all ""edgar wallace"""	"alma.creator all ""Edgar Wallace"""	A1	1	False	BLC2_255
+BLP2_0754	"alma.title == ""four chapters"""	"alma.title == ""Four chapters"""	TITLE_OR_KEYWORD	1	False	BLC2_256
+BLP2_0755	"alma.all_for_ui all ""four chapters tagore"""	"alma.all_for_ui all ""Four chapters Tagore"""	TITLE_OR_KEYWORD	1	False	BLC2_256
+BLP2_0756	"alma.creator all ""rabindranath tagore"""	"alma.creator all ""Rabindranath Tagore"""	A1	1	False	BLC2_256
+BLP2_0757	"alma.title == ""she"""	"alma.title == ""She"""	TITLE_OR_KEYWORD	1	False	BLC2_257
+BLP2_0758	"alma.all_for_ui all ""she haggard"""	"alma.all_for_ui all ""She Haggard"""	TITLE_OR_KEYWORD	1	False	BLC2_257
+BLP2_0759	"alma.title == ""heart of darkness"""	"alma.title == ""Heart of Darkness"""	TITLE_OR_KEYWORD	4	False	BLC2_258;BLC2_260;BLC2_261;BLC2_264
+BLP2_0760	"alma.all_for_ui all ""heart of darkness conrad"""	"alma.all_for_ui all ""Heart of Darkness Conrad"""	TITLE_OR_KEYWORD	4	False	BLC2_258;BLC2_260;BLC2_261;BLC2_264
+BLP2_0761	"alma.title == ""the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858)"""	"alma.title == ""The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858)"""	TITLE_OR_KEYWORD	1	False	BLC2_259
+BLP2_0762	"alma.all_for_ui all ""the picture of dorian gray, the importance of being earnest, the ballad of reading gaol and other works (everyman's library no.858) wilde"""	"alma.all_for_ui all ""The Picture of Dorian Gray, The Importance of Being Earnest, The Ballad of Reading Gaol and Other Works (Everyman's Library No.858) Wilde"""	TITLE_OR_KEYWORD	1	False	BLC2_259
+BLP2_0763	"alma.creator all ""oscar wilde"""	"alma.creator all ""Oscar Wilde"""	A1	2	False	BLC2_259;BLC2_265
+BLP2_0764	"alma.title == ""mrs. dalloway"""	"alma.title == ""Mrs. Dalloway"""	TITLE_OR_KEYWORD	1	False	BLC2_262
+BLP2_0765	"alma.all_for_ui all ""mrs. dalloway woolf"""	"alma.all_for_ui all ""Mrs. Dalloway Woolf"""	TITLE_OR_KEYWORD	1	False	BLC2_262
+BLP2_0766	"alma.creator all ""virginia woolf"""	"alma.creator all ""Virginia Woolf"""	A1	1	False	BLC2_262
+BLP2_0767	"alma.title == ""the shen's pigtail"""	"alma.title == ""The shen's pigtail"""	TITLE_OR_KEYWORD	1	False	BLC2_263
+BLP2_0768	"alma.all_for_ui all ""the shen's pigtail croskey"""	"alma.all_for_ui all ""The shen's pigtail Croskey"""	TITLE_OR_KEYWORD	1	False	BLC2_263
+BLP2_0769	"alma.creator all ""julian croskey"""	"alma.creator all ""Julian Croskey"""	A1	1	False	BLC2_263
+BLP2_0770	"alma.title == ""the picture of dorian gray"""	"alma.title == ""The Picture of Dorian Gray"""	TITLE_OR_KEYWORD	1	False	BLC2_265
+BLP2_0771	"alma.all_for_ui all ""the picture of dorian gray wilde"""	"alma.all_for_ui all ""The Picture of Dorian Gray Wilde"""	TITLE_OR_KEYWORD	1	False	BLC2_265
+BLP2_0772	"alma.title == ""a room with a view / howards end / maurice"""	"alma.title == ""A Room With a View / Howards End / Maurice"""	TITLE_OR_KEYWORD	1	False	BLC2_266
+BLP2_0773	"alma.all_for_ui all ""a room with a view / howards end / maurice forster"""	"alma.all_for_ui all ""A Room With a View / Howards End / Maurice Forster"""	TITLE_OR_KEYWORD	1	False	BLC2_266
+BLP2_0774	"alma.title == ""kim"""	"alma.title == ""Kim"""	TITLE_OR_KEYWORD	1	False	BLC2_267
+BLP2_0775	"alma.all_for_ui all ""kim kipling"""	"alma.all_for_ui all ""Kim Kipling"""	TITLE_OR_KEYWORD	1	False	BLC2_267
+BLP2_0776	"alma.creator all ""rudyard kipling"""	"alma.creator all ""Rudyard Kipling"""	A1	1	False	BLC2_267
+BLP2_0777	"alma.title == ""tess of the d'urbervilles"""	"alma.title == ""Tess of the D'Urbervilles"""	TITLE_OR_KEYWORD	1	False	BLC2_268
+BLP2_0778	"alma.all_for_ui all ""tess of the d'urbervilles hardy"""	"alma.all_for_ui all ""Tess of the D'Urbervilles Hardy"""	TITLE_OR_KEYWORD	1	False	BLC2_268
+BLP2_0779	"alma.creator all ""thomas hardy"""	"alma.creator all ""Thomas Hardy"""	A1	1	False	BLC2_268
+BLP2_0780	"alma.title == ""the surprising adventures of baron munchausen"""	"alma.title == ""The surprising adventures of Baron Munchausen"""	TITLE_OR_KEYWORD	1	False	BLC2_269
+BLP2_0781	"alma.all_for_ui all ""the surprising adventures of baron munchausen raspe"""	"alma.all_for_ui all ""The surprising adventures of Baron Munchausen Raspe"""	TITLE_OR_KEYWORD	1	False	BLC2_269
+BLP2_0782	"alma.creator all ""rudolf erich raspe"""	"alma.creator all ""Rudolf Erich Raspe"""	A1	1	False	BLC2_269
+BLP2_0783	"alma.title == ""howards end"""	"alma.title == ""Howards End"""	TITLE_OR_KEYWORD	1	False	BLC2_270
+BLP2_0784	"alma.all_for_ui all ""howards end forster"""	"alma.all_for_ui all ""Howards End Forster"""	TITLE_OR_KEYWORD	1	False	BLC2_270
