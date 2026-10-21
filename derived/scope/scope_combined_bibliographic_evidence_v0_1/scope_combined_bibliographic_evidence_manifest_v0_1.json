@@ -1,0 +1,59 @@
+{
+  "release": "scope_combined_bibliographic_evidence_v0_1",
+  "unit": "active Project W",
+  "source_snapshots": {
+    "historical_open_library": "2026-02-28",
+    "wikidata": "2026-08-05"
+  },
+  "counts": {
+    "active_project_w": 32066,
+    "historical_ol_w": 32062,
+    "no_historical_ol_w": 4,
+    "wikidata_qid_w": 6177,
+    "no_adopted_wikidata_w": 25889,
+    "ol_and_wikidata_w": 6177,
+    "ol_only_w": 25885,
+    "wikidata_only_w": 0,
+    "neither_w": 4,
+    "wd_p577_nonempty": 4473,
+    "wd_p407_nonempty": 4893,
+    "wd_p31_nonempty": 6120,
+    "wd_p629_nonempty": 1,
+    "wd_p577_and_p407_nonempty": 3651
+  },
+  "known_without_either_source": [
+    "W000014515",
+    "W000031537",
+    "W000031538",
+    "W000031539"
+  ],
+  "inputs": {
+    "ol_project_w_frame": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/scope/scope_ol_bibliographic_projection_v0_1/scope_project_w_bibliographic_frame_v0_1.tsv",
+      "sha256": "4a0240d617856d240a781ac8664ebcc571036e9f34e2e837ec9d36cc983419ae"
+    },
+    "wikidata_coverage": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/scope/scope_wikidata_bibliographic_evidence_v0_1/scope_wikidata_project_w_coverage_v0_1.tsv",
+      "sha256": "e4e3f5df48097174a2eb1ddffa4c722f45fc01e5377895c2e8ab88152c108eb1"
+    },
+    "wikidata_qid_evidence": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/scope/scope_wikidata_bibliographic_evidence_v0_1/scope_wikidata_qid_evidence_v0_1.tsv",
+      "sha256": "d95683b4108d86d86c0b2461a758c492591db0c9e54ff2e6cbbe5c879b6b5618"
+    }
+  },
+  "outputs": {
+    "scope_combined_project_w_bibliographic_evidence_v0_1.tsv": {
+      "rows": 32066,
+      "sha256": "e6d01748327ef0eed243e0dc35f862cd9480714f10efaba7380ee3d5d38e523c"
+    }
+  },
+  "method": "Lossless one-to-one Project W join of the OL bibliographic frame, Wikidata all-W coverage, and adopted-QID evidence; unlinked QID detail fields left blank.",
+  "limitations": [
+    "OL edition-derived minimum years are not verified first original publication years.",
+    "Wikidata P577/P407/P31/P629 arrays are source-native, not adjudicated original dates/languages/genres.",
+    "The extraction of Wikidata statements may omit claim qualifiers, ranks, and reference details.",
+    "Empty Wikidata details with no adopted QID differ from [] for linked QIDs with absent properties.",
+    "No scope classification or researcher adjudication was added.",
+    "Source W identities and OpenAlex candidate counts were not modified."
+  ]
+}
