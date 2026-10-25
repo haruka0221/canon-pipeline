@@ -1,0 +1,29 @@
+{
+  "release": "bl_calibration_v2_protocol_freeze_v1",
+  "written_at_utc": "2026-10-25T05:52:46.017538+00:00",
+  "git_head_before_this_commit": "ba0e19a3441754d93806634312c13232aabc46d6",
+  "identity_version": "project_works_v7",
+  "seed": 20261021,
+  "cumulative_cap": 4000,
+  "per_run_cap": 2500,
+  "night_window_london": "22:00-06:00",
+  "min_interval_s": 3.0,
+  "retries": 0,
+  "first_edition_table_status": {
+    "ESTABLISHED": 14,
+    "NO_UK_EDITION_KNOWN": 7,
+    "NO_EVIDENCE": 9,
+    "verified": "none"
+  },
+  "inputs_sha256": {
+    "docs/BL_CALIBRATION_PROTOCOL_V2.md": "1d1041efd4ae599eb8b1c8409ca60e35f557e8210441dad38efe9f3f9e204058",
+    "derived/identity/project_works_v7.tsv": "d82fd38c9bf246184798add67e90432616bbab5afaaafcf7c32d74861cb760b5",
+    "derived/bl_calibration/calibration_v2/target_frame_v1.tsv": "55b8a26625f50b331aabdd5d2a1a0ba8d436aaad7956185b8f02c671094ca9a5",
+    "derived/bl_calibration/calibration_v2/sample_targets_v1.tsv": "71553b94cb2536a98fec22c2c0eb27fa7b48fc3691ce1a6ddb0c2dc2314f3c27",
+    "derived/bl_calibration/calibration_v2/sample_aliases_v1.tsv": "a8a88e20185e7a7f5ff4861b6d734653a989a30c201be5900b4b19699832e5f5",
+    "derived/bl_calibration/calibration_v2/first_edition_targets_v1.tsv": "cbf49587a2b24e7823b294a8a6becdc25c3825bbe938b8c10caf010787c48147",
+    "derived/bl_calibration/calibration_v2/retrieval/logical_queries.tsv": "a770006462ffed57126e44b1a7759308ac5736b4db1a02669fed71787142a75c",
+    "derived/bl_calibration/calibration_v2/retrieval/physical_queries.tsv": "69e8c45ce9d5017f212ccda747ac7b45c47a780ad7c7777f635452396d7cb56b"
+  },
+  "provenance_note": "Protocol text finalised 2026-10-21 in the design doc (Claude Doc, rev 31) before any BL request; the markdown export was committed to the repository only on 2026-10-25, after retrieval (commit ba0e19a). Inputs listed here were all committed before retrieval (63c3ef6, ecf1a4d, d53ff78, 628e6d4, 4e3fe24). Commit 628e6d4's message gives 15/7/8 for the first-edition table; the correct counts are 14/7/9."
+}
