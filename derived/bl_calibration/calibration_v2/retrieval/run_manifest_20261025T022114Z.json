@@ -1,0 +1,30 @@
+{
+  "script_version": "run_bl_calibration_v2_v1",
+  "script_sha256": "e6d0384e368e04771b142d9df6259be3209e2cf3f57e67cb2b4346b27abba185",
+  "git_head": "6d21b255baad098813dc9101bfb1e6d55a31aba2",
+  "phase": "rest",
+  "endpoint": "https://eu06.alma.exlibrisgroup.com/view/sru/44BL_MAIN",
+  "mock_run": false,
+  "sru_version": "1.2",
+  "record_schema": "marcxml",
+  "page_size": 20,
+  "cap": 200,
+  "min_interval_s": 3.0,
+  "retries": 0,
+  "cumulative_cap": 4000,
+  "per_run_cap": 2500,
+  "night_window_london": "22:00-06:00",
+  "raw_root": "/home/haruka221/bl_raw/calibration_v2",
+  "run_finished_utc": "2026-10-25T02:21:14.063298+00:00",
+  "http_requests_this_invocation": 363,
+  "http_requests_cumulative": 898,
+  "stop_reason": "STOP_DIAGNOSTIC: 200812 | Invalid query",
+  "skipped_invalid_query": [
+    "BLP2_0310",
+    "BLP2_0311"
+  ],
+  "inputs": {
+    "sample_targets_v1.tsv": "71553b94cb2536a98fec22c2c0eb27fa7b48fc3691ce1a6ddb0c2dc2314f3c27",
+    "sample_aliases_v1.tsv": "a8a88e20185e7a7f5ff4861b6d734653a989a30c201be5900b4b19699832e5f5"
+  }
+}
