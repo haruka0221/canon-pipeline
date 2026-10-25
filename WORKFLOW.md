@@ -1,7 +1,16 @@
+
 # WORKFLOW.md — canon-pipeline
-**DCC Digital Curation Workflow Narrative**
-Last updated: 2026-04-18
-Status: LIVING DOCUMENT — update on every major change
+DCC Digital Curation Workflow Narrative
+
+Status: Historical development log
+
+> **Reading note (2026-10-25):** This document preserves the development history of the research pipeline, including earlier methods, provisional findings, and subsequent revisions. Sections reflect the state of the project when they were written and may not describe the current methodology or validated results. For the current research overview, see [README.md](README.md).
+
+---
+
+## Overview
+
+This pipeline constructs and validates a population of English-language fiction works (1880–1950) ...
 
 ---
 
