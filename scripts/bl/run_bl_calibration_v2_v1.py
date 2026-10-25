@@ -335,6 +335,8 @@ def main():
                     help="log/plan directory; must be non-default for a mock run")
     ap.add_argument("--endpoint", default=ENDPOINT,
                     help="override ONLY for the mock server test")
+    ap.add_argument("--skip", nargs="*", default=[],
+                    help="phys_ids the BL rejected as invalid CQL; recorded as SKIPPED_INVALID_QUERY, never sent")
     ap.add_argument("--ignore-night-window", action="store_true",
                     help="allowed ONLY with a non-default --endpoint (mock server)")
     args = ap.parse_args()
@@ -382,7 +384,7 @@ def main():
     statuses, stop_reason, rc = [], "", 0
     try:
         for p in todo:
-            st = runner.run_query(p)
+            st = "SKIPPED_INVALID_QUERY" if p["phys_id"] in args.skip else runner.run_query(p)
             statuses.append({"phys_id": p["phys_id"], "route_class": p["route_class"],
                              "targets": p["targets"], "status": st})
             print(f"{p['phys_id']}  {st:<20} {p['cql_sent']}")
@@ -401,7 +403,7 @@ def main():
         "raw_root": str(raw_root), "run_finished_utc": utc_now(),
         "http_requests_this_invocation": runner.sent,
         "http_requests_cumulative": runner.cumulative,
-        "stop_reason": stop_reason, "inputs": {p.name: sha256_file(p) for p in (SAMPLE, ALIASES)},
+        "stop_reason": stop_reason, "skipped_invalid_query": args.skip, "inputs": {p.name: sha256_file(p) for p in (SAMPLE, ALIASES)},
     }
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     (out / f"run_manifest_{stamp}.json").write_text(json.dumps(manifest, indent=2) + "\n")
