@@ -1,0 +1,246 @@
+{
+  "release": "bl_calibration_v2_analysis_v1",
+  "generated_at_utc": "2026-10-26T07:39:21.653723+00:00",
+  "audit": {
+    "rows": 82,
+    "confusion_human_outer_llm_inner": {
+      "VALID": {
+        "VALID": 40,
+        "INVALID": 2,
+        "UNCERTAIN": 1
+      },
+      "INVALID": {
+        "VALID": 0,
+        "INVALID": 38,
+        "UNCERTAIN": 0
+      },
+      "UNCERTAIN": {
+        "VALID": 0,
+        "INVALID": 0,
+        "UNCERTAIN": 1
+      }
+    },
+    "work_relation_agreement": 0.9634,
+    "publication_relation_agreement": 0.9146
+  },
+  "estimates_S1_S2": {
+    "J1_r3_author": {
+      "n": 129,
+      "llm_counts": {
+        "VALID": 129,
+        "INVALID": 0,
+        "UNCERTAIN": 0
+      },
+      "audit_valid_rate_by_llm_label": {
+        "VALID": 1.0,
+        "INVALID": 0.05,
+        "UNCERTAIN": 0.5
+      },
+      "estimate_human_valid": 1.0,
+      "ci95": [
+        0.9119,
+        1.0
+      ]
+    },
+    "J2_r3_only": {
+      "n": 74,
+      "llm_counts": {
+        "VALID": 13,
+        "INVALID": 60,
+        "UNCERTAIN": 1
+      },
+      "audit_valid_rate_by_llm_label": {
+        "VALID": 1.0,
+        "INVALID": 0.05,
+        "UNCERTAIN": 0.5
+      },
+      "estimate_human_valid": 0.223,
+      "ci95": [
+        0.1236,
+        0.325
+      ]
+    },
+    "J3_r3_false": {
+      "n": 89,
+      "llm_counts": {
+        "VALID": 3,
+        "INVALID": 86,
+        "UNCERTAIN": 0
+      },
+      "audit_valid_rate_by_llm_label": {
+        "VALID": 1.0,
+        "INVALID": 0.05,
+        "UNCERTAIN": 0.5
+      },
+      "estimate_human_valid": 0.082,
+      "ci95": [
+        0.0225,
+        0.1643
+      ]
+    }
+  },
+  "estimates_S3_retest": {
+    "J1_r3_author": {
+      "n": 171,
+      "llm_counts": {
+        "VALID": 157,
+        "INVALID": 14,
+        "UNCERTAIN": 0
+      },
+      "audit_valid_rate_by_llm_label": {
+        "VALID": 1.0,
+        "INVALID": 0.05,
+        "UNCERTAIN": 0.5
+      },
+      "estimate_human_valid": 0.9222,
+      "ci95": [
+        0.8803,
+        0.9601
+      ]
+    },
+    "J2_r3_only": {
+      "n": 26,
+      "llm_counts": {
+        "VALID": 5,
+        "INVALID": 20,
+        "UNCERTAIN": 1
+      },
+      "audit_valid_rate_by_llm_label": {
+        "VALID": 1.0,
+        "INVALID": 0.05,
+        "UNCERTAIN": 0.5
+      },
+      "estimate_human_valid": 0.25,
+      "ci95": [
+        0.1,
+        0.4135
+      ]
+    },
+    "J3_r3_false": {
+      "n": 11,
+      "llm_counts": {
+        "VALID": 2,
+        "INVALID": 9,
+        "UNCERTAIN": 0
+      },
+      "audit_valid_rate_by_llm_label": {
+        "VALID": 1.0,
+        "INVALID": 0.05,
+        "UNCERTAIN": 0.5
+      },
+      "estimate_human_valid": 0.2227,
+      "ci95": [
+        0.025,
+        0.4682
+      ]
+    }
+  },
+  "link_population_S1_S2": {
+    "J1_r3_author": 682,
+    "J2_r3_only": 596,
+    "J3_r3_false": 12702
+  },
+  "expected_valid_links_S1_S2": {
+    "J1_r3_author": 682.0,
+    "J2_r3_only": 132.9,
+    "J3_r3_false": 1041.6
+  },
+  "implied_recall_of_r3_author": 0.3674,
+  "targets_by_sample_stratum": {
+    "S1": {
+      "targets": 143,
+      "with_r3": 97,
+      "with_r3_author": 74,
+      "targets_total": 150,
+      "targets_without_records": 7
+    },
+    "S2": {
+      "targets": 97,
+      "with_r3": 79,
+      "with_r3_author": 65,
+      "targets_total": 100,
+      "targets_without_records": 3
+    },
+    "S3": {
+      "targets": 20,
+      "with_r3": 18,
+      "with_r3_author": 18,
+      "targets_total": 20,
+      "targets_without_records": 0
+    }
+  },
+  "first_edition_candidate_counts": {
+    "FE2_03": {
+      "candidates": 1,
+      "r3": 1,
+      "r3_author": 0
+    },
+    "FE2_09": {
+      "candidates": 4,
+      "r3": 4,
+      "r3_author": 3
+    },
+    "FE2_11": {
+      "candidates": 4,
+      "r3": 0,
+      "r3_author": 0
+    },
+    "FE2_16": {
+      "candidates": 2,
+      "r3": 2,
+      "r3_author": 2
+    },
+    "FE2_18": {
+      "candidates": 1,
+      "r3": 1,
+      "r3_author": 1
+    },
+    "FE2_19": {
+      "candidates": 1,
+      "r3": 1,
+      "r3_author": 1
+    },
+    "FE2_20": {
+      "candidates": 4,
+      "r3": 1,
+      "r3_author": 1
+    },
+    "FE2_21": {
+      "candidates": 3,
+      "r3": 1,
+      "r3_author": 1
+    },
+    "FE2_24": {
+      "candidates": 0,
+      "r3": 0,
+      "r3_author": 0
+    },
+    "FE2_25": {
+      "candidates": 5,
+      "r3": 1,
+      "r3_author": 1
+    },
+    "FE2_26": {
+      "candidates": 14,
+      "r3": 0,
+      "r3_author": 0
+    },
+    "FE2_27": {
+      "candidates": 4,
+      "r3": 2,
+      "r3_author": 2
+    },
+    "FE2_28": {
+      "candidates": 2,
+      "r3": 2,
+      "r3_author": 0
+    },
+    "FE2_30": {
+      "candidates": 2,
+      "r3": 1,
+      "r3_author": 1
+    }
+  },
+  "success_criterion_r3_author_ci_lower_ge_0.90": true,
+  "note": "Estimates use S1+S2 only; S3 re-test shown separately. First-edition candidates are a private list awaiting human confirmation; coverage (G1) is computed after that."
+}

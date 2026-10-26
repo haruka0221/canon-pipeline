@@ -63,6 +63,10 @@ def estimate(llm_labels: pd.Series, audit: pd.DataFrame):
             r.append(rng.binomial(k, eff[l]) / k if k else eff[l])
         draws[b] = float(np.dot(c, r))
     lo, hi = np.percentile(draws, [2.5, 97.5])
+    # all-VALID case: bootstrap variance is zero; use the exact Clopper-Pearson lower bound of the audit (k = n)
+    kv = len(aud["VALID"]); kv_ok = int((aud["VALID"]["human"] == "VALID").sum())
+    if counts["VALID"] == n and kv and kv_ok == kv:
+        lo, hi = 0.025 ** (1.0 / kv), 1.0
     return {"n": n, "llm_counts": counts, "audit_valid_rate_by_llm_label": rate,
             "estimate_human_valid": round(point, 4), "ci95": [round(lo, 4), round(hi, 4)]}
 
@@ -144,7 +148,7 @@ def main():
     summary = {
         "release": "bl_calibration_v2_analysis_v1",
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "audit": {"rows": int(len(A)), "confusion_llm_rows_human_cols": conf.astype(int).to_dict(),
+        "audit": {"rows": int(len(A)), "confusion_human_outer_llm_inner": conf.astype(int).to_dict(),
                   "work_relation_agreement": round(float((A["llm"] == A["human"]).mean()), 4),
                   "publication_relation_agreement": round(pub_agree, 4)},
         "estimates_S1_S2": est, "estimates_S3_retest": est_s3,
