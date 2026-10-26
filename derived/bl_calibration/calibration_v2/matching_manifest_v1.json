@@ -1,0 +1,35 @@
+{
+  "release": "bl_calibration_v2_matching_v1",
+  "generated_at_utc": "2026-10-26T06:49:12.312099+00:00",
+  "rules": "exact/r2/r3 imported from analyze_q1_record_structure_v1.py; author = surname rule; r3_author = r3 and author",
+  "v1_analyzer_sha256": "399ee0a6d057e426347950c4e5993f04f2577bd4c9b827dbbd31e710559a90b6",
+  "seed": 20261021,
+  "link_rows": 16681,
+  "targets": 260,
+  "flags": {
+    "exact": 2010,
+    "r2": 2399,
+    "r3": 2441,
+    "author_surname": 11264,
+    "r3_author": 1667,
+    "r3_author_initial": 1649,
+    "multi_w_candidate": 468
+  },
+  "records_r3_for_multiple_targets": 117,
+  "targets_with_any_r3_author": 157,
+  "targets_with_any_r3": 194,
+  "publications_r3": 2205,
+  "publications_with_duplicate_records": 206,
+  "judgment_sample": {
+    "J1_r3_author": 300,
+    "J2_r3_only": 100,
+    "J3_r3_false": 100
+  },
+  "private_files_sha256": {
+    "matching_results_v2.tsv": "a265b87b6db8d3be49667c1b3d850a26375948104ceecf1633b65db48f216cee",
+    "publications_v2.tsv": "eb34f4e985117b71b615b092688ee7715ad811386c54a1ddbcf7a5db2727b63b",
+    "judgment_sample_v2.tsv": "007de0df998da1666b9eff1a24a08f05d87ed91f7fcd3865445a58e41277c415",
+    "judgment_input_v2.tsv": "8b0b316e35102f5fad6a9269cc783afb9ef36122e08d87804baf23c872b795f0"
+  },
+  "note": "Counts only; record content stays in the private directory. Judgment input is blind (no rule flags)."
+}
