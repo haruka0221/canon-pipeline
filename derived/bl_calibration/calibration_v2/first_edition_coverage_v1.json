@@ -1,0 +1,116 @@
+{
+  "release": "bl_calibration_v2_first_edition_coverage_v1",
+  "established": 14,
+  "found_any_route": 11,
+  "found_r3": 10,
+  "found_r3_author": 8,
+  "unsure_only": 1,
+  "not_found": 2,
+  "per_target": [
+    {
+      "fe_id": "FE2_03",
+      "candidates": 1,
+      "yes": 1,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 0
+    },
+    {
+      "fe_id": "FE2_09",
+      "candidates": 4,
+      "yes": 4,
+      "unsure": 0,
+      "yes_r3": 4,
+      "yes_r3_author": 3
+    },
+    {
+      "fe_id": "FE2_11",
+      "candidates": 4,
+      "yes": 0,
+      "unsure": 0,
+      "yes_r3": 0,
+      "yes_r3_author": 0
+    },
+    {
+      "fe_id": "FE2_16",
+      "candidates": 2,
+      "yes": 0,
+      "unsure": 1,
+      "yes_r3": 0,
+      "yes_r3_author": 0
+    },
+    {
+      "fe_id": "FE2_18",
+      "candidates": 1,
+      "yes": 1,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    },
+    {
+      "fe_id": "FE2_19",
+      "candidates": 1,
+      "yes": 1,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    },
+    {
+      "fe_id": "FE2_20",
+      "candidates": 4,
+      "yes": 2,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    },
+    {
+      "fe_id": "FE2_21",
+      "candidates": 3,
+      "yes": 2,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    },
+    {
+      "fe_id": "FE2_25",
+      "candidates": 5,
+      "yes": 1,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    },
+    {
+      "fe_id": "FE2_26",
+      "candidates": 14,
+      "yes": 2,
+      "unsure": 0,
+      "yes_r3": 0,
+      "yes_r3_author": 0
+    },
+    {
+      "fe_id": "FE2_27",
+      "candidates": 4,
+      "yes": 1,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    },
+    {
+      "fe_id": "FE2_28",
+      "candidates": 2,
+      "yes": 2,
+      "unsure": 0,
+      "yes_r3": 2,
+      "yes_r3_author": 0
+    },
+    {
+      "fe_id": "FE2_30",
+      "candidates": 2,
+      "yes": 1,
+      "unsure": 0,
+      "yes_r3": 1,
+      "yes_r3_author": 1
+    }
+  ],
+  "note": "Counts only; candidate records stay private."
+}
