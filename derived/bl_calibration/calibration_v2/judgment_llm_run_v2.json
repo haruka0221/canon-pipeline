@@ -1,0 +1,46 @@
+{
+  "task": "BL calibration v2 LLM first-pass judgment (addendum 1)",
+  "model_identifier": "claude-opus-5-5",
+  "model_note": "Claude Opus 5.5 in Claude Code (VS Code extension, model shown as 'Opus 5.5 Medium'); judgments made directly by the model reading judgment_input_v2.tsv, no API call",
+  "prompt_version": "bl_v2_llm_judgment_prompt_v1",
+  "prompt_file": "docs/BL_CALIBRATION_V2_LLM_JUDGMENT_PROMPT_V1.md",
+  "prompt_sha256": "fa4067f20dec91617ea1e9f2624b05d0e897dd7efd0551796ecf5a6c89ab58d8",
+  "prompt_commit": "8e1715f",
+  "input_files": {
+    "judgment_input_v2.tsv": "8b0b316e35102f5fad6a9269cc783afb9ef36122e08d87804baf23c872b795f0"
+  },
+  "output_file": "judgment_llm_output_v2.tsv (private)",
+  "output_sha256": "742c56a0068cd3114e0f9da21e77b32ef9f28ef4afbac81f81248ef9782920d4",
+  "rows_written": 500,
+  "work_relation_counts": {
+    "VALID": 309,
+    "INVALID": 189,
+    "UNCERTAIN": 2
+  },
+  "publication_relation_counts": {
+    "target_alone": 250,
+    "unrelated": 160,
+    "target_abridged_or_retold": 22,
+    "target_with_other_works": 20,
+    "other_language_version": 12,
+    "related_study_guide": 12,
+    "related_criticism": 11,
+    "related_derivative": 6,
+    "ambiguous": 2,
+    "adaptation": 2,
+    "target_excerpt": 2,
+    "target_in_collection": 1
+  },
+  "confidence_counts": {
+    "high": 445,
+    "medium": 47,
+    "low": 8
+  },
+  "model_reported_notes": [
+    "Two rows (BLJ2_0196, BLJ2_0239; Andersen translations) were changed by the model during its run from target_alone to other_language_version; the output is kept as the model left it.",
+    "Prompt gap: adaptations by other people that do not carry the target's text have no class; the model used INVALID / related_derivative (6 rows). Hardy's and Zangwill's own dramatisations are VALID / adaptation. To be fixed in the v3 prompt.",
+    "Wrong OL author (Life with Father, BLJ2_0302/0303): judged by the work the title names, VALID.",
+    "BLJ2_0355 and BLJ2_0133 may be the same edition (McLoughlin 1888); 0133 VALID (names Andre), 0355 UNCERTAIN (no author)."
+  ],
+  "run_date_utc": "2026-10-26"
+}
