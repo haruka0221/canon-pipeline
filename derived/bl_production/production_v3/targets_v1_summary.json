@@ -1,0 +1,31 @@
+{
+  "release": "bl_production_v3_targets_v1",
+  "generated_at_utc": "2026-10-27T12:31:44.308012+00:00",
+  "identity_version": "project_works_v7",
+  "inputs_sha256": {
+    "target_frame_v1.tsv": "55b8a26625f50b331aabdd5d2a1a0ba8d436aaad7956185b8f02c671094ca9a5",
+    "sample_targets_v1.tsv": "71553b94cb2536a98fec22c2c0eb27fa7b48fc3691ce1a6ddb0c2dc2314f3c27",
+    "author_overrides_v1.tsv": "f66973bb20c4b55ce5e95438e9a9f09b818303f34ab57cb6760acb8dba9705c7"
+  },
+  "excluded": {
+    "source_light_na": 1,
+    "identity_suspended_na": 17,
+    "v2_already_retrieved_aliases": 278
+  },
+  "alias_rows": 34494,
+  "targets": 33878,
+  "targets_by_lane": {
+    "resolved_w": 31797,
+    "unresolved_source": 2081
+  },
+  "batches": 34,
+  "batch_size": 1000,
+  "aliases_with_title_quote": 257,
+  "aliases_with_author_quote": 47,
+  "targets_without_author_route": 361,
+  "author_overrides_applied": {
+    "": 33878
+  },
+  "output_sha256": "6006775089c09c168cb082cb823bcfb39744b68327a75040d39e1cb5c6307ab4",
+  "note": "v2's 270 targets are reused from calibration_v2 (retrieved 2026-10-25) and not re-retrieved. No BL request is sent. All 4 author overrides concern v2 targets, so none applies to v3 retrieval queries; they apply at matching time when the v2 270 are re-matched under the v3 lanes."
+}
