@@ -17,9 +17,10 @@
   "retries": 0,
   "acceptance": "lane A r3_author accepted (v2 precision 100%, CI lower 91.2%); lanes B/C judged by stratified sample (250+250 LLM, 60+60 human)",
   "bl_notice": {
-    "sent_on": null,
-    "planned_start": null,
-    "note": "notice only, no reply required, start >= 7 days after sending"
+    "sent_on": "2026-10-27",
+    "to": "Iona Richardson (BL), reply to the September thread",
+    "planned_start": "2026-11-03 22:00 Europe/London (2026-11-04 07:05 JST)",
+    "note": "notice only, no reply required; start >= 7 days after sending"
   },
   "inputs_sha256": {
     "docs/BL_PRODUCTION_PROTOCOL_V3.md": "27c6834935b84de415f54cfe592a662577e197a350dd2c0a0bedb17a842c111b",
