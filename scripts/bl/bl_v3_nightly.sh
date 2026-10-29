@@ -32,12 +32,12 @@ print("yes" if ms and json.load(open(ms[-1])).get("batch_complete") else "no")
 PY
 }
 
-last_stop_and_sent() {  # $1 = batch number -> "stop_reason<TAB>sent"
+last_stop_and_sent() {  # $1 = batch number -> "sent<TAB>stop_reason"
   python3 - "$1" <<'PY'
 import glob, json, sys
 b = int(sys.argv[1]); ms = sorted(glob.glob(f"derived/bl_production/production_v3/retrieval/batch_{b:03d}/run_manifest_*.json"))
 m = json.load(open(ms[-1])) if ms else {}
-print(f"{m.get('stop_reason','')}\t{m.get('http_requests_this_invocation',0)}")
+print(f"{m.get('http_requests_this_invocation',0)}\t{m.get('stop_reason','')}")
 PY
 }
 
@@ -59,7 +59,7 @@ while true; do
     say "batch $b: starting, remaining tonight $remaining"
     python scripts/bl/run_bl_production_v3_v1.py --batch "$b" --execute --contact "$CONTACT" \
       --raw-root "$RAW" --max-requests "$remaining" >> "$LOG" 2>&1
-    IFS=$'\t' read -r reason sent < <(last_stop_and_sent "$b")
+    IFS=$'\t' read -r sent reason < <(last_stop_and_sent "$b")
     spent=$(( spent + sent ))
     say "batch $b: sent $sent (tonight $spent); stop_reason='${reason}'"
     if [[ -z "$reason" ]]; then
