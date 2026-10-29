@@ -1,0 +1,36 @@
+{
+  "release": "bl_production_v3_parsed_v1",
+  "generated_at_utc": "2026-10-29T09:01:49.001271+00:00",
+  "parser": "scripts/bl/parse_bl_verification_pilot_v1.py (parse_record) via scripts/bl/parse_bl_production_v3_v1.py",
+  "v1_parser_sha256": "087c78e045291f9f4676e595264ef226863b9e0a3aa87a75f334702eb17edb98",
+  "raw_roots": [
+    "/media/hdd1/user/tsutsui/bl/production_v3_raw"
+  ],
+  "private_out_dir": "/media/hdd1/user/tsutsui/bl/production_v3_derived",
+  "batches_parsed": [
+    1
+  ],
+  "batches_incomplete": [],
+  "per_batch": {
+    "1": {
+      "complete_requests": 3930,
+      "batch_complete": true,
+      "new_records": 41899,
+      "new_links": 89168
+    }
+  },
+  "raw_files_missing": 0,
+  "xml_parse_errors": 0,
+  "records_without_001": 0,
+  "distinct_records": 41899,
+  "link_rows": 89168,
+  "targets_with_records": 1000,
+  "records_linked_to_multiple_targets": 20907,
+  "field_conflicts": 0,
+  "private_files_sha256": {
+    "records_parsed_v3.tsv": "7b219f2cc355e8b43454619ba4c75dc6a57e122cb72752caedf085ffa749b8a3",
+    "target_record_links_v3.tsv": "ee8483b46131611c16aa309a371b18ce7f847ccb8e4ba892ca334664f12ac79b",
+    "parse_conflicts_v3.tsv": "c76dd0efe10884cd3f4d72bdd49f10aa0043007637fd1fb5123ea41144a653b2"
+  },
+  "note": "Private files hold BL record content and stay outside the public repository. Re-run with --overwrite as batches complete."
+}
