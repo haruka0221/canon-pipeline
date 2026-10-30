@@ -22,10 +22,12 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import http.client
 import json
 import subprocess
 import sys
 import time
+import traceback
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -267,7 +269,7 @@ class Runner:
                 status, body = str(resp.status), resp.read()
         except urllib.error.HTTPError as e:
             status, body, err, outcome = str(e.code), e.read() or b"", f"HTTP {e.code}", "STOP_HTTP"
-        except (urllib.error.URLError, TimeoutError, OSError) as e:
+        except (urllib.error.URLError, TimeoutError, OSError, http.client.HTTPException) as e:
             err, outcome = f"{type(e).__name__}: {e}", "STOP_NETWORK"
         self.last_response = time.monotonic()
         elapsed = int((self.last_response - t0) * 1000)
@@ -373,6 +375,10 @@ def main():
             statuses.append({"phys_id": p["phys_id"], "route_class": p["route_class"], "targets": p["targets"], "status": st})
     except StopRun as e:
         stop_reason, rc = str(e), 3
+        print(f"\nSTOPPED: {stop_reason}", file=sys.stderr)
+    except Exception as e:  # never exit without a manifest; the driver treats rc 4 as fatal
+        stop_reason, rc = f"UNHANDLED {type(e).__name__}: {e}", 4
+        traceback.print_exc()
         print(f"\nSTOPPED: {stop_reason}", file=sys.stderr)
     if statuses:
         write_tsv(out / "physical_query_status.tsv", statuses, list(statuses[0]))

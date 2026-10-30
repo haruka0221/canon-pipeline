@@ -41,6 +41,7 @@ print(f"{m.get('http_requests_this_invocation',0)}\t{m.get('stop_reason','')}")
 PY
 }
 
+export GIT_TERMINAL_PROMPT=0  # never block on a credential prompt; a failed push is logged as WARNING
 say "driver started; first night $FIRST_DATE $START_HHMM JST; night cap $NIGHT_CAP"
 night_date="$FIRST_DATE"
 while true; do
@@ -59,9 +60,13 @@ while true; do
     say "batch $b: starting, remaining tonight $remaining"
     python scripts/bl/run_bl_production_v3_v1.py --batch "$b" --execute --contact "$CONTACT" \
       --raw-root "$RAW" --max-requests "$remaining" >> "$LOG" 2>&1
+    rc=$?
     IFS=$'\t' read -r sent reason < <(last_stop_and_sent "$b")
     spent=$(( spent + sent ))
-    say "batch $b: sent $sent (tonight $spent); stop_reason='${reason}'"
+    say "batch $b: sent $sent (tonight $spent); stop_reason='${reason}'; runner rc=$rc"
+    if (( rc != 0 && rc != 3 )); then
+      fatal="runner exit code $rc (no clean stop; manifest may be missing)"; break
+    fi
     if [[ -z "$reason" ]]; then
       git add "$RET/batch_$(printf %03d "$b")/" && git commit -q -m "BL v3: batch $b retrieval log ($(date +%F))" && git push -q origin bl-production-v3 || say "WARNING: commit/push of batch $b failed"
       continue
