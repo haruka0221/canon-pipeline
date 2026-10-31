@@ -51,3 +51,29 @@ cumulative requests so far (all batches): 5417; per-run cap 7000; cumulative cap
 
 batch 3: 2007/2460 physical queries have a status; requests this invocation 3049; cumulative 8466
 2026-10-30T15:00:00+09:00 batch 3: sent 3049 (tonight 3049); stop_reason='outside night window, London time 06:00'
+2026-10-30T15:00:00+09:00 night done (3049 requests); next night 2026-10-31
+2026-10-30T15:00:00+09:00 sleeping until 2026-10-31 07:05 JST (965 min)
+2026-10-30T15:16:39+09:00 driver started; first night 2026-10-31 07:05 JST; night cap 7000
+2026-10-30T15:16:39+09:00 sleeping until 2026-10-31 07:05 JST (948 min)
+2026-10-31T07:05:00+09:00 batch 2: starting, remaining tonight 7000
+batch 2: targets 1000  logical 3016  physical 1846  quote-skipped 16  quote-stripped twins 16
+cumulative requests so far (all batches): 8466; per-run cap 7000; cumulative cap 200000
+
+batch 2: 1846/1846 physical queries have a status; requests this invocation 2477; cumulative 10943
+2026-10-31T11:31:50+09:00 batch 2: sent 2477 (tonight 2477); stop_reason=''; runner rc=0
+2026-10-31T11:31:50+09:00 WARNING: commit/push of batch 2 failed
+2026-10-31T11:31:50+09:00 batch 3: starting, remaining tonight 4523
+batch 3: targets 1000  logical 3020  physical 2460  quote-skipped 20  quote-stripped twins 20
+cumulative requests so far (all batches): 10943; per-run cap 4523; cumulative cap 200000
+
+batch 3: 2460/2460 physical queries have a status; requests this invocation 710; cumulative 11653
+2026-10-31T12:41:51+09:00 batch 3: sent 710 (tonight 3187); stop_reason=''; runner rc=0
+2026-10-31T12:41:51+09:00 WARNING: commit/push of batch 3 failed
+2026-10-31T12:41:51+09:00 batch 4: starting, remaining tonight 3813
+
+STOPPED: outside night window, London time 06:00
+batch 4: targets 1000  logical 3014  physical 2471  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 11653; per-run cap 3813; cumulative cap 200000
+
+batch 4: 984/2471 physical queries have a status; requests this invocation 1374; cumulative 13027
+2026-10-31T15:00:01+09:00 batch 4: sent 1374 (tonight 4561); stop_reason='outside night window, London time 06:00'; runner rc=3
