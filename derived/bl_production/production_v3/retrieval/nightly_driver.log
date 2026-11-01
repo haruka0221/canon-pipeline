@@ -87,3 +87,20 @@ cumulative requests so far (all batches): 13027; per-run cap 7000; cumulative ca
 
 batch 4: 1463/2471 physical queries have a status; requests this invocation 667; cumulative 13694
 2026-11-01T08:06:00+09:00 batch 4: sent 667 (tonight 667); stop_reason='STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response'; runner rc=3
+2026-11-01T08:06:00+09:00 FATAL STOP: STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response — driver ends; review the log, then restart the script
+2026-11-01T11:30:01+09:00 driver started; first night 2026-11-01 07:05 JST; night cap 7000
+2026-11-01T11:30:02+09:00 batch 4: starting, remaining tonight 7000
+batch 4: targets 1000  logical 3014  physical 2471  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 13694; per-run cap 7000; cumulative cap 200000
+
+batch 4: 2471/2471 physical queries have a status; requests this invocation 1520; cumulative 15214
+2026-11-01T13:58:57+09:00 batch 4: sent 1520 (tonight 1520); stop_reason=''; runner rc=0
+2026-11-01T13:58:57+09:00 WARNING: commit/push of batch 4 failed
+2026-11-01T13:58:57+09:00 batch 5: starting, remaining tonight 5480
+
+STOPPED: outside night window, London time 06:00
+batch 5: targets 1000  logical 3012  physical 2567  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 15214; per-run cap 5480; cumulative cap 200000
+
+batch 5: 438/2567 physical queries have a status; requests this invocation 645; cumulative 15859
+2026-11-01T15:00:03+09:00 batch 5: sent 645 (tonight 2165); stop_reason='outside night window, London time 06:00'; runner rc=3
