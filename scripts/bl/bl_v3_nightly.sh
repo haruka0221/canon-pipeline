@@ -6,13 +6,18 @@
 # Each day at 07:05 JST (22:05 GMT, inside the London night window) it runs
 # batches in order (1..34), skipping batches whose latest manifest says
 # batch_complete=true, until the night's request count reaches NIGHT_CAP or the
-# runner stops for the window / per-run cap. On ANY other stop (HTTP, network,
-# diagnostic, parse) the loop ends and does not reschedule: a human reviews the
-# log and restarts the script. Nothing here changes the runner's own guards.
+# runner stops for the window / per-run cap. On a STOP_NETWORK stop (protocol v3
+# amendment 1, 2026-11-01) it waits NET_RESUME_WAIT_S and resumes the same batch,
+# at most NET_RESUME_MAX times per night; the runner's request log makes the
+# resume send nothing twice. On ANY other stop (HTTP, diagnostic, parse, or a
+# further network stop) the loop ends and does not reschedule: a human reviews
+# the log and restarts the script. Nothing here changes the runner's own guards.
 set -u
 CONTACT="${1:?contact e-mail required}"
 FIRST_DATE="${2:-$(date +%F)}"
 NIGHT_CAP=7000
+NET_RESUME_MAX=2       # protocol v3 amendment 1: STOP_NETWORK resumes per night
+NET_RESUME_WAIT_S=600  # wait before resuming the same batch
 START_HHMM="07:05"
 REPO="$HOME/canon-pipeline-bl"
 RET="$REPO/derived/bl_production/production_v3/retrieval"
@@ -53,8 +58,9 @@ while true; do
   fi
   git fetch -q origin bl-production-v3 && git merge -q --ff-only origin/bl-production-v3 || say "WARNING: fetch/ff failed, continuing with local HEAD $(git rev-parse --short HEAD)"
   spent=0; fatal=""
-  for b in $(seq 1 34); do
-    [[ "$(batch_complete "$b")" == "yes" ]] && continue
+  b=1; net_resumes=0
+  while (( b <= 34 )); do
+    if [[ "$(batch_complete "$b")" == "yes" ]]; then b=$(( b + 1 )); continue; fi
     remaining=$(( NIGHT_CAP - spent ))
     (( remaining <= 0 )) && { say "night cap reached ($spent)"; break; }
     say "batch $b: starting, remaining tonight $remaining"
@@ -69,10 +75,18 @@ while true; do
     fi
     if [[ -z "$reason" ]]; then
       git add "$RET/batch_$(printf %03d "$b")/" && git commit -q -m "BL v3: batch $b retrieval log ($(date +%F))" && git push -q origin bl-production-v3 || say "WARNING: commit/push of batch $b failed"
-      continue
+      b=$(( b + 1 )); continue
     fi
     case "$reason" in
       *"per-run cap"*|*"outside night window"*|*"cumulative cap"*) break ;;
+      "STOP_NETWORK"*)
+        if (( net_resumes < NET_RESUME_MAX )); then
+          net_resumes=$(( net_resumes + 1 ))
+          say "batch $b: network stop; waiting $(( NET_RESUME_WAIT_S / 60 )) min, then resuming the same batch (resume $net_resumes/$NET_RESUME_MAX tonight)"
+          sleep "$NET_RESUME_WAIT_S"
+          continue
+        fi
+        fatal="$reason (network stops exceeded $NET_RESUME_MAX tonight)"; break ;;
       *) fatal="$reason"; break ;;
     esac
   done
