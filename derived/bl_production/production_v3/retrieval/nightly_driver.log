@@ -140,3 +140,28 @@ cumulative requests so far (all batches): 18919; per-run cap 3940; cumulative ca
 
 batch 6: 1213/2461 physical queries have a status; requests this invocation 1758; cumulative 20677
 2026-11-02T15:00:06+09:00 batch 6: sent 1758 (tonight 4818); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-02T15:00:09+09:00 night done (4818 requests); next night 2026-11-03
+2026-11-02T15:00:09+09:00 sleeping until 2026-11-03 07:05 JST (964 min)
+2026-11-03T07:05:01+09:00 batch 6: starting, remaining tonight 7000
+
+STOPPED: STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response
+batch 6: targets 1000  logical 3006  physical 2461  quote-skipped 6  quote-stripped twins 6
+cumulative requests so far (all batches): 20677; per-run cap 7000; cumulative cap 200000
+
+batch 6: 1643/2461 physical queries have a status; requests this invocation 653; cumulative 21330
+2026-11-03T08:05:26+09:00 batch 6: sent 653 (tonight 653); stop_reason='STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response'; runner rc=3
+2026-11-03T08:05:26+09:00 batch 6: network stop; waiting 10 min, then resuming the same batch (resume 1/2 tonight)
+2026-11-03T08:15:26+09:00 batch 6: starting, remaining tonight 6347
+batch 6: targets 1000  logical 3006  physical 2461  quote-skipped 6  quote-stripped twins 6
+cumulative requests so far (all batches): 21330; per-run cap 6347; cumulative cap 200000
+
+batch 6: 2461/2461 physical queries have a status; requests this invocation 1239; cumulative 22569
+2026-11-03T10:23:23+09:00 batch 6: sent 1239 (tonight 1892); stop_reason=''; runner rc=0
+2026-11-03T10:23:27+09:00 batch 7: starting, remaining tonight 5108
+
+STOPPED: outside night window, London time 06:00
+batch 7: targets 1000  logical 3010  physical 2412  quote-skipped 10  quote-stripped twins 10
+cumulative requests so far (all batches): 22569; per-run cap 5108; cumulative cap 200000
+
+batch 7: 1931/2412 physical queries have a status; requests this invocation 2741; cumulative 25310
+2026-11-03T15:00:05+09:00 batch 7: sent 2741 (tonight 4633); stop_reason='outside night window, London time 06:00'; runner rc=3
