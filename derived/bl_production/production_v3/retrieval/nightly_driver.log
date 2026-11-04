@@ -165,3 +165,25 @@ cumulative requests so far (all batches): 22569; per-run cap 5108; cumulative ca
 
 batch 7: 1931/2412 physical queries have a status; requests this invocation 2741; cumulative 25310
 2026-11-03T15:00:05+09:00 batch 7: sent 2741 (tonight 4633); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-03T15:00:09+09:00 night done (4633 requests); next night 2026-11-04
+2026-11-03T15:00:09+09:00 sleeping until 2026-11-04 07:05 JST (964 min)
+2026-11-04T07:05:00+09:00 batch 7: starting, remaining tonight 7000
+batch 7: targets 1000  logical 3010  physical 2412  quote-skipped 10  quote-stripped twins 10
+cumulative requests so far (all batches): 25310; per-run cap 7000; cumulative cap 200000
+
+batch 7: 2412/2412 physical queries have a status; requests this invocation 667; cumulative 25977
+2026-11-04T08:06:09+09:00 batch 7: sent 667 (tonight 667); stop_reason=''; runner rc=0
+2026-11-04T08:06:12+09:00 batch 8: starting, remaining tonight 6333
+batch 8: targets 1000  logical 3020  physical 2612  quote-skipped 20  quote-stripped twins 20
+cumulative requests so far (all batches): 25977; per-run cap 6333; cumulative cap 200000
+
+batch 8: 2612/2612 physical queries have a status; requests this invocation 3491; cumulative 29468
+2026-11-04T13:32:48+09:00 batch 8: sent 3491 (tonight 4158); stop_reason=''; runner rc=0
+2026-11-04T13:32:52+09:00 batch 9: starting, remaining tonight 2842
+
+STOPPED: outside night window, London time 06:00
+batch 9: targets 1000  logical 3017  physical 2552  quote-skipped 17  quote-stripped twins 17
+cumulative requests so far (all batches): 29468; per-run cap 2842; cumulative cap 200000
+
+batch 9: 606/2552 physical queries have a status; requests this invocation 874; cumulative 30342
+2026-11-04T15:00:02+09:00 batch 9: sent 874 (tonight 5032); stop_reason='outside night window, London time 06:00'; runner rc=3
