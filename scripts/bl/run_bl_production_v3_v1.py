@@ -210,6 +210,10 @@ class StopRun(Exception):
     pass
 
 
+class InvalidQuery(Exception):  # protocol v3 amendment 2: BL diagnostic 200812 on page 1
+    pass
+
+
 def cumulative_requests(ret_root: Path) -> int:
     n = 0
     for p in ret_root.glob("batch_*/physical_requests.tsv"):
@@ -224,13 +228,15 @@ class Runner:
         self.ua = f"canon-pipeline BL production v3 (academic research; contact: {contact})"
         self.per_run_cap, self.sent, self.last_response = per_run_cap, 0, 0.0
         self.log_path = out / "physical_requests.tsv"
-        self.done, self.req_n = {}, 0
+        self.done, self.req_n, self.rejected = {}, 0, set()
         self.cumulative = cumulative_requests(ret_root)
         if self.log_path.exists():
             for r in read_tsv(self.log_path).itertuples(index=False):
                 self.req_n = max(self.req_n, int(r.request_id.rsplit("_", 1)[1]))
                 if r.outcome == "COMPLETE":
                     self.done[(r.phys_id, int(r.start_record))] = r.number_of_records
+                elif r.outcome == "INVALID_QUERY_BL_REJECTED":
+                    self.rejected.add(r.phys_id)
         else:
             with open(self.log_path, "w", encoding="utf-8", newline="") as f:
                 csv.writer(f, delimiter="\t", lineterminator="\n").writerow(LOG_FIELDS)
@@ -295,6 +301,11 @@ class Runner:
             self.log(row)
             raise StopRun(f"STOP_PARSE: {e}")
         row["number_of_records"], row["records_in_response"], row["diagnostic"] = ("" if n is None else n), recs, diag
+        if diag.startswith("200812") and start == 1:  # amendment 2: BL rejected this query; record and move on
+            row["outcome"] = "INVALID_QUERY_BL_REJECTED"
+            self.log(row)
+            self.rejected.add(p["phys_id"])
+            raise InvalidQuery(diag)
         if diag or n is None:
             row["outcome"] = "STOP_DIAGNOSTIC"
             self.log(row)
@@ -305,8 +316,13 @@ class Runner:
         return n
 
     def run_query(self, p, batch):
+        if p["phys_id"] in self.rejected:
+            return "INVALID_QUERY_BL_REJECTED"
         key1 = (p["phys_id"], 1)
-        n = int(self.done[key1]) if key1 in self.done else self.request(p, 1, batch)
+        try:
+            n = int(self.done[key1]) if key1 in self.done else self.request(p, 1, batch)
+        except InvalidQuery:
+            return "INVALID_QUERY_BL_REJECTED"
         if p["route_class"] == "A1" and n > CAP:
             return "SKIPPED_POLICY_CAP"
         for start in range(1 + PAGE_SIZE, min(n, CAP) + 1, PAGE_SIZE):
