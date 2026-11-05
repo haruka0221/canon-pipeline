@@ -217,8 +217,9 @@ def main():
         ["NOT_QUERIED_R2_R3", "HOLD_PRIMARY_SUCCESSOR_NOT_RERETRIEVED"])
     verify(x.loc[check_na,"v3_provisional_operational_pairs"].isna().all(),
            "Nonmeasured work was incorrectly turned into zero")
-    verify(x["v3_provisional_operational_pairs"].notna().sum()==32066-353,
-           "OpenAlex visibility measured-W count unexpected")
+    expected_measured = int((~check_na).sum())
+    verify(int(x["v3_provisional_operational_pairs"].notna().sum()) == expected_measured,
+           "OpenAlex visibility measured-W count differs from explicit missing statuses")
 
     comparisons = []
     academic = ["v3_provisional_operational_pairs",
