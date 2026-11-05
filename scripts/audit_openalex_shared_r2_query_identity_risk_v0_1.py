@@ -14,7 +14,14 @@ ROOT = Path(__file__).resolve().parents[1]
 OA = ROOT / "derived/openalex_production"
 V3 = OA / "integrated_work_visibility_v3_r2a1_model_provisional" / "integrated_candidate_dispositions_v3_provisional.parquet"
 Q = OA / "registry_v4/openalex_queries_v4.tsv"
-H = ROOT / "derived/ol_dump_population_fiction_2026-02-28.tsv"
+# Historical OL work labels are optional enrichment, not part of the query audit.
+# In this research checkout the original population often lives in ~/canon-pipeline.
+H_CANDIDATES = [
+    ROOT / "derived/ol_dump_population_fiction_2026-02-28.tsv",
+    ROOT / "derived/ol_dump_population_with_author.tsv",
+    Path.home() / "canon-pipeline/derived/ol_dump_population_with_author.tsv",
+    Path.home() / "canon-pipeline/derived/ol_dump_population_fiction_2026-02-28.tsv",
+]
 OUT = OA / "analysis_v3_shared_r2_query_identity_risk_v0_1"
 TOP_THREE = {"W000030950", "W000017666", "W000016985"}
 
@@ -34,9 +41,13 @@ def fail(s):
 def main():
     if OUT.exists():
         fail(f"Output exists, refusing to overwrite: {OUT}")
-    for path in [V3, Q, H]:
+    for path in [V3, Q]:
         if not path.is_file():
-            fail(f"Missing input {path}")
+            fail(f"Missing required input {path}")
+    H = next((p for p in H_CANDIDATES if p.is_file()), None)
+    if H is None:
+        print("Historical OL population unavailable: continuing with R2 query evidence only.")
+        print("Historical OL titles/edition-derived years will be blank; no identity conclusion is inferred.")
     pair = pd.read_parquet(V3)
     if len(pair) != 291859 or pair[["project_work_id","openalex_work_id"]].duplicated().any():
         fail("v3 not frozen expected pair set")
@@ -54,11 +65,15 @@ def main():
     r2["author_key"] = r2.query_author.map(norm)
     r2 = r2.loc[r2.title_key.ne("") & r2.author_key.ne("")].copy()
     r2 = r2.drop_duplicates(["project_work_id", "title_key", "author_key", "alias_source_record_id"])
-    hist = pd.read_csv(H, sep="\t", dtype=str, keep_default_na=False)
-    if not {"work_key", "title", "first_publish_year"}.issubset(hist.columns):
-        fail("Historical OL population unexpected schema")
-    hist["ol_id"] = hist.work_key.str.replace("/works/", "", regex=False)
-    old = hist.set_index("ol_id")[["title", "first_publish_year"]].to_dict("index")
+    old = {}
+    if H is not None:
+        hist = pd.read_csv(H, sep="\t", dtype=str, keep_default_na=False)
+        if not {"work_key", "title", "first_publish_year"}.issubset(hist.columns):
+            fail(f"Historical OL population unexpected schema: {H}")
+        hist["ol_id"] = hist.work_key.str.replace("/works/", "", regex=False)
+        if hist.ol_id.duplicated().any():
+            fail(f"Historical OL population has duplicate work IDs: {H}")
+        old = hist.set_index("ol_id")[["title", "first_publish_year"]].to_dict("index")
     clusters, members = [], []
     for (title_key, author_key), group in r2.groupby(["title_key", "author_key"], sort=False):
         wids = sorted(set(group.project_work_id))
@@ -110,13 +125,15 @@ def main():
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "total_shared_exact_r2_title_author_clusters": len(c),
         "distinct_project_w_in_shared_clusters": len(set(";".join(c.project_w_ids).split(";"))),
-        "ulysses_cluster": {k:(int(v) if isinstance(v, (int,)) else v)
-                           for k,v in target.to_dict().items()},
+        # DataFrame.to_json converts pandas/numpy scalars to JSON-compatible types.
+        "ulysses_cluster": json.loads(match3.iloc[[0]].to_json(orient="records"))[0],
+        "historical_ol_enrichment": str(H) if H is not None else None,
         "notes": [
             "Shared search strings do not automatically imply the same underlying literary work.",
             "Repeated pair placements across Project W are NOT an error estimate.",
             "No Project W or candidate records have been merged, excluded, or edited.",
-            "The source publication-year field is edition-derived minimum, not proven original work first-publication year.",
+            "Historical OL labels are optional and absent values are not negative evidence.",
+            "When available, the historical year field is edition-derived minimum, not proven original work first-publication year.",
             "The sensitivity analysis of confirmed SAME-work clusters belongs in a separate subsequent release."
         ],
     }
@@ -130,7 +147,10 @@ def main():
         m.to_csv(mp, sep="\t", index=False)
         sp.write_text(json.dumps(summary, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
         hp.write_text(json.dumps({
-            "inputs_sha256": {str(p.relative_to(ROOT)): sha(p) for p in [V3,Q,H]},
+            "inputs_sha256": {
+                str(p.relative_to(ROOT) if p.is_relative_to(ROOT) else p): sha(p)
+                for p in ([V3, Q] + ([H] if H is not None else []))
+            },
             "outputs_sha256": {p.name:sha(p) for p in [cp,mp,sp]},
             "script_sha256": sha(Path(__file__)),
             "no_existing_data_modified":True
@@ -148,7 +168,8 @@ def main():
     print("\nTop 15 identity-risk query clusters:")
     print(c[["query_title","query_author","distinct_project_w",
              "cross_w_repeated_pair_placements"]].head(15).to_string(index=False))
-    print("\nHistorical OL details for Ulysses:")
+    print("\nHistorical OL enrichment:", str(H) if H is not None else "NOT AVAILABLE (query-only audit)")
+    print("\nOL query IDs and optional historical details for Ulysses:")
     print(m.loc[m.cluster_id.eq(target.cluster_id)].to_string(index=False))
     print("\nOutput:",OUT)
 
