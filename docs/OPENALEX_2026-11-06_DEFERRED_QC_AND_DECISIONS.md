@@ -50,8 +50,8 @@
 ## D. 優先して閉じる順番
 
 - P0（保全）：本番JSONL・queue・未追跡runner・manifestの所在、hash、バックアップとアクセス権、封印holdoutを確認。
-- P1（分析直近）：OL×Goodreads比較でcomplete case・identityマッピング・版数の意味を監査。scope未確定の探索的結果として扱う。
-- P2（本分析前）：Ulysses/Heart of Darknessのidentity、主分析scopeの根拠、OpenAlex文献適格性の規約、3,106件のプロヴェナンスをレビュー。
-- P3（継続的）：ほか831の同一検索群、OA別IDの同内容重複、retrieval網羅性／時系列分析を版管理して検証。
+- P1（次チャットの最初）：Ulysses/Heart of Darkness以外の831共有クエリ群も含めた全833群の重複影響・順位・集中度を読み取り専用で計算。グループ別重複の単純合計を全体影響と誤認しない。分析用の仮説的集約と正式な同一性判断を分離し、重大群のレビュー優先度を作る。
+- P2（その次）：影響上位のOL Work/Project Wの同一性・複数作品収録の関係を確認。重大問題を明示したうえでOL×Goodreads比較を実行し、complete case・identityマッピング・版数の意味を監査。
+- P3（本分析前・継続的）：主分析scopeの根拠、OpenAlex文献適格性、既存3,106件の由来、OA異IDの同内容重複、retrieval網羅性と時系列を分離して検証。全833件の人手確認が済むまで探索的分析全体を止める必要はない。
 
 参照：`docs/OPENALEX_2026-11-06_RETRIEVAL_LLM_PRODUCTION_HANDOFF.md`／`docs/VISIBILITY_2026-11-06_NEXT_STEPS.md`。課題解決ログは別コミットで追加し、本台帳の未解決項目がいつどう閉じられたかを追跡可能にする。
