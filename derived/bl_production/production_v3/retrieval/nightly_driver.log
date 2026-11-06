@@ -207,3 +207,43 @@ cumulative requests so far (all batches): 32766; per-run cap 7000; cumulative ca
 
 batch 9: 2412/2552 physical queries have a status; requests this invocation 0; cumulative 32766
 2026-11-05T19:06:30+09:00 batch 9: sent 0 (tonight 0); stop_reason='outside night window, London time 10:06'; runner rc=3
+2026-11-05T19:06:34+09:00 night done (0 requests); next night 2026-11-06
+2026-11-05T19:06:34+09:00 sleeping until 2026-11-06 07:05 JST (718 min)
+2026-11-06T07:05:00+09:00 batch 9: starting, remaining tonight 7000
+batch 9: targets 1000  logical 3017  physical 2552  quote-skipped 17  quote-stripped twins 17
+cumulative requests so far (all batches): 32766; per-run cap 7000; cumulative cap 200000
+
+batch 9: 2552/2552 physical queries have a status; requests this invocation 186; cumulative 32952
+2026-11-06T07:22:52+09:00 batch 9: sent 186 (tonight 186); stop_reason=''; runner rc=0
+2026-11-06T07:22:56+09:00 batch 10: starting, remaining tonight 6814
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(90112 bytes read)
+batch 10: targets 1000  logical 3028  physical 2645  quote-skipped 28  quote-stripped twins 28
+cumulative requests so far (all batches): 32952; per-run cap 6814; cumulative cap 200000
+
+batch 10: 480/2645 physical queries have a status; requests this invocation 677; cumulative 33629
+2026-11-06T08:39:52+09:00 batch 10: sent 677 (tonight 863); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(90112 bytes read)'; runner rc=3
+2026-11-06T08:39:52+09:00 batch 10: network stop; waiting 10 min, then resuming the same batch (resume 1/2 tonight)
+2026-11-06T08:49:52+09:00 batch 10: starting, remaining tonight 6137
+
+STOPPED: STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response
+batch 10: targets 1000  logical 3028  physical 2645  quote-skipped 28  quote-stripped twins 28
+cumulative requests so far (all batches): 33629; per-run cap 6137; cumulative cap 200000
+
+batch 10: 802/2645 physical queries have a status; requests this invocation 465; cumulative 34094
+2026-11-06T09:38:59+09:00 batch 10: sent 465 (tonight 1328); stop_reason='STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response'; runner rc=3
+2026-11-06T09:38:59+09:00 batch 10: network stop; waiting 10 min, then resuming the same batch (resume 2/2 tonight)
+2026-11-06T09:48:59+09:00 batch 10: starting, remaining tonight 5672
+batch 10: targets 1000  logical 3028  physical 2645  quote-skipped 28  quote-stripped twins 28
+cumulative requests so far (all batches): 34094; per-run cap 5672; cumulative cap 200000
+
+batch 10: 2645/2645 physical queries have a status; requests this invocation 2386; cumulative 36480
+2026-11-06T13:26:54+09:00 batch 10: sent 2386 (tonight 3714); stop_reason=''; runner rc=0
+2026-11-06T13:26:58+09:00 batch 11: starting, remaining tonight 3286
+
+STOPPED: outside night window, London time 06:00
+batch 11: targets 1000  logical 3022  physical 2428  quote-skipped 22  quote-stripped twins 22
+cumulative requests so far (all batches): 36480; per-run cap 3286; cumulative cap 200000
+
+batch 11: 831/2428 physical queries have a status; requests this invocation 1055; cumulative 37535
+2026-11-06T15:00:03+09:00 batch 11: sent 1055 (tonight 4769); stop_reason='outside night window, London time 06:00'; runner rc=3
