@@ -8,7 +8,24 @@
 - 未完：OpenAlex×Open Library Edition数×Goodreads ratings/reviewsの実データ照合・相関分析。最後の比較スクリプトは2026-11-06にGitへ追加されたが、現時点でユーザーからサーバーの実行成功は報告されていない。結果を創作しない。
 - ブランチ：`openalex-r2a1-production-20261021`。サーバー：`~/canon-pipeline-openalex-a2val`。本番データはサーバーの既存フォルダーにあり、Gitに全件含まれるとは限らない。
 
-## 1. 再開時の最初の工程（実行は任意、現時点では停止可）
+## 1. 次の最優先工程：残り831クエリ群の影響を先に計測（2026-11-06更新）
+
+ユーザーとの最新合意：OpenAlex × Open Library × Goodreadsの比較を実行する前に、残り831の同一title+author R2検索クエリ群が、作品別可視性に与えうる影響を評価する。Ulysses/Heart of Darknessの上位2群は既に感度分析済みだが、残り831群の合計影響・順位への影響は未計算。既存の最後のOL×Goodreads比較スクリプトは未実行のまま保留する。
+
+入力：`derived/openalex_production/analysis_v3_shared_r2_query_identity_risk_v0_1/shared_r2_title_author_clusters.tsv`、`shared_r2_query_cluster_members.tsv`、v3採用W×OpenAlex IDペア、文献type派生表、32,066W書誌証拠表。
+
+この新しい分析コードはまだGitに存在しない。次のチャットで新規に作成し、既存結果を変更せず、別名`analysis_v3_all_shared_query_impact_v0_1`等に出力する。
+
+分析内容：
+1. 833全グループの個別影響（W数、元ペア数、OA IDのunion数、重複配置数、type別、上位Wの順位影響）を計算する。
+2. 上位2群と残り831群を分けて、重複配置総量・集中度・ランキングの感度を調べる。`同一クエリ`を`同一作品`と断定しない。
+3. 異なるグループに同一Project Wが属しうるので、グループ別重複を単純合算して全体の減少数としない。必要なら連結成分／条件付き仮集約を用い、全体の正確なunionと個別影響の両方を別々に提示する。
+4. レビュー優先度は件数だけでなく、上位順位への影響・主分析scopeとの関連・OL source identityの矛盾・外部DBと結合する予定の作品を考慮する。
+5. 書誌的同一性を研究者が確認できたものだけ別versionのidentity decisionに反映し、残りはUNREVIEWEDを保持する。223,115件のLLM推論を再実行せず、v3と封印holdoutを不変に保つ。
+
+これが通ったら、重大なidentity問題を優先レビューし、その影響を注記した上で次の`2. OpenAlex×OL×Goodreads`へ進む。全833群の人手確認を必須の停止条件にしない。
+
+## 2. その後の工程：OpenAlex×OL×Goodreads比較（現時点は未実行）
 
 スクリプト：`scripts/analyze_openalex_v3_ol_goodreads_bridge_v0_1.py`。
 
@@ -47,7 +64,7 @@ python -B scripts/analyze_openalex_v3_ol_goodreads_bridge_v0_1.py
 - `Pride and Prejudice`、`The Waste Land`等のscope外の可能性がある作品を、最終の1880〜1950英語小説の結論へ流用しない。
 - Goodreadsの評価数はUCSDの歴史的観測値であり、2026年リアルタイムの現在値と呼ばない。
 
-## 2. その後の分析のロードマップ（並行して進めてよい）
+## 3. その後の分析のロードマップ（並行して進めてよい）
 
 ### A. 記述統計：学術的可視性の分布
 
@@ -75,7 +92,7 @@ python -B scripts/analyze_openalex_v3_ol_goodreads_bridge_v0_1.py
 - サンプル検証と推定精度を混同しない。1800 Wなどのquery重複を自動で同一作品とみなさない。
 - 見つかった相関を正典形成の因果的メカニズムと呼ばず、補助的な文学史・受容・教育史の資料と照合して解釈する。
 
-## 3. データの安全性と禁則
+## 4. データの安全性と禁則
 
 - 再実行するのは必要な分析だけ。本番223,115件のLLM推論を再実行しない。
 - `git add -A`／丸ごと`derived`の公開は禁止。サーバー上の凍結JSONLや未開封holdout600の予測を無断Git公開しない。
