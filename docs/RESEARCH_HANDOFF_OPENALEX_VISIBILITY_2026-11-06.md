@@ -16,6 +16,12 @@
 4. `VISIBILITY_2026-11-06_NEXT_STEPS.md`  
    これからの実行順、OpenAlex×Open Library Edition×Goodreadsの未実行スクリプト、検証する観測数、異領域比較、scope審査、最終研究分析への移行。
 
+## 最新の作業順（2026-11-06追記）
+
+最初に残り831のshared title+author R2 queryグループの影響を一括分析する。既にUlysses/Heart of Darkness上位2グループを仮集約した影響は実測済み。それ以外のグループの集計・順位・集中度への影響は未計算なので、まず別versionの読み取り専用診断とレビュー優先順位を作成する。グループ別の重複配置を単純合算せず、同じProject Wが複数のグループに参加する可能性に注意する。同一検索クエリを同一作品と断定しない。
+
+その後、優先度上位の同一性を確認してから、すでにGitにあるが実行未確認の`analyze_openalex_v3_ol_goodreads_bridge_v0_1.py`による他DB比較へ移る。全833グループの手動確定を一律に要求しない。詳細は`VISIBILITY_2026-11-06_NEXT_STEPS.md`。
+
 ## 現況（2026-11-06時点）
 
 | フェーズ | 状態 | 結果／留意 |
@@ -58,6 +64,6 @@
 
 ## 新しいチャットでの開始例
 
-> canon-pipelineの`docs/RESEARCH_HANDOFF_OPENALEX_VISIBILITY_2026-11-06.md`を入口に、4文書を読んで引き継いでください。OpenAlex R2+A1 LLM本番223,115件は完了、統合v3と可視性の探索的6比較も完了しています。最後に追加したOpenAlex×OL Editions×Goodreads比較スクリプトは実行結果未確認です。凍結結果と封印holdoutを変更せず、未完了事項と新たな分析を別々に進めたいです。
+> canon-pipelineの`docs/RESEARCH_HANDOFF_OPENALEX_VISIBILITY_2026-11-06.md`を入口に、4文書を読んで引き継いでください。OpenAlex R2+A1 LLM本番223,115件は完了、統合v3と可視性の探索的6比較も完了しています。次は残り831共有クエリ群の重複影響診断を先に行い、その後OpenAlex×OL Editions×Goodreads比較へ進みます。比較スクリプトは実行結果未確認です。凍結結果と封印holdoutを変更せず、未完了事項と新たな分析を別々に進めたいです。
 
 本引き継ぎの数値出典：ユーザー提供のサーバー実行出力、該当Gitコード、versioned集計／manifest。外部学術文献の新たな書誌的主張を追加したものではない。
