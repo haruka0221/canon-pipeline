@@ -1,0 +1,69 @@
+{
+  "release": "analysis_v3_scope_source_alert_robustness_v0_1",
+  "status": "EXPLORATORY_SOURCE_ALERT_SENSITIVITY_NOT_SCOPE_ADJUDICATED",
+  "all_project_w": 32066,
+  "oa_measured_w": 31713,
+  "gr_metrics_observed_w": 4642,
+  "scenarios": [
+    {
+      "scenario": "BASELINE_ALL_W",
+      "project_w": 32066,
+      "oa_measured_project_w": 31713,
+      "matched_oa_and_gr_project_w": 4642,
+      "goodreads_observation_fraction_of_oa_measured": 0.14637530350329517,
+      "oa_core3_median_measured": 0.0,
+      "oa_core3_p90_measured": 2.0,
+      "oa_core3_candidate_pair_sum_measured": 146724,
+      "unique_accepted_goodreads_work_ids": 4642,
+      "selection_definition": "SOURCE_EVIDENCE_ONLY_NOT_SCOPE_ADJUDICATED"
+    },
+    {
+      "scenario": "NO_SHARED_QUERY_AND_SINGLE_OL",
+      "project_w": 29718,
+      "oa_measured_project_w": 29366,
+      "matched_oa_and_gr_project_w": 4293,
+      "goodreads_observation_fraction_of_oa_measured": 0.14618947081659062,
+      "oa_core3_median_measured": 0.0,
+      "oa_core3_p90_measured": 2.0,
+      "oa_core3_candidate_pair_sum_measured": 117505,
+      "unique_accepted_goodreads_work_ids": 4293,
+      "selection_definition": "SOURCE_EVIDENCE_ONLY_NOT_SCOPE_ADJUDICATED"
+    },
+    {
+      "scenario": "NO_SOURCE_ALERTS",
+      "project_w": 27792,
+      "oa_measured_project_w": 27451,
+      "matched_oa_and_gr_project_w": 3791,
+      "goodreads_observation_fraction_of_oa_measured": 0.1381006156424174,
+      "oa_core3_median_measured": 0.0,
+      "oa_core3_p90_measured": 1.0,
+      "oa_core3_candidate_pair_sum_measured": 58759,
+      "unique_accepted_goodreads_work_ids": 3791,
+      "selection_definition": "SOURCE_EVIDENCE_ONLY_NOT_SCOPE_ADJUDICATED"
+    },
+    {
+      "scenario": "NO_SOURCE_ALERTS_PLUS_WD_WINDOW_ENGLISH",
+      "project_w": 2167,
+      "oa_measured_project_w": 2166,
+      "matched_oa_and_gr_project_w": 1348,
+      "goodreads_observation_fraction_of_oa_measured": 0.6223453370267775,
+      "oa_core3_median_measured": 1.0,
+      "oa_core3_p90_measured": 34.0,
+      "oa_core3_candidate_pair_sum_measured": 39111,
+      "unique_accepted_goodreads_work_ids": 1348,
+      "selection_definition": "SOURCE_EVIDENCE_ONLY_NOT_SCOPE_ADJUDICATED"
+    }
+  ],
+  "methodological_warning": "Do not select on review_priority_score: score includes OpenAlex CORE3 and would cause outcome-dependent filtering.",
+  "scope_status": "NO_RESEARCHER_SCOPE_ADJUDICATION",
+  "notes": [
+    "Only bibliographic/identity SOURCE SIGNALS define scenarios; no source-signal absence establishes original scope.",
+    "Wikidata P577/P407 are not independently verified first publication year/original language.",
+    "OL subjects may reflect attached collections or editions and are not definitive genre labels.",
+    "Scenario percentiles are recomputed from the paired subset separately for each cohort.",
+    "Differences between correlations are descriptive; case selection is strongly nonrandom.",
+    "OpenAlex values are provisional candidate W x OA pairs, not validated citation counts.",
+    "Zero is distinct from unmeasured NA. Missing Goodreads is not zero readership.",
+    "All Project W units retain frozen identities; no merges, scope status updates, ratings allocations, or original analysis mutation."
+  ]
+}
