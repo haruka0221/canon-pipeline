@@ -1,0 +1,30 @@
+{
+  "release": "analysis_v3_goodreads_selection_missingness_v0_1",
+  "created_utc": "2026-11-07T04:14:43.228022+00:00",
+  "input_source": "derived/openalex_production/analysis_v3_ol_goodreads_provisional_comparison_v0_2/all_project_w_provisional_visibility_ol_goodreads.tsv",
+  "input_sha256": "504223c45b017891d9cb5a6ee04cb84cadd9438ba08d44eef096942f3208efdc",
+  "builder_sha256": "45dded0e2d43ef094f951e9df09fabc186e595681b6ebaa4b71ae72be2c68865",
+  "outputs": {
+    "goodreads_selection_by_stratum_v0_1.tsv": {
+      "rows": 33,
+      "sha256": "143f81a8846065be22d0a131340ecefac19e619f5eae46623a3953b6456a5278"
+    },
+    "oa_candidate_counts_by_goodreads_availability_v0_1.tsv": {
+      "rows": 6,
+      "sha256": "b9af757878927ca6f42f05775a084475a9d49872325d9f56486213fc1abda4ff"
+    },
+    "shared_goodreads_metric_id_multiplicity_v0_1.tsv": {
+      "rows": 0,
+      "sha256": "bbf927c86c419559ec2816f931b0d5db1c68819cea4a3e6b11da9b3d33cd6d29"
+    },
+    "high_core3_missing_goodreads_review_examples_v0_1.tsv": {
+      "rows": 40,
+      "sha256": "0995b6036ee53f4e08ea53b8074557d6944e76fc7bfe042dccc30ca2afefb2b0"
+    },
+    "summary_v0_1.json": {
+      "sha256": "bb232f8963df5e1240187a700a5112ba8368eece8429d7e54af5a4ad29bb8bed"
+    }
+  },
+  "no_upstream_modified": true,
+  "check_only_supported": true
+}

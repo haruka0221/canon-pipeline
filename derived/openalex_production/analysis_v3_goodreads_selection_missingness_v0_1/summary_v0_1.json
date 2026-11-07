@@ -1,0 +1,101 @@
+{
+  "release": "analysis_v3_goodreads_selection_missingness_v0_1",
+  "status": "EXPLORATORY_SELECTION_DIAGNOSTIC_NOT_CAUSAL_NOT_SCOPE_ADJUDICATED",
+  "input_population": "frozen v0.2 32066 Project W frame",
+  "all_project_w": 32066,
+  "openalex_measured_w": 31713,
+  "openalex_unmeasured_w": 353,
+  "shared_query_risk_project_w": 1797,
+  "w_with_exactly_one_accepted_goodreads_id": 6022,
+  "w_with_observed_historical_goodreads_ratings": 4642,
+  "oa_measured_w_with_observed_historical_goodreads_ratings": 4642,
+  "share_of_oa_measured_w_with_goodreads_ratings": 0.146375,
+  "unique_observed_historical_goodreads_work_ids": 4642,
+  "shared_observed_goodreads_ids_across_project_w": 0,
+  "project_w_in_shared_observed_goodreads_ids": 0,
+  "distribution_observed_oa_vs_goodreads_missing": [
+    {
+      "academic_indicator": "OA_ALL_TYPES",
+      "gr_ratings_observed": "YES",
+      "oa_measured_w": 4642,
+      "oa_candidate_pair_sum": 86913,
+      "min": 0,
+      "median": 1.0,
+      "mean": 18.7232,
+      "p90": 33.0,
+      "p99": 337.77,
+      "max": 2102
+    },
+    {
+      "academic_indicator": "OA_ALL_TYPES",
+      "gr_ratings_observed": "NO",
+      "oa_measured_w": 27071,
+      "oa_candidate_pair_sum": 86984,
+      "min": 0,
+      "median": 0,
+      "mean": 3.2132,
+      "p90": 1.0,
+      "p99": 37.0,
+      "max": 4406
+    },
+    {
+      "academic_indicator": "OA_ALL_TYPES",
+      "gr_ratings_observed": "ALL",
+      "oa_measured_w": 31713,
+      "oa_candidate_pair_sum": 173897,
+      "min": 0,
+      "median": 0,
+      "mean": 5.4835,
+      "p90": 3.0,
+      "p99": 95.0,
+      "max": 4406
+    },
+    {
+      "academic_indicator": "OA_CORE3",
+      "gr_ratings_observed": "YES",
+      "oa_measured_w": 4642,
+      "oa_candidate_pair_sum": 74681,
+      "min": 0,
+      "median": 1.0,
+      "mean": 16.0881,
+      "p90": 29.0,
+      "p99": 284.9,
+      "max": 1891
+    },
+    {
+      "academic_indicator": "OA_CORE3",
+      "gr_ratings_observed": "NO",
+      "oa_measured_w": 27071,
+      "oa_candidate_pair_sum": 72043,
+      "min": 0,
+      "median": 0,
+      "mean": 2.6613,
+      "p90": 1.0,
+      "p99": 30.0,
+      "max": 3733
+    },
+    {
+      "academic_indicator": "OA_CORE3",
+      "gr_ratings_observed": "ALL",
+      "oa_measured_w": 31713,
+      "oa_candidate_pair_sum": 146724,
+      "min": 0,
+      "median": 0,
+      "mean": 4.6266,
+      "p90": 2.0,
+      "p99": 80.0,
+      "max": 3733
+    }
+  ],
+  "risk_sample_goodreads_ratings_observed": 0,
+  "nonrisk_sample_goodreads_ratings_observed": 4642,
+  "interpretation_notes": [
+    "Counts are Project W units and may overcount conceptual literary works through identity splits.",
+    "Goodreads observed means an accepted v0.2 ID and historical UCSD metric value; missing means identity, carrier, or ambiguity and does not imply zero readership.",
+    "Academic counts represent candidate (W, OpenAlex Work ID) pairs, not verified scholarly engagements.",
+    "The matched population is nonrandom: this is a descriptive selection check, not a correction for missing not at random.",
+    "OA measurable-zero is not the same as OA unqueried or held/unmeasured.",
+    "No scope adjudication, identity merging, Goodreads v0.1 overlay adoption, or re-estimated correlation.",
+    "Existing frozen v0.2 table is the ONLY analytical frame; approved 7-source-link overlay is kept separately."
+  ]
+}
