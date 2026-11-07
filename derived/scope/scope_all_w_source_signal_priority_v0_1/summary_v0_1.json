@@ -1,0 +1,61 @@
+{
+  "release": "scope_all_w_source_signal_priority_v0_1",
+  "status": "EXPLORATORY_EVIDENCE_SIGNALS_AND_REVIEW_PRIORITY_ONLY",
+  "active_project_w": 32066,
+  "oa_measured_w": 31713,
+  "historical_goodreads_observed_w": 4642,
+  "shared_query_risk_w": 1797,
+  "shared_query_risk_w_with_goodreads_observed": 0,
+  "adopted_wikidata_qid_w": 6177,
+  "frozen_independent_random80_w": 80,
+  "all_w_automatic_scope_decisions": 0,
+  "researcher_scope_decisions_created": 0,
+  "categories": {
+    "period_signal": {
+      "MIXED_DATE_EVIDENCE_REVIEW": 620,
+      "NO_DATE_EVIDENCE": 4,
+      "ONLY_1880_1950_YEAR_SIGNALS": 31442
+    },
+    "ol_edition_year_signal": {
+      "NO_DATED_SIGNAL": 4,
+      "ONLY_1880_1950_YEAR_SIGNALS": 32062
+    },
+    "wd_year_signal": {
+      "MIXED_PERIOD_YEAR_SIGNALS": 22,
+      "NO_DATED_SIGNAL": 27595,
+      "ONLY_1880_1950_YEAR_SIGNALS": 3851,
+      "ONLY_POST_1950_YEAR_SIGNALS": 215,
+      "ONLY_PRE_1880_YEAR_SIGNALS": 383
+    },
+    "bibliographic_source_combination": {
+      "HISTORICAL_OL_AND_WIKIDATA": 6177,
+      "HISTORICAL_OL_ONLY": 25885,
+      "NO_HISTORICAL_OL_OR_ADOPTED_WIKIDATA": 4
+    },
+    "priority_score": {
+      "0": 26983,
+      "10": 8,
+      "11": 1,
+      "2": 1387,
+      "3": 1064,
+      "4": 1836,
+      "5": 471,
+      "6": 190,
+      "7": 52,
+      "8": 71,
+      "9": 3
+    }
+  },
+  "limits": [
+    "OL historical minimum years come from linked editions; they are NOT original-work publication years.",
+    "Wikidata P577 years are bibliographic statements, not verified first-original years.",
+    "Wikidata P407 language statements are NOT proof of an English original; P31 is NOT proof of a single novel/novella.",
+    "Historical OL subjects can describe topics, editions or collections; form regex is a review signal only.",
+    "Priority scores rank follow-up effort, not evidence confidence or literary canonicity.",
+    "No work-level IN_SCOPE or OUT_OF_SCOPE has been asserted.",
+    "Goodreads observed values are historical UCSD carrier observations in frozen v0.2 only.",
+    "OA core3 counts are unverified candidate document pairs; 353 unmeasured W stay NA.",
+    "Random 80 remains separately identifiable; no correctness/prevalence estimates inferred from AI candidate labels.",
+    "No Project W merges, metric allocations, reranked percentiles, source updates or human adjudications."
+  ]
+}

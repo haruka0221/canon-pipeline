@@ -1,0 +1,37 @@
+{
+  "release": "scope_all_w_source_signal_priority_v0_1",
+  "created_utc": "2026-11-07T06:06:02.974579+00:00",
+  "input_sha256": {
+    "combined": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/scope/scope_combined_bibliographic_evidence_v0_1/scope_combined_project_w_bibliographic_evidence_v0_1.tsv",
+      "sha256": "e6d01748327ef0eed243e0dc35f862cd9480714f10efaba7380ee3d5d38e523c"
+    },
+    "comparison": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/openalex_production/analysis_v3_ol_goodreads_provisional_comparison_v0_2/all_project_w_provisional_visibility_ol_goodreads.tsv",
+      "sha256": "504223c45b017891d9cb5a6ee04cb84cadd9438ba08d44eef096942f3208efdc"
+    },
+    "random80_template": {
+      "path": "/home/tsutsui/canon-pipeline-openalex-a2val/derived/scope/scope_evidence_pilot_v1/scope_evidence_review_template_v1.tsv",
+      "sha256": "3b442fd90116bc422b4ac3b328f2d67348c18986053371db9a48001cdc80de30"
+    }
+  },
+  "builder_sha256": "a211cf412f3f2753eca0a4a509caaaad8d6bd313bae97fe9f64773c60369a715",
+  "outputs": {
+    "all_project_w_bibliographic_source_signals_v0_1.tsv": {
+      "rows": 32066,
+      "sha256": "85373189f4d77cdd4d9fb8313afca0e7e4590379a092c6e879bfe205150ff49a"
+    },
+    "review_priority_top400_source_signals_v0_1.tsv": {
+      "rows": 400,
+      "sha256": "fdf56273457099f5b86b73dd6cfb55271cb6bdd78aa365ed215760232b726c75"
+    },
+    "fixed_random80_source_signals_v0_1.tsv": {
+      "rows": 80,
+      "sha256": "63b8c903c0bf8fad80ecb0dead3ae1f3cb03141bb6e2158d257f033777c5cf87"
+    },
+    "summary_v0_1.json": {
+      "sha256": "6f229673738c022b36597dd968b03508aab844a22f0ae2b85d64ddbc8eeed644"
+    }
+  },
+  "upstream_mutated": false
+}
