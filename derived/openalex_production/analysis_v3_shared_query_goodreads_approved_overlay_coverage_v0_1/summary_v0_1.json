@@ -1,0 +1,41 @@
+{
+  "release": "analysis_v3_shared_query_goodreads_approved_overlay_coverage_v0_1",
+  "analysis_state": "EXPLORATORY_SOURCE_COVERAGE_AND_GR_ID_METRIC_AVAILABILITY_ONLY",
+  "coverage_unit": "project_w_with_at_least_one_approved_OL_to_Goodreads_source_link",
+  "denominator_shared_query_risk_project_w": 1797,
+  "baseline_crosswalk_v1": {
+    "match_w": 0,
+    "ambiguous_w": 300,
+    "no_candidate_w": 1497
+  },
+  "approved_overlay": {
+    "source_ol_links": 7,
+    "project_w_with_approved_link": 7,
+    "distinct_goodreads_work_ids": 3,
+    "fraction_of_1797_w_with_approved_source_link": 0.00389538,
+    "percent_of_1797_w_with_approved_source_link": 0.38954,
+    "historical_ambiguous_w_not_in_approved_overlay": 293,
+    "historical_no_candidate_w_not_in_approved_overlay": 1497,
+    "upstream_v1_modified": false
+  },
+  "distinct_gr_work_metric_observation": {
+    "RATINGS_AND_REVIEWS_PRESENT": 2,
+    "NO_HISTORICAL_CARRIER_ROWS": 1
+  },
+  "historical_gr_work_ids_with_ratings_available": 2,
+  "historical_gr_work_ids_with_reviews_available": 2,
+  "project_w_metric_rows_newly_adopted": 0,
+  "project_w_identity_merges": 0,
+  "scope_adjudications": 0,
+  "openalex_correlation_recomputed": false,
+  "comparison_population_selection_note": "Original crosswalk v1 has zero MATCH among 1,797 risk W. This is nonrandom missingness; overlay is purposefully reviewed and not representative.",
+  "interpretation": "7 approved W-source memberships do NOT establish seven distinct conceptual works; the three GR IDs are also not adjudicated conceptual literary works.",
+  "safeguards": [
+    "No upstream data mutated",
+    "No Goodreads metric is copied to Project W rows",
+    "No Project W merge or final scope assignment",
+    "Goodreads numbers, if observed, derive from historical UCSD carrier, not current Goodreads",
+    "Conflicting historical counts treated as missing and flagged",
+    "Existing v0.2 correlations and OpenAlex v3 left unchanged"
+  ]
+}

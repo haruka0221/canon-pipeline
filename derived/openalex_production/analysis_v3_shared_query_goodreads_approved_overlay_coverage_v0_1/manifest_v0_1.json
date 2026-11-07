@@ -1,0 +1,34 @@
+{
+  "release": "analysis_v3_shared_query_goodreads_approved_overlay_coverage_v0_1",
+  "created_utc": "2026-11-07T03:47:13.542011+00:00",
+  "status": "EXPLORATORY_NOT_SCOPE_OR_WORK_IDENTITY_ADJUDICATION",
+  "input_sha256": {
+    "derived/identity/goodreads_shared_query_3groups_match_review_evidence_v0_1/approved_ol_goodreads_source_identity_overlay_v0_1.tsv": "a84da92f733f86d47451aeb77c3c4324dbb118481f50068c3e5e1ea22423e09d",
+    "derived/identity/goodreads_shared_query_3groups_match_review_evidence_v0_1/release_manifest_v0_1.json": "25fdb8fc0e952b2ed2205f2aa9166571221e6e79c9c2e5c63d2946c0765dd398",
+    "derived/identity/goodreads_shared_query_3groups_match_review_evidence_v0_1/goodreads_shared_query_3groups_approved_match_review_v0_1_2026-11-06.tsv": "a46762946c534c780b410abff9e4e334e119bc6314c0731fcbabdd367e2a0e31",
+    "derived/openalex_production/analysis_v3_shared_query_goodreads_missingness_v0_1/risk_w_goodreads_resolution_audit.tsv": "ec57806d863903c2f66a297f8efcbbd472f856e162b073525b513cd43a0c91f4",
+    "derived/openalex_production/analysis_v3_ol_goodreads_provisional_comparison_v0_2/all_project_w_provisional_visibility_ol_goodreads.tsv": "504223c45b017891d9cb5a6ee04cb84cadd9438ba08d44eef096942f3208efdc",
+    "derived/crosswalks/goodreads_work_crosswalk_v1.tsv": "67669070e58630d86031d9aa69f5d241c72910b10abb75835797656b60039d56",
+    "derived/goodreads_ucsd_match.tsv": "f09baf71463b1d81f49b854210c09f968233f2fffe3501292a2589b179fa3a38"
+  },
+  "output_sha256": {
+    "shared_query_risk_w_source_link_coverage_overlay_v0_1.tsv": {
+      "sha256": "313ac743a0505b2b221703851e57a5d1c8fde99209a5c2bce48d20a1a38f806a",
+      "bytes": 216031
+    },
+    "approved_goodreads_work_id_metric_availability_v0_1.tsv": {
+      "sha256": "4c9cc4eb5f4dff187711fc073358c121f6d454340789e85f057c3a33c639ae84",
+      "bytes": 973
+    },
+    "summary_v0_1.json": {
+      "sha256": "f773e9be4b4c753133663b4280e173add192b746b0d7e1d97af450c2bacd3c94",
+      "bytes": 1960
+    }
+  },
+  "output_row_counts": {
+    "shared_query_risk_w_source_link_coverage_overlay_v0_1.tsv": 1797,
+    "approved_goodreads_work_id_metric_availability_v0_1.tsv": 3
+  },
+  "method": "overlay on risk-W coverage; inspect historical ratings only by distinct GR Work ID; no per-W metrics projection",
+  "upstream_unchanged": true
+}
