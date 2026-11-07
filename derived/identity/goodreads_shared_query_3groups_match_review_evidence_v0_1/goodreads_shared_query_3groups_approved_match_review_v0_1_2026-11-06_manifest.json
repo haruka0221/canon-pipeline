@@ -1,0 +1,32 @@
+{
+  "release": "goodreads_shared_query_3groups_approved_match_review_v0_1",
+  "date": "2026-11-06",
+  "input_review_proposal": {
+    "filename": "goodreads_shared_query_3groups_review_proposal_2026-11-06.tsv",
+    "sha256": "e803516a3989ed44e0463fefe9282eb24ce2f699cdadb0e2945831230931389a"
+  },
+  "output_review_file": {
+    "filename": "goodreads_shared_query_3groups_approved_match_review_v0_1_2026-11-06.tsv",
+    "sha256": "a46762946c534c780b410abff9e4e334e119bc6314c0731fcbabdd367e2a0e31"
+  },
+  "approved_gr_work_ids": {
+    "Rosalynde": "1534534",
+    "East Goes West": "1035773",
+    "Chita": "1930317"
+  },
+  "approved_project_w_rows": 7,
+  "distinct_goodreads_work_ids": 3,
+  "decision_scope": "Per-source OL Work -> Goodreads Work ID candidate MATCH approved by user; no automatic upstream crosswalk mutation",
+  "project_w_merging": "NOT_ADJUDICATED; NOT AUTHORIZED",
+  "corpus_scope": "NOT_ADJUDICATED; suggestions remain proposal only",
+  "upstream_goodreads_crosswalk_v1_unchanged": true,
+  "original_openalex_and_identity_unchanged": true,
+  "holdout_unchanged": true,
+  "known_caveats": [
+    "Goodreads Work IDs distinct from Book IDs",
+    "One GR Work ID shared by multiple OL Work records; do not treat multiple W rows as independent conceptual works",
+    "Source crosswalk v1 remains AMBIGUOUS and is not silently overwritten",
+    "Goodreads original_publication_year is not independently verified first publication",
+    "Any future adoption into analysis requires separate versioned crosswalk projection, avoiding duplicate contribution"
+  ]
+}

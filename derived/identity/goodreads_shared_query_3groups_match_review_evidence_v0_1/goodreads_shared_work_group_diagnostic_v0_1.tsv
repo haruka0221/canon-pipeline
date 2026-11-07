@@ -1,0 +1,4 @@
+review_group_label	approved_goodreads_work_id	project_w_count	ol_work_count	project_work_ids_semicolon	ol_work_ids_semicolon	project_w_merge_decision	conceptual_work_deduplication	status_for_w_level_visibility	group_notes
+Rosalynde	1534534	3	3	W000000884;W000005820;W000009109	OL1109103W;OL15823995W;OL18432732W	NOT_ADJUDICATED	NOT_PERFORMED	BLOCKED_PENDING_IDENTITY_AND_SCOPE_ADJUDICATION	Book 1542316 (user page) vs matched base review Book 1542314; same GR Work not independently verified.
+East Goes West	1035773	2	2	W000010194;W000016944	OL20153236W;OL3541275W	NOT_ADJUDICATED	NOT_PERFORMED	BLOCKED_PENDING_IDENTITY_AND_SCOPE_ADJUDICATION	GR Work convergence is not a Project W merge decision.
+Chita	1930317	2	2	W000006832;W000030926	OL16772696W;OL859610W	NOT_ADJUDICATED	NOT_PERFORMED	BLOCKED_PENDING_IDENTITY_AND_SCOPE_ADJUDICATION	GR Work convergence is not a Project W merge decision.

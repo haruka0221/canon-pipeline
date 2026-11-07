@@ -1,0 +1,56 @@
+{
+  "release": "goodreads_shared_query_3groups_match_review_evidence_v0_1",
+  "released_review_date": "2026-11-06",
+  "status": "VERSIONED_APPROVED_SOURCE_IDENTITY_REVIEW_ONLY",
+  "source_manifest_sha256": "f184218de3d703d87527ed461bd2cdecdaa85596e4f22d2e9bfa8acbf7fd4822",
+  "source_review_sha256": "a46762946c534c780b410abff9e4e334e119bc6314c0731fcbabdd367e2a0e31",
+  "source_review_proposal_sha256_not_reverified": "e803516a3989ed44e0463fefe9282eb24ce2f699cdadb0e2945831230931389a",
+  "qc": {
+    "approved_source_links": 7,
+    "project_work_ids": 7,
+    "ol_work_ids": 7,
+    "goodreads_work_ids": 3,
+    "identity_merges": 0,
+    "scope_adjudications": 0,
+    "goodreads_metrics_added_to_w_analyses": 0,
+    "upstream_crosswalk_v1_modified": false
+  },
+  "independent_upstream_qc": {
+    "upstream_crosswalk_checked": true,
+    "project_w_membership_checked": true,
+    "upstream_crosswalk_sha256": "67669070e58630d86031d9aa69f5d241c72910b10abb75835797656b60039d56",
+    "upstream_crosswalk_match_status_for_7": "AMBIGUOUS_FOR_ALL_SEVEN",
+    "project_w_bridge_sha256": "e6d01748327ef0eed243e0dc35f862cd9480714f10efaba7380ee3d5d38e523c"
+  },
+  "files": {
+    "goodreads_shared_query_3groups_approved_match_review_v0_1_2026-11-06.tsv": {
+      "sha256": "a46762946c534c780b410abff9e4e334e119bc6314c0731fcbabdd367e2a0e31",
+      "bytes": 5964
+    },
+    "goodreads_shared_query_3groups_approved_match_review_v0_1_2026-11-06_manifest.json": {
+      "sha256": "f184218de3d703d87527ed461bd2cdecdaa85596e4f22d2e9bfa8acbf7fd4822",
+      "bytes": 1571
+    },
+    "approved_ol_goodreads_source_identity_overlay_v0_1.tsv": {
+      "sha256": "a84da92f733f86d47451aeb77c3c4324dbb118481f50068c3e5e1ea22423e09d",
+      "bytes": 2174
+    },
+    "goodreads_shared_work_group_diagnostic_v0_1.tsv": {
+      "sha256": "548ae61699a184ad4a469dab8c81eaf7dd2cc10a3181093236b1aca32111b416",
+      "bytes": 893
+    },
+    "scope_review_seed_not_adjudicated_v0_1.tsv": {
+      "sha256": "95665b529eb3b2c5d6112705937d8d8ccb83e730728d5064329db128c75c4c42",
+      "bytes": 3018
+    }
+  },
+  "limitations": [
+    "NO Project W pairwise identity adjudication",
+    "NO corpus-scope adjudication",
+    "NO automatic GR Work metrics projection or W-unit correlation",
+    "Original Goodreads crosswalk v1 remains unchanged",
+    "Goodreads Book ID and Work ID distinct",
+    "Original publication and language signals not research-verified",
+    "Approval of GR ID does not prove all Project W are one conceptual work"
+  ]
+}

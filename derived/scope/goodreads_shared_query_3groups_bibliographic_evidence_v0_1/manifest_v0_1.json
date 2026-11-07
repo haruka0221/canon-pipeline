@@ -1,0 +1,19 @@
+{
+  "release": "goodreads_shared_query_3groups_bibliographic_evidence_v0_1",
+  "created_date": "2026-11-06",
+  "rows": 3,
+  "status": "PRELIMINARY_EXTERNAL_SOURCE_RESEARCH_NOT_RESEARCHER_ADJUDICATED",
+  "evidence_file": "three_group_external_bibliographic_evidence_v0_1.tsv",
+  "sha256": "fbdceea0e0a07ff0c62b6a18a9c5eccc48b9d0fc62ded935277ad5717af7b3a2",
+  "purpose": "First-pass independent bibliographic source inventory, separate from approved OL->GR source identity",
+  "researcher_adjudicated_in_scope_rows": 0,
+  "ol_source_work_independent_bibliographic_link_confirmed_rows": 0,
+  "external_urls_verified_as_public_pages": true,
+  "known_limitations": [
+    "Online bibliographic record describes a title/author, not necessarily each source-specific Open Library Work",
+    "No Project W merging",
+    "No definitive scope release",
+    "Short story/novella boundary remains methodological draft",
+    "GR reported original publication year not authoritative"
+  ]
+}
