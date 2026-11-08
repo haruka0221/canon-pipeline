@@ -282,3 +282,28 @@ cumulative requests so far (all batches): 43057; per-run cap 6279; cumulative ca
 
 batch 12: 2412/2506 physical queries have a status; requests this invocation 1; cumulative 43058
 2026-11-08T08:17:52+09:00 batch 12: sent 1 (tonight 722); stop_reason='STOP_PARSE: mismatched tag: line 8, column 2'; runner rc=3
+2026-11-08T08:17:55+09:00 FATAL STOP: STOP_PARSE: mismatched tag: line 8, column 2 — driver ends; review the log, then restart the script
+2026-11-08T12:53:13+09:00 driver started; first night 2026-11-08 07:05 JST; night cap 7000
+2026-11-08T12:53:14+09:00 batch 12: starting, remaining tonight 7000
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(163840 bytes read)
+batch 12: targets 1000  logical 3012  physical 2506  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 43058; per-run cap 7000; cumulative cap 200000
+
+batch 12: 2440/2506 physical queries have a status; requests this invocation 32; cumulative 43090
+2026-11-08T12:56:50+09:00 batch 12: sent 32 (tonight 32); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(163840 bytes read)'; runner rc=3
+2026-11-08T12:56:50+09:00 batch 12: network stop; waiting 10 min, then resuming the same batch (resume 1/2 tonight)
+2026-11-08T13:06:50+09:00 batch 12: starting, remaining tonight 6968
+batch 12: targets 1000  logical 3012  physical 2506  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 43090; per-run cap 6968; cumulative cap 200000
+
+batch 12: 2506/2506 physical queries have a status; requests this invocation 98; cumulative 43188
+2026-11-08T13:16:26+09:00 batch 12: sent 98 (tonight 130); stop_reason=''; runner rc=0
+2026-11-08T13:16:29+09:00 batch 13: starting, remaining tonight 6870
+
+STOPPED: outside night window, London time 06:00
+batch 13: targets 1000  logical 3018  physical 2627  quote-skipped 18  quote-stripped twins 18
+cumulative requests so far (all batches): 43188; per-run cap 6870; cumulative cap 200000
+
+batch 13: 806/2627 physical queries have a status; requests this invocation 1104; cumulative 44292
+2026-11-08T15:00:05+09:00 batch 13: sent 1104 (tonight 1234); stop_reason='outside night window, London time 06:00'; runner rc=3
