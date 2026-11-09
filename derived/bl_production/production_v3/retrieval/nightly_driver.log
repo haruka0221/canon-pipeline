@@ -307,3 +307,37 @@ cumulative requests so far (all batches): 43188; per-run cap 6870; cumulative ca
 
 batch 13: 806/2627 physical queries have a status; requests this invocation 1104; cumulative 44292
 2026-11-08T15:00:05+09:00 batch 13: sent 1104 (tonight 1234); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-08T15:00:08+09:00 night done (1234 requests); next night 2026-11-09
+2026-11-08T15:00:08+09:00 sleeping until 2026-11-09 07:05 JST (964 min)
+2026-11-09T07:05:01+09:00 batch 13: starting, remaining tonight 7000
+
+STOPPED: STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response
+batch 13: targets 1000  logical 3018  physical 2627  quote-skipped 18  quote-stripped twins 18
+cumulative requests so far (all batches): 44292; per-run cap 7000; cumulative cap 200000
+
+batch 13: 1770/2627 physical queries have a status; requests this invocation 1326; cumulative 45618
+2026-11-09T09:36:33+09:00 batch 13: sent 1326 (tonight 1326); stop_reason='STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response'; runner rc=3
+2026-11-09T09:36:33+09:00 batch 13: network stop; waiting 10 min, then resuming the same batch (resume 1/2 tonight)
+2026-11-09T09:46:33+09:00 batch 13: starting, remaining tonight 5674
+
+STOPPED: STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response
+batch 13: targets 1000  logical 3018  physical 2627  quote-skipped 18  quote-stripped twins 18
+cumulative requests so far (all batches): 45618; per-run cap 5674; cumulative cap 200000
+
+batch 13: 1826/2627 physical queries have a status; requests this invocation 89; cumulative 45707
+2026-11-09T09:56:38+09:00 batch 13: sent 89 (tonight 1415); stop_reason='STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response'; runner rc=3
+2026-11-09T09:56:38+09:00 batch 13: network stop; waiting 10 min, then resuming the same batch (resume 2/2 tonight)
+2026-11-09T10:06:38+09:00 batch 13: starting, remaining tonight 5585
+batch 13: targets 1000  logical 3018  physical 2627  quote-skipped 18  quote-stripped twins 18
+cumulative requests so far (all batches): 45707; per-run cap 5585; cumulative cap 200000
+
+batch 13: 2627/2627 physical queries have a status; requests this invocation 1091; cumulative 46798
+2026-11-09T12:02:04+09:00 batch 13: sent 1091 (tonight 2506); stop_reason=''; runner rc=0
+2026-11-09T12:02:08+09:00 batch 14: starting, remaining tonight 4494
+
+STOPPED: outside night window, London time 06:00
+batch 14: targets 1000  logical 3017  physical 2540  quote-skipped 17  quote-stripped twins 17
+cumulative requests so far (all batches): 46798; per-run cap 4494; cumulative cap 200000
+
+batch 14: 1323/2540 physical queries have a status; requests this invocation 1683; cumulative 48481
+2026-11-09T15:00:01+09:00 batch 14: sent 1683 (tonight 4189); stop_reason='outside night window, London time 06:00'; runner rc=3
