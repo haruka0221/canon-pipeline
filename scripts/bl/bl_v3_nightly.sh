@@ -7,17 +7,20 @@
 # batches in order (1..34), skipping batches whose latest manifest says
 # batch_complete=true, until the night's request count reaches NIGHT_CAP or the
 # runner stops for the window / per-run cap. On a STOP_NETWORK stop (protocol v3
-# amendment 1, 2026-11-01) it waits NET_RESUME_WAIT_S and resumes the same batch,
-# at most NET_RESUME_MAX times per night; the runner's request log makes the
-# resume send nothing twice. On ANY other stop (HTTP, diagnostic, parse, or a
-# further network stop) the loop ends and does not reschedule: a human reviews
+# amendment 1, 2026-11-01) or a STOP_MAINTENANCE stop (amendment 3, 2026-11-11:
+# BL answered with an HTML maintenance page) it waits NET_RESUME_WAIT_S or
+# MAINT_RESUME_WAIT_S and resumes the same batch, at most NET_RESUME_MAX times
+# per night in total; the runner's request log makes the resume send nothing
+# twice. On ANY other stop (HTTP, diagnostic, parse, or a further network /
+# maintenance stop) the loop ends and does not reschedule: a human reviews
 # the log and restarts the script. Nothing here changes the runner's own guards.
 set -u
 CONTACT="${1:?contact e-mail required}"
 FIRST_DATE="${2:-$(date +%F)}"
 NIGHT_CAP=7000
-NET_RESUME_MAX=2       # protocol v3 amendment 1: STOP_NETWORK resumes per night
-NET_RESUME_WAIT_S=600  # wait before resuming the same batch
+NET_RESUME_MAX=6          # amendment 1: 2; amendment 3 (2026-11-11): 6, network + maintenance stops per night
+NET_RESUME_WAIT_S=600     # wait before resuming after STOP_NETWORK
+MAINT_RESUME_WAIT_S=1800  # amendment 3: wait before resuming after STOP_MAINTENANCE
 START_HHMM="07:05"
 REPO="$HOME/canon-pipeline-bl"
 RET="$REPO/derived/bl_production/production_v3/retrieval"
@@ -79,14 +82,15 @@ while true; do
     fi
     case "$reason" in
       *"per-run cap"*|*"outside night window"*|*"cumulative cap"*) break ;;
-      "STOP_NETWORK"*)
+      "STOP_NETWORK"*|"STOP_MAINTENANCE"*)
         if (( net_resumes < NET_RESUME_MAX )); then
           net_resumes=$(( net_resumes + 1 ))
-          say "batch $b: network stop; waiting $(( NET_RESUME_WAIT_S / 60 )) min, then resuming the same batch (resume $net_resumes/$NET_RESUME_MAX tonight)"
-          sleep "$NET_RESUME_WAIT_S"
+          wait_s=$NET_RESUME_WAIT_S; [[ "$reason" == STOP_MAINTENANCE* ]] && wait_s=$MAINT_RESUME_WAIT_S
+          say "batch $b: ${reason%%:*} stop; waiting $(( wait_s / 60 )) min, then resuming the same batch (resume $net_resumes/$NET_RESUME_MAX tonight)"
+          sleep "$wait_s"
           continue
         fi
-        fatal="$reason (network stops exceeded $NET_RESUME_MAX tonight)"; break ;;
+        fatal="$reason (network/maintenance stops exceeded $NET_RESUME_MAX tonight)"; break ;;
       *) fatal="$reason"; break ;;
     esac
   done

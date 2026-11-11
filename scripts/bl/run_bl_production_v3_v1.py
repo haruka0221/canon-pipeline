@@ -297,6 +297,11 @@ class Runner:
         try:
             n, recs, diag = parse_sru(body)
         except ET.ParseError as e:
+            head = body.lstrip()[:64].lower()
+            if head.startswith(b"<!doctype html") or head.startswith(b"<html"):  # amendment 3: HTML maintenance page
+                row["outcome"], row["diagnostic"] = "STOP_MAINTENANCE", f"HTML page instead of XML: ParseError: {e}"
+                self.log(row)
+                raise StopRun(f"STOP_MAINTENANCE: HTML page instead of XML: {e}")
             row["outcome"], row["diagnostic"] = "STOP_PARSE", f"ParseError: {e}"
             self.log(row)
             raise StopRun(f"STOP_PARSE: {e}")
