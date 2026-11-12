@@ -407,3 +407,39 @@ cumulative requests so far (all batches): 57562; per-run cap 7000; cumulative ca
 
 batch 17: 682/2549 physical queries have a status; requests this invocation 579; cumulative 58141
 2026-11-11T15:00:05+09:00 batch 17: sent 579 (tonight 579); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-11T15:00:09+09:00 night done (579 requests); next night 2026-11-12
+2026-11-11T15:00:09+09:00 sleeping until 2026-11-12 07:05 JST (964 min)
+2026-11-11T16:23:08+09:00 driver started; first night 2026-11-12 07:05 JST; night cap 7000
+2026-11-11T16:23:08+09:00 sleeping until 2026-11-12 07:05 JST (881 min)
+2026-11-12T07:05:01+09:00 batch 17: starting, remaining tonight 7000
+
+STOPPED: STOP_NETWORK: TimeoutError: The read operation timed out
+batch 17: targets 1000  logical 3014  physical 2549  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 58141; per-run cap 7000; cumulative cap 200000
+
+batch 17: 1446/2549 physical queries have a status; requests this invocation 1095; cumulative 59236
+2026-11-12T08:44:39+09:00 batch 17: sent 1095 (tonight 1095); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
+2026-11-12T08:44:39+09:00 batch 17: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 1/6 tonight)
+2026-11-12T08:54:39+09:00 batch 17: starting, remaining tonight 5905
+
+STOPPED: STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response
+batch 17: targets 1000  logical 3014  physical 2549  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 59236; per-run cap 5905; cumulative cap 200000
+
+batch 17: 1743/2549 physical queries have a status; requests this invocation 441; cumulative 59677
+2026-11-12T09:36:28+09:00 batch 17: sent 441 (tonight 1536); stop_reason='STOP_NETWORK: RemoteDisconnected: Remote end closed connection without response'; runner rc=3
+2026-11-12T09:36:28+09:00 batch 17: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 2/6 tonight)
+2026-11-12T09:46:28+09:00 batch 17: starting, remaining tonight 5464
+batch 17: targets 1000  logical 3014  physical 2549  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 59677; per-run cap 5464; cumulative cap 200000
+
+batch 17: 2549/2549 physical queries have a status; requests this invocation 1190; cumulative 60867
+2026-11-12T11:34:32+09:00 batch 17: sent 1190 (tonight 2726); stop_reason=''; runner rc=0
+2026-11-12T11:34:35+09:00 batch 18: starting, remaining tonight 4274
+
+STOPPED: outside night window, London time 06:00
+batch 18: targets 1000  logical 3030  physical 2421  quote-skipped 30  quote-stripped twins 30
+cumulative requests so far (all batches): 60867; per-run cap 4274; cumulative cap 200000
+
+batch 18: 1707/2421 physical queries have a status; requests this invocation 2369; cumulative 63236
+2026-11-12T15:00:04+09:00 batch 18: sent 2369 (tonight 5095); stop_reason='outside night window, London time 06:00'; runner rc=3
