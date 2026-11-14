@@ -474,3 +474,28 @@ cumulative requests so far (all batches): 67969; per-run cap 2267; cumulative ca
 
 batch 20: 409/2578 physical queries have a status; requests this invocation 502; cumulative 68471
 2026-11-13T15:00:04+09:00 batch 20: sent 502 (tonight 5235); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-13T15:00:08+09:00 night done (5235 requests); next night 2026-11-14
+2026-11-13T15:00:08+09:00 sleeping until 2026-11-14 07:05 JST (964 min)
+2026-11-14T07:05:01+09:00 batch 20: starting, remaining tonight 7000
+
+STOPPED: STOP_NETWORK: TimeoutError: The read operation timed out
+batch 20: targets 1000  logical 3010  physical 2578  quote-skipped 10  quote-stripped twins 10
+cumulative requests so far (all batches): 68471; per-run cap 7000; cumulative cap 200000
+
+batch 20: 1539/2578 physical queries have a status; requests this invocation 1652; cumulative 70123
+2026-11-14T09:35:55+09:00 batch 20: sent 1652 (tonight 1652); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
+2026-11-14T09:35:55+09:00 batch 20: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 1/6 tonight)
+2026-11-14T09:45:55+09:00 batch 20: starting, remaining tonight 5348
+batch 20: targets 1000  logical 3010  physical 2578  quote-skipped 10  quote-stripped twins 10
+cumulative requests so far (all batches): 70123; per-run cap 5348; cumulative cap 200000
+
+batch 20: 2578/2578 physical queries have a status; requests this invocation 1483; cumulative 71606
+2026-11-14T12:08:43+09:00 batch 20: sent 1483 (tonight 3135); stop_reason=''; runner rc=0
+2026-11-14T12:08:47+09:00 batch 21: starting, remaining tonight 3865
+
+STOPPED: outside night window, London time 06:00
+batch 21: targets 1000  logical 3018  physical 2486  quote-skipped 18  quote-stripped twins 18
+cumulative requests so far (all batches): 71606; per-run cap 3865; cumulative cap 200000
+
+batch 21: 1404/2486 physical queries have a status; requests this invocation 1912; cumulative 73518
+2026-11-14T15:00:04+09:00 batch 21: sent 1912 (tonight 5047); stop_reason='outside night window, London time 06:00'; runner rc=3
