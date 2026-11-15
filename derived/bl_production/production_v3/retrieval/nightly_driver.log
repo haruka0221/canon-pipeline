@@ -499,3 +499,21 @@ cumulative requests so far (all batches): 71606; per-run cap 3865; cumulative ca
 
 batch 21: 1404/2486 physical queries have a status; requests this invocation 1912; cumulative 73518
 2026-11-14T15:00:04+09:00 batch 21: sent 1912 (tonight 5047); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-14T15:00:08+09:00 night done (5047 requests); next night 2026-11-15
+2026-11-14T15:00:08+09:00 sleeping until 2026-11-15 07:05 JST (964 min)
+2026-11-14T17:21:58+09:00 driver started; first night 2026-11-15 07:05 JST; night cap 7000
+2026-11-14T17:21:58+09:00 sleeping until 2026-11-15 07:05 JST (823 min)
+2026-11-15T07:05:00+09:00 batch 21: starting, remaining tonight 7000
+batch 21: targets 1000  logical 3018  physical 2486  quote-skipped 18  quote-stripped twins 18
+cumulative requests so far (all batches): 73518; per-run cap 7000; cumulative cap 200000
+
+batch 21: 2486/2486 physical queries have a status; requests this invocation 1675; cumulative 75193
+2026-11-15T09:35:40+09:00 batch 21: sent 1675 (tonight 1675); stop_reason=''; runner rc=0
+2026-11-15T09:35:43+09:00 batch 22: starting, remaining tonight 5325
+
+STOPPED: outside night window, London time 06:00
+batch 22: targets 1000  logical 3034  physical 2697  quote-skipped 34  quote-stripped twins 34
+cumulative requests so far (all batches): 75193; per-run cap 5325; cumulative cap 200000
+
+batch 22: 2456/2697 physical queries have a status; requests this invocation 3670; cumulative 78863
+2026-11-15T15:00:01+09:00 batch 22: sent 3670 (tonight 5345); stop_reason='outside night window, London time 06:00'; runner rc=3
