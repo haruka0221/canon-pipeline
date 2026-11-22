@@ -832,3 +832,15 @@ cumulative requests so far (all batches): 112827; per-run cap 4696; cumulative c
 
 batch 33: 1292/2535 physical queries have a status; requests this invocation 1489; cumulative 114316
 2026-11-22T13:07:41+09:00 batch 33: sent 1489 (tonight 3793); stop_reason='STOP_DIAGNOSTIC: org.apache.xmlbeans.XmlException: error: Illegal XML Character: 0xd835'; runner rc=3
+2026-11-22T13:07:44+09:00 FATAL STOP: STOP_DIAGNOSTIC: org.apache.xmlbeans.XmlException: error: Illegal XML Character: 0xd835 — driver ends; review the log, then restart the script
+2026-11-22T14:28:32+09:00 driver started; first night 2026-11-23d 07:05 JST; night cap 7000
+2026-11-22T14:28:32+09:00 sleeping until 2026-11-23d 07:05 JST (1296 min)
+2026-11-22T14:29:04+09:00 driver started; first night 2026-11-22 07:05 JST; night cap 7000
+2026-11-22T14:29:05+09:00 batch 33: starting, remaining tonight 7000
+
+STOPPED: outside night window, London time 06:00
+batch 33: targets 1000  logical 3012  physical 2535  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 114405; per-run cap 7000; cumulative cap 200000
+
+batch 33: 1499/2535 physical queries have a status; requests this invocation 337; cumulative 114742
+2026-11-22T15:00:05+09:00 batch 33: sent 337 (tonight 337); stop_reason='outside night window, London time 06:00'; runner rc=3
