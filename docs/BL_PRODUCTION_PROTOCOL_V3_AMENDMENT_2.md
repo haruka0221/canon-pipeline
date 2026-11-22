@@ -28,3 +28,9 @@ runner（`scripts/bl/run_bl_production_v3_v1.py`）に限り、**1 ページ目�
 ## 適用
 
 2026-11-05 の再開から。実装 commit は本文書の次の commit。バッチ 9 の `BLP3_009_02413` は再開時に 1 回再送され、この規則で記録される。
+
+## 追記（2026-11-22）：BL が結果を返せない場合
+
+2026-11-22 のバッチ 33（`BLP3_033_01293`、`alma.all_for_ui all "The round-up John"`、対象 `W000030679`）で、BL SRU が診断として Java の例外 `org.apache.xmlbeans.XmlException: Illegal XML Character: 0xd835` を返した。クエリ側に該当文字はなく（対象一覧に基本多言語面外の文字は 0 件）、BL 側の検索結果のレコードを XML に書き出せなかったものである。再送しても同じ。
+
+この種の診断（`XmlException` または `Illegal XML Character` を含むもの）は、ページ番号を問わず、その物理クエリの結果を `BL_RESPONSE_ERROR` として記録して次へ進む。取得済みのページは request log と raw に残る。再開時は `INVALID_QUERY_BL_REJECTED` と同様に復元し、再送しない。照合段階では「その経路の結果は不完全」として扱い、`INVALID_QUERY_BL_REJECTED` とは区別する。実装 commit は本追記の次の commit。
