@@ -709,3 +709,126 @@ cumulative requests so far (all batches): 109079; per-run cap 3277; cumulative c
 
 batch 32: 1191/2860 physical queries have a status; requests this invocation 1444; cumulative 110523
 2026-11-21T15:00:03+09:00 batch 32: sent 1444 (tonight 5167); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-21T15:00:07+09:00 night done (5167 requests); next night 2026-11-22
+2026-11-21T15:00:07+09:00 sleeping until 2026-11-22 07:05 JST (964 min)
+2026-11-22T07:05:01+09:00 batch 32: starting, remaining tonight 7000
+batch 32: targets 1000  logical 3032  physical 2860  quote-skipped 32  quote-stripped twins 32
+cumulative requests so far (all batches): 110523; per-run cap 7000; cumulative cap 200000
+
+batch 32: 2860/2860 physical queries have a status; requests this invocation 2003; cumulative 112526
+2026-11-22T10:05:35+09:00 batch 32: sent 2003 (tonight 2003); stop_reason=''; runner rc=0
+2026-11-22T10:05:38+09:00 batch 33: starting, remaining tonight 4997
+
+STOPPED: STOP_NETWORK: TimeoutError: The read operation timed out
+batch 33: targets 1000  logical 3012  physical 2535  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 112526; per-run cap 4997; cumulative cap 200000
+
+batch 33: 243/2535 physical queries have a status; requests this invocation 286; cumulative 112812
+2026-11-22T10:31:05+09:00 batch 33: sent 286 (tonight 2289); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
+2026-11-22T10:31:05+09:00 batch 33: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 1/6 tonight)
+2026-11-22T10:41:05+09:00 batch 33: starting, remaining tonight 4711
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(81920 bytes read)
+batch 33: targets 1000  logical 3012  physical 2535  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 112812; per-run cap 4711; cumulative cap 200000
+
+batch 33: 257/2535 physical queries have a status; requests this invocation 15; cumulative 112827
+2026-11-22T10:42:32+09:00 batch 33: sent 15 (tonight 2304); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(81920 bytes read)'; runner rc=3
+2026-11-22T10:42:32+09:00 batch 33: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 2/6 tonight)
+2026-11-22T10:52:32+09:00 batch 33: starting, remaining tonight 4696
+
+STOPPED: STOP_DIAGNOSTIC: org.apache.xmlbeans.XmlException: error: Illegal XML Character: 0xd835
+org.apache.xmlbeans.impl.piccolo.io.IllegalCharException: Illegal XML Character: 0xd835
+	at org.apache.xmlbeans.impl.piccolo.xml.XMLReaderReader.read(XMLReaderReader.java:146)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yy_refill(PiccoloLexer.java:3477)
+	at org.apache.xmlbeans.impl.piccolo.xml.PiccoloLexer.yylex(PiccoloLexer.java:3962)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yylex(Piccolo.java:1290)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.yyparse(Piccolo.java:1400)
+	at org.apache.xmlbeans.impl.piccolo.xml.Piccolo.parse(Piccolo.java:714)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:3479)
+	at org.apache.xmlbeans.impl.store.Locale.parse(Locale.java:713)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:697)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:684)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:208)
+	at gov.loc.zing.srw.StringOrXmlFragment$Factory.parse(StringOrXmlFragment.java:36)
+	at com.exlibris.repository.svc.api.search.CZRemoteResponseBuilder.setRecordDataFromResult(CZRemoteResponseBuilder.java:308)
+	at com.exlibris.repository.svc.api.search.CZRemoteResponseBuilder.buildResponse(CZRemoteResponseBuilder.java:280)
+	at com.exlibris.repository.svc.api.search.CZRemoteResponseBuilder.buildResponse(CZRemoteResponseBuilder.java:173)
+	at com.exlibris.digitool.repository.sru.BuildSRUResponse.buildSearchRetrieve(BuildSRUResponse.java:530)
+	at com.exlibris.digitool.repository.sru.SRUServlet.getSRUResponse(SRUServlet.java:477)
+	at com.exlibris.digitool.repository.sru.SRUServlet.service(SRUServlet.java:120)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.base.sharedsession.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:415)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.base.web.ResetBeaconFilter.doFilter(ResetBeaconFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.web.security.PatternBlockFilter.doFilter(PatternBlockFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.web.common.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:160)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.urm.web.security.ViewerLoginFilter.doFilter(ViewerLoginFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.base.accesslog.AccessLogFilter.doAccessLogFilter(AccessLogFilter.java:77)
+	at com.exlibris.core.infra.base.accesslog.AccessLogFilter.doFilter(AccessLogFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.web.security.SessionChangeBlockFilter.doFilter(SessionChangeBlockFilter.java:58)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.web.common.AjaxCorsRedirectFilter.doFilter(AjaxCorsRedirectFilter.java:26)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at com.exlibris.core.infra.web.security.BotWhitelistFilter.doFilter(BotWhitelistFilter.java:62)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at com.exlibris.core.infra.base.web.AddRequestIdHeaderValve.invoke(AddRequestIdHeaderValve.java:34)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:782)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.authenticator.SingleSignOn.invoke(SingleSignOn.java:267)
+	at org.apache.catalina.valves.rewrite.RewriteValve.invoke(RewriteValve.java:618)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+batch 33: targets 1000  logical 3012  physical 2535  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 112827; per-run cap 4696; cumulative cap 200000
+
+batch 33: 1292/2535 physical queries have a status; requests this invocation 1489; cumulative 114316
+2026-11-22T13:07:41+09:00 batch 33: sent 1489 (tonight 3793); stop_reason='STOP_DIAGNOSTIC: org.apache.xmlbeans.XmlException: error: Illegal XML Character: 0xd835'; runner rc=3
