@@ -228,15 +228,15 @@ class Runner:
         self.ua = f"canon-pipeline BL production v3 (academic research; contact: {contact})"
         self.per_run_cap, self.sent, self.last_response = per_run_cap, 0, 0.0
         self.log_path = out / "physical_requests.tsv"
-        self.done, self.req_n, self.rejected = {}, 0, set()
+        self.done, self.req_n, self.rejected = {}, 0, {}  # rejected: phys_id -> per-query outcome (amendment 2)
         self.cumulative = cumulative_requests(ret_root)
         if self.log_path.exists():
             for r in read_tsv(self.log_path).itertuples(index=False):
                 self.req_n = max(self.req_n, int(r.request_id.rsplit("_", 1)[1]))
                 if r.outcome == "COMPLETE":
                     self.done[(r.phys_id, int(r.start_record))] = r.number_of_records
-                elif r.outcome == "INVALID_QUERY_BL_REJECTED":
-                    self.rejected.add(r.phys_id)
+                elif r.outcome in ("INVALID_QUERY_BL_REJECTED", "BL_RESPONSE_ERROR"):
+                    self.rejected[r.phys_id] = r.outcome
         else:
             with open(self.log_path, "w", encoding="utf-8", newline="") as f:
                 csv.writer(f, delimiter="\t", lineterminator="\n").writerow(LOG_FIELDS)
@@ -306,11 +306,16 @@ class Runner:
             self.log(row)
             raise StopRun(f"STOP_PARSE: {e}")
         row["number_of_records"], row["records_in_response"], row["diagnostic"] = ("" if n is None else n), recs, diag
-        if diag.startswith("200812") and start == 1:  # amendment 2: BL rejected this query; record and move on
-            row["outcome"] = "INVALID_QUERY_BL_REJECTED"
+        per_query = ""
+        if diag.startswith("200812") and start == 1:  # amendment 2: BL rejected this query
+            per_query = "INVALID_QUERY_BL_REJECTED"
+        elif "XmlException" in diag or "Illegal XML Character" in diag:  # amendment 2 addendum: BL cannot serialise a result
+            per_query = "BL_RESPONSE_ERROR"
+        if per_query:  # record for this query and move on
+            row["outcome"] = per_query
             self.log(row)
-            self.rejected.add(p["phys_id"])
-            raise InvalidQuery(diag)
+            self.rejected[p["phys_id"]] = per_query
+            raise InvalidQuery(per_query)
         if diag or n is None:
             row["outcome"] = "STOP_DIAGNOSTIC"
             self.log(row)
@@ -322,17 +327,17 @@ class Runner:
 
     def run_query(self, p, batch):
         if p["phys_id"] in self.rejected:
-            return "INVALID_QUERY_BL_REJECTED"
+            return self.rejected[p["phys_id"]]
         key1 = (p["phys_id"], 1)
         try:
             n = int(self.done[key1]) if key1 in self.done else self.request(p, 1, batch)
-        except InvalidQuery:
-            return "INVALID_QUERY_BL_REJECTED"
-        if p["route_class"] == "A1" and n > CAP:
-            return "SKIPPED_POLICY_CAP"
-        for start in range(1 + PAGE_SIZE, min(n, CAP) + 1, PAGE_SIZE):
-            if (p["phys_id"], start) not in self.done:
-                self.request(p, start, batch)
+            if p["route_class"] == "A1" and n > CAP:
+                return "SKIPPED_POLICY_CAP"
+            for start in range(1 + PAGE_SIZE, min(n, CAP) + 1, PAGE_SIZE):
+                if (p["phys_id"], start) not in self.done:
+                    self.request(p, start, batch)
+        except InvalidQuery as e:  # per-query outcome recorded in request(); may happen on any page
+            return str(e)
         return "CAPPED" if n > CAP else "COMPLETE"
 
 
