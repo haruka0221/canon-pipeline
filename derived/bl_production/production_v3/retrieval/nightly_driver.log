@@ -844,3 +844,73 @@ cumulative requests so far (all batches): 114405; per-run cap 7000; cumulative c
 
 batch 33: 1499/2535 physical queries have a status; requests this invocation 337; cumulative 114742
 2026-11-22T15:00:05+09:00 batch 33: sent 337 (tonight 337); stop_reason='outside night window, London time 06:00'; runner rc=3
+2026-11-22T15:00:08+09:00 night done (337 requests); next night 2026-11-23
+2026-11-22T15:00:08+09:00 sleeping until 2026-11-23 07:05 JST (964 min)
+2026-11-23T07:05:01+09:00 batch 33: starting, remaining tonight 7000
+
+STOPPED: STOP_NETWORK: TimeoutError: The read operation timed out
+batch 33: targets 1000  logical 3012  physical 2535  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 114831; per-run cap 7000; cumulative cap 200000
+
+batch 33: 2281/2535 physical queries have a status; requests this invocation 1142; cumulative 115973
+2026-11-23T08:51:45+09:00 batch 33: sent 1142 (tonight 1142); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
+2026-11-23T08:51:45+09:00 batch 33: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 1/6 tonight)
+2026-11-23T09:01:45+09:00 batch 33: starting, remaining tonight 5858
+batch 33: targets 1000  logical 3012  physical 2535  quote-skipped 12  quote-stripped twins 12
+cumulative requests so far (all batches): 115973; per-run cap 5858; cumulative cap 200000
+
+batch 33: 2535/2535 physical queries have a status; requests this invocation 374; cumulative 116347
+2026-11-23T09:36:52+09:00 batch 33: sent 374 (tonight 1516); stop_reason=''; runner rc=0
+2026-11-23T09:36:56+09:00 batch 34: starting, remaining tonight 5484
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(90112 bytes read)
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 116347; per-run cap 5484; cumulative cap 200000
+
+batch 34: 937/2581 physical queries have a status; requests this invocation 1447; cumulative 117794
+2026-11-23T11:48:07+09:00 batch 34: sent 1447 (tonight 2963); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(90112 bytes read)'; runner rc=3
+2026-11-23T11:48:07+09:00 batch 34: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 2/6 tonight)
+2026-11-23T11:58:08+09:00 batch 34: starting, remaining tonight 4037
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(57344 bytes read)
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 117794; per-run cap 4037; cumulative cap 200000
+
+batch 34: 1706/2581 physical queries have a status; requests this invocation 1381; cumulative 119175
+2026-11-23T14:08:55+09:00 batch 34: sent 1381 (tonight 4344); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(57344 bytes read)'; runner rc=3
+2026-11-23T14:08:55+09:00 batch 34: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 3/6 tonight)
+2026-11-23T14:18:55+09:00 batch 34: starting, remaining tonight 2656
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(24576 bytes read)
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 119264; per-run cap 2656; cumulative cap 200000
+
+batch 34: 1706/2581 physical queries have a status; requests this invocation 1; cumulative 119265
+2026-11-23T14:19:03+09:00 batch 34: sent 1 (tonight 4345); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(24576 bytes read)'; runner rc=3
+2026-11-23T14:19:03+09:00 batch 34: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 4/6 tonight)
+2026-11-23T14:29:03+09:00 batch 34: starting, remaining tonight 2655
+
+STOPPED: STOP_NETWORK: IncompleteRead: IncompleteRead(16384 bytes read)
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 119265; per-run cap 2655; cumulative cap 200000
+
+batch 34: 1718/2581 physical queries have a status; requests this invocation 21; cumulative 119286
+2026-11-23T14:31:21+09:00 batch 34: sent 21 (tonight 4366); stop_reason='STOP_NETWORK: IncompleteRead: IncompleteRead(16384 bytes read)'; runner rc=3
+2026-11-23T14:31:21+09:00 batch 34: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 5/6 tonight)
+2026-11-23T14:41:21+09:00 batch 34: starting, remaining tonight 2634
+
+STOPPED: STOP_NETWORK: TimeoutError: The read operation timed out
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 119286; per-run cap 2634; cumulative cap 200000
+
+batch 34: 1720/2581 physical queries have a status; requests this invocation 3; cumulative 119289
+2026-11-23T14:42:42+09:00 batch 34: sent 3 (tonight 4369); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
+2026-11-23T14:42:42+09:00 batch 34: STOP_NETWORK stop; waiting 10 min, then resuming the same batch (resume 6/6 tonight)
+2026-11-23T14:52:42+09:00 batch 34: starting, remaining tonight 2631
+
+STOPPED: STOP_NETWORK: TimeoutError: The read operation timed out
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 119289; per-run cap 2631; cumulative cap 200000
+
+batch 34: 1724/2581 physical queries have a status; requests this invocation 6; cumulative 119295
+2026-11-23T14:54:23+09:00 batch 34: sent 6 (tonight 4375); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
