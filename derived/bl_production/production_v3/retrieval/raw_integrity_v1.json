@@ -1,0 +1,30 @@
+{
+  "release": "bl_production_v3_raw",
+  "generated_at_utc": "2026-11-24T09:34:54.746103+00:00",
+  "git_head": "42b8e3b1858b87bed01e33a0653e9b78545f43d0",
+  "raw_root": "/media/hdd1/user/tsutsui/bl/production_v3_raw",
+  "raw_xml_files": 120445,
+  "sha256sums_sha256": "41b6c8d200a7a44ece40ce3a147f5032706eff7a8de6cf29657cd12896969c9e",
+  "http_requests_total": 120479,
+  "request_outcomes": {
+    "COMPLETE": 120438,
+    "STOP_NETWORK": 34,
+    "STOP_DIAGNOSTIC": 2,
+    "INVALID_QUERY_BL_REJECTED": 2,
+    "STOP_PARSE": 1,
+    "BL_RESPONSE_ERROR": 2
+  },
+  "physical_query_statuses": {
+    "COMPLETE": 81568,
+    "SKIPPED_POLICY_CAP": 2909,
+    "CAPPED": 539,
+    "INVALID_QUERY_BL_REJECTED": 2,
+    "BL_RESPONSE_ERROR": 2
+  },
+  "physical_queries_total": 85020,
+  "batches": 34,
+  "first_request_london_date": "2026-10-28",
+  "last_request_london_date": "2026-11-24",
+  "nights_with_requests": 28,
+  "note": "http_requests_total counts request-log records (pandas). The runner's cumulative counter (120,746 in nightly_driver.log) counted file lines and overcounted multi-line Java stack-trace diagnostics; 120,479 is the number of HTTP requests sent. Raw files are private and stay outside the repository."
+}
