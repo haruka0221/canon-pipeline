@@ -914,3 +914,12 @@ cumulative requests so far (all batches): 119289; per-run cap 2631; cumulative c
 
 batch 34: 1724/2581 physical queries have a status; requests this invocation 6; cumulative 119295
 2026-11-23T14:54:23+09:00 batch 34: sent 6 (tonight 4375); stop_reason='STOP_NETWORK: TimeoutError: The read operation timed out'; runner rc=3
+2026-11-23T14:54:27+09:00 FATAL STOP: STOP_NETWORK: TimeoutError: The read operation timed out (network/maintenance stops exceeded 6 tonight) — driver ends; review the log, then restart the script
+2026-11-23T17:18:50+09:00 driver started; first night 2026-11-24 07:05 JST; night cap 7000
+2026-11-23T17:18:50+09:00 sleeping until 2026-11-24 07:05 JST (826 min)
+2026-11-24T07:05:01+09:00 batch 34: starting, remaining tonight 7000
+batch 34: targets 878  logical 2988  physical 2581  quote-skipped 14  quote-stripped twins 14
+cumulative requests so far (all batches): 119295; per-run cap 7000; cumulative cap 200000
+
+batch 34: 2581/2581 physical queries have a status; requests this invocation 1451; cumulative 120746
+2026-11-24T09:24:09+09:00 batch 34: sent 1451 (tonight 1451); stop_reason=''; runner rc=0
